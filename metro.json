@@ -1,0 +1,127 @@
+{
+  "supplier": "Metro",
+  "lastUpdated": "2026-06-28",
+  "invoiceCount": 11,
+  "note": "Metro invoices are POS-style receipts (KOLLI/MENGE/GESAMT format). One invoice (09.06.2026, RECHNUNGS-NR ending 033579) has netGoods recorded as null in prior dashboard build - flagged for manual verification; total reconstructed here from net + VAT breakdown shown on receipt where available.",
+  "invoices": [
+    {
+      "invoiceNo": "18.06.2026/041/0/0/0501/038114",
+      "date": "2026-06-18",
+      "store": "München-Pasing",
+      "netTotal": 543.38,
+      "vat19": 81.45,
+      "vat7": 7.19,
+      "vatLeergut19": 2.28,
+      "grossTotal": 634.3,
+      "driveFileId": "1n51MpwhaaKHqpagJT6Efxw0aMlR0IKQF",
+      "summary": "MPRO Stabmixer, Besteck, Brennpaste, MC Wraps, Getränke (Coca Cola, Fanta), ARO Spülmittel, Tork Tuch, Aviko Tiefkühl-Pommes"
+    },
+    {
+      "invoiceNo": "09.06.2026/046/0/0/0502/033579",
+      "date": "2026-06-09",
+      "store": "München-Freimann",
+      "netGoods": null,
+      "grossTotal": null,
+      "driveFileId": "1rgy_f8cj5Xt00Dng01ge331TNF1YL_wO",
+      "note": "MANUAL VERIFICATION NEEDED - netGoods/grossTotal could not be reliably parsed from receipt (multi-page transaction, totals likely on a later page not captured in extraction). Page 1 subtotal visible: 476.34 EUR (partial, before Tiefkühl section)",
+      "summary": "Reinigungsartikel (Topfreiniger, Besen, Mop), MC Wraps, Getränke, Drogerie (Spülmittel, Seife, Handschuhe, Tork Tuch), Beyond Burger, TK Apfelstrudel, TK Pizza Margherita"
+    },
+    {
+      "invoiceNo": "05.06.2026/041/0/0/0502/034375",
+      "date": "2026-06-05",
+      "store": "München-Pasing",
+      "netTotal": 161.95,
+      "vat19": 20.76,
+      "vat7": 3.69,
+      "grossTotal": 186.4,
+      "driveFileId": "1l495YzLHr_4dCbqePg8r2RMYvithO5HL",
+      "summary": "TH Triangle Schale, Happy Day Mango, Sicilia Bio Zitrone, WH Hygieneuniversal, MPRO Flüssigreiniger, Aviko Super Crunch, Spargel grün"
+    },
+    {
+      "invoiceNo": "22.05.2026/046/0/0/0505/008112",
+      "date": "2026-05-22",
+      "store": "München-Freimann",
+      "netTotal": 175.84,
+      "vat19": 15.38,
+      "vat7": 6.64,
+      "grossTotal": 197.86,
+      "driveFileId": "1ozcM22G2L4RrwAN-QKhBrOf5ZqreXQxN",
+      "summary": "Servietten (Granite Grey), MPRO Brennpaste, MC Wraps (bulk)"
+    },
+    {
+      "invoiceNo": "26.05.2026/041/0/0/0503/024391",
+      "date": "2026-05-26",
+      "store": "München-Pasing",
+      "netTotal": 74.83,
+      "vat19": 14.22,
+      "grossTotal": 89.05,
+      "driveFileId": "1ZFaeIai3zwBcF0A0XNKbBrlXQbDgJxL6",
+      "summary": "Topfreiniger Draht, Shake-Halme Papier, ARO Servietten weiß, Tork Tuch"
+    },
+    {
+      "invoiceNo": "10.04.2026/041/0/0/0502/022007",
+      "date": "2026-04-10",
+      "store": "München-Pasing",
+      "netTotal": 119.01,
+      "vat19": 13.83,
+      "vat7": 3.23,
+      "grossTotal": 136.07,
+      "driveFileId": "1e4SDcYua02TLiEQq52DeQIsJmI7jMze1",
+      "summary": "Topfreiniger Draht, ARO Kidneybohnen, Milchmädchen Kondensmilch, Drogerie (Handspülmittel, WC Reiniger, Toilettenpapier, Tork Tuch)"
+    },
+    {
+      "invoiceNo": "23.03.2026/041/0/0/0501/018155",
+      "date": "2026-03-23",
+      "store": "München-Pasing",
+      "netTotal": 249.13,
+      "vat19": 34.41,
+      "vat7": 4.76,
+      "grossTotal": 288.3,
+      "driveFileId": "1oTGsHb6Is1ep4AbNXE3osNhnhbB9IB5P",
+      "summary": "ARO Basic Geschirr, Hartweizengrieß, Maismehl, ARO Salatmayonnaise, Tomatenketchup, Milchmädchen, Happy Day Mango, Drogerie (Fettlöser, Spülmittel, Hygieneuniversal, Universalklarspüler)"
+    },
+    {
+      "invoiceNo": "25.02.2026/041/0/0/0503/008732",
+      "date": "2026-02-25",
+      "store": "München-Pasing",
+      "netTotal": 59.18,
+      "vat19": 2.85,
+      "vat7": 3.09,
+      "grossTotal": 65.12,
+      "driveFileId": "1s6IPAZo7_3I1VQ9HLeXffXkItYkrmtnw",
+      "summary": "MPRO Untersetzer, Cassolette, Maismehl, Friess. Backhilfe für Pizza, ARO Salatmayonnaise, Aviko Super Crunch"
+    },
+    {
+      "invoiceNo": "11.02.2026/041/0/0/0502/008748",
+      "date": "2026-02-11",
+      "store": "München-Pasing",
+      "netTotal": 196.85,
+      "vat19": 8.94,
+      "vat7": 10.49,
+      "grossTotal": 216.28,
+      "driveFileId": "15Q037wg2GRQeyFN5CAiv9flkh88qLmVu",
+      "summary": "ARO Servietten, Konserven (Gemüsemais, Kidneybohnen, Maiskölbchen, Quick Cooking Nudel), Schwartau Schoko-Sauce, Maismehl, MC Dessert Sauce, Sesam geschält, MC Chiliflocken, MC Erdnüsse, MC Broccoli, Aviko Super Crunch, Bio Rosmarin"
+    },
+    {
+      "invoiceNo": "04.02.2026/041/0/0/0501/007223",
+      "date": "2026-02-04",
+      "store": "München-Pasing",
+      "netTotal": 98.38,
+      "vat19": 10.71,
+      "vat7": 2.94,
+      "grossTotal": 112.03,
+      "driveFileId": "1WItQWICKGO9OKk6p8BJ8jP4fDyAiSSeP",
+      "summary": "MPRO Vierkantreibe, Alupfanne, Brennpaste, Cassolette, Lay's Chips, Milchmädchen Kondensmilch, Philadelphia, WC Frisch, MC Eiscreme Yoghurt"
+    },
+    {
+      "invoiceNo": "22.01.2026/041/0/0/0033/001528",
+      "date": "2026-01-22",
+      "store": "München (Am Gleisdreieck)",
+      "netTotal": 38.44,
+      "vat7": 2.69,
+      "grossTotal": 41.13,
+      "driveFileId": "1-sWKYLyxt7qee3d4z8FPHF_cXW7GrlLJ",
+      "summary": "ARO Salatmayonnaise, ARO Tomatenketchup"
+    }
+  ]
+}
