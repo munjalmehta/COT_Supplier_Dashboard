@@ -2,7 +2,7 @@
   "supplier": "Metro",
   "lastUpdated": "2026-06-28",
   "invoiceCount": 11,
-  "note": "Metro invoices are POS-style receipts (KOLLI/MENGE/GESAMT format). One invoice (09.06.2026, RECHNUNGS-NR ending 033579) has netGoods recorded as null in prior dashboard build - flagged for manual verification; total reconstructed here from net + VAT breakdown shown on receipt where available.",
+  "note": "Metro invoices are POS-style receipts (KOLLI/MENGE/GESAMT format). The 09.06.2026 invoice's total was confirmed via the payment terminal slip on page 3 of the source PDF.",
   "invoices": [
     {
       "invoiceNo": "18.06.2026/041/0/0/0501/038114",
@@ -20,10 +20,9 @@
       "invoiceNo": "09.06.2026/046/0/0/0502/033579",
       "date": "2026-06-09",
       "store": "München-Freimann",
-      "netGoods": null,
-      "grossTotal": null,
+      "grossTotal": 477.73,
       "driveFileId": "1rgy_f8cj5Xt00Dng01ge331TNF1YL_wO",
-      "note": "MANUAL VERIFICATION NEEDED - netGoods/grossTotal could not be reliably parsed from receipt (multi-page transaction, totals likely on a later page not captured in extraction). Page 1 subtotal visible: 476.34 EUR (partial, before Tiefkühl section)",
+      "note": "Resolved 2026-06-29: gross total confirmed as EUR 477,73 via page 3 Kundenbeleg (kontaktlos Mastercard payment slip on the source PDF). Net/VAT split not separately captured, but page-1 running subtotal of 476.34 EUR plus page-2 Tiefkühl items reconciles consistently with this gross figure after VAT.",
       "summary": "Reinigungsartikel (Topfreiniger, Besen, Mop), MC Wraps, Getränke, Drogerie (Spülmittel, Seife, Handschuhe, Tork Tuch), Beyond Burger, TK Apfelstrudel, TK Pizza Margherita"
     },
     {

@@ -1,6 +1,6 @@
 {
   "repo": "github.com/munjalmehta/COT_Supplier_Dashboard",
-  "generatedAt": "2026-06-28",
+  "generatedAt": "2026-06-29",
   "description": "Manifest of parsed invoice JSON cache per supplier. Future rescans should check latestInvoiceDate per supplier before re-parsing Drive folders, and only fetch invoices newer than that date.",
   "suppliers": {
     "Rajesh Global Food": {
@@ -8,46 +8,55 @@
       "invoiceCount": 13,
       "earliestInvoiceDate": "2025-12-31",
       "latestInvoiceDate": "2026-06-16",
-      "totalNetSpend": 4710.76
+      "totalNetSpend": 4710.76,
+      "invoicesMissingNetTotal": null
     },
     "GFT Group": {
       "file": "gft_group.json",
       "invoiceCount": 28,
       "earliestInvoiceDate": "2026-01-05",
       "latestInvoiceDate": "2026-06-22",
-      "totalNetSpend": 14416.56
+      "totalNetSpend": 14416.56,
+      "invoicesMissingNetTotal": null
     },
     "Ökoring": {
       "file": "oekoring.json",
       "invoiceCount": 8,
       "earliestInvoiceDate": "2026-06-16",
       "latestInvoiceDate": "2026-06-26",
-      "totalNetSpend": 4502.4
+      "totalNetSpend": 4502.4,
+      "invoicesMissingNetTotal": null
     },
     "Kupfer & Sohn": {
       "file": "kupfer_sohn.json",
       "invoiceCount": 55,
       "earliestInvoiceDate": "2026-01-09",
       "latestInvoiceDate": "2026-06-26",
-      "totalNetSpend": 9880.77
+      "totalNetSpend": 9880.77,
+      "invoicesMissingNetTotal": null
     },
     "RK Traders": {
       "file": "rk_traders.json",
       "invoiceCount": 28,
       "earliestInvoiceDate": "2026-01-04",
       "latestInvoiceDate": "2026-06-18",
-      "totalNetSpend": 6057.2
+      "totalNetSpend": 6057.2,
+      "invoicesMissingNetTotal": null
     },
     "Metro": {
       "file": "metro.json",
       "invoiceCount": 11,
       "earliestInvoiceDate": "2026-01-22",
       "latestInvoiceDate": "2026-06-18",
-      "totalNetSpend": 1716.99
+      "totalNetSpend": 1716.99,
+      "invoicesMissingNetTotal": [
+        "09.06.2026/046/0/0/0502/033579"
+      ]
     }
   },
   "grandTotal": {
     "totalInvoices": 143,
-    "totalNetSpend": 41284.68
+    "totalNetSpend": 41284.68,
+    "note": "totalNetSpend excludes invoices where only grossTotal is confirmed (see invoicesMissingNetTotal per supplier)"
   }
 }
