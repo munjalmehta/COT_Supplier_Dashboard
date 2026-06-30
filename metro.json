@@ -1,7 +1,7 @@
 {
   "supplier": "Metro",
   "lastUpdated": "2026-06-28",
-  "invoiceCount": 11,
+  "invoiceCount": 12,
   "note": "Metro invoices are POS-style receipts (KOLLI/MENGE/GESAMT format). The 09.06.2026 invoice's total was confirmed via the payment terminal slip on page 3 of the source PDF.",
   "invoices": [
     {
@@ -121,6 +121,155 @@
       "grossTotal": 41.13,
       "driveFileId": "1-sWKYLyxt7qee3d4z8FPHF_cXW7GrlLJ",
       "summary": "ARO Salatmayonnaise, ARO Tomatenketchup"
+    },
+    {
+      "date": "2026-06-29",
+      "invoiceNumber": "29.06.2026/041/0/0/0502/040856",
+      "store": "München-Pasing",
+      "netTotal": 134.17,
+      "grossTotal": 154.38,
+      "vatBreakdown": {
+        "19%": {
+          "net": 90.15,
+          "vat": 17.13,
+          "gross": 107.28
+        },
+        "7%": {
+          "net": 44.02,
+          "vat": 3.08,
+          "gross": 47.1
+        }
+      },
+      "items": [
+        {
+          "artNr": "060872.9",
+          "description": "2x25M PRO Müllsäcke 130l",
+          "qty": 1,
+          "unit": "PG",
+          "unitPrice": 12.59,
+          "netTotal": 12.59,
+          "vatRate": "19%"
+        },
+        {
+          "artNr": "060876.0",
+          "description": "2x10M PRO Müllsäcke 240l",
+          "qty": 1,
+          "unit": "PG",
+          "unitPrice": 9.39,
+          "netTotal": 9.39,
+          "vatRate": "19%"
+        },
+        {
+          "artNr": "072396.5",
+          "description": "VAR Lithium CR2025 2er",
+          "qty": 1,
+          "unit": "ST",
+          "unitPrice": 0.79,
+          "netTotal": 0.79,
+          "vatRate": "19%"
+        },
+        {
+          "artNr": "549303.6",
+          "description": "Happy Day Mango 1,00 PG (after Mengenrabatt -1.80)",
+          "qty": 6,
+          "unit": "KT",
+          "unitPrice": 2.19,
+          "netTotal": 11.34,
+          "vatRate": "19%"
+        },
+        {
+          "artNr": "072626.5",
+          "description": "ARO Spülmittel 10L",
+          "qty": 1,
+          "unit": "KS",
+          "unitPrice": 7.19,
+          "netTotal": 7.19,
+          "vatRate": "19%"
+        },
+        {
+          "artNr": "072656.2",
+          "description": "ARO Glasreiniger Spray 1L",
+          "qty": 1,
+          "unit": "FL",
+          "unitPrice": 0.89,
+          "netTotal": 0.89,
+          "vatRate": "19%"
+        },
+        {
+          "artNr": "158516.5",
+          "description": "Fettlöser Sprühpistole 1L",
+          "qty": 1,
+          "unit": "FL",
+          "unitPrice": 5.99,
+          "netTotal": 5.99,
+          "vatRate": "19%"
+        },
+        {
+          "artNr": "214226.3",
+          "description": "Fettlöser Dr. Becher 10L",
+          "qty": 1,
+          "unit": "KI",
+          "unitPrice": 30.99,
+          "netTotal": 30.99,
+          "vatRate": "19%"
+        },
+        {
+          "artNr": "977601.4",
+          "description": "MPRO Handschuhe Nitril M 100er",
+          "qty": 2,
+          "unit": "BO",
+          "unitPrice": 5.49,
+          "netTotal": 10.98,
+          "vatRate": "19%"
+        },
+        {
+          "artNr": "315078.6",
+          "description": "Aviko Super Crunch Pure 2,5kg",
+          "qty": 2,
+          "unit": "BT",
+          "unitPrice": 6.59,
+          "netTotal": 13.18,
+          "vatRate": "7%"
+        },
+        {
+          "artNr": "043871.3",
+          "description": "MC Bourbon Vanille 5L",
+          "qty": 1,
+          "unit": "KN",
+          "unitPrice": 16.69,
+          "netTotal": 16.69,
+          "vatRate": "7%"
+        },
+        {
+          "artNr": "530548.7",
+          "description": "Magnum Miniclassic 330ml",
+          "qty": 1,
+          "unit": "SC",
+          "unitPrice": 4.59,
+          "netTotal": 4.59,
+          "vatRate": "7%"
+        },
+        {
+          "artNr": "967001.9",
+          "description": "Mochi Eis Grazie 6x30g",
+          "qty": 1,
+          "unit": "PG",
+          "unitPrice": 4.78,
+          "netTotal": 4.78,
+          "vatRate": "7%"
+        },
+        {
+          "artNr": "967002.7",
+          "description": "Mochi Eis Wow Choco 6x30G",
+          "qty": 1,
+          "unit": "PG",
+          "unitPrice": 4.78,
+          "netTotal": 4.78,
+          "vatRate": "7%"
+        }
+      ]
     }
-  ]
+  ],
+  "totalNetSpend": 1851.16,
+  "latestInvoiceDate": "2026-06-29"
 }

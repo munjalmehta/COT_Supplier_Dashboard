@@ -1,7 +1,7 @@
 {
   "supplier": "Ökoring",
   "lastUpdated": "2026-06-28",
-  "invoiceCount": 8,
+  "invoiceCount": 9,
   "note": "Supplier relationship appears recent - all invoices found are from June 2026",
   "invoices": [
     {
@@ -644,6 +644,61 @@
           "amount": 19.5
         }
       ]
+    },
+    {
+      "date": "2026-06-29",
+      "invoiceNumber": "181950",
+      "supplier": "Ökoring",
+      "deliveryAddress": "Tollwood - Chutney on Top, Spiridon-Louis-Ring, 80809 München",
+      "netTotal": 81.4,
+      "grossTotal": 92.44,
+      "vatBreakdown": {
+        "7%": {
+          "net": 36.9,
+          "vat": 2.58,
+          "gross": 39.48
+        },
+        "19%": {
+          "net": 44.5,
+          "vat": 8.46,
+          "gross": 52.96
+        }
+      },
+      "items": [
+        {
+          "artNr": "228330",
+          "description": "Sommergemüse TK 10kg",
+          "brand": "DFE",
+          "origin": "NL",
+          "qty": 1,
+          "unit": "10kg",
+          "unitPrice": 3.69,
+          "netTotal": 36.9,
+          "vatRate": "7%"
+        },
+        {
+          "artNr": "985617",
+          "description": "Spitztüte klein braun 250St",
+          "brand": "NPG",
+          "qty": 4,
+          "unit": "1x250St",
+          "unitPrice": 6.5,
+          "netTotal": 26.0,
+          "vatRate": "19%"
+        },
+        {
+          "artNr": "986338",
+          "description": "Papierservietten 2-lagig 100St 16.5x16.5cm",
+          "brand": "GRB",
+          "qty": 10,
+          "unit": "1x100St",
+          "unitPrice": 1.85,
+          "netTotal": 18.5,
+          "vatRate": "19%"
+        }
+      ]
     }
-  ]
+  ],
+  "totalNetSpend": 4583.8,
+  "latestInvoiceDate": "2026-06-29"
 }
