@@ -37,26 +37,26 @@
     },
     "RK Traders": {
       "file": "rk_traders.json",
-      "invoiceCount": 28,
+      "invoiceCount": 30,
       "earliestInvoiceDate": "2026-01-04",
-      "latestInvoiceDate": "2026-06-18",
-      "totalNetSpend": 6057.2,
+      "latestInvoiceDate": "2026-06-26",
+      "totalNetSpend": 6365.1,
       "invoicesMissingNetTotal": null
     },
     "Metro": {
       "file": "metro.json",
-      "invoiceCount": 12,
-      "earliestInvoiceDate": "2026-01-22",
+      "invoiceCount": 24,
+      "earliestInvoiceDate": "2026-01-12",
       "latestInvoiceDate": "2026-06-29",
-      "totalNetSpend": 1851.16,
+      "totalNetSpend": 3297.99,
       "invoicesMissingNetTotal": [
         "09.06.2026/046/0/0/0502/033579"
       ]
     }
   },
   "grandTotal": {
-    "totalInvoices": 145,
-    "totalNetSpend": 41500.25,
+    "totalInvoices": 159,
+    "totalNetSpend": 43254.98,
     "note": "totalNetSpend excludes invoices where only grossTotal is confirmed (see invoicesMissingNetTotal per supplier)"
   }
 }

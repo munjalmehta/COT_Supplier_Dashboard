@@ -1,7 +1,7 @@
 {
   "supplier": "RK Traders",
   "lastUpdated": "2026-06-28",
-  "invoiceCount": 28,
+  "invoiceCount": 30,
   "contact": "Rohit Kumar",
   "invoices": [
     {
@@ -2453,6 +2453,120 @@
           "amount": 5.97
         }
       ]
+    },
+    {
+      "date": "2026-06-22",
+      "invoiceNumber": "RE4121",
+      "supplier": "RK Traders",
+      "netTotal": 124.47,
+      "grossTotal": 133.18,
+      "vatBreakdown": {
+        "7%": {
+          "net": 124.47,
+          "vat": 8.71,
+          "gross": 133.18
+        }
+      },
+      "items": [
+        {
+          "description": "Zwiebel 25kg",
+          "qty": 2,
+          "unit": "Sack",
+          "unitPrice": 15.99,
+          "netTotal": 31.98,
+          "vatRate": "7%"
+        },
+        {
+          "description": "Gurken 5kg",
+          "qty": 2,
+          "unit": "Karton",
+          "unitPrice": 10.5,
+          "netTotal": 21.0,
+          "vatRate": "7%"
+        },
+        {
+          "description": "Granatapfel",
+          "qty": 1,
+          "unit": "Karton",
+          "unitPrice": 16.5,
+          "netTotal": 16.5,
+          "vatRate": "7%"
+        },
+        {
+          "description": "Spinat/Palak",
+          "qty": 2,
+          "unit": "Karton",
+          "unitPrice": 18.5,
+          "netTotal": 37.0,
+          "vatRate": "7%"
+        },
+        {
+          "description": "Coriander 20 bund",
+          "qty": 1,
+          "unit": "Kiste",
+          "unitPrice": 17.99,
+          "netTotal": 17.99,
+          "vatRate": "7%"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "invoiceNumber": "RE4145",
+      "supplier": "RK Traders",
+      "netTotal": 183.43,
+      "grossTotal": 196.27,
+      "vatBreakdown": {
+        "7%": {
+          "net": 183.43,
+          "vat": 12.84,
+          "gross": 196.27
+        }
+      },
+      "items": [
+        {
+          "description": "Zwiebel 25kg",
+          "qty": 4,
+          "unit": "Sack",
+          "unitPrice": 15.99,
+          "netTotal": 63.96,
+          "vatRate": "7%"
+        },
+        {
+          "description": "Kartoffel 25kg",
+          "qty": 4,
+          "unit": "Sack",
+          "unitPrice": 14.5,
+          "netTotal": 58.0,
+          "vatRate": "7%"
+        },
+        {
+          "description": "Rote Zwiebel 10kg",
+          "qty": 1,
+          "unit": "Sack",
+          "unitPrice": 10.5,
+          "netTotal": 10.5,
+          "vatRate": "7%"
+        },
+        {
+          "description": "Paprika Mix 5kg",
+          "qty": 1,
+          "unit": "Karton",
+          "unitPrice": 14.99,
+          "netTotal": 14.99,
+          "vatRate": "7%"
+        },
+        {
+          "description": "Coriander 20 bund",
+          "qty": 2,
+          "unit": "Kiste",
+          "unitPrice": 17.99,
+          "netTotal": 35.98,
+          "vatRate": "7%"
+        }
+      ]
     }
-  ]
+  ],
+  "totalNetSpend": 6365.1,
+  "latestInvoiceDate": "2026-06-26"
 }
