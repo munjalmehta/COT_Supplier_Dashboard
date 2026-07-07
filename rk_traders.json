@@ -1,7 +1,7 @@
 {
   "supplier": "RK Traders",
   "lastUpdated": "2026-06-28",
-  "invoiceCount": 30,
+  "invoiceCount": 31,
   "contact": "Rohit Kumar",
   "invoices": [
     {
@@ -2565,8 +2565,102 @@
           "vatRate": "7%"
         }
       ]
+    },
+    {
+      "invoiceNo": "RE4219",
+      "date": "2026-07-01",
+      "deliveryDate": "2026-07-01",
+      "netTotal": 254.68,
+      "vat7": 17.83,
+      "grossTotal": 272.51,
+      "lineItems": [
+        {
+          "description": "Aubergine 5kg",
+          "qty": 1,
+          "unit": "Karton",
+          "unitPrice": 12.5,
+          "amount": 12.5
+        },
+        {
+          "description": "Zucchini 5kg",
+          "qty": 1,
+          "unit": "Karton",
+          "unitPrice": 8.99,
+          "amount": 8.99
+        },
+        {
+          "description": "Granatapfel",
+          "qty": 1,
+          "unit": "Karton",
+          "unitPrice": 16.5,
+          "amount": 16.5
+        },
+        {
+          "description": "Coriander 20 bund",
+          "qty": 1,
+          "unit": "Kiste",
+          "unitPrice": 17.99,
+          "amount": 17.99
+        },
+        {
+          "description": "Tomaten 5kg",
+          "qty": 2,
+          "unit": "Karton",
+          "unitPrice": 10.75,
+          "amount": 21.5
+        },
+        {
+          "description": "Ingwer 12kg",
+          "qty": 1,
+          "unit": "Karton",
+          "unitPrice": 40.0,
+          "amount": 40.0
+        },
+        {
+          "description": "Zitronen 3kg",
+          "qty": 3,
+          "unit": "Kilograms",
+          "unitPrice": 2.45,
+          "amount": 7.35
+        },
+        {
+          "description": "Zwiebel 25kg",
+          "qty": 4,
+          "unit": "Sack",
+          "unitPrice": 15.5,
+          "amount": 62.0
+        },
+        {
+          "description": "Rote Zwiebel 10kg",
+          "qty": 1,
+          "unit": "Sack",
+          "unitPrice": 10.5,
+          "amount": 10.5
+        },
+        {
+          "description": "Bindi 5kg",
+          "qty": 1,
+          "unit": "Karton",
+          "unitPrice": 27.99,
+          "amount": 27.99
+        },
+        {
+          "description": "Paprika Mix 5kg",
+          "qty": 1,
+          "unit": "Karton",
+          "unitPrice": 15.5,
+          "amount": 15.5
+        },
+        {
+          "description": "Lauchzwiebeln",
+          "qty": 14,
+          "unit": "Stück",
+          "unitPrice": 0.99,
+          "amount": 13.86
+        }
+      ]
     }
   ],
-  "totalNetSpend": 6365.1,
-  "latestInvoiceDate": "2026-06-26"
+  "totalNetSpend": 6619.78,
+  "latestInvoiceDate": "2026-07-01"
 }
