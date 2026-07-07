@@ -1,6 +1,6 @@
 {
   "repo": "github.com/munjalmehta/COT_Supplier_Dashboard",
-  "generatedAt": "2026-06-30",
+  "generatedAt": "2026-07-07",
   "description": "Manifest of parsed invoice JSON cache per supplier. Future rescans should check latestInvoiceDate per supplier before re-parsing Drive folders, and only fetch invoices newer than that date.",
   "suppliers": {
     "Rajesh Global Food": {
@@ -21,26 +21,26 @@
     },
     "Ökoring": {
       "file": "oekoring.json",
-      "invoiceCount": 9,
+      "invoiceCount": 15,
       "earliestInvoiceDate": "2026-06-16",
-      "latestInvoiceDate": "2026-06-29",
-      "totalNetSpend": 4583.8,
+      "latestInvoiceDate": "2026-07-06",
+      "totalNetSpend": 6524.76,
       "invoicesMissingNetTotal": null
     },
     "Kupfer & Sohn": {
       "file": "kupfer_sohn.json",
-      "invoiceCount": 55,
+      "invoiceCount": 56,
       "earliestInvoiceDate": "2026-01-09",
-      "latestInvoiceDate": "2026-06-26",
-      "totalNetSpend": 9880.77,
+      "latestInvoiceDate": "2026-07-03",
+      "totalNetSpend": 10230.25,
       "invoicesMissingNetTotal": null
     },
     "RK Traders": {
       "file": "rk_traders.json",
-      "invoiceCount": 30,
+      "invoiceCount": 31,
       "earliestInvoiceDate": "2026-01-04",
-      "latestInvoiceDate": "2026-06-26",
-      "totalNetSpend": 6365.1,
+      "latestInvoiceDate": "2026-07-01",
+      "totalNetSpend": 6619.78,
       "invoicesMissingNetTotal": null
     },
     "Metro": {
@@ -55,8 +55,8 @@
     }
   },
   "grandTotal": {
-    "totalInvoices": 159,
-    "totalNetSpend": 43254.98,
+    "totalInvoices": 167,
+    "totalNetSpend": 45800.1,
     "note": "totalNetSpend excludes invoices where only grossTotal is confirmed (see invoicesMissingNetTotal per supplier)"
   }
 }
