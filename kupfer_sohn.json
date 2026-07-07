@@ -1,7 +1,7 @@
 {
   "supplier": "Kupfer & Sohn",
   "lastUpdated": "2026-06-28",
-  "invoiceCount": 55,
+  "invoiceCount": 56,
   "note": "Document types include Rechnung (invoice) and Gutschrift (credit note/Stornorechng). Pfand/Leergut and packaging deposit line items (BGK, CF markers) excluded from lineItems below to focus on goods - see netTotal/grossTotal for full invoice value including deposits.",
   "invoices": [
     {
@@ -568,6 +568,19 @@
       "grossTotal": 327.42,
       "driveFileId": "12YD942Cgp7RwOJbPVV4VpGlE9N3wCp0j",
       "summary": "Frischmilch, Küchensahne, Fettarme Milch, Butter, TK Brechbohnen, TK Karottenwürfel, TK Blumenkohlröschen, Eier 90er, Rapsöl, TK Vanille Eis"
+    },
+    {
+      "invoiceNo": "543138",
+      "date": "2026-07-03",
+      "deliveryDate": "2026-07-02",
+      "netTotal": 349.48,
+      "vat7": 22.96,
+      "vat19": 4.08,
+      "grossTotal": 376.52,
+      "summary": "Frischmilch 10l x8 (80kg), Naturjoghurt 5kg x4, H-Fettarme Milch, Butter, H-Küchensahne 30%, Zitronensaft, Gouda 48% gerieben, Rapsöl 10L x5, Tafelessig, Speisequark 20%",
+      "_supplier": "Kupfer & Sohn"
     }
-  ]
+  ],
+  "totalNetSpend": 10230.25,
+  "latestInvoiceDate": "2026-07-03"
 }
