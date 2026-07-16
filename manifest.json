@@ -1,62 +1,62 @@
 {
-  "repo": "github.com/munjalmehta/COT_Supplier_Dashboard",
-  "generatedAt": "2026-07-07",
-  "description": "Manifest of parsed invoice JSON cache per supplier. Future rescans should check latestInvoiceDate per supplier before re-parsing Drive folders, and only fetch invoices newer than that date.",
-  "suppliers": {
-    "Rajesh Global Food": {
-      "file": "rajesh_global_food.json",
-      "invoiceCount": 13,
-      "earliestInvoiceDate": "2025-12-31",
-      "latestInvoiceDate": "2026-06-16",
-      "totalNetSpend": 4710.76,
-      "invoicesMissingNetTotal": null
-    },
-    "GFT Group": {
-      "file": "gft_group.json",
-      "invoiceCount": 28,
-      "earliestInvoiceDate": "2026-01-05",
-      "latestInvoiceDate": "2026-06-22",
-      "totalNetSpend": 14416.56,
-      "invoicesMissingNetTotal": null
-    },
-    "Ökoring": {
-      "file": "oekoring.json",
-      "invoiceCount": 15,
-      "earliestInvoiceDate": "2026-06-16",
-      "latestInvoiceDate": "2026-07-06",
-      "totalNetSpend": 6524.76,
-      "invoicesMissingNetTotal": null
-    },
-    "Kupfer & Sohn": {
-      "file": "kupfer_sohn.json",
-      "invoiceCount": 56,
-      "earliestInvoiceDate": "2026-01-09",
-      "latestInvoiceDate": "2026-07-03",
-      "totalNetSpend": 10230.25,
-      "invoicesMissingNetTotal": null
-    },
-    "RK Traders": {
-      "file": "rk_traders.json",
-      "invoiceCount": 31,
-      "earliestInvoiceDate": "2026-01-04",
-      "latestInvoiceDate": "2026-07-01",
-      "totalNetSpend": 6619.78,
-      "invoicesMissingNetTotal": null
-    },
-    "Metro": {
-      "file": "metro.json",
-      "invoiceCount": 24,
-      "earliestInvoiceDate": "2026-01-12",
-      "latestInvoiceDate": "2026-06-29",
-      "totalNetSpend": 3297.99,
-      "invoicesMissingNetTotal": [
-        "09.06.2026/046/0/0/0502/033579"
-      ]
-    }
+ "repo": "github.com/munjalmehta/COT_Supplier_Dashboard",
+ "generatedAt": "2026-07-16",
+ "description": "Manifest of parsed invoice JSON cache per supplier. Future rescans should check latestInvoiceDate per supplier before re-parsing Drive folders, and only fetch invoices newer than that date.",
+ "suppliers": {
+  "Rajesh Global Food": {
+   "file": "rajesh_global_food.json",
+   "invoiceCount": 15,
+   "earliestInvoiceDate": "2025-12-31",
+   "latestInvoiceDate": "2026-07-05",
+   "totalNetSpend": 5776.16,
+   "invoicesMissingNetTotal": null
   },
-  "grandTotal": {
-    "totalInvoices": 167,
-    "totalNetSpend": 45800.1,
-    "note": "totalNetSpend excludes invoices where only grossTotal is confirmed (see invoicesMissingNetTotal per supplier)"
+  "GFT Group": {
+   "file": "gft_group.json",
+   "invoiceCount": 30,
+   "earliestInvoiceDate": "2026-01-05",
+   "latestInvoiceDate": "2026-07-15",
+   "totalNetSpend": 16299.97,
+   "invoicesMissingNetTotal": null
+  },
+  "Ökoring": {
+   "file": "oekoring.json",
+   "invoiceCount": 24,
+   "earliestInvoiceDate": "2026-06-16",
+   "latestInvoiceDate": "2026-07-15",
+   "totalNetSpend": 9350.41,
+   "invoicesMissingNetTotal": null
+  },
+  "Kupfer & Sohn": {
+   "file": "kupfer_sohn.json",
+   "invoiceCount": 57,
+   "earliestInvoiceDate": "2026-01-09",
+   "latestInvoiceDate": "2026-07-15",
+   "totalNetSpend": 10397.65,
+   "invoicesMissingNetTotal": null
+  },
+  "RK Traders": {
+   "file": "rk_traders.json",
+   "invoiceCount": 33,
+   "earliestInvoiceDate": "2026-01-04",
+   "latestInvoiceDate": "2026-07-09",
+   "totalNetSpend": 7111.5,
+   "invoicesMissingNetTotal": null
+  },
+  "Metro": {
+   "file": "metro.json",
+   "invoiceCount": 24,
+   "earliestInvoiceDate": "2026-01-12",
+   "latestInvoiceDate": "2026-06-29",
+   "totalNetSpend": 3297.99,
+   "invoicesMissingNetTotal": [
+    "09.06.2026/046/0/0/0502/033579"
+   ]
   }
+ },
+ "grandTotal": {
+  "totalInvoices": 183,
+  "totalNetSpend": 52233.68,
+  "note": "totalNetSpend excludes invoices where only grossTotal is confirmed (see invoicesMissingNetTotal per supplier)"
+ }
 }
