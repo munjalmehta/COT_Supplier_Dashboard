@@ -1,1109 +1,1715 @@
 {
-  "supplier": "Ökoring",
-  "lastUpdated": "2026-06-28",
-  "invoiceCount": 15,
-  "note": "Supplier relationship appears recent - all invoices found are from June 2026",
-  "invoices": [
+ "supplier": "Ökoring",
+ "lastUpdated": "2026-07-16",
+ "invoiceCount": 24,
+ "note": "Supplier relationship began June 2026; ongoing weekly deliveries to Tollwood stand",
+ "invoices": [
+  {
+   "invoiceNo": "180224",
+   "date": "2026-06-26",
+   "deliveryDate": "2026-06-27",
+   "kundenNr": "18035",
+   "auftragNr": "160709",
+   "lieferscheinNr": "182632",
+   "netTotal": 415.18,
+   "vat7": 29.06,
+   "grossTotal": 444.24,
+   "weightKg": 116.0,
+   "driveFileId": "1VHUXy8oPTswm9VT2U1Cmh7PUNRbBmw-a",
+   "lineItems": [
     {
-      "invoiceNo": "180224",
-      "date": "2026-06-26",
-      "deliveryDate": "2026-06-27",
-      "kundenNr": "18035",
-      "auftragNr": "160709",
-      "lieferscheinNr": "182632",
-      "netTotal": 415.18,
-      "vat7": 29.06,
-      "grossTotal": 444.24,
-      "weightKg": 116.0,
-      "driveFileId": "1VHUXy8oPTswm9VT2U1Cmh7PUNRbBmw-a",
-      "lineItems": [
-        {
-          "artNr": "201014",
-          "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
-          "qty": 2,
-          "packaging": "5kg",
-          "unitPrice": 1.81,
-          "amount": 18.1
-        },
-        {
-          "artNr": "510704",
-          "description": "AZF Kichererbsen",
-          "qty": 24,
-          "packaging": "1x2500g",
-          "unitPrice": 6.92,
-          "amount": 166.08
-        },
-        {
-          "artNr": "510752",
-          "description": "AZF Mangopüree",
-          "qty": 12,
-          "packaging": "1x3000g",
-          "unitPrice": 19.25,
-          "amount": 231.0
-        }
-      ]
+     "artNr": "201014",
+     "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
+     "qty": 2,
+     "packaging": "5kg",
+     "unitPrice": 1.81,
+     "amount": 18.1
     },
     {
-      "invoiceNo": "179842",
-      "date": "2026-06-25",
-      "deliveryDate": "2026-06-26",
-      "kundenNr": "18035",
-      "auftragNr": "160431",
-      "lieferscheinNr": "182219",
-      "netTotal": 564.61,
-      "pfand": 34.38,
-      "vat7": 39.52,
-      "vat19": 6.53,
-      "grossTotal": 645.04,
-      "weightKg": 227.8,
-      "driveFileId": "12uJ4lXRxSTThrb-BJ8s_Tn0pN4rApTCa",
-      "lineItems": [
-        {
-          "artNr": "100612",
-          "description": "Großkartoffel gewaschen versch. Sorten, vfk oder fk",
-          "qty": 4,
-          "packaging": "12,5kg",
-          "unitPrice": 1.0,
-          "amount": 50.0
-        },
-        {
-          "artNr": "109061",
-          "description": "L Zwiebeln rot 40/60 (Biomigliore, Sizilien)",
-          "qty": 3,
-          "packaging": "6kg",
-          "unitPrice": 2.25,
-          "amount": 40.5
-        },
-        {
-          "artNr": "130504",
-          "description": "L Koriander lose Bayern",
-          "qty": 1,
-          "packaging": "1kg",
-          "unitPrice": 14.98,
-          "amount": 14.98
-        },
-        {
-          "artNr": "141130",
-          "description": "L Romatomaten ES",
-          "qty": 1,
-          "packaging": "6kg",
-          "unitPrice": 2.45,
-          "amount": 14.7
-        },
-        {
-          "artNr": "201014",
-          "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
-          "qty": 3,
-          "packaging": "5kg",
-          "unitPrice": 1.81,
-          "amount": 27.15
-        },
-        {
-          "artNr": "228824",
-          "description": "agf Kaisergemüse TK 4x2,5kg",
-          "qty": 1,
-          "packaging": "10kg",
-          "unitPrice": 3.39,
-          "amount": 33.9
-        },
-        {
-          "artNr": "301469",
-          "description": "DAV Basmati Reis weiß Fairtrade",
-          "qty": 2,
-          "packaging": "25kg",
-          "unitPrice": 4.45,
-          "amount": 222.5
-        },
-        {
-          "artNr": "500525",
-          "description": "GRN Tomaten Passata",
-          "qty": 2,
-          "packaging": "6x2,50kg",
-          "unitPrice": 4.9,
-          "amount": 58.8
-        },
-        {
-          "artNr": "510704",
-          "description": "AZF Kichererbsen",
-          "qty": 4,
-          "packaging": "1x2500g",
-          "unitPrice": 6.92,
-          "amount": 27.68
-        },
-        {
-          "artNr": "541242",
-          "description": "ÖMO Sonnenblumenöl high oleic Bratöl",
-          "qty": 2,
-          "packaging": "10l",
-          "unitPrice": 3.72,
-          "amount": 74.4
-        }
-      ]
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 24,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 166.08
     },
     {
-      "invoiceNo": "178707",
-      "date": "2026-06-24",
-      "deliveryDate": "2026-06-25",
-      "kundenNr": "18035",
-      "auftragNr": "154483",
-      "lieferscheinNr": "181053",
-      "netTotal": 176.25,
-      "vat7": 12.34,
-      "grossTotal": 188.59,
-      "weightKg": 25.5,
-      "driveFileId": "1IcwBMHmEsHSe43yycfLCTlILdLB_NnWV",
-      "lineItems": [
-        {
-          "artNr": "410424",
-          "description": "DAV Kokosraspeln fein",
-          "qty": 1,
-          "packaging": "25kg",
-          "unitPrice": 7.05,
-          "amount": 176.25
-        }
-      ]
-    },
-    {
-      "invoiceNo": "178708",
-      "date": "2026-06-24",
-      "deliveryDate": "2026-06-25",
-      "kundenNr": "18035",
-      "auftragNr": "159816",
-      "lieferscheinNr": "181052",
-      "netTotal": 180.27,
-      "vat7": 12.62,
-      "grossTotal": 192.89,
-      "weightKg": 63.0,
-      "driveFileId": "1qPzLedpkrfvsLCih-HgJSNZpJNryc93q",
-      "lineItems": [
-        {
-          "artNr": "201014",
-          "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
-          "qty": 3,
-          "packaging": "5kg",
-          "unitPrice": 1.81,
-          "amount": 27.15
-        },
-        {
-          "artNr": "510704",
-          "description": "AZF Kichererbsen",
-          "qty": 6,
-          "packaging": "1x2500g",
-          "unitPrice": 6.92,
-          "amount": 41.52
-        },
-        {
-          "artNr": "541242",
-          "description": "ÖMO Sonnenblumenöl high oleic Bratöl",
-          "qty": 3,
-          "packaging": "10l",
-          "unitPrice": 3.72,
-          "amount": 111.6
-        }
-      ]
-    },
-    {
-      "invoiceNo": "175128",
-      "date": "2026-06-20",
-      "deliveryDate": "2026-06-21",
-      "kundenNr": "18035",
-      "auftragNr": "157485",
-      "lieferscheinNr": "177324",
-      "netTotal": 232.02,
-      "pfand": 11.22,
-      "vat7": 16.11,
-      "vat19": 2.48,
-      "grossTotal": 261.83,
-      "weightKg": 91.3,
-      "driveFileId": "1FX39KRfjOysOINJseHrB_lkvmIk1-5ms",
-      "lineItems": [
-        {
-          "artNr": "100612",
-          "description": "Großkartoffel gewaschen versch. Sorten, vfk oder fk",
-          "qty": 1,
-          "packaging": "12,5kg",
-          "unitPrice": 1.0,
-          "amount": 12.5
-        },
-        {
-          "artNr": "102110",
-          "description": "L Karotten Neue Ernte IT",
-          "qty": 1,
-          "packaging": "10kg",
-          "unitPrice": 1.82,
-          "amount": 18.2
-        },
-        {
-          "artNr": "130504",
-          "description": "L Koriander lose Bayern",
-          "qty": 1,
-          "packaging": "1kg",
-          "unitPrice": 14.98,
-          "amount": 14.98
-        },
-        {
-          "artNr": "142011",
-          "description": "br Zucchini 14-21",
-          "qty": 1,
-          "packaging": "5kg",
-          "unitPrice": 2.4,
-          "amount": 12.0
-        },
-        {
-          "artNr": "212510",
-          "description": "AGR Frischhefe (Hefewürfel) im Displaykarton",
-          "qty": 1,
-          "packaging": "12x42g",
-          "unitPrice": 0.42,
-          "amount": 5.04
-        },
-        {
-          "artNr": "228303",
-          "description": "agf Paprika Würfel rot TK 10mm 4x2,5kg",
-          "qty": 1,
-          "packaging": "10kg",
-          "unitPrice": 3.59,
-          "amount": 35.9
-        },
-        {
-          "artNr": "228824",
-          "description": "agf Kaisergemüse TK 4x2,5kg",
-          "qty": 2,
-          "packaging": "10kg",
-          "unitPrice": 3.39,
-          "amount": 67.8
-        },
-        {
-          "artNr": "320044",
-          "description": "ADM Hartweizengrieß",
-          "qty": 1,
-          "packaging": "25kg",
-          "unitPrice": 2.55,
-          "amount": 63.75
-        },
-        {
-          "artNr": "986338",
-          "description": "GRB Papierservietten 2-lagig 16,5x16,5cm gefalzt ungebleicht",
-          "qty": 1,
-          "packaging": "1x100St",
-          "unitPrice": 1.85,
-          "amount": 1.85
-        }
-      ]
-    },
-    {
-      "invoiceNo": "174652",
-      "date": "2026-06-18",
-      "deliveryDate": "2026-06-19",
-      "kundenNr": "18035",
-      "auftragNr": "156452",
-      "lieferscheinNr": "176804",
-      "netTotal": 355.65,
-      "vat7": 24.9,
-      "grossTotal": 380.55,
-      "weightKg": 92.3,
-      "driveFileId": "1JW7-_qRZXG8pYiP2E69lPxOXcf5DLuzW",
-      "lineItems": [
-        {
-          "artNr": "201014",
-          "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
-          "qty": 4,
-          "packaging": "5kg",
-          "unitPrice": 1.81,
-          "amount": 36.2
-        },
-        {
-          "artNr": "330221",
-          "description": "ADM Linsen rot",
-          "qty": 2,
-          "packaging": "5kg",
-          "unitPrice": 3.35,
-          "amount": 33.5
-        },
-        {
-          "artNr": "510752",
-          "description": "AZF Mangopüree",
-          "qty": 10,
-          "packaging": "1x3000g",
-          "unitPrice": 19.25,
-          "amount": 192.5
-        },
-        {
-          "artNr": "575422",
-          "description": "NEB Koriander ganz",
-          "qty": 1,
-          "packaging": "1kg",
-          "unitPrice": 10.65,
-          "amount": 10.65
-        },
-        {
-          "artNr": "577459",
-          "description": "BRE Chilis ganz",
-          "qty": 1,
-          "packaging": "1kg",
-          "unitPrice": 34.8,
-          "amount": 34.8
-        },
-        {
-          "artNr": "631061",
-          "description": "DAV Rohrohrzucker",
-          "qty": 1,
-          "packaging": "25kg",
-          "unitPrice": 1.92,
-          "amount": 48.0
-        }
-      ]
-    },
-    {
-      "invoiceNo": "173632",
-      "date": "2026-06-17",
-      "deliveryDate": "2026-06-18",
-      "kundenNr": "18035",
-      "auftragNr": "153307",
-      "lieferscheinNr": "175738",
-      "netTotal": 513.96,
-      "pfand": 41.38,
-      "vat7": 35.98,
-      "vat19": 7.86,
-      "grossTotal": 599.18,
-      "weightKg": 212.0,
-      "driveFileId": "1VMeMoouwWCvnnfdKHdAHABvcneZl3Cc2",
-      "lineItems": [
-        {
-          "artNr": "100612",
-          "description": "Großkartoffel gewaschen versch. Sorten, vfk oder fk",
-          "qty": 5,
-          "packaging": "12,5kg",
-          "unitPrice": 1.0,
-          "amount": 62.5
-        },
-        {
-          "artNr": "109061",
-          "description": "L Zwiebeln rot 40/60 (Biomigliore, Sizilien)",
-          "qty": 3,
-          "packaging": "6kg",
-          "unitPrice": 3.3,
-          "amount": 59.4
-        },
-        {
-          "artNr": "109390",
-          "description": "L Gemüsezwiebeln 80/100 ES (neue Ernte)",
-          "qty": 6,
-          "packaging": "10kg",
-          "unitPrice": 1.8,
-          "amount": 108.0
-        },
-        {
-          "artNr": "115021",
-          "description": "br Wurzelspinat DE",
-          "qty": 1,
-          "packaging": "3kg",
-          "unitPrice": 3.92,
-          "amount": 11.76
-        },
-        {
-          "artNr": "130504",
-          "description": "L Koriander lose Bayern",
-          "qty": 2,
-          "packaging": "1kg",
-          "unitPrice": 14.9,
-          "amount": 29.8
-        },
-        {
-          "artNr": "141040",
-          "description": "L Strauchtomaten ES",
-          "qty": 3,
-          "packaging": "5kg",
-          "unitPrice": 2.8,
-          "amount": 42.0
-        },
-        {
-          "artNr": "153600",
-          "description": "S Ingwer PE",
-          "qty": 2,
-          "packaging": "2kg",
-          "unitPrice": 5.7,
-          "amount": 22.8
-        },
-        {
-          "artNr": "227461",
-          "description": "agf Erbsen fein TK 8,2-9,3mm 4x2,5kg",
-          "qty": 1,
-          "packaging": "10kg",
-          "unitPrice": 3.19,
-          "amount": 31.9
-        },
-        {
-          "artNr": "228330",
-          "description": "DFE Sommergemüse TK 4x2,5kg",
-          "qty": 1,
-          "packaging": "10kg",
-          "unitPrice": 3.69,
-          "amount": 36.9
-        },
-        {
-          "artNr": "229226",
-          "description": "DFE Knoblauch Würfel TK Blockware 4x4mm",
-          "qty": 1,
-          "packaging": "10kg",
-          "unitPrice": 10.89,
-          "amount": 108.9
-        }
-      ]
-    },
-    {
-      "invoiceNo": "172604",
-      "date": "2026-06-16",
-      "deliveryDate": "2026-06-17",
-      "kundenNr": "18035",
-      "auftragNr": "153015",
-      "lieferscheinNr": "174675",
-      "netTotal": 2064.46,
-      "pfand": 13.8,
-      "vat7": 133.18,
-      "vat19": 33.39,
-      "grossTotal": 2244.83,
-      "weightKg": 651.6,
-      "driveFileId": "1ux3nvve_x9CGCnren1G1k6PG41x2IXVm",
-      "note": "Largest single Ökoring invoice in dataset - bulk restock",
-      "lineItems": [
-        {
-          "artNr": "200340",
-          "description": "BGL H-Alpenmilch 3,5% Fett NF Tetra Slim DE BY 13110 EG",
-          "qty": 1,
-          "packaging": "12x1l",
-          "unitPrice": 1.33,
-          "amount": 15.96
-        },
-        {
-          "artNr": "201014",
-          "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
-          "qty": 8,
-          "packaging": "5kg",
-          "unitPrice": 1.81,
-          "amount": 72.4
-        },
-        {
-          "artNr": "301469",
-          "description": "DAV Basmati Reis weiß Fairtrade",
-          "qty": 4,
-          "packaging": "25kg",
-          "unitPrice": 4.45,
-          "amount": 445.0
-        },
-        {
-          "artNr": "322041",
-          "description": "lkm Weizenmehl Type 550",
-          "qty": 4,
-          "packaging": "25kg",
-          "unitPrice": 1.15,
-          "amount": 115.0
-        },
-        {
-          "artNr": "324192",
-          "description": "DAV Kichererbsenmehl",
-          "qty": 2,
-          "packaging": "20kg",
-          "unitPrice": 2.9,
-          "amount": 116.0
-        },
-        {
-          "artNr": "330022",
-          "description": "RAP Chana Dal (Kichererbsen halb und geschält)",
-          "qty": 1,
-          "packaging": "25kg",
-          "unitPrice": 5.25,
-          "amount": 131.25
-        },
-        {
-          "artNr": "410432",
-          "description": "öri Kokosraspeln medium",
-          "qty": 4,
-          "packaging": "7x250g",
-          "unitPrice": 2.94,
-          "amount": 82.32
-        },
-        {
-          "artNr": "500470",
-          "description": "BYO Tomaten passiert ca. 8-10Brix",
-          "qty": 3,
-          "packaging": "6x2,55kg",
-          "unitPrice": 6.99,
-          "amount": 125.82
-        },
-        {
-          "artNr": "510704",
-          "description": "AZF Kichererbsen",
-          "qty": 36,
-          "packaging": "1x2500g",
-          "unitPrice": 6.92,
-          "amount": 249.12
-        },
-        {
-          "artNr": "510752",
-          "description": "AZF Mangopüree",
-          "qty": 2,
-          "packaging": "1x3000g",
-          "unitPrice": 20.25,
-          "amount": 40.5
-        },
-        {
-          "artNr": "527791",
-          "description": "MOR Kokosmilch 22% Fett",
-          "qty": 2,
-          "packaging": "1x2,95kg",
-          "unitPrice": 13.95,
-          "amount": 27.9
-        },
-        {
-          "artNr": "541242",
-          "description": "ÖMO Sonnenblumenöl high oleic Bratöl",
-          "qty": 6,
-          "packaging": "10l",
-          "unitPrice": 3.72,
-          "amount": 223.2
-        },
-        {
-          "artNr": "570009",
-          "description": "krg Meersalz fein",
-          "qty": 1,
-          "packaging": "25kg",
-          "unitPrice": 0.63,
-          "amount": 15.75
-        },
-        {
-          "artNr": "575133",
-          "description": "NEB Chili gemahlen",
-          "qty": 1,
-          "packaging": "1kg",
-          "unitPrice": 23.1,
-          "amount": 23.1
-        },
-        {
-          "artNr": "575138",
-          "description": "NEB Curcuma gemahlen",
-          "qty": 2,
-          "packaging": "1kg",
-          "unitPrice": 10.75,
-          "amount": 21.5
-        },
-        {
-          "artNr": "577453",
-          "description": "BRE Kumin gemahlen (Kreuzkümmel)",
-          "qty": 2,
-          "packaging": "1kg",
-          "unitPrice": 33.3,
-          "amount": 66.6
-        },
-        {
-          "artNr": "577454",
-          "description": "BRE Kumin ganz (Kreuzkümmel)",
-          "qty": 2,
-          "packaging": "1kg",
-          "unitPrice": 30.6,
-          "amount": 61.2
-        },
-        {
-          "artNr": "631061",
-          "description": "DAV Rohrohrzucker",
-          "qty": 1,
-          "packaging": "25kg",
-          "unitPrice": 1.92,
-          "amount": 48.0
-        },
-        {
-          "artNr": "710610",
-          "description": "VOE Zitronensaft",
-          "qty": 3,
-          "packaging": "6x0,7l",
-          "unitPrice": 3.3,
-          "amount": 59.4
-        },
-        {
-          "artNr": "712043",
-          "description": "VOE Ingwersaft",
-          "qty": 2,
-          "packaging": "12x0,2l",
-          "unitPrice": 3.46,
-          "amount": 83.04
-        },
-        {
-          "artNr": "902210",
-          "description": "NEB Koriander gemahlen",
-          "qty": 2,
-          "packaging": "1kg",
-          "unitPrice": 10.95,
-          "amount": 21.9
-        },
-        {
-          "artNr": "985617",
-          "description": "NPG Spitztüte klein braun f.375g gefädelt",
-          "qty": 3,
-          "packaging": "1x250St",
-          "unitPrice": 6.5,
-          "amount": 19.5
-        }
-      ]
-    },
-    {
-      "date": "2026-06-29",
-      "invoiceNumber": "181950",
-      "supplier": "Ökoring",
-      "deliveryAddress": "Tollwood - Chutney on Top, Spiridon-Louis-Ring, 80809 München",
-      "netTotal": 81.4,
-      "grossTotal": 92.44,
-      "vatBreakdown": {
-        "7%": {
-          "net": 36.9,
-          "vat": 2.58,
-          "gross": 39.48
-        },
-        "19%": {
-          "net": 44.5,
-          "vat": 8.46,
-          "gross": 52.96
-        }
-      },
-      "items": [
-        {
-          "artNr": "228330",
-          "description": "Sommergemüse TK 10kg",
-          "brand": "DFE",
-          "origin": "NL",
-          "qty": 1,
-          "unit": "10kg",
-          "unitPrice": 3.69,
-          "netTotal": 36.9,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "985617",
-          "description": "Spitztüte klein braun 250St",
-          "brand": "NPG",
-          "qty": 4,
-          "unit": "1x250St",
-          "unitPrice": 6.5,
-          "netTotal": 26.0,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "986338",
-          "description": "Papierservietten 2-lagig 100St 16.5x16.5cm",
-          "brand": "GRB",
-          "qty": 10,
-          "unit": "1x100St",
-          "unitPrice": 1.85,
-          "netTotal": 18.5,
-          "vatRate": "19%"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-30",
-      "invoiceNumber": "182884",
-      "deliveryDate": "2026-07-01",
-      "kundenNr": "18035",
-      "auftragNr": "163097",
-      "lieferscheinNr": "185467",
-      "netTotal": 573.54,
-      "pfand": 7.36,
-      "vat7": 40.15,
-      "vat19": 1.4,
-      "grossTotal": 622.45,
-      "weightKg": 224.4,
-      "lineItems": [
-        {
-          "artNr": "100612",
-          "description": "Großkartoffel gewaschen 12,5kg",
-          "qty": 1,
-          "packaging": "12,5kg",
-          "unitPrice": 1.0,
-          "amount": 12.5
-        },
-        {
-          "artNr": "109390",
-          "description": "L Gemüsezwiebeln 80/100 ES (Neue Ernte)",
-          "qty": 2,
-          "packaging": "10kg",
-          "unitPrice": 1.59,
-          "amount": 31.8
-        },
-        {
-          "artNr": "130504",
-          "description": "L Koriander lose Bayern",
-          "qty": 1,
-          "packaging": "1kg",
-          "unitPrice": 14.98,
-          "amount": 14.98
-        },
-        {
-          "artNr": "201014",
-          "description": "SBG Joghurt stichfest 3,5%",
-          "qty": 6,
-          "packaging": "5kg",
-          "unitPrice": 1.81,
-          "amount": 54.3
-        },
-        {
-          "artNr": "301469",
-          "description": "DAV Basmati Reis weiß Fairtrade",
-          "qty": 1,
-          "packaging": "25kg",
-          "unitPrice": 4.45,
-          "amount": 111.25
-        },
-        {
-          "artNr": "500525",
-          "description": "GRN Tomaten Passata",
-          "qty": 2,
-          "packaging": "6x2,50kg",
-          "unitPrice": 4.9,
-          "amount": 58.8
-        },
-        {
-          "artNr": "510704",
-          "description": "AZF Kichererbsen",
-          "qty": 18,
-          "packaging": "1x2500g",
-          "unitPrice": 6.92,
-          "amount": 124.56
-        },
-        {
-          "artNr": "527796",
-          "description": "BVO Kokosmilch 22% Fett",
-          "qty": 5,
-          "packaging": "1x3100ml",
-          "unitPrice": 10.75,
-          "amount": 53.75
-        },
-        {
-          "artNr": "541242",
-          "description": "ÖMO Sonnenblumenöl high oleic Bratöl",
-          "qty": 3,
-          "packaging": "10l",
-          "unitPrice": 3.72,
-          "amount": 111.6
-        }
-      ]
-    },
-    {
-      "date": "2026-07-01",
-      "invoiceNumber": "183994",
-      "deliveryDate": "2026-07-02",
-      "kundenNr": "18035",
-      "auftragNr": "163828",
-      "lieferscheinNr": "186508",
-      "netTotal": 63.9,
-      "vat7": 4.47,
-      "grossTotal": 68.37,
-      "weightKg": 24.0,
-      "lineItems": [
-        {
-          "artNr": "141130",
-          "description": "L Romatomaten ES",
-          "qty": 2,
-          "packaging": "6kg",
-          "unitPrice": 2.25,
-          "amount": 27.0
-        },
-        {
-          "artNr": "228330",
-          "description": "DFE Sommergemüse TK 4x2,5kg",
-          "qty": 1,
-          "packaging": "10kg",
-          "unitPrice": 3.69,
-          "amount": 36.9
-        }
-      ]
-    },
-    {
-      "date": "2026-07-03",
-      "invoiceNumber": "184990",
-      "deliveryDate": "2026-07-03",
-      "kundenNr": "18035",
-      "auftragNr": "164530",
-      "lieferscheinNr": "187520",
-      "netTotal": 551.49,
-      "pfand": 15.82,
-      "vat7": 32.93,
-      "vat19": 18.42,
-      "grossTotal": 618.66,
-      "weightKg": 213.8,
-      "lineItems": [
-        {
-          "artNr": "100612",
-          "description": "Großkartoffel gewaschen 12,5kg",
-          "qty": 2,
-          "packaging": "12,5kg",
-          "unitPrice": 1.0,
-          "amount": 25.0
-        },
-        {
-          "artNr": "200340",
-          "description": "BGL H-Alpenmilch 3,5%",
-          "qty": 1,
-          "packaging": "12x1l",
-          "unitPrice": 1.33,
-          "amount": 15.96
-        },
-        {
-          "artNr": "201014",
-          "description": "SBG Joghurt stichfest 3,5%",
-          "qty": 2,
-          "packaging": "5kg",
-          "unitPrice": 1.81,
-          "amount": 18.1
-        },
-        {
-          "artNr": "228330",
-          "description": "DFE Sommergemüse TK 4x2,5kg",
-          "qty": 1,
-          "packaging": "10kg",
-          "unitPrice": 3.69,
-          "amount": 36.9
-        },
-        {
-          "artNr": "301469",
-          "description": "DAV Basmati Reis weiß Fairtrade",
-          "qty": 1,
-          "packaging": "25kg",
-          "unitPrice": 4.45,
-          "amount": 111.25
-        },
-        {
-          "artNr": "510704",
-          "description": "AZF Kichererbsen",
-          "qty": 18,
-          "packaging": "1x2500g",
-          "unitPrice": 6.92,
-          "amount": 124.56
-        },
-        {
-          "artNr": "570009",
-          "description": "krg Meersalz fein",
-          "qty": 1,
-          "packaging": "25kg",
-          "unitPrice": 0.63,
-          "amount": 15.75
-        },
-        {
-          "artNr": "577453",
-          "description": "BRE Kumin gemahlen",
-          "qty": 1,
-          "packaging": "1kg",
-          "unitPrice": 33.3,
-          "amount": 33.3
-        },
-        {
-          "artNr": "577454",
-          "description": "BRE Kumin ganz",
-          "qty": 1,
-          "packaging": "1kg",
-          "unitPrice": 30.6,
-          "amount": 30.6
-        },
-        {
-          "artNr": "631061",
-          "description": "DAV Rohrohrzucker",
-          "qty": 1,
-          "packaging": "25kg",
-          "unitPrice": 1.92,
-          "amount": 48.0
-        },
-        {
-          "artNr": "710610",
-          "description": "VOE Zitronensaft",
-          "qty": 2,
-          "packaging": "6x0,7l",
-          "unitPrice": 3.3,
-          "amount": 39.6
-        },
-        {
-          "artNr": "712043",
-          "description": "VOE Ingwersaft",
-          "qty": 1,
-          "packaging": "12x0,2l",
-          "unitPrice": 3.46,
-          "amount": 41.52
-        },
-        {
-          "artNr": "902210",
-          "description": "NEB Koriander gemahlen",
-          "qty": 1,
-          "packaging": "1kg",
-          "unitPrice": 10.95,
-          "amount": 10.95
-        }
-      ]
-    },
-    {
-      "date": "2026-07-03",
-      "invoiceNumber": "185432",
-      "deliveryDate": "2026-07-04",
-      "kundenNr": "18035",
-      "auftragNr": "164529",
-      "lieferscheinNr": "187954",
-      "netTotal": 403.19,
-      "pfand": 3.5,
-      "vat7": 28.22,
-      "vat19": 0.67,
-      "grossTotal": 435.58,
-      "weightKg": 106.6,
-      "lineItems": [
-        {
-          "artNr": "130504",
-          "description": "L Koriander lose Bayern",
-          "qty": 1,
-          "packaging": "1kg",
-          "unitPrice": 14.98,
-          "amount": 14.98
-        },
-        {
-          "artNr": "228330",
-          "description": "DFE Sommergemüse TK 4x2,5kg",
-          "qty": 1,
-          "packaging": "10kg",
-          "unitPrice": 3.69,
-          "amount": 36.9
-        },
-        {
-          "artNr": "301469",
-          "description": "DAV Basmati Reis weiß Fairtrade",
-          "qty": 1,
-          "packaging": "25kg",
-          "unitPrice": 4.45,
-          "amount": 111.25
-        },
-        {
-          "artNr": "510704",
-          "description": "AZF Kichererbsen",
-          "qty": 18,
-          "packaging": "1x2500g",
-          "unitPrice": 6.92,
-          "amount": 124.56
-        },
-        {
-          "artNr": "510752",
-          "description": "AZF Mangopüree",
-          "qty": 6,
-          "packaging": "1x3000g",
-          "unitPrice": 19.25,
-          "amount": 115.5
-        }
-      ]
-    },
-    {
-      "date": "2026-07-05",
-      "invoiceNumber": "186156",
-      "deliveryDate": "2026-07-06",
-      "kundenNr": "18035",
-      "auftragNr": "165380",
-      "lieferscheinNr": "188750",
-      "netTotal": 457.74,
-      "pfand": 9.76,
-      "vat7": 30.66,
-      "vat19": 5.62,
-      "grossTotal": 503.78,
-      "weightKg": 131.7,
-      "lineItems": [
-        {
-          "artNr": "100612",
-          "description": "Großkartoffel gewaschen 12,5kg",
-          "qty": 1,
-          "packaging": "12,5kg",
-          "unitPrice": 1.0,
-          "amount": 12.5
-        },
-        {
-          "artNr": "130504",
-          "description": "L Koriander lose Bayern",
-          "qty": 1,
-          "packaging": "1kg",
-          "unitPrice": 14.98,
-          "amount": 14.98
-        },
-        {
-          "artNr": "201014",
-          "description": "SBG Joghurt stichfest 3,5%",
-          "qty": 2,
-          "packaging": "5kg",
-          "unitPrice": 1.81,
-          "amount": 18.1
-        },
-        {
-          "artNr": "228330",
-          "description": "DFE Sommergemüse TK 4x2,5kg",
-          "qty": 1,
-          "packaging": "10kg",
-          "unitPrice": 3.69,
-          "amount": 36.9
-        },
-        {
-          "artNr": "229226",
-          "description": "DFE Knoblauch Würfel TK 4x4mm",
-          "qty": 1,
-          "packaging": "10kg",
-          "unitPrice": 10.89,
-          "amount": 108.9
-        },
-        {
-          "artNr": "301469",
-          "description": "DAV Basmati Reis weiß Fairtrade",
-          "qty": 1,
-          "packaging": "25kg",
-          "unitPrice": 4.45,
-          "amount": 111.25
-        },
-        {
-          "artNr": "510704",
-          "description": "AZF Kichererbsen",
-          "qty": 18,
-          "packaging": "1x2500g",
-          "unitPrice": 6.92,
-          "amount": 124.56
-        },
-        {
-          "artNr": "575138",
-          "description": "NEB Curcuma gemahlen",
-          "qty": 1,
-          "packaging": "1kg",
-          "unitPrice": 10.75,
-          "amount": 10.75
-        },
-        {
-          "artNr": "710610",
-          "description": "VOE Zitronensaft",
-          "qty": 1,
-          "packaging": "6x0,7l",
-          "unitPrice": 3.3,
-          "amount": 19.8
-        }
-      ]
-    },
-    {
-      "date": "2026-07-06",
-      "invoiceNumber": "187137",
-      "type": "Rechnungskorrektur",
-      "note": "Credit note — returns 10kg DFE Knoblauch Würfel TK from Rechnung 186156",
-      "deliveryDate": "2026-07-06",
-      "kundenNr": "18035",
-      "auftragNr": "165380",
-      "lieferscheinNr": "189722",
-      "netTotal": -108.9,
-      "vat7": -7.62,
-      "grossTotal": -116.52,
-      "lineItems": [
-        {
-          "artNr": "229226",
-          "description": "DFE Knoblauch Würfel TK 4x4mm (Rückgabe)",
-          "qty": -10,
-          "packaging": "1kg",
-          "unitPrice": 10.89,
-          "amount": -108.9
-        }
-      ]
+     "artNr": "510752",
+     "description": "AZF Mangopüree",
+     "qty": 12,
+     "packaging": "1x3000g",
+     "unitPrice": 19.25,
+     "amount": 231.0
     }
-  ],
-  "totalNetSpend": 6524.76,
-  "latestInvoiceDate": "2026-07-06"
+   ]
+  },
+  {
+   "invoiceNo": "179842",
+   "date": "2026-06-25",
+   "deliveryDate": "2026-06-26",
+   "kundenNr": "18035",
+   "auftragNr": "160431",
+   "lieferscheinNr": "182219",
+   "netTotal": 564.61,
+   "pfand": 34.38,
+   "vat7": 39.52,
+   "vat19": 6.53,
+   "grossTotal": 645.04,
+   "weightKg": 227.8,
+   "driveFileId": "12uJ4lXRxSTThrb-BJ8s_Tn0pN4rApTCa",
+   "lineItems": [
+    {
+     "artNr": "100612",
+     "description": "Großkartoffel gewaschen versch. Sorten, vfk oder fk",
+     "qty": 4,
+     "packaging": "12,5kg",
+     "unitPrice": 1.0,
+     "amount": 50.0
+    },
+    {
+     "artNr": "109061",
+     "description": "L Zwiebeln rot 40/60 (Biomigliore, Sizilien)",
+     "qty": 3,
+     "packaging": "6kg",
+     "unitPrice": 2.25,
+     "amount": 40.5
+    },
+    {
+     "artNr": "130504",
+     "description": "L Koriander lose Bayern",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 14.98,
+     "amount": 14.98
+    },
+    {
+     "artNr": "141130",
+     "description": "L Romatomaten ES",
+     "qty": 1,
+     "packaging": "6kg",
+     "unitPrice": 2.45,
+     "amount": 14.7
+    },
+    {
+     "artNr": "201014",
+     "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
+     "qty": 3,
+     "packaging": "5kg",
+     "unitPrice": 1.81,
+     "amount": 27.15
+    },
+    {
+     "artNr": "228824",
+     "description": "agf Kaisergemüse TK 4x2,5kg",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 3.39,
+     "amount": 33.9
+    },
+    {
+     "artNr": "301469",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "qty": 2,
+     "packaging": "25kg",
+     "unitPrice": 4.45,
+     "amount": 222.5
+    },
+    {
+     "artNr": "500525",
+     "description": "GRN Tomaten Passata",
+     "qty": 2,
+     "packaging": "6x2,50kg",
+     "unitPrice": 4.9,
+     "amount": 58.8
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 4,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 27.68
+    },
+    {
+     "artNr": "541242",
+     "description": "ÖMO Sonnenblumenöl high oleic Bratöl",
+     "qty": 2,
+     "packaging": "10l",
+     "unitPrice": 3.72,
+     "amount": 74.4
+    }
+   ]
+  },
+  {
+   "invoiceNo": "178707",
+   "date": "2026-06-24",
+   "deliveryDate": "2026-06-25",
+   "kundenNr": "18035",
+   "auftragNr": "154483",
+   "lieferscheinNr": "181053",
+   "netTotal": 176.25,
+   "vat7": 12.34,
+   "grossTotal": 188.59,
+   "weightKg": 25.5,
+   "driveFileId": "1IcwBMHmEsHSe43yycfLCTlILdLB_NnWV",
+   "lineItems": [
+    {
+     "artNr": "410424",
+     "description": "DAV Kokosraspeln fein",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 7.05,
+     "amount": 176.25
+    }
+   ]
+  },
+  {
+   "invoiceNo": "178708",
+   "date": "2026-06-24",
+   "deliveryDate": "2026-06-25",
+   "kundenNr": "18035",
+   "auftragNr": "159816",
+   "lieferscheinNr": "181052",
+   "netTotal": 180.27,
+   "vat7": 12.62,
+   "grossTotal": 192.89,
+   "weightKg": 63.0,
+   "driveFileId": "1qPzLedpkrfvsLCih-HgJSNZpJNryc93q",
+   "lineItems": [
+    {
+     "artNr": "201014",
+     "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
+     "qty": 3,
+     "packaging": "5kg",
+     "unitPrice": 1.81,
+     "amount": 27.15
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 6,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 41.52
+    },
+    {
+     "artNr": "541242",
+     "description": "ÖMO Sonnenblumenöl high oleic Bratöl",
+     "qty": 3,
+     "packaging": "10l",
+     "unitPrice": 3.72,
+     "amount": 111.6
+    }
+   ]
+  },
+  {
+   "invoiceNo": "175128",
+   "date": "2026-06-20",
+   "deliveryDate": "2026-06-21",
+   "kundenNr": "18035",
+   "auftragNr": "157485",
+   "lieferscheinNr": "177324",
+   "netTotal": 232.02,
+   "pfand": 11.22,
+   "vat7": 16.11,
+   "vat19": 2.48,
+   "grossTotal": 261.83,
+   "weightKg": 91.3,
+   "driveFileId": "1FX39KRfjOysOINJseHrB_lkvmIk1-5ms",
+   "lineItems": [
+    {
+     "artNr": "100612",
+     "description": "Großkartoffel gewaschen versch. Sorten, vfk oder fk",
+     "qty": 1,
+     "packaging": "12,5kg",
+     "unitPrice": 1.0,
+     "amount": 12.5
+    },
+    {
+     "artNr": "102110",
+     "description": "L Karotten Neue Ernte IT",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 1.82,
+     "amount": 18.2
+    },
+    {
+     "artNr": "130504",
+     "description": "L Koriander lose Bayern",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 14.98,
+     "amount": 14.98
+    },
+    {
+     "artNr": "142011",
+     "description": "br Zucchini 14-21",
+     "qty": 1,
+     "packaging": "5kg",
+     "unitPrice": 2.4,
+     "amount": 12.0
+    },
+    {
+     "artNr": "212510",
+     "description": "AGR Frischhefe (Hefewürfel) im Displaykarton",
+     "qty": 1,
+     "packaging": "12x42g",
+     "unitPrice": 0.42,
+     "amount": 5.04
+    },
+    {
+     "artNr": "228303",
+     "description": "agf Paprika Würfel rot TK 10mm 4x2,5kg",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 3.59,
+     "amount": 35.9
+    },
+    {
+     "artNr": "228824",
+     "description": "agf Kaisergemüse TK 4x2,5kg",
+     "qty": 2,
+     "packaging": "10kg",
+     "unitPrice": 3.39,
+     "amount": 67.8
+    },
+    {
+     "artNr": "320044",
+     "description": "ADM Hartweizengrieß",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 2.55,
+     "amount": 63.75
+    },
+    {
+     "artNr": "986338",
+     "description": "GRB Papierservietten 2-lagig 16,5x16,5cm gefalzt ungebleicht",
+     "qty": 1,
+     "packaging": "1x100St",
+     "unitPrice": 1.85,
+     "amount": 1.85
+    }
+   ]
+  },
+  {
+   "invoiceNo": "174652",
+   "date": "2026-06-18",
+   "deliveryDate": "2026-06-19",
+   "kundenNr": "18035",
+   "auftragNr": "156452",
+   "lieferscheinNr": "176804",
+   "netTotal": 355.65,
+   "vat7": 24.9,
+   "grossTotal": 380.55,
+   "weightKg": 92.3,
+   "driveFileId": "1JW7-_qRZXG8pYiP2E69lPxOXcf5DLuzW",
+   "lineItems": [
+    {
+     "artNr": "201014",
+     "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
+     "qty": 4,
+     "packaging": "5kg",
+     "unitPrice": 1.81,
+     "amount": 36.2
+    },
+    {
+     "artNr": "330221",
+     "description": "ADM Linsen rot",
+     "qty": 2,
+     "packaging": "5kg",
+     "unitPrice": 3.35,
+     "amount": 33.5
+    },
+    {
+     "artNr": "510752",
+     "description": "AZF Mangopüree",
+     "qty": 10,
+     "packaging": "1x3000g",
+     "unitPrice": 19.25,
+     "amount": 192.5
+    },
+    {
+     "artNr": "575422",
+     "description": "NEB Koriander ganz",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 10.65,
+     "amount": 10.65
+    },
+    {
+     "artNr": "577459",
+     "description": "BRE Chilis ganz",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 34.8,
+     "amount": 34.8
+    },
+    {
+     "artNr": "631061",
+     "description": "DAV Rohrohrzucker",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 1.92,
+     "amount": 48.0
+    }
+   ]
+  },
+  {
+   "invoiceNo": "173632",
+   "date": "2026-06-17",
+   "deliveryDate": "2026-06-18",
+   "kundenNr": "18035",
+   "auftragNr": "153307",
+   "lieferscheinNr": "175738",
+   "netTotal": 513.96,
+   "pfand": 41.38,
+   "vat7": 35.98,
+   "vat19": 7.86,
+   "grossTotal": 599.18,
+   "weightKg": 212.0,
+   "driveFileId": "1VMeMoouwWCvnnfdKHdAHABvcneZl3Cc2",
+   "lineItems": [
+    {
+     "artNr": "100612",
+     "description": "Großkartoffel gewaschen versch. Sorten, vfk oder fk",
+     "qty": 5,
+     "packaging": "12,5kg",
+     "unitPrice": 1.0,
+     "amount": 62.5
+    },
+    {
+     "artNr": "109061",
+     "description": "L Zwiebeln rot 40/60 (Biomigliore, Sizilien)",
+     "qty": 3,
+     "packaging": "6kg",
+     "unitPrice": 3.3,
+     "amount": 59.4
+    },
+    {
+     "artNr": "109390",
+     "description": "L Gemüsezwiebeln 80/100 ES (neue Ernte)",
+     "qty": 6,
+     "packaging": "10kg",
+     "unitPrice": 1.8,
+     "amount": 108.0
+    },
+    {
+     "artNr": "115021",
+     "description": "br Wurzelspinat DE",
+     "qty": 1,
+     "packaging": "3kg",
+     "unitPrice": 3.92,
+     "amount": 11.76
+    },
+    {
+     "artNr": "130504",
+     "description": "L Koriander lose Bayern",
+     "qty": 2,
+     "packaging": "1kg",
+     "unitPrice": 14.9,
+     "amount": 29.8
+    },
+    {
+     "artNr": "141040",
+     "description": "L Strauchtomaten ES",
+     "qty": 3,
+     "packaging": "5kg",
+     "unitPrice": 2.8,
+     "amount": 42.0
+    },
+    {
+     "artNr": "153600",
+     "description": "S Ingwer PE",
+     "qty": 2,
+     "packaging": "2kg",
+     "unitPrice": 5.7,
+     "amount": 22.8
+    },
+    {
+     "artNr": "227461",
+     "description": "agf Erbsen fein TK 8,2-9,3mm 4x2,5kg",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 3.19,
+     "amount": 31.9
+    },
+    {
+     "artNr": "228330",
+     "description": "DFE Sommergemüse TK 4x2,5kg",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 3.69,
+     "amount": 36.9
+    },
+    {
+     "artNr": "229226",
+     "description": "DFE Knoblauch Würfel TK Blockware 4x4mm",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 10.89,
+     "amount": 108.9
+    }
+   ]
+  },
+  {
+   "invoiceNo": "172604",
+   "date": "2026-06-16",
+   "deliveryDate": "2026-06-17",
+   "kundenNr": "18035",
+   "auftragNr": "153015",
+   "lieferscheinNr": "174675",
+   "netTotal": 2064.46,
+   "pfand": 13.8,
+   "vat7": 133.18,
+   "vat19": 33.39,
+   "grossTotal": 2244.83,
+   "weightKg": 651.6,
+   "driveFileId": "1ux3nvve_x9CGCnren1G1k6PG41x2IXVm",
+   "note": "Largest single Ökoring invoice in dataset - bulk restock",
+   "lineItems": [
+    {
+     "artNr": "200340",
+     "description": "BGL H-Alpenmilch 3,5% Fett NF Tetra Slim DE BY 13110 EG",
+     "qty": 1,
+     "packaging": "12x1l",
+     "unitPrice": 1.33,
+     "amount": 15.96
+    },
+    {
+     "artNr": "201014",
+     "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
+     "qty": 8,
+     "packaging": "5kg",
+     "unitPrice": 1.81,
+     "amount": 72.4
+    },
+    {
+     "artNr": "301469",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "qty": 4,
+     "packaging": "25kg",
+     "unitPrice": 4.45,
+     "amount": 445.0
+    },
+    {
+     "artNr": "322041",
+     "description": "lkm Weizenmehl Type 550",
+     "qty": 4,
+     "packaging": "25kg",
+     "unitPrice": 1.15,
+     "amount": 115.0
+    },
+    {
+     "artNr": "324192",
+     "description": "DAV Kichererbsenmehl",
+     "qty": 2,
+     "packaging": "20kg",
+     "unitPrice": 2.9,
+     "amount": 116.0
+    },
+    {
+     "artNr": "330022",
+     "description": "RAP Chana Dal (Kichererbsen halb und geschält)",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 5.25,
+     "amount": 131.25
+    },
+    {
+     "artNr": "410432",
+     "description": "öri Kokosraspeln medium",
+     "qty": 4,
+     "packaging": "7x250g",
+     "unitPrice": 2.94,
+     "amount": 82.32
+    },
+    {
+     "artNr": "500470",
+     "description": "BYO Tomaten passiert ca. 8-10Brix",
+     "qty": 3,
+     "packaging": "6x2,55kg",
+     "unitPrice": 6.99,
+     "amount": 125.82
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 36,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 249.12
+    },
+    {
+     "artNr": "510752",
+     "description": "AZF Mangopüree",
+     "qty": 2,
+     "packaging": "1x3000g",
+     "unitPrice": 20.25,
+     "amount": 40.5
+    },
+    {
+     "artNr": "527791",
+     "description": "MOR Kokosmilch 22% Fett",
+     "qty": 2,
+     "packaging": "1x2,95kg",
+     "unitPrice": 13.95,
+     "amount": 27.9
+    },
+    {
+     "artNr": "541242",
+     "description": "ÖMO Sonnenblumenöl high oleic Bratöl",
+     "qty": 6,
+     "packaging": "10l",
+     "unitPrice": 3.72,
+     "amount": 223.2
+    },
+    {
+     "artNr": "570009",
+     "description": "krg Meersalz fein",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 0.63,
+     "amount": 15.75
+    },
+    {
+     "artNr": "575133",
+     "description": "NEB Chili gemahlen",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 23.1,
+     "amount": 23.1
+    },
+    {
+     "artNr": "575138",
+     "description": "NEB Curcuma gemahlen",
+     "qty": 2,
+     "packaging": "1kg",
+     "unitPrice": 10.75,
+     "amount": 21.5
+    },
+    {
+     "artNr": "577453",
+     "description": "BRE Kumin gemahlen (Kreuzkümmel)",
+     "qty": 2,
+     "packaging": "1kg",
+     "unitPrice": 33.3,
+     "amount": 66.6
+    },
+    {
+     "artNr": "577454",
+     "description": "BRE Kumin ganz (Kreuzkümmel)",
+     "qty": 2,
+     "packaging": "1kg",
+     "unitPrice": 30.6,
+     "amount": 61.2
+    },
+    {
+     "artNr": "631061",
+     "description": "DAV Rohrohrzucker",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 1.92,
+     "amount": 48.0
+    },
+    {
+     "artNr": "710610",
+     "description": "VOE Zitronensaft",
+     "qty": 3,
+     "packaging": "6x0,7l",
+     "unitPrice": 3.3,
+     "amount": 59.4
+    },
+    {
+     "artNr": "712043",
+     "description": "VOE Ingwersaft",
+     "qty": 2,
+     "packaging": "12x0,2l",
+     "unitPrice": 3.46,
+     "amount": 83.04
+    },
+    {
+     "artNr": "902210",
+     "description": "NEB Koriander gemahlen",
+     "qty": 2,
+     "packaging": "1kg",
+     "unitPrice": 10.95,
+     "amount": 21.9
+    },
+    {
+     "artNr": "985617",
+     "description": "NPG Spitztüte klein braun f.375g gefädelt",
+     "qty": 3,
+     "packaging": "1x250St",
+     "unitPrice": 6.5,
+     "amount": 19.5
+    }
+   ]
+  },
+  {
+   "date": "2026-06-29",
+   "invoiceNumber": "181950",
+   "supplier": "Ökoring",
+   "deliveryAddress": "Tollwood - Chutney on Top, Spiridon-Louis-Ring, 80809 München",
+   "netTotal": 81.4,
+   "grossTotal": 92.44,
+   "vatBreakdown": {
+    "7%": {
+     "net": 36.9,
+     "vat": 2.58,
+     "gross": 39.48
+    },
+    "19%": {
+     "net": 44.5,
+     "vat": 8.46,
+     "gross": 52.96
+    }
+   },
+   "items": [
+    {
+     "artNr": "228330",
+     "description": "Sommergemüse TK 10kg",
+     "brand": "DFE",
+     "origin": "NL",
+     "qty": 1,
+     "unit": "10kg",
+     "unitPrice": 3.69,
+     "netTotal": 36.9,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "985617",
+     "description": "Spitztüte klein braun 250St",
+     "brand": "NPG",
+     "qty": 4,
+     "unit": "1x250St",
+     "unitPrice": 6.5,
+     "netTotal": 26.0,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "986338",
+     "description": "Papierservietten 2-lagig 100St 16.5x16.5cm",
+     "brand": "GRB",
+     "qty": 10,
+     "unit": "1x100St",
+     "unitPrice": 1.85,
+     "netTotal": 18.5,
+     "vatRate": "19%"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-30",
+   "invoiceNumber": "182884",
+   "deliveryDate": "2026-07-01",
+   "kundenNr": "18035",
+   "auftragNr": "163097",
+   "lieferscheinNr": "185467",
+   "netTotal": 573.54,
+   "pfand": 7.36,
+   "vat7": 40.15,
+   "vat19": 1.4,
+   "grossTotal": 622.45,
+   "weightKg": 224.4,
+   "lineItems": [
+    {
+     "artNr": "100612",
+     "description": "Großkartoffel gewaschen 12,5kg",
+     "qty": 1,
+     "packaging": "12,5kg",
+     "unitPrice": 1.0,
+     "amount": 12.5
+    },
+    {
+     "artNr": "109390",
+     "description": "L Gemüsezwiebeln 80/100 ES (Neue Ernte)",
+     "qty": 2,
+     "packaging": "10kg",
+     "unitPrice": 1.59,
+     "amount": 31.8
+    },
+    {
+     "artNr": "130504",
+     "description": "L Koriander lose Bayern",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 14.98,
+     "amount": 14.98
+    },
+    {
+     "artNr": "201014",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "qty": 6,
+     "packaging": "5kg",
+     "unitPrice": 1.81,
+     "amount": 54.3
+    },
+    {
+     "artNr": "301469",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 4.45,
+     "amount": 111.25
+    },
+    {
+     "artNr": "500525",
+     "description": "GRN Tomaten Passata",
+     "qty": 2,
+     "packaging": "6x2,50kg",
+     "unitPrice": 4.9,
+     "amount": 58.8
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 18,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 124.56
+    },
+    {
+     "artNr": "527796",
+     "description": "BVO Kokosmilch 22% Fett",
+     "qty": 5,
+     "packaging": "1x3100ml",
+     "unitPrice": 10.75,
+     "amount": 53.75
+    },
+    {
+     "artNr": "541242",
+     "description": "ÖMO Sonnenblumenöl high oleic Bratöl",
+     "qty": 3,
+     "packaging": "10l",
+     "unitPrice": 3.72,
+     "amount": 111.6
+    }
+   ]
+  },
+  {
+   "date": "2026-07-01",
+   "invoiceNumber": "183994",
+   "deliveryDate": "2026-07-02",
+   "kundenNr": "18035",
+   "auftragNr": "163828",
+   "lieferscheinNr": "186508",
+   "netTotal": 63.9,
+   "vat7": 4.47,
+   "grossTotal": 68.37,
+   "weightKg": 24.0,
+   "lineItems": [
+    {
+     "artNr": "141130",
+     "description": "L Romatomaten ES",
+     "qty": 2,
+     "packaging": "6kg",
+     "unitPrice": 2.25,
+     "amount": 27.0
+    },
+    {
+     "artNr": "228330",
+     "description": "DFE Sommergemüse TK 4x2,5kg",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 3.69,
+     "amount": 36.9
+    }
+   ]
+  },
+  {
+   "date": "2026-07-03",
+   "invoiceNumber": "184990",
+   "deliveryDate": "2026-07-03",
+   "kundenNr": "18035",
+   "auftragNr": "164530",
+   "lieferscheinNr": "187520",
+   "netTotal": 551.49,
+   "pfand": 15.82,
+   "vat7": 32.93,
+   "vat19": 18.42,
+   "grossTotal": 618.66,
+   "weightKg": 213.8,
+   "lineItems": [
+    {
+     "artNr": "100612",
+     "description": "Großkartoffel gewaschen 12,5kg",
+     "qty": 2,
+     "packaging": "12,5kg",
+     "unitPrice": 1.0,
+     "amount": 25.0
+    },
+    {
+     "artNr": "200340",
+     "description": "BGL H-Alpenmilch 3,5%",
+     "qty": 1,
+     "packaging": "12x1l",
+     "unitPrice": 1.33,
+     "amount": 15.96
+    },
+    {
+     "artNr": "201014",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "qty": 2,
+     "packaging": "5kg",
+     "unitPrice": 1.81,
+     "amount": 18.1
+    },
+    {
+     "artNr": "228330",
+     "description": "DFE Sommergemüse TK 4x2,5kg",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 3.69,
+     "amount": 36.9
+    },
+    {
+     "artNr": "301469",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 4.45,
+     "amount": 111.25
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 18,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 124.56
+    },
+    {
+     "artNr": "570009",
+     "description": "krg Meersalz fein",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 0.63,
+     "amount": 15.75
+    },
+    {
+     "artNr": "577453",
+     "description": "BRE Kumin gemahlen",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 33.3,
+     "amount": 33.3
+    },
+    {
+     "artNr": "577454",
+     "description": "BRE Kumin ganz",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 30.6,
+     "amount": 30.6
+    },
+    {
+     "artNr": "631061",
+     "description": "DAV Rohrohrzucker",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 1.92,
+     "amount": 48.0
+    },
+    {
+     "artNr": "710610",
+     "description": "VOE Zitronensaft",
+     "qty": 2,
+     "packaging": "6x0,7l",
+     "unitPrice": 3.3,
+     "amount": 39.6
+    },
+    {
+     "artNr": "712043",
+     "description": "VOE Ingwersaft",
+     "qty": 1,
+     "packaging": "12x0,2l",
+     "unitPrice": 3.46,
+     "amount": 41.52
+    },
+    {
+     "artNr": "902210",
+     "description": "NEB Koriander gemahlen",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 10.95,
+     "amount": 10.95
+    }
+   ]
+  },
+  {
+   "date": "2026-07-03",
+   "invoiceNumber": "185432",
+   "deliveryDate": "2026-07-04",
+   "kundenNr": "18035",
+   "auftragNr": "164529",
+   "lieferscheinNr": "187954",
+   "netTotal": 403.19,
+   "pfand": 3.5,
+   "vat7": 28.22,
+   "vat19": 0.67,
+   "grossTotal": 435.58,
+   "weightKg": 106.6,
+   "lineItems": [
+    {
+     "artNr": "130504",
+     "description": "L Koriander lose Bayern",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 14.98,
+     "amount": 14.98
+    },
+    {
+     "artNr": "228330",
+     "description": "DFE Sommergemüse TK 4x2,5kg",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 3.69,
+     "amount": 36.9
+    },
+    {
+     "artNr": "301469",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 4.45,
+     "amount": 111.25
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 18,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 124.56
+    },
+    {
+     "artNr": "510752",
+     "description": "AZF Mangopüree",
+     "qty": 6,
+     "packaging": "1x3000g",
+     "unitPrice": 19.25,
+     "amount": 115.5
+    }
+   ]
+  },
+  {
+   "date": "2026-07-05",
+   "invoiceNumber": "186156",
+   "deliveryDate": "2026-07-06",
+   "kundenNr": "18035",
+   "auftragNr": "165380",
+   "lieferscheinNr": "188750",
+   "netTotal": 457.74,
+   "pfand": 9.76,
+   "vat7": 30.66,
+   "vat19": 5.62,
+   "grossTotal": 503.78,
+   "weightKg": 131.7,
+   "lineItems": [
+    {
+     "artNr": "100612",
+     "description": "Großkartoffel gewaschen 12,5kg",
+     "qty": 1,
+     "packaging": "12,5kg",
+     "unitPrice": 1.0,
+     "amount": 12.5
+    },
+    {
+     "artNr": "130504",
+     "description": "L Koriander lose Bayern",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 14.98,
+     "amount": 14.98
+    },
+    {
+     "artNr": "201014",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "qty": 2,
+     "packaging": "5kg",
+     "unitPrice": 1.81,
+     "amount": 18.1
+    },
+    {
+     "artNr": "228330",
+     "description": "DFE Sommergemüse TK 4x2,5kg",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 3.69,
+     "amount": 36.9
+    },
+    {
+     "artNr": "229226",
+     "description": "DFE Knoblauch Würfel TK 4x4mm",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 10.89,
+     "amount": 108.9
+    },
+    {
+     "artNr": "301469",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 4.45,
+     "amount": 111.25
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 18,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 124.56
+    },
+    {
+     "artNr": "575138",
+     "description": "NEB Curcuma gemahlen",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 10.75,
+     "amount": 10.75
+    },
+    {
+     "artNr": "710610",
+     "description": "VOE Zitronensaft",
+     "qty": 1,
+     "packaging": "6x0,7l",
+     "unitPrice": 3.3,
+     "amount": 19.8
+    }
+   ]
+  },
+  {
+   "date": "2026-07-06",
+   "invoiceNumber": "187137",
+   "type": "Rechnungskorrektur",
+   "note": "Credit note — returns 10kg DFE Knoblauch Würfel TK from Rechnung 186156",
+   "deliveryDate": "2026-07-06",
+   "kundenNr": "18035",
+   "auftragNr": "165380",
+   "lieferscheinNr": "189722",
+   "netTotal": -108.9,
+   "vat7": -7.62,
+   "grossTotal": -116.52,
+   "lineItems": [
+    {
+     "artNr": "229226",
+     "description": "DFE Knoblauch Würfel TK 4x4mm (Rückgabe)",
+     "qty": -10,
+     "packaging": "1kg",
+     "unitPrice": 10.89,
+     "amount": -108.9
+    }
+   ]
+  },
+  {
+   "date": "2026-07-07",
+   "invoiceNumber": "188075",
+   "type": "Rechnung",
+   "deliveryDate": "2026-07-08",
+   "kundenNr": "18035",
+   "auftragNr": "166955",
+   "lieferscheinNr": "190800",
+   "netTotal": 520.05,
+   "vat7": 35.35,
+   "vat19": 2.87,
+   "grossTotal": 558.27,
+   "driveFileId": "1_ssFGZ-sVrh6jmAfOCtE-jSUxM-ggIGA",
+   "note": "Netto includes Pfand 15.08 (19%)",
+   "lineItems": [
+    {
+     "artNr": "100612",
+     "description": "Großkartoffel gewaschen BY",
+     "qty": 2,
+     "packaging": "12,5kg",
+     "unitPrice": 1.0,
+     "amount": 25.0
+    },
+    {
+     "artNr": "109061",
+     "description": "Zwiebeln rot 40/60 IT",
+     "qty": 1,
+     "packaging": "6kg",
+     "unitPrice": 2.15,
+     "amount": 12.9
+    },
+    {
+     "artNr": "109390",
+     "description": "Gemüsezwiebeln 80/100 ES",
+     "qty": 2,
+     "packaging": "10kg",
+     "unitPrice": 1.59,
+     "amount": 31.8
+    },
+    {
+     "artNr": "130504",
+     "description": "Koriander lose Bayern",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 14.98,
+     "amount": 14.98
+    },
+    {
+     "artNr": "141040",
+     "description": "Strauchtomaten ES",
+     "qty": 1,
+     "packaging": "5kg",
+     "unitPrice": 3.6,
+     "amount": 18.0
+    },
+    {
+     "artNr": "201014",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "qty": 3,
+     "packaging": "5kg",
+     "unitPrice": 1.81,
+     "amount": 27.15
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 12,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 83.04
+    },
+    {
+     "artNr": "510752",
+     "description": "AZF Mangopüree",
+     "qty": 6,
+     "packaging": "1x3000g",
+     "unitPrice": 19.25,
+     "amount": 115.5
+    },
+    {
+     "artNr": "527796",
+     "description": "BVO Kokosmilch 22% Fett",
+     "qty": 4,
+     "packaging": "1x3100ml",
+     "unitPrice": 10.75,
+     "amount": 43.0
+    },
+    {
+     "artNr": "575138",
+     "description": "NEB Curcuma gemahlen",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 10.75,
+     "amount": 10.75
+    },
+    {
+     "artNr": "577453",
+     "description": "BRE Kumin gemahlen",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 33.3,
+     "amount": 33.3
+    },
+    {
+     "artNr": "577454",
+     "description": "BRE Kumin ganz",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 30.6,
+     "amount": 30.6
+    },
+    {
+     "artNr": "631061",
+     "description": "DAV Rohrohrzucker",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 1.92,
+     "amount": 48.0
+    },
+    {
+     "artNr": "902210",
+     "description": "NEB Koriander gemahlen",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 10.95,
+     "amount": 10.95
+    }
+   ]
+  },
+  {
+   "date": "2026-07-08",
+   "invoiceNumber": "189103",
+   "type": "Rechnung",
+   "deliveryDate": "2026-07-09",
+   "kundenNr": "18035",
+   "auftragNr": "167617",
+   "lieferscheinNr": "191923",
+   "netTotal": 385.06,
+   "vat7": 26.41,
+   "vat19": 1.47,
+   "grossTotal": 412.94,
+   "driveFileId": "1n1MUEgbOSAeZXv7Wo1jgbsGI2KeFoEKW",
+   "note": "Netto includes Pfand 7.72 (19%)",
+   "lineItems": [
+    {
+     "artNr": "100612",
+     "description": "Großkartoffel gewaschen BY",
+     "qty": 2,
+     "packaging": "12,5kg",
+     "unitPrice": 1.0,
+     "amount": 25.0
+    },
+    {
+     "artNr": "141040",
+     "description": "Strauchtomaten ES",
+     "qty": 1,
+     "packaging": "5kg",
+     "unitPrice": 3.6,
+     "amount": 18.0
+    },
+    {
+     "artNr": "228330",
+     "description": "DFE Sommergemüse TK 4x2,5kg",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 3.69,
+     "amount": 36.9
+    },
+    {
+     "artNr": "301469",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 4.45,
+     "amount": 111.25
+    },
+    {
+     "artNr": "322041",
+     "description": "lkm Weizenmehl Type 550",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 1.15,
+     "amount": 28.75
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 12,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 83.04
+    },
+    {
+     "artNr": "541242",
+     "description": "ÖMO Sonnenblumenöl high oleic Bratöl",
+     "qty": 2,
+     "packaging": "10l",
+     "unitPrice": 3.72,
+     "amount": 74.4
+    }
+   ]
+  },
+  {
+   "date": "2026-07-10",
+   "invoiceNumber": "190615",
+   "type": "Rechnung",
+   "deliveryDate": "2026-07-11",
+   "kundenNr": "18035",
+   "auftragNr": "168440",
+   "lieferscheinNr": "193415",
+   "netTotal": 697.82,
+   "vat7": 47.67,
+   "vat19": 3.2,
+   "grossTotal": 748.69,
+   "driveFileId": "1Jbn0BJWmT-d-m7_QeS5D0hC7vP2w3Ydu",
+   "note": "Netto includes Spitztüten 13.00 + Pfand 3.86 (19%)",
+   "lineItems": [
+    {
+     "artNr": "100612",
+     "description": "Großkartoffel gewaschen BY",
+     "qty": 1,
+     "packaging": "12,5kg",
+     "unitPrice": 1.0,
+     "amount": 12.5
+    },
+    {
+     "artNr": "201014",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "qty": 6,
+     "packaging": "5kg",
+     "unitPrice": 1.81,
+     "amount": 54.3
+    },
+    {
+     "artNr": "301469",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "qty": 2,
+     "packaging": "25kg",
+     "unitPrice": 4.45,
+     "amount": 222.5
+    },
+    {
+     "artNr": "322041",
+     "description": "lkm Weizenmehl Type 550",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 1.15,
+     "amount": 28.75
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 18,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 124.56
+    },
+    {
+     "artNr": "510752",
+     "description": "AZF Mangopüree",
+     "qty": 6,
+     "packaging": "1x3000g",
+     "unitPrice": 19.25,
+     "amount": 115.5
+    },
+    {
+     "artNr": "577453",
+     "description": "BRE Kumin gemahlen",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 33.3,
+     "amount": 33.3
+    },
+    {
+     "artNr": "577454",
+     "description": "BRE Kumin ganz",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 30.6,
+     "amount": 30.6
+    },
+    {
+     "artNr": "631061",
+     "description": "DAV Rohrohrzucker",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 1.92,
+     "amount": 48.0
+    },
+    {
+     "artNr": "902210",
+     "description": "NEB Koriander gemahlen",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 10.95,
+     "amount": 10.95
+    },
+    {
+     "artNr": "985617",
+     "description": "NPG Spitztüte klein braun 250St",
+     "qty": 2,
+     "packaging": "1x250St",
+     "unitPrice": 6.5,
+     "amount": 13.0
+    }
+   ]
+  },
+  {
+   "date": "2026-07-11",
+   "invoiceNumber": "190783",
+   "type": "Rechnung",
+   "deliveryDate": "2026-07-12",
+   "kundenNr": "18035",
+   "auftragNr": "168994",
+   "lieferscheinNr": "193546",
+   "netTotal": 209.02,
+   "vat7": 9.94,
+   "vat19": 12.73,
+   "grossTotal": 231.69,
+   "driveFileId": "1LFpSBwtmMy6MwhSSJrK3LKQwcllv3UVc",
+   "note": "Koriander nicht lieferbar; Netto includes Säfte 61.32 + Pfand 5.70 (19%)",
+   "lineItems": [
+    {
+     "artNr": "109390",
+     "description": "Gemüsezwiebeln 80/100 ES",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 1.69,
+     "amount": 16.9
+    },
+    {
+     "artNr": "130504",
+     "description": "Koriander lose Bayern (nicht lieferbar)",
+     "qty": 0,
+     "packaging": "1kg",
+     "unitPrice": 14.98,
+     "amount": 0.0
+    },
+    {
+     "artNr": "141090",
+     "description": "Romatomaten IT",
+     "qty": 1,
+     "packaging": "6kg",
+     "unitPrice": 2.3,
+     "amount": 13.8
+    },
+    {
+     "artNr": "228330",
+     "description": "DFE Sommergemüse TK 4x2,5kg",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 3.69,
+     "amount": 36.9
+    },
+    {
+     "artNr": "541242",
+     "description": "ÖMO Sonnenblumenöl high oleic Bratöl",
+     "qty": 2,
+     "packaging": "10l",
+     "unitPrice": 3.72,
+     "amount": 74.4
+    },
+    {
+     "artNr": "710610",
+     "description": "VOE Zitronensaft 6x0,7l",
+     "qty": 1,
+     "packaging": "6x0,7l",
+     "unitPrice": 3.3,
+     "amount": 19.8
+    },
+    {
+     "artNr": "712043",
+     "description": "VOE Ingwersaft 12x0,2l",
+     "qty": 1,
+     "packaging": "12x0,2l",
+     "unitPrice": 3.46,
+     "amount": 41.52
+    }
+   ]
+  },
+  {
+   "date": "2026-07-12",
+   "invoiceNumber": "191455",
+   "type": "Rechnung",
+   "deliveryDate": "2026-07-13",
+   "kundenNr": "18035",
+   "auftragNr": "169131",
+   "lieferscheinNr": "194270",
+   "netTotal": 120.72,
+   "vat7": 8.45,
+   "vat19": null,
+   "grossTotal": 129.17,
+   "driveFileId": "1LEqtOGhGw7Nn7iUHYKO6c67nzVTygU9S",
+   "lineItems": [
+    {
+     "artNr": "201014",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "qty": 4,
+     "packaging": "5kg",
+     "unitPrice": 1.81,
+     "amount": 36.2
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 6,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 41.52
+    },
+    {
+     "artNr": "527796",
+     "description": "BVO Kokosmilch 22% Fett",
+     "qty": 4,
+     "packaging": "1x3100ml",
+     "unitPrice": 10.75,
+     "amount": 43.0
+    }
+   ]
+  },
+  {
+   "date": "2026-07-13",
+   "invoiceNumber": "192368",
+   "type": "Rechnung",
+   "deliveryDate": "2026-07-14",
+   "kundenNr": "18035",
+   "auftragNr": "169979",
+   "lieferscheinNr": "195178",
+   "netTotal": 349.76,
+   "vat7": 24.48,
+   "vat19": null,
+   "grossTotal": 374.24,
+   "driveFileId": "1Wxp7mcopI8UpEbS-_PgygAJjUd5AxVZZ",
+   "lineItems": [
+    {
+     "artNr": "200340",
+     "description": "BGL H-Alpenmilch 3,5% Fett 12x1l",
+     "qty": 1,
+     "packaging": "12x1l",
+     "unitPrice": 1.33,
+     "amount": 15.96
+    },
+    {
+     "artNr": "228330",
+     "description": "DFE Sommergemüse TK 4x2,5kg",
+     "qty": 1,
+     "packaging": "10kg",
+     "unitPrice": 3.69,
+     "amount": 36.9
+    },
+    {
+     "artNr": "301469",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "qty": 2,
+     "packaging": "25kg",
+     "unitPrice": 4.45,
+     "amount": 222.5
+    },
+    {
+     "artNr": "541242",
+     "description": "ÖMO Sonnenblumenöl high oleic Bratöl",
+     "qty": 2,
+     "packaging": "10l",
+     "unitPrice": 3.72,
+     "amount": 74.4
+    }
+   ]
+  },
+  {
+   "date": "2026-07-13",
+   "invoiceNumber": "192369",
+   "type": "Rechnung",
+   "deliveryDate": "2026-07-14",
+   "kundenNr": "18035",
+   "auftragNr": "169976",
+   "lieferscheinNr": "195186",
+   "netTotal": 211.74,
+   "vat7": 14.82,
+   "vat19": null,
+   "grossTotal": 226.56,
+   "driveFileId": "1_cgFsPeqJcPtHBAT3wwO_piKTIUE6eBh",
+   "lineItems": [
+    {
+     "artNr": "141130",
+     "description": "Romatomaten ES",
+     "qty": 1,
+     "packaging": "6kg",
+     "unitPrice": 2.2,
+     "amount": 13.2
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 12,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 83.04
+    },
+    {
+     "artNr": "510752",
+     "description": "AZF Mangopüree",
+     "qty": 6,
+     "packaging": "1x3000g",
+     "unitPrice": 19.25,
+     "amount": 115.5
+    }
+   ]
+  },
+  {
+   "date": "2026-07-14",
+   "invoiceNumber": "193257",
+   "type": "Rechnung",
+   "deliveryDate": "2026-07-15",
+   "kundenNr": "18035",
+   "auftragNr": "170697",
+   "lieferscheinNr": "196143",
+   "netTotal": 86.77,
+   "vat7": 6.07,
+   "vat19": null,
+   "grossTotal": 92.84,
+   "driveFileId": "1dfPyNJppe7tuzSF3B_Qb5XRIguEg9ee0",
+   "note": "Großkartoffel nicht lieferbar",
+   "lineItems": [
+    {
+     "artNr": "100612",
+     "description": "Großkartoffel gewaschen BY (nicht lieferbar)",
+     "qty": 0,
+     "packaging": "12,5kg",
+     "unitPrice": 1.0,
+     "amount": 0.0
+    },
+    {
+     "artNr": "201014",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "qty": 5,
+     "packaging": "5kg",
+     "unitPrice": 1.81,
+     "amount": 45.25
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 6,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 41.52
+    }
+   ]
+  },
+  {
+   "date": "2026-07-15",
+   "invoiceNumber": "194131",
+   "type": "Rechnung",
+   "deliveryDate": "2026-07-16",
+   "kundenNr": "18035",
+   "auftragNr": "171318",
+   "lieferscheinNr": "197035",
+   "netTotal": 244.71,
+   "vat7": 16.59,
+   "vat19": 1.47,
+   "grossTotal": 262.77,
+   "driveFileId": "1DrUFabFc5zdmtMCO07nrNH_f7QaPKaWE",
+   "note": "Netto includes Pfand 7.72 (19%)",
+   "lineItems": [
+    {
+     "artNr": "100612",
+     "description": "Großkartoffel gewaschen BY",
+     "qty": 2,
+     "packaging": "12,5kg",
+     "unitPrice": 1.0,
+     "amount": 25.0
+    },
+    {
+     "artNr": "141130",
+     "description": "Romatomaten ES",
+     "qty": 2,
+     "packaging": "6kg",
+     "unitPrice": 2.15,
+     "amount": 25.8
+    },
+    {
+     "artNr": "322041",
+     "description": "lkm Weizenmehl Type 550",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 1.15,
+     "amount": 28.75
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 12,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 83.04
+    },
+    {
+     "artNr": "541242",
+     "description": "ÖMO Sonnenblumenöl high oleic Bratöl",
+     "qty": 2,
+     "packaging": "10l",
+     "unitPrice": 3.72,
+     "amount": 74.4
+    }
+   ]
+  }
+ ],
+ "totalNetSpend": 9350.41,
+ "latestInvoiceDate": "2026-07-15"
 }
