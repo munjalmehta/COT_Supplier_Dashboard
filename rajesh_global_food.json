@@ -1,1101 +1,1341 @@
 {
-  "supplier": "Rajesh Global Food",
-  "lastUpdated": "2026-06-28",
-  "invoiceCount": 13,
-  "invoices": [
+ "supplier": "Rajesh Global Food",
+ "lastUpdated": "2026-07-16",
+ "invoiceCount": 15,
+ "invoices": [
+  {
+   "invoiceNo": "INV/2026/02447",
+   "date": "2026-06-16",
+   "dueDate": "2026-06-30",
+   "deliveryDate": "2026-06-16",
+   "netTotal": 549.24,
+   "vat7": 18.71,
+   "vat19": 53.58,
+   "grossTotal": 621.53,
+   "driveFileId": "18gStjAfmIbogkpR7JvkwK0Z3meZghyMu",
+   "lineItems": [
     {
-      "invoiceNo": "INV/2026/02447",
-      "date": "2026-06-16",
-      "dueDate": "2026-06-30",
-      "deliveryDate": "2026-06-16",
-      "netTotal": 549.24,
-      "vat7": 18.71,
-      "vat19": 53.58,
-      "grossTotal": 621.53,
-      "driveFileId": "18gStjAfmIbogkpR7JvkwK0Z3meZghyMu",
-      "lineItems": [
-        {
-          "sku": "RFR-016",
-          "description": "IGLO Rahmspinat Potionierbar 8x 750g",
-          "qty": 5.0,
-          "unit": "Ktn",
-          "unitPrice": 19.92,
-          "vat": 7,
-          "amount": 99.6
-        },
-        {
-          "sku": "GP-021",
-          "description": "GP 500ml Suppenbecher (rot) 16 oz incl. Deckel - 500 Stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 83.99,
-          "vat": 19,
-          "amount": 83.99
-        },
-        {
-          "sku": "GP-028",
-          "description": "GP 245 cm x 250cm Siegelfolie 1 Rolle",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 55.0,
-          "vat": 19,
-          "amount": 55.0
-        },
-        {
-          "sku": "GP-001",
-          "description": "GP Trinkflasche 500ml - 145 stk/Karton",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 59.99,
-          "vat": 19,
-          "amount": 59.99
-        },
-        {
-          "sku": "Dose-006",
-          "description": "Mazza Peeled Tomato 2.5kg [2.5kg X 6]",
-          "qty": 5.0,
-          "unit": "Ktn",
-          "unitPrice": 18.54,
-          "vat": 7,
-          "amount": 92.7
-        },
-        {
-          "sku": "RG-014",
-          "description": "Rasanand Kesar Mango Pulp [850gm X 12]",
-          "qty": 3.0,
-          "unit": "Ktn",
-          "unitPrice": 24.99,
-          "vat": 7,
-          "amount": 74.97
-        },
-        {
-          "sku": "GP-077",
-          "description": "GP 330ml Trinkflasche/Bottle incl. Deckel - 205 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 82.99,
-          "vat": 19,
-          "amount": 82.99
-        }
-      ]
+     "sku": "RFR-016",
+     "description": "IGLO Rahmspinat Potionierbar 8x 750g",
+     "qty": 5.0,
+     "unit": "Ktn",
+     "unitPrice": 19.92,
+     "vat": 7,
+     "amount": 99.6
     },
     {
-      "invoiceNo": "INV/2026/02273",
-      "date": "2026-06-09",
-      "dueDate": "2026-06-23",
-      "deliveryDate": "2026-06-09",
-      "netTotal": 326.77,
-      "vat7": 7.93,
-      "vat19": 40.55,
-      "grossTotal": 375.25,
-      "driveFileId": "1MECPz-dFG6xCFg8ohvGvz1nxykepMphZ",
-      "note": "Duplicate copy of this invoice also exists as driveFileId 1sqbMbcJQJmGYTW0PsKcJBKgaHdW2JqfU (RE/total mismatch: that copy's listed total was 402.52 - manual verification flagged)",
-      "lineItems": [
-        {
-          "sku": "GP-053",
-          "description": "GP 603 Siegelschale 200 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 55.99,
-          "vat": 19,
-          "amount": 55.99
-        },
-        {
-          "sku": "GP-024",
-          "description": "GP 613 Siegelschale-2-geteilt 600 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 97.99,
-          "vat": 19,
-          "amount": 97.99
-        },
-        {
-          "sku": "GP-034",
-          "description": "GP 30ml Rund Verpackungsbecher incl. Deckel-500 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 14.49,
-          "vat": 19,
-          "amount": 14.49
-        },
-        {
-          "sku": "GP-055",
-          "description": "GP 45cm X 100m Alufolie-4 Stk/krn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 44.96,
-          "vat": 19,
-          "amount": 44.96
-        },
-        {
-          "sku": "RFR-016",
-          "description": "IGLO Rahmspinat Potionierbar 8x 750g",
-          "qty": 2.0,
-          "unit": "Ktn",
-          "unitPrice": 20.72,
-          "vat": 7,
-          "amount": 41.44
-        },
-        {
-          "sku": "RFR-009",
-          "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 28.99,
-          "vat": 7,
-          "amount": 28.99
-        },
-        {
-          "sku": "RFR-007",
-          "description": "Frozen Belami Erbsen Fein 2.5Kg - Green Peas [2.5KgX4]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 26.0,
-          "vat": 7,
-          "amount": 26.0
-        },
-        {
-          "sku": "37001",
-          "description": "Heera Gram Flour (80) [6 X 2Kg]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 23.34,
-          "vat": 7,
-          "amount": 23.34
-        },
-        {
-          "sku": "RG-312",
-          "description": "Maggi Klare Gemuesebruehe 900g [900g X 6]",
-          "qty": 2.0,
-          "unit": "Pack6",
-          "unitPrice": 9.99,
-          "vat": 7,
-          "amount": 19.98
-        },
-        {
-          "sku": "RG-067",
-          "description": "AJINOMOTO Glutamate 453g [20 X 453g]",
-          "qty": 5.0,
-          "unit": "Pack20",
-          "unitPrice": 2.77,
-          "vat": 7,
-          "amount": 13.85
-        },
-        {
-          "sku": "F38",
-          "description": "DEEP FLOUR JUVAR [907gm X 20 Pack]",
-          "qty": 2.0,
-          "unit": "Pack20",
-          "unitPrice": 1.58,
-          "vat": 7,
-          "amount": 3.16
-        },
-        {
-          "sku": "F29",
-          "description": "DEEP FLOUR BAJRI 907g [20 X 907g]",
-          "qty": 2.0,
-          "unit": "Pack20",
-          "unitPrice": 1.53,
-          "vat": 7,
-          "amount": 3.06
-        },
-        {
-          "sku": "L42",
-          "description": "DEEP Kala Chana [907gm X 20 Pack]",
-          "qty": 2.0,
-          "unit": "Pack20",
-          "unitPrice": 1.92,
-          "vat": 7,
-          "amount": 3.84
-        },
-        {
-          "sku": "RG-131",
-          "description": "Cock Seedless Tamarind 454gm [50X 454G]",
-          "qty": 5.0,
-          "unit": "Pack50",
-          "unitPrice": 2.98,
-          "vat": 7,
-          "amount": 14.9
-        },
-        {
-          "sku": "RG-475",
-          "description": "Daawat Original Atta 10Kg [2 X 10Kg]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 13.8,
-          "vat": 7,
-          "amount": 13.8
-        },
-        {
-          "sku": "HEERA-013",
-          "description": "HEERA FENNEL SEEDS (SOUNF) 700G [6X700G]",
-          "qty": 3.0,
-          "unit": "Pack6",
-          "unitPrice": 7.155,
-          "vat": 7,
-          "amount": 21.47
-        },
-        {
-          "sku": "KAL01",
-          "description": "Kalyan Dry Bhel 500Gm [500gm X 20]",
-          "qty": -1.0,
-          "unit": "Ktn",
-          "unitPrice": 75.0,
-          "vat": 7,
-          "amount": -75.0
-        },
-        {
-          "sku": "RG-154",
-          "description": "Neeraj Mix Pickle 5kg [4 x 5kg]",
-          "qty": -3.0,
-          "unit": "Pack4",
-          "unitPrice": 8.4975,
-          "vat": 7,
-          "amount": -25.49
-        }
-      ]
+     "sku": "GP-021",
+     "description": "GP 500ml Suppenbecher (rot) 16 oz incl. Deckel - 500 Stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 83.99,
+     "vat": 19,
+     "amount": 83.99
     },
     {
-      "invoiceNo": "INV/2026/02074",
-      "date": "2026-05-29",
-      "dueDate": "2026-06-12",
-      "deliveryDate": "2026-05-29",
-      "netTotal": 446.42,
-      "vat7": 31.26,
-      "grossTotal": 477.68,
-      "driveFileId": "1Iu2EK6m1vyn_i9sCcPS0cBotTUtpybl4",
-      "lineItems": [
-        {
-          "sku": "MDH-021",
-          "description": "MDH Kitchen King 100gm [100gm X 10]",
-          "qty": 6.0,
-          "unit": "Stanga",
-          "unitPrice": 14.9,
-          "vat": 7,
-          "amount": 89.4
-        },
-        {
-          "sku": "NV014",
-          "description": "Lammkeule ohne Knochen Boneless",
-          "qty": 16.76,
-          "unit": "kg",
-          "unitPrice": 12.39,
-          "vat": 7,
-          "amount": 207.66
-        },
-        {
-          "sku": "RFR-009",
-          "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 28.99,
-          "vat": 7,
-          "amount": 28.99
-        },
-        {
-          "sku": "RFR-007",
-          "description": "Frozen Belami Erbsen Fein 2.5Kg - Green Peas [2.5KgX4]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 26.0,
-          "vat": 7,
-          "amount": 26.0
-        },
-        {
-          "sku": "RFR-003",
-          "description": "RG Ladi Paav [62gm X 60]-[10 pc in pack] - 60 pcs",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 26.99,
-          "vat": 7,
-          "amount": 26.99
-        },
-        {
-          "sku": "P86",
-          "description": "DEEP KHAMAN MIX [200gm X 30 Pack]",
-          "qty": 5.0,
-          "unit": "Pack30",
-          "unitPrice": 1.08,
-          "vat": 7,
-          "amount": 5.4
-        },
-        {
-          "sku": "RFR-016",
-          "description": "IGLO Rahmspinat Potionierbar 8x 750g",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 20.72,
-          "vat": 7,
-          "amount": 20.72
-        },
-        {
-          "sku": "RG-282",
-          "description": "Gits Gulab Jamun Mix 200gm [10 x 200gm]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 22.5,
-          "vat": 7,
-          "amount": 22.5
-        },
-        {
-          "sku": "RFR-008",
-          "description": "Frozen Belami Brechbohnen 2.5Kg - Beans [2.5KgX4]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 18.76,
-          "vat": 7,
-          "amount": 18.76
-        }
-      ]
+     "sku": "GP-028",
+     "description": "GP 245 cm x 250cm Siegelfolie 1 Rolle",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 55.0,
+     "vat": 19,
+     "amount": 55.0
     },
     {
-      "invoiceNo": "INV/2026/01967",
-      "date": "2026-05-22",
-      "dueDate": "2026-06-05",
-      "deliveryDate": "2026-05-22",
-      "netTotal": 356.55,
-      "vat7": 7.74,
-      "vat19": 46.74,
-      "grossTotal": 411.03,
-      "driveFileId": "1w1EwhU_Nkm4-SDLx_ChGrk9Sx8X3V0CL",
-      "lineItems": [
-        {
-          "sku": "GP-024",
-          "description": "GP 613 Siegelschale-2-geteilt 600 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 94.99,
-          "vat": 19,
-          "amount": 94.99
-        },
-        {
-          "sku": "GP-053",
-          "description": "GP 603 Siegelschale 200 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 43.99,
-          "vat": 19,
-          "amount": 43.99
-        },
-        {
-          "sku": "GP-055",
-          "description": "GP 45cm X 100m Alufolie-4 Stk/krn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 52.0,
-          "vat": 19,
-          "amount": 52.0
-        },
-        {
-          "sku": "GP-028",
-          "description": "GP 24,5cm x 250cm Siegelfolie 1 Rolle",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 54.99,
-          "vat": 19,
-          "amount": 54.99
-        },
-        {
-          "sku": "RG-154",
-          "description": "Neeraj Mix Pickle 5kg [4 x 5kg]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 33.99,
-          "vat": 7,
-          "amount": 33.99
-        },
-        {
-          "sku": "RFR-016",
-          "description": "IGLO Rahmspinat Potionierbar 8x 750g",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 19.92,
-          "vat": 7,
-          "amount": 19.92
-        },
-        {
-          "sku": "Dose-007",
-          "description": "Mazza Boiled ChickPeas 2.5kg [2.5kg X 6]",
-          "qty": 3.0,
-          "unit": "Ktn",
-          "unitPrice": 18.89,
-          "vat": 7,
-          "amount": 56.67
-        }
-      ]
+     "sku": "GP-001",
+     "description": "GP Trinkflasche 500ml - 145 stk/Karton",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 59.99,
+     "vat": 19,
+     "amount": 59.99
     },
     {
-      "invoiceNo": "INV/2026/01894",
-      "date": "2026-05-19",
-      "dueDate": "2026-06-02",
-      "deliveryDate": "2026-05-19",
-      "netTotal": 504.51,
-      "vat7": 35.34,
-      "grossTotal": 539.85,
-      "driveFileId": "1PZh__Pp5_i2I7BqTa2eI55tiBBotN8Pw",
-      "lineItems": [
-        {
-          "sku": "RG-014",
-          "description": "Rasanand Kesar Mango Pulp [850gm X 12]",
-          "qty": 4.0,
-          "unit": "Ktn",
-          "unitPrice": 26.28,
-          "vat": 7,
-          "amount": 105.12
-        },
-        {
-          "sku": "Dose-006",
-          "description": "Mazza Peeled Tomato 2.5kg [2.5kg X 6]",
-          "qty": 4.0,
-          "unit": "Ktn",
-          "unitPrice": 18.54,
-          "vat": 7,
-          "amount": 74.16
-        },
-        {
-          "sku": "DBR13",
-          "description": "DEEP BASMATI EXTRA LONG RICE - 18.14kg [1 X 18.14kg]",
-          "qty": 5.0,
-          "unit": "Ktn",
-          "unitPrice": 32.5,
-          "vat": 7,
-          "amount": 162.5
-        },
-        {
-          "sku": "P33",
-          "description": "DEEP MIXED PICKLE [740gm X 12 Pack]",
-          "qty": 1.0,
-          "unit": "Pack12",
-          "unitPrice": 3.27,
-          "vat": 7,
-          "amount": 3.27
-        },
-        {
-          "sku": "MDH-005",
-          "description": "MDH Kasuri Methi 1kg",
-          "qty": 3.0,
-          "unit": "Stanga",
-          "unitPrice": 15.5,
-          "vat": 7,
-          "amount": 46.5
-        },
-        {
-          "sku": "RG-067",
-          "description": "AJINOMOTO Glutamate 453g [20 X 453g]",
-          "qty": 2.0,
-          "unit": "Pack20",
-          "unitPrice": 2.77,
-          "vat": 7,
-          "amount": 5.54
-        },
-        {
-          "sku": "GR-006",
-          "description": "Jeeva Fried Onion 1kg [1kg X 10]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 55.9,
-          "vat": 7,
-          "amount": 55.9
-        },
-        {
-          "sku": "MDH-021",
-          "description": "MDH Kitchen King 100gm [100gm X 10]",
-          "qty": 2.0,
-          "unit": "Stanga",
-          "unitPrice": 14.9,
-          "vat": 7,
-          "amount": 29.8
-        },
-        {
-          "sku": "RFR-007",
-          "description": "Frozen Belami Erbsen Fein 2.5Kg - Green Peas [2.5KgX4]",
-          "qty": 1.0,
-          "unit": "Pack4",
-          "unitPrice": 6.5,
-          "vat": 7,
-          "amount": 6.5
-        },
-        {
-          "sku": "P110",
-          "description": "Deep TAMARIND DATE CHUTNEY 5Kg [4 X 5Kg]",
-          "qty": 1.0,
-          "unit": "Pack4",
-          "unitPrice": 15.22,
-          "vat": 7,
-          "amount": 15.22
-        }
-      ]
+     "sku": "Dose-006",
+     "description": "Mazza Peeled Tomato 2.5kg [2.5kg X 6]",
+     "qty": 5.0,
+     "unit": "Ktn",
+     "unitPrice": 18.54,
+     "vat": 7,
+     "amount": 92.7
     },
     {
-      "invoiceNo": "INV/2026/01887",
-      "date": "2026-05-13",
-      "dueDate": "2026-05-27",
-      "deliveryDate": "2026-05-13",
-      "netTotal": 417.63,
-      "vat7": 23.86,
-      "vat19": 14.61,
-      "grossTotal": 456.1,
-      "driveFileId": "1EbuQd1JAjhtFyVGLEBDvduCH4OBC8Nbi",
-      "lineItems": [
-        {
-          "sku": "RG-374",
-          "description": "Tavish Extra Long Basmati Rice 20Kg [1 X 20Kg]",
-          "qty": 5.0,
-          "unit": "Ktn",
-          "unitPrice": 35.99,
-          "vat": 7,
-          "amount": 179.95
-        },
-        {
-          "sku": "Dose-006",
-          "description": "Mazza Peeled Tomato 2.5kg [2.5kg X 6]",
-          "qty": 2.0,
-          "unit": "Ktn",
-          "unitPrice": 18.54,
-          "vat": 7,
-          "amount": 37.08
-        },
-        {
-          "sku": "GP-087",
-          "description": "GP Big White paper bag/Papier Tragetasche 33x22x27cm 250 Stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 41.99,
-          "vat": 19,
-          "amount": 41.99
-        },
-        {
-          "sku": "GP-117",
-          "description": "GP Müllbeutel 240L Typ60 100 stk",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 34.9,
-          "vat": 19,
-          "amount": 34.9
-        },
-        {
-          "sku": "RFR-016",
-          "description": "IGLO Rahmspinat Potionierbar 8x 750g",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 20.72,
-          "vat": 7,
-          "amount": 20.72
-        },
-        {
-          "sku": "RFR-009",
-          "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 27.99,
-          "vat": 7,
-          "amount": 27.99
-        },
-        {
-          "sku": "KAL01",
-          "description": "Kalyan Dry Bhel 500Gm [500gm X 20]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 75.0,
-          "vat": 7,
-          "amount": 75.0
-        }
-      ]
+     "sku": "RG-014",
+     "description": "Rasanand Kesar Mango Pulp [850gm X 12]",
+     "qty": 3.0,
+     "unit": "Ktn",
+     "unitPrice": 24.99,
+     "vat": 7,
+     "amount": 74.97
     },
     {
-      "invoiceNo": "INV/2026/01659",
-      "date": "2026-05-05",
-      "dueDate": "2026-05-19",
-      "deliveryDate": "2026-05-05",
-      "netTotal": 274.75,
-      "vat7": 10.42,
-      "vat19": 23.94,
-      "grossTotal": 309.11,
-      "driveFileId": "13K8RIIlDl6kdq3Tf5MPmqRDQWWa_TsJr",
-      "lineItems": [
-        {
-          "sku": "GP-053",
-          "description": "GP 603 Siegelschale 200 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 43.99,
-          "vat": 19,
-          "amount": 43.99
-        },
-        {
-          "sku": "RFR-009",
-          "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 28.99,
-          "vat": 7,
-          "amount": 28.99
-        },
-        {
-          "sku": "RFR-016",
-          "description": "IGLO Rahmspinat Potionierbar 8x 750g",
-          "qty": 2.0,
-          "unit": "Ktn",
-          "unitPrice": 19.92,
-          "vat": 7,
-          "amount": 39.84
-        },
-        {
-          "sku": "RG-014",
-          "description": "Rasanand Kesar Mango Pulp [850gm X 12]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 26.28,
-          "vat": 7,
-          "amount": 26.28
-        },
-        {
-          "sku": "RG-018",
-          "description": "Aashirvaad Chakki atta/Flour 10kg [10KG X 2]",
-          "qty": 1.0,
-          "unit": "Pack2",
-          "unitPrice": 13.99,
-          "vat": 7,
-          "amount": 13.99
-        },
-        {
-          "sku": "GP-077",
-          "description": "GP 330ml Trinkflasche/Bottle incl. Deckel-205 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 81.99,
-          "vat": 19,
-          "amount": 81.99
-        },
-        {
-          "sku": "03013",
-          "description": "Heera Ghee [12x1kg]",
-          "qty": 2.0,
-          "unit": "Pack12",
-          "unitPrice": 11.25,
-          "vat": 7,
-          "amount": 22.5
-        },
-        {
-          "sku": "RE-001",
-          "description": "Jodsalz/Salt 10kg [10kg X 1]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 8.99,
-          "vat": 7,
-          "amount": 8.99
-        },
-        {
-          "sku": "9151",
-          "description": "Heera Black Eye Beans [10 X 1Kg]",
-          "qty": 3.0,
-          "unit": "Pack10",
-          "unitPrice": 2.727,
-          "vat": 7,
-          "amount": 8.18
-        }
-      ]
-    },
-    {
-      "invoiceNo": "INV/2026/01546",
-      "date": "2026-04-29",
-      "dueDate": "2026-05-13",
-      "deliveryDate": "2026-04-29",
-      "netTotal": 508.7,
-      "vat7": 18.96,
-      "vat19": 45.22,
-      "grossTotal": 572.88,
-      "driveFileId": "1jWXQEXQB59Sa52b1GTxCW_7APWme_izK",
-      "lineItems": [
-        {
-          "sku": "RG-374",
-          "description": "Tavish Extra Long Basmati Rice 20Kg [1 X 20Kg]",
-          "qty": 5.0,
-          "unit": "Ktn",
-          "unitPrice": 35.99,
-          "vat": 7,
-          "amount": 179.95
-        },
-        {
-          "sku": "RG-312",
-          "description": "Maggi Klare Gemuesebruehe 900g [900g X 6]",
-          "qty": 2.0,
-          "unit": "Pack6",
-          "unitPrice": 10.98,
-          "vat": 7,
-          "amount": 21.96
-        },
-        {
-          "sku": "RG-090",
-          "description": "Annam Sona Masoori 10kg",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 13.9,
-          "vat": 7,
-          "amount": 13.9
-        },
-        {
-          "sku": "RFR-009",
-          "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
-          "qty": 5.0,
-          "unit": "Pack10",
-          "unitPrice": 2.99,
-          "vat": 7,
-          "amount": 14.95
-        },
-        {
-          "sku": "RG-137",
-          "description": "Kesar Fresh Mangoes [1 box X 6 pcs]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 13.99,
-          "vat": 7,
-          "amount": 13.99
-        },
-        {
-          "sku": "RFR-003",
-          "description": "RG Ladi Paav [62gm X 60]-[10 pc in pack] - 60 pcs",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 25.99,
-          "vat": 7,
-          "amount": 25.99
-        },
-        {
-          "sku": "GP-024",
-          "description": "GP 613 Siegelschale-2-geteilt 600 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 94.99,
-          "vat": 19,
-          "amount": 94.99
-        },
-        {
-          "sku": "GP-054",
-          "description": "GP 608 Siegelschale 500 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 73.99,
-          "vat": 19,
-          "amount": 73.99
-        },
-        {
-          "sku": "GP-034",
-          "description": "GP 30ml Rund Verpackungsbecher incl. Deckel-500 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 15.99,
-          "vat": 19,
-          "amount": 15.99
-        },
-        {
-          "sku": "GP-028",
-          "description": "GP 24,5cm x 250cm Siegelfolie 1 Rolle",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 52.99,
-          "vat": 19,
-          "amount": 52.99
-        }
-      ]
-    },
-    {
-      "invoiceNo": "INV/2026/01402",
-      "date": "2026-04-20",
-      "dueDate": "2026-05-04",
-      "deliveryDate": "2026-04-20",
-      "netTotal": 219.09,
-      "vat7": 15.34,
-      "grossTotal": 234.43,
-      "driveFileId": "16J2HRzcjCD0QptVY63wQ5htB5FS7veKU",
-      "lineItems": [
-        {
-          "sku": "RFR-016",
-          "description": "IGLO Rahmspinat Potionierbar 8x 750g",
-          "qty": 4.0,
-          "unit": "Ktn",
-          "unitPrice": 21.52,
-          "vat": 7,
-          "amount": 86.08
-        },
-        {
-          "sku": "GR-006",
-          "description": "Jeeva Fried Onion 1kg [1kg X 10]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 55.9,
-          "vat": 7,
-          "amount": 55.9
-        },
-        {
-          "sku": "RG-330",
-          "description": "Wagh Bakri Premium Tea Jar 450g [12 X 450g]",
-          "qty": 4.0,
-          "unit": "Pack12",
-          "unitPrice": 5.39,
-          "vat": 7,
-          "amount": 21.56
-        },
-        {
-          "sku": "RG-067",
-          "description": "AJINOMOTO Glutamate 453g [20 X 453g]",
-          "qty": 4.0,
-          "unit": "Pack20",
-          "unitPrice": 2.77,
-          "vat": 7,
-          "amount": 11.08
-        },
-        {
-          "sku": "RG-014",
-          "description": "Rasanand Kesar Mango Pulp [850gm X 12]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 27.48,
-          "vat": 7,
-          "amount": 27.48
-        },
-        {
-          "sku": "FL-003",
-          "description": "Ziegenhaus Maida type 405 - 25Kg",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 16.99,
-          "vat": 7,
-          "amount": 16.99
-        }
-      ]
-    },
-    {
-      "invoiceNo": "INV/2026/01298",
-      "date": "2026-04-16",
-      "dueDate": "2026-04-30",
-      "deliveryDate": "2026-04-16",
-      "netTotal": 381.93,
-      "vat7": 25.44,
-      "vat19": 3.53,
-      "grossTotal": 410.9,
-      "driveFileId": "1_l6PMfu3imH64GpvOGmM8Z0mNssuDWA8",
-      "lineItems": [
-        {
-          "sku": "RG-374",
-          "description": "Tavish Extra Long Basmati Rice 20Kg [1 X 20Kg]",
-          "qty": 5.0,
-          "unit": "Ktn",
-          "unitPrice": 35.99,
-          "vat": 7,
-          "amount": 179.95
-        },
-        {
-          "sku": "TRS-022",
-          "description": "Trs Gram Flour 2Kg [6 x 2Kg]",
-          "qty": 2.0,
-          "unit": "Ktn",
-          "unitPrice": 27.99,
-          "vat": 7,
-          "amount": 55.98
-        },
-        {
-          "sku": "HEERA-015",
-          "description": "Heera Cornflour [12 X 500G]",
-          "qty": 2.0,
-          "unit": "Ktn",
-          "unitPrice": 34.98,
-          "vat": 7,
-          "amount": 69.96
-        },
-        {
-          "sku": "NV003",
-          "description": "Riesengarnelen 8/12 White [10 x 1Kg/Ktn] Simply White 25% 16kt",
-          "qty": 5.0,
-          "unit": "kg",
-          "unitPrice": 11.49,
-          "vat": 7,
-          "amount": 57.45
-        },
-        {
-          "sku": "RG-005",
-          "description": "Rubicon Mango Saft 1 Lt [1 Lt X12]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 18.59,
-          "vat": 19,
-          "amount": 18.59
-        }
-      ]
-    },
-    {
-      "invoiceNo": "INV/2026/01292",
-      "date": "2026-04-14",
-      "dueDate": "2026-04-28",
-      "deliveryDate": "2026-04-14",
-      "netTotal": 207.48,
-      "vat7": 3.26,
-      "vat19": 30.59,
-      "grossTotal": 241.33,
-      "driveFileId": "1k0YeGmog14fMgVXHOYK76SjXS9QEkBGX",
-      "lineItems": [
-        {
-          "sku": "GP-047",
-          "description": "GP 750ml Salatschale braun - 300 st/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 37.99,
-          "vat": 19,
-          "amount": 37.99
-        },
-        {
-          "sku": "GP-056",
-          "description": "GP 250ml PP Round Black Container 500 stk/ktn [50 X 10 pack]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 72.0,
-          "vat": 19,
-          "amount": 72.0
-        },
-        {
-          "sku": "GP-055",
-          "description": "GP 45cm X 100m Alufolie-4 Stk/krn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 50.99,
-          "vat": 19,
-          "amount": 50.99
-        },
-        {
-          "sku": "MDH-005",
-          "description": "MDH Kasuri Methi 1kg",
-          "qty": 3.0,
-          "unit": "Stanga",
-          "unitPrice": 15.5,
-          "vat": 7,
-          "amount": 46.5
-        }
-      ]
-    },
-    {
-      "invoiceNo": "INV/2026/01265",
-      "date": "2026-04-13",
-      "dueDate": "2026-04-27",
-      "deliveryDate": "2026-04-13",
-      "netTotal": 331.93,
-      "vat7": 2.03,
-      "vat19": 57.57,
-      "grossTotal": 391.53,
-      "driveFileId": "1cSFVLMNnlOT902UJ6G4yscAZt0RyT4Kt",
-      "lineItems": [
-        {
-          "sku": "GP-024",
-          "description": "GP 613 Siegelschale-2-geteilt 600 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 86.99,
-          "vat": 19,
-          "amount": 86.99
-        },
-        {
-          "sku": "GP-098",
-          "description": "GP Deckel (PP) für Suppenbecher Airpac/Snack Ø115mm [600 St.]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 42.99,
-          "vat": 19,
-          "amount": 42.99
-        },
-        {
-          "sku": "GP-100",
-          "description": "GP Suppenbecher (XPP) Airpac weiß Ø115mm 350ml [600 St.]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 65.99,
-          "vat": 19,
-          "amount": 65.99
-        },
-        {
-          "sku": "GP-028",
-          "description": "GP 24,5cm x 250cm Siegelfolie 1 Rolle",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 49.99,
-          "vat": 19,
-          "amount": 49.99
-        },
-        {
-          "sku": "GP-034",
-          "description": "GP 30ml Rund Verpackungsbecher incl. Deckel-500 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 14.99,
-          "vat": 19,
-          "amount": 14.99
-        },
-        {
-          "sku": "GP-053",
-          "description": "GP 603 Siegelschale 200 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 41.99,
-          "vat": 19,
-          "amount": 41.99
-        },
-        {
-          "sku": "RFR-009",
-          "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 28.99,
-          "vat": 7,
-          "amount": 28.99
-        }
-      ]
-    },
-    {
-      "invoiceNo": "S05284",
-      "date": "2025-12-31",
-      "deliveryDate": null,
-      "netTotal": 185.76,
-      "vat7": 3.69,
-      "vat19": 25.27,
-      "grossTotal": 214.72,
-      "driveFileId": "1MyGKmFfoJ2Y4cw04WLRYxtuc_PddtxDP",
-      "note": "Sales order document (Order No. S05284), not a standard invoice - predates Jan 2026 scope, included for continuity",
-      "lineItems": [
-        {
-          "sku": "GP-028",
-          "description": "GP 24,5cm x 250cm Siegelfolie 1 Rolle",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 47.99,
-          "vat": 19,
-          "amount": 47.99
-        },
-        {
-          "sku": "GP-024",
-          "description": "GP 613 Siegelschale-2-geteilt 600 stk/ktn",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 84.99,
-          "vat": 19,
-          "amount": 84.99
-        },
-        {
-          "sku": "RFR-009",
-          "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
-          "qty": 1.0,
-          "unit": "Ktn",
-          "unitPrice": 28.9,
-          "vat": 7,
-          "amount": 28.9
-        },
-        {
-          "sku": "C9",
-          "description": "DEEP Kesar Mango Pulp [850gm X 6]",
-          "qty": 2.0,
-          "unit": "Ktn",
-          "unitPrice": 11.94,
-          "vat": 7,
-          "amount": 23.88
-        }
-      ]
+     "sku": "GP-077",
+     "description": "GP 330ml Trinkflasche/Bottle incl. Deckel - 205 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 82.99,
+     "vat": 19,
+     "amount": 82.99
     }
-  ]
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/02273",
+   "date": "2026-06-09",
+   "dueDate": "2026-06-23",
+   "deliveryDate": "2026-06-09",
+   "netTotal": 326.77,
+   "vat7": 7.93,
+   "vat19": 40.55,
+   "grossTotal": 375.25,
+   "driveFileId": "1MECPz-dFG6xCFg8ohvGvz1nxykepMphZ",
+   "note": "Duplicate copy of this invoice also exists as driveFileId 1sqbMbcJQJmGYTW0PsKcJBKgaHdW2JqfU (RE/total mismatch: that copy's listed total was 402.52 - manual verification flagged)",
+   "lineItems": [
+    {
+     "sku": "GP-053",
+     "description": "GP 603 Siegelschale 200 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 55.99,
+     "vat": 19,
+     "amount": 55.99
+    },
+    {
+     "sku": "GP-024",
+     "description": "GP 613 Siegelschale-2-geteilt 600 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 97.99,
+     "vat": 19,
+     "amount": 97.99
+    },
+    {
+     "sku": "GP-034",
+     "description": "GP 30ml Rund Verpackungsbecher incl. Deckel-500 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 14.49,
+     "vat": 19,
+     "amount": 14.49
+    },
+    {
+     "sku": "GP-055",
+     "description": "GP 45cm X 100m Alufolie-4 Stk/krn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 44.96,
+     "vat": 19,
+     "amount": 44.96
+    },
+    {
+     "sku": "RFR-016",
+     "description": "IGLO Rahmspinat Potionierbar 8x 750g",
+     "qty": 2.0,
+     "unit": "Ktn",
+     "unitPrice": 20.72,
+     "vat": 7,
+     "amount": 41.44
+    },
+    {
+     "sku": "RFR-009",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 28.99,
+     "vat": 7,
+     "amount": 28.99
+    },
+    {
+     "sku": "RFR-007",
+     "description": "Frozen Belami Erbsen Fein 2.5Kg - Green Peas [2.5KgX4]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 26.0,
+     "vat": 7,
+     "amount": 26.0
+    },
+    {
+     "sku": "37001",
+     "description": "Heera Gram Flour (80) [6 X 2Kg]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 23.34,
+     "vat": 7,
+     "amount": 23.34
+    },
+    {
+     "sku": "RG-312",
+     "description": "Maggi Klare Gemuesebruehe 900g [900g X 6]",
+     "qty": 2.0,
+     "unit": "Pack6",
+     "unitPrice": 9.99,
+     "vat": 7,
+     "amount": 19.98
+    },
+    {
+     "sku": "RG-067",
+     "description": "AJINOMOTO Glutamate 453g [20 X 453g]",
+     "qty": 5.0,
+     "unit": "Pack20",
+     "unitPrice": 2.77,
+     "vat": 7,
+     "amount": 13.85
+    },
+    {
+     "sku": "F38",
+     "description": "DEEP FLOUR JUVAR [907gm X 20 Pack]",
+     "qty": 2.0,
+     "unit": "Pack20",
+     "unitPrice": 1.58,
+     "vat": 7,
+     "amount": 3.16
+    },
+    {
+     "sku": "F29",
+     "description": "DEEP FLOUR BAJRI 907g [20 X 907g]",
+     "qty": 2.0,
+     "unit": "Pack20",
+     "unitPrice": 1.53,
+     "vat": 7,
+     "amount": 3.06
+    },
+    {
+     "sku": "L42",
+     "description": "DEEP Kala Chana [907gm X 20 Pack]",
+     "qty": 2.0,
+     "unit": "Pack20",
+     "unitPrice": 1.92,
+     "vat": 7,
+     "amount": 3.84
+    },
+    {
+     "sku": "RG-131",
+     "description": "Cock Seedless Tamarind 454gm [50X 454G]",
+     "qty": 5.0,
+     "unit": "Pack50",
+     "unitPrice": 2.98,
+     "vat": 7,
+     "amount": 14.9
+    },
+    {
+     "sku": "RG-475",
+     "description": "Daawat Original Atta 10Kg [2 X 10Kg]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 13.8,
+     "vat": 7,
+     "amount": 13.8
+    },
+    {
+     "sku": "HEERA-013",
+     "description": "HEERA FENNEL SEEDS (SOUNF) 700G [6X700G]",
+     "qty": 3.0,
+     "unit": "Pack6",
+     "unitPrice": 7.155,
+     "vat": 7,
+     "amount": 21.47
+    },
+    {
+     "sku": "KAL01",
+     "description": "Kalyan Dry Bhel 500Gm [500gm X 20]",
+     "qty": -1.0,
+     "unit": "Ktn",
+     "unitPrice": 75.0,
+     "vat": 7,
+     "amount": -75.0
+    },
+    {
+     "sku": "RG-154",
+     "description": "Neeraj Mix Pickle 5kg [4 x 5kg]",
+     "qty": -3.0,
+     "unit": "Pack4",
+     "unitPrice": 8.4975,
+     "vat": 7,
+     "amount": -25.49
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/02074",
+   "date": "2026-05-29",
+   "dueDate": "2026-06-12",
+   "deliveryDate": "2026-05-29",
+   "netTotal": 446.42,
+   "vat7": 31.26,
+   "grossTotal": 477.68,
+   "driveFileId": "1Iu2EK6m1vyn_i9sCcPS0cBotTUtpybl4",
+   "lineItems": [
+    {
+     "sku": "MDH-021",
+     "description": "MDH Kitchen King 100gm [100gm X 10]",
+     "qty": 6.0,
+     "unit": "Stanga",
+     "unitPrice": 14.9,
+     "vat": 7,
+     "amount": 89.4
+    },
+    {
+     "sku": "NV014",
+     "description": "Lammkeule ohne Knochen Boneless",
+     "qty": 16.76,
+     "unit": "kg",
+     "unitPrice": 12.39,
+     "vat": 7,
+     "amount": 207.66
+    },
+    {
+     "sku": "RFR-009",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 28.99,
+     "vat": 7,
+     "amount": 28.99
+    },
+    {
+     "sku": "RFR-007",
+     "description": "Frozen Belami Erbsen Fein 2.5Kg - Green Peas [2.5KgX4]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 26.0,
+     "vat": 7,
+     "amount": 26.0
+    },
+    {
+     "sku": "RFR-003",
+     "description": "RG Ladi Paav [62gm X 60]-[10 pc in pack] - 60 pcs",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 26.99,
+     "vat": 7,
+     "amount": 26.99
+    },
+    {
+     "sku": "P86",
+     "description": "DEEP KHAMAN MIX [200gm X 30 Pack]",
+     "qty": 5.0,
+     "unit": "Pack30",
+     "unitPrice": 1.08,
+     "vat": 7,
+     "amount": 5.4
+    },
+    {
+     "sku": "RFR-016",
+     "description": "IGLO Rahmspinat Potionierbar 8x 750g",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 20.72,
+     "vat": 7,
+     "amount": 20.72
+    },
+    {
+     "sku": "RG-282",
+     "description": "Gits Gulab Jamun Mix 200gm [10 x 200gm]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 22.5,
+     "vat": 7,
+     "amount": 22.5
+    },
+    {
+     "sku": "RFR-008",
+     "description": "Frozen Belami Brechbohnen 2.5Kg - Beans [2.5KgX4]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 18.76,
+     "vat": 7,
+     "amount": 18.76
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/01967",
+   "date": "2026-05-22",
+   "dueDate": "2026-06-05",
+   "deliveryDate": "2026-05-22",
+   "netTotal": 356.55,
+   "vat7": 7.74,
+   "vat19": 46.74,
+   "grossTotal": 411.03,
+   "driveFileId": "1w1EwhU_Nkm4-SDLx_ChGrk9Sx8X3V0CL",
+   "lineItems": [
+    {
+     "sku": "GP-024",
+     "description": "GP 613 Siegelschale-2-geteilt 600 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 94.99,
+     "vat": 19,
+     "amount": 94.99
+    },
+    {
+     "sku": "GP-053",
+     "description": "GP 603 Siegelschale 200 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 43.99,
+     "vat": 19,
+     "amount": 43.99
+    },
+    {
+     "sku": "GP-055",
+     "description": "GP 45cm X 100m Alufolie-4 Stk/krn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 52.0,
+     "vat": 19,
+     "amount": 52.0
+    },
+    {
+     "sku": "GP-028",
+     "description": "GP 24,5cm x 250cm Siegelfolie 1 Rolle",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 54.99,
+     "vat": 19,
+     "amount": 54.99
+    },
+    {
+     "sku": "RG-154",
+     "description": "Neeraj Mix Pickle 5kg [4 x 5kg]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 33.99,
+     "vat": 7,
+     "amount": 33.99
+    },
+    {
+     "sku": "RFR-016",
+     "description": "IGLO Rahmspinat Potionierbar 8x 750g",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 19.92,
+     "vat": 7,
+     "amount": 19.92
+    },
+    {
+     "sku": "Dose-007",
+     "description": "Mazza Boiled ChickPeas 2.5kg [2.5kg X 6]",
+     "qty": 3.0,
+     "unit": "Ktn",
+     "unitPrice": 18.89,
+     "vat": 7,
+     "amount": 56.67
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/01894",
+   "date": "2026-05-19",
+   "dueDate": "2026-06-02",
+   "deliveryDate": "2026-05-19",
+   "netTotal": 504.51,
+   "vat7": 35.34,
+   "grossTotal": 539.85,
+   "driveFileId": "1PZh__Pp5_i2I7BqTa2eI55tiBBotN8Pw",
+   "lineItems": [
+    {
+     "sku": "RG-014",
+     "description": "Rasanand Kesar Mango Pulp [850gm X 12]",
+     "qty": 4.0,
+     "unit": "Ktn",
+     "unitPrice": 26.28,
+     "vat": 7,
+     "amount": 105.12
+    },
+    {
+     "sku": "Dose-006",
+     "description": "Mazza Peeled Tomato 2.5kg [2.5kg X 6]",
+     "qty": 4.0,
+     "unit": "Ktn",
+     "unitPrice": 18.54,
+     "vat": 7,
+     "amount": 74.16
+    },
+    {
+     "sku": "DBR13",
+     "description": "DEEP BASMATI EXTRA LONG RICE - 18.14kg [1 X 18.14kg]",
+     "qty": 5.0,
+     "unit": "Ktn",
+     "unitPrice": 32.5,
+     "vat": 7,
+     "amount": 162.5
+    },
+    {
+     "sku": "P33",
+     "description": "DEEP MIXED PICKLE [740gm X 12 Pack]",
+     "qty": 1.0,
+     "unit": "Pack12",
+     "unitPrice": 3.27,
+     "vat": 7,
+     "amount": 3.27
+    },
+    {
+     "sku": "MDH-005",
+     "description": "MDH Kasuri Methi 1kg",
+     "qty": 3.0,
+     "unit": "Stanga",
+     "unitPrice": 15.5,
+     "vat": 7,
+     "amount": 46.5
+    },
+    {
+     "sku": "RG-067",
+     "description": "AJINOMOTO Glutamate 453g [20 X 453g]",
+     "qty": 2.0,
+     "unit": "Pack20",
+     "unitPrice": 2.77,
+     "vat": 7,
+     "amount": 5.54
+    },
+    {
+     "sku": "GR-006",
+     "description": "Jeeva Fried Onion 1kg [1kg X 10]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 55.9,
+     "vat": 7,
+     "amount": 55.9
+    },
+    {
+     "sku": "MDH-021",
+     "description": "MDH Kitchen King 100gm [100gm X 10]",
+     "qty": 2.0,
+     "unit": "Stanga",
+     "unitPrice": 14.9,
+     "vat": 7,
+     "amount": 29.8
+    },
+    {
+     "sku": "RFR-007",
+     "description": "Frozen Belami Erbsen Fein 2.5Kg - Green Peas [2.5KgX4]",
+     "qty": 1.0,
+     "unit": "Pack4",
+     "unitPrice": 6.5,
+     "vat": 7,
+     "amount": 6.5
+    },
+    {
+     "sku": "P110",
+     "description": "Deep TAMARIND DATE CHUTNEY 5Kg [4 X 5Kg]",
+     "qty": 1.0,
+     "unit": "Pack4",
+     "unitPrice": 15.22,
+     "vat": 7,
+     "amount": 15.22
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/01887",
+   "date": "2026-05-13",
+   "dueDate": "2026-05-27",
+   "deliveryDate": "2026-05-13",
+   "netTotal": 417.63,
+   "vat7": 23.86,
+   "vat19": 14.61,
+   "grossTotal": 456.1,
+   "driveFileId": "1EbuQd1JAjhtFyVGLEBDvduCH4OBC8Nbi",
+   "lineItems": [
+    {
+     "sku": "RG-374",
+     "description": "Tavish Extra Long Basmati Rice 20Kg [1 X 20Kg]",
+     "qty": 5.0,
+     "unit": "Ktn",
+     "unitPrice": 35.99,
+     "vat": 7,
+     "amount": 179.95
+    },
+    {
+     "sku": "Dose-006",
+     "description": "Mazza Peeled Tomato 2.5kg [2.5kg X 6]",
+     "qty": 2.0,
+     "unit": "Ktn",
+     "unitPrice": 18.54,
+     "vat": 7,
+     "amount": 37.08
+    },
+    {
+     "sku": "GP-087",
+     "description": "GP Big White paper bag/Papier Tragetasche 33x22x27cm 250 Stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 41.99,
+     "vat": 19,
+     "amount": 41.99
+    },
+    {
+     "sku": "GP-117",
+     "description": "GP Müllbeutel 240L Typ60 100 stk",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 34.9,
+     "vat": 19,
+     "amount": 34.9
+    },
+    {
+     "sku": "RFR-016",
+     "description": "IGLO Rahmspinat Potionierbar 8x 750g",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 20.72,
+     "vat": 7,
+     "amount": 20.72
+    },
+    {
+     "sku": "RFR-009",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 27.99,
+     "vat": 7,
+     "amount": 27.99
+    },
+    {
+     "sku": "KAL01",
+     "description": "Kalyan Dry Bhel 500Gm [500gm X 20]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 75.0,
+     "vat": 7,
+     "amount": 75.0
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/01659",
+   "date": "2026-05-05",
+   "dueDate": "2026-05-19",
+   "deliveryDate": "2026-05-05",
+   "netTotal": 274.75,
+   "vat7": 10.42,
+   "vat19": 23.94,
+   "grossTotal": 309.11,
+   "driveFileId": "13K8RIIlDl6kdq3Tf5MPmqRDQWWa_TsJr",
+   "lineItems": [
+    {
+     "sku": "GP-053",
+     "description": "GP 603 Siegelschale 200 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 43.99,
+     "vat": 19,
+     "amount": 43.99
+    },
+    {
+     "sku": "RFR-009",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 28.99,
+     "vat": 7,
+     "amount": 28.99
+    },
+    {
+     "sku": "RFR-016",
+     "description": "IGLO Rahmspinat Potionierbar 8x 750g",
+     "qty": 2.0,
+     "unit": "Ktn",
+     "unitPrice": 19.92,
+     "vat": 7,
+     "amount": 39.84
+    },
+    {
+     "sku": "RG-014",
+     "description": "Rasanand Kesar Mango Pulp [850gm X 12]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 26.28,
+     "vat": 7,
+     "amount": 26.28
+    },
+    {
+     "sku": "RG-018",
+     "description": "Aashirvaad Chakki atta/Flour 10kg [10KG X 2]",
+     "qty": 1.0,
+     "unit": "Pack2",
+     "unitPrice": 13.99,
+     "vat": 7,
+     "amount": 13.99
+    },
+    {
+     "sku": "GP-077",
+     "description": "GP 330ml Trinkflasche/Bottle incl. Deckel-205 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 81.99,
+     "vat": 19,
+     "amount": 81.99
+    },
+    {
+     "sku": "03013",
+     "description": "Heera Ghee [12x1kg]",
+     "qty": 2.0,
+     "unit": "Pack12",
+     "unitPrice": 11.25,
+     "vat": 7,
+     "amount": 22.5
+    },
+    {
+     "sku": "RE-001",
+     "description": "Jodsalz/Salt 10kg [10kg X 1]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 8.99,
+     "vat": 7,
+     "amount": 8.99
+    },
+    {
+     "sku": "9151",
+     "description": "Heera Black Eye Beans [10 X 1Kg]",
+     "qty": 3.0,
+     "unit": "Pack10",
+     "unitPrice": 2.727,
+     "vat": 7,
+     "amount": 8.18
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/01546",
+   "date": "2026-04-29",
+   "dueDate": "2026-05-13",
+   "deliveryDate": "2026-04-29",
+   "netTotal": 508.7,
+   "vat7": 18.96,
+   "vat19": 45.22,
+   "grossTotal": 572.88,
+   "driveFileId": "1jWXQEXQB59Sa52b1GTxCW_7APWme_izK",
+   "lineItems": [
+    {
+     "sku": "RG-374",
+     "description": "Tavish Extra Long Basmati Rice 20Kg [1 X 20Kg]",
+     "qty": 5.0,
+     "unit": "Ktn",
+     "unitPrice": 35.99,
+     "vat": 7,
+     "amount": 179.95
+    },
+    {
+     "sku": "RG-312",
+     "description": "Maggi Klare Gemuesebruehe 900g [900g X 6]",
+     "qty": 2.0,
+     "unit": "Pack6",
+     "unitPrice": 10.98,
+     "vat": 7,
+     "amount": 21.96
+    },
+    {
+     "sku": "RG-090",
+     "description": "Annam Sona Masoori 10kg",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 13.9,
+     "vat": 7,
+     "amount": 13.9
+    },
+    {
+     "sku": "RFR-009",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "qty": 5.0,
+     "unit": "Pack10",
+     "unitPrice": 2.99,
+     "vat": 7,
+     "amount": 14.95
+    },
+    {
+     "sku": "RG-137",
+     "description": "Kesar Fresh Mangoes [1 box X 6 pcs]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 13.99,
+     "vat": 7,
+     "amount": 13.99
+    },
+    {
+     "sku": "RFR-003",
+     "description": "RG Ladi Paav [62gm X 60]-[10 pc in pack] - 60 pcs",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 25.99,
+     "vat": 7,
+     "amount": 25.99
+    },
+    {
+     "sku": "GP-024",
+     "description": "GP 613 Siegelschale-2-geteilt 600 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 94.99,
+     "vat": 19,
+     "amount": 94.99
+    },
+    {
+     "sku": "GP-054",
+     "description": "GP 608 Siegelschale 500 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 73.99,
+     "vat": 19,
+     "amount": 73.99
+    },
+    {
+     "sku": "GP-034",
+     "description": "GP 30ml Rund Verpackungsbecher incl. Deckel-500 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 15.99,
+     "vat": 19,
+     "amount": 15.99
+    },
+    {
+     "sku": "GP-028",
+     "description": "GP 24,5cm x 250cm Siegelfolie 1 Rolle",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 52.99,
+     "vat": 19,
+     "amount": 52.99
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/01402",
+   "date": "2026-04-20",
+   "dueDate": "2026-05-04",
+   "deliveryDate": "2026-04-20",
+   "netTotal": 219.09,
+   "vat7": 15.34,
+   "grossTotal": 234.43,
+   "driveFileId": "16J2HRzcjCD0QptVY63wQ5htB5FS7veKU",
+   "lineItems": [
+    {
+     "sku": "RFR-016",
+     "description": "IGLO Rahmspinat Potionierbar 8x 750g",
+     "qty": 4.0,
+     "unit": "Ktn",
+     "unitPrice": 21.52,
+     "vat": 7,
+     "amount": 86.08
+    },
+    {
+     "sku": "GR-006",
+     "description": "Jeeva Fried Onion 1kg [1kg X 10]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 55.9,
+     "vat": 7,
+     "amount": 55.9
+    },
+    {
+     "sku": "RG-330",
+     "description": "Wagh Bakri Premium Tea Jar 450g [12 X 450g]",
+     "qty": 4.0,
+     "unit": "Pack12",
+     "unitPrice": 5.39,
+     "vat": 7,
+     "amount": 21.56
+    },
+    {
+     "sku": "RG-067",
+     "description": "AJINOMOTO Glutamate 453g [20 X 453g]",
+     "qty": 4.0,
+     "unit": "Pack20",
+     "unitPrice": 2.77,
+     "vat": 7,
+     "amount": 11.08
+    },
+    {
+     "sku": "RG-014",
+     "description": "Rasanand Kesar Mango Pulp [850gm X 12]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 27.48,
+     "vat": 7,
+     "amount": 27.48
+    },
+    {
+     "sku": "FL-003",
+     "description": "Ziegenhaus Maida type 405 - 25Kg",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 16.99,
+     "vat": 7,
+     "amount": 16.99
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/01298",
+   "date": "2026-04-16",
+   "dueDate": "2026-04-30",
+   "deliveryDate": "2026-04-16",
+   "netTotal": 381.93,
+   "vat7": 25.44,
+   "vat19": 3.53,
+   "grossTotal": 410.9,
+   "driveFileId": "1_l6PMfu3imH64GpvOGmM8Z0mNssuDWA8",
+   "lineItems": [
+    {
+     "sku": "RG-374",
+     "description": "Tavish Extra Long Basmati Rice 20Kg [1 X 20Kg]",
+     "qty": 5.0,
+     "unit": "Ktn",
+     "unitPrice": 35.99,
+     "vat": 7,
+     "amount": 179.95
+    },
+    {
+     "sku": "TRS-022",
+     "description": "Trs Gram Flour 2Kg [6 x 2Kg]",
+     "qty": 2.0,
+     "unit": "Ktn",
+     "unitPrice": 27.99,
+     "vat": 7,
+     "amount": 55.98
+    },
+    {
+     "sku": "HEERA-015",
+     "description": "Heera Cornflour [12 X 500G]",
+     "qty": 2.0,
+     "unit": "Ktn",
+     "unitPrice": 34.98,
+     "vat": 7,
+     "amount": 69.96
+    },
+    {
+     "sku": "NV003",
+     "description": "Riesengarnelen 8/12 White [10 x 1Kg/Ktn] Simply White 25% 16kt",
+     "qty": 5.0,
+     "unit": "kg",
+     "unitPrice": 11.49,
+     "vat": 7,
+     "amount": 57.45
+    },
+    {
+     "sku": "RG-005",
+     "description": "Rubicon Mango Saft 1 Lt [1 Lt X12]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 18.59,
+     "vat": 19,
+     "amount": 18.59
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/01292",
+   "date": "2026-04-14",
+   "dueDate": "2026-04-28",
+   "deliveryDate": "2026-04-14",
+   "netTotal": 207.48,
+   "vat7": 3.26,
+   "vat19": 30.59,
+   "grossTotal": 241.33,
+   "driveFileId": "1k0YeGmog14fMgVXHOYK76SjXS9QEkBGX",
+   "lineItems": [
+    {
+     "sku": "GP-047",
+     "description": "GP 750ml Salatschale braun - 300 st/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 37.99,
+     "vat": 19,
+     "amount": 37.99
+    },
+    {
+     "sku": "GP-056",
+     "description": "GP 250ml PP Round Black Container 500 stk/ktn [50 X 10 pack]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 72.0,
+     "vat": 19,
+     "amount": 72.0
+    },
+    {
+     "sku": "GP-055",
+     "description": "GP 45cm X 100m Alufolie-4 Stk/krn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 50.99,
+     "vat": 19,
+     "amount": 50.99
+    },
+    {
+     "sku": "MDH-005",
+     "description": "MDH Kasuri Methi 1kg",
+     "qty": 3.0,
+     "unit": "Stanga",
+     "unitPrice": 15.5,
+     "vat": 7,
+     "amount": 46.5
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/01265",
+   "date": "2026-04-13",
+   "dueDate": "2026-04-27",
+   "deliveryDate": "2026-04-13",
+   "netTotal": 331.93,
+   "vat7": 2.03,
+   "vat19": 57.57,
+   "grossTotal": 391.53,
+   "driveFileId": "1cSFVLMNnlOT902UJ6G4yscAZt0RyT4Kt",
+   "lineItems": [
+    {
+     "sku": "GP-024",
+     "description": "GP 613 Siegelschale-2-geteilt 600 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 86.99,
+     "vat": 19,
+     "amount": 86.99
+    },
+    {
+     "sku": "GP-098",
+     "description": "GP Deckel (PP) für Suppenbecher Airpac/Snack Ø115mm [600 St.]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 42.99,
+     "vat": 19,
+     "amount": 42.99
+    },
+    {
+     "sku": "GP-100",
+     "description": "GP Suppenbecher (XPP) Airpac weiß Ø115mm 350ml [600 St.]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 65.99,
+     "vat": 19,
+     "amount": 65.99
+    },
+    {
+     "sku": "GP-028",
+     "description": "GP 24,5cm x 250cm Siegelfolie 1 Rolle",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 49.99,
+     "vat": 19,
+     "amount": 49.99
+    },
+    {
+     "sku": "GP-034",
+     "description": "GP 30ml Rund Verpackungsbecher incl. Deckel-500 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 14.99,
+     "vat": 19,
+     "amount": 14.99
+    },
+    {
+     "sku": "GP-053",
+     "description": "GP 603 Siegelschale 200 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 41.99,
+     "vat": 19,
+     "amount": 41.99
+    },
+    {
+     "sku": "RFR-009",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 28.99,
+     "vat": 7,
+     "amount": 28.99
+    }
+   ]
+  },
+  {
+   "invoiceNo": "S05284",
+   "date": "2025-12-31",
+   "deliveryDate": null,
+   "netTotal": 185.76,
+   "vat7": 3.69,
+   "vat19": 25.27,
+   "grossTotal": 214.72,
+   "driveFileId": "1MyGKmFfoJ2Y4cw04WLRYxtuc_PddtxDP",
+   "note": "Sales order document (Order No. S05284), not a standard invoice - predates Jan 2026 scope, included for continuity",
+   "lineItems": [
+    {
+     "sku": "GP-028",
+     "description": "GP 24,5cm x 250cm Siegelfolie 1 Rolle",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 47.99,
+     "vat": 19,
+     "amount": 47.99
+    },
+    {
+     "sku": "GP-024",
+     "description": "GP 613 Siegelschale-2-geteilt 600 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 84.99,
+     "vat": 19,
+     "amount": 84.99
+    },
+    {
+     "sku": "RFR-009",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 28.9,
+     "vat": 7,
+     "amount": 28.9
+    },
+    {
+     "sku": "C9",
+     "description": "DEEP Kesar Mango Pulp [850gm X 6]",
+     "qty": 2.0,
+     "unit": "Ktn",
+     "unitPrice": 11.94,
+     "vat": 7,
+     "amount": 23.88
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/02658",
+   "date": "2026-07-02",
+   "deliveryDate": "2026-07-02",
+   "netTotal": 363.64,
+   "vat7": 22.52,
+   "vat19": 7.98,
+   "grossTotal": 394.14,
+   "driveFileId": "1ByuBJ5Xn7BfSvLIeIUsTRl0uya03B08h",
+   "lineItems": [
+    {
+     "sku": "RG-467",
+     "description": "DS Moong Dal Yellow 2Kg [6x2kg]",
+     "qty": 3,
+     "unit": "Pack6",
+     "unitPrice": 4.65,
+     "vat": 7,
+     "amount": 13.95
+    },
+    {
+     "sku": "TRS-119",
+     "description": "TRS Urid Dal 1kg [10x1kg]",
+     "qty": 6,
+     "unit": "Pack10",
+     "unitPrice": 3.69,
+     "vat": 7,
+     "amount": 22.14
+    },
+    {
+     "sku": "Dose-007",
+     "description": "Mazza Boiled ChickPeas 2.5kg [2.5kg x6]",
+     "qty": 3,
+     "unit": "Ktn",
+     "unitPrice": 18.89,
+     "vat": 7,
+     "amount": 56.67
+    },
+    {
+     "sku": "RFR-003",
+     "description": "RG Ladi Paav 62g x60",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 26.99,
+     "vat": 7,
+     "amount": 26.99
+    },
+    {
+     "sku": "GP-190",
+     "description": "GP 160l Müllbeutel Blue 100 Stk",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 41.99,
+     "vat": 19,
+     "amount": 41.99
+    },
+    {
+     "sku": "RG-638",
+     "description": "Lucullus Crispy Fried Onion 2.5kg [4x2.5kg]",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 56.99,
+     "vat": 7,
+     "amount": 56.99
+    },
+    {
+     "sku": "RFR-016",
+     "description": "IGLO Rahmspinat portionierbar 8x750g",
+     "qty": 3,
+     "unit": "Ktn",
+     "unitPrice": 19.92,
+     "vat": 7,
+     "amount": 59.76
+    },
+    {
+     "sku": "ETH036",
+     "description": "Ethnic Chat Puri 250g x30",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 60.48,
+     "vat": 7,
+     "amount": 60.48
+    },
+    {
+     "sku": "91",
+     "description": "DEEP Boondi Masala 283g x15",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 24.67,
+     "vat": 7,
+     "amount": 24.67
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/02807",
+   "date": "2026-07-05",
+   "deliveryDate": "2026-07-05",
+   "netTotal": 701.76,
+   "vat7": 20.71,
+   "vat19": 77.14,
+   "grossTotal": 799.61,
+   "driveFileId": "18zwtj5ivfYGL82Nla8OYD5CnQ2T5Hh35",
+   "lineItems": [
+    {
+     "sku": "Dose-006",
+     "description": "Mazza Peeled Tomato 2.5kg [2.5kg x6]",
+     "qty": 5,
+     "unit": "Ktn",
+     "unitPrice": 17.94,
+     "vat": 7,
+     "amount": 89.7
+    },
+    {
+     "sku": "RG-312",
+     "description": "Maggi Klare Gemüsebrühe 900g [900g x6]",
+     "qty": 2,
+     "unit": "Pack6",
+     "unitPrice": 10.98,
+     "vat": 7,
+     "amount": 21.96
+    },
+    {
+     "sku": "RFR-016",
+     "description": "IGLO Rahmspinat portionierbar 8x750g",
+     "qty": 2,
+     "unit": "Ktn",
+     "unitPrice": 19.92,
+     "vat": 7,
+     "amount": 39.84
+    },
+    {
+     "sku": "RG-554",
+     "description": "Laila Kesar Mango Pulp 850g [6x850g]",
+     "qty": 2,
+     "unit": "Ktn",
+     "unitPrice": 12.49,
+     "vat": 7,
+     "amount": 24.98
+    },
+    {
+     "sku": "GP-024",
+     "description": "GP 613 Siegelschale 2-geteilt 600 stk/ktn",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 96.99,
+     "vat": 19,
+     "amount": 96.99
+    },
+    {
+     "sku": "GP-054",
+     "description": "GP 608 Siegelschale 500 stk/ktn",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 86.99,
+     "vat": 19,
+     "amount": 86.99
+    },
+    {
+     "sku": "GP-053",
+     "description": "GP 603 Siegelschale 200 stk/ktn",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 55.99,
+     "vat": 19,
+     "amount": 55.99
+    },
+    {
+     "sku": "GP-028",
+     "description": "GP 24,5cm x 250cm Siegelfolie 1 Rolle",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 55.0,
+     "vat": 19,
+     "amount": 55.0
+    },
+    {
+     "sku": "GP-087",
+     "description": "GP Big White Papier Tragetasche 33x22x27cm 250 Stk",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 40.99,
+     "vat": 19,
+     "amount": 40.99
+    },
+    {
+     "sku": "GP-047",
+     "description": "GP 750ml Salatschale braun 300 st/ktn",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 39.99,
+     "vat": 19,
+     "amount": 39.99
+    },
+    {
+     "sku": "GP-048",
+     "description": "GP 750ml Deckel Salatschale braun 300 st/ktn",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 19.99,
+     "vat": 19,
+     "amount": 19.99
+    },
+    {
+     "sku": "RG-638",
+     "description": "Lucullus Crispy Fried Onion 2.5kg [4x2.5kg]",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 57.6,
+     "vat": 7,
+     "amount": 57.6
+    },
+    {
+     "sku": "RG-548",
+     "description": "Tomatenketchup 10kg",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 27.77,
+     "vat": 7,
+     "amount": 27.77
+    },
+    {
+     "sku": "RG-550",
+     "description": "Salat Mayonnaise 10kg 50%",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 33.99,
+     "vat": 7,
+     "amount": 33.99
+    },
+    {
+     "sku": "TRS-012",
+     "description": "TRS Deep Orange Food Colour [20x500g]",
+     "qty": 2,
+     "unit": "Pack20",
+     "unitPrice": 4.99,
+     "vat": 19,
+     "amount": 9.98
+    }
+   ]
+  }
+ ]
 }
