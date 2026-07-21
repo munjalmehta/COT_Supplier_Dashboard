@@ -1,7 +1,7 @@
 {
  "supplier": "Rajesh Global Food",
- "lastUpdated": "2026-07-16",
- "invoiceCount": 15,
+ "lastUpdated": "2026-07-21",
+ "invoiceCount": 16,
  "invoices": [
   {
    "invoiceNo": "INV/2026/02447",
@@ -1334,6 +1334,90 @@
      "unitPrice": 4.99,
      "vat": 19,
      "amount": 9.98
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/02870",
+   "date": "2026-07-14",
+   "deliveryDate": "2026-07-14",
+   "netTotal": 493.11,
+   "vat7": 35.57,
+   "vat19": -2.86,
+   "grossTotal": 525.82,
+   "driveFileId": "16N4ff1EtR2dsX9lFb2BtgQ-qv6eU221G",
+   "lineItems": [
+    {
+     "sku": "RG-648",
+     "description": "RG LP Cashew Broken 5Kg [4x5Kg]",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 118.99,
+     "vat": 7,
+     "amount": 118.99
+    },
+    {
+     "sku": "RG-085",
+     "description": "Badam Powder 1kg [6x1kg]",
+     "qty": 2,
+     "unit": "Pack6",
+     "unitPrice": 10.49,
+     "vat": 7,
+     "amount": 20.98
+    },
+    {
+     "sku": "91",
+     "description": "DEEP Boondi Masala 283g x15",
+     "qty": 2,
+     "unit": "Ktn",
+     "unitPrice": 24.67,
+     "vat": 7,
+     "amount": 49.34
+    },
+    {
+     "sku": "GP-055",
+     "description": "GP 45cm x 100m Alufolie 4 Stk/Ktn",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 44.96,
+     "vat": 19,
+     "amount": 44.96
+    },
+    {
+     "sku": "P110",
+     "description": "Deep Tamarind Date Chutney 5Kg [4x5Kg]",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 99.99,
+     "vat": 7,
+     "amount": 99.99
+    },
+    {
+     "sku": "C9",
+     "description": "DEEP Kesar Mango Pulp 850g x6",
+     "qty": 6,
+     "unit": "Ktn",
+     "unitPrice": 13.14,
+     "vat": 7,
+     "amount": 78.84
+    },
+    {
+     "sku": "RG-357",
+     "description": "Swad Imli Chutney/Tamarind & Dates Sauce 5Kg",
+     "qty": 1,
+     "unit": "Ktn",
+     "unitPrice": 140.0,
+     "vat": 7,
+     "amount": 140.0
+    },
+    {
+     "sku": "GP-001",
+     "description": "GP Trinkflasche 500ml 145 Stk/Ktn (RÜCKGABE)",
+     "qty": -1,
+     "unit": "Ktn",
+     "unitPrice": 59.99,
+     "vat": 19,
+     "amount": -59.99
     }
    ]
   }
