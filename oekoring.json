@@ -1,7 +1,7 @@
 {
  "supplier": "Ökoring",
- "lastUpdated": "2026-07-16",
- "invoiceCount": 24,
+ "lastUpdated": "2026-07-21",
+ "invoiceCount": 26,
  "note": "Supplier relationship began June 2026; ongoing weekly deliveries to Tollwood stand",
  "invoices": [
   {
@@ -1708,8 +1708,146 @@
      "amount": 74.4
     }
    ]
+  },
+  {
+   "date": "2026-07-16",
+   "invoiceNumber": "195227",
+   "type": "Rechnung",
+   "deliveryDate": "2026-07-17",
+   "kundenNr": "18035",
+   "auftragNr": "172007",
+   "lieferscheinNr": "198141",
+   "netTotal": 384.29,
+   "vat7": 24.86,
+   "vat19": 5.55,
+   "grossTotal": 414.7,
+   "driveFileId": "1r2KsMpGNCTSOw0aPmI1yfktoVqwOFo79",
+   "note": "Netto includes Pfand 9.40 (19%); Kumin gemahlen new price €25.80/kg",
+   "lineItems": [
+    {
+     "artNr": "100612",
+     "description": "Großkartoffel gewaschen BY",
+     "qty": 2,
+     "packaging": "12,5kg",
+     "unitPrice": 1.0,
+     "amount": 25.0
+    },
+    {
+     "artNr": "201014",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "qty": 4,
+     "packaging": "5kg",
+     "unitPrice": 1.81,
+     "amount": 36.2
+    },
+    {
+     "artNr": "228330",
+     "description": "DFE Sommergemüse TK 4x2,5kg",
+     "qty": 2,
+     "packaging": "10kg",
+     "unitPrice": 3.69,
+     "amount": 73.8
+    },
+    {
+     "artNr": "301469",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "qty": 1,
+     "packaging": "25kg",
+     "unitPrice": 4.45,
+     "amount": 111.25
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 12,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 83.04
+    },
+    {
+     "artNr": "574100",
+     "description": "NEB Kumin gemahlen (Kreuzkümmel)",
+     "qty": 1,
+     "packaging": "1kg",
+     "unitPrice": 25.8,
+     "amount": 25.8
+    },
+    {
+     "artNr": "710610",
+     "description": "VOE Zitronensaft 6x0,7l",
+     "qty": 1,
+     "packaging": "6x0,7l",
+     "unitPrice": 3.3,
+     "amount": 19.8
+    },
+    {
+     "artNr": "99003",
+     "description": "Pfand Träger + 6 Flaschen",
+     "qty": 1,
+     "packaging": "1",
+     "unitPrice": 2.4,
+     "amount": 2.4
+    },
+    {
+     "artNr": "99100",
+     "description": "IFCO Green/Black Lift Lock",
+     "qty": 2,
+     "packaging": "1",
+     "unitPrice": 3.5,
+     "amount": 7.0
+    }
+   ]
+  },
+  {
+   "date": "2026-07-18",
+   "invoiceNumber": "195726",
+   "type": "Rechnung",
+   "deliveryDate": "2026-07-19",
+   "kundenNr": "18035",
+   "auftragNr": "172783",
+   "lieferscheinNr": "198684",
+   "netTotal": 158.47,
+   "vat7": 10.82,
+   "vat19": 0.73,
+   "grossTotal": 170.02,
+   "driveFileId": "1VROmB7KA46d9pfMINz7tHVr_zx2W4Sic",
+   "note": "Last Tollwood delivery (19.07 = final day); Frühkartoffel at €1.68/kg",
+   "lineItems": [
+    {
+     "artNr": "100130",
+     "description": "BBS Frühkartoffel fk Paarta (Sorte Antonia)",
+     "qty": 1,
+     "packaging": "12,5kg",
+     "unitPrice": 1.68,
+     "amount": 21.0
+    },
+    {
+     "artNr": "201014",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "qty": 1,
+     "packaging": "5kg",
+     "unitPrice": 1.81,
+     "amount": 9.05
+    },
+    {
+     "artNr": "510704",
+     "description": "AZF Kichererbsen",
+     "qty": 18,
+     "packaging": "1x2500g",
+     "unitPrice": 6.92,
+     "amount": 124.56
+    },
+    {
+     "artNr": "99108",
+     "description": "Europool grüne Klappkiste (Pfand)",
+     "qty": 1,
+     "packaging": "1",
+     "unitPrice": 3.86,
+     "amount": 3.86
+    }
+   ]
   }
  ],
- "totalNetSpend": 9350.41,
- "latestInvoiceDate": "2026-07-15"
+ "totalNetSpend": 9893.17,
+ "latestInvoiceDate": "2026-07-18"
 }
