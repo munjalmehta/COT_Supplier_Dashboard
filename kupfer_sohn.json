@@ -1,7 +1,7 @@
 {
  "supplier": "Kupfer & Sohn",
- "lastUpdated": "2026-07-16",
- "invoiceCount": 57,
+ "lastUpdated": "2026-07-21",
+ "invoiceCount": 59,
  "note": "Document types include Rechnung (invoice) and Gutschrift (credit note/Stornorechng). Pfand/Leergut and packaging deposit line items (BGK, CF markers) excluded from lineItems below to focus on goods - see netTotal/grossTotal for full invoice value including deposits.",
  "invoices": [
   {
@@ -591,8 +591,99 @@
    "driveFileId": "1_wdbsRMHl3NpG4jnPCHcj3Bxvv8f9hkW",
    "summary": "H-Griechischer Joghurt 10% 5kg x6, Eissalat 10er x4, Karotten dick 10kg, Paprika tricolor 10x500g x2; Pfand geliefert/zurück gleicht sich aus",
    "_supplier": "Kupfer & Sohn"
+  },
+  {
+   "invoiceNo": "545429",
+   "date": "2026-07-17",
+   "deliveryDate": "2026-07-15",
+   "netTotal": 371.63,
+   "vat7": 25.51,
+   "vat19": 1.38,
+   "grossTotal": 398.52,
+   "driveFileId": "11NSg2IBrf8ZHCFNN3tfAF1CTH1XwDHC7",
+   "note": "Leergut nets to 0 (Europool/IFCO in=out except -3.50 Leerg.); Zitronensaft 6×1L@1.79 gross",
+   "_supplier": "Kupfer & Sohn",
+   "lineItems": [
+    {
+     "description": "Naturjoghurt mild 3,5% 5kg (BGL)",
+     "qty": 4,
+     "unit": "Eimer",
+     "unitPrice": 1.39,
+     "vat": 7,
+     "amount": 27.8
+    },
+    {
+     "description": "H-Küchensahne 30% 12×1L (Frischli)",
+     "qty": 2,
+     "unit": "Krt",
+     "unitPrice": 35.04,
+     "vat": 7,
+     "amount": 70.08
+    },
+    {
+     "description": "Zitronensaft 1L Tetra (Güldenkron)",
+     "qty": 6,
+     "unit": "Flasche",
+     "unitPrice": 1.79,
+     "vat": 19,
+     "amount": 10.74
+    },
+    {
+     "description": "H-Fettarme Milch 1,5% 12×1L",
+     "qty": 1,
+     "unit": "Krt",
+     "unitPrice": 8.76,
+     "vat": 7,
+     "amount": 8.76
+    },
+    {
+     "description": "Rapsöl 10L",
+     "qty": 5,
+     "unit": "Behälter",
+     "unitPrice": 13.99,
+     "vat": 7,
+     "amount": 69.95
+    },
+    {
+     "description": "Schältomaten Pelati 6×2650ml (La Perla Superiore)",
+     "qty": 10,
+     "unit": "Lage",
+     "unitPrice": 17.94,
+     "vat": 7,
+     "amount": 179.4
+    },
+    {
+     "description": "Eissalat 10er",
+     "qty": 1,
+     "unit": "Kolli",
+     "unitPrice": 8.4,
+     "vat": 7,
+     "amount": 8.4
+    }
+   ]
+  },
+  {
+   "invoiceNo": "545430",
+   "date": "2026-07-17",
+   "deliveryDate": "2026-07-16",
+   "netTotal": 105.0,
+   "vat7": 7.35,
+   "grossTotal": 112.35,
+   "driveFileId": "1Rypt55nLTC2fIVQXjflwvtYbwGKQBr5N",
+   "note": "Nachlieferung: Frischmilch für Paneer-Produktion",
+   "_supplier": "Kupfer & Sohn",
+   "lineItems": [
+    {
+     "description": "Frischmilch 3,5% 10L Eimer (BGL)",
+     "qty": 10,
+     "unit": "Eimer",
+     "unitPrice": 10.5,
+     "vat": 7,
+     "amount": 105.0
+    }
+   ]
   }
  ],
- "totalNetSpend": 10397.65,
- "latestInvoiceDate": "2026-07-15"
+ "totalNetSpend": 10874.28,
+ "latestInvoiceDate": "2026-07-17"
 }
