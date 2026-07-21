@@ -1,1346 +1,1462 @@
 {
-  "supplier": "Metro",
-  "lastUpdated": "2026-06-28",
-  "invoiceCount": 24,
-  "note": "Metro invoices are POS-style receipts (KOLLI/MENGE/GESAMT format). The 09.06.2026 invoice's total was confirmed via the payment terminal slip on page 3 of the source PDF.",
-  "invoices": [
-    {
-      "invoiceNo": "18.06.2026/041/0/0/0501/038114",
-      "date": "2026-06-18",
-      "store": "München-Pasing",
-      "netTotal": 543.38,
-      "vat19": 81.45,
-      "vat7": 7.19,
-      "vatLeergut19": 2.28,
-      "grossTotal": 634.3,
-      "driveFileId": "1n51MpwhaaKHqpagJT6Efxw0aMlR0IKQF",
-      "summary": "MPRO Stabmixer, Besteck, Brennpaste, MC Wraps, Getränke (Coca Cola, Fanta), ARO Spülmittel, Tork Tuch, Aviko Tiefkühl-Pommes"
+ "supplier": "Metro",
+ "lastUpdated": "2026-07-21",
+ "invoiceCount": 25,
+ "note": "Metro invoices are POS-style receipts (KOLLI/MENGE/GESAMT format). The 09.06.2026 invoice's total was confirmed via the payment terminal slip on page 3 of the source PDF.",
+ "invoices": [
+  {
+   "invoiceNo": "18.06.2026/041/0/0/0501/038114",
+   "date": "2026-06-18",
+   "store": "München-Pasing",
+   "netTotal": 543.38,
+   "vat19": 81.45,
+   "vat7": 7.19,
+   "vatLeergut19": 2.28,
+   "grossTotal": 634.3,
+   "driveFileId": "1n51MpwhaaKHqpagJT6Efxw0aMlR0IKQF",
+   "summary": "MPRO Stabmixer, Besteck, Brennpaste, MC Wraps, Getränke (Coca Cola, Fanta), ARO Spülmittel, Tork Tuch, Aviko Tiefkühl-Pommes"
+  },
+  {
+   "invoiceNo": "09.06.2026/046/0/0/0502/033579",
+   "date": "2026-06-09",
+   "store": "München-Freimann",
+   "grossTotal": 477.73,
+   "driveFileId": "1rgy_f8cj5Xt00Dng01ge331TNF1YL_wO",
+   "note": "Resolved 2026-06-29: gross total confirmed as EUR 477,73 via page 3 Kundenbeleg (kontaktlos Mastercard payment slip on the source PDF). Net/VAT split not separately captured, but page-1 running subtotal of 476.34 EUR plus page-2 Tiefkühl items reconciles consistently with this gross figure after VAT.",
+   "summary": "Reinigungsartikel (Topfreiniger, Besen, Mop), MC Wraps, Getränke, Drogerie (Spülmittel, Seife, Handschuhe, Tork Tuch), Beyond Burger, TK Apfelstrudel, TK Pizza Margherita"
+  },
+  {
+   "invoiceNo": "05.06.2026/041/0/0/0502/034375",
+   "date": "2026-06-05",
+   "store": "München-Pasing",
+   "netTotal": 161.95,
+   "vat19": 20.76,
+   "vat7": 3.69,
+   "grossTotal": 186.4,
+   "driveFileId": "1l495YzLHr_4dCbqePg8r2RMYvithO5HL",
+   "summary": "TH Triangle Schale, Happy Day Mango, Sicilia Bio Zitrone, WH Hygieneuniversal, MPRO Flüssigreiniger, Aviko Super Crunch, Spargel grün"
+  },
+  {
+   "invoiceNo": "22.05.2026/046/0/0/0505/008112",
+   "date": "2026-05-22",
+   "store": "München-Freimann",
+   "netTotal": 175.84,
+   "vat19": 15.38,
+   "vat7": 6.64,
+   "grossTotal": 197.86,
+   "driveFileId": "1ozcM22G2L4RrwAN-QKhBrOf5ZqreXQxN",
+   "summary": "Servietten (Granite Grey), MPRO Brennpaste, MC Wraps (bulk)"
+  },
+  {
+   "invoiceNo": "26.05.2026/041/0/0/0503/024391",
+   "date": "2026-05-26",
+   "store": "München-Pasing",
+   "netTotal": 74.83,
+   "vat19": 14.22,
+   "grossTotal": 89.05,
+   "driveFileId": "1ZFaeIai3zwBcF0A0XNKbBrlXQbDgJxL6",
+   "summary": "Topfreiniger Draht, Shake-Halme Papier, ARO Servietten weiß, Tork Tuch"
+  },
+  {
+   "invoiceNo": "10.04.2026/041/0/0/0502/022007",
+   "date": "2026-04-10",
+   "store": "München-Pasing",
+   "netTotal": 119.01,
+   "vat19": 13.83,
+   "vat7": 3.23,
+   "grossTotal": 136.07,
+   "driveFileId": "1e4SDcYua02TLiEQq52DeQIsJmI7jMze1",
+   "summary": "Topfreiniger Draht, ARO Kidneybohnen, Milchmädchen Kondensmilch, Drogerie (Handspülmittel, WC Reiniger, Toilettenpapier, Tork Tuch)"
+  },
+  {
+   "invoiceNo": "23.03.2026/041/0/0/0501/018155",
+   "date": "2026-03-23",
+   "store": "München-Pasing",
+   "netTotal": 249.13,
+   "vat19": 34.41,
+   "vat7": 4.76,
+   "grossTotal": 288.3,
+   "driveFileId": "1oTGsHb6Is1ep4AbNXE3osNhnhbB9IB5P",
+   "summary": "ARO Basic Geschirr, Hartweizengrieß, Maismehl, ARO Salatmayonnaise, Tomatenketchup, Milchmädchen, Happy Day Mango, Drogerie (Fettlöser, Spülmittel, Hygieneuniversal, Universalklarspüler)"
+  },
+  {
+   "invoiceNo": "25.02.2026/041/0/0/0503/008732",
+   "date": "2026-02-25",
+   "store": "München-Pasing",
+   "netTotal": 59.18,
+   "vat19": 2.85,
+   "vat7": 3.09,
+   "grossTotal": 65.12,
+   "driveFileId": "1s6IPAZo7_3I1VQ9HLeXffXkItYkrmtnw",
+   "summary": "MPRO Untersetzer, Cassolette, Maismehl, Friess. Backhilfe für Pizza, ARO Salatmayonnaise, Aviko Super Crunch"
+  },
+  {
+   "invoiceNo": "11.02.2026/041/0/0/0502/008748",
+   "date": "2026-02-11",
+   "store": "München-Pasing",
+   "netTotal": 196.85,
+   "vat19": 8.94,
+   "vat7": 10.49,
+   "grossTotal": 216.28,
+   "driveFileId": "15Q037wg2GRQeyFN5CAiv9flkh88qLmVu",
+   "summary": "ARO Servietten, Konserven (Gemüsemais, Kidneybohnen, Maiskölbchen, Quick Cooking Nudel), Schwartau Schoko-Sauce, Maismehl, MC Dessert Sauce, Sesam geschält, MC Chiliflocken, MC Erdnüsse, MC Broccoli, Aviko Super Crunch, Bio Rosmarin"
+  },
+  {
+   "invoiceNo": "04.02.2026/041/0/0/0501/007223",
+   "date": "2026-02-04",
+   "store": "München-Pasing",
+   "netTotal": 98.38,
+   "vat19": 10.71,
+   "vat7": 2.94,
+   "grossTotal": 112.03,
+   "driveFileId": "1WItQWICKGO9OKk6p8BJ8jP4fDyAiSSeP",
+   "summary": "MPRO Vierkantreibe, Alupfanne, Brennpaste, Cassolette, Lay's Chips, Milchmädchen Kondensmilch, Philadelphia, WC Frisch, MC Eiscreme Yoghurt"
+  },
+  {
+   "invoiceNo": "22.01.2026/041/0/0/0033/001528",
+   "date": "2026-01-22",
+   "store": "München (Am Gleisdreieck)",
+   "netTotal": 38.44,
+   "vat7": 2.69,
+   "grossTotal": 41.13,
+   "driveFileId": "1-sWKYLyxt7qee3d4z8FPHF_cXW7GrlLJ",
+   "summary": "ARO Salatmayonnaise, ARO Tomatenketchup"
+  },
+  {
+   "date": "2026-06-29",
+   "invoiceNumber": "29.06.2026/041/0/0/0502/040856",
+   "store": "München-Pasing",
+   "netTotal": 134.17,
+   "grossTotal": 154.38,
+   "vatBreakdown": {
+    "19%": {
+     "net": 90.15,
+     "vat": 17.13,
+     "gross": 107.28
     },
-    {
-      "invoiceNo": "09.06.2026/046/0/0/0502/033579",
-      "date": "2026-06-09",
-      "store": "München-Freimann",
-      "grossTotal": 477.73,
-      "driveFileId": "1rgy_f8cj5Xt00Dng01ge331TNF1YL_wO",
-      "note": "Resolved 2026-06-29: gross total confirmed as EUR 477,73 via page 3 Kundenbeleg (kontaktlos Mastercard payment slip on the source PDF). Net/VAT split not separately captured, but page-1 running subtotal of 476.34 EUR plus page-2 Tiefkühl items reconciles consistently with this gross figure after VAT.",
-      "summary": "Reinigungsartikel (Topfreiniger, Besen, Mop), MC Wraps, Getränke, Drogerie (Spülmittel, Seife, Handschuhe, Tork Tuch), Beyond Burger, TK Apfelstrudel, TK Pizza Margherita"
-    },
-    {
-      "invoiceNo": "05.06.2026/041/0/0/0502/034375",
-      "date": "2026-06-05",
-      "store": "München-Pasing",
-      "netTotal": 161.95,
-      "vat19": 20.76,
-      "vat7": 3.69,
-      "grossTotal": 186.4,
-      "driveFileId": "1l495YzLHr_4dCbqePg8r2RMYvithO5HL",
-      "summary": "TH Triangle Schale, Happy Day Mango, Sicilia Bio Zitrone, WH Hygieneuniversal, MPRO Flüssigreiniger, Aviko Super Crunch, Spargel grün"
-    },
-    {
-      "invoiceNo": "22.05.2026/046/0/0/0505/008112",
-      "date": "2026-05-22",
-      "store": "München-Freimann",
-      "netTotal": 175.84,
-      "vat19": 15.38,
-      "vat7": 6.64,
-      "grossTotal": 197.86,
-      "driveFileId": "1ozcM22G2L4RrwAN-QKhBrOf5ZqreXQxN",
-      "summary": "Servietten (Granite Grey), MPRO Brennpaste, MC Wraps (bulk)"
-    },
-    {
-      "invoiceNo": "26.05.2026/041/0/0/0503/024391",
-      "date": "2026-05-26",
-      "store": "München-Pasing",
-      "netTotal": 74.83,
-      "vat19": 14.22,
-      "grossTotal": 89.05,
-      "driveFileId": "1ZFaeIai3zwBcF0A0XNKbBrlXQbDgJxL6",
-      "summary": "Topfreiniger Draht, Shake-Halme Papier, ARO Servietten weiß, Tork Tuch"
-    },
-    {
-      "invoiceNo": "10.04.2026/041/0/0/0502/022007",
-      "date": "2026-04-10",
-      "store": "München-Pasing",
-      "netTotal": 119.01,
-      "vat19": 13.83,
-      "vat7": 3.23,
-      "grossTotal": 136.07,
-      "driveFileId": "1e4SDcYua02TLiEQq52DeQIsJmI7jMze1",
-      "summary": "Topfreiniger Draht, ARO Kidneybohnen, Milchmädchen Kondensmilch, Drogerie (Handspülmittel, WC Reiniger, Toilettenpapier, Tork Tuch)"
-    },
-    {
-      "invoiceNo": "23.03.2026/041/0/0/0501/018155",
-      "date": "2026-03-23",
-      "store": "München-Pasing",
-      "netTotal": 249.13,
-      "vat19": 34.41,
-      "vat7": 4.76,
-      "grossTotal": 288.3,
-      "driveFileId": "1oTGsHb6Is1ep4AbNXE3osNhnhbB9IB5P",
-      "summary": "ARO Basic Geschirr, Hartweizengrieß, Maismehl, ARO Salatmayonnaise, Tomatenketchup, Milchmädchen, Happy Day Mango, Drogerie (Fettlöser, Spülmittel, Hygieneuniversal, Universalklarspüler)"
-    },
-    {
-      "invoiceNo": "25.02.2026/041/0/0/0503/008732",
-      "date": "2026-02-25",
-      "store": "München-Pasing",
-      "netTotal": 59.18,
-      "vat19": 2.85,
-      "vat7": 3.09,
-      "grossTotal": 65.12,
-      "driveFileId": "1s6IPAZo7_3I1VQ9HLeXffXkItYkrmtnw",
-      "summary": "MPRO Untersetzer, Cassolette, Maismehl, Friess. Backhilfe für Pizza, ARO Salatmayonnaise, Aviko Super Crunch"
-    },
-    {
-      "invoiceNo": "11.02.2026/041/0/0/0502/008748",
-      "date": "2026-02-11",
-      "store": "München-Pasing",
-      "netTotal": 196.85,
-      "vat19": 8.94,
-      "vat7": 10.49,
-      "grossTotal": 216.28,
-      "driveFileId": "15Q037wg2GRQeyFN5CAiv9flkh88qLmVu",
-      "summary": "ARO Servietten, Konserven (Gemüsemais, Kidneybohnen, Maiskölbchen, Quick Cooking Nudel), Schwartau Schoko-Sauce, Maismehl, MC Dessert Sauce, Sesam geschält, MC Chiliflocken, MC Erdnüsse, MC Broccoli, Aviko Super Crunch, Bio Rosmarin"
-    },
-    {
-      "invoiceNo": "04.02.2026/041/0/0/0501/007223",
-      "date": "2026-02-04",
-      "store": "München-Pasing",
-      "netTotal": 98.38,
-      "vat19": 10.71,
-      "vat7": 2.94,
-      "grossTotal": 112.03,
-      "driveFileId": "1WItQWICKGO9OKk6p8BJ8jP4fDyAiSSeP",
-      "summary": "MPRO Vierkantreibe, Alupfanne, Brennpaste, Cassolette, Lay's Chips, Milchmädchen Kondensmilch, Philadelphia, WC Frisch, MC Eiscreme Yoghurt"
-    },
-    {
-      "invoiceNo": "22.01.2026/041/0/0/0033/001528",
-      "date": "2026-01-22",
-      "store": "München (Am Gleisdreieck)",
-      "netTotal": 38.44,
-      "vat7": 2.69,
-      "grossTotal": 41.13,
-      "driveFileId": "1-sWKYLyxt7qee3d4z8FPHF_cXW7GrlLJ",
-      "summary": "ARO Salatmayonnaise, ARO Tomatenketchup"
-    },
-    {
-      "date": "2026-06-29",
-      "invoiceNumber": "29.06.2026/041/0/0/0502/040856",
-      "store": "München-Pasing",
-      "netTotal": 134.17,
-      "grossTotal": 154.38,
-      "vatBreakdown": {
-        "19%": {
-          "net": 90.15,
-          "vat": 17.13,
-          "gross": 107.28
-        },
-        "7%": {
-          "net": 44.02,
-          "vat": 3.08,
-          "gross": 47.1
-        }
-      },
-      "items": [
-        {
-          "artNr": "060872.9",
-          "description": "2x25M PRO Müllsäcke 130l",
-          "qty": 1,
-          "unit": "PG",
-          "unitPrice": 12.59,
-          "netTotal": 12.59,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "060876.0",
-          "description": "2x10M PRO Müllsäcke 240l",
-          "qty": 1,
-          "unit": "PG",
-          "unitPrice": 9.39,
-          "netTotal": 9.39,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "072396.5",
-          "description": "VAR Lithium CR2025 2er",
-          "qty": 1,
-          "unit": "ST",
-          "unitPrice": 0.79,
-          "netTotal": 0.79,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "549303.6",
-          "description": "Happy Day Mango 1,00 PG (after Mengenrabatt -1.80)",
-          "qty": 6,
-          "unit": "KT",
-          "unitPrice": 2.19,
-          "netTotal": 11.34,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "072626.5",
-          "description": "ARO Spülmittel 10L",
-          "qty": 1,
-          "unit": "KS",
-          "unitPrice": 7.19,
-          "netTotal": 7.19,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "072656.2",
-          "description": "ARO Glasreiniger Spray 1L",
-          "qty": 1,
-          "unit": "FL",
-          "unitPrice": 0.89,
-          "netTotal": 0.89,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "158516.5",
-          "description": "Fettlöser Sprühpistole 1L",
-          "qty": 1,
-          "unit": "FL",
-          "unitPrice": 5.99,
-          "netTotal": 5.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "214226.3",
-          "description": "Fettlöser Dr. Becher 10L",
-          "qty": 1,
-          "unit": "KI",
-          "unitPrice": 30.99,
-          "netTotal": 30.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "977601.4",
-          "description": "MPRO Handschuhe Nitril M 100er",
-          "qty": 2,
-          "unit": "BO",
-          "unitPrice": 5.49,
-          "netTotal": 10.98,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "315078.6",
-          "description": "Aviko Super Crunch Pure 2,5kg",
-          "qty": 2,
-          "unit": "BT",
-          "unitPrice": 6.59,
-          "netTotal": 13.18,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "043871.3",
-          "description": "MC Bourbon Vanille 5L",
-          "qty": 1,
-          "unit": "KN",
-          "unitPrice": 16.69,
-          "netTotal": 16.69,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "530548.7",
-          "description": "Magnum Miniclassic 330ml",
-          "qty": 1,
-          "unit": "SC",
-          "unitPrice": 4.59,
-          "netTotal": 4.59,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "967001.9",
-          "description": "Mochi Eis Grazie 6x30g",
-          "qty": 1,
-          "unit": "PG",
-          "unitPrice": 4.78,
-          "netTotal": 4.78,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "967002.7",
-          "description": "Mochi Eis Wow Choco 6x30G",
-          "qty": 1,
-          "unit": "PG",
-          "unitPrice": 4.78,
-          "netTotal": 4.78,
-          "vatRate": "7%"
-        }
-      ]
-    },
-    {
-      "date": "2026-01-12",
-      "invoiceNumber": "12.01.2026/046/0/0/0031/001095",
-      "store": "München-Freimann",
-      "netTotal": 207.86,
-      "grossTotal": 245.04,
-      "vatBreakdown": {
-        "19%": {
-          "net": 188.65,
-          "vat": 35.84,
-          "gross": 224.49
-        },
-        "7%": {
-          "net": 19.21,
-          "vat": 1.34,
-          "gross": 20.55
-        }
-      },
-      "items": [
-        {
-          "artNr": "932027.6",
-          "description": "Spontex Microf.Allzweck 8+2",
-          "qty": 2,
-          "unit": "PG",
-          "unitPrice": 4.49,
-          "netTotal": 8.98,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "190406.9",
-          "description": "MPRO GCP1040 Crepe Maker",
-          "qty": 1,
-          "unit": "ST",
-          "unitPrice": 134.99,
-          "netTotal": 134.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "003483.5",
-          "description": "RBR Winter Scheibenklar -20° 5l",
-          "qty": 2,
-          "unit": "KS",
-          "unitPrice": 4.99,
-          "netTotal": 9.98,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "455472.1",
-          "description": "FAI Demineralisiertes Wasser 5L",
-          "qty": 2,
-          "unit": "KS",
-          "unitPrice": 2.99,
-          "netTotal": 5.98,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "035254.2",
-          "description": "Edding 3300 4er schwarz",
-          "qty": 1,
-          "unit": "PG",
-          "unitPrice": 6.26,
-          "netTotal": 6.26,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "160038.6",
-          "description": "TH Kehrgarnitur 2T",
-          "qty": 1,
-          "unit": "ST",
-          "unitPrice": 4.69,
-          "netTotal": 4.69,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "284610.3",
-          "description": "ARO Ausgussreiniger Gummi M ST",
-          "qty": 1,
-          "unit": "KT",
-          "unitPrice": 2.29,
-          "netTotal": 2.29,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "519830.4",
-          "description": "ARO Spülmittel 10L",
-          "qty": 1,
-          "unit": "KS",
-          "unitPrice": 7.19,
-          "netTotal": 7.19,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "519941.9",
-          "description": "ARO Alles Reiniger 10L",
-          "qty": 1,
-          "unit": "KS",
-          "unitPrice": 8.29,
-          "netTotal": 8.29,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "446897.1",
-          "description": "ARO Kidneybohnen rot 425ml",
-          "qty": 2,
-          "unit": "DS",
-          "unitPrice": 0.64,
-          "netTotal": 1.28,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "592381.8",
-          "description": "KM Maismehl 1kg",
-          "qty": 3,
-          "unit": "BT",
-          "unitPrice": 1.29,
-          "netTotal": 3.87,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "981508.5",
-          "description": "Caputo Mehl Durum Wheat 1kg",
-          "qty": 1,
-          "unit": "PG",
-          "unitPrice": 2.19,
-          "netTotal": 2.19,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "909268.5",
-          "description": "ARO Tomaten Ketchup 500ml",
-          "qty": 1,
-          "unit": "FL",
-          "unitPrice": 1.39,
-          "netTotal": 1.39,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "363040.7",
-          "description": "Crunchips Paprika 130/150g",
-          "qty": 1,
-          "unit": "BT",
-          "unitPrice": 1.79,
-          "netTotal": 1.79,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "108248.6",
-          "description": "McCain SureCrisp Homestyle 2,5kg",
-          "qty": 1,
-          "unit": "BT",
-          "unitPrice": 8.69,
-          "netTotal": 8.69,
-          "vatRate": "7%"
-        }
-      ]
-    },
-    {
-      "date": "2026-02-13",
-      "invoiceNumber": "13.02.2026/041/0/0/0502/009353",
-      "store": "München-Pasing",
-      "netTotal": 191.91,
-      "grossTotal": 226.09,
-      "vatBreakdown": {
-        "19%": {
-          "net": 172.82,
-          "vat": 32.84,
-          "gross": 205.66
-        },
-        "7%": {
-          "net": 19.09,
-          "vat": 1.34,
-          "gross": 20.43
-        }
-      },
-      "items": [
-        {
-          "artNr": "719265.1",
-          "description": "Sigma Heftklammer 24/6 10x1000",
-          "qty": 1,
-          "unit": "ST",
-          "unitPrice": 4.99,
-          "netTotal": 4.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "599192.2",
-          "description": "ARO Ballonglas 0,2L 12er",
-          "qty": 1,
-          "unit": "ST",
-          "unitPrice": 12.49,
-          "netTotal": 12.49,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "214226.3",
-          "description": "Fettlöser Dr. Becher 10L",
-          "qty": 1,
-          "unit": "KI",
-          "unitPrice": 31.39,
-          "netTotal": 31.39,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "519830.4",
-          "description": "ARO Spülmittel 10L",
-          "qty": 2,
-          "unit": "KS",
-          "unitPrice": 6.99,
-          "netTotal": 13.98,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "525386.9",
-          "description": "WH F8500 Hygieneuniversal 25kg",
-          "qty": 1,
-          "unit": "KT",
-          "unitPrice": 99.99,
-          "netTotal": 99.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "124832.7",
-          "description": "ARO Küchentücher 3-lagig 8x64",
-          "qty": 1,
-          "unit": "BT",
-          "unitPrice": 4.99,
-          "netTotal": 4.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "977601.4",
-          "description": "MPRO Handschuhe Nitril M 100er",
-          "qty": 1,
-          "unit": "BO",
-          "unitPrice": 4.99,
-          "netTotal": 4.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "126539.6",
-          "description": "ARO Zucker Raffinade 1kg (after Rabatt)",
-          "qty": 1,
-          "unit": "KT",
-          "unitPrice": 9.1,
-          "netTotal": 9.1,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "498815.0",
-          "description": "Monin Ingwer 1L",
-          "qty": 1,
-          "unit": "FL",
-          "unitPrice": 9.99,
-          "netTotal": 9.99,
-          "vatRate": "7%"
-        }
-      ]
-    },
-    {
-      "date": "2026-02-16",
-      "invoiceNumber": "16.02.2026/041/0/0/0034/004542",
-      "store": "München-Pasing",
-      "netTotal": 123.73,
-      "grossTotal": 145.09,
-      "vatBreakdown": {
-        "19%": {
-          "net": 105.77,
-          "vat": 20.1,
-          "gross": 125.87
-        },
-        "7%": {
-          "net": 17.96,
-          "vat": 1.26,
-          "gross": 19.22
-        }
-      },
-      "items": [
-        {
-          "artNr": "326135.1",
-          "description": "Topmat Prof. Flüssigrein. 12kg",
-          "qty": 1,
-          "unit": "KS",
-          "unitPrice": 39.99,
-          "netTotal": 39.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "525387.7",
-          "description": "WH F8500 Hygieneuniversal 12kg",
-          "qty": 1,
-          "unit": "KT",
-          "unitPrice": 59.99,
-          "netTotal": 59.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "540476.9",
-          "description": "MPRO Allzweckreiniger Citrus 5L",
-          "qty": 1,
-          "unit": "KS",
-          "unitPrice": 5.79,
-          "netTotal": 5.79,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "607679.8",
-          "description": "Milram H-Küchensahne 20% 1kg",
-          "qty": 3,
-          "unit": "FS",
-          "unitPrice": 3.19,
-          "netTotal": 9.57,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "921069.1",
-          "description": "Frankenl. Joghurt gerieben 3,5% 5kg",
-          "qty": 1,
-          "unit": "EI",
-          "unitPrice": 8.39,
-          "netTotal": 8.39,
-          "vatRate": "7%"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-03",
-      "invoiceNumber": "03.03.2026/041/0/0/0501/013569",
-      "store": "München-Pasing",
-      "netTotal": 135.89,
-      "grossTotal": 158.48,
-      "vatBreakdown": {
-        "19%": {
-          "net": 108.98,
-          "vat": 20.71,
-          "gross": 129.69
-        },
-        "7%": {
-          "net": 26.91,
-          "vat": 1.88,
-          "gross": 28.79
-        }
-      },
-      "items": [
-        {
-          "artNr": "396249.5",
-          "description": "Servietten 250 40cm 3-lagig (after Rabatt)",
-          "qty": 5,
-          "unit": "TY",
-          "unitPrice": 14.29,
-          "netTotal": 71.45,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "495719.7",
-          "description": "TH Triangle Schale Holz 16cm (after Rabatt)",
-          "qty": 3,
-          "unit": "ST",
-          "unitPrice": 3.49,
-          "netTotal": 10.47,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "101584.1",
-          "description": "Wunderkerzen 10x10",
-          "qty": 1,
-          "unit": "ST",
-          "unitPrice": 2.49,
-          "netTotal": 2.49,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "610092.9",
-          "description": "Pril Konz. Kra Aloe Vera 450ml",
-          "qty": 1,
-          "unit": "FL",
-          "unitPrice": 1.47,
-          "netTotal": 1.47,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "628116.6",
-          "description": "Papiertuch grün 5x250 1-lagig (after Rabatt)",
-          "qty": 2,
-          "unit": "PG",
-          "unitPrice": 11.55,
-          "netTotal": 23.1,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "846184.0",
-          "description": "Bonduelle Goldmais 425ml",
-          "qty": 1,
-          "unit": "DS",
-          "unitPrice": 2.19,
-          "netTotal": 2.19,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "850833.5",
-          "description": "Heinz Baked Beans 415g",
-          "qty": 1,
-          "unit": "DS",
-          "unitPrice": 2.29,
-          "netTotal": 2.29,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "520529.9",
-          "description": "Dr. Schär Vitaminbrot 250g",
-          "qty": 1,
-          "unit": "BT",
-          "unitPrice": 3.29,
-          "netTotal": 3.29,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "726633.1",
-          "description": "Schär Knusperbrot 150g",
-          "qty": 1,
-          "unit": "FS",
-          "unitPrice": 1.99,
-          "netTotal": 1.99,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "232073.7",
-          "description": "ARO Tortelloni Ric/Spinat 250g",
-          "qty": 2,
-          "unit": "PG",
-          "unitPrice": 0.79,
-          "netTotal": 1.58,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "576622.5",
-          "description": "GAB Super Sandwich 750g (after Rabatt)",
-          "qty": 2,
-          "unit": "BT",
-          "unitPrice": 1.79,
-          "netTotal": 3.58,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "379941.8",
-          "description": "MC Mandeln braun 1kg",
-          "qty": 1,
-          "unit": "SC",
-          "unitPrice": 11.99,
-          "netTotal": 11.99,
-          "vatRate": "7%"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-07",
-      "invoiceNumber": "07.03.2026/041/0/0/0503/010851",
-      "store": "München-Pasing",
-      "netTotal": 37.03,
-      "grossTotal": 44.07,
-      "vatBreakdown": {
-        "19%": {
-          "net": 37.03,
-          "vat": 7.04,
-          "gross": 44.07
-        }
-      },
-      "items": [
-        {
-          "artNr": "206724.7",
-          "description": "Topfreiniger Draht 7cm 8x3",
-          "qty": 1,
-          "unit": "ST",
-          "unitPrice": 6.19,
-          "netTotal": 6.19,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "510797.4",
-          "description": "ARO Gefrierbeutel 6L 3x45",
-          "qty": 2,
-          "unit": "PG",
-          "unitPrice": 3.69,
-          "netTotal": 7.38,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "043102.3",
-          "description": "MPRO Snacktray M Kraft 10,6 50er",
-          "qty": 1,
-          "unit": "ST",
-          "unitPrice": 2.99,
-          "netTotal": 2.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "843701.4",
-          "description": "Schale Palmblatt oval 18x11 25er",
-          "qty": 2,
-          "unit": "SP",
-          "unitPrice": 5.0,
-          "netTotal": 10.0,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "495719.7",
-          "description": "TH Triangle Schale Holz 16cm (after Rabatt)",
-          "qty": 3,
-          "unit": "ST",
-          "unitPrice": 3.49,
-          "netTotal": 10.47,
-          "vatRate": "19%"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-09",
-      "invoiceNumber": "09.03.2026/041/0/0/0502/014631",
-      "store": "München-Pasing",
-      "netTotal": 95.98,
-      "grossTotal": 107.65,
-      "vatBreakdown": {
-        "19%": {
-          "net": 41.34,
-          "vat": 7.85,
-          "gross": 49.19
-        },
-        "7%": {
-          "net": 54.64,
-          "vat": 3.82,
-          "gross": 58.46
-        }
-      },
-      "items": [
-        {
-          "artNr": "021678.8",
-          "description": "Dan Klorix Regulär 5L",
-          "qty": 1,
-          "unit": "FL",
-          "unitPrice": 8.39,
-          "netTotal": 8.39,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "219843.0",
-          "description": "ARO Vollglanz Bodenreiniger 5L",
-          "qty": 1,
-          "unit": "KS",
-          "unitPrice": 6.89,
-          "netTotal": 6.89,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "299299.8",
-          "description": "ARO Rohrreiniger 1L",
-          "qty": 2,
-          "unit": "FL",
-          "unitPrice": 1.45,
-          "netTotal": 2.9,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "519830.4",
-          "description": "ARO Spülmittel 10L",
-          "qty": 1,
-          "unit": "KS",
-          "unitPrice": 7.19,
-          "netTotal": 7.19,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "519833.8",
-          "description": "ARO GSM Lemon 1L",
-          "qty": 1,
-          "unit": "FL",
-          "unitPrice": 0.99,
-          "netTotal": 0.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "134421.7",
-          "description": "Bess Classic 3-lagig 20x180",
-          "qty": 1,
-          "unit": "BT",
-          "unitPrice": 8.99,
-          "netTotal": 8.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "872488.2",
-          "description": "MPRO Latex ungepudert M 100er",
-          "qty": 1,
-          "unit": "PG",
-          "unitPrice": 5.99,
-          "netTotal": 5.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "507851.4",
-          "description": "Quick Cooking Nudel m. Ei 500g",
-          "qty": 2,
-          "unit": "KI",
-          "unitPrice": 2.19,
-          "netTotal": 4.38,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "799493.2",
-          "description": "Milram H-Küchensahne 20% 1kg (after Rabatt)",
-          "qty": 1,
-          "unit": "KT",
-          "unitPrice": 37.08,
-          "netTotal": 37.08,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "315078.6",
-          "description": "Aviko Super Crunch Pure 2,5kg",
-          "qty": 2,
-          "unit": "BT",
-          "unitPrice": 6.59,
-          "netTotal": 13.18,
-          "vatRate": "7%"
-        }
-      ]
-    },
-    {
-      "date": "2026-03-20",
-      "invoiceNumber": "20.03.2026/041/0/0/0033/006350",
-      "store": "München-Pasing",
-      "netTotal": 56.32,
-      "grossTotal": 64.89,
-      "vatBreakdown": {
-        "19%": {
-          "net": 38.52,
-          "vat": 7.32,
-          "gross": 45.84
-        },
-        "7%": {
-          "net": 17.8,
-          "vat": 1.25,
-          "gross": 19.05
-        }
-      },
-      "items": [
-        {
-          "artNr": "206871.6",
-          "description": "Topfreiniger Draht 13cm 10er",
-          "qty": 1,
-          "unit": "ST",
-          "unitPrice": 13.49,
-          "netTotal": 13.49,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "043099.1",
-          "description": "MPRO Snacktray S Kraft 8,5x 50er (after Rabatt)",
-          "qty": 3,
-          "unit": "ST",
-          "unitPrice": 1.89,
-          "netTotal": 5.67,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "067970.4",
-          "description": "Snackgabel Holz 1000er",
-          "qty": 1,
-          "unit": "FS",
-          "unitPrice": 4.99,
-          "netTotal": 4.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "295973.2",
-          "description": "ARO Servietten 33cm 1-lagig weiß 500er",
-          "qty": 2,
-          "unit": "PG",
-          "unitPrice": 4.19,
-          "netTotal": 8.38,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "872488.2",
-          "description": "MPRO Latex ungepudert M 100er",
-          "qty": 1,
-          "unit": "PG",
-          "unitPrice": 5.99,
-          "netTotal": 5.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "126539.6",
-          "description": "ARO Zucker Raffinade 1kg (after Rabatt)",
-          "qty": 2,
-          "unit": "KT",
-          "unitPrice": 8.9,
-          "netTotal": 17.8,
-          "vatRate": "7%"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-01",
-      "invoiceNumber": "01.04.2026/041/0/0/0502/020073",
-      "store": "München-Pasing",
-      "netTotal": 108.09,
-      "grossTotal": 122.52,
-      "vatBreakdown": {
-        "19%": {
-          "net": 57.16,
-          "vat": 10.86,
-          "gross": 68.02
-        },
-        "7%": {
-          "net": 50.93,
-          "vat": 3.57,
-          "gross": 54.5
-        }
-      },
-      "items": [
-        {
-          "artNr": "396249.5",
-          "description": "Servietten 250 40cm 3-lagig (after Rabatt)",
-          "qty": 4,
-          "unit": "TY",
-          "unitPrice": 14.29,
-          "netTotal": 57.16,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "539552.0",
-          "description": "Friess. Hartweizengr. Mitt. 10kg",
-          "qty": 1,
-          "unit": "BT",
-          "unitPrice": 14.99,
-          "netTotal": 14.99,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "315078.6",
-          "description": "Aviko Super Crunch Pure 2,5kg (after Rabatt)",
-          "qty": 6,
-          "unit": "BT",
-          "unitPrice": 5.99,
-          "netTotal": 35.94,
-          "vatRate": "7%"
-        }
-      ]
-    },
-    {
-      "date": "2026-04-24",
-      "invoiceNumber": "24.04.2026/041/0/0/0034/012146",
-      "store": "München-Pasing",
-      "netTotal": 215.68,
-      "grossTotal": 256.27,
-      "vatBreakdown": {
-        "19%": {
-          "net": 212.43,
-          "vat": 40.36,
-          "gross": 252.79
-        },
-        "7%": {
-          "net": 3.25,
-          "vat": 0.23,
-          "gross": 3.48
-        }
-      },
-      "items": [
-        {
-          "artNr": "014717.3",
-          "description": "ARO Mikrofasertücher 12er",
-          "qty": 1,
-          "unit": "PG",
-          "unitPrice": 4.19,
-          "netTotal": 4.19,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "060810.9",
-          "description": "MPRO Müllbeutel m. Zugband 60L 4x20",
-          "qty": 1,
-          "unit": "PG",
-          "unitPrice": 8.79,
-          "netTotal": 8.79,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "206871.6",
-          "description": "Topfreiniger Draht 13cm 10er",
-          "qty": 1,
-          "unit": "ST",
-          "unitPrice": 13.49,
-          "netTotal": 13.49,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "291618.7",
-          "description": "ARO Topfrein mit Griff 4x3",
-          "qty": 2,
-          "unit": "ST",
-          "unitPrice": 1.39,
-          "netTotal": 2.78,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "953111.2",
-          "description": "MP Topf-Reiniger Jumbo 10er (after Rabatt)",
-          "qty": 2,
-          "unit": "PG",
-          "unitPrice": 4.69,
-          "netTotal": 9.38,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "396249.5",
-          "description": "Servietten 250 40cm 3-lagig (after Rabatt)",
-          "qty": 5,
-          "unit": "TY",
-          "unitPrice": 14.29,
-          "netTotal": 71.45,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "021203.5",
-          "description": "Dr. Becher Fettlöser 5L (after Rabatt)",
-          "qty": 2,
-          "unit": "KS",
-          "unitPrice": 15.49,
-          "netTotal": 30.98,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "066927.5",
-          "description": "Somat All-in-1 Extra Tabs 92er",
-          "qty": 1,
-          "unit": "PG",
-          "unitPrice": 14.25,
-          "netTotal": 14.25,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "426741.5",
-          "description": "Fit GSM Original 750ml",
-          "qty": 2,
-          "unit": "FL",
-          "unitPrice": 1.99,
-          "netTotal": 3.98,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "519830.4",
-          "description": "ARO Spülmittel 10L (after Rabatt)",
-          "qty": 2,
-          "unit": "KS",
-          "unitPrice": 6.99,
-          "netTotal": 13.98,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "540476.9",
-          "description": "MPRO Allzweckreiniger Citrus 5L",
-          "qty": 1,
-          "unit": "KS",
-          "unitPrice": 5.79,
-          "netTotal": 5.79,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "540573.3",
-          "description": "MPRO Fettlöser 5L",
-          "qty": 1,
-          "unit": "KS",
-          "unitPrice": 8.99,
-          "netTotal": 8.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "831071.6",
-          "description": "ARO WC Reiniger Ocean 1L",
-          "qty": 4,
-          "unit": "FL",
-          "unitPrice": 1.05,
-          "netTotal": 4.2,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "515862.1",
-          "description": "Tork S1 Seife Extra Mild 1L",
-          "qty": 2,
-          "unit": "BT",
-          "unitPrice": 10.09,
-          "netTotal": 20.18,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "446356.8",
-          "description": "Snickers 5x50g",
-          "qty": 1,
-          "unit": "PA",
-          "unitPrice": 3.25,
-          "netTotal": 3.25,
-          "vatRate": "7%"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-07",
-      "invoiceNumber": "07.05.2026/041/0/0/0502/028138",
-      "store": "München-Pasing",
-      "netTotal": 121.45,
-      "grossTotal": 129.95,
-      "vatBreakdown": {
-        "7%": {
-          "net": 121.45,
-          "vat": 8.5,
-          "gross": 129.95
-        }
-      },
-      "items": [
-        {
-          "artNr": "009260.1",
-          "description": "MC Wraps 25cm 12er 5 Ktn (after Rabatt)",
-          "qty": 5,
-          "unit": "KT",
-          "unitPrice": 17.9,
-          "netTotal": 89.5,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "026791.4",
-          "description": "Philadelphia Pur 70% 1,65kg",
-          "qty": 1,
-          "unit": "BE",
-          "unitPrice": 20.79,
-          "netTotal": 20.79,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "066211.4",
-          "description": "Philadelphia Doppelrahm 195g (after Rabatt)",
-          "qty": 3,
-          "unit": "BE",
-          "unitPrice": 1.86,
-          "netTotal": 5.58,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "233170.0",
-          "description": "Bärlauch DE 200g",
-          "qty": 2,
-          "unit": "PG",
-          "unitPrice": 2.79,
-          "netTotal": 5.58,
-          "vatRate": "7%"
-        }
-      ]
-    },
-    {
-      "date": "2026-05-12",
-      "invoiceNumber": "12.05.2026/041/0/0/0033/011321",
-      "store": "München-Pasing",
-      "netTotal": 88.33,
-      "grossTotal": 102.76,
-      "vatBreakdown": {
-        "19%": {
-          "net": 68.66,
-          "vat": 13.05,
-          "gross": 81.71
-        },
-        "7%": {
-          "net": 19.67,
-          "vat": 1.38,
-          "gross": 21.05
-        }
-      },
-      "items": [
-        {
-          "artNr": "001294.8",
-          "description": "Sigma CR03 Thermorollen 80x63x50 10er",
-          "qty": 1,
-          "unit": "ST",
-          "unitPrice": 26.49,
-          "netTotal": 26.49,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "214226.3",
-          "description": "Fettlöser Dr. Becher 10L",
-          "qty": 1,
-          "unit": "KI",
-          "unitPrice": 30.99,
-          "netTotal": 30.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "519263.8",
-          "description": "ARO Essigreiniger 5L",
-          "qty": 1,
-          "unit": "KS",
-          "unitPrice": 3.99,
-          "netTotal": 3.99,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "519830.4",
-          "description": "ARO Spülmittel 10L",
-          "qty": 1,
-          "unit": "KS",
-          "unitPrice": 7.19,
-          "netTotal": 7.19,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "507851.4",
-          "description": "Quick Cooking Nudel m. Ei 500g",
-          "qty": 2,
-          "unit": "KI",
-          "unitPrice": 2.19,
-          "netTotal": 4.38,
-          "vatRate": "7%"
-        },
-        {
-          "artNr": "976684.1",
-          "description": "MC Erdnüsse G+G 3,25kg",
-          "qty": 1,
-          "unit": "PG",
-          "unitPrice": 15.29,
-          "netTotal": 15.29,
-          "vatRate": "7%"
-        }
-      ]
-    },
-    {
-      "date": "2026-06-10",
-      "invoiceNumber": "10.06.2026/046/0/0/0031/020176",
-      "store": "München-Freimann",
-      "netTotal": 64.56,
-      "grossTotal": 76.28,
-      "vatBreakdown": {
-        "19%": {
-          "net": 59.98,
-          "vat": 11.4,
-          "gross": 71.38
-        },
-        "7%": {
-          "net": 4.58,
-          "vat": 0.32,
-          "gross": 4.9
-        }
-      },
-      "items": [
-        {
-          "artNr": "836460.6",
-          "description": "Spitztüten 125g fettdicht 1000er",
-          "qty": 2,
-          "unit": "ST",
-          "unitPrice": 29.99,
-          "netTotal": 59.98,
-          "vatRate": "19%"
-        },
-        {
-          "artNr": "951423.3",
-          "description": "MC Basmati Reis 1kg",
-          "qty": 2,
-          "unit": "PG",
-          "unitPrice": 2.29,
-          "netTotal": 4.58,
-          "vatRate": "7%"
-        }
-      ]
+    "7%": {
+     "net": 44.02,
+     "vat": 3.08,
+     "gross": 47.1
     }
-  ],
-  "totalNetSpend": 3297.99,
-  "latestInvoiceDate": "2026-06-29",
-  "earliestInvoiceDate": "2026-01-12"
+   },
+   "items": [
+    {
+     "artNr": "060872.9",
+     "description": "2x25M PRO Müllsäcke 130l",
+     "qty": 1,
+     "unit": "PG",
+     "unitPrice": 12.59,
+     "netTotal": 12.59,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "060876.0",
+     "description": "2x10M PRO Müllsäcke 240l",
+     "qty": 1,
+     "unit": "PG",
+     "unitPrice": 9.39,
+     "netTotal": 9.39,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "072396.5",
+     "description": "VAR Lithium CR2025 2er",
+     "qty": 1,
+     "unit": "ST",
+     "unitPrice": 0.79,
+     "netTotal": 0.79,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "549303.6",
+     "description": "Happy Day Mango 1,00 PG (after Mengenrabatt -1.80)",
+     "qty": 6,
+     "unit": "KT",
+     "unitPrice": 2.19,
+     "netTotal": 11.34,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "072626.5",
+     "description": "ARO Spülmittel 10L",
+     "qty": 1,
+     "unit": "KS",
+     "unitPrice": 7.19,
+     "netTotal": 7.19,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "072656.2",
+     "description": "ARO Glasreiniger Spray 1L",
+     "qty": 1,
+     "unit": "FL",
+     "unitPrice": 0.89,
+     "netTotal": 0.89,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "158516.5",
+     "description": "Fettlöser Sprühpistole 1L",
+     "qty": 1,
+     "unit": "FL",
+     "unitPrice": 5.99,
+     "netTotal": 5.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "214226.3",
+     "description": "Fettlöser Dr. Becher 10L",
+     "qty": 1,
+     "unit": "KI",
+     "unitPrice": 30.99,
+     "netTotal": 30.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "977601.4",
+     "description": "MPRO Handschuhe Nitril M 100er",
+     "qty": 2,
+     "unit": "BO",
+     "unitPrice": 5.49,
+     "netTotal": 10.98,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "315078.6",
+     "description": "Aviko Super Crunch Pure 2,5kg",
+     "qty": 2,
+     "unit": "BT",
+     "unitPrice": 6.59,
+     "netTotal": 13.18,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "043871.3",
+     "description": "MC Bourbon Vanille 5L",
+     "qty": 1,
+     "unit": "KN",
+     "unitPrice": 16.69,
+     "netTotal": 16.69,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "530548.7",
+     "description": "Magnum Miniclassic 330ml",
+     "qty": 1,
+     "unit": "SC",
+     "unitPrice": 4.59,
+     "netTotal": 4.59,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "967001.9",
+     "description": "Mochi Eis Grazie 6x30g",
+     "qty": 1,
+     "unit": "PG",
+     "unitPrice": 4.78,
+     "netTotal": 4.78,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "967002.7",
+     "description": "Mochi Eis Wow Choco 6x30G",
+     "qty": 1,
+     "unit": "PG",
+     "unitPrice": 4.78,
+     "netTotal": 4.78,
+     "vatRate": "7%"
+    }
+   ]
+  },
+  {
+   "date": "2026-01-12",
+   "invoiceNumber": "12.01.2026/046/0/0/0031/001095",
+   "store": "München-Freimann",
+   "netTotal": 207.86,
+   "grossTotal": 245.04,
+   "vatBreakdown": {
+    "19%": {
+     "net": 188.65,
+     "vat": 35.84,
+     "gross": 224.49
+    },
+    "7%": {
+     "net": 19.21,
+     "vat": 1.34,
+     "gross": 20.55
+    }
+   },
+   "items": [
+    {
+     "artNr": "932027.6",
+     "description": "Spontex Microf.Allzweck 8+2",
+     "qty": 2,
+     "unit": "PG",
+     "unitPrice": 4.49,
+     "netTotal": 8.98,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "190406.9",
+     "description": "MPRO GCP1040 Crepe Maker",
+     "qty": 1,
+     "unit": "ST",
+     "unitPrice": 134.99,
+     "netTotal": 134.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "003483.5",
+     "description": "RBR Winter Scheibenklar -20° 5l",
+     "qty": 2,
+     "unit": "KS",
+     "unitPrice": 4.99,
+     "netTotal": 9.98,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "455472.1",
+     "description": "FAI Demineralisiertes Wasser 5L",
+     "qty": 2,
+     "unit": "KS",
+     "unitPrice": 2.99,
+     "netTotal": 5.98,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "035254.2",
+     "description": "Edding 3300 4er schwarz",
+     "qty": 1,
+     "unit": "PG",
+     "unitPrice": 6.26,
+     "netTotal": 6.26,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "160038.6",
+     "description": "TH Kehrgarnitur 2T",
+     "qty": 1,
+     "unit": "ST",
+     "unitPrice": 4.69,
+     "netTotal": 4.69,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "284610.3",
+     "description": "ARO Ausgussreiniger Gummi M ST",
+     "qty": 1,
+     "unit": "KT",
+     "unitPrice": 2.29,
+     "netTotal": 2.29,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "519830.4",
+     "description": "ARO Spülmittel 10L",
+     "qty": 1,
+     "unit": "KS",
+     "unitPrice": 7.19,
+     "netTotal": 7.19,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "519941.9",
+     "description": "ARO Alles Reiniger 10L",
+     "qty": 1,
+     "unit": "KS",
+     "unitPrice": 8.29,
+     "netTotal": 8.29,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "446897.1",
+     "description": "ARO Kidneybohnen rot 425ml",
+     "qty": 2,
+     "unit": "DS",
+     "unitPrice": 0.64,
+     "netTotal": 1.28,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "592381.8",
+     "description": "KM Maismehl 1kg",
+     "qty": 3,
+     "unit": "BT",
+     "unitPrice": 1.29,
+     "netTotal": 3.87,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "981508.5",
+     "description": "Caputo Mehl Durum Wheat 1kg",
+     "qty": 1,
+     "unit": "PG",
+     "unitPrice": 2.19,
+     "netTotal": 2.19,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "909268.5",
+     "description": "ARO Tomaten Ketchup 500ml",
+     "qty": 1,
+     "unit": "FL",
+     "unitPrice": 1.39,
+     "netTotal": 1.39,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "363040.7",
+     "description": "Crunchips Paprika 130/150g",
+     "qty": 1,
+     "unit": "BT",
+     "unitPrice": 1.79,
+     "netTotal": 1.79,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "108248.6",
+     "description": "McCain SureCrisp Homestyle 2,5kg",
+     "qty": 1,
+     "unit": "BT",
+     "unitPrice": 8.69,
+     "netTotal": 8.69,
+     "vatRate": "7%"
+    }
+   ]
+  },
+  {
+   "date": "2026-02-13",
+   "invoiceNumber": "13.02.2026/041/0/0/0502/009353",
+   "store": "München-Pasing",
+   "netTotal": 191.91,
+   "grossTotal": 226.09,
+   "vatBreakdown": {
+    "19%": {
+     "net": 172.82,
+     "vat": 32.84,
+     "gross": 205.66
+    },
+    "7%": {
+     "net": 19.09,
+     "vat": 1.34,
+     "gross": 20.43
+    }
+   },
+   "items": [
+    {
+     "artNr": "719265.1",
+     "description": "Sigma Heftklammer 24/6 10x1000",
+     "qty": 1,
+     "unit": "ST",
+     "unitPrice": 4.99,
+     "netTotal": 4.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "599192.2",
+     "description": "ARO Ballonglas 0,2L 12er",
+     "qty": 1,
+     "unit": "ST",
+     "unitPrice": 12.49,
+     "netTotal": 12.49,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "214226.3",
+     "description": "Fettlöser Dr. Becher 10L",
+     "qty": 1,
+     "unit": "KI",
+     "unitPrice": 31.39,
+     "netTotal": 31.39,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "519830.4",
+     "description": "ARO Spülmittel 10L",
+     "qty": 2,
+     "unit": "KS",
+     "unitPrice": 6.99,
+     "netTotal": 13.98,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "525386.9",
+     "description": "WH F8500 Hygieneuniversal 25kg",
+     "qty": 1,
+     "unit": "KT",
+     "unitPrice": 99.99,
+     "netTotal": 99.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "124832.7",
+     "description": "ARO Küchentücher 3-lagig 8x64",
+     "qty": 1,
+     "unit": "BT",
+     "unitPrice": 4.99,
+     "netTotal": 4.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "977601.4",
+     "description": "MPRO Handschuhe Nitril M 100er",
+     "qty": 1,
+     "unit": "BO",
+     "unitPrice": 4.99,
+     "netTotal": 4.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "126539.6",
+     "description": "ARO Zucker Raffinade 1kg (after Rabatt)",
+     "qty": 1,
+     "unit": "KT",
+     "unitPrice": 9.1,
+     "netTotal": 9.1,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "498815.0",
+     "description": "Monin Ingwer 1L",
+     "qty": 1,
+     "unit": "FL",
+     "unitPrice": 9.99,
+     "netTotal": 9.99,
+     "vatRate": "7%"
+    }
+   ]
+  },
+  {
+   "date": "2026-02-16",
+   "invoiceNumber": "16.02.2026/041/0/0/0034/004542",
+   "store": "München-Pasing",
+   "netTotal": 123.73,
+   "grossTotal": 145.09,
+   "vatBreakdown": {
+    "19%": {
+     "net": 105.77,
+     "vat": 20.1,
+     "gross": 125.87
+    },
+    "7%": {
+     "net": 17.96,
+     "vat": 1.26,
+     "gross": 19.22
+    }
+   },
+   "items": [
+    {
+     "artNr": "326135.1",
+     "description": "Topmat Prof. Flüssigrein. 12kg",
+     "qty": 1,
+     "unit": "KS",
+     "unitPrice": 39.99,
+     "netTotal": 39.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "525387.7",
+     "description": "WH F8500 Hygieneuniversal 12kg",
+     "qty": 1,
+     "unit": "KT",
+     "unitPrice": 59.99,
+     "netTotal": 59.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "540476.9",
+     "description": "MPRO Allzweckreiniger Citrus 5L",
+     "qty": 1,
+     "unit": "KS",
+     "unitPrice": 5.79,
+     "netTotal": 5.79,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "607679.8",
+     "description": "Milram H-Küchensahne 20% 1kg",
+     "qty": 3,
+     "unit": "FS",
+     "unitPrice": 3.19,
+     "netTotal": 9.57,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "921069.1",
+     "description": "Frankenl. Joghurt gerieben 3,5% 5kg",
+     "qty": 1,
+     "unit": "EI",
+     "unitPrice": 8.39,
+     "netTotal": 8.39,
+     "vatRate": "7%"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-03",
+   "invoiceNumber": "03.03.2026/041/0/0/0501/013569",
+   "store": "München-Pasing",
+   "netTotal": 135.89,
+   "grossTotal": 158.48,
+   "vatBreakdown": {
+    "19%": {
+     "net": 108.98,
+     "vat": 20.71,
+     "gross": 129.69
+    },
+    "7%": {
+     "net": 26.91,
+     "vat": 1.88,
+     "gross": 28.79
+    }
+   },
+   "items": [
+    {
+     "artNr": "396249.5",
+     "description": "Servietten 250 40cm 3-lagig (after Rabatt)",
+     "qty": 5,
+     "unit": "TY",
+     "unitPrice": 14.29,
+     "netTotal": 71.45,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "495719.7",
+     "description": "TH Triangle Schale Holz 16cm (after Rabatt)",
+     "qty": 3,
+     "unit": "ST",
+     "unitPrice": 3.49,
+     "netTotal": 10.47,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "101584.1",
+     "description": "Wunderkerzen 10x10",
+     "qty": 1,
+     "unit": "ST",
+     "unitPrice": 2.49,
+     "netTotal": 2.49,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "610092.9",
+     "description": "Pril Konz. Kra Aloe Vera 450ml",
+     "qty": 1,
+     "unit": "FL",
+     "unitPrice": 1.47,
+     "netTotal": 1.47,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "628116.6",
+     "description": "Papiertuch grün 5x250 1-lagig (after Rabatt)",
+     "qty": 2,
+     "unit": "PG",
+     "unitPrice": 11.55,
+     "netTotal": 23.1,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "846184.0",
+     "description": "Bonduelle Goldmais 425ml",
+     "qty": 1,
+     "unit": "DS",
+     "unitPrice": 2.19,
+     "netTotal": 2.19,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "850833.5",
+     "description": "Heinz Baked Beans 415g",
+     "qty": 1,
+     "unit": "DS",
+     "unitPrice": 2.29,
+     "netTotal": 2.29,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "520529.9",
+     "description": "Dr. Schär Vitaminbrot 250g",
+     "qty": 1,
+     "unit": "BT",
+     "unitPrice": 3.29,
+     "netTotal": 3.29,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "726633.1",
+     "description": "Schär Knusperbrot 150g",
+     "qty": 1,
+     "unit": "FS",
+     "unitPrice": 1.99,
+     "netTotal": 1.99,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "232073.7",
+     "description": "ARO Tortelloni Ric/Spinat 250g",
+     "qty": 2,
+     "unit": "PG",
+     "unitPrice": 0.79,
+     "netTotal": 1.58,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "576622.5",
+     "description": "GAB Super Sandwich 750g (after Rabatt)",
+     "qty": 2,
+     "unit": "BT",
+     "unitPrice": 1.79,
+     "netTotal": 3.58,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "379941.8",
+     "description": "MC Mandeln braun 1kg",
+     "qty": 1,
+     "unit": "SC",
+     "unitPrice": 11.99,
+     "netTotal": 11.99,
+     "vatRate": "7%"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-07",
+   "invoiceNumber": "07.03.2026/041/0/0/0503/010851",
+   "store": "München-Pasing",
+   "netTotal": 37.03,
+   "grossTotal": 44.07,
+   "vatBreakdown": {
+    "19%": {
+     "net": 37.03,
+     "vat": 7.04,
+     "gross": 44.07
+    }
+   },
+   "items": [
+    {
+     "artNr": "206724.7",
+     "description": "Topfreiniger Draht 7cm 8x3",
+     "qty": 1,
+     "unit": "ST",
+     "unitPrice": 6.19,
+     "netTotal": 6.19,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "510797.4",
+     "description": "ARO Gefrierbeutel 6L 3x45",
+     "qty": 2,
+     "unit": "PG",
+     "unitPrice": 3.69,
+     "netTotal": 7.38,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "043102.3",
+     "description": "MPRO Snacktray M Kraft 10,6 50er",
+     "qty": 1,
+     "unit": "ST",
+     "unitPrice": 2.99,
+     "netTotal": 2.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "843701.4",
+     "description": "Schale Palmblatt oval 18x11 25er",
+     "qty": 2,
+     "unit": "SP",
+     "unitPrice": 5.0,
+     "netTotal": 10.0,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "495719.7",
+     "description": "TH Triangle Schale Holz 16cm (after Rabatt)",
+     "qty": 3,
+     "unit": "ST",
+     "unitPrice": 3.49,
+     "netTotal": 10.47,
+     "vatRate": "19%"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-09",
+   "invoiceNumber": "09.03.2026/041/0/0/0502/014631",
+   "store": "München-Pasing",
+   "netTotal": 95.98,
+   "grossTotal": 107.65,
+   "vatBreakdown": {
+    "19%": {
+     "net": 41.34,
+     "vat": 7.85,
+     "gross": 49.19
+    },
+    "7%": {
+     "net": 54.64,
+     "vat": 3.82,
+     "gross": 58.46
+    }
+   },
+   "items": [
+    {
+     "artNr": "021678.8",
+     "description": "Dan Klorix Regulär 5L",
+     "qty": 1,
+     "unit": "FL",
+     "unitPrice": 8.39,
+     "netTotal": 8.39,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "219843.0",
+     "description": "ARO Vollglanz Bodenreiniger 5L",
+     "qty": 1,
+     "unit": "KS",
+     "unitPrice": 6.89,
+     "netTotal": 6.89,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "299299.8",
+     "description": "ARO Rohrreiniger 1L",
+     "qty": 2,
+     "unit": "FL",
+     "unitPrice": 1.45,
+     "netTotal": 2.9,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "519830.4",
+     "description": "ARO Spülmittel 10L",
+     "qty": 1,
+     "unit": "KS",
+     "unitPrice": 7.19,
+     "netTotal": 7.19,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "519833.8",
+     "description": "ARO GSM Lemon 1L",
+     "qty": 1,
+     "unit": "FL",
+     "unitPrice": 0.99,
+     "netTotal": 0.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "134421.7",
+     "description": "Bess Classic 3-lagig 20x180",
+     "qty": 1,
+     "unit": "BT",
+     "unitPrice": 8.99,
+     "netTotal": 8.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "872488.2",
+     "description": "MPRO Latex ungepudert M 100er",
+     "qty": 1,
+     "unit": "PG",
+     "unitPrice": 5.99,
+     "netTotal": 5.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "507851.4",
+     "description": "Quick Cooking Nudel m. Ei 500g",
+     "qty": 2,
+     "unit": "KI",
+     "unitPrice": 2.19,
+     "netTotal": 4.38,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "799493.2",
+     "description": "Milram H-Küchensahne 20% 1kg (after Rabatt)",
+     "qty": 1,
+     "unit": "KT",
+     "unitPrice": 37.08,
+     "netTotal": 37.08,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "315078.6",
+     "description": "Aviko Super Crunch Pure 2,5kg",
+     "qty": 2,
+     "unit": "BT",
+     "unitPrice": 6.59,
+     "netTotal": 13.18,
+     "vatRate": "7%"
+    }
+   ]
+  },
+  {
+   "date": "2026-03-20",
+   "invoiceNumber": "20.03.2026/041/0/0/0033/006350",
+   "store": "München-Pasing",
+   "netTotal": 56.32,
+   "grossTotal": 64.89,
+   "vatBreakdown": {
+    "19%": {
+     "net": 38.52,
+     "vat": 7.32,
+     "gross": 45.84
+    },
+    "7%": {
+     "net": 17.8,
+     "vat": 1.25,
+     "gross": 19.05
+    }
+   },
+   "items": [
+    {
+     "artNr": "206871.6",
+     "description": "Topfreiniger Draht 13cm 10er",
+     "qty": 1,
+     "unit": "ST",
+     "unitPrice": 13.49,
+     "netTotal": 13.49,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "043099.1",
+     "description": "MPRO Snacktray S Kraft 8,5x 50er (after Rabatt)",
+     "qty": 3,
+     "unit": "ST",
+     "unitPrice": 1.89,
+     "netTotal": 5.67,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "067970.4",
+     "description": "Snackgabel Holz 1000er",
+     "qty": 1,
+     "unit": "FS",
+     "unitPrice": 4.99,
+     "netTotal": 4.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "295973.2",
+     "description": "ARO Servietten 33cm 1-lagig weiß 500er",
+     "qty": 2,
+     "unit": "PG",
+     "unitPrice": 4.19,
+     "netTotal": 8.38,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "872488.2",
+     "description": "MPRO Latex ungepudert M 100er",
+     "qty": 1,
+     "unit": "PG",
+     "unitPrice": 5.99,
+     "netTotal": 5.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "126539.6",
+     "description": "ARO Zucker Raffinade 1kg (after Rabatt)",
+     "qty": 2,
+     "unit": "KT",
+     "unitPrice": 8.9,
+     "netTotal": 17.8,
+     "vatRate": "7%"
+    }
+   ]
+  },
+  {
+   "date": "2026-04-01",
+   "invoiceNumber": "01.04.2026/041/0/0/0502/020073",
+   "store": "München-Pasing",
+   "netTotal": 108.09,
+   "grossTotal": 122.52,
+   "vatBreakdown": {
+    "19%": {
+     "net": 57.16,
+     "vat": 10.86,
+     "gross": 68.02
+    },
+    "7%": {
+     "net": 50.93,
+     "vat": 3.57,
+     "gross": 54.5
+    }
+   },
+   "items": [
+    {
+     "artNr": "396249.5",
+     "description": "Servietten 250 40cm 3-lagig (after Rabatt)",
+     "qty": 4,
+     "unit": "TY",
+     "unitPrice": 14.29,
+     "netTotal": 57.16,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "539552.0",
+     "description": "Friess. Hartweizengr. Mitt. 10kg",
+     "qty": 1,
+     "unit": "BT",
+     "unitPrice": 14.99,
+     "netTotal": 14.99,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "315078.6",
+     "description": "Aviko Super Crunch Pure 2,5kg (after Rabatt)",
+     "qty": 6,
+     "unit": "BT",
+     "unitPrice": 5.99,
+     "netTotal": 35.94,
+     "vatRate": "7%"
+    }
+   ]
+  },
+  {
+   "date": "2026-04-24",
+   "invoiceNumber": "24.04.2026/041/0/0/0034/012146",
+   "store": "München-Pasing",
+   "netTotal": 215.68,
+   "grossTotal": 256.27,
+   "vatBreakdown": {
+    "19%": {
+     "net": 212.43,
+     "vat": 40.36,
+     "gross": 252.79
+    },
+    "7%": {
+     "net": 3.25,
+     "vat": 0.23,
+     "gross": 3.48
+    }
+   },
+   "items": [
+    {
+     "artNr": "014717.3",
+     "description": "ARO Mikrofasertücher 12er",
+     "qty": 1,
+     "unit": "PG",
+     "unitPrice": 4.19,
+     "netTotal": 4.19,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "060810.9",
+     "description": "MPRO Müllbeutel m. Zugband 60L 4x20",
+     "qty": 1,
+     "unit": "PG",
+     "unitPrice": 8.79,
+     "netTotal": 8.79,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "206871.6",
+     "description": "Topfreiniger Draht 13cm 10er",
+     "qty": 1,
+     "unit": "ST",
+     "unitPrice": 13.49,
+     "netTotal": 13.49,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "291618.7",
+     "description": "ARO Topfrein mit Griff 4x3",
+     "qty": 2,
+     "unit": "ST",
+     "unitPrice": 1.39,
+     "netTotal": 2.78,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "953111.2",
+     "description": "MP Topf-Reiniger Jumbo 10er (after Rabatt)",
+     "qty": 2,
+     "unit": "PG",
+     "unitPrice": 4.69,
+     "netTotal": 9.38,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "396249.5",
+     "description": "Servietten 250 40cm 3-lagig (after Rabatt)",
+     "qty": 5,
+     "unit": "TY",
+     "unitPrice": 14.29,
+     "netTotal": 71.45,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "021203.5",
+     "description": "Dr. Becher Fettlöser 5L (after Rabatt)",
+     "qty": 2,
+     "unit": "KS",
+     "unitPrice": 15.49,
+     "netTotal": 30.98,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "066927.5",
+     "description": "Somat All-in-1 Extra Tabs 92er",
+     "qty": 1,
+     "unit": "PG",
+     "unitPrice": 14.25,
+     "netTotal": 14.25,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "426741.5",
+     "description": "Fit GSM Original 750ml",
+     "qty": 2,
+     "unit": "FL",
+     "unitPrice": 1.99,
+     "netTotal": 3.98,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "519830.4",
+     "description": "ARO Spülmittel 10L (after Rabatt)",
+     "qty": 2,
+     "unit": "KS",
+     "unitPrice": 6.99,
+     "netTotal": 13.98,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "540476.9",
+     "description": "MPRO Allzweckreiniger Citrus 5L",
+     "qty": 1,
+     "unit": "KS",
+     "unitPrice": 5.79,
+     "netTotal": 5.79,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "540573.3",
+     "description": "MPRO Fettlöser 5L",
+     "qty": 1,
+     "unit": "KS",
+     "unitPrice": 8.99,
+     "netTotal": 8.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "831071.6",
+     "description": "ARO WC Reiniger Ocean 1L",
+     "qty": 4,
+     "unit": "FL",
+     "unitPrice": 1.05,
+     "netTotal": 4.2,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "515862.1",
+     "description": "Tork S1 Seife Extra Mild 1L",
+     "qty": 2,
+     "unit": "BT",
+     "unitPrice": 10.09,
+     "netTotal": 20.18,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "446356.8",
+     "description": "Snickers 5x50g",
+     "qty": 1,
+     "unit": "PA",
+     "unitPrice": 3.25,
+     "netTotal": 3.25,
+     "vatRate": "7%"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-07",
+   "invoiceNumber": "07.05.2026/041/0/0/0502/028138",
+   "store": "München-Pasing",
+   "netTotal": 121.45,
+   "grossTotal": 129.95,
+   "vatBreakdown": {
+    "7%": {
+     "net": 121.45,
+     "vat": 8.5,
+     "gross": 129.95
+    }
+   },
+   "items": [
+    {
+     "artNr": "009260.1",
+     "description": "MC Wraps 25cm 12er 5 Ktn (after Rabatt)",
+     "qty": 5,
+     "unit": "KT",
+     "unitPrice": 17.9,
+     "netTotal": 89.5,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "026791.4",
+     "description": "Philadelphia Pur 70% 1,65kg",
+     "qty": 1,
+     "unit": "BE",
+     "unitPrice": 20.79,
+     "netTotal": 20.79,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "066211.4",
+     "description": "Philadelphia Doppelrahm 195g (after Rabatt)",
+     "qty": 3,
+     "unit": "BE",
+     "unitPrice": 1.86,
+     "netTotal": 5.58,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "233170.0",
+     "description": "Bärlauch DE 200g",
+     "qty": 2,
+     "unit": "PG",
+     "unitPrice": 2.79,
+     "netTotal": 5.58,
+     "vatRate": "7%"
+    }
+   ]
+  },
+  {
+   "date": "2026-05-12",
+   "invoiceNumber": "12.05.2026/041/0/0/0033/011321",
+   "store": "München-Pasing",
+   "netTotal": 88.33,
+   "grossTotal": 102.76,
+   "vatBreakdown": {
+    "19%": {
+     "net": 68.66,
+     "vat": 13.05,
+     "gross": 81.71
+    },
+    "7%": {
+     "net": 19.67,
+     "vat": 1.38,
+     "gross": 21.05
+    }
+   },
+   "items": [
+    {
+     "artNr": "001294.8",
+     "description": "Sigma CR03 Thermorollen 80x63x50 10er",
+     "qty": 1,
+     "unit": "ST",
+     "unitPrice": 26.49,
+     "netTotal": 26.49,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "214226.3",
+     "description": "Fettlöser Dr. Becher 10L",
+     "qty": 1,
+     "unit": "KI",
+     "unitPrice": 30.99,
+     "netTotal": 30.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "519263.8",
+     "description": "ARO Essigreiniger 5L",
+     "qty": 1,
+     "unit": "KS",
+     "unitPrice": 3.99,
+     "netTotal": 3.99,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "519830.4",
+     "description": "ARO Spülmittel 10L",
+     "qty": 1,
+     "unit": "KS",
+     "unitPrice": 7.19,
+     "netTotal": 7.19,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "507851.4",
+     "description": "Quick Cooking Nudel m. Ei 500g",
+     "qty": 2,
+     "unit": "KI",
+     "unitPrice": 2.19,
+     "netTotal": 4.38,
+     "vatRate": "7%"
+    },
+    {
+     "artNr": "976684.1",
+     "description": "MC Erdnüsse G+G 3,25kg",
+     "qty": 1,
+     "unit": "PG",
+     "unitPrice": 15.29,
+     "netTotal": 15.29,
+     "vatRate": "7%"
+    }
+   ]
+  },
+  {
+   "date": "2026-06-10",
+   "invoiceNumber": "10.06.2026/046/0/0/0031/020176",
+   "store": "München-Freimann",
+   "netTotal": 64.56,
+   "grossTotal": 76.28,
+   "vatBreakdown": {
+    "19%": {
+     "net": 59.98,
+     "vat": 11.4,
+     "gross": 71.38
+    },
+    "7%": {
+     "net": 4.58,
+     "vat": 0.32,
+     "gross": 4.9
+    }
+   },
+   "items": [
+    {
+     "artNr": "836460.6",
+     "description": "Spitztüten 125g fettdicht 1000er",
+     "qty": 2,
+     "unit": "ST",
+     "unitPrice": 29.99,
+     "netTotal": 59.98,
+     "vatRate": "19%"
+    },
+    {
+     "artNr": "951423.3",
+     "description": "MC Basmati Reis 1kg",
+     "qty": 2,
+     "unit": "PG",
+     "unitPrice": 2.29,
+     "netTotal": 4.58,
+     "vatRate": "7%"
+    }
+   ]
+  },
+  {
+   "invoiceNo": "16.07.2026/041/0/0/0501/045779",
+   "date": "2026-07-16",
+   "netTotal": 250.14,
+   "vat7": 6.02,
+   "vat19": 31.19,
+   "grossTotal": 287.35,
+   "driveFileId": "1BqH1BnL6vBfFG_7GI1SQSzeHkwEgD8lu",
+   "lineItems": [
+    {
+     "sku": "005545.9",
+     "description": "Müllsäcke 120L 45MY blau 50er",
+     "qty": 1,
+     "vat": 19,
+     "amount": 14.99
+    },
+    {
+     "sku": "060812.5",
+     "description": "Müllbeutel 100L 42MY 2×25m",
+     "qty": 1,
+     "vat": 19,
+     "amount": 10.49
+    },
+    {
+     "sku": "060876.0",
+     "description": "Müllsäcke 240L 60MY 2×10m",
+     "qty": 2,
+     "vat": 19,
+     "amount": 18.78
+    },
+    {
+     "sku": "206871.6",
+     "description": "Topfreiniger Draht 13cm 10er",
+     "qty": 2,
+     "vat": 19,
+     "amount": 26.98
+    },
+    {
+     "sku": "291618.7",
+     "description": "Topfreiniger mit Griff 4×3",
+     "qty": 1,
+     "vat": 19,
+     "amount": 1.59
+    },
+    {
+     "sku": "295973.2",
+     "description": "ARO Servietten 33cm 1L 500er",
+     "qty": 3,
+     "vat": 19,
+     "amount": 12.57
+    },
+    {
+     "sku": "082495.3",
+     "description": "Griechischer Joghurt 10% 10kg",
+     "qty": 2,
+     "vat": 7,
+     "amount": 48.98
+    },
+    {
+     "sku": "072563.0",
+     "description": "ARO GSM Lemon 1L",
+     "qty": 2,
+     "vat": 19,
+     "amount": 1.98
+    },
+    {
+     "sku": "214226.3",
+     "description": "Fettlöser Dr. Becher 10L",
+     "qty": 1,
+     "vat": 19,
+     "amount": 31.29
+    },
+    {
+     "sku": "446051.5",
+     "description": "Listerine 500ml",
+     "qty": 1,
+     "vat": 19,
+     "amount": 4.59
+    },
+    {
+     "sku": "484038.5",
+     "description": "Tork Tuch 420 2×750Bl",
+     "qty": 1,
+     "vat": 19,
+     "amount": 43.99
+    },
+    {
+     "sku": "315078.6",
+     "description": "Aviko Super Crunch Pure 2,5kg",
+     "qty": 4,
+     "vat": 7,
+     "amount": 26.36
+    },
+    {
+     "sku": "518569.9",
+     "description": "Magnum Mini Mandel 330ml 6er",
+     "qty": 1,
+     "vat": 7,
+     "amount": 4.49
+    },
+    {
+     "sku": "967000.1",
+     "description": "Mochi Eis Mango 6×30g",
+     "qty": 1,
+     "vat": 7,
+     "amount": 4.78
+    },
+    {
+     "sku": "967001.9",
+     "description": "Mochi Eis Grazie Pi 6×30g",
+     "qty": 1,
+     "vat": 7,
+     "amount": 4.78
+    }
+   ]
+  }
+ ],
+ "totalNetSpend": 3548.13,
+ "latestInvoiceDate": "2026-06-29",
+ "earliestInvoiceDate": "2026-01-12"
 }
