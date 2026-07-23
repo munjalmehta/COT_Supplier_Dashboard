@@ -1,7 +1,7 @@
 {
  "supplier": "Kupfer & Sohn",
- "lastUpdated": "2026-07-21",
- "invoiceCount": 59,
+ "lastUpdated": "2026-07-24",
+ "invoiceCount": 62,
  "note": "Document types include Rechnung (invoice) and Gutschrift (credit note/Stornorechng). Pfand/Leergut and packaging deposit line items (BGK, CF markers) excluded from lineItems below to focus on goods - see netTotal/grossTotal for full invoice value including deposits.",
  "invoices": [
   {
@@ -682,8 +682,134 @@
      "amount": 105.0
     }
    ]
+  },
+  {
+   "invoiceNo": "546464",
+   "date": "2026-07-21",
+   "deliveryDate": "2026-07-20",
+   "netTotal": 223.71,
+   "vat7": 15.66,
+   "grossTotal": 239.37,
+   "driveFileId": "1RoBjbh5txvZ1ecmJK3qWhDbNDOUgethq",
+   "_supplier": "Kupfer & Sohn",
+   "note": "Suppengemüse 19.32 separately credited via Gutschrift 546836 (Falsch geliefert)",
+   "lineItems": [
+    {
+     "description": "H-Fettarme Milch 1,5% 12x1L",
+     "qty": 1,
+     "unit": "Krt",
+     "unitPrice": 8.76,
+     "vat": 7,
+     "amount": 8.76
+    },
+    {
+     "description": "Naturjoghurt mild 3,5% 5kg (BGL)",
+     "qty": 8,
+     "unit": "Eimer",
+     "unitPrice": 6.95,
+     "vat": 7,
+     "amount": 55.6
+    },
+    {
+     "description": "Suppengemüse 6x750g",
+     "qty": 12,
+     "unit": "Schale",
+     "unitPrice": 1.61,
+     "vat": 7,
+     "amount": 19.32
+    },
+    {
+     "description": "H-Küchensahne 30% 12x1L (Frischli)",
+     "qty": 2,
+     "unit": "Krt",
+     "unitPrice": 35.04,
+     "vat": 7,
+     "amount": 70.08
+    },
+    {
+     "description": "Rapsöl 10L",
+     "qty": 5,
+     "unit": "Behälter",
+     "unitPrice": 13.99,
+     "vat": 7,
+     "amount": 69.95
+    }
+   ]
+  },
+  {
+   "invoiceNo": "546836",
+   "date": "2026-07-23",
+   "type": "Gutschrift",
+   "netTotal": -19.32,
+   "vat7": -1.35,
+   "grossTotal": -20.67,
+   "driveFileId": "13xhRK7GbXv8UlPp-SGlaS_IheOjh9hsk",
+   "_supplier": "Kupfer & Sohn",
+   "note": "Storno/Gutschrift: Suppengemüse 6x750g — falsch gelieferter Artikel",
+   "lineItems": [
+    {
+     "description": "Suppengemüse 6x750g (RÜCKGABE)",
+     "qty": -12,
+     "unit": "Schale",
+     "unitPrice": 1.61,
+     "vat": 7,
+     "amount": -19.32
+    }
+   ]
+  },
+  {
+   "invoiceNo": "546837",
+   "date": "2026-07-23",
+   "deliveryDate": "2026-07-22",
+   "netTotal": 166.45,
+   "vat7": 11.65,
+   "grossTotal": 178.1,
+   "driveFileId": "1q6ek39omEX0PrFUnHyjEdxd_LbEreGxh",
+   "_supplier": "Kupfer & Sohn",
+   "lineItems": [
+    {
+     "description": "Frischmilch 3,5% 10L Eimer (BGL)",
+     "qty": 10,
+     "unit": "Eimer",
+     "unitPrice": 10.5,
+     "vat": 7,
+     "amount": 105.0
+    },
+    {
+     "description": "TK Brechbohnen 2,5kg",
+     "qty": 1,
+     "unit": "Beutel",
+     "unitPrice": 4.29,
+     "vat": 7,
+     "amount": 4.29
+    },
+    {
+     "description": "TK Blumenkohlröschen 20/30mm 10kg",
+     "qty": 1,
+     "unit": "Krt",
+     "unitPrice": 24.5,
+     "vat": 7,
+     "amount": 24.5
+    },
+    {
+     "description": "TK Karottenwürfel 10x10mm 4x2,5kg",
+     "qty": 1,
+     "unit": "Krt",
+     "unitPrice": 11.9,
+     "vat": 7,
+     "amount": 11.9
+    },
+    {
+     "description": "TK Erbsen fein 4x2,5kg",
+     "qty": 4,
+     "unit": "Beutel",
+     "unitPrice": 5.19,
+     "vat": 7,
+     "amount": 20.76
+    }
+   ]
   }
  ],
- "totalNetSpend": 10874.28,
- "latestInvoiceDate": "2026-07-17"
+ "totalNetSpend": 11245.12,
+ "latestInvoiceDate": "2026-07-23"
 }
