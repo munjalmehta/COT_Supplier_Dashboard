@@ -1,7 +1,7 @@
 {
  "supplier": "GFT Group",
- "lastUpdated": "2026-07-16",
- "invoiceCount": 30,
+ "lastUpdated": "2026-07-24",
+ "invoiceCount": 31,
  "invoices": [
   {
    "invoiceNo": "326111636",
@@ -1849,6 +1849,67 @@
      "qty": 4,
      "unitPrice": 51.6,
      "amount": 206.4
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326113586",
+   "date": "2026-07-21",
+   "orderNo": "3000056138",
+   "deliveryNo": "86153",
+   "netTotal": 923.72,
+   "vat7": 64.66,
+   "grossTotal": 988.38,
+   "driveFileId": "11zprgjdmDn9kVHxltMav00qRSrhD35XY",
+   "lineItems": [
+    {
+     "sku": "41100",
+     "description": "FROZ. CHICKEN LEGS",
+     "qty": 1,
+     "unitPrice": 35.0,
+     "amount": 35.0
+    },
+    {
+     "sku": "11470",
+     "description": "SCHANI TOOR DAL PLAIN 2kg",
+     "qty": 3,
+     "unitPrice": 3.44,
+     "amount": 10.32
+    },
+    {
+     "sku": "31308",
+     "description": "SCHANI JEERA POWDER CTN. 6x1kg",
+     "qty": 1,
+     "unitPrice": 33.6,
+     "amount": 33.6
+    },
+    {
+     "sku": "10624",
+     "description": "HEER EXTRA LONG BASMATI RICE 20kg",
+     "qty": 5,
+     "unitPrice": 37.0,
+     "amount": 185.0
+    },
+    {
+     "sku": "19103",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+     "qty": 5,
+     "unitPrice": 19.0,
+     "amount": 95.0
+    },
+    {
+     "sku": "41111",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "qty": 10,
+     "unitPrice": 51.0,
+     "amount": 510.0
+    },
+    {
+     "sku": "12983",
+     "description": "MDH KASOORI METHI LEAVES 1x1kg",
+     "qty": 4,
+     "unitPrice": 13.7,
+     "amount": 54.8
     }
    ]
   }
