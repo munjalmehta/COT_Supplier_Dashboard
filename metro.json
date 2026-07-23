@@ -1,7 +1,7 @@
 {
  "supplier": "Metro",
- "lastUpdated": "2026-07-21",
- "invoiceCount": 25,
+ "lastUpdated": "2026-07-24",
+ "invoiceCount": 28,
  "note": "Metro invoices are POS-style receipts (KOLLI/MENGE/GESAMT format). The 09.06.2026 invoice's total was confirmed via the payment terminal slip on page 3 of the source PDF.",
  "invoices": [
   {
@@ -1454,9 +1454,33 @@
      "amount": 4.78
     }
    ]
+  },
+  {
+   "invoiceNo": "03.07.2026/041/0/0/0501/...",
+   "date": "2026-07-03",
+   "driveFileId": "1MUmqz6wAGJz3PyBWDLeuqYoxZ920y3T6",
+   "_note": "Line items pending - could not extract from PDF (small scan-based PDF)",
+   "netTotal": null,
+   "_supplier": "Metro"
+  },
+  {
+   "invoiceNo": "09.07.2026/046/0/0/0502/...",
+   "date": "2026-07-09",
+   "driveFileId": "12SGjLGc2va51s3RssojKu_BkZRjIaH8w",
+   "_note": "Line items pending - could not extract from PDF",
+   "netTotal": null,
+   "_supplier": "Metro"
+  },
+  {
+   "invoiceNo": "17.07.2026/046/0/0/0504/...",
+   "date": "2026-07-17",
+   "driveFileId": "1AQD2YdTx6XZo6Ft324XJhhUG3JIcLOID",
+   "_note": "Line items pending - could not extract from PDF",
+   "netTotal": null,
+   "_supplier": "Metro"
   }
  ],
  "totalNetSpend": 3548.13,
- "latestInvoiceDate": "2026-06-29",
+ "latestInvoiceDate": "2026-07-17",
  "earliestInvoiceDate": "2026-01-12"
 }
