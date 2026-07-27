@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<title>Chutney on Top — Unified Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+  :root{
+    --bg:#0e1015; --card:#151822; --border:#262b38; --text:#e9edf3; --muted:#8b93a3;
+    --accent:#22c58f; --danger:#e2574c; --mono:'JetBrains Mono',monospace;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;}
+  .app{max-width:1200px;margin:0 auto;padding:24px;}
+  h1{font-size:20px;font-weight:600;margin:0 0 4px;}
+  .sub{color:var(--muted);font-size:13px;margin:0 0 20px;}
+  .tabs{display:flex;gap:4px;border-bottom:1px solid var(--border);margin-bottom:20px;flex-wrap:wrap;}
+  .tab{padding:10px 16px;font-size:14px;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;}
+  .tab.active{color:var(--text);border-color:var(--accent);}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:20px;}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;}
+  .card .label{font-size:12px;color:var(--muted);margin-bottom:6px;}
+  .card .value{font-size:22px;font-weight:600;}
+  .card .value.small{font-size:15px;}
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  th{text-align:left;color:var(--muted);font-weight:500;padding:8px 10px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--bg);}
+  td{padding:8px 10px;border-bottom:1px solid var(--border);}
+  tr:hover td{background:#1a1e28;}
+  .pill{display:inline-block;padding:2px 8px;border-radius:99px;font-size:11px;}
+  .pill.in{background:#123d2c;color:var(--accent);}
+  .pill.out{background:#3a1f1c;color:#f08a80;}
+  .right{text-align:right;font-family:var(--mono);}
+  .section{display:none;}
+  .section.active{display:block;}
+  button{background:var(--accent);color:#04211a;border:none;border-radius:6px;padding:9px 16px;font-size:13px;font-weight:600;cursor:pointer;}
+  .row{display:flex;gap:10px;align-items:center;margin-bottom:16px;flex-wrap:wrap;}
+  select,input[type=text]{background:var(--card);border:1px solid var(--border);color:var(--text);padding:8px 10px;border-radius:6px;font-size:13px;}
+  .notice{background:#241d10;border:1px solid #4a3a17;color:#e0b04c;padding:10px 14px;border-radius:8px;font-size:13px;margin-bottom:16px;}
+  .notice.ok{background:#0f2a20;border-color:#1f5c42;color:var(--accent);}
+  .chart-wrap{position:relative;height:280px;margin-bottom:24px;}
+  .empty{color:var(--muted);font-size:13px;padding:20px 0;}
+  .scroll{max-height:480px;overflow-y:auto;}
+</style>
+</head>
+<body>
+<div class="app">
+  <h1>Chutney on Top — Unified Dashboard</h1>
+  <p class="sub">Suppliers · Revenue · Kassenbuch, one place · <span id="liveBadge" style="color:var(--muted)">loading…</span></p>
+
+  <div class="tabs">
+    <div class="tab active" data-tab="overview">Overview</div>
+    <div class="tab" data-tab="suppliers">Suppliers</div>
+    <div class="tab" data-tab="revenue">Revenue</div>
+    <div class="tab" data-tab="kassenbuch">Kassenbuch</div>
+    <div class="tab" data-tab="recipes">Recipes &amp; Product Compare</div>
+  </div>
+
+  <div id="overview" class="section active"></div>
+  <div id="suppliers" class="section"></div>
+  <div id="revenue" class="section"></div>
+  <div id="kassenbuch" class="section"></div>
+  <div id="recipes" class="section"></div>
+</div>
+
+<script>
+let SEED = null;
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.section').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  document.getElementById(t.dataset.tab).classList.add('active');
+}));
+
+function eur(n){ return '€' + (n||0).toLocaleString('de-DE',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+
+const GH_ROOT = "https://raw.githubusercontent.com/munjalmehta/COT_Supplier_Dashboard/main/";
+const GH_FIN = GH_ROOT + "financial_dashboard/";
+
+async function loadLive(){
+  try{
+    const j = (p) => fetch(p + "?t=" + Date.now()).then(r=>{ if(!r.ok) throw new Error(p); return r.json(); });
+    const [supplierManifest, rajesh, gft, oekoring, kupfer, rk, metro,
+           finManifest, verified, kassenbuch, agenda] = await Promise.all([
+      j(GH_ROOT + "manifest.json"),
+      j(GH_ROOT + "rajesh_global_food.json"),
+      j(GH_ROOT + "gft_group.json"),
+      j(GH_ROOT + "oekoring.json"),
+      j(GH_ROOT + "kupfer_sohn.json"),
+      j(GH_ROOT + "rk_traders.json"),
+      j(GH_ROOT + "metro.json"),
+      j(GH_FIN + "manifest.json"),
+      j(GH_FIN + "real_data/platform_totals_verified.json"),
+      j(GH_FIN + "kassenbuch.json"),
+      j(GH_FIN + "agenda_kassenbuch_restaurant_foodtruck.json"),
+    ]);
+    SEED = {
+      supplierManifest,
+      suppliers: {
+        "Rajesh Global Food": rajesh, "GFT Group": gft, "Ökoring": oekoring,
+        "Kupfer & Sohn": kupfer, "RK Traders": rk, "Metro": metro
+      },
+      finManifest, verified, kassenbuch, agenda
+    };
+    document.getElementById("liveBadge").textContent = "live from GitHub";
+    document.getElementById("liveBadge").style.color = "var(--accent)";
+  } catch(e){
+    document.getElementById("liveBadge").textContent = "load failed: " + e.message;
+    document.getElementById("liveBadge").style.color = "#e0b04c";
+    return;
+  }
+  renderOverview(); renderSuppliers(); renderRevenue(); renderKassenbuch(); renderRecipes();
+}
+
+// ---------- Overview ----------
+function renderOverview(){
+  const el = document.getElementById('overview');
+  const sm = SEED.supplierManifest.grandTotal;
+  const v = SEED.verified.totals;
+  el.innerHTML = `
+    <h3 style="font-weight:500;margin:0 0 12px;">Spend (suppliers)</h3>
+    <div class="grid">
+      <div class="card"><div class="label">Invoices</div><div class="value">${sm.totalInvoices}</div></div>
+      <div class="card"><div class="label">Netto-Einkauf gesamt</div><div class="value">${eur(sm.totalNetSpend)}</div></div>
+    </div>
+    <h3 style="font-weight:500;margin:0 0 12px;">Revenue (verified, ${SEED.verified.period})</h3>
+    <div class="grid">
+      <div class="card"><div class="label">Bruttoumsatz</div><div class="value">${eur(v.bruttoumsatz)}</div></div>
+      <div class="card"><div class="label">Nettoumsatz</div><div class="value">${eur(v.nettoumsatz)}</div></div>
+      <div class="card"><div class="label">Plattform-Gebühren</div><div class="value small">${eur(v.plattform_gebuehren)}</div></div>
+      <div class="card"><div class="label">Netto Marge (Umsatz − Gebühren − Einkauf)</div><div class="value small">${eur(v.nettoumsatz - v.plattform_gebuehren - sm.totalNetSpend)}</div></div>
+    </div>
+    <div class="notice">Recipes &amp; product/supplier price comparison need a new invoice line-item parsing pass — current supplier data only has invoice totals + a text summary, not per-item quantities/prices. See the Recipes tab.</div>
+  `;
+}
+
+// ---------- Suppliers ----------
+function renderSuppliers(){
+  const el = document.getElementById('suppliers');
+  const names = Object.keys(SEED.suppliers);
+  const cards = names.map(name=>{
+    const s = SEED.supplierManifest.suppliers[name];
+    return `<div class="card"><div class="label">${name}</div><div class="value small">${eur(s.totalNetSpend)}</div><div style="color:var(--muted);font-size:12px;margin-top:4px;">${s.invoiceCount} Rechnungen · ${s.earliestInvoiceDate} → ${s.latestInvoiceDate}</div></div>`;
+  }).join('');
+
+  let allInvoices = [];
+  names.forEach(name=>{
+    const inv = SEED.suppliers[name].invoices || [];
+    inv.forEach(i=> allInvoices.push({supplier:name, ...i}));
+  });
+  allInvoices.sort((a,b)=> (b.date||'').localeCompare(a.date||''));
+
+  el.innerHTML = `
+    <div class="grid">${cards}</div>
+    <div class="row"><input type="text" id="invSearch" placeholder="Filter (Lieferant, Rechnungsnr, Inhalt)..." style="min-width:320px;"></div>
+    <div class="scroll"><table><thead><tr><th>Datum</th><th>Lieferant</th><th>Rechnungsnr.</th><th class="right">Netto</th><th class="right">Brutto</th><th>Inhalt</th></tr></thead><tbody id="invBody"></tbody></table></div>
+  `;
+  function draw(filter){
+    const f = (filter||'').toLowerCase();
+    const rows = allInvoices.filter(i => !f ||
+      (i.supplier||'').toLowerCase().includes(f) ||
+      (i.invoiceNo||'').toLowerCase().includes(f) ||
+      (i.summary||'').toLowerCase().includes(f)
+    ).slice(0, 300);
+    document.getElementById('invBody').innerHTML = rows.map(i=>`
+      <tr><td>${i.date||''}</td><td>${i.supplier}</td><td style="color:var(--muted);font-size:11px;">${i.invoiceNo||''}</td>
+      <td class="right">${eur(i.netTotal)}</td><td class="right">${eur(i.grossTotal)}</td>
+      <td style="color:var(--muted);font-size:12px;max-width:400px;">${i.summary||''}</td></tr>`).join('');
+  }
+  document.getElementById('invSearch').addEventListener('input', e=>draw(e.target.value));
+  draw('');
+}
+
+// ---------- Revenue ----------
+function renderRevenue(){
+  const el = document.getElementById('revenue');
+  const v = SEED.verified;
+  el.innerHTML = `
+    <div class="notice ok">Verified totals from the real accounting app's own Steuerberater-Bericht (${v.period}) — ground truth, not a reconstruction.</div>
+    <table style="margin-bottom:24px;"><thead><tr><th>Plattform</th><th class="right">Anzahl</th><th class="right">Brutto</th><th class="right">Netto</th><th class="right">Gebühren</th><th class="right">Auszahlung</th><th class="right">Provision %</th></tr></thead><tbody>
+    ${v.by_platform.map(p=>`<tr><td>${p.platform}</td><td class="right">${p.anzahl}</td><td class="right">${eur(p.brutto)}</td><td class="right">${eur(p.netto)}</td><td class="right" style="color:#f08a80">${eur(p.gebuehren)}</td><td class="right" style="color:var(--accent)">${eur(p.auszahlung)}</td><td class="right">${p.provision_pct.toFixed(2)}%</td></tr>`).join('')}
+    </tbody></table>
+    <div class="chart-wrap"><canvas id="revChart" role="img" aria-label="Brutto by platform"></canvas></div>
+    <h3 style="font-weight:500;">USt-Voranmeldung, monatlich</h3>
+    <table><thead><tr><th>Monat</th><th class="right">Netto 7%</th><th class="right">USt 7%</th><th class="right">Netto 19%</th><th class="right">USt 19%</th><th class="right">Brutto</th><th class="right">Zahllast</th></tr></thead><tbody>
+    ${v.monthly_ustva.map(m=>`<tr><td>${m.month}</td><td class="right">${eur(m.netto7)}</td><td class="right">${eur(m.ust7)}</td><td class="right">${eur(m.netto19)}</td><td class="right">${eur(m.ust19)}</td><td class="right">${eur(m.brutto)}</td><td class="right" style="color:${m.zahllast<0?'#f08a80':'var(--accent)'}">${eur(m.zahllast)}</td></tr>`).join('')}
+    </tbody></table>
+  `;
+  new Chart(document.getElementById('revChart'), {
+    type:'bar',
+    data:{ labels: v.by_platform.map(p=>p.platform),
+      datasets:[{label:'Brutto', data: v.by_platform.map(p=>p.brutto), backgroundColor:'#22c58f'}]},
+    options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',
+      scales:{x:{ticks:{color:'#8b93a3'},grid:{color:'#262b38'}},y:{ticks:{color:'#8b93a3'},grid:{display:false}}},
+      plugins:{legend:{display:false}}}
+  });
+}
+
+// ---------- Kassenbuch ----------
+function renderKassenbuch(){
+  const el = document.getElementById('kassenbuch');
+  const kb = SEED.kassenbuch, ag = SEED.agenda;
+  el.innerHTML = `
+    <div class="notice">Format cutover: entries through 30.06.2026 use DATEV-style booking (Kasse 1600 / Erlöse 8300); from 01.07.2026, AGENDA-format Kassenbuch applies (Einnahme 7%→Kto 4300, 19%→Kto 4400, Ausgabe EC/Karte→1462, Einzahlung Bank→1460).</div>
+    <div class="row"><select id="bookSel"><option value="restaurant-datev">Restaurant — DATEV (bis 30.06)</option><option value="restaurant-agenda">Restaurant — AGENDA (ab 01.07)</option><option value="foodtruck-datev">Foodtruck — DATEV (bis 30.06)</option><option value="foodtruck-agenda">Foodtruck — AGENDA (ab 01.07)</option><option value="tollwood-agenda">Tollwood — AGENDA</option></select></div>
+    <div id="kbBody"></div>
+  `;
+  function draw(){
+    const sel = document.getElementById('bookSel').value;
+    const body = document.getElementById('kbBody');
+    if (sel === 'restaurant-datev'){
+      const entries = kb.restaurant.entries.filter(e=>e.date < '2026-07-01');
+      const total = entries.filter(e=>e.type==='Einnahme').reduce((s,e)=>s+e.gross,0);
+      body.innerHTML = `<div class="grid"><div class="card"><div class="label">Summe Einnahme</div><div class="value">${eur(total)}</div></div></div>
+      <table><thead><tr><th>Datum</th><th>Plattform</th><th>Typ</th><th class="right">Brutto</th><th>Notiz</th></tr></thead><tbody>
+      ${entries.map(e=>`<tr><td>${e.date}</td><td>${e.platform}</td><td><span class="pill ${e.type==='Einnahme'?'in':'out'}">${e.type}</span></td><td class="right">${eur(e.gross)}</td><td style="color:var(--muted);font-size:12px;">${e.note}</td></tr>`).join('')}
+      </tbody></table>`;
+    } else if (sel === 'restaurant-agenda' || sel === 'foodtruck-agenda'){
+      const key = sel.startsWith('restaurant') ? 'restaurant' : 'foodtruck';
+      const rows = ag[key];
+      if(!rows.length){ body.innerHTML = `<div class="empty">No AGENDA rows yet for this book — needs a Drive pass for dates ≥ 01.07.2026.</div>`; return; }
+      const total = rows.reduce((s,r)=>s+r.gesamtumsatz,0);
+      body.innerHTML = `<div class="grid"><div class="card"><div class="label">Gesamtumsatz</div><div class="value">${eur(total)}</div></div></div>
+      <table><thead><tr><th>Datum</th><th class="right">① 7% (4300)</th><th class="right">② 19% (4400)</th><th class="right">③ EC/Karte (1462)</th><th class="right">⑤ Einzahlung Bank (1460)</th><th class="right">True Cash</th></tr></thead><tbody>
+      ${rows.map(r=>`<tr><td>${r.date}</td><td class="right">${eur(r.einnahme_7_kto4300)}</td><td class="right">${eur(r.einnahme_19_kto4400)}</td><td class="right">${eur(r.ausgabe_ec_karte_kto1462)}</td><td class="right">${eur(r.ausgabe_einzahlung_bank_kto1460)}</td><td class="right" style="color:var(--accent)">${eur(r.true_cash)}</td></tr>`).join('')}
+      </tbody></table>`;
+    } else {
+      body.innerHTML = `<div class="empty">Tollwood AGENDA Kassenbuch: see the ST26_Agenda_Kassenbuch_FINAL sheet in Drive (5 lines/day incl. Pfand handling) — not yet mirrored into this dashboard's JSON.</div>`;
+    }
+  }
+  document.getElementById('bookSel').addEventListener('change', draw);
+  draw();
+}
+
+// ---------- Recipes / Product Compare (stub) ----------
+function renderRecipes(){
+  const el = document.getElementById('recipes');
+  el.innerHTML = `
+    <div class="notice">Not built yet — needs a new data layer. Current supplier invoice JSONs only store invoice-level totals plus a free-text summary (e.g. "MPRO Stabmixer, Besteck, Brennpaste, MC Wraps..."), not structured line items with quantities and unit prices.</div>
+    <h3 style="font-weight:500;">What's needed to build this</h3>
+    <table><thead><tr><th>Feature</th><th>Requires</th></tr></thead><tbody>
+      <tr><td>Recipe costing</td><td>Ingredient list per dish (from the menu) + a mapping from each ingredient to the supplier line item(s) that supply it, with quantity and unit cost</td></tr>
+      <tr><td>Product price comparison</td><td>Re-parsing every invoice PDF for line items (not just the totals currently cached), to get per-product unit prices across suppliers over time</td></tr>
+      <tr><td>Supplier comparison</td><td>Once line items exist: same product from Metro vs Rajesh vs RK Traders vs GFT vs Kupfer &amp; Sohn vs Ökoring, price trend over time</td></tr>
+    </tbody></table>
+  `;
+}
+
+loadLive();
+</script>
+</body>
+</html>
