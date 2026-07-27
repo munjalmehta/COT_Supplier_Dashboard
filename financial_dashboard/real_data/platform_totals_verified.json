@@ -1,0 +1,45 @@
+{
+  "source": "Real Lovable app 'Chutney on Top — Accounting dashboard' (99_Dashboard/FinalInputs, Drive), Steuerberater-Bericht tab, screenshot 2026-07-27",
+  "period": "Anfang - heute (inception through 2026-07-27)",
+  "note": "This is the authoritative computed output of the real app, which imports every SumUp/UberEats/Wolt/Lieferando/Tollwood source file directly and computes brutto/netto/VAT/fees live. It supersedes the period-level wolt/ubereats/lieferando/sumup JSON files in this repo, which were an early manual reconstruction covering only a partial June-July window before this real app was found. Kept for reference; do not treat as primary going forward.",
+  "totals": {
+    "bruttoumsatz": 426941.37,
+    "nettoumsatz": 396853.53,
+    "ust_7": 25840.77,
+    "ust_19": 4247.07,
+    "plattform_gebuehren": 84033.46,
+    "auszahlung_gesamt": 342907.91,
+    "bargeld_kasse": 51620.53,
+    "ust_last_gesamt": 30087.84,
+    "anzahl_verkaeufe": 1184
+  },
+  "by_platform": [
+    {"platform": "UberEats", "anzahl": 186, "brutto": 139260.14, "netto": 129870.14, "ust_7": 8923.22, "ust_19": 466.78, "gebuehren": 55996.83, "auszahlung": 83263.31, "provision_pct": 40.21},
+    {"platform": "SumUp Restaurant", "anzahl": 531, "brutto": 136921.14, "netto": 126351.47, "ust_7": 7252.85, "ust_19": 3316.82, "gebuehren": 0.00, "auszahlung": 136921.14, "provision_pct": 0.00},
+    {"platform": "Tollwood", "anzahl": 32, "brutto": 46534.30, "netto": 43232.16, "ust_7": 2865.31, "ust_19": 436.83, "gebuehren": 0.00, "auszahlung": 46534.30, "provision_pct": 0.00},
+    {"platform": "Lieferando", "anzahl": 41, "brutto": 42270.09, "netto": 39514.76, "ust_7": 2755.33, "ust_19": 0.00, "gebuehren": 16940.94, "auszahlung": 25329.15, "provision_pct": 40.08},
+    {"platform": "SumUp Foodtruck", "anzahl": 46, "brutto": 37296.95, "netto": 34839.40, "ust_7": 2430.91, "ust_19": 26.64, "gebuehren": 0.00, "auszahlung": 37296.95, "provision_pct": 0.00},
+    {"platform": "Wolt", "anzahl": 36, "brutto": 24658.75, "netto": 23045.60, "ust_7": 1613.15, "ust_19": 0.00, "gebuehren": 11095.69, "auszahlung": 13563.06, "provision_pct": 45.00}
+  ],
+  "monthly_ustva": [
+    {"month": "2025-04", "netto7": 1928.66, "ust7": 135.01, "netto19": 0.00, "ust19": 0.00, "brutto": 2060.40, "trinkgeld": null, "vorsteuer": 126.63, "zahllast": 8.38},
+    {"month": "2025-05", "netto7": 4331.73, "ust7": 303.22, "netto19": 0.00, "ust19": 0.00, "brutto": 4628.50, "trinkgeld": null, "vorsteuer": 306.22, "zahllast": -3.00},
+    {"month": "2025-06", "netto7": 4907.30, "ust7": 343.51, "netto19": 0.00, "ust19": 0.00, "brutto": 5246.60, "trinkgeld": null, "vorsteuer": 356.74, "zahllast": -13.23},
+    {"month": "2025-07", "netto7": 4065.36, "ust7": 284.57, "netto19": 0.00, "ust19": 0.00, "brutto": 4328.20, "trinkgeld": null, "vorsteuer": 294.78, "zahllast": -10.21},
+    {"month": "2025-08", "netto7": 3841.21, "ust7": 268.89, "netto19": 65.55, "ust19": 12.45, "brutto": 4192.40, "trinkgeld": 4.30, "vorsteuer": 257.16, "zahllast": 24.18},
+    {"month": "2025-09", "netto7": 4756.26, "ust7": 332.95, "netto19": 10.08, "ust19": 1.92, "brutto": 5074.40, "trinkgeld": null, "vorsteuer": 330.67, "zahllast": 4.20},
+    {"month": "2025-10", "netto7": 6185.24, "ust7": 432.96, "netto19": 0.00, "ust19": 0.00, "brutto": 6629.34, "trinkgeld": null, "vorsteuer": 433.41, "zahllast": -0.45},
+    {"month": "2025-11", "netto7": 7896.44, "ust7": 552.75, "netto19": 0.00, "ust19": 0.00, "brutto": 8391.49, "trinkgeld": null, "vorsteuer": 554.19, "zahllast": -1.44},
+    {"month": "2025-12", "netto7": 6024.84, "ust7": 421.75, "netto19": 0.00, "ust19": 0.00, "brutto": 6435.09, "trinkgeld": null, "vorsteuer": 419.08, "zahllast": 2.67},
+    {"month": "2026-01", "netto7": 31709.20, "ust7": 2220.61, "netto19": 2233.71, "ust19": 424.84, "brutto": 37270.40, "trinkgeld": 663.20, "vorsteuer": 1376.55, "zahllast": 1268.90},
+    {"month": "2026-02", "netto7": 36291.30, "ust7": 2541.50, "netto19": 2848.73, "ust19": 541.81, "brutto": 43013.94, "trinkgeld": 810.99, "vorsteuer": 1649.18, "zahllast": 1434.13},
+    {"month": "2026-03", "netto7": 48721.05, "ust7": 3411.82, "netto19": 3505.40, "ust19": 666.82, "brutto": 57400.89, "trinkgeld": 1131.49, "vorsteuer": 2132.74, "zahllast": 1945.90},
+    {"month": "2026-04", "netto7": 36458.21, "ust7": 2552.76, "netto19": 2761.64, "ust19": 525.27, "brutto": 43041.44, "trinkgeld": 809.68, "vorsteuer": 1494.34, "zahllast": 1583.69},
+    {"month": "2026-05", "netto7": 48581.69, "ust7": 3401.69, "netto19": 3760.73, "ust19": 715.30, "brutto": 57650.58, "trinkgeld": 1266.46, "vorsteuer": 1374.38, "zahllast": 2742.61},
+    {"month": "2026-06", "netto7": 64027.78, "ust7": 4484.18, "netto19": 3962.72, "ust19": 753.47, "brutto": 73887.72, "trinkgeld": 729.00, "vorsteuer": 1256.96, "zahllast": 3980.69}
+  ],
+  "gaps_vs_this_repo": {
+    "note": "This app's totals are cumulative since inception (2025-04). This repo's wolt/ubereats/lieferando period JSONs and sumup daily JSONs only cover a partial window (roughly late-May through late-July 2026) and were built before this real app was discovered. They should NOT be summed alongside these totals - they are a subset reconstruction, already counted within the figures above.",
+    "recommended_next_step": "Export directly from the real app (DATEV Buchungsstapel / AGENDA Kassenbuch (3 Bücher) / Steuerberater-Report CSV / USt-Voranmeldung) via its Exporte menu, and use those files as the primary data source going forward instead of re-deriving from individual platform PDFs."
+  }
+}
