@@ -1,0 +1,279 @@
+{
+  "restaurant": {
+    "entries": [
+      {
+        "date": "2026-05-31",
+        "book": "restaurant",
+        "platform": "Wolt",
+        "type": "Einnahme",
+        "gross": 1302.77,
+        "net": 1217.54,
+        "vat": 85.23,
+        "vat_rate": 7,
+        "note": "Wolt Umsatz 2026-05-26–2026-05-31 (Rechnung DEU/26/HRB217122B/1/334241)",
+        "source": "672cf95334f622387eafa6d6_HEXA_MONTHLY_2026_30 (1).csv"
+      },
+      {
+        "date": "2026-05-31",
+        "book": "restaurant",
+        "platform": "Wolt",
+        "type": "Geldtransit",
+        "gross": -1302.77,
+        "net": -1217.54,
+        "vat": -85.23,
+        "vat_rate": 7,
+        "note": "Geldtransit Wolt 2026-05-26–2026-05-31",
+        "source": "672cf95334f622387eafa6d6_HEXA_MONTHLY_2026_30 (1).csv"
+      },
+      {
+        "date": "2026-06-05",
+        "book": "restaurant",
+        "platform": "Wolt",
+        "type": "Einnahme",
+        "gross": 890.23,
+        "net": 831.99,
+        "vat": 58.24,
+        "vat_rate": 7,
+        "note": "Wolt Umsatz 2026-06-01–2026-06-05 (Rechnung DEU/26/HRB217122B/1/354874)",
+        "source": "672cf95334f622387eafa6d6_HEXA_MONTHLY_2026_31.csv"
+      },
+      {
+        "date": "2026-06-05",
+        "book": "restaurant",
+        "platform": "Wolt",
+        "type": "Geldtransit",
+        "gross": -890.23,
+        "net": -831.99,
+        "vat": -58.24,
+        "vat_rate": 7,
+        "note": "Geldtransit Wolt 2026-06-01–2026-06-05",
+        "source": "672cf95334f622387eafa6d6_HEXA_MONTHLY_2026_31.csv"
+      },
+      {
+        "date": "2026-06-07",
+        "book": "restaurant",
+        "platform": "Uber Eats",
+        "type": "Einnahme",
+        "gross": 2290.6,
+        "net": 2140.75,
+        "vat": 149.85,
+        "vat_rate": 7,
+        "note": "Uber Eats Umsatz 2026-06-01–2026-06-07 (66 Bestellungen)",
+        "source": "Aktivitätsübersicht_ Chutney On Top 08.06.2026 (1).pdf"
+      },
+      {
+        "date": "2026-06-07",
+        "book": "restaurant",
+        "platform": "Uber Eats",
+        "type": "Geldtransit",
+        "gross": -2290.6,
+        "net": -2140.75,
+        "vat": -149.85,
+        "vat_rate": 7,
+        "note": "Geldtransit UberEats 2026-06-01–2026-06-07",
+        "source": "Aktivitätsübersicht_ Chutney On Top 08.06.2026 (1).pdf"
+      },
+      {
+        "date": "2026-06-10",
+        "book": "restaurant",
+        "platform": "Wolt",
+        "type": "Einnahme",
+        "gross": 494.83,
+        "net": 462.46,
+        "vat": 32.37,
+        "vat_rate": 7,
+        "note": "Wolt Umsatz 2026-06-06–2026-06-10 (Rechnung DEU/26/HRB217122B/1/362839)",
+        "source": "672cf95334f622387eafa6d6_HEXA_MONTHLY_2026_32 (1).csv"
+      },
+      {
+        "date": "2026-06-10",
+        "book": "restaurant",
+        "platform": "Wolt",
+        "type": "Geldtransit",
+        "gross": -494.83,
+        "net": -462.46,
+        "vat": -32.37,
+        "vat_rate": 7,
+        "note": "Geldtransit Wolt 2026-06-06–2026-06-10",
+        "source": "672cf95334f622387eafa6d6_HEXA_MONTHLY_2026_32 (1).csv"
+      },
+      {
+        "date": "2026-06-14",
+        "book": "restaurant",
+        "platform": "Uber Eats",
+        "type": "Einnahme",
+        "gross": 2701.0,
+        "net": 2524.3,
+        "vat": 176.7,
+        "vat_rate": 7,
+        "note": "Uber Eats Umsatz 2026-06-08–2026-06-14 (72 Bestellungen)",
+        "source": "Aktivitätsübersicht_ Chutney On Top 15.06.2026.pdf"
+      },
+      {
+        "date": "2026-06-14",
+        "book": "restaurant",
+        "platform": "Uber Eats",
+        "type": "Geldtransit",
+        "gross": -2701.0,
+        "net": -2524.3,
+        "vat": -176.7,
+        "vat_rate": 7,
+        "note": "Geldtransit UberEats 2026-06-08–2026-06-14",
+        "source": "Aktivitätsübersicht_ Chutney On Top 15.06.2026.pdf"
+      },
+      {
+        "date": "2026-06-15",
+        "book": "restaurant",
+        "platform": "Wolt",
+        "type": "Einnahme",
+        "gross": 1121.14,
+        "net": 1047.8,
+        "vat": 73.34,
+        "vat_rate": 7,
+        "note": "Wolt Umsatz 2026-06-11–2026-06-15 (Rechnung DEU/26/HRB217122B/1/380071)",
+        "source": "672cf95334f622387eafa6d6_HEXA_MONTHLY_2026_33 (1).csv"
+      },
+      {
+        "date": "2026-06-15",
+        "book": "restaurant",
+        "platform": "Wolt",
+        "type": "Geldtransit",
+        "gross": -1121.14,
+        "net": -1047.8,
+        "vat": -73.34,
+        "vat_rate": 7,
+        "note": "Geldtransit Wolt 2026-06-11–2026-06-15",
+        "source": "672cf95334f622387eafa6d6_HEXA_MONTHLY_2026_33 (1).csv"
+      },
+      {
+        "date": "2026-06-20",
+        "book": "restaurant",
+        "platform": "Wolt",
+        "type": "Einnahme",
+        "gross": 865.14,
+        "net": 808.53,
+        "vat": 56.61,
+        "vat_rate": 7,
+        "note": "Wolt Umsatz 2026-06-16–2026-06-20 (Rechnung DEU/26/HRB217122B/1/392907)",
+        "source": "672cf95334f622387eafa6d6_HEXA_MONTHLY_2026_34 (1).csv"
+      },
+      {
+        "date": "2026-06-20",
+        "book": "restaurant",
+        "platform": "Wolt",
+        "type": "Geldtransit",
+        "gross": -865.14,
+        "net": -808.53,
+        "vat": -56.61,
+        "vat_rate": 7,
+        "note": "Geldtransit Wolt 2026-06-16–2026-06-20",
+        "source": "672cf95334f622387eafa6d6_HEXA_MONTHLY_2026_34 (1).csv"
+      },
+      {
+        "date": "2026-06-21",
+        "book": "restaurant",
+        "platform": "Uber Eats",
+        "type": "Einnahme",
+        "gross": 2123.0,
+        "net": 1984.11,
+        "vat": 138.89,
+        "vat_rate": 7,
+        "note": "Uber Eats Umsatz 2026-06-15–2026-06-21 (60 Bestellungen)",
+        "source": "Aktivitätsübersicht_ Chutney On Top 22.06.2026 (1).pdf"
+      },
+      {
+        "date": "2026-06-21",
+        "book": "restaurant",
+        "platform": "Uber Eats",
+        "type": "Geldtransit",
+        "gross": -2123.0,
+        "net": -1984.11,
+        "vat": -138.89,
+        "vat_rate": 7,
+        "note": "Geldtransit UberEats 2026-06-15–2026-06-21",
+        "source": "Aktivitätsübersicht_ Chutney On Top 22.06.2026 (1).pdf"
+      },
+      {
+        "date": "2026-06-27",
+        "book": "restaurant",
+        "platform": "Lieferando",
+        "type": "Einnahme",
+        "gross": 1179.25,
+        "net": 1102.1,
+        "vat": 77.15,
+        "vat_rate": 7,
+        "note": "Lieferando Umsatz 2026-06-21–2026-06-27 (Rechnung 348073592)",
+        "source": "TAKEAWAY_EXPORT (35/36).pdf"
+      },
+      {
+        "date": "2026-06-27",
+        "book": "restaurant",
+        "platform": "Lieferando",
+        "type": "Geldtransit",
+        "gross": -1179.25,
+        "net": -1102.1,
+        "vat": -77.15,
+        "vat_rate": 7,
+        "note": "Geldtransit Lieferando 2026-06-21–2026-06-27",
+        "source": "TAKEAWAY_EXPORT (35/36).pdf"
+      },
+      {
+        "date": "2026-07-04",
+        "book": "restaurant",
+        "platform": "Lieferando",
+        "type": "Einnahme",
+        "gross": 1339.8,
+        "net": 1252.15,
+        "vat": 87.65,
+        "vat_rate": 7,
+        "note": "Lieferando Umsatz 2026-06-28–2026-07-04 (Rechnung 348978032)",
+        "source": "TAKEAWAY_EXPORT (34).pdf"
+      },
+      {
+        "date": "2026-07-04",
+        "book": "restaurant",
+        "platform": "Lieferando",
+        "type": "Geldtransit",
+        "gross": -1339.8,
+        "net": -1252.15,
+        "vat": -87.65,
+        "vat_rate": 7,
+        "note": "Geldtransit Lieferando 2026-06-28–2026-07-04",
+        "source": "TAKEAWAY_EXPORT (34).pdf"
+      },
+      {
+        "date": "2026-07-05",
+        "book": "restaurant",
+        "platform": "Wolt",
+        "type": "Einnahme",
+        "gross": 1738.63,
+        "net": 1625.61,
+        "vat": 113.02,
+        "vat_rate": 7,
+        "note": "Wolt Umsatz 2026-07-01–2026-07-05 (Rechnung DEU/26/HRB217122B/1/430935)",
+        "source": "Chutney on Top__payout_report__hexa_monthly__2026-07-01__2026-07-06.pdf"
+      },
+      {
+        "date": "2026-07-05",
+        "book": "restaurant",
+        "platform": "Wolt",
+        "type": "Geldtransit",
+        "gross": -1738.63,
+        "net": -1625.61,
+        "vat": -113.02,
+        "vat_rate": 7,
+        "note": "Geldtransit Wolt 2026-07-01–2026-07-05",
+        "source": "Chutney on Top__payout_report__hexa_monthly__2026-07-01__2026-07-06.pdf"
+      }
+    ],
+    "note": "SumUp Einnahme/Geldtransit entries pending — see manifest.coverage.sumup"
+  },
+  "foodtruck": {
+    "entries": [],
+    "note": "No data seeded yet — SumUp Foodtruck pending parse"
+  },
+  "tollwood": {
+    "entries": [],
+    "note": "No data seeded yet — Tollwood season ended 19.07.2026, SumUp pending parse"
+  }
+}
