@@ -66,11 +66,11 @@ let SEED = FALLBACK_SEED;
 const GH_BASE = "https://raw.githubusercontent.com/munjalmehta/COT_Supplier_Dashboard/main/financial_dashboard/";
 async function loadLive() {
   try {
-    const [manifest, wolt, ubereats, lieferando, kassenbuch] = await Promise.all(
-      ["manifest.json","wolt_periods.json","ubereats_periods.json","lieferando_periods.json","kassenbuch.json"]
+    const [manifest, wolt, ubereats, lieferando, kassenbuch, verified, realLedger] = await Promise.all(
+      ["manifest.json","wolt_periods.json","ubereats_periods.json","lieferando_periods.json","kassenbuch.json","real_data/platform_totals_verified.json","real_data/real_cash_ledger.json"]
       .map(f => fetch(GH_BASE + f + "?t=" + Date.now()).then(r => { if(!r.ok) throw new Error(f); return r.json(); }))
     );
-    SEED = { manifest, wolt, ubereats, lieferando, kassenbuch };
+    SEED = { manifest, wolt, ubereats, lieferando, kassenbuch, verified, realLedger };
     document.getElementById("liveBadge").textContent = "live from GitHub";
     document.getElementById("liveBadge").style.color = "var(--accent)";
   } catch (e) {
@@ -93,16 +93,36 @@ function eur(n){ return '€' + n.toLocaleString('de-DE',{minimumFractionDigits:
 // ---------- Dashboard ----------
 function renderDashboard(){
   const el = document.getElementById('dashboard');
+  const v = SEED.verified;
   const wolt = SEED.wolt, ue = SEED.ubereats, lf = SEED.lieferando;
   const woltGross = wolt.reduce((s,p)=>s+p.goods_gross+p.deliveries_gross+p.service_gross+p.discounts_gross+p.purchase_corr_gross+p.deductions_gross,0);
   const ueGross = ue.reduce((s,p)=>s+p.gross_after_discount,0);
   const lfGross = lf.reduce((s,p)=>s+p.period_total_revenue,0);
-  const total = woltGross+ueGross+lfGross;
+  const sampleTotal = woltGross+ueGross+lfGross;
+
+  let verifiedBlock = '';
+  if (v) {
+    const t = v.totals;
+    verifiedBlock = `
+    <div class="notice" style="border-color:var(--accent);color:var(--accent);">Verified totals below come straight from the real app's own Steuerberater-Bericht (${v.period}) — this is ground truth, not a reconstruction.</div>
+    <div class="grid">
+      <div class="card"><div class="label">Bruttoumsatz (gesamt)</div><div class="value">${eur(t.bruttoumsatz)}</div></div>
+      <div class="card"><div class="label">Nettoumsatz</div><div class="value">${eur(t.nettoumsatz)}</div></div>
+      <div class="card"><div class="label">Plattform-Gebühren</div><div class="value small">${eur(t.plattform_gebuehren)}</div></div>
+      <div class="card"><div class="label">Auszahlung gesamt</div><div class="value small">${eur(t.auszahlung_gesamt)}</div></div>
+      <div class="card"><div class="label">Bargeld (Kasse)</div><div class="value small">${eur(t.bargeld_kasse)}</div></div>
+      <div class="card"><div class="label">Anzahl Verkäufe</div><div class="value small">${t.anzahl_verkaeufe.toLocaleString('de-DE')}</div></div>
+    </div>
+    <table style="margin-bottom:24px;"><thead><tr><th>Plattform</th><th class="right">Anzahl</th><th class="right">Brutto</th><th class="right">Netto</th><th class="right">Gebühren</th><th class="right">Auszahlung</th><th class="right">Provision</th></tr></thead><tbody>
+    ${v.by_platform.map(p=>`<tr><td>${p.platform}</td><td class="right">${p.anzahl}</td><td class="right">${eur(p.brutto)}</td><td class="right">${eur(p.netto)}</td><td class="right" style="color:#f08a80">${eur(p.gebuehren)}</td><td class="right" style="color:var(--accent)">${eur(p.auszahlung)}</td><td class="right">${p.provision_pct.toFixed(2)}%</td></tr>`).join('')}
+    </tbody></table>`;
+  }
 
   el.innerHTML = `
-    <div class="notice">SumUp (dine-in, ~3–4× delivery revenue on most days) isn't parsed yet — see Data sources tab. Figures below are delivery platforms only.</div>
+    ${verifiedBlock}
+    <div class="notice">Below: an earlier manual reconstruction from individual platform PDFs, covering only a partial May–July 2026 window (already included within the verified totals above — don't add the two together).</div>
     <div class="grid">
-      <div class="card"><div class="label">Delivery revenue (seeded window)</div><div class="value">${eur(total)}</div></div>
+      <div class="card"><div class="label">Delivery revenue (reconstructed sample window)</div><div class="value">${eur(sampleTotal)}</div></div>
       <div class="card"><div class="label">Wolt</div><div class="value small">${eur(woltGross)}</div></div>
       <div class="card"><div class="label">Uber Eats</div><div class="value small">${eur(ueGross)}</div></div>
       <div class="card"><div class="label">Lieferando</div><div class="value small">${eur(lfGross)}</div></div>
