@@ -1,0 +1,26 @@
+{
+  "project": "COT Financial Dashboard",
+  "purpose": "Claude-native rebuild of the Lovable/Electron 'Chutney on Top — Accounting Dashboard' (Kassenbuch + DATEV export tool). Reads Google Drive, writes JSON here; the dashboard artifact reads this JSON from GitHub raw URLs instead of Supabase.",
+  "generated": "2026-07-27",
+  "source_app": {
+    "note": "Original app was an Electron-wrapped Vite/React app with a Supabase backend (project ref lkollyuyjazlcxfgdeeu). Cloned functionality here instead of the Supabase DB, since artifacts can't run a backend.",
+    "datev_format": "EXTF v700 Buchungsstapel (Kategorie 21)",
+    "kassenbuecher": ["restaurant", "foodtruck", "tollwood"]
+  },
+  "coverage": {
+    "wolt": {"from": "2026-05-26", "to": "2026-07-05", "periods_parsed": 6, "status": "seeded", "drive_folder": "1UcSBEBixsTXsIIEg9dthytzEh7lvSex0"},
+    "uber_eats": {"from": "2026-06-01", "to": "2026-06-21", "periods_parsed": 3, "status": "seeded", "drive_folder": "12TWNeL7x3R8CaogSponHsdsS94JnvdRP"},
+    "lieferando": {"from": "2026-06-21", "to": "2026-07-04", "periods_parsed": 2, "status": "seeded", "drive_folder": "1LShwD0UKoGdfMxSatdtfr2iCdG3m8zBf"},
+    "sumup": {"status": "pending", "reason": "SumUp folder (restaurant + foodtruck subfolders) contains daily payout PDFs, payment PDFs, and Tagesabschlussbericht PDFs — need one more pass to extract daily gross/net/VAT split per Kasse. Not yet parsed into JSON.", "drive_folder_restaurant": "1_f-Q9KkiELtDIyGTYiMVBlB1g4TfE8zk", "drive_folder_foodtruck": "12nzDrhxU1emo67SNKhGahxIYLoHj_tum"}
+  },
+  "next_incremental_scan": {
+    "instructions": "Run in a fresh chat, same as COT_Supplier_Dashboard invoice rescans. Use search_files with parentId queries on the drive_folder ids above, filter by modifiedTime/createdTime > coverage.<platform>.to, parse, append to the *_periods.json files, update this manifest, then push all changed files in one commit.",
+    "priority": "sumup daily parse first (dine-in is 3-4x delivery revenue and currently has zero Kassenbuch coverage), then extend wolt/uber_eats/lieferando forward to current date"
+  },
+  "vat_and_bu_schluessel_rules": {
+    "revenue_food_vat": "7%",
+    "revenue_drinks_vat": "19%",
+    "bu94_reverse_charge_applies_to": ["wolt (Wolt License Services Oy, Finland)", "uber_eats (Netherlands entity)"],
+    "bu94_does_not_apply_to": "lieferando (yd.yourdelivery GmbH, Berlin — domestic 19% VAT, no reverse charge)"
+  }
+}
