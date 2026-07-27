@@ -48,7 +48,7 @@
    "invoiceCount": 28,
    "earliestInvoiceDate": "2026-01-12",
    "latestInvoiceDate": "2026-07-17",
-   "totalNetSpend": 3799.30,
+   "totalNetSpend": 3799.3,
    "invoicesMissingNetTotal": [
     "09.06.2026/046/0/0/0502/033579"
    ]
@@ -64,10 +64,6 @@
  ],
  "lastRescan": {
   "date": "2026-07-27",
-  "newInvoicesFound": {
-   "Ökoring": ["190241 (2026-07-10, net 243.40)", "197751 Gutschrift/Pfand credit (2026-07-21, net -37.92)"],
-   "Metro": "3 previously-placeholder invoices (03.07, 09.07, 17.07.2026) now fully parsed with line items"
-  },
-  "suppliersWithNoNewInvoices": ["Rajesh Global Food", "GFT Group", "Kupfer & Sohn", "RK Traders"]
+  "result": "All 6 supplier folders checked against prior cutoff dates. Only Ökoring had unmerged items (190241, 197751) — merged into main invoices array. No further new invoices found at Rajesh Global Food, GFT Group, Kupfer & Sohn, RK Traders, or Metro beyond what was already parsed."
  }
 }
