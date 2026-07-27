@@ -1456,31 +1456,72 @@
    ]
   },
   {
-   "invoiceNo": "03.07.2026/041/0/0/0501/...",
+   "invoiceNo": "03.07.2026/041/0/0/0501/042227",
    "date": "2026-07-03",
    "driveFileId": "1MUmqz6wAGJz3PyBWDLeuqYoxZ920y3T6",
-   "_note": "Line items pending - could not extract from PDF (small scan-based PDF)",
-   "netTotal": null,
+   "netTotal": 94.37,
+   "vat19": 14.23,
+   "vat7": 1.37,
+   "vatTotal": 15.60,
+   "grossTotal": 109.97,
+   "items": [
+    {"sku": "396249.5", "description": "250 Serv 40cm 3lg Granite", "qty": 1, "vat": 19, "amount": 17.99},
+    {"sku": "052827.3", "description": "Mpro 1025ml Spenderflasche Transparent", "qty": 1, "vat": 19, "amount": 7.69},
+    {"sku": "008567.0", "description": "Aro Party Platte Classic GN 1/", "qty": 1, "vat": 19, "amount": 6.99},
+    {"sku": "368306.7", "description": "Aro Partyplatte 41x31cm", "qty": 6, "vat": 19, "amount": 20.94},
+    {"sku": "603039.9", "description": "Aro Korb Oval 24cm 3er PP", "qty": 2, "vat": 19, "amount": 9.98},
+    {"sku": "288391.6", "description": "500ml Aroy-D Kokosnussmilch", "qty": 2, "vat": 7, "amount": 6.58},
+    {"sku": "891609.0", "description": "1l MC Kokosmilch 17%", "qty": 1, "vat": 7, "amount": 2.59},
+    {"sku": "072086.2", "description": "200g Mandeln Ganz", "qty": 1, "vat": 7, "amount": 2.65},
+    {"sku": "197051.6", "description": "10kg Esco-Europ. Sonnensalz", "qty": 1, "vat": 7, "amount": 5.99},
+    {"sku": "528015.1", "description": "165g Pringles Dose Original", "qty": 1, "vat": 7, "amount": 2.29},
+    {"sku": "072626.5", "description": "10L Aro Spuelmittel", "qty": 1, "vat": 19, "amount": 7.19},
+    {"sku": "072653.9", "description": "10L Aro Alles Reiniger", "qty": 1, "vat": 19, "amount": 8.29},
+    {"sku": "368306.7-rabatt", "description": "Mengenrabatt Aro Partyplatte 41x31cm", "qty": 1, "vat": 19, "amount": -4.20},
+    {"sku": "288391.6-rabatt", "description": "Mengenrabatt 500ml Aroy-D Kokosnussmilch", "qty": 1, "vat": 7, "amount": -0.60}
+   ],
    "_supplier": "Metro"
   },
   {
-   "invoiceNo": "09.07.2026/046/0/0/0502/...",
+   "invoiceNo": "09.07.2026/046/0/0/0502/041077",
    "date": "2026-07-09",
    "driveFileId": "12SGjLGc2va51s3RssojKu_BkZRjIaH8w",
-   "_note": "Line items pending - could not extract from PDF",
-   "netTotal": null,
+   "netTotal": 104.45,
+   "vat19": 4.23,
+   "vat7": 5.75,
+   "vatTotal": 9.98,
+   "grossTotal": 114.43,
+   "items": [
+    {"sku": "206871.6", "description": "10 Topfreiniger Draht 13cm", "qty": 1, "vat": 19, "amount": 13.49},
+    {"sku": "291618.7", "description": "4x3 Aro Topfrein mit Griff", "qty": 1, "vat": 19, "amount": 1.59},
+    {"sku": "292933.9", "description": "160g Dongwon Kimchi", "qty": 7, "vat": 7, "amount": 19.53},
+    {"sku": "007501.0", "description": "25cmx12Stk MC Wraps", "qty": 15, "vat": 7, "amount": 37.35},
+    {"sku": "009260.1", "description": "25cmx12Stk MC Wraps (Karton)", "qty": 2, "vat": 7, "amount": 49.80},
+    {"sku": "072626.5", "description": "10L Aro Spuelmittel", "qty": 1, "vat": 19, "amount": 7.19},
+    {"sku": "009260.1-rabatt", "description": "Mengenrabatt 25cmx12Stk MC Wraps", "qty": 1, "vat": 7, "amount": -24.50}
+   ],
    "_supplier": "Metro"
   },
   {
-   "invoiceNo": "17.07.2026/046/0/0/0504/...",
+   "invoiceNo": "17.07.2026/046/0/0/0504/021675",
    "date": "2026-07-17",
    "driveFileId": "1AQD2YdTx6XZo6Ft324XJhhUG3JIcLOID",
-   "_note": "Line items pending - could not extract from PDF",
-   "netTotal": null,
+   "netTotal": 52.35,
+   "vat7": 3.66,
+   "vatTotal": 3.66,
+   "grossTotal": 56.01,
+   "items": [
+    {"sku": "284660.8", "description": "Eisbergsalat DE", "qty": 3, "vat": 7, "amount": 32.70},
+    {"sku": "299330.1", "description": "500g Paprika Mix NL", "qty": 6, "vat": 7, "amount": 10.74},
+    {"sku": "299806.0", "description": "5kg Paprika Rot NL", "qty": 1, "vat": 7, "amount": 13.29},
+    {"sku": "284660.8-rabatt", "description": "Mengenrabatt Eisbergsalat", "qty": 1, "vat": 7, "amount": -3.30},
+    {"sku": "299330.1-rabatt", "description": "Mengenrabatt 500g Paprika Mix", "qty": 1, "vat": 7, "amount": -1.08}
+   ],
    "_supplier": "Metro"
   }
  ],
- "totalNetSpend": 3548.13,
+ "totalNetSpend": 3799.30,
  "latestInvoiceDate": "2026-07-17",
- "earliestInvoiceDate": "2026-01-12"
+ "earliestInvoiceDate": "2026-01-12",
+ "invoicesMissingNetTotal": null
 }
