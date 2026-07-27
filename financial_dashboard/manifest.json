@@ -1,6 +1,12 @@
 {
   "project": "COT Financial Dashboard",
   "purpose": "Claude-native rebuild of the Lovable/Electron 'Chutney on Top — Accounting Dashboard' (Kassenbuch + DATEV export tool). Reads Google Drive, writes JSON here; the dashboard artifact reads this JSON from GitHub raw URLs instead of Supabase.",
+  "REAL_APP_FOUND": {
+    "note": "The original Lovable app is live and working, importing from Drive 01_COT_GmbH/99_Dashboard/FinalInputs (folder id 1A6rnon5Q1R61gex2OluGkuaxagsOTR0G, same folder this repo's platform subfolders come from) with real Kassenbuch persistence at 99_Dashboard/output/kassenbuch-latest.json (folder id 1LNEBZxrMTCHp4jF9GJNMIeGmSsASC8Uc). It computes brutto/netto/VAT/fees live and exports DATEV/UStVA/Kassenbuch/Steuerberater-Report directly.",
+    "authoritative_data": ["real_data/platform_totals_verified.json (cumulative totals + monthly UStVA history, 2025-04 through 2026-06, from the app's own Steuerberater-Bericht)", "real_data/real_cash_ledger.json (568 real cashTx entries + 11 cashExpenses entries, Jan-Jul 2026, pulled directly from kassenbuch-latest.json)"],
+    "superseded": "wolt_periods.json, ubereats_periods.json, lieferando_periods.json, sumup_restaurant_daily.json, sumup_foodtruck_daily.json, and the derived kassenbuch.json/datev_export.py in this repo were a manual reconstruction built before the real app was found. They cover only a partial June-July 2026 window and materially understated/overstated provision rates (assumed platforms had varying fees per weekly summaries; the app confirms SumUp=0% flat and UberEats/Wolt/Lieferando run 40-45%). Do not sum them alongside platform_totals_verified.json - that would double count.",
+    "recommended_next_step": "Pull real DATEV/AGENDA-Kassenbuch/Steuerberater-Report exports directly from the app's Exporte menu and use those as primary going forward, rather than re-deriving from individual platform PDFs."
+  },
   "generated": "2026-07-27",
   "source_app": {
     "note": "Original app was an Electron-wrapped Vite/React app with a Supabase backend (project ref lkollyuyjazlcxfgdeeu). Cloned functionality here instead of the Supabase DB, since artifacts can't run a backend.",
