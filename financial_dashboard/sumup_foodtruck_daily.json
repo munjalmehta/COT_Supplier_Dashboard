@@ -1,0 +1,12 @@
+[
+{"date":"2026-06-08","gross":566.00,"net":528.65,"vat":37.35,"tips":0,"no_tax_gross":0,"vat7_net":525.29,"vat7_gross":562.00,"vat7_vat":36.71,"vat19_net":3.36,"vat19_gross":4.00,"vat19_vat":0.64,"cash":152.00},
+{"date":"2026-06-09","gross":275.50,"net":255.11,"vat":17.89,"tips":2.50,"no_tax_gross":2.50,"vat7_net":255.11,"vat7_gross":273.00,"vat7_vat":17.89,"vat19_net":0,"vat19_gross":0,"vat19_vat":0,"cash":84.50},
+{"date":"2026-06-11","gross":2750.50,"net":2570.53,"vat":179.97,"tips":0,"no_tax_gross":0,"vat7_net":2570.53,"vat7_gross":2750.50,"vat7_vat":179.97,"vat19_net":0,"vat19_gross":0,"vat19_vat":0,"cash":2010.00},
+{"date":"2026-06-12","gross":3175.00,"net":2967.42,"vat":207.58,"tips":0,"no_tax_gross":0,"vat7_net":2967.42,"vat7_gross":3175.00,"vat7_vat":207.58,"vat19_net":0,"vat19_gross":0,"vat19_vat":0,"cash":0},
+{"date":"2026-06-17","gross":3515.50,"net":3279.07,"vat":236.43,"tips":0,"no_tax_gross":0,"vat7_net":3228.67,"vat7_gross":3455.50,"vat7_vat":226.83,"vat19_net":50.40,"vat19_gross":60.00,"vat19_vat":9.60,"cash":0},
+{"date":"2026-06-22","gross":599.50,"net":559.04,"vat":40.46,"tips":0,"no_tax_gross":0,"vat7_net":547.70,"vat7_gross":586.00,"vat7_vat":38.30,"vat19_net":11.34,"vat19_gross":13.50,"vat19_vat":2.16,"cash":0},
+{"date":"2026-06-23","gross":193.50,"net":180.85,"vat":12.65,"tips":0,"no_tax_gross":0,"vat7_net":180.85,"vat7_gross":193.50,"vat7_vat":12.65,"vat19_net":0,"vat19_gross":0,"vat19_vat":0,"cash":45.00},
+{"date":"2026-06-25","gross":741.00,"net":692.33,"vat":48.67,"tips":0,"no_tax_gross":0,"vat7_net":692.33,"vat7_gross":741.00,"vat7_vat":48.67,"vat19_net":0,"vat19_gross":0,"vat19_vat":0,"cash":0},
+{"date":"2026-06-26","gross":940.50,"net":878.71,"vat":61.79,"tips":0,"no_tax_gross":0,"vat7_net":878.71,"vat7_gross":940.50,"vat7_vat":61.79,"vat19_net":0,"vat19_gross":0,"vat19_vat":0,"cash":0},
+{"date":"2026-06-27","gross":499.50,"net":489.11,"vat":34.39,"tips":0,"no_tax_gross":0,"vat7_net":466.69,"vat7_gross":499.50,"vat7_vat":32.81,"vat19_net":0,"vat19_gross":0,"vat19_vat":0,"cash":60.00,"refunds":-24.00}
+]
