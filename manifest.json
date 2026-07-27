@@ -1,6 +1,6 @@
 {
  "repo": "github.com/munjalmehta/COT_Supplier_Dashboard",
- "generatedAt": "2026-07-24",
+ "generatedAt": "2026-07-27",
  "description": "Manifest of parsed invoice JSON cache per supplier. Future rescans should check latestInvoiceDate per supplier before re-parsing Drive folders, and only fetch invoices newer than that date.",
  "suppliers": {
   "Rajesh Global Food": {
@@ -21,10 +21,10 @@
   },
   "Ökoring": {
    "file": "oekoring.json",
-   "invoiceCount": 26,
+   "invoiceCount": 28,
    "earliestInvoiceDate": "2026-06-16",
-   "latestInvoiceDate": "2026-07-18",
-   "totalNetSpend": 9893.17,
+   "latestInvoiceDate": "2026-07-21",
+   "totalNetSpend": 10098.65,
    "invoicesMissingNetTotal": null
   },
   "Kupfer & Sohn": {
@@ -48,20 +48,26 @@
    "invoiceCount": 28,
    "earliestInvoiceDate": "2026-01-12",
    "latestInvoiceDate": "2026-07-17",
-   "totalNetSpend": 3548.13,
+   "totalNetSpend": 3799.30,
    "invoicesMissingNetTotal": [
     "09.06.2026/046/0/0/0502/033579"
    ]
   }
  },
  "grandTotal": {
-  "totalInvoices": 196,
-  "totalNetSpend": 55290.88,
+  "totalInvoices": 198,
+  "totalNetSpend": 55747.53,
   "note": "totalNetSpend excludes invoices where only grossTotal is confirmed (see invoicesMissingNetTotal per supplier)"
  },
  "invoicesMissingNetTotal": [
-  "03.07.2026 Metro",
-  "09.07.2026 Metro",
-  "17.07.2026 Metro"
- ]
+  "09.06.2026 Metro"
+ ],
+ "lastRescan": {
+  "date": "2026-07-27",
+  "newInvoicesFound": {
+   "Ökoring": ["190241 (2026-07-10, net 243.40)", "197751 Gutschrift/Pfand credit (2026-07-21, net -37.92)"],
+   "Metro": "3 previously-placeholder invoices (03.07, 09.07, 17.07.2026) now fully parsed with line items"
+  },
+  "suppliersWithNoNewInvoices": ["Rajesh Global Food", "GFT Group", "Kupfer & Sohn", "RK Traders"]
+ }
 }
