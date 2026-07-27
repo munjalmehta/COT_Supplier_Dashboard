@@ -1,0 +1,4 @@
+[
+  {"period_from":"2026-06-21","period_to":"2026-06-27","invoice":"348073592","issued":"2026-06-28","delivery_revenue":1009.45,"delivery_orders":32,"service_fee_30pct":302.84,"toprank":97.50,"admin_fee":26.24,"admin_orders":41,"pickup_revenue":169.80,"pickup_orders":9,"pickup_fee_14pct":23.77,"fees_net_subtotal":450.35,"fees_vat_19":85.57,"fees_gross_total":535.92,"period_total_revenue":1179.25,"payout_amount":647.33,"source":"TAKEAWAY_EXPORT (35/36).pdf"},
+  {"period_from":"2026-06-28","period_to":"2026-07-04","invoice":"348978032","issued":"2026-07-05","delivery_revenue":1168.90,"delivery_orders":50,"service_fee_30pct":350.67,"toprank":161.25,"toprank_orders":43,"admin_fee":37.12,"admin_orders":58,"pickup_revenue":170.90,"pickup_orders":8,"pickup_fee_14pct":23.93,"fees_net_subtotal":572.97,"fees_vat_19":108.86,"fees_gross_total":681.83,"period_total_revenue":1339.80,"payout_amount":657.97,"source":"TAKEAWAY_EXPORT (34).pdf"}
+]
