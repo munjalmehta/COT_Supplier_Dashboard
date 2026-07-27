@@ -1,7 +1,7 @@
 {
  "supplier": "Ökoring",
- "lastUpdated": "2026-07-21",
- "invoiceCount": 26,
+ "lastUpdated": "2026-07-27",
+ "invoiceCount": 28,
  "note": "Supplier relationship began June 2026; ongoing weekly deliveries to Tollwood stand",
  "invoices": [
   {
@@ -1848,6 +1848,50 @@
    ]
   }
  ],
- "totalNetSpend": 9893.17,
- "latestInvoiceDate": "2026-07-18"
+ "totalNetSpend": 10098.65,
+ "latestInvoiceDate": "2026-07-21",
+ "invoices_new_2026-07-27": [
+  {
+   "invoiceNo": "190241",
+   "date": "2026-07-10",
+   "deliveryDate": "2026-07-10",
+   "kundenNr": "18035",
+   "auftragNr": "168281",
+   "lieferscheinNr": "192960",
+   "netTotal": 243.40,
+   "vat7": 15.96,
+   "vat19": 2.93,
+   "vatTotal": 18.89,
+   "grossTotal": 262.29,
+   "weightKg": 113.7,
+   "driveFileId": "14eMFMCV5huuz-1LgIdCWKEhXsubVjSCT",
+   "items": [
+    {"artNr": "100612", "description": "Großkartoffel gewaschen versch. Sorten BY", "qty": 2, "packaging": "12,5kg", "unitPrice": 1.00, "amount": 25.00},
+    {"artNr": "109061", "description": "Zwiebeln rot 40/60 IT", "qty": 2, "packaging": "6kg", "unitPrice": 1.95, "amount": 23.40},
+    {"artNr": "130504", "description": "Koriander lose Bayern (nicht lieferbar)", "qty": 0, "packaging": "1kg", "unitPrice": 14.98, "amount": 0.00},
+    {"artNr": "201014", "description": "SBG Joghurt stichfest 3,5% DD", "qty": 2, "packaging": "5kg", "unitPrice": 1.81, "amount": 18.10},
+    {"artNr": "228330", "description": "DFE Sommergemüse TK EG NL 4x2,5kg", "qty": 1, "packaging": "10kg", "unitPrice": 3.69, "amount": 36.90},
+    {"artNr": "510704", "description": "AZF Kichererbsen IT 1x2500g", "qty": 18, "packaging": "1x2500g", "unitPrice": 6.92, "amount": 124.56},
+    {"artNr": "99108", "description": "Europool grüne Klappkiste (Pfand)", "qty": 4, "unitPrice": 3.86, "amount": 15.44}
+   ]
+  },
+  {
+   "invoiceNo": "197751",
+   "type": "Rechnungskorrektur/Gutschrift (Pfandrückgabe)",
+   "date": "2026-07-21",
+   "kundenNr": "18035",
+   "netTotal": -37.92,
+   "vat7": -7.20,
+   "vatTotal": -7.20,
+   "grossTotal": -45.12,
+   "driveFileId": "1aExDbulN04Zg01vi0ptTvGJlSMKVmBu-",
+   "note": "Leergut-Pfandrückgabe Nr. 344257 vom 21.07.2026",
+   "items": [
+    {"artNr": "99001", "description": "Träger + 12 Flaschen (Pfand Rückgabe)", "qty": -1, "unitPrice": 3.30, "amount": -3.30},
+    {"artNr": "99003", "description": "1 Träger + 6 Flaschen (Pfand Rückgabe)", "qty": -1, "unitPrice": 2.40, "amount": -2.40},
+    {"artNr": "99100", "description": "IFCO Green/Black Lift Lock (Pfand Rückgabe)", "qty": -7, "unitPrice": 3.50, "amount": -24.50},
+    {"artNr": "99108", "description": "Europool grüne Klappkiste (Pfand Rückgabe)", "qty": -2, "unitPrice": 3.86, "amount": -7.72}
+   ]
+  }
+ ]
 }
