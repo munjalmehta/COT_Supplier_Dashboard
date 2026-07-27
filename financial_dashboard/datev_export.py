@@ -51,6 +51,21 @@ def build_rows(entries):
     for e in entries:
         if e["type"] != "Einnahme":
             continue  # Geldtransit offset entries net out Kassenbestand; not separately DATEV-booked
+        if e["platform"].startswith("SumUp"):
+            # Split into two postings: 7% and 19% portions, per the Steuerübersicht on the Tagesabschlussbericht
+            if e.get("vat7_gross"):
+                rows.append({
+                    "Umsatz (ohne Soll/Haben-Kz)": de_amount(e["vat7_gross"]), "Soll/Haben-Kennzeichen": "S",
+                    "Konto": KONTO_KASSE, "Gegenkonto (ohne BU-Schlüssel)": KONTO_ERLOSE_7, "BU-Schlüssel": "",
+                    "Belegdatum": datev_date(e["date"]), "Belegfeld 1": e["platform"][:12],
+                    "Buchungstext": (e["note"] + " (7%)")[:60]})
+            if e.get("vat19_gross"):
+                rows.append({
+                    "Umsatz (ohne Soll/Haben-Kz)": de_amount(e["vat19_gross"]), "Soll/Haben-Kennzeichen": "S",
+                    "Konto": KONTO_KASSE, "Gegenkonto (ohne BU-Schlüssel)": "8400", "BU-Schlüssel": "",
+                    "Belegdatum": datev_date(e["date"]), "Belegfeld 1": e["platform"][:12],
+                    "Buchungstext": (e["note"] + " (19%)")[:60]})
+            continue
         rows.append({
             "Umsatz (ohne Soll/Haben-Kz)": de_amount(e["gross"]),
             "Soll/Haben-Kennzeichen": "S",
