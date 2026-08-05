@@ -1,0 +1,110 @@
+{
+ "platform": "Wolt",
+ "lastUpdated": "2026-08-05",
+ "note": "Weekly Hexa invoicing cycle. Each period = merchant invoice (platform fees), payout report (revenue detail + payout), sales report (order-level detail). Figures below are period-level summaries, not order-line detail.",
+ "periods": [
+  {
+   "periodEnd": "2026-06-30",
+   "invoiceNo": "DEU/26/HRB217122B/1/420632",
+   "invoiceDate": "2026-06-30",
+   "wolt_fee_net": 191.44,
+   "wolt_fee_vat": 36.37,
+   "wolt_fee_gross": 227.81,
+   "orderFees_net": 11.76,
+   "orderFees_gross": 13.99,
+   "deliveryServiceFees_net": 89.43,
+   "deliveryServiceFees_gross": 106.43,
+   "lateFees_gross": 3.4,
+   "adSpend_net": 57.91,
+   "adSpend_gross": 68.91,
+   "invoiceTotal_gross": 420.54,
+   "driveFileIds": {
+    "merchantInvoice": "1uoaDjruMYU5xGyPTZNpXF6je_H7_5F9_"
+   },
+   "note": "payout report and sales report for this week not yet captured"
+  },
+  {
+   "periodEnd": "2026-07-15",
+   "period": "2026-07-11 to 2026-07-15",
+   "invoiceNo": "DEU/26/HRB217122B/1/456464",
+   "invoiceDate": "2026-07-15",
+   "wolt_fee_net": 345.42,
+   "wolt_fee_vat": 65.63,
+   "wolt_fee_gross": 411.05,
+   "orderFees_net": 19.11,
+   "orderFees_gross": 22.74,
+   "deliveryServiceFees_net": 144.63,
+   "deliveryServiceFees_gross": 172.11,
+   "lateFees_gross": 2.2,
+   "adSpend_net": 75.79,
+   "adSpend_gross": 90.19,
+   "invoiceTotal_gross": 698.29,
+   "revenue_goods_net": 1004.52,
+   "revenue_goods_gross": 1075.03,
+   "revenue_delivery_service_net": 144.63,
+   "revenue_delivery_service_gross": 154.56,
+   "payoutCorrections": -7.98,
+   "payoutAmount": 523.32,
+   "driveFileIds": {
+    "merchantInvoice": "1ZOvna2SFzfZwqu4lSrpRcy0xXqiR9fzz",
+    "payoutReport": "1fXk8xHMB9Komr_JqKohyQeomidgdmusP",
+    "salesReport": "1ynEms151FSPD71gm96_FIeXsNm002nEz"
+   }
+  },
+  {
+   "periodEnd": "2026-07-20",
+   "period": "2026-07-16 to 2026-07-20",
+   "invoiceNo": "DEU/26/HRB217122B/1/467332",
+   "invoiceDate": "2026-07-20",
+   "wolt_fee_net": 445.51,
+   "wolt_fee_vat": 84.64,
+   "wolt_fee_gross": 530.15,
+   "orderFees_net": 22.54,
+   "orderFees_gross": 26.82,
+   "deliveryServiceFees_net": 168.38,
+   "deliveryServiceFees_gross": 200.38,
+   "lateFees_gross": 12.2,
+   "adCampaignRefunds_gross": -30.71,
+   "invoiceTotal_gross": 738.84,
+   "revenue_goods_net": 1297.27,
+   "revenue_goods_gross": 1388.25,
+   "revenue_delivery_service_net": 168.38,
+   "revenue_delivery_service_gross": 179.98,
+   "payoutCorrections": -5.0,
+   "cashCollectedByRestaurant": -26.31,
+   "payoutAmount": 798.08,
+   "driveFileIds": {
+    "merchantInvoice": "1SpPtTBnKi0KdTrKJ09h8w32h8O3FcKHX",
+    "payoutReport": "1WnBk8WdeUswv29LPA2dqGLWTde8rAjm5",
+    "salesReport": "1swDvUgbOCdSlxrdFw-HrCT76Y4uhVJ8_"
+   }
+  },
+  {
+   "periodEnd": "2026-07-25",
+   "period": "2026-07-21 to 2026-07-25",
+   "invoiceNo": "DEU/26/HRB217122B/1/477570",
+   "invoiceDate": "2026-07-25",
+   "wolt_fee_net": 210.75,
+   "wolt_fee_vat": 40.05,
+   "wolt_fee_gross": 250.8,
+   "orderFees_net": 13.72,
+   "orderFees_gross": 16.33,
+   "deliveryServiceFees_net": 98.37,
+   "deliveryServiceFees_gross": 117.06,
+   "lateFees_gross": 27.85,
+   "adSpend_net": 31.55,
+   "adSpend_gross": 37.55,
+   "invoiceTotal_gross": 449.59,
+   "revenue_goods_net": 940.5,
+   "revenue_goods_gross": 1006.43,
+   "revenue_delivery_service_net": 129.45,
+   "revenue_delivery_service_gross": 137.59,
+   "payoutAmount": 694.43,
+   "driveFileIds": {
+    "merchantInvoice": "1pHIL2C8vita4jrdgJHs84livSe5FZJfI",
+    "payoutReport": "1HLrgdSQ9RM1-HvGi3MoxMUwgct28ooeH",
+    "salesReport": "1C8uvhoo_32bHIuEZGnhTIkUBreW-ZQoZ"
+   }
+  }
+ ]
+}
