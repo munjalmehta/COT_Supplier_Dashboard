@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chutney on Top — Kontenbuch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#202021;
+    --navy:#073B5A;
+    --midblue:#085488;
+    --sky:#71B8DE;
+    --gold:#FCC56B;
+    --coral:#DF5F57;
+    --paper:#F5F2E8;
+    --white:#FFFFFF;
+    --rule: rgba(32,32,33,0.14);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Poppins',sans-serif;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:var(--gold);color:var(--navy);}
+
+  /* ---------- masthead ---------- */
+  .masthead{
+    background:var(--navy);
+    color:var(--paper);
+    padding:38px 6vw 26px;
+    position:relative;
+    overflow:hidden;
+  }
+  .masthead::after{
+    content:"";
+    position:absolute;
+    left:0;right:0;bottom:0;
+    height:0;
+    border-bottom:2px dashed rgba(245,242,232,0.35);
+  }
+  .mast-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    flex-wrap:wrap;
+    gap:18px;
+  }
+  .wordmark{
+    font-family:'Cinzel',serif;
+    font-weight:600;
+    letter-spacing:0.04em;
+    font-size:clamp(28px,4vw,42px);
+    color:var(--gold);
+    margin:0;
+  }
+  .tagline{
+    font-family:'Poppins',sans-serif;
+    font-weight:300;
+    font-style:italic;
+    color:var(--sky);
+    margin:6px 0 0;
+    font-size:15px;
+    letter-spacing:0.02em;
+  }
+  .stamp{
+    border:2px solid var(--coral);
+    color:var(--coral);
+    border-radius:50%;
+    width:112px;height:112px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    transform:rotate(-8deg);
+    font-family:'Cinzel',serif;
+    text-align:center;
+    line-height:1.25;
+    flex-shrink:0;
+    background:rgba(223,95,87,0.06);
+  }
+  .stamp small{font-size:9px;letter-spacing:0.14em;text-transform:uppercase;opacity:0.85;}
+  .stamp span{font-size:13px;font-weight:700;}
+
+  /* ---------- tabs ---------- */
+  .tabbar{
+    display:flex;
+    gap:6px;
+    padding:0 6vw;
+    margin-top:-1px;
+    background:var(--navy);
+    flex-wrap:wrap;
+  }
+  .tabbtn{
+    font-family:'Poppins',sans-serif;
+    font-weight:500;
+    font-size:14px;
+    letter-spacing:0.02em;
+    background:rgba(245,242,232,0.08);
+    color:var(--paper);
+    border:none;
+    border-radius:10px 10px 0 0;
+    padding:12px 22px 11px;
+    cursor:pointer;
+    transition:background 0.15s ease, color 0.15s ease;
+  }
+  .tabbtn:hover{background:rgba(245,242,232,0.16);}
+  .tabbtn.active{
+    background:var(--paper);
+    color:var(--navy);
+    font-weight:600;
+  }
+
+  main{padding:34px 6vw 80px;max-width:1280px;margin:0 auto;}
+  .view{display:none;}
+  .view.active{display:block;animation:fade 0.25s ease;}
+  @keyframes fade{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:translateY(0);}}
+
+  h2.section-title{
+    font-family:'Cinzel',serif;
+    font-weight:600;
+    color:var(--navy);
+    font-size:22px;
+    letter-spacing:0.02em;
+    margin:0 0 4px;
+  }
+  .section-sub{
+    font-size:13px;
+    color:rgba(32,32,33,0.62);
+    margin:0 0 22px;
+  }
+
+  /* ---------- KPI cards ---------- */
+  .kpi-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+    gap:14px;
+    margin-bottom:36px;
+  }
+  .kpi{
+    background:var(--white);
+    border:1px solid var(--rule);
+    border-left:4px solid var(--midblue);
+    border-radius:6px;
+    padding:16px 18px;
+  }
+  .kpi.gold{border-left-color:var(--gold);}
+  .kpi.coral{border-left-color:var(--coral);}
+  .kpi.sky{border-left-color:var(--sky);}
+  .kpi-label{
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    color:rgba(32,32,33,0.55);
+    margin:0 0 6px;
+  }
+  .kpi-value{
+    font-family:'Cinzel',serif;
+    font-weight:600;
+    font-size:24px;
+    color:var(--navy);
+    font-variant-numeric:tabular-nums;
+    margin:0;
+  }
+  .kpi-sub{font-size:12px;color:rgba(32,32,33,0.5);margin-top:4px;}
+
+  /* ---------- channel bars ---------- */
+  .channel-list{background:var(--white);border:1px solid var(--rule);border-radius:8px;padding:20px 24px;margin-bottom:36px;}
+  .channel-row{padding:12px 0;border-bottom:1px dashed var(--rule);}
+  .channel-row:last-child{border-bottom:none;}
+  .channel-top{display:flex;justify-content:space-between;align-items:baseline;font-size:14px;margin-bottom:6px;}
+  .channel-name{font-weight:600;color:var(--navy);}
+  .channel-figs{font-variant-numeric:tabular-nums;color:rgba(32,32,33,0.75);font-size:13px;}
+  .bar-track{background:var(--paper);border-radius:4px;height:10px;overflow:hidden;position:relative;}
+  .bar-fill{height:100%;border-radius:4px;background:var(--midblue);}
+  .bar-fill.fee{background:var(--coral);}
+  .bar-legend{font-size:11px;color:rgba(32,32,33,0.5);margin-top:4px;}
+
+  /* ---------- tables ---------- */
+  table{width:100%;border-collapse:collapse;font-size:13.5px;background:var(--white);}
+  thead th{
+    text-align:left;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:rgba(32,32,33,0.55);
+    padding:10px 12px;
+    border-bottom:2px solid var(--navy);
+    white-space:nowrap;
+  }
+  tbody td{
+    padding:10px 12px;
+    border-bottom:1px dashed var(--rule);
+    font-variant-numeric:tabular-nums;
+    white-space:nowrap;
+  }
+  tbody tr:hover{background:rgba(113,184,222,0.08);}
+  .num{text-align:right;}
+  .table-wrap{border:1px solid var(--rule);border-radius:8px;overflow:auto;margin-bottom:30px;}
+
+  .supplier-card{background:var(--white);border:1px solid var(--rule);border-radius:8px;margin-bottom:22px;overflow:hidden;}
+  .supplier-head{
+    display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;
+    padding:16px 20px;background:linear-gradient(90deg, rgba(7,59,90,0.04), transparent);
+    cursor:pointer;
+  }
+  .supplier-head h3{margin:0;font-family:'Cinzel',serif;font-size:16px;color:var(--navy);font-weight:600;}
+  .supplier-meta{font-size:12px;color:rgba(32,32,33,0.55);}
+  .supplier-net{font-family:'Cinzel',serif;font-weight:600;color:var(--midblue);font-size:16px;}
+  .supplier-body{display:none;padding:0 20px 18px;}
+  .supplier-body.open{display:block;}
+  .badge{
+    display:inline-block;background:var(--gold);color:var(--navy);
+    font-size:10px;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;
+    padding:3px 8px;border-radius:20px;margin-left:8px;
+  }
+
+  .platform-block{margin-bottom:34px;}
+  .platform-head{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+  .dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
+  .dot.wolt{background:#00C2E8;}
+  .dot.uber{background:#06C167;}
+  .dot.lief{background:#FF8000;}
+
+  .loading, .error{padding:60px 0;text-align:center;color:rgba(32,32,33,0.5);font-size:14px;}
+  .error{color:var(--coral);}
+
+  footer{
+    text-align:center;padding:26px 6vw 40px;font-size:12px;color:rgba(32,32,33,0.45);
+    border-top:1px dashed var(--rule);margin-top:10px;
+  }
+  footer a{color:var(--midblue);}
+
+  @media (max-width:640px){
+    .masthead{padding:28px 5vw 22px;}
+    .stamp{width:88px;height:88px;}
+    main{padding:26px 5vw 60px;}
+    thead th, tbody td{padding:8px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="mast-row">
+    <div>
+      <p class="wordmark">Chutney on Top</p>
+      <p class="tagline">Konsolidiertes Kontenbuch — Lieferanten, Lieferplattformen &amp; Umsatz</p>
+    </div>
+    <div class="stamp"><small>zuletzt<br>geprüft</small><span id="stampDate">—</span></div>
+  </div>
+</div>
+
+<div class="tabbar">
+  <button class="tabbtn active" data-view="overview">Übersicht</button>
+  <button class="tabbtn" data-view="suppliers">Lieferanten</button>
+  <button class="tabbtn" data-view="delivery">Lieferplattformen</button>
+</div>
+
+<main>
+  <div id="loading" class="loading">Lade Daten aus dem Kontenbuch …</div>
+  <div id="err" class="error" style="display:none;"></div>
+
+  <!-- OVERVIEW -->
+  <section id="view-overview" class="view active">
+    <h2 class="section-title">Übersicht</h2>
+    <p class="section-sub">Gesamtzahlen seit Geschäftsbeginn (Umsatz) und aus dem laufenden Lieferanten-Scan.</p>
+    <div id="kpiGrid" class="kpi-grid"></div>
+
+    <h2 class="section-title" style="margin-top:8px;">Umsatz nach Kanal</h2>
+    <p class="section-sub">Brutto, Auszahlung und Plattformgebühren je Vertriebskanal, seit Beginn bis 27.07.2026.</p>
+    <div id="channelList" class="channel-list"></div>
+  </section>
+
+  <!-- SUPPLIERS -->
+  <section id="view-suppliers" class="view">
+    <h2 class="section-title">Lieferanten</h2>
+    <p class="section-sub">Eingangsrechnungen je Lieferant. Auf eine Zeile klicken, um die letzten Rechnungen zu sehen.</p>
+    <div id="supplierList"></div>
+  </section>
+
+  <!-- DELIVERY -->
+  <section id="view-delivery" class="view">
+    <h2 class="section-title">Lieferplattformen</h2>
+    <p class="section-sub">Wochen-/Periodenwerte je Plattform: Umsatz, Gebühren, MwSt. und Auszahlung.</p>
+    <div id="deliveryBlocks"></div>
+  </section>
+</main>
+
+<footer>
+  Datenquelle: <a href="https://github.com/munjalmehta/COT_Supplier_Dashboard" target="_blank">COT_Supplier_Dashboard</a> · wird bei jedem Laden live aus GitHub abgerufen
+</footer>
+
+<script>
+const RAW = "https://raw.githubusercontent.com/munjalmehta/COT_Supplier_Dashboard/main/";
+const fmtEUR = n => (n===undefined||n===null||isNaN(n)) ? "–" : n.toLocaleString('de-DE',{style:'currency',currency:'EUR'});
+const fmtNum = n => (n===undefined||n===null) ? "–" : n.toLocaleString('de-DE');
+const fmtDate = s => { if(!s) return "–"; const d=new Date(s); return isNaN(d)?s:d.toLocaleDateString('de-DE'); };
+
+async function jget(path){
+  const r = await fetch(RAW + path + "?t=" + Date.now());
+  if(!r.ok) throw new Error("Konnte " + path + " nicht laden");
+  return r.json();
+}
+
+const SUPPLIER_FILES = {
+  "Rajesh Global Food":"rajesh_global_food.json",
+  "GFT Group":"gft_group.json",
+  "Ökoring":"oekoring.json",
+  "Kupfer & Sohn":"kupfer_sohn.json",
+  "RK Traders":"rk_traders.json",
+  "Metro":"metro.json",
+  "Smart Elite Dienstleistungen GmbH":"smart_elite.json"
+};
+
+function kpi(label, value, sub, cls){
+  return `<div class="kpi ${cls||''}"><p class="kpi-label">${label}</p><p class="kpi-value">${value}</p>${sub?`<p class="kpi-sub">${sub}</p>`:''}</div>`;
+}
+
+function renderOverview(manifest){
+  const rbp = manifest.revenueByPlatform;
+  const gt = manifest.grandTotal;
+  const grid = document.getElementById('kpiGrid');
+  grid.innerHTML = [
+    kpi("Bruttoumsatz gesamt", fmtEUR(rbp.totals.bruttoumsatz), "seit Beginn · " + fmtNum(rbp.totals.anzahlVerkaeufe) + " Verkäufe", "gold"),
+    kpi("Auszahlung gesamt", fmtEUR(rbp.totals.auszahlungGesamt), "nach Plattformgebühren", "sky"),
+    kpi("Plattformgebühren", fmtEUR(rbp.totals.plattformGebuehren), "kumuliert über alle Kanäle", "coral"),
+    kpi("Lieferantenrechnungen", fmtNum(gt.totalInvoices) + " Rechnungen", fmtEUR(gt.totalNetSpend) + " Netto-Wareneinkauf", ""),
+  ].join("");
+
+  const maxGross = Math.max(...rbp.byPlatform.map(p=>p.gross));
+  const list = document.getElementById('channelList');
+  list.innerHTML = rbp.byPlatform
+    .slice()
+    .sort((a,b)=>b.gross-a.gross)
+    .map(p => `
+      <div class="channel-row">
+        <div class="channel-top">
+          <span class="channel-name">${p.platform}</span>
+          <span class="channel-figs">${fmtEUR(p.gross)} brutto · ${fmtEUR(p.payout)} Auszahlung ${p.commissionPct>0?`· ${p.commissionPct}% Provision`:''}</span>
+        </div>
+        <div class="bar-track">
+          <div class="bar-fill" style="width:${(p.gross/maxGross*100).toFixed(1)}%"></div>
+        </div>
+        <div class="bar-legend">${fmtNum(p.orderCount)} Bestellungen · Gebühren ${fmtEUR(p.platformFees)}</div>
+      </div>
+    `).join("");
+}
+
+async function renderSuppliers(manifest){
+  const container = document.getElementById('supplierList');
+  container.innerHTML = "";
+  for(const [name, meta] of Object.entries(manifest.suppliers)){
+    const file = SUPPLIER_FILES[name];
+    let data;
+    try{ data = await jget(file); } catch(e){ continue; }
+    const card = document.createElement('div');
+    card.className = 'supplier-card';
+    const recent = data.invoices.slice(-8).reverse();
+    card.innerHTML = `
+      <div class="supplier-head">
+        <div>
+          <h3>${name}${meta.invoicesMissingNetTotal && meta.invoicesMissingNetTotal.length ? '<span class="badge">prüfen</span>':''}</h3>
+          <div class="supplier-meta">${meta.invoiceCount} Rechnungen · ${fmtDate(meta.earliestInvoiceDate)} – ${fmtDate(meta.latestInvoiceDate)}</div>
+        </div>
+        <div class="supplier-net">${fmtEUR(meta.totalNetSpend)}</div>
+      </div>
+      <div class="supplier-body">
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Rechnung</th><th>Datum</th><th class="num">Netto</th><th class="num">Brutto</th></tr></thead>
+            <tbody>
+              ${recent.map(inv => `<tr><td>${inv.invoiceNo||'–'}</td><td>${fmtDate(inv.date)}</td><td class="num">${fmtEUR(inv.netTotal)}</td><td class="num">${fmtEUR(inv.grossTotal)}</td></tr>`).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `;
+    const head = card.querySelector('.supplier-head');
+    const body = card.querySelector('.supplier-body');
+    head.addEventListener('click', () => body.classList.toggle('open'));
+    container.appendChild(card);
+  }
+}
+
+async function renderDelivery(){
+  const container = document.getElementById('deliveryBlocks');
+  container.innerHTML = "";
+
+  try{
+    const wolt = await jget('wolt.json');
+    container.innerHTML += `
+      <div class="platform-block">
+        <div class="platform-head"><span class="dot wolt"></span><h3 style="margin:0;font-family:'Cinzel',serif;color:var(--navy);">Wolt</h3></div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Periode Ende</th><th class="num">Wolt-Gebühr netto</th><th class="num">MwSt.</th><th class="num">Werbeausgaben</th><th class="num">Auszahlung</th></tr></thead>
+          <tbody>${wolt.periods.map(p=>`<tr><td>${fmtDate(p.periodEnd)}</td><td class="num">${fmtEUR(p.wolt_fee_net)}</td><td class="num">${fmtEUR(p.wolt_fee_vat)}</td><td class="num">${fmtEUR(p.adSpend_gross||0)}</td><td class="num">${p.payoutAmount?fmtEUR(p.payoutAmount):'–'}</td></tr>`).join('')}</tbody>
+        </table></div>
+      </div>`;
+  }catch(e){}
+
+  try{
+    const uber = await jget('uber_eats.json');
+    container.innerHTML += `
+      <div class="platform-block">
+        <div class="platform-head"><span class="dot uber"></span><h3 style="margin:0;font-family:'Cinzel',serif;color:var(--navy);">Uber Eats</h3></div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Woche</th><th class="num">Bestellungen</th><th class="num">Brutto</th><th class="num">Uber-Gebühr netto</th><th class="num">Werbung</th><th class="num">Auszahlung</th></tr></thead>
+          <tbody>${uber.weeks.map(w=>`<tr><td>${fmtDate(w.periodStart)} – ${fmtDate(w.periodEnd)}</td><td class="num">${w.orders}</td><td class="num">${fmtEUR(w.grossOrderValue)}</td><td class="num">${fmtEUR(w.uberEatsFee_net)}</td><td class="num">${fmtEUR(Math.abs((w.marketing.adsGross||0)+(w.marketing.offerFeeGross||0)))}</td><td class="num">${fmtEUR(w.payoutTotal)}</td></tr>`).join('')}</tbody>
+        </table></div>
+      </div>`;
+  }catch(e){}
+
+  try{
+    const lief = await jget('lieferando.json');
+    container.innerHTML += `
+      <div class="platform-block">
+        <div class="platform-head"><span class="dot lief"></span><h3 style="margin:0;font-family:'Cinzel',serif;color:var(--navy);">Lieferando</h3></div>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Woche</th><th class="num">Bestellungen</th><th class="num">Umsatz</th><th class="num">Servicegebühr</th><th class="num">MwSt.</th><th class="num">Auszahlung</th></tr></thead>
+          <tbody>${lief.weeks.map(w=>`<tr><td>${fmtDate(w.periodStart)} – ${fmtDate(w.periodEnd)}</td><td class="num">${w.orders}</td><td class="num">${fmtEUR(w.revenue_gross)}</td><td class="num">${fmtEUR(w.serviceFee30pct)}</td><td class="num">${fmtEUR(w.vat19)}</td><td class="num">${fmtEUR(w.payoutAmount)}</td></tr>`).join('')}</tbody>
+        </table></div>
+      </div>`;
+  }catch(e){}
+}
+
+// tab switching
+document.querySelectorAll('.tabbtn').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.tabbtn').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('view-'+btn.dataset.view).classList.add('active');
+  });
+});
+
+(async function init(){
+  try{
+    const manifest = await jget('manifest.json');
+    document.getElementById('stampDate').textContent = new Date(manifest.generatedAt).toLocaleDateString('de-DE');
+    document.getElementById('loading').style.display = 'none';
+    renderOverview(manifest);
+    await renderSuppliers(manifest);
+    await renderDelivery();
+  }catch(e){
+    document.getElementById('loading').style.display = 'none';
+    const err = document.getElementById('err');
+    err.style.display='block';
+    err.textContent = 'Fehler beim Laden der Daten: ' + e.message;
+  }
+})();
+</script>
+
+</body>
+</html>
