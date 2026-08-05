@@ -1,0 +1,198 @@
+{
+ "source": "claude-dashboard-checkpoint",
+ "prices": {
+  "chicken": {
+   "latest_price": 4.25,
+   "unit": "kg",
+   "avg_price": 4.225,
+   "n": 29,
+   "latest_desc": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+   "latest_supplier": "GFT Group"
+  },
+  "lamb": {
+   "latest_price": 11.9,
+   "unit": "kg",
+   "avg_price": 12.557,
+   "n": 7,
+   "latest_desc": "FROZ. LAMB w/o BONES 1kg",
+   "latest_supplier": "GFT Group"
+  },
+  "tomato": {
+   "latest_price": 0.12,
+   "unit": "kg",
+   "avg_price": 0.123,
+   "n": 4,
+   "latest_desc": "Mazza Peeled Tomato 2.5kg [2.5kg x6]",
+   "latest_supplier": "Rajesh Global Food"
+  },
+  "basmati": {
+   "latest_price": 1.85,
+   "unit": "kg",
+   "avg_price": 1.63,
+   "n": 9,
+   "latest_desc": "HEER EXTRA LONG BASMATI RICE 20kg",
+   "latest_supplier": "GFT Group"
+  },
+  "yogurt": {
+   "latest_price": 1.39,
+   "unit": "kg",
+   "avg_price": 0.834,
+   "n": 2,
+   "latest_desc": "Naturjoghurt mild 3,5% 5kg (BGL)",
+   "latest_supplier": "Kupfer & Sohn"
+  },
+  "chickpeas": {
+   "latest_price": 0.127,
+   "unit": "kg",
+   "avg_price": 0.131,
+   "n": 11,
+   "latest_desc": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+   "latest_supplier": "GFT Group"
+  },
+  "milk": {
+   "latest_price": 1.05,
+   "unit": "l",
+   "avg_price": 0.734,
+   "n": 5,
+   "latest_desc": "Frischmilch 3,5% 10L Eimer (BGL)",
+   "latest_supplier": "Kupfer & Sohn"
+  },
+  "cashew": {
+   "latest_price": 5.949,
+   "unit": "kg",
+   "avg_price": 5.327,
+   "n": 6,
+   "latest_desc": "RG LP Cashew Broken 5Kg [4x5Kg]",
+   "latest_supplier": "Rajesh Global Food"
+  },
+  "onion_white": {
+   "latest_price": 0.52,
+   "unit": "kg",
+   "avg_price": 0.559,
+   "n": 20,
+   "latest_desc": "Zwiebel 25kg",
+   "latest_supplier": "RK Traders"
+  },
+  "onion_red": {
+   "latest_price": 1.05,
+   "unit": "kg",
+   "avg_price": 1.066,
+   "n": 19,
+   "latest_desc": "Rote Zwiebel 10kg",
+   "latest_supplier": "RK Traders"
+  },
+  "potato": {
+   "latest_price": 0.8,
+   "unit": "kg",
+   "avg_price": 0.569,
+   "n": 20,
+   "latest_desc": "Kartoffel 25kg",
+   "latest_supplier": "RK Traders"
+  },
+  "spinach": {
+   "latest_price": 3.32,
+   "unit": "kg",
+   "avg_price": 3.209,
+   "n": 15,
+   "latest_desc": "IGLO Rahmspinat portionierbar 8x750g",
+   "latest_supplier": "Rajesh Global Food"
+  },
+  "oil": {
+   "latest_price": 1.399,
+   "unit": "l",
+   "avg_price": 1.399,
+   "n": 2,
+   "latest_desc": "Rapsöl 10L",
+   "latest_supplier": "Kupfer & Sohn"
+  },
+  "cream": {
+   "latest_price": 2.92,
+   "unit": "l",
+   "avg_price": 2.92,
+   "n": 2,
+   "latest_desc": "H-Küchensahne 30% 12x1L (Frischli)",
+   "latest_supplier": "Kupfer & Sohn"
+  },
+  "ghee": {
+   "latest_price": 9.85,
+   "unit": "kg",
+   "avg_price": 7.263,
+   "n": 3,
+   "latest_desc": "KHANUM BUTTER GHEE 1x2kg",
+   "latest_supplier": "GFT Group"
+  },
+  "dal": {
+   "latest_price": 1.72,
+   "unit": "kg",
+   "avg_price": 1.738,
+   "n": 16,
+   "latest_desc": "SCHANI TOOR DAL PLAIN 2kg",
+   "latest_supplier": "GFT Group"
+  },
+  "garlic": {
+   "latest_price": 2.899,
+   "unit": "kg",
+   "avg_price": 2.343,
+   "n": 9,
+   "latest_desc": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+   "latest_supplier": "Rajesh Global Food"
+  },
+  "ginger": {
+   "latest_price": 1.442,
+   "unit": "l",
+   "avg_price": 2.16,
+   "n": 7,
+   "latest_desc": "VOE Ingwersaft 12x0,2l",
+   "latest_supplier": "Ökoring"
+  },
+  "flour": {
+   "latest_price": 0.689,
+   "unit": "kg",
+   "avg_price": 0.927,
+   "n": 30,
+   "latest_desc": "SCHANI CHAPATI ATTA 10kg",
+   "latest_supplier": "GFT Group"
+  },
+  "coconut": {
+   "latest_price": 6.0,
+   "unit": "kg",
+   "avg_price": 7.0,
+   "n": 3,
+   "latest_desc": "FRIT RAVICH/SCHANI COCONUT FLAKES-MEDIUM 1x1kg",
+   "latest_supplier": "GFT Group"
+  },
+  "butter": null,
+  "cheese_cheddar": null,
+  "prawn": {
+   "latest_price": 11.49,
+   "unit": "kg",
+   "note": "Verpackungsnotation verwirrte Parser - Kalibrierungswert verwendet"
+  },
+  "duck": {
+   "latest_price": 9.05,
+   "unit": "kg"
+  },
+  "mutton": {
+   "latest_price": 12.75,
+   "unit": "kg",
+   "note": "Regex traf Ziegenhaus Markenname - Kalibrierungswert verwendet"
+  },
+  "paneer": {
+   "latest_price": 13.3,
+   "unit": "kg",
+   "note": "Eigenproduktion, 10L Milch/kg"
+  },
+  "spice_generic": {
+   "latest_price": 18.0,
+   "unit": "kg"
+  },
+  "sugar": {
+   "latest_price": 0.8,
+   "unit": "kg"
+  },
+  "salt": {
+   "latest_price": 3.0,
+   "unit": "kg"
+  }
+ }
+}
