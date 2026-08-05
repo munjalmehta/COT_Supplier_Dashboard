@@ -1,0 +1,2863 @@
+{
+ "source": "claude-dashboard-checkpoint",
+ "methodology_note": "Rezepte und Rohkosten sind AI-Schaetzungen auf Basis Standard-Rezeptkonventionen fuer nordindische Restaurantkueche (Standardportionen: 150g Fleisch/Fisch, 150g Paneer, Standard-Gravy-Basis aus Zwiebel/Tomate/Knoblauch/Ingwer/Gewuerz), NICHT mit Anar abgestimmt. Zutatenpreise stammen aus deinen echten Lieferantenrechnungen (Preisvergleich-Tab); wo kein sauberer Rechnungstreffer existierte (Garnelen, Hammel), wurden Kalibrierungswerte aus einer frueheren Analyse verwendet. Verkaufspreis = tatsaechlicher Durchschnittspreis aus dem SumUp-Verkaufsbericht (01.01.-03.08.2026), nicht die statische Menuepreisliste. Menu-Code-Duplikate (z.B. 'M06 Butter Chicken' und 'Butter Chicken') wurden zusammengefasst. Thali-Preise sind aus kleineren Kombi-Portionen zusammengesetzt, daher am unsichersten.",
+ "chicken_price_note": "Achtung Preis-Inkonsistenz: Butter Chicken nutzt die bestaetigte Haehnchenbrust zu 8,80 EUR/kg. Alle anderen Haehnchen-Gerichte in dieser Liste (CTM, Jalfreizi, Mango Chicken, Vindaloo, Tikka, Tandoori, Chicken 65, Biryani, Momos, Dosa-Fuellung) nutzen stattdessen den guenstigeren generischen TK-Grosshandelspreis (4,25 EUR/kg, GFT Thailand-Haehnchen) aus dem Preisvergleich-Tab, da nicht bekannt ist, welcher Cut fuer diese Gerichte tatsaechlich verwendet wird. Die echten Kosten koennten je nach verwendetem Cut hoeher liegen.",
+ "known_recipes": [
+  {
+   "dish": "Butter Chicken",
+   "price": 17.9,
+   "cost": 2.63,
+   "verified": true,
+   "note": "Vollstaendige Rezeptur mit Anar abgestimmt.",
+   "source": "Chat 09.07.2026 - Rechnungs-Rescan / Dashboard-Aufbau",
+   "ingredients": [
+    {
+     "name": "Haehnchenbrust",
+     "g": 150,
+     "eur_kg": 8.8
+    },
+    {
+     "name": "Naturjoghurt 3,5%",
+     "g": 30,
+     "eur_kg": 2.2
+    },
+    {
+     "name": "Knoblauch/Ingwerpaste",
+     "g": 8,
+     "eur_kg": 3.5
+    },
+    {
+     "name": "Garam Masala",
+     "g": 2,
+     "eur_kg": 22.0
+    },
+    {
+     "name": "Paprikapulver",
+     "g": 1,
+     "eur_kg": 15.0
+    },
+    {
+     "name": "Salz + Chili",
+     "g": 2,
+     "eur_kg": 3.0
+    },
+    {
+     "name": "Ghee/Butter",
+     "g": 14,
+     "eur_kg": 9.38
+    },
+    {
+     "name": "Metzgerzwiebel",
+     "g": 60,
+     "eur_kg": 1.2
+    },
+    {
+     "name": "Tomaten passiert (Schani)",
+     "g": 150,
+     "eur_kg": 1.27
+    },
+    {
+     "name": "Cashewkerne gemahlen",
+     "g": 30,
+     "eur_kg": 10.0
+    },
+    {
+     "name": "Schlagsahne 30%",
+     "g": 50,
+     "eur_kg": 3.5
+    },
+    {
+     "name": "Zucker",
+     "g": 2,
+     "eur_kg": 0.8
+    },
+    {
+     "name": "Kreuzkuemmel",
+     "g": 1,
+     "eur_kg": 33.3
+    },
+    {
+     "name": "Kurkuma",
+     "g": 1,
+     "eur_kg": 10.75
+    },
+    {
+     "name": "Korianderpulver",
+     "g": 1,
+     "eur_kg": 10.95
+    },
+    {
+     "name": "Basmati Reis (Beilage)",
+     "g": 120,
+     "eur_kg": 1.85
+    }
+   ]
+  },
+  {
+   "dish": "Chicken Tikka Masala",
+   "price": 16.9,
+   "cost": 1.57,
+   "verified": true,
+   "note": "250g rohes Haehnchen zu 60% Tandoor-Ausbeute zu 150g gegrillt pro Portion.",
+   "source": "Chat 27.07.2026 - Uber Eats BOGO-Analyse"
+  },
+  {
+   "dish": "Paneer Butter Masala",
+   "price": 14.5,
+   "cost": 2.11,
+   "verified": true,
+   "note": "150g hausgemachter Paneer (ca. 10L Milch/kg, Hauskosten 13,30 Euro/kg). Achtung: Stammkarte vom 09.07. nennt 15,90 Euro als Verkaufspreis - bitte aktuellen Preis bestaetigen.",
+   "source": "Chat 27.07.2026 - Uber Eats BOGO-Analyse"
+  },
+  {
+   "dish": "Masala Dosa",
+   "price": 12.9,
+   "cost": 1.38,
+   "verified": false,
+   "note": "Menge nicht mit Anar abgestimmt, aus BOGO-Kandidaten-Ranking uebernommen.",
+   "source": "Chat 27.07.2026 - Uber Eats BOGO-Analyse"
+  },
+  {
+   "dish": "Vegetable Biryani",
+   "price": 14.9,
+   "cost": 2.18,
+   "verified": false,
+   "note": "Menge nicht mit Anar abgestimmt.",
+   "source": "Chat 27.07.2026 - Uber Eats BOGO-Analyse"
+  },
+  {
+   "dish": "Chicken 65",
+   "price": 12.9,
+   "cost": 2.18,
+   "verified": false,
+   "note": "Menge nicht mit Anar abgestimmt.",
+   "source": "Chat 27.07.2026 - Uber Eats BOGO-Analyse"
+  },
+  {
+   "dish": "Jheenga Masala",
+   "price": 23.5,
+   "cost": 3.21,
+   "verified": false,
+   "note": "Menge nicht mit Anar abgestimmt.",
+   "source": "Chat 27.07.2026 - Uber Eats BOGO-Analyse"
+  },
+  {
+   "dish": "Chana Masala / Chhole Bhature",
+   "price": 13.9,
+   "cost": 0.48,
+   "verified": false,
+   "note": "Annahme: 180g gekochte Kichererbsen. Ausdruecklich als unbestaetigt markiert.",
+   "source": "Chat 27.07.2026 - Uber Eats BOGO-Analyse"
+  },
+  {
+   "dish": "Daal Makhani",
+   "price": 13.9,
+   "cost": 0.65,
+   "verified": false,
+   "note": "Annahme: 70g trockener Urad Dal. Ausdruecklich als unbestaetigt markiert.",
+   "source": "Chat 27.07.2026 - Uber Eats BOGO-Analyse"
+  }
+ ],
+ "percent_only_recipes": [
+  {
+   "dish": "Butter Naan",
+   "price": 2.9,
+   "pct": 6.0
+  },
+  {
+   "dish": "Garlic Naan",
+   "price": 3.2,
+   "pct": 6.5
+  },
+  {
+   "dish": "Pani Puri",
+   "price": null,
+   "pct": 7.2
+  },
+  {
+   "dish": "Samosa (2 Stueck)",
+   "price": null,
+   "pct": 8.4
+  },
+  {
+   "dish": "Lehsuni Palak Paneer",
+   "price": 15.9,
+   "pct": 23.0
+  },
+  {
+   "dish": "Lamb Rogan Josh",
+   "price": 19.9,
+   "pct": 27.0
+  }
+ ],
+ "protein_calibration": {
+  "chicken (Bulkware, Kalkulationsbasis)": 4.0,
+  "lamb": 12.75,
+  "mutton": 12.75,
+  "duck": 9.05,
+  "prawn": 11.49,
+  "paneer (hausgemacht)": 13.3
+ },
+ "top50_estimated": [
+  {
+   "dish": "Chicken Tikka Masala",
+   "qty": 443,
+   "revenue": 6504.98,
+   "avg_price": 14.68,
+   "cost": 1.26,
+   "food_cost_pct": 8.6,
+   "margin_pct": 91.4
+  },
+  {
+   "dish": "Butter Chicken",
+   "qty": 435,
+   "revenue": 6240.78,
+   "avg_price": 14.35,
+   "cost": 2.63,
+   "food_cost_pct": 18.3,
+   "margin_pct": 81.7
+  },
+  {
+   "dish": "Garlic Naan",
+   "qty": 1168,
+   "revenue": 4707.62,
+   "avg_price": 4.03,
+   "cost": 0.12,
+   "food_cost_pct": 3.0,
+   "margin_pct": 97.0
+  },
+  {
+   "dish": "Chutney On Top Thali For Two",
+   "qty": 107,
+   "revenue": 3789.69,
+   "avg_price": 35.42,
+   "cost": 1.98,
+   "food_cost_pct": 5.6,
+   "margin_pct": 94.4
+  },
+  {
+   "dish": "Mango Lassi 0.3l",
+   "qty": 871,
+   "revenue": 3469.13,
+   "avg_price": 3.98,
+   "cost": 0.68,
+   "food_cost_pct": 17.1,
+   "margin_pct": 82.9
+  },
+  {
+   "dish": "Vegetarian Thali For Two",
+   "qty": 97,
+   "revenue": 3159.09,
+   "avg_price": 32.57,
+   "cost": 1.28,
+   "food_cost_pct": 3.9,
+   "margin_pct": 96.1
+  },
+  {
+   "dish": "Chicken Jalfreizi",
+   "qty": 229,
+   "revenue": 3108.5,
+   "avg_price": 13.57,
+   "cost": 1.19,
+   "food_cost_pct": 8.8,
+   "margin_pct": 91.2
+  },
+  {
+   "dish": "Kadai Paneer",
+   "qty": 251,
+   "revenue": 3075.86,
+   "avg_price": 12.25,
+   "cost": 2.2,
+   "food_cost_pct": 18.0,
+   "margin_pct": 82.0
+  },
+  {
+   "dish": "Butter Naan",
+   "qty": 746,
+   "revenue": 2887.84,
+   "avg_price": 3.87,
+   "cost": 0.11,
+   "food_cost_pct": 2.8,
+   "margin_pct": 97.2
+  },
+  {
+   "dish": "Vegetarian Thali For One",
+   "qty": 142,
+   "revenue": 2505.74,
+   "avg_price": 17.65,
+   "cost": 0.69,
+   "food_cost_pct": 3.9,
+   "margin_pct": 96.1
+  },
+  {
+   "dish": "Paneer Butter Masala",
+   "qty": 158,
+   "revenue": 2248.05,
+   "avg_price": 14.23,
+   "cost": 2.11,
+   "food_cost_pct": 14.8,
+   "margin_pct": 85.2
+  },
+  {
+   "dish": "Chutney On Top Thali For One",
+   "qty": 113,
+   "revenue": 2245.99,
+   "avg_price": 19.88,
+   "cost": 1.04,
+   "food_cost_pct": 5.2,
+   "margin_pct": 94.8
+  },
+  {
+   "dish": "Vegetable Korma",
+   "qty": 196,
+   "revenue": 2228.4,
+   "avg_price": 11.37,
+   "cost": 0.43,
+   "food_cost_pct": 3.8,
+   "margin_pct": 96.2
+  },
+  {
+   "dish": "Mysore Masala Dosa",
+   "qty": 166,
+   "revenue": 2216.61,
+   "avg_price": 13.35,
+   "cost": 0.77,
+   "food_cost_pct": 5.8,
+   "margin_pct": 94.2
+  },
+  {
+   "dish": "Mango Chicken",
+   "qty": 135,
+   "revenue": 2130.76,
+   "avg_price": 15.78,
+   "cost": 1.44,
+   "food_cost_pct": 9.1,
+   "margin_pct": 90.9
+  },
+  {
+   "dish": "Chhole Bhature",
+   "qty": 144,
+   "revenue": 1984.74,
+   "avg_price": 13.78,
+   "cost": 0.18,
+   "food_cost_pct": 1.3,
+   "margin_pct": 98.7
+  },
+  {
+   "dish": "Masala Dosa (Standard)",
+   "qty": 148,
+   "revenue": 1897.43,
+   "avg_price": 12.82,
+   "cost": 0.62,
+   "food_cost_pct": 4.8,
+   "margin_pct": 95.2
+  },
+  {
+   "dish": "Lamb Vindaloo",
+   "qty": 129,
+   "revenue": 1704.7,
+   "avg_price": 13.21,
+   "cost": 2.19,
+   "food_cost_pct": 16.6,
+   "margin_pct": 83.4
+  },
+  {
+   "dish": "Tandoori Momo - Veg",
+   "qty": 125,
+   "revenue": 1669.67,
+   "avg_price": 13.36,
+   "cost": 0.23,
+   "food_cost_pct": 1.7,
+   "margin_pct": 98.3
+  },
+  {
+   "dish": "Pani Puri",
+   "qty": 210,
+   "revenue": 1620.44,
+   "avg_price": 7.72,
+   "cost": 1.06,
+   "food_cost_pct": 13.7,
+   "margin_pct": 86.3
+  },
+  {
+   "dish": "Chicken Tikka",
+   "qty": 94,
+   "revenue": 1578.32,
+   "avg_price": 16.79,
+   "cost": 1.25,
+   "food_cost_pct": 7.4,
+   "margin_pct": 92.6
+  },
+  {
+   "dish": "Lehsuni Palak Paneer",
+   "qty": 109,
+   "revenue": 1554.64,
+   "avg_price": 14.26,
+   "cost": 2.62,
+   "food_cost_pct": 18.4,
+   "margin_pct": 81.6
+  },
+  {
+   "dish": "Hyderabadi Biryani",
+   "qty": 87,
+   "revenue": 1457.88,
+   "avg_price": 16.76,
+   "cost": 2.13,
+   "food_cost_pct": 12.7,
+   "margin_pct": 87.3
+  },
+  {
+   "dish": "Samosa",
+   "qty": 204,
+   "revenue": 1406.09,
+   "avg_price": 6.89,
+   "cost": 0.14,
+   "food_cost_pct": 2.0,
+   "margin_pct": 98.0
+  },
+  {
+   "dish": "Tawa Paneer Masala",
+   "qty": 82,
+   "revenue": 1301.7,
+   "avg_price": 15.87,
+   "cost": 2.2,
+   "food_cost_pct": 13.9,
+   "margin_pct": 86.1
+  },
+  {
+   "dish": "Indian Chai",
+   "qty": 383,
+   "revenue": 1259.1,
+   "avg_price": 3.29,
+   "cost": 0.22,
+   "food_cost_pct": 6.7,
+   "margin_pct": 93.3
+  },
+  {
+   "dish": "Steamed Momo - Gemuese",
+   "qty": 129,
+   "revenue": 1213.87,
+   "avg_price": 9.41,
+   "cost": 0.23,
+   "food_cost_pct": 2.4,
+   "margin_pct": 97.6
+  },
+  {
+   "dish": "Tandoori Roti",
+   "qty": 338,
+   "revenue": 1180.82,
+   "avg_price": 3.49,
+   "cost": 0.04,
+   "food_cost_pct": 1.1,
+   "margin_pct": 98.9
+  },
+  {
+   "dish": "Chicken Dum Biryani",
+   "qty": 71,
+   "revenue": 1180.47,
+   "avg_price": 16.63,
+   "cost": 0.99,
+   "food_cost_pct": 6.0,
+   "margin_pct": 94.0
+  },
+  {
+   "dish": "Tawa Sabji",
+   "qty": 73,
+   "revenue": 1086.01,
+   "avg_price": 14.88,
+   "cost": 0.43,
+   "food_cost_pct": 2.9,
+   "margin_pct": 97.1
+  },
+  {
+   "dish": "Subzi Kofta",
+   "qty": 72,
+   "revenue": 1072.8,
+   "avg_price": 14.9,
+   "cost": 0.42,
+   "food_cost_pct": 2.8,
+   "margin_pct": 97.2
+  },
+  {
+   "dish": "Mix Daal",
+   "qty": 77,
+   "revenue": 1070.11,
+   "avg_price": 13.9,
+   "cost": 0.64,
+   "food_cost_pct": 4.6,
+   "margin_pct": 95.4
+  },
+  {
+   "dish": "Tandoori Chicken",
+   "qty": 69,
+   "revenue": 1069.5,
+   "avg_price": 15.5,
+   "cost": 1.74,
+   "food_cost_pct": 11.2,
+   "margin_pct": 88.8
+  },
+  {
+   "dish": "Tandoori Momo - Chicken",
+   "qty": 69,
+   "revenue": 1067.95,
+   "avg_price": 15.48,
+   "cost": 0.5,
+   "food_cost_pct": 3.2,
+   "margin_pct": 96.8
+  },
+  {
+   "dish": "Kofta Shaam Savera",
+   "qty": 72,
+   "revenue": 1061.99,
+   "avg_price": 14.75,
+   "cost": 2.0,
+   "food_cost_pct": 13.6,
+   "margin_pct": 86.4
+  },
+  {
+   "dish": "Samosa Chhole Chaat",
+   "qty": 134,
+   "revenue": 1026.65,
+   "avg_price": 7.66,
+   "cost": 0.22,
+   "food_cost_pct": 2.9,
+   "margin_pct": 97.1
+  },
+  {
+   "dish": "Mix Dosa Platter",
+   "qty": 51,
+   "revenue": 1011.8,
+   "avg_price": 19.84,
+   "cost": 0.95,
+   "food_cost_pct": 4.8,
+   "margin_pct": 95.2
+  },
+  {
+   "dish": "Daal Makhani",
+   "qty": 72,
+   "revenue": 998.96,
+   "avg_price": 13.87,
+   "cost": 0.65,
+   "food_cost_pct": 4.7,
+   "margin_pct": 95.3
+  },
+  {
+   "dish": "Chicken Masala Dosa",
+   "qty": 68,
+   "revenue": 981.64,
+   "avg_price": 14.44,
+   "cost": 0.84,
+   "food_cost_pct": 5.8,
+   "margin_pct": 94.2
+  },
+  {
+   "dish": "Chicken 65",
+   "qty": 72,
+   "revenue": 912.59,
+   "avg_price": 12.67,
+   "cost": 2.18,
+   "food_cost_pct": 17.2,
+   "margin_pct": 82.8
+  },
+  {
+   "dish": "Steamed Momo - Chicken",
+   "qty": 82,
+   "revenue": 901.0,
+   "avg_price": 10.99,
+   "cost": 0.5,
+   "food_cost_pct": 4.5,
+   "margin_pct": 95.5
+  },
+  {
+   "dish": "L01 Veg Lunch Thali",
+   "qty": 72,
+   "revenue": 897.8,
+   "avg_price": 12.47,
+   "cost": 0.59,
+   "food_cost_pct": 4.7,
+   "margin_pct": 95.3
+  },
+  {
+   "dish": "Delhi Paapdi Chaat",
+   "qty": 117,
+   "revenue": 894.95,
+   "avg_price": 7.65,
+   "cost": 0.19,
+   "food_cost_pct": 2.5,
+   "margin_pct": 97.5
+  },
+  {
+   "dish": "Cheese Garlic Naan",
+   "qty": 199,
+   "revenue": 864.92,
+   "avg_price": 4.35,
+   "cost": 0.62,
+   "food_cost_pct": 14.3,
+   "margin_pct": 85.7
+  },
+  {
+   "dish": "Lassi sweet or sour 0.3l",
+   "qty": 216,
+   "revenue": 860.04,
+   "avg_price": 3.98,
+   "cost": 0.39,
+   "food_cost_pct": 9.8,
+   "margin_pct": 90.2
+  },
+  {
+   "dish": "Baingan Bharta",
+   "qty": 59,
+   "revenue": 844.28,
+   "avg_price": 14.31,
+   "cost": 0.43,
+   "food_cost_pct": 3.0,
+   "margin_pct": 97.0
+  },
+  {
+   "dish": "Daal Kachori Chaat",
+   "qty": 109,
+   "revenue": 828.23,
+   "avg_price": 7.6,
+   "cost": 0.18,
+   "food_cost_pct": 2.4,
+   "margin_pct": 97.6
+  },
+  {
+   "dish": "Chicken Vindaloo",
+   "qty": 51,
+   "revenue": 809.31,
+   "avg_price": 15.87,
+   "cost": 1.04,
+   "food_cost_pct": 6.6,
+   "margin_pct": 93.4
+  }
+ ],
+ "full_recipes": {
+  "Chicken Tikka Masala": {
+   "lines": [
+    {
+     "name": "Haehnchenbrust (250g roh -> 60% Tandoor-Ausbeute = 150g gegrillt)",
+     "qty": 250,
+     "unit": "kg",
+     "cost": 1.062,
+     "price_per_unit": 4.25
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.031,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Tomaten passiert",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.018,
+     "price_per_unit": 0.12
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Ingwer (Saft-Basis, Naeherungswert)",
+     "qty": 6,
+     "unit": "l",
+     "cost": 0.009,
+     "price_per_unit": 1.442
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.108,
+     "price_per_unit": 18.0
+    }
+   ],
+   "total": 1.27,
+   "note": "Tandoor-Vorgargrad wie bei bestaetigtem CTM-Rezept (27.07.)"
+  },
+  "Butter Chicken": {
+   "lines": [
+    {
+     "name": "Haehnchenbrust",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 1.32,
+     "price_per_unit": 8.8
+    },
+    {
+     "name": "Naturjoghurt 3,5%",
+     "qty": 30,
+     "unit": "kg",
+     "cost": 0.066,
+     "price_per_unit": 2.2
+    },
+    {
+     "name": "Knoblauch/Ingwerpaste",
+     "qty": 8,
+     "unit": "kg",
+     "cost": 0.028,
+     "price_per_unit": 3.5
+    },
+    {
+     "name": "Garam Masala",
+     "qty": 2,
+     "unit": "kg",
+     "cost": 0.044,
+     "price_per_unit": 22.0
+    },
+    {
+     "name": "Paprikapulver",
+     "qty": 1,
+     "unit": "kg",
+     "cost": 0.015,
+     "price_per_unit": 15.0
+    },
+    {
+     "name": "Salz + Chili",
+     "qty": 2,
+     "unit": "kg",
+     "cost": 0.006,
+     "price_per_unit": 3.0
+    },
+    {
+     "name": "Ghee/Butter",
+     "qty": 14,
+     "unit": "kg",
+     "cost": 0.131,
+     "price_per_unit": 9.38
+    },
+    {
+     "name": "Metzgerzwiebel",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.072,
+     "price_per_unit": 1.2
+    },
+    {
+     "name": "Tomaten passiert (Schani)",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.191,
+     "price_per_unit": 1.27
+    },
+    {
+     "name": "Cashewkerne gemahlen",
+     "qty": 30,
+     "unit": "kg",
+     "cost": 0.3,
+     "price_per_unit": 10.0
+    },
+    {
+     "name": "Schlagsahne 30%",
+     "qty": 50,
+     "unit": "kg",
+     "cost": 0.175,
+     "price_per_unit": 3.5
+    },
+    {
+     "name": "Zucker",
+     "qty": 2,
+     "unit": "kg",
+     "cost": 0.002,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Kreuzkuemmel",
+     "qty": 1,
+     "unit": "kg",
+     "cost": 0.033,
+     "price_per_unit": 33.3
+    },
+    {
+     "name": "Kurkuma",
+     "qty": 1,
+     "unit": "kg",
+     "cost": 0.011,
+     "price_per_unit": 10.75
+    },
+    {
+     "name": "Korianderpulver",
+     "qty": 1,
+     "unit": "kg",
+     "cost": 0.011,
+     "price_per_unit": 10.95
+    },
+    {
+     "name": "Basmati Reis (Beilage)",
+     "qty": 120,
+     "unit": "kg",
+     "cost": 0.222,
+     "price_per_unit": 1.85
+    }
+   ],
+   "total": 2.63,
+   "note": "Vollstaendig bestaetigte Rezeptur (mit Anar abgestimmt, 09.07.2026) - nutzt Haehnchenbrust zu 8,80 EUR/kg, NICHT den generischen TK-Grosshandelspreis."
+  },
+  "Chicken Jalfreizi": {
+   "lines": [
+    {
+     "name": "Haehnchenbrust",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.637,
+     "price_per_unit": 4.25
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.031,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Tomaten passiert",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.018,
+     "price_per_unit": 0.12
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Ingwer (Saft-Basis, Naeherungswert)",
+     "qty": 6,
+     "unit": "l",
+     "cost": 0.009,
+     "price_per_unit": 1.442
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.108,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Paprika/Zwiebel-Extra (geschaetzt)",
+     "qty": 40,
+     "unit": "kg",
+     "cost": 0.021,
+     "price_per_unit": 0.52
+    }
+   ],
+   "total": 0.86,
+   "note": null
+  },
+  "Kadai Paneer": {
+   "lines": [
+    {
+     "name": "Paneer (hausgemacht)",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 1.995,
+     "price_per_unit": 13.3
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.031,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Tomaten passiert",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.018,
+     "price_per_unit": 0.12
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Ingwer (Saft-Basis, Naeherungswert)",
+     "qty": 6,
+     "unit": "l",
+     "cost": 0.009,
+     "price_per_unit": 1.442
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.108,
+     "price_per_unit": 18.0
+    }
+   ],
+   "total": 2.2,
+   "note": null
+  },
+  "Paneer Butter Masala": {
+   "lines": [
+    {
+     "name": "Paneer (hausgemacht)",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 1.995,
+     "price_per_unit": 13.3
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.031,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Tomaten passiert",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.018,
+     "price_per_unit": 0.12
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Ingwer (Saft-Basis, Naeherungswert)",
+     "qty": 6,
+     "unit": "l",
+     "cost": 0.009,
+     "price_per_unit": 1.442
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.108,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Cashewkerne gemahlen",
+     "qty": 20,
+     "unit": "kg",
+     "cost": 0.119,
+     "price_per_unit": 5.949
+    },
+    {
+     "name": "Schlagsahne 30%",
+     "qty": 30,
+     "unit": "l",
+     "cost": 0.088,
+     "price_per_unit": 2.92
+    }
+   ],
+   "total": 2.41,
+   "note": "Bestaetigte Menge 150g (27.07.)"
+  },
+  "Tawa Paneer Masala": {
+   "lines": [
+    {
+     "name": "Paneer (hausgemacht)",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 1.995,
+     "price_per_unit": 13.3
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.031,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Tomaten passiert",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.018,
+     "price_per_unit": 0.12
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Ingwer (Saft-Basis, Naeherungswert)",
+     "qty": 6,
+     "unit": "l",
+     "cost": 0.009,
+     "price_per_unit": 1.442
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.108,
+     "price_per_unit": 18.0
+    }
+   ],
+   "total": 2.2,
+   "note": null
+  },
+  "Mango Chicken": {
+   "lines": [
+    {
+     "name": "Haehnchenbrust",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.637,
+     "price_per_unit": 4.25
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.031,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Tomaten passiert",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.018,
+     "price_per_unit": 0.12
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Ingwer (Saft-Basis, Naeherungswert)",
+     "qty": 6,
+     "unit": "l",
+     "cost": 0.009,
+     "price_per_unit": 1.442
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.108,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Mangopueree (geschaetzt, kein Rechnungstreffer)",
+     "qty": 40,
+     "unit": "kg",
+     "cost": 0.72,
+     "price_per_unit": 18.0
+    }
+   ],
+   "total": 1.56,
+   "note": null
+  },
+  "Lamb Vindaloo": {
+   "lines": [
+    {
+     "name": "Lammfleisch",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 1.785,
+     "price_per_unit": 11.9
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.031,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Tomaten passiert",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.018,
+     "price_per_unit": 0.12
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Ingwer (Saft-Basis, Naeherungswert)",
+     "qty": 6,
+     "unit": "l",
+     "cost": 0.009,
+     "price_per_unit": 1.442
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.108,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Essig/Chili-Extra (geschaetzt)",
+     "qty": 10,
+     "unit": "kg",
+     "cost": 0.18,
+     "price_per_unit": 18.0
+    }
+   ],
+   "total": 2.17,
+   "note": null
+  },
+  "Chicken Vindaloo": {
+   "lines": [
+    {
+     "name": "Haehnchenbrust",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.637,
+     "price_per_unit": 4.25
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.031,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Tomaten passiert",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.018,
+     "price_per_unit": 0.12
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Ingwer (Saft-Basis, Naeherungswert)",
+     "qty": 6,
+     "unit": "l",
+     "cost": 0.009,
+     "price_per_unit": 1.442
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.108,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Essig/Chili-Extra (geschaetzt)",
+     "qty": 10,
+     "unit": "kg",
+     "cost": 0.18,
+     "price_per_unit": 18.0
+    }
+   ],
+   "total": 1.02,
+   "note": null
+  },
+  "Chicken Tikka": {
+   "lines": [
+    {
+     "name": "Haehnchenbrust (Tandoori-Marinade)",
+     "qty": 250,
+     "unit": "kg",
+     "cost": 1.062,
+     "price_per_unit": 4.25
+    },
+    {
+     "name": "Naturjoghurt (Marinade)",
+     "qty": 30,
+     "unit": "kg",
+     "cost": 0.042,
+     "price_per_unit": 1.39
+    },
+    {
+     "name": "Gewuerzmischung (Tandoori)",
+     "qty": 8,
+     "unit": "kg",
+     "cost": 0.144,
+     "price_per_unit": 18.0
+    }
+   ],
+   "total": 1.25,
+   "note": null
+  },
+  "Tandoori Chicken": {
+   "lines": [
+    {
+     "name": "Halbes Haehnchen (ca. 350g roh)",
+     "qty": 350,
+     "unit": "kg",
+     "cost": 1.488,
+     "price_per_unit": 4.25
+    },
+    {
+     "name": "Naturjoghurt (Marinade)",
+     "qty": 50,
+     "unit": "kg",
+     "cost": 0.07,
+     "price_per_unit": 1.39
+    },
+    {
+     "name": "Gewuerzmischung (Tandoori)",
+     "qty": 10,
+     "unit": "kg",
+     "cost": 0.18,
+     "price_per_unit": 18.0
+    }
+   ],
+   "total": 1.74,
+   "note": null
+  },
+  "Chicken 65": {
+   "lines": [
+    {
+     "name": "Haehnchenbrust (Wuerfel, frittiert)",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.637,
+     "price_per_unit": 4.25
+    },
+    {
+     "name": "Rapsoel (Frittieren, aufgenommen)",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 8,
+     "unit": "kg",
+     "cost": 0.144,
+     "price_per_unit": 18.0
+    }
+   ],
+   "total": 0.8,
+   "note": null
+  },
+  "Chicken Dum Biryani": {
+   "lines": [
+    {
+     "name": "Haehnchenbrust",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.637,
+     "price_per_unit": 4.25
+    },
+    {
+     "name": "Gewuerzmischung (Biryani)",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.108,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Basmati Reis (Beilage)",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.278,
+     "price_per_unit": 1.85
+    }
+   ],
+   "total": 1.02,
+   "note": null
+  },
+  "Hyderabadi Biryani": {
+   "lines": [
+    {
+     "name": "Lammfleisch",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 1.785,
+     "price_per_unit": 11.9
+    },
+    {
+     "name": "Gewuerzmischung (Biryani)",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.108,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Basmati Reis (Beilage)",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.278,
+     "price_per_unit": 1.85
+    }
+   ],
+   "total": 2.17,
+   "note": null
+  },
+  "Lehsuni Palak Paneer": {
+   "lines": [
+    {
+     "name": "Paneer (hausgemacht)",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 1.995,
+     "price_per_unit": 13.3
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.042,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 5,
+     "unit": "kg",
+     "cost": 0.09,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Rahmspinat (TK)",
+     "qty": 180,
+     "unit": "kg",
+     "cost": 0.598,
+     "price_per_unit": 3.32
+    },
+    {
+     "name": "Knoblauch-Extra",
+     "qty": 8,
+     "unit": "kg",
+     "cost": 0.023,
+     "price_per_unit": 2.899
+    }
+   ],
+   "total": 2.79,
+   "note": null
+  },
+  "Vegetable Korma": {
+   "lines": [
+    {
+     "name": "Zwiebel",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.042,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 5,
+     "unit": "kg",
+     "cost": 0.09,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Kartoffel",
+     "qty": 100,
+     "unit": "kg",
+     "cost": 0.08,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Rahmspinat/Gemuese-Mix (Naeherung)",
+     "qty": 100,
+     "unit": "kg",
+     "cost": 0.332,
+     "price_per_unit": 3.32
+    }
+   ],
+   "total": 0.58,
+   "note": null
+  },
+  "Tawa Sabji": {
+   "lines": [
+    {
+     "name": "Zwiebel",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.042,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 5,
+     "unit": "kg",
+     "cost": 0.09,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Kartoffel",
+     "qty": 100,
+     "unit": "kg",
+     "cost": 0.08,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Gemuese-Mix (Naeherung)",
+     "qty": 100,
+     "unit": "kg",
+     "cost": 0.332,
+     "price_per_unit": 3.32
+    }
+   ],
+   "total": 0.58,
+   "note": null
+  },
+  "Baingan Bharta": {
+   "lines": [
+    {
+     "name": "Zwiebel",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.042,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 5,
+     "unit": "kg",
+     "cost": 0.09,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Aubergine (kein Rechnungstreffer, Kartoffel-Preis als Proxy)",
+     "qty": 180,
+     "unit": "kg",
+     "cost": 0.144,
+     "price_per_unit": 0.8
+    }
+   ],
+   "total": 0.31,
+   "note": null
+  },
+  "Subzi Kofta": {
+   "lines": [
+    {
+     "name": "Zwiebel",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.042,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 5,
+     "unit": "kg",
+     "cost": 0.09,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Gemuese-Kofta-Mix (Kartoffel+Gemuese, Naeherung)",
+     "qty": 160,
+     "unit": "kg",
+     "cost": 0.128,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Weizenmehl (Bindung)",
+     "qty": 30,
+     "unit": "kg",
+     "cost": 0.021,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 0.32,
+   "note": null
+  },
+  "Kofta Shaam Savera": {
+   "lines": [
+    {
+     "name": "Paneer (Kofta-Kern)",
+     "qty": 100,
+     "unit": "kg",
+     "cost": 1.33,
+     "price_per_unit": 13.3
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.042,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 5,
+     "unit": "kg",
+     "cost": 0.09,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Rahmspinat (Sauce)",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.199,
+     "price_per_unit": 3.32
+    }
+   ],
+   "total": 1.7,
+   "note": null
+  },
+  "Mix Daal": {
+   "lines": [
+    {
+     "name": "Zwiebel",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.042,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 5,
+     "unit": "kg",
+     "cost": 0.09,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Toor Dal, gekocht",
+     "qty": 180,
+     "unit": "kg",
+     "cost": 0.31,
+     "price_per_unit": 1.72
+    },
+    {
+     "name": "Ghee",
+     "qty": 15,
+     "unit": "kg",
+     "cost": 0.148,
+     "price_per_unit": 9.85
+    },
+    {
+     "name": "Schlagsahne 30%",
+     "qty": 20,
+     "unit": "l",
+     "cost": 0.058,
+     "price_per_unit": 2.92
+    }
+   ],
+   "total": 0.69,
+   "note": null
+  },
+  "Daal Makhani": {
+   "lines": [
+    {
+     "name": "Urad Dal, gekocht (Annahme, unbestaetigt)",
+     "qty": 70,
+     "unit": "kg",
+     "cost": 0.12,
+     "price_per_unit": 1.72
+    },
+    {
+     "name": "Ghee",
+     "qty": 20,
+     "unit": "kg",
+     "cost": 0.197,
+     "price_per_unit": 9.85
+    },
+    {
+     "name": "Schlagsahne 30%",
+     "qty": 30,
+     "unit": "l",
+     "cost": 0.088,
+     "price_per_unit": 2.92
+    }
+   ],
+   "total": 0.41,
+   "note": "Menge unbestaetigt (27.07. BOGO-Analyse)"
+  },
+  "Chhole Bhature": {
+   "lines": [
+    {
+     "name": "Zwiebel",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.042,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 5,
+     "unit": "kg",
+     "cost": 0.09,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Kichererbsen, gekocht",
+     "qty": 180,
+     "unit": "kg",
+     "cost": 0.023,
+     "price_per_unit": 0.127
+    },
+    {
+     "name": "Weizenmehl (Bhature-Teig)",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.055,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 0.25,
+   "note": null
+  },
+  "Samosa Chhole Chaat": {
+   "lines": [
+    {
+     "name": "Weizenmehl (Samosa-Teig)",
+     "qty": 30,
+     "unit": "kg",
+     "cost": 0.021,
+     "price_per_unit": 0.689
+    },
+    {
+     "name": "Kartoffel",
+     "qty": 40,
+     "unit": "kg",
+     "cost": 0.032,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Kichererbsen, gekocht",
+     "qty": 100,
+     "unit": "kg",
+     "cost": 0.013,
+     "price_per_unit": 0.127
+    }
+   ],
+   "total": 0.07,
+   "note": null
+  },
+  "Daal Kachori Chaat": {
+   "lines": [
+    {
+     "name": "Toor Dal (Kachori-Fuellung)",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.103,
+     "price_per_unit": 1.72
+    },
+    {
+     "name": "Weizenmehl (Kachori-Teig)",
+     "qty": 30,
+     "unit": "kg",
+     "cost": 0.021,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 0.12,
+   "note": null
+  },
+  "Delhi Paapdi Chaat": {
+   "lines": [
+    {
+     "name": "Weizenmehl (Paapdi)",
+     "qty": 40,
+     "unit": "kg",
+     "cost": 0.028,
+     "price_per_unit": 0.689
+    },
+    {
+     "name": "Naturjoghurt (Topping)",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.111,
+     "price_per_unit": 1.39
+    }
+   ],
+   "total": 0.14,
+   "note": null
+  },
+  "Pani Puri": {
+   "lines": [
+    {
+     "name": "Puri-Teig + Fuellung (10 Stk, bestaetigt)",
+     "qty": 50,
+     "unit": "kg",
+     "cost": 0.034,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 1.06,
+   "note": "10 Puris/Portion bestaetigt (27.07.), Gesamtkosten 1,06 EUR laut frueherer Analyse"
+  },
+  "Garlic Naan": {
+   "lines": [
+    {
+     "name": "Knoblauch (Topping)",
+     "qty": 3,
+     "unit": "kg",
+     "cost": 0.009,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Ghee (Bestreichen)",
+     "qty": 5,
+     "unit": "kg",
+     "cost": 0.049,
+     "price_per_unit": 9.85
+    },
+    {
+     "name": "Weizenmehl (Naan-Teig)",
+     "qty": 90,
+     "unit": "kg",
+     "cost": 0.062,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 0.12,
+   "note": null
+  },
+  "Butter Naan": {
+   "lines": [
+    {
+     "name": "Ghee/Butter (Bestreichen)",
+     "qty": 5,
+     "unit": "kg",
+     "cost": 0.049,
+     "price_per_unit": 9.85
+    },
+    {
+     "name": "Weizenmehl (Naan-Teig)",
+     "qty": 90,
+     "unit": "kg",
+     "cost": 0.062,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 0.11,
+   "note": null
+  },
+  "Cheese Garlic Naan": {
+   "lines": [
+    {
+     "name": "Knoblauch (Topping)",
+     "qty": 3,
+     "unit": "kg",
+     "cost": 0.009,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Reibekaese (kein Rechnungstreffer, geschaetzt)",
+     "qty": 30,
+     "unit": "kg",
+     "cost": 0.295,
+     "price_per_unit": 9.85
+    },
+    {
+     "name": "Weizenmehl (Naan-Teig)",
+     "qty": 90,
+     "unit": "kg",
+     "cost": 0.062,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 0.37,
+   "note": "Kaese-Kosten geschaetzt, kein Cheddar/Kaese-Eintrag in Lieferantendaten gefunden"
+  },
+  "Tandoori Roti": {
+   "lines": [
+    {
+     "name": "Weizenmehl (Roti-Teig)",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.041,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 0.04,
+   "note": null
+  },
+  "Mysore Masala Dosa": {
+   "lines": [
+    {
+     "name": "Kartoffel-Fuellung",
+     "qty": 100,
+     "unit": "kg",
+     "cost": 0.08,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Toor Dal (Sambar)",
+     "qty": 30,
+     "unit": "kg",
+     "cost": 0.052,
+     "price_per_unit": 1.72
+    },
+    {
+     "name": "Kokosraspeln (Chutney)",
+     "qty": 20,
+     "unit": "kg",
+     "cost": 0.12,
+     "price_per_unit": 6.0
+    },
+    {
+     "name": "Tomate (Sambar)",
+     "qty": 20,
+     "unit": "kg",
+     "cost": 0.002,
+     "price_per_unit": 0.12
+    },
+    {
+     "name": "Gewuerzmischung (Sambar)",
+     "qty": 3,
+     "unit": "kg",
+     "cost": 0.054,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Basmati Reis (Beilage)",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.278,
+     "price_per_unit": 1.85
+    }
+   ],
+   "total": 0.59,
+   "note": null
+  },
+  "Masala Dosa (Standard)": {
+   "lines": [
+    {
+     "name": "Kartoffel-Fuellung",
+     "qty": 100,
+     "unit": "kg",
+     "cost": 0.08,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Toor Dal (Sambar)",
+     "qty": 30,
+     "unit": "kg",
+     "cost": 0.052,
+     "price_per_unit": 1.72
+    },
+    {
+     "name": "Kokosraspeln (Chutney)",
+     "qty": 20,
+     "unit": "kg",
+     "cost": 0.12,
+     "price_per_unit": 6.0
+    },
+    {
+     "name": "Tomate (Sambar)",
+     "qty": 20,
+     "unit": "kg",
+     "cost": 0.002,
+     "price_per_unit": 0.12
+    },
+    {
+     "name": "Gewuerzmischung (Sambar)",
+     "qty": 3,
+     "unit": "kg",
+     "cost": 0.054,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Basmati Reis (Beilage)",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.278,
+     "price_per_unit": 1.85
+    }
+   ],
+   "total": 0.59,
+   "note": null
+  },
+  "Chicken Masala Dosa": {
+   "lines": [
+    {
+     "name": "Haehnchenbrust (Fuellung)",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.34,
+     "price_per_unit": 4.25
+    },
+    {
+     "name": "Kartoffel-Fuellung",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.048,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Toor Dal (Sambar)",
+     "qty": 30,
+     "unit": "kg",
+     "cost": 0.052,
+     "price_per_unit": 1.72
+    },
+    {
+     "name": "Kokosraspeln (Chutney)",
+     "qty": 20,
+     "unit": "kg",
+     "cost": 0.12,
+     "price_per_unit": 6.0
+    },
+    {
+     "name": "Tomate (Sambar)",
+     "qty": 20,
+     "unit": "kg",
+     "cost": 0.002,
+     "price_per_unit": 0.12
+    },
+    {
+     "name": "Gewuerzmischung (Sambar)",
+     "qty": 3,
+     "unit": "kg",
+     "cost": 0.054,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Basmati Reis (Beilage)",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.278,
+     "price_per_unit": 1.85
+    }
+   ],
+   "total": 0.89,
+   "note": null
+  },
+  "Mix Dosa Platter": {
+   "lines": [
+    {
+     "name": "Kartoffel-Fuellung (x2)",
+     "qty": 180,
+     "unit": "kg",
+     "cost": 0.144,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Toor Dal (Sambar)",
+     "qty": 54.0,
+     "unit": "kg",
+     "cost": 0.093,
+     "price_per_unit": 1.72
+    },
+    {
+     "name": "Kokosraspeln (Chutney)",
+     "qty": 36.0,
+     "unit": "kg",
+     "cost": 0.216,
+     "price_per_unit": 6.0
+    },
+    {
+     "name": "Tomate (Sambar)",
+     "qty": 36.0,
+     "unit": "kg",
+     "cost": 0.004,
+     "price_per_unit": 0.12
+    },
+    {
+     "name": "Gewuerzmischung (Sambar)",
+     "qty": 5.4,
+     "unit": "kg",
+     "cost": 0.097,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Basmati Reis (Beilage)",
+     "qty": 220,
+     "unit": "kg",
+     "cost": 0.407,
+     "price_per_unit": 1.85
+    }
+   ],
+   "total": 0.96,
+   "note": null
+  },
+  "Tandoori Momo - Veg": {
+   "lines": [
+    {
+     "name": "Gemuese-Fuellung (Kohl/Karotte, Naeherung)",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.064,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Weizenmehl (Teigmaentel, 4 Stk)",
+     "qty": 160,
+     "unit": "kg",
+     "cost": 0.11,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 0.17,
+   "note": null
+  },
+  "Steamed Momo - Gemuese": {
+   "lines": [
+    {
+     "name": "Gemuese-Fuellung",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.064,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Weizenmehl (Teigmaentel, 4 Stk)",
+     "qty": 160,
+     "unit": "kg",
+     "cost": 0.11,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 0.17,
+   "note": null
+  },
+  "Tandoori Momo - Chicken": {
+   "lines": [
+    {
+     "name": "Haehnchen-Faschiertes (Fuellung)",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.34,
+     "price_per_unit": 4.25
+    },
+    {
+     "name": "Weizenmehl (Teigmaentel, 4 Stk)",
+     "qty": 160,
+     "unit": "kg",
+     "cost": 0.11,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 0.45,
+   "note": null
+  },
+  "Steamed Momo - Chicken": {
+   "lines": [
+    {
+     "name": "Haehnchen-Faschiertes (Fuellung)",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.34,
+     "price_per_unit": 4.25
+    },
+    {
+     "name": "Weizenmehl (Teigmaentel, 4 Stk)",
+     "qty": 160,
+     "unit": "kg",
+     "cost": 0.11,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 0.45,
+   "note": null
+  },
+  "Samosa": {
+   "lines": [
+    {
+     "name": "Weizenmehl (Teig, 2 Stk)",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.041,
+     "price_per_unit": 0.689
+    },
+    {
+     "name": "Kartoffel (Fuellung)",
+     "qty": 80,
+     "unit": "kg",
+     "cost": 0.064,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 2,
+     "unit": "kg",
+     "cost": 0.036,
+     "price_per_unit": 18.0
+    }
+   ],
+   "total": 0.14,
+   "note": "2 Stueck pro Portion"
+  },
+  "Indian Chai": {
+   "lines": [
+    {
+     "name": "Vollmilch",
+     "qty": 120,
+     "unit": "l",
+     "cost": 0.126,
+     "price_per_unit": 1.05
+    },
+    {
+     "name": "Schwarzer Tee + Gewuerze",
+     "qty": 2,
+     "unit": "kg",
+     "cost": 0.036,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Zucker",
+     "qty": 15,
+     "unit": "kg",
+     "cost": 0.012,
+     "price_per_unit": 0.8
+    }
+   ],
+   "total": 0.17,
+   "note": null
+  },
+  "Mango Lassi 0.3l": {
+   "lines": [
+    {
+     "name": "Vollmilch",
+     "qty": 150,
+     "unit": "l",
+     "cost": 0.158,
+     "price_per_unit": 1.05
+    },
+    {
+     "name": "Naturjoghurt",
+     "qty": 150,
+     "unit": "kg",
+     "cost": 0.208,
+     "price_per_unit": 1.39
+    },
+    {
+     "name": "Zucker",
+     "qty": 20,
+     "unit": "kg",
+     "cost": 0.016,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Mangopueree (geschaetzt)",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 1.08,
+     "price_per_unit": 18.0
+    }
+   ],
+   "total": 1.46,
+   "note": null
+  },
+  "Lassi sweet or sour 0.3l": {
+   "lines": [
+    {
+     "name": "Naturjoghurt",
+     "qty": 200,
+     "unit": "kg",
+     "cost": 0.278,
+     "price_per_unit": 1.39
+    },
+    {
+     "name": "Zucker",
+     "qty": 15,
+     "unit": "kg",
+     "cost": 0.012,
+     "price_per_unit": 0.8
+    }
+   ],
+   "total": 0.29,
+   "note": null
+  },
+  "Chutney On Top Thali For One": {
+   "lines": [
+    {
+     "name": "Haehnchenbrust (Mini-Portion)",
+     "qty": 60.0,
+     "unit": "kg",
+     "cost": 0.255,
+     "price_per_unit": 4.25
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 36.0,
+     "unit": "kg",
+     "cost": 0.019,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Tomaten passiert",
+     "qty": 90.0,
+     "unit": "kg",
+     "cost": 0.011,
+     "price_per_unit": 0.12
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 3.6,
+     "unit": "kg",
+     "cost": 0.01,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Ingwer (Saft-Basis, Naeherungswert)",
+     "qty": 3.6,
+     "unit": "l",
+     "cost": 0.005,
+     "price_per_unit": 1.442
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 9.0,
+     "unit": "l",
+     "cost": 0.013,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 3.6,
+     "unit": "kg",
+     "cost": 0.065,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Kartoffel (Mini-Veg)",
+     "qty": 42.0,
+     "unit": "kg",
+     "cost": 0.034,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Rahmspinat (Mini-Veg)",
+     "qty": 42.0,
+     "unit": "kg",
+     "cost": 0.139,
+     "price_per_unit": 3.32
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 48.0,
+     "unit": "kg",
+     "cost": 0.025,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 3.6,
+     "unit": "kg",
+     "cost": 0.01,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 9.0,
+     "unit": "l",
+     "cost": 0.013,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 3.0,
+     "unit": "kg",
+     "cost": 0.054,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Basmati Reis (Beilage)",
+     "qty": 84,
+     "unit": "kg",
+     "cost": 0.155,
+     "price_per_unit": 1.85
+    },
+    {
+     "name": "Weizenmehl (Roti x1)",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.041,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 0.85,
+   "note": "Komposit-Schaetzung aus Mini-Portionen, unsicherste Kategorie"
+  },
+  "Chutney On Top Thali For Two": {
+   "lines": [
+    {
+     "name": "Haehnchenbrust (Mini-Portion)",
+     "qty": 110.0,
+     "unit": "kg",
+     "cost": 0.468,
+     "price_per_unit": 4.25
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 66.0,
+     "unit": "kg",
+     "cost": 0.034,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Tomaten passiert",
+     "qty": 165.0,
+     "unit": "kg",
+     "cost": 0.02,
+     "price_per_unit": 0.12
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6.6,
+     "unit": "kg",
+     "cost": 0.019,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Ingwer (Saft-Basis, Naeherungswert)",
+     "qty": 6.6,
+     "unit": "l",
+     "cost": 0.01,
+     "price_per_unit": 1.442
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 16.5,
+     "unit": "l",
+     "cost": 0.023,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 6.6,
+     "unit": "kg",
+     "cost": 0.119,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Kartoffel (Mini-Veg)",
+     "qty": 77.0,
+     "unit": "kg",
+     "cost": 0.062,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Rahmspinat (Mini-Veg)",
+     "qty": 77.0,
+     "unit": "kg",
+     "cost": 0.256,
+     "price_per_unit": 3.32
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 88.0,
+     "unit": "kg",
+     "cost": 0.046,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6.6,
+     "unit": "kg",
+     "cost": 0.019,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 16.5,
+     "unit": "l",
+     "cost": 0.023,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 5.5,
+     "unit": "kg",
+     "cost": 0.099,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Basmati Reis (Beilage)",
+     "qty": 160,
+     "unit": "kg",
+     "cost": 0.296,
+     "price_per_unit": 1.85
+    },
+    {
+     "name": "Weizenmehl (Roti x2)",
+     "qty": 120,
+     "unit": "kg",
+     "cost": 0.083,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 1.58,
+   "note": "Komposit-Schaetzung aus Mini-Portionen, unsicherste Kategorie"
+  },
+  "Vegetarian Thali For One": {
+   "lines": [
+    {
+     "name": "Kartoffel (Mini-Veg)",
+     "qty": 90.0,
+     "unit": "kg",
+     "cost": 0.072,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Rahmspinat (Mini-Veg)",
+     "qty": 90.0,
+     "unit": "kg",
+     "cost": 0.299,
+     "price_per_unit": 3.32
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 80.0,
+     "unit": "kg",
+     "cost": 0.042,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 6.0,
+     "unit": "kg",
+     "cost": 0.017,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 15.0,
+     "unit": "l",
+     "cost": 0.021,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 5.0,
+     "unit": "kg",
+     "cost": 0.09,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Basmati Reis (Beilage)",
+     "qty": 84,
+     "unit": "kg",
+     "cost": 0.155,
+     "price_per_unit": 1.85
+    },
+    {
+     "name": "Weizenmehl (Roti x1)",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.041,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 0.74,
+   "note": "Komposit-Schaetzung"
+  },
+  "Vegetarian Thali For Two": {
+   "lines": [
+    {
+     "name": "Kartoffel (Mini-Veg)",
+     "qty": 166.5,
+     "unit": "kg",
+     "cost": 0.133,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Rahmspinat (Mini-Veg)",
+     "qty": 166.5,
+     "unit": "kg",
+     "cost": 0.553,
+     "price_per_unit": 3.32
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 148.0,
+     "unit": "kg",
+     "cost": 0.077,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 11.1,
+     "unit": "kg",
+     "cost": 0.032,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 27.8,
+     "unit": "l",
+     "cost": 0.039,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 9.2,
+     "unit": "kg",
+     "cost": 0.167,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Basmati Reis (Beilage)",
+     "qty": 160,
+     "unit": "kg",
+     "cost": 0.296,
+     "price_per_unit": 1.85
+    },
+    {
+     "name": "Weizenmehl (Roti x2)",
+     "qty": 120,
+     "unit": "kg",
+     "cost": 0.083,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 1.38,
+   "note": "Komposit-Schaetzung"
+  },
+  "L01 Veg Lunch Thali": {
+   "lines": [
+    {
+     "name": "Kartoffel (Mini-Veg)",
+     "qty": 76.5,
+     "unit": "kg",
+     "cost": 0.061,
+     "price_per_unit": 0.8
+    },
+    {
+     "name": "Rahmspinat (Mini-Veg)",
+     "qty": 76.5,
+     "unit": "kg",
+     "cost": 0.254,
+     "price_per_unit": 3.32
+    },
+    {
+     "name": "Zwiebel",
+     "qty": 68.0,
+     "unit": "kg",
+     "cost": 0.035,
+     "price_per_unit": 0.52
+    },
+    {
+     "name": "Knoblauch",
+     "qty": 5.1,
+     "unit": "kg",
+     "cost": 0.015,
+     "price_per_unit": 2.899
+    },
+    {
+     "name": "Rapsoel",
+     "qty": 12.8,
+     "unit": "l",
+     "cost": 0.018,
+     "price_per_unit": 1.399
+    },
+    {
+     "name": "Gewuerzmischung",
+     "qty": 4.2,
+     "unit": "kg",
+     "cost": 0.076,
+     "price_per_unit": 18.0
+    },
+    {
+     "name": "Basmati Reis (Beilage)",
+     "qty": 70,
+     "unit": "kg",
+     "cost": 0.13,
+     "price_per_unit": 1.85
+    },
+    {
+     "name": "Weizenmehl (Roti x1)",
+     "qty": 60,
+     "unit": "kg",
+     "cost": 0.041,
+     "price_per_unit": 0.689
+    }
+   ],
+   "total": 0.63,
+   "note": "Komposit-Schaetzung"
+  }
+ },
+ "foodtruck_items": [
+  {
+   "name": "M2- Fleisch curry",
+   "qty": 481,
+   "revenue": 5101.6,
+   "orders": 443
+  },
+  {
+   "name": "M1- vegan / vegetarian curry",
+   "qty": 309,
+   "revenue": 2993.5,
+   "orders": 300
+  },
+  {
+   "name": "Chicken Wrap",
+   "qty": 90,
+   "revenue": 1080.0,
+   "orders": 65
+  },
+  {
+   "name": "Chana Wrap",
+   "qty": 88,
+   "revenue": 880.0,
+   "orders": 69
+  },
+  {
+   "name": "M1-Veggie/Vegan Curry",
+   "qty": 54,
+   "revenue": 567.0,
+   "orders": 49
+  },
+  {
+   "name": "Brot",
+   "qty": 185,
+   "revenue": 462.5,
+   "orders": 171
+  },
+  {
+   "name": "Wrap-2",
+   "qty": 34,
+   "revenue": 408.0,
+   "orders": 26
+  },
+  {
+   "name": "M6 - Fleisch Curry",
+   "qty": 49,
+   "revenue": 367.5,
+   "orders": 39
+  },
+  {
+   "name": "Pakora Wrap",
+   "qty": 29,
+   "revenue": 290.0,
+   "orders": 26
+  },
+  {
+   "name": "M5- vegan/vegetarisch curry",
+   "qty": 43,
+   "revenue": 279.5,
+   "orders": 40
+  },
+  {
+   "name": "Samosa",
+   "qty": 32,
+   "revenue": 240.0,
+   "orders": 29
+  },
+  {
+   "name": "M3-Fleisch Curry",
+   "qty": 17,
+   "revenue": 195.5,
+   "orders": 17
+  },
+  {
+   "name": "Pakora",
+   "qty": 23,
+   "revenue": 172.5,
+   "orders": 21
+  },
+  {
+   "name": "Wrap",
+   "qty": 13,
+   "revenue": 130.0,
+   "orders": 8
+  },
+  {
+   "name": "M99 Fleisch Curry",
+   "qty": 9,
+   "revenue": 67.5,
+   "orders": 9
+  },
+  {
+   "name": "M99 Veggie Curry",
+   "qty": 6,
+   "revenue": 39.0,
+   "orders": 6
+  },
+  {
+   "name": "M4- vegan/vegetarisch curry",
+   "qty": 3,
+   "revenue": 24.0,
+   "orders": 3
+  },
+  {
+   "name": "Mango Lassi",
+   "qty": 2,
+   "revenue": 7.0,
+   "orders": 2
+  }
+ ],
+ "foodtruck_items_note": "Aus dem SumUp-Verkaufsbericht (2026-01-01 bis 2026-08-03), gefiltert auf Kategorie 00_Foodtruck/01_Foodtruck_Event, 1323 Positionen. Namen wie 'M2- Fleisch curry' und 'M2- Fleisch curry (3€ Rabatt)' wurden zusammengefasst; leicht abweichende Schreibweisen (z.B. 'M1-Veggie/Vegan Curry' vs. 'M1- vegan / vegetarian curry') wurden NICHT automatisch zusammengeführt, um keine falschen Annahmen zu treffen — beide Zeilen bleiben sichtbar, du erkennst sofort ob es dieselbe Position ist."
+}
