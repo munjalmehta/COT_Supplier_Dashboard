@@ -258,8 +258,12 @@
 
 <div class="tabbar">
   <button class="tabbtn active" data-view="overview">Übersicht</button>
+  <button class="tabbtn" data-view="monthly">Umsatz</button>
   <button class="tabbtn" data-view="suppliers">Lieferanten</button>
-  <button class="tabbtn" data-view="delivery">Lieferplattformen</button>
+  <button class="tabbtn" data-view="delivery">Belege live</button>
+  <button class="tabbtn" data-view="prices">Preisvergleich</button>
+  <button class="tabbtn" data-view="recipes">Rezept-Kosten</button>
+  <button class="tabbtn" data-view="bestsellers">Meistverkauft</button>
 </div>
 
 <main>
@@ -277,6 +281,13 @@
     <div id="channelList" class="channel-list"></div>
   </section>
 
+  <!-- MONTHLY REVENUE -->
+  <section id="view-monthly" class="view">
+    <h2 class="section-title">Umsatz nach Monat</h2>
+    <p class="section-sub">Gesamtumsatz je Monat, aufgeteilt nach Kanal. Bar/Karte-Split und Ausgaben sind ebenfalls enthalten.</p>
+    <div id="monthlyTableWrap" class="table-wrap"></div>
+  </section>
+
   <!-- SUPPLIERS -->
   <section id="view-suppliers" class="view">
     <h2 class="section-title">Lieferanten</h2>
@@ -284,11 +295,34 @@
     <div id="supplierList"></div>
   </section>
 
-  <!-- DELIVERY -->
+  <!-- DELIVERY / BELEGE LIVE -->
   <section id="view-delivery" class="view">
-    <h2 class="section-title">Lieferplattformen</h2>
-    <p class="section-sub">Wochen-/Periodenwerte je Plattform: Umsatz, Gebühren, MwSt. und Auszahlung.</p>
+    <h2 class="section-title">Belege live — Lieferplattformen</h2>
+    <p class="section-sub">Wochen-/Periodenwerte je Plattform: Umsatz, Gebühren, MwSt. und Auszahlung, direkt aus den gescannten Wochenabrechnungen.</p>
     <div id="deliveryBlocks"></div>
+  </section>
+
+  <!-- PRICES -->
+  <section id="view-prices" class="view">
+    <h2 class="section-title">Preisvergleich</h2>
+    <p class="section-sub">Zutatenpreise aus echten Lieferantenrechnungen — letzter Preis vs. Durchschnitt.</p>
+    <div id="pricesTableWrap" class="table-wrap"></div>
+  </section>
+
+  <!-- RECIPES -->
+  <section id="view-recipes" class="view">
+    <h2 class="section-title">Rezept-Kosten</h2>
+    <p class="section-sub" id="recipeMethodNote"></p>
+    <div id="recipeList"></div>
+  </section>
+
+  <!-- BESTSELLERS -->
+  <section id="view-bestsellers" class="view">
+    <h2 class="section-title">Meistverkauft</h2>
+    <p class="section-sub">Top-Gerichte nach Menge, mit Foodcost-Anteil und Marge. Zeitraum 01.01.–03.08.2026.</p>
+    <div id="bestsellersTableWrap" class="table-wrap"></div>
+    <h2 class="section-title" style="margin-top:30px;">Foodtruck — meistverkauft</h2>
+    <div id="foodtruckTableWrap" class="table-wrap"></div>
   </section>
 </main>
 
@@ -429,6 +463,88 @@ async function renderDelivery(){
   }catch(e){}
 }
 
+function renderMonthly(rm){
+  const rows = rm.monthly;
+  const wrap = document.getElementById('monthlyTableWrap');
+  wrap.innerHTML = `<table>
+    <thead><tr><th>Monat</th><th class="num">Umsatz</th><th class="num">UberEats</th><th class="num">Wolt</th><th class="num">Lieferando</th><th class="num">SumUp Rest.</th><th class="num">Tollwood</th><th class="num">Bar</th><th class="num">Karte</th><th class="num">Ausgaben</th><th class="num">Trinkgeld</th></tr></thead>
+    <tbody>${rows.map(r=>`<tr>
+      <td>${r.month}</td>
+      <td class="num">${fmtEUR(r.umsatz)}</td>
+      <td class="num">${fmtEUR(r.uber)}</td>
+      <td class="num">${fmtEUR(r.wolt)}</td>
+      <td class="num">${fmtEUR(r.lieferando)}</td>
+      <td class="num">${fmtEUR(r.sumup_restaurant)}</td>
+      <td class="num">${fmtEUR(r.tollwood)}</td>
+      <td class="num">${fmtEUR(r.bar)}</td>
+      <td class="num">${fmtEUR(r.karte)}</td>
+      <td class="num">${fmtEUR(r.ausgaben)}</td>
+      <td class="num">${r.trinkgeld!==undefined?fmtEUR(r.trinkgeld):'–'}</td>
+    </tr>`).join('')}</tbody>
+  </table>`;
+}
+
+function renderPrices(pr){
+  const wrap = document.getElementById('pricesTableWrap');
+  const entries = Object.entries(pr.prices).filter(([k,v])=>v);
+  wrap.innerHTML = `<table>
+    <thead><tr><th>Zutat</th><th class="num">Letzter Preis</th><th>Einheit</th><th class="num">Ø Preis</th><th class="num">n</th><th>Letzte Quelle</th></tr></thead>
+    <tbody>${entries.map(([name,v])=>`<tr>
+      <td>${name.replace(/_/g,' ')}</td>
+      <td class="num">${v.latest_price!==undefined?v.latest_price.toLocaleString('de-DE',{minimumFractionDigits:2}):'–'}</td>
+      <td>${v.unit||''}</td>
+      <td class="num">${v.avg_price!==undefined?v.avg_price.toLocaleString('de-DE',{minimumFractionDigits:2}):'–'}</td>
+      <td class="num">${v.n||'–'}</td>
+      <td style="white-space:normal;">${v.latest_desc?`${v.latest_desc} (${v.latest_supplier||''})`:(v.note||'')}</td>
+    </tr>`).join('')}</tbody>
+  </table>`;
+}
+
+function renderRecipes(rc){
+  document.getElementById('recipeMethodNote').textContent = rc.methodology_note || '';
+  const container = document.getElementById('recipeList');
+  const known = new Map(rc.known_recipes.map(r=>[r.dish, r]));
+  const dishes = Object.keys(rc.full_recipes);
+  container.innerHTML = dishes.map(dish => {
+    const recipe = rc.full_recipes[dish];
+    const kr = known.get(dish);
+    const verified = kr && kr.verified;
+    return `
+      <div class="supplier-card">
+        <div class="supplier-head">
+          <div>
+            <h3>${dish}${verified?'<span class="badge">bestätigt</span>':''}</h3>
+            <div class="supplier-meta">${recipe.note||(kr?kr.note:'')||''}</div>
+          </div>
+          <div class="supplier-net">${fmtEUR(recipe.total)} / Portion</div>
+        </div>
+        <div class="supplier-body">
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Zutat</th><th class="num">Menge</th><th>Einheit</th><th class="num">Kosten</th></tr></thead>
+              <tbody>${recipe.lines.map(l=>`<tr><td>${l.name}</td><td class="num">${l.qty}</td><td>${l.unit}</td><td class="num">${fmtEUR(l.cost)}</td></tr>`).join('')}</tbody>
+            </table>
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+  container.querySelectorAll('.supplier-head').forEach(h=>h.addEventListener('click',()=>h.nextElementSibling.classList.toggle('open')));
+}
+
+function renderBestsellers(rc){
+  const rows = rc.top50_estimated.slice().sort((a,b)=>b.qty-a.qty);
+  document.getElementById('bestsellersTableWrap').innerHTML = `<table>
+    <thead><tr><th>Gericht</th><th class="num">Menge</th><th class="num">Umsatz</th><th class="num">Ø Preis</th><th class="num">Kosten</th><th class="num">Foodcost %</th><th class="num">Marge %</th></tr></thead>
+    <tbody>${rows.map(r=>`<tr><td>${r.dish}</td><td class="num">${fmtNum(r.qty)}</td><td class="num">${fmtEUR(r.revenue)}</td><td class="num">${fmtEUR(r.avg_price)}</td><td class="num">${fmtEUR(r.cost)}</td><td class="num">${r.food_cost_pct}%</td><td class="num">${r.margin_pct}%</td></tr>`).join('')}</tbody>
+  </table>`;
+
+  const ft = rc.foodtruck_items.slice().sort((a,b)=>b.qty-a.qty);
+  document.getElementById('foodtruckTableWrap').innerHTML = `<table>
+    <thead><tr><th>Position</th><th class="num">Menge</th><th class="num">Umsatz</th><th class="num">Bestellungen</th></tr></thead>
+    <tbody>${ft.map(r=>`<tr><td>${r.name}</td><td class="num">${fmtNum(r.qty)}</td><td class="num">${fmtEUR(r.revenue)}</td><td class="num">${fmtNum(r.orders)}</td></tr>`).join('')}</tbody>
+  </table>`;
+}
+
 // tab switching
 document.querySelectorAll('.tabbtn').forEach(btn=>{
   btn.addEventListener('click', ()=>{
@@ -447,6 +563,9 @@ document.querySelectorAll('.tabbtn').forEach(btn=>{
     renderOverview(manifest);
     await renderSuppliers(manifest);
     await renderDelivery();
+    try{ renderMonthly(await jget('revenue_monthly.json')); }catch(e){}
+    try{ renderPrices(await jget('ingredient_prices.json')); }catch(e){}
+    try{ const rc = await jget('recipes.json'); renderRecipes(rc); renderBestsellers(rc); }catch(e){}
   }catch(e){
     document.getElementById('loading').style.display = 'none';
     const err = document.getElementById('err');
