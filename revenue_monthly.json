@@ -1,0 +1,304 @@
+{
+ "source": "claude-dashboard-checkpoint (Google Drive, saved 2026-08-03)",
+ "period": "Anfang - heute (inception through 2026-07-27)",
+ "monthly": [
+  {
+   "month": "2025-12",
+   "umsatz": 321.0,
+   "uber": 0,
+   "wolt": 321.0,
+   "lieferando": 0,
+   "sumup_restaurant": 0,
+   "sumup_foodtruck": 0,
+   "tollwood": 0,
+   "bar": 0,
+   "karte": 321.0,
+   "ausgaben": 185.76
+  },
+  {
+   "month": "2026-01",
+   "umsatz": 39470.93,
+   "uber": 15571.0,
+   "wolt": 1773.7,
+   "lieferando": 4235.1,
+   "sumup_restaurant": 15873.63,
+   "sumup_foodtruck": 2017.5,
+   "tollwood": 0,
+   "bar": 5965.799999999999,
+   "karte": 35184.729999999996,
+   "ausgaben": 4375.070000000001,
+   "trinkgeld": 751.94
+  },
+  {
+   "month": "2026-02",
+   "umsatz": 52010.45,
+   "uber": 16593.0,
+   "wolt": 3393.7,
+   "lieferando": 7709.1,
+   "sumup_restaurant": 22627.15,
+   "sumup_foodtruck": 1687.5,
+   "tollwood": 0,
+   "bar": 5741.91,
+   "karte": 46486.43999999999,
+   "ausgaben": 6052.39,
+   "trinkgeld": 1007.28
+  },
+  {
+   "month": "2026-03",
+   "umsatz": 61438.79,
+   "uber": 19058.8,
+   "wolt": 3819.62,
+   "lieferando": 8231.1,
+   "sumup_restaurant": 26071.77,
+   "sumup_foodtruck": 4257.5,
+   "tollwood": 0,
+   "bar": 5739.079999999999,
+   "karte": 55971.70999999999,
+   "ausgaben": 6064.780000000001,
+   "trinkgeld": 1254.43
+  },
+  {
+   "month": "2026-04",
+   "umsatz": 49255.05,
+   "uber": 12588.7,
+   "wolt": 4568.34,
+   "lieferando": 6334.89,
+   "sumup_restaurant": 20481.02,
+   "sumup_foodtruck": 5282.1,
+   "tollwood": 0,
+   "bar": 5138.75,
+   "karte": 45194.30000000001,
+   "ausgaben": 8114.63,
+   "trinkgeld": 960.01
+  },
+  {
+   "month": "2026-05",
+   "umsatz": 47435.99,
+   "uber": 12884.6,
+   "wolt": 5965.93,
+   "lieferando": 7080.63,
+   "sumup_restaurant": 21497.33,
+   "sumup_foodtruck": 7.5,
+   "tollwood": 0,
+   "bar": 6145.929999999999,
+   "karte": 49084.05999999999,
+   "ausgaben": 6308.9,
+   "trinkgeld": 1076.82
+  },
+  {
+   "month": "2026-06",
+   "umsatz": 65360.63,
+   "uber": 9999.3,
+   "wolt": 4918.4,
+   "lieferando": 4867.7,
+   "sumup_restaurant": 16715.73,
+   "sumup_foodtruck": 27.5,
+   "tollwood": 28832.000000000004,
+   "bar": 15111.23,
+   "karte": 63583.3,
+   "ausgaben": 13275.670000000002,
+   "trinkgeld": 637.76
+  },
+  {
+   "month": "2026-07",
+   "umsatz": 137782.32,
+   "uber": 17862.8,
+   "wolt": 6663.219999999999,
+   "lieferando": 6634.95,
+   "sumup_restaurant": 17966.35,
+   "sumup_foodtruck": 25.5,
+   "tollwood": 88629.50000000001,
+   "bar": 37958.00000000001,
+   "karte": 110017.22000000002,
+   "ausgaben": 12051.719999999998,
+   "trinkgeld": 627.97
+  },
+  {
+   "month": "2026-08",
+   "umsatz": 4511.83,
+   "ausgaben": 0,
+   "uber": 2529.0,
+   "wolt": 0,
+   "lieferando": 0,
+   "sumup_restaurant": 1982.83,
+   "sumup_foodtruck": 0,
+   "tollwood": 0,
+   "bar": 0,
+   "karte": 2529.0,
+   "trinkgeld": 114.28
+  }
+ ],
+ "live_periods": [
+  {
+   "platform": "Wolt",
+   "period": "26.06.-30.06.2026",
+   "month": "2026-06",
+   "fees": 420.54,
+   "gross": 751.14,
+   "source": "WOLT_TO_MERCHANT_INVOICE #36 + SALES_REPORT #36"
+  },
+  {
+   "platform": "Wolt",
+   "period": "01.07.-05.07.2026",
+   "month": "2026-07",
+   "fees": 866.44,
+   "gross": 1742.22,
+   "source": "WOLT #37"
+  },
+  {
+   "platform": "Wolt",
+   "period": "06.07.-10.07.2026",
+   "month": "2026-07",
+   "fees": 510.75,
+   "gross": 1020.8,
+   "source": "WOLT #38 (payout report only, gross approximated)"
+  },
+  {
+   "platform": "Wolt",
+   "period": "11.07.-15.07.2026",
+   "month": "2026-07",
+   "fees": 698.29,
+   "gross": 1229.59,
+   "source": "WOLT #39"
+  },
+  {
+   "platform": "Wolt",
+   "period": "16.07.-20.07.2026",
+   "month": "2026-07",
+   "fees": 738.84,
+   "gross": 1568.23,
+   "source": "WOLT #40"
+  },
+  {
+   "platform": "Wolt",
+   "period": "21.07.-25.07.2026",
+   "month": "2026-07",
+   "fees": 449.59,
+   "gross": 1132.07,
+   "source": "WOLT #41"
+  },
+  {
+   "platform": "Lieferando",
+   "period": "21.06.-27.06.2026",
+   "month": "2026-06",
+   "fees": 535.92,
+   "gross": 1179.25,
+   "source": "TAKEAWAY_EXPORT (36)"
+  },
+  {
+   "platform": "Lieferando",
+   "period": "28.06.-04.07.2026",
+   "month": "2026-07",
+   "fees": 681.83,
+   "gross": 1339.8,
+   "source": "TAKEAWAY_EXPORT (34)"
+  },
+  {
+   "platform": "Lieferando",
+   "period": "05.07.-11.07.2026",
+   "month": "2026-07",
+   "fees": 977.48,
+   "gross": 1968.25,
+   "source": "TAKEAWAY_EXPORT (33)"
+  },
+  {
+   "platform": "Lieferando",
+   "period": "12.07.-18.07.2026",
+   "month": "2026-07",
+   "fees": 479.9,
+   "gross": 958.8,
+   "source": "TAKEAWAY_EXPORT (32)"
+  },
+  {
+   "platform": "Lieferando",
+   "period": "19.07.-25.07.2026",
+   "month": "2026-07",
+   "fees": 756.95,
+   "gross": 1541.5,
+   "source": "TAKEAWAY_EXPORT-40"
+  },
+  {
+   "platform": "Uber Eats",
+   "period": "01.06.-07.06.2026",
+   "month": "2026-06",
+   "fees": 680.76,
+   "gross": 2290.6,
+   "source": "Aktivitaetsuebersicht 08.06.2026"
+  },
+  {
+   "platform": "Uber Eats",
+   "period": "08.06.-14.06.2026",
+   "month": "2026-06",
+   "fees": 949.73,
+   "gross": 2701.0,
+   "source": "Aktivitaetsuebersicht 15.06.2026"
+  },
+  {
+   "platform": "Uber Eats",
+   "period": "29.06.-05.07.2026",
+   "month": "2026-07",
+   "fees": 1034.7,
+   "gross": 2189.0,
+   "source": "Aktivitaetsuebersicht 06.07.2026 (previously missing)"
+  },
+  {
+   "platform": "Uber Eats",
+   "period": "06.07.-12.07.2026",
+   "month": "2026-07",
+   "fees": 1243.15,
+   "gross": 2952.6,
+   "source": "Aktivitaetsuebersicht 13.07.2026 + Rechnung #0030"
+  },
+  {
+   "platform": "Uber Eats",
+   "period": "13.07.-19.07.2026",
+   "month": "2026-07",
+   "fees": 1427.98,
+   "gross": 3078.3,
+   "source": "Aktivitaetsuebersicht 20.07.2026 + Rechnung #0031"
+  },
+  {
+   "platform": "Uber Eats",
+   "period": "20.07.-26.07.2026",
+   "month": "2026-07",
+   "fees": 1010.36,
+   "gross": 3179.1,
+   "source": "Aktivitaetsuebersicht 27.07.2026 + Rechnung #0032"
+  }
+ ],
+ "monthly_live_rates": {
+  "2026-06": {
+   "Wolt": 55.99,
+   "Lieferando": 45.45,
+   "Uber Eats": 32.66
+  },
+  "2026-07": {
+   "Wolt": 48.77,
+   "Lieferando": 49.86,
+   "Uber Eats": 41.37
+  }
+ },
+ "notes": {
+  "uber_official_source": {
+   "note": "Uber Eats Gross-Umsatz jetzt aus Ubers eigenem sales-over-time CSV-Export, nicht mehr aus fin.json Kassenbuch/AGENDA-Ableitung.",
+   "discrepancies": [
+    [
+     "2026-07",
+     15562.0,
+     17862.8,
+     2300.8
+    ]
+   ],
+   "july_coverage_note": "Achtung: die live gescannten Uber-Eats-Belege fuer Juli 2026 (Belege-Tab) decken nur 11399.0 EUR von 17862.8 EUR laut offiziellem Sales-Export ab (63.8%). Es fehlen mutmasslich weitere Wochenabrechnungen (BOGO-Kampagne ab 10.07. erhoehte das Volumen deutlich). Der monatliche Live-Provisionssatz fuer Juli basiert daher nur auf einem Teil des Monats, nicht auf allen tatsaechlichen Bestellungen."
+  },
+  "lieferando_discrepancies": [
+   [
+    "2026-07",
+    5858.250000000001,
+    6634.95,
+    776.7
+   ]
+  ],
+  "sumup_source_note": "SumUp-Zahlen (Restaurant, Foodtruck, Trinkgeld) jetzt aus dem echten SumUp-Verkaufsbericht (2026-01-01 bis 2026-08-02), gruppiert nach Kategorie statt Konto (Konto = welches Geraet/Login gebucht hat, nicht der Kanal). Trinkgeld war bisher nirgends im Dashboard erfasst (Gesamt 6.430,49 EUR ueber den Zeitraum) und ist jetzt separat ausgewiesen, aber NICHT im Umsatz mitgezaehlt, da es kein COT-Einkommen ist."
+ }
+}
