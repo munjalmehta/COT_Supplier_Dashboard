@@ -52,11 +52,19 @@
    "invoicesMissingNetTotal": [
     "09.06.2026/046/0/0/0502/033579"
    ]
+  },
+  "Smart Elite Dienstleistungen GmbH": {
+   "file": "smart_elite.json",
+   "invoiceCount": 1,
+   "earliestInvoiceDate": "2026-06-08",
+   "latestInvoiceDate": "2026-06-08",
+   "totalNetSpend": 518.14,
+   "invoicesMissingNetTotal": null
   }
  },
  "grandTotal": {
-  "totalInvoices": 206,
-  "totalNetSpend": 58306.18,
+  "totalInvoices": 207,
+  "totalNetSpend": 58824.32,
   "note": "totalNetSpend excludes invoices where only grossTotal is confirmed (see invoicesMissingNetTotal per supplier)"
  },
  "invoicesMissingNetTotal": [
@@ -64,6 +72,25 @@
  ],
  "lastRescan": {
   "date": "2026-08-05",
-  "result": "Scanned all 6 supplier Drive folders + root supplier-bills folder for new invoices since last recorded cutoff dates. Added 2 new Rajesh Global Food invoices (INV/2026/02988, INV/2026/03009), 3 new GFT Group invoices (326114166, 326114187, 326114632), and 3 new Metro invoices (27.07.2026 001894, 30.07.2026 049332, 04.08.2026 050562). Kupfer & Sohn, RK Traders, and Ökoring folders had no new invoices beyond what was already parsed. One unfiled invoice found in supplier-bills root folder from a new, not-yet-tracked supplier 'Smart Elite Dienstleistungen GmbH' (Rechnung Nr. 4837, 08.06.2026, GANESH BHEL / CHING'S products, net EUR 518.14, gross EUR 554.41) — flagged for manual filing decision, not yet added to any supplier JSON."
+  "result": "Scanned all 6 supplier Drive folders + root supplier-bills folder for new invoices since last recorded cutoff dates. Added 2 new Rajesh Global Food invoices (INV/2026/02988, INV/2026/03009), 3 new GFT Group invoices (326114166, 326114187, 326114632), and 3 new Metro invoices (27.07.2026 001894, 30.07.2026 049332, 04.08.2026 050562). Kupfer & Sohn, RK Traders, and Ökoring folders had no new invoices beyond what was already parsed. One unfiled invoice found in supplier-bills root folder from a new, not-yet-tracked supplier 'Smart Elite Dienstleistungen GmbH' (Rechnung Nr. 4837, 08.06.2026, GANESH BHEL / CHING'S products, net EUR 518.14, gross EUR 554.41) — flagged for manual filing decision, not yet added to any supplier JSON. Additionally added Smart Elite Dienstleistungen GmbH as a 7th tracked supplier (1 invoice, net EUR 518.14). Built out new delivery-platform revenue tracking (wolt.json, uber_eats.json, lieferando.json) covering weekly/period summaries for June-July 2026."
+ },
+ "deliveryPlatforms": {
+  "description": "Weekly/period-level revenue and fee summaries per delivery platform. Separate from supplier invoice tracking above. Order-level detail available in source Drive files, not stored here.",
+  "wolt": {
+   "file": "wolt.json",
+   "periodsTracked": 4,
+   "coverage": "2026-06-30 (partial), 2026-07-11 to 2026-07-25 (complete)"
+  },
+  "uberEats": {
+   "file": "uber_eats.json",
+   "weeksTracked": 8,
+   "coverage": "2026-06-01 to 2026-07-26"
+  },
+  "lieferando": {
+   "file": "lieferando.json",
+   "weeksTracked": 5,
+   "coverage": "2026-06-21 to 2026-07-25"
+  },
+  "note": "SumUp restaurant register revenue already covered under AGENDA Kassenbuch workflow, not duplicated here."
  }
 }
