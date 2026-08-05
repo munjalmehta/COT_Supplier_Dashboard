@@ -1,7 +1,7 @@
 {
  "supplier": "Rajesh Global Food",
- "lastUpdated": "2026-07-21",
- "invoiceCount": 16,
+ "lastUpdated": "2026-08-05",
+ "invoiceCount": 18,
  "invoices": [
   {
    "invoiceNo": "INV/2026/02447",
@@ -1418,6 +1418,158 @@
      "unitPrice": 59.99,
      "vat": 19,
      "amount": -59.99
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/02988",
+   "date": "2026-07-22",
+   "dueDate": "2026-08-05",
+   "deliveryDate": "2026-07-22",
+   "netTotal": 298.01,
+   "vat7": 8.26,
+   "vat19": 34.21,
+   "grossTotal": 340.48,
+   "driveFileId": "15fMtHSQVDi3TDlxHtdkpsv9qZ9dq0W-8",
+   "lineItems": [
+    {
+     "sku": "RFR-003",
+     "description": "RG Ladi Paav [62gm X 60]-[10pc in pack] - 60 pcs",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 25.99,
+     "vat": 7,
+     "amount": 25.99
+    },
+    {
+     "sku": "RFR-009",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg - [1KgX10]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 27.99,
+     "vat": 7,
+     "amount": 27.99
+    },
+    {
+     "sku": "RG-067",
+     "description": "AJINOMOTO, Glutamate 453g [20 X 453g]",
+     "qty": 4.0,
+     "unit": "Pack20",
+     "unitPrice": 2.7745,
+     "vat": 7,
+     "amount": 11.1
+    },
+    {
+     "sku": "RG-658",
+     "description": "Tata Tea Premium 900g - [8 X 900g]",
+     "qty": 2.0,
+     "unit": "Pack8",
+     "unitPrice": 8.99,
+     "vat": 7,
+     "amount": 17.98
+    },
+    {
+     "sku": "GP-117",
+     "description": "GP Müllbeutel 240L Typ60 100 stk",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 38.1,
+     "vat": 19,
+     "amount": 38.1
+    },
+    {
+     "sku": "GP-024",
+     "description": "GP 613 Siegelschale -2-geteilt, 600 stk/ktn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 96.99,
+     "vat": 19,
+     "amount": 96.99
+    },
+    {
+     "sku": "GP-055",
+     "description": "GP 45cm X 100 m, Alufolie -4 Stk/krn",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 44.96,
+     "vat": 19,
+     "amount": 44.96
+    },
+    {
+     "sku": "NV016",
+     "description": "Hähnchenschenkel - 10Kg",
+     "qty": 10.0,
+     "unit": "kg",
+     "unitPrice": 3.49,
+     "vat": 7,
+     "amount": 34.9
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/03009",
+   "date": "2026-07-24",
+   "dueDate": "2026-08-07",
+   "deliveryDate": "2026-07-24",
+   "netTotal": 220.5,
+   "vat7": 7.53,
+   "vat19": 21.47,
+   "grossTotal": 249.5,
+   "driveFileId": "1hpXoCubHzm6Mq4kCpLsKzE-bKcUtsmRq",
+   "lineItems": [
+    {
+     "sku": "22150",
+     "description": "HEERA BLACK PEPPER WHOLE 700gm [6X700G]",
+     "qty": 2.0,
+     "unit": "Pack6",
+     "unitPrice": 7.99,
+     "vat": 7,
+     "amount": 15.98
+    },
+    {
+     "sku": "5367",
+     "description": "HING POWDER YELLOW 50g - [10X10X50g]",
+     "qty": 2.0,
+     "unit": "Pack10",
+     "unitPrice": 8.49,
+     "vat": 7,
+     "amount": 16.98
+    },
+    {
+     "sku": "TRS-108",
+     "description": "TRS Mustard Seeds (Brown) 400g - [10 X 400g]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 25.99,
+     "vat": 7,
+     "amount": 25.99
+    },
+    {
+     "sku": "RG-131",
+     "description": "Cock Seedless Tamarind 454gm [50X 454G]",
+     "qty": 10.0,
+     "unit": "Pack50",
+     "unitPrice": 2.98,
+     "vat": 7,
+     "amount": 29.8
+    },
+    {
+     "sku": "RFR-008",
+     "description": "Frozen Belami Brechbohnen 2.5 Kg - Beans [2.5KgX4]",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 18.76,
+     "vat": 7,
+     "amount": 18.76
+    },
+    {
+     "sku": "GP-046",
+     "description": "GP 8x230mm Trinkhalme Aus Papier Schwarz, 3450stk/CTN",
+     "qty": 1.0,
+     "unit": "Ktn",
+     "unitPrice": 112.99,
+     "vat": 19,
+     "amount": 112.99
     }
    ]
   }
