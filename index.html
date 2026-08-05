@@ -260,6 +260,7 @@
   <button class="tabbtn active" data-view="overview">Übersicht</button>
   <button class="tabbtn" data-view="monthly">Umsatz</button>
   <button class="tabbtn" data-view="suppliers">Lieferanten</button>
+  <button class="tabbtn" data-view="kassenbuch">Kassenbuch</button>
   <button class="tabbtn" data-view="delivery">Belege live</button>
   <button class="tabbtn" data-view="prices">Preisvergleich</button>
   <button class="tabbtn" data-view="recipes">Rezept-Kosten</button>
@@ -286,6 +287,19 @@
     <h2 class="section-title">Umsatz nach Monat</h2>
     <p class="section-sub">Gesamtumsatz je Monat, aufgeteilt nach Kanal. Bar/Karte-Split und Ausgaben sind ebenfalls enthalten.</p>
     <div id="monthlyTableWrap" class="table-wrap"></div>
+  </section>
+
+  <!-- KASSENBUCH -->
+  <section id="view-kassenbuch" class="view">
+    <h2 class="section-title">Kassenbuch — Bargeld</h2>
+    <p class="section-sub">Bar-Einnahmen (Tollwood, SumUp) und Bar-Ausgaben aus dem Kassenbuch-App-Export.</p>
+    <div id="kassenbuchKpis" class="kpi-grid"></div>
+    <h2 class="section-title" style="margin-top:8px;">Bar-Einnahmen nach Monat</h2>
+    <div id="kassenbuchMonthWrap" class="table-wrap" style="margin-bottom:30px;"></div>
+    <h2 class="section-title">Bar-Ausgaben</h2>
+    <div id="kassenbuchExpensesWrap" class="table-wrap" style="margin-bottom:30px;"></div>
+    <h2 class="section-title">Letzte Bar-Einnahmen (Auszug)</h2>
+    <div id="kassenbuchTxWrap" class="table-wrap"></div>
   </section>
 
   <!-- SUPPLIERS -->
@@ -545,6 +559,29 @@ function renderBestsellers(rc){
   </table>`;
 }
 
+function renderKassenbuch(kb){
+  document.getElementById('kassenbuchKpis').innerHTML = [
+    kpi("Bar-Einnahmen gesamt", fmtEUR(kb.cashTxTotal), kb.cashTxCount + " Buchungen", "gold"),
+    kpi("Bar-Ausgaben gesamt", fmtEUR(kb.cashExpensesTotal), kb.cashExpensesCount + " Buchungen", "coral"),
+    kpi("Netto Bargeld", fmtEUR(kb.cashTxTotal - kb.cashExpensesTotal), "", "sky"),
+  ].join("");
+
+  document.getElementById('kassenbuchMonthWrap').innerHTML = `<table>
+    <thead><tr><th>Monat</th><th class="num">Buchungen</th><th class="num">Summe</th></tr></thead>
+    <tbody>${kb.byMonth.map(m=>`<tr><td>${m.month}</td><td class="num">${m.count}</td><td class="num">${fmtEUR(m.total)}</td></tr>`).join('')}</tbody>
+  </table>`;
+
+  document.getElementById('kassenbuchExpensesWrap').innerHTML = `<table>
+    <thead><tr><th>Datum</th><th>Text</th><th>Konto</th><th class="num">Betrag</th></tr></thead>
+    <tbody>${kb.cashExpenses.map(e=>`<tr><td>${fmtDate(e.date)}</td><td>${e.text}</td><td>${e.account}</td><td class="num">${fmtEUR(e.gross)}</td></tr>`).join('')}</tbody>
+  </table>`;
+
+  document.getElementById('kassenbuchTxWrap').innerHTML = `<table>
+    <thead><tr><th>Datum</th><th>Plattform</th><th class="num">Betrag</th><th>Notiz</th></tr></thead>
+    <tbody>${kb.recentCashTx.map(t=>`<tr><td>${fmtDate(t.date)}</td><td>${t.platform}</td><td class="num">${fmtEUR(t.cash_amount)}</td><td style="white-space:normal;">${t.note||''}</td></tr>`).join('')}</tbody>
+  </table>`;
+}
+
 // tab switching
 document.querySelectorAll('.tabbtn').forEach(btn=>{
   btn.addEventListener('click', ()=>{
@@ -562,6 +599,7 @@ document.querySelectorAll('.tabbtn').forEach(btn=>{
     document.getElementById('loading').style.display = 'none';
     renderOverview(manifest);
     await renderSuppliers(manifest);
+    try{ renderKassenbuch(await jget('kassenbuch.json')); }catch(e){}
     await renderDelivery();
     try{ renderMonthly(await jget('revenue_monthly.json')); }catch(e){}
     try{ renderPrices(await jget('ingredient_prices.json')); }catch(e){}
