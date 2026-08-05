@@ -1,0 +1,75 @@
+{
+ "supplier": "Smart Elite Dienstleistungen GmbH",
+ "lastUpdated": "2026-08-05",
+ "invoiceCount": 1,
+ "invoices": [
+  {
+   "invoiceNo": "4837",
+   "date": "2026-06-08",
+   "dueDate": "2026-06-22",
+   "deliveryDate": "2026-06-08",
+   "customerNo": "10086",
+   "netTotal": 518.14,
+   "vat7": 36.27,
+   "grossTotal": 554.41,
+   "driveFileId": "1gbV7__seb8Cq_ahEAXq2dNogeMXr-Pvh",
+   "lineItems": [
+    {
+     "sku": "4257",
+     "description": "GANESH BHEL PANIPURI PURI (READY TO EAT) (250 PCS)",
+     "qty": 25,
+     "unit": "Stk",
+     "unitPrice": 10.74,
+     "vat": 7,
+     "amount": 268.5,
+     "note": "5% discount applied"
+    },
+    {
+     "sku": "4249",
+     "description": "GANESH BHEL NYLON SEV 1 KG",
+     "qty": 20,
+     "unit": "Stk",
+     "unitPrice": 5.69,
+     "vat": 7,
+     "amount": 113.8
+    },
+    {
+     "sku": "4035",
+     "description": "GANESH BHEL BOONDI PLAIN 200GM EXP.JULY.2026 AND MARCH.2027",
+     "qty": 60,
+     "unit": "Stk",
+     "unitPrice": 1.13,
+     "vat": 7,
+     "amount": 67.8,
+     "note": "5% discount applied"
+    },
+    {
+     "sku": "3024",
+     "description": "CHING'S SCHEZWAN CHUTNEY 250GM x 24",
+     "qty": 1,
+     "unit": "Stk",
+     "unitPrice": 46.56,
+     "vat": 7,
+     "amount": 46.56
+    },
+    {
+     "sku": "3161",
+     "description": "CHING'S DARK SOYA SAUCE 750 GM",
+     "qty": 12,
+     "unit": "Stk",
+     "unitPrice": 1.79,
+     "vat": 7,
+     "amount": 21.48
+    }
+   ],
+   "supplierInfo": {
+    "address": "Rathausstr. 29, 82008 Unterhaching",
+    "email": "info@smartelite-dienstleistungen.de",
+    "iban": "DE08 7007 0024 0065 3667 00",
+    "hrb": "HRB 247394 Amtsgericht München",
+    "ustId": "DE323056074",
+    "steuerNr": "143/181/13166"
+   }
+  }
+ ]
+}
