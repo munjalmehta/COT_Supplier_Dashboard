@@ -1,7 +1,7 @@
 {
  "supplier": "GFT Group",
- "lastUpdated": "2026-07-24",
- "invoiceCount": 31,
+ "lastUpdated": "2026-08-05",
+ "invoiceCount": 34,
  "invoices": [
   {
    "invoiceNo": "326111636",
@@ -1910,6 +1910,175 @@
      "qty": 4,
      "unitPrice": 13.7,
      "amount": 54.8
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326114166",
+   "date": "2026-07-28",
+   "orderNo": "3000056816",
+   "deliveryNo": "87255",
+   "netTotal": 1054.93,
+   "vat7": 73.85,
+   "grossTotal": 1128.78,
+   "driveFileId": "1uZz5JTDpEXeLAoP07Krx8iyk24WXOIKL",
+   "lineItems": [
+    {
+     "sku": "21212",
+     "description": "SCHANI MAIDA (FARINE DE BLE T55) 25kg",
+     "qty": 3,
+     "unitPrice": 16.5,
+     "amount": 49.5
+    },
+    {
+     "sku": "41293",
+     "description": "TFG FROZ. CHICKEN FILLET SALTED 6x2kg",
+     "qty": 5,
+     "unitPrice": 48.0,
+     "amount": 240.0
+    },
+    {
+     "sku": "11351",
+     "description": "SCHANI MOONG DAL CTN. 6x2kg",
+     "qty": 1,
+     "unitPrice": 22.09,
+     "amount": 22.09
+    },
+    {
+     "sku": "16157",
+     "description": "SCHANI CASHEW KERNELS - LP CTN. 50lbs",
+     "qty": 1,
+     "unitPrice": 115.0,
+     "amount": 115.0
+    },
+    {
+     "sku": "21416",
+     "description": "TRS CORIANDER WHOLE (DHANIYA WHOLE) 10x100g",
+     "qty": 1,
+     "unitPrice": 6.82,
+     "amount": 6.82
+    },
+    {
+     "sku": "18141",
+     "description": "KHANUM BUTTER GHEE 2kg",
+     "qty": 1,
+     "unitPrice": 19.03,
+     "amount": 19.03
+    },
+    {
+     "sku": "18512",
+     "description": "JAZAA FRIED ONION 4x2.5kg",
+     "qty": 1,
+     "unitPrice": 42.5,
+     "amount": 42.5
+    },
+    {
+     "sku": "31283",
+     "description": "SCHANI CORIANDER POWDER (DHANIYA POWDER) CTN. 10x400g",
+     "qty": 1,
+     "unitPrice": 14.6,
+     "amount": 14.6
+    },
+    {
+     "sku": "21181",
+     "description": "TRS GRAM FLOUR CTN. 6x2kg",
+     "qty": 2,
+     "unitPrice": 24.0,
+     "amount": 48.0
+    },
+    {
+     "sku": "19105",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "qty": 10,
+     "unitPrice": 18.0,
+     "amount": 180.0
+    },
+    {
+     "sku": "19103",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+     "qty": 3,
+     "unitPrice": 18.5,
+     "amount": 55.5
+    },
+    {
+     "sku": "21202",
+     "description": "SCHANI CHAPATI ATTA 10kg",
+     "qty": 1,
+     "unitPrice": 6.89,
+     "amount": 6.89
+    },
+    {
+     "sku": "19193",
+     "description": "SCHANI MANGO PULP KESAR 12x850g",
+     "qty": 5,
+     "unitPrice": 26.5,
+     "amount": 132.5
+    },
+    {
+     "sku": "41345",
+     "description": "IGLO FROZ. CREAMED SPINACH (RAHM SPINAT) 8x1kg",
+     "qty": 5,
+     "unitPrice": 24.5,
+     "amount": 122.5
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326114187",
+   "date": "2026-07-28",
+   "orderNo": "3000056948",
+   "deliveryNo": "87489",
+   "netTotal": 70.0,
+   "vat7": 4.9,
+   "grossTotal": 74.9,
+   "driveFileId": "1kblOo7yllvml3DaDTfHZt5L9CTiKNqld",
+   "lineItems": [
+    {
+     "sku": "41292",
+     "description": "FROZ. CHICKEN LEGS / Hähnchenschenkel (250g-350g) 10kg",
+     "qty": 2,
+     "unitPrice": 35.0,
+     "amount": 70.0
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326114632",
+   "date": "2026-08-03",
+   "orderNo": "3000057499",
+   "deliveryNo": "88408",
+   "netTotal": 536.0,
+   "vat7": 37.52,
+   "grossTotal": 573.52,
+   "driveFileId": "1kEKrgDKXIYTKG7Gfx0P_S88r3-OnjLD1",
+   "lineItems": [
+    {
+     "sku": "21212",
+     "description": "SCHANI MAIDA (FARINE DE BLE T55) 25kg",
+     "qty": 2,
+     "unitPrice": 16.5,
+     "amount": 33.0
+    },
+    {
+     "sku": "41293",
+     "description": "FROZ. CHICKEN TFG FILLET SALTED THAILAND 6x2kg",
+     "qty": 6,
+     "unitPrice": 48.0,
+     "amount": 288.0
+    },
+    {
+     "sku": "42041",
+     "description": "SCHANI FROZ. GARLIC CHOPPED CTN. 10x1kg",
+     "qty": 1,
+     "unitPrice": 30.0,
+     "amount": 30.0
+    },
+    {
+     "sku": "10624",
+     "description": "HEER EXTRA LONG BASMATI RICE 20kg",
+     "qty": 5,
+     "unitPrice": 37.0,
+     "amount": 185.0
     }
    ]
   }
