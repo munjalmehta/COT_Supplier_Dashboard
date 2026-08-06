@@ -135,6 +135,47 @@
     margin:0 0 22px;
   }
 
+  /* ---------- filter bar ---------- */
+  .filter-bar{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-end;
+    gap:14px;
+    background:var(--white);
+    border:1px solid var(--rule);
+    border-left:4px solid var(--sky);
+    border-radius:6px;
+    padding:14px 18px;
+    margin-bottom:22px;
+  }
+  .filter-field{display:flex;flex-direction:column;gap:4px;}
+  .filter-field label{
+    font-size:10.5px;text-transform:uppercase;letter-spacing:0.07em;
+    color:rgba(32,32,33,0.55);
+  }
+  .filter-field input, .filter-field select{
+    font-family:'Poppins',sans-serif;
+    font-size:13px;
+    padding:6px 9px;
+    border:1px solid var(--rule);
+    border-radius:5px;
+    background:var(--paper);
+    color:var(--ink);
+    min-width:130px;
+  }
+  .filter-actions{display:flex;gap:8px;margin-left:auto;}
+  .filter-btn{
+    font-family:'Poppins',sans-serif;
+    font-size:12.5px;font-weight:600;
+    padding:7px 14px;
+    border-radius:5px;
+    border:none;
+    cursor:pointer;
+  }
+  .filter-btn.apply{background:var(--midblue);color:var(--white);}
+  .filter-btn.reset{background:transparent;color:var(--midblue);border:1px solid var(--midblue);}
+  .filter-count{font-size:12px;color:rgba(32,32,33,0.5);margin:-10px 0 16px;}
+
   /* ---------- KPI cards ---------- */
   .kpi-grid{
     display:grid;
@@ -178,7 +219,6 @@
   .channel-figs{font-variant-numeric:tabular-nums;color:rgba(32,32,33,0.75);font-size:13px;}
   .bar-track{background:var(--paper);border-radius:4px;height:10px;overflow:hidden;position:relative;}
   .bar-fill{height:100%;border-radius:4px;background:var(--midblue);}
-  .bar-fill.fee{background:var(--coral);}
   .bar-legend{font-size:11px;color:rgba(32,32,33,0.5);margin-top:4px;}
 
   /* ---------- tables ---------- */
@@ -201,7 +241,9 @@
   }
   tbody tr:hover{background:rgba(113,184,222,0.08);}
   .num{text-align:right;}
-  .table-wrap{border:1px solid var(--rule);border-radius:8px;overflow:auto;margin-bottom:30px;}
+  .table-wrap{border:1px solid var(--rule);border-radius:8px;overflow:auto;margin-bottom:30px;max-height:560px;}
+  .table-wrap thead th{position:sticky;top:0;background:var(--white);}
+  .empty-note{padding:26px;text-align:center;color:rgba(32,32,33,0.45);font-size:13px;}
 
   .supplier-card{background:var(--white);border:1px solid var(--rule);border-radius:8px;margin-bottom:22px;overflow:hidden;}
   .supplier-head{
@@ -241,6 +283,7 @@
     .stamp{width:88px;height:88px;}
     main{padding:26px 5vw 60px;}
     thead th, tbody td{padding:8px;}
+    .filter-actions{margin-left:0;width:100%;}
   }
 </style>
 </head>
@@ -259,8 +302,8 @@
 <div class="tabbar">
   <button class="tabbtn active" data-view="overview">Übersicht</button>
   <button class="tabbtn" data-view="monthly">Umsatz</button>
-  <button class="tabbtn" data-view="suppliers">Lieferanten</button>
   <button class="tabbtn" data-view="kassenbuch">Kassenbuch</button>
+  <button class="tabbtn" data-view="suppliers">Lieferanten</button>
   <button class="tabbtn" data-view="delivery">Belege live</button>
   <button class="tabbtn" data-view="prices">Preisvergleich</button>
   <button class="tabbtn" data-view="recipes">Rezept-Kosten</button>
@@ -285,7 +328,16 @@
   <!-- MONTHLY REVENUE -->
   <section id="view-monthly" class="view">
     <h2 class="section-title">Umsatz nach Monat</h2>
-    <p class="section-sub">Gesamtumsatz je Monat, aufgeteilt nach Kanal. Bar/Karte-Split und Ausgaben sind ebenfalls enthalten.</p>
+    <p class="section-sub">Gesamtumsatz je Monat, aufgeteilt nach Kanal.</p>
+    <div class="filter-bar">
+      <div class="filter-field"><label>Von Monat</label><input type="month" id="monthlyFrom"></div>
+      <div class="filter-field"><label>Bis Monat</label><input type="month" id="monthlyTo"></div>
+      <div class="filter-actions">
+        <button class="filter-btn apply" id="monthlyApply">Filtern</button>
+        <button class="filter-btn reset" id="monthlyReset">Zurücksetzen</button>
+      </div>
+    </div>
+    <div class="filter-count" id="monthlyCount"></div>
     <div id="monthlyTableWrap" class="table-wrap"></div>
   </section>
 
@@ -294,32 +346,84 @@
     <h2 class="section-title">Kassenbuch — Bargeld</h2>
     <p class="section-sub">Bar-Einnahmen (Tollwood, SumUp) und Bar-Ausgaben aus dem Kassenbuch-App-Export.</p>
     <div id="kassenbuchKpis" class="kpi-grid"></div>
+
+    <div class="filter-bar">
+      <div class="filter-field"><label>Von Datum</label><input type="date" id="kbFrom"></div>
+      <div class="filter-field"><label>Bis Datum</label><input type="date" id="kbTo"></div>
+      <div class="filter-field"><label>Plattform</label>
+        <select id="kbPlatform"><option value="">Alle</option></select>
+      </div>
+      <div class="filter-actions">
+        <button class="filter-btn apply" id="kbApply">Filtern</button>
+        <button class="filter-btn reset" id="kbReset">Zurücksetzen</button>
+      </div>
+    </div>
+    <div class="filter-count" id="kbCount"></div>
+
     <h2 class="section-title" style="margin-top:8px;">Bar-Einnahmen nach Monat</h2>
-    <div id="kassenbuchMonthWrap" class="table-wrap" style="margin-bottom:30px;"></div>
+    <div id="kassenbuchMonthWrap" class="table-wrap"></div>
     <h2 class="section-title">Bar-Ausgaben</h2>
-    <div id="kassenbuchExpensesWrap" class="table-wrap" style="margin-bottom:30px;"></div>
-    <h2 class="section-title">Letzte Bar-Einnahmen (Auszug)</h2>
+    <div id="kassenbuchExpensesWrap" class="table-wrap"></div>
+    <h2 class="section-title">Bar-Einnahmen (gefiltert)</h2>
     <div id="kassenbuchTxWrap" class="table-wrap"></div>
   </section>
 
   <!-- SUPPLIERS -->
   <section id="view-suppliers" class="view">
     <h2 class="section-title">Lieferanten</h2>
-    <p class="section-sub">Eingangsrechnungen je Lieferant. Auf eine Zeile klicken, um die letzten Rechnungen zu sehen.</p>
+    <p class="section-sub">Eingangsrechnungen je Lieferant. Auf eine Zeile klicken, um Rechnungen zu sehen.</p>
+    <div class="filter-bar">
+      <div class="filter-field"><label>Lieferant</label>
+        <select id="supSupplier"><option value="">Alle</option></select>
+      </div>
+      <div class="filter-field"><label>Von Datum</label><input type="date" id="supFrom"></div>
+      <div class="filter-field"><label>Bis Datum</label><input type="date" id="supTo"></div>
+      <div class="filter-actions">
+        <button class="filter-btn apply" id="supApply">Filtern</button>
+        <button class="filter-btn reset" id="supReset">Zurücksetzen</button>
+      </div>
+    </div>
+    <div class="filter-count" id="supCount"></div>
     <div id="supplierList"></div>
   </section>
 
   <!-- DELIVERY / BELEGE LIVE -->
   <section id="view-delivery" class="view">
     <h2 class="section-title">Belege live — Lieferplattformen</h2>
-    <p class="section-sub">Wochen-/Periodenwerte je Plattform: Umsatz, Gebühren, MwSt. und Auszahlung, direkt aus den gescannten Wochenabrechnungen.</p>
+    <p class="section-sub">Wochen-/Periodenwerte je Plattform.</p>
+    <div class="filter-bar">
+      <div class="filter-field"><label>Plattform</label>
+        <select id="delPlatform">
+          <option value="">Alle</option>
+          <option value="wolt">Wolt</option>
+          <option value="uber">Uber Eats</option>
+          <option value="lief">Lieferando</option>
+        </select>
+      </div>
+      <div class="filter-field"><label>Von Datum</label><input type="date" id="delFrom"></div>
+      <div class="filter-field"><label>Bis Datum</label><input type="date" id="delTo"></div>
+      <div class="filter-actions">
+        <button class="filter-btn apply" id="delApply">Filtern</button>
+        <button class="filter-btn reset" id="delReset">Zurücksetzen</button>
+      </div>
+    </div>
     <div id="deliveryBlocks"></div>
   </section>
 
   <!-- PRICES -->
   <section id="view-prices" class="view">
     <h2 class="section-title">Preisvergleich</h2>
-    <p class="section-sub">Zutatenpreise aus echten Lieferantenrechnungen — letzter Preis vs. Durchschnitt.</p>
+    <p class="section-sub">Zutatenpreise aus echten Lieferantenrechnungen.</p>
+    <div class="filter-bar">
+      <div class="filter-field"><label>Lieferant</label>
+        <select id="priceSupplier"><option value="">Alle</option></select>
+      </div>
+      <div class="filter-actions">
+        <button class="filter-btn apply" id="priceApply">Filtern</button>
+        <button class="filter-btn reset" id="priceReset">Zurücksetzen</button>
+      </div>
+    </div>
+    <div class="filter-count" id="priceCount"></div>
     <div id="pricesTableWrap" class="table-wrap"></div>
   </section>
 
@@ -327,6 +431,20 @@
   <section id="view-recipes" class="view">
     <h2 class="section-title">Rezept-Kosten</h2>
     <p class="section-sub" id="recipeMethodNote"></p>
+    <div class="filter-bar">
+      <div class="filter-field"><label>Status</label>
+        <select id="recipeStatus">
+          <option value="">Alle</option>
+          <option value="verified">Nur bestätigt</option>
+          <option value="estimated">Nur geschätzt</option>
+        </select>
+      </div>
+      <div class="filter-actions">
+        <button class="filter-btn apply" id="recipeApply">Filtern</button>
+        <button class="filter-btn reset" id="recipeReset">Zurücksetzen</button>
+      </div>
+    </div>
+    <div class="filter-count" id="recipeCount"></div>
     <div id="recipeList"></div>
   </section>
 
@@ -334,6 +452,18 @@
   <section id="view-bestsellers" class="view">
     <h2 class="section-title">Meistverkauft</h2>
     <p class="section-sub">Top-Gerichte nach Menge, mit Foodcost-Anteil und Marge. Zeitraum 01.01.–03.08.2026.</p>
+    <div class="filter-bar">
+      <div class="filter-field"><label>Sortieren nach</label>
+        <select id="bsSort">
+          <option value="qty">Menge</option>
+          <option value="revenue">Umsatz</option>
+          <option value="margin_pct">Marge %</option>
+        </select>
+      </div>
+      <div class="filter-actions">
+        <button class="filter-btn apply" id="bsApply">Anwenden</button>
+      </div>
+    </div>
     <div id="bestsellersTableWrap" class="table-wrap"></div>
     <h2 class="section-title" style="margin-top:30px;">Foodtruck — meistverkauft</h2>
     <div id="foodtruckTableWrap" class="table-wrap"></div>
@@ -366,10 +496,21 @@ const SUPPLIER_FILES = {
   "Smart Elite Dienstleistungen GmbH":"smart_elite.json"
 };
 
+// ---- global state (raw data, fetched once) ----
+const STATE = { supplierData: {}, kassenbuch: null, revenueMonthly: null, prices: null, recipes: null, delivery: {} };
+
 function kpi(label, value, sub, cls){
   return `<div class="kpi ${cls||''}"><p class="kpi-label">${label}</p><p class="kpi-value">${value}</p>${sub?`<p class="kpi-sub">${sub}</p>`:''}</div>`;
 }
+function emptyRow(colspan, text){ return `<tr><td colspan="${colspan}" style="text-align:center;color:rgba(32,32,33,0.45);">${text||'Keine Daten für diesen Filter.'}</td></tr>`; }
+function inRange(dateStr, from, to){
+  if(!dateStr) return true;
+  if(from && dateStr < from) return false;
+  if(to && dateStr > to) return false;
+  return true;
+}
 
+/* ============ OVERVIEW ============ */
 function renderOverview(manifest){
   const rbp = manifest.revenueByPlatform;
   const gt = manifest.grandTotal;
@@ -383,48 +524,126 @@ function renderOverview(manifest){
 
   const maxGross = Math.max(...rbp.byPlatform.map(p=>p.gross));
   const list = document.getElementById('channelList');
-  list.innerHTML = rbp.byPlatform
-    .slice()
-    .sort((a,b)=>b.gross-a.gross)
-    .map(p => `
+  list.innerHTML = rbp.byPlatform.slice().sort((a,b)=>b.gross-a.gross).map(p => `
       <div class="channel-row">
         <div class="channel-top">
           <span class="channel-name">${p.platform}</span>
           <span class="channel-figs">${fmtEUR(p.gross)} brutto · ${fmtEUR(p.payout)} Auszahlung ${p.commissionPct>0?`· ${p.commissionPct}% Provision`:''}</span>
         </div>
-        <div class="bar-track">
-          <div class="bar-fill" style="width:${(p.gross/maxGross*100).toFixed(1)}%"></div>
-        </div>
+        <div class="bar-track"><div class="bar-fill" style="width:${(p.gross/maxGross*100).toFixed(1)}%"></div></div>
         <div class="bar-legend">${fmtNum(p.orderCount)} Bestellungen · Gebühren ${fmtEUR(p.platformFees)}</div>
       </div>
     `).join("");
 }
 
-async function renderSuppliers(manifest){
+/* ============ UMSATZ (monthly) ============ */
+function renderMonthlyTable(){
+  const rm = STATE.revenueMonthly;
+  if(!rm) return;
+  const from = document.getElementById('monthlyFrom').value;
+  const to = document.getElementById('monthlyTo').value;
+  const rows = rm.monthly.filter(r => (!from || r.month >= from) && (!to || r.month <= to));
+  document.getElementById('monthlyCount').textContent = `${rows.length} von ${rm.monthly.length} Monaten`;
+  const wrap = document.getElementById('monthlyTableWrap');
+  if(!rows.length){ wrap.innerHTML = `<div class="empty-note">Keine Monate im gewählten Zeitraum.</div>`; return; }
+  wrap.innerHTML = `<table>
+    <thead><tr><th>Monat</th><th class="num">Umsatz</th><th class="num">UberEats</th><th class="num">Wolt</th><th class="num">Lieferando</th><th class="num">SumUp Rest.</th><th class="num">Tollwood</th><th class="num">Bar</th><th class="num">Karte</th><th class="num">Ausgaben</th><th class="num">Trinkgeld</th></tr></thead>
+    <tbody>${rows.map(r=>`<tr>
+      <td>${r.month}</td><td class="num">${fmtEUR(r.umsatz)}</td><td class="num">${fmtEUR(r.uber)}</td><td class="num">${fmtEUR(r.wolt)}</td>
+      <td class="num">${fmtEUR(r.lieferando)}</td><td class="num">${fmtEUR(r.sumup_restaurant)}</td><td class="num">${fmtEUR(r.tollwood)}</td>
+      <td class="num">${fmtEUR(r.bar)}</td><td class="num">${fmtEUR(r.karte)}</td><td class="num">${fmtEUR(r.ausgaben)}</td>
+      <td class="num">${r.trinkgeld!==undefined?fmtEUR(r.trinkgeld):'–'}</td>
+    </tr>`).join('')}</tbody>
+  </table>`;
+}
+function initMonthlyFilters(){
+  document.getElementById('monthlyApply').addEventListener('click', renderMonthlyTable);
+  document.getElementById('monthlyReset').addEventListener('click', ()=>{
+    document.getElementById('monthlyFrom').value=''; document.getElementById('monthlyTo').value='';
+    renderMonthlyTable();
+  });
+}
+
+/* ============ KASSENBUCH ============ */
+function renderKassenbuchTables(){
+  const kb = STATE.kassenbuch;
+  if(!kb) return;
+  const from = document.getElementById('kbFrom').value;
+  const to = document.getElementById('kbTo').value;
+  const platform = document.getElementById('kbPlatform').value;
+
+  const filtered = kb.allCashTx.filter(t => inRange(t.date, from, to) && (!platform || t.platform===platform));
+  const filteredTotal = filtered.reduce((s,t)=>s+(t.cash_amount||0),0);
+  document.getElementById('kbCount').textContent = `${filtered.length} von ${kb.allCashTx.length} Buchungen · Summe ${fmtEUR(filteredTotal)}`;
+
+  document.getElementById('kassenbuchKpis').innerHTML = [
+    kpi("Bar-Einnahmen gesamt", fmtEUR(kb.cashTxTotal), kb.cashTxCount + " Buchungen", "gold"),
+    kpi("Bar-Ausgaben gesamt", fmtEUR(kb.cashExpensesTotal), kb.cashExpensesCount + " Buchungen", "coral"),
+    kpi("Netto Bargeld", fmtEUR(kb.cashTxTotal - kb.cashExpensesTotal), "", "sky"),
+  ].join("");
+
+  const monthRows = kb.byMonth.filter(m => (!from || m.month >= from.slice(0,7)) && (!to || m.month <= to.slice(0,7)));
+  document.getElementById('kassenbuchMonthWrap').innerHTML = `<table>
+    <thead><tr><th>Monat</th><th class="num">Buchungen</th><th class="num">Summe</th></tr></thead>
+    <tbody>${monthRows.length?monthRows.map(m=>`<tr><td>${m.month}</td><td class="num">${m.count}</td><td class="num">${fmtEUR(m.total)}</td></tr>`).join(''):emptyRow(3)}</tbody>
+  </table>`;
+
+  const expRows = kb.cashExpenses.filter(e => inRange(e.date, from, to));
+  document.getElementById('kassenbuchExpensesWrap').innerHTML = `<table>
+    <thead><tr><th>Datum</th><th>Text</th><th>Konto</th><th class="num">Betrag</th></tr></thead>
+    <tbody>${expRows.length?expRows.map(e=>`<tr><td>${fmtDate(e.date)}</td><td>${e.text}</td><td>${e.account}</td><td class="num">${fmtEUR(e.gross)}</td></tr>`).join(''):emptyRow(4)}</tbody>
+  </table>`;
+
+  document.getElementById('kassenbuchTxWrap').innerHTML = `<table>
+    <thead><tr><th>Datum</th><th>Plattform</th><th class="num">Betrag</th><th>Notiz</th></tr></thead>
+    <tbody>${filtered.length?filtered.slice(0,300).map(t=>`<tr><td>${fmtDate(t.date)}</td><td>${t.platform}</td><td class="num">${fmtEUR(t.cash_amount)}</td><td style="white-space:normal;">${t.note||''}</td></tr>`).join(''):emptyRow(4)}</tbody>
+  </table>`;
+}
+function initKassenbuchFilters(){
+  const platforms = [...new Set(STATE.kassenbuch.allCashTx.map(t=>t.platform))].sort();
+  const sel = document.getElementById('kbPlatform');
+  platforms.forEach(p=>{ const o=document.createElement('option'); o.value=p; o.textContent=p; sel.appendChild(o); });
+  document.getElementById('kbApply').addEventListener('click', renderKassenbuchTables);
+  document.getElementById('kbReset').addEventListener('click', ()=>{
+    document.getElementById('kbFrom').value=''; document.getElementById('kbTo').value=''; document.getElementById('kbPlatform').value='';
+    renderKassenbuchTables();
+  });
+}
+
+/* ============ SUPPLIERS ============ */
+function renderSupplierCards(manifest){
+  const supplierFilter = document.getElementById('supSupplier').value;
+  const from = document.getElementById('supFrom').value;
+  const to = document.getElementById('supTo').value;
   const container = document.getElementById('supplierList');
   container.innerHTML = "";
+  let shownCount = 0, totalInvoices = 0;
+
   for(const [name, meta] of Object.entries(manifest.suppliers)){
-    const file = SUPPLIER_FILES[name];
-    let data;
-    try{ data = await jget(file); } catch(e){ continue; }
+    if(supplierFilter && supplierFilter !== name) continue;
+    const data = STATE.supplierData[name];
+    if(!data) continue;
+    const invoices = data.invoices.filter(inv => inRange(inv.date, from, to));
+    totalInvoices += invoices.length;
+    if(from || to){ if(!invoices.length) continue; }
+    shownCount++;
+    const netSum = invoices.reduce((s,i)=>s+(i.netTotal||0),0);
+    const recent = invoices.slice().reverse().slice(0,20);
     const card = document.createElement('div');
     card.className = 'supplier-card';
-    const recent = data.invoices.slice(-8).reverse();
     card.innerHTML = `
       <div class="supplier-head">
         <div>
           <h3>${name}${meta.invoicesMissingNetTotal && meta.invoicesMissingNetTotal.length ? '<span class="badge">prüfen</span>':''}</h3>
-          <div class="supplier-meta">${meta.invoiceCount} Rechnungen · ${fmtDate(meta.earliestInvoiceDate)} – ${fmtDate(meta.latestInvoiceDate)}</div>
+          <div class="supplier-meta">${invoices.length} Rechnung(en) im Filter · gesamt ${meta.invoiceCount} · ${fmtDate(meta.earliestInvoiceDate)} – ${fmtDate(meta.latestInvoiceDate)}</div>
         </div>
-        <div class="supplier-net">${fmtEUR(meta.totalNetSpend)}</div>
+        <div class="supplier-net">${fmtEUR(from||to?netSum:meta.totalNetSpend)}</div>
       </div>
       <div class="supplier-body">
         <div class="table-wrap">
           <table>
             <thead><tr><th>Rechnung</th><th>Datum</th><th class="num">Netto</th><th class="num">Brutto</th></tr></thead>
-            <tbody>
-              ${recent.map(inv => `<tr><td>${inv.invoiceNo||'–'}</td><td>${fmtDate(inv.date)}</td><td class="num">${fmtEUR(inv.netTotal)}</td><td class="num">${fmtEUR(inv.grossTotal)}</td></tr>`).join('')}
-            </tbody>
+            <tbody>${recent.length?recent.map(inv => `<tr><td>${inv.invoiceNo||'–'}</td><td>${fmtDate(inv.date)}</td><td class="num">${fmtEUR(inv.netTotal)}</td><td class="num">${fmtEUR(inv.grossTotal)}</td></tr>`).join(''):emptyRow(4)}</tbody>
           </table>
         </div>
       </div>
@@ -434,73 +653,94 @@ async function renderSuppliers(manifest){
     head.addEventListener('click', () => body.classList.toggle('open'));
     container.appendChild(card);
   }
+  document.getElementById('supCount').textContent = `${shownCount} Lieferant(en) angezeigt${from||to?` · ${totalInvoices} Rechnung(en) im Zeitraum`:''}`;
+  if(!shownCount){ container.innerHTML = `<div class="empty-note">Keine Lieferanten/Rechnungen für diesen Filter.</div>`; }
+}
+async function loadSuppliers(manifest){
+  for(const [name, file] of Object.entries(SUPPLIER_FILES)){
+    try{ STATE.supplierData[name] = await jget(file); }catch(e){}
+  }
+  const sel = document.getElementById('supSupplier');
+  Object.keys(manifest.suppliers).forEach(name=>{
+    const o = document.createElement('option'); o.value=name; o.textContent=name; sel.appendChild(o);
+  });
+  const priceSel = document.getElementById('priceSupplier');
+  renderSupplierCards(manifest);
+  document.getElementById('supApply').addEventListener('click', ()=>renderSupplierCards(manifest));
+  document.getElementById('supReset').addEventListener('click', ()=>{
+    document.getElementById('supSupplier').value=''; document.getElementById('supFrom').value=''; document.getElementById('supTo').value='';
+    renderSupplierCards(manifest);
+  });
 }
 
-async function renderDelivery(){
+/* ============ DELIVERY / BELEGE LIVE ============ */
+function periodKeyWolt(p){ return p.periodEnd; }
+function periodKeyUber(w){ return w.periodEnd; }
+function periodKeyLief(w){ return w.periodEnd; }
+
+function renderDeliveryBlocks(){
+  const platform = document.getElementById('delPlatform').value;
+  const from = document.getElementById('delFrom').value;
+  const to = document.getElementById('delTo').value;
   const container = document.getElementById('deliveryBlocks');
   container.innerHTML = "";
 
-  try{
-    const wolt = await jget('wolt.json');
+  if(STATE.delivery.wolt && (!platform || platform==='wolt')){
+    const rows = STATE.delivery.wolt.periods.filter(p => inRange(periodKeyWolt(p), from, to));
     container.innerHTML += `
       <div class="platform-block">
         <div class="platform-head"><span class="dot wolt"></span><h3 style="margin:0;font-family:'Cinzel',serif;color:var(--navy);">Wolt</h3></div>
         <div class="table-wrap"><table>
           <thead><tr><th>Periode Ende</th><th class="num">Wolt-Gebühr netto</th><th class="num">MwSt.</th><th class="num">Werbeausgaben</th><th class="num">Auszahlung</th></tr></thead>
-          <tbody>${wolt.periods.map(p=>`<tr><td>${fmtDate(p.periodEnd)}</td><td class="num">${fmtEUR(p.wolt_fee_net)}</td><td class="num">${fmtEUR(p.wolt_fee_vat)}</td><td class="num">${fmtEUR(p.adSpend_gross||0)}</td><td class="num">${p.payoutAmount?fmtEUR(p.payoutAmount):'–'}</td></tr>`).join('')}</tbody>
+          <tbody>${rows.length?rows.map(p=>`<tr><td>${fmtDate(p.periodEnd)}</td><td class="num">${fmtEUR(p.wolt_fee_net)}</td><td class="num">${fmtEUR(p.wolt_fee_vat)}</td><td class="num">${fmtEUR(p.adSpend_gross||0)}</td><td class="num">${p.payoutAmount?fmtEUR(p.payoutAmount):'–'}</td></tr>`).join(''):emptyRow(5)}</tbody>
         </table></div>
       </div>`;
-  }catch(e){}
-
-  try{
-    const uber = await jget('uber_eats.json');
+  }
+  if(STATE.delivery.uber && (!platform || platform==='uber')){
+    const rows = STATE.delivery.uber.weeks.filter(w => inRange(periodKeyUber(w), from, to));
     container.innerHTML += `
       <div class="platform-block">
         <div class="platform-head"><span class="dot uber"></span><h3 style="margin:0;font-family:'Cinzel',serif;color:var(--navy);">Uber Eats</h3></div>
         <div class="table-wrap"><table>
           <thead><tr><th>Woche</th><th class="num">Bestellungen</th><th class="num">Brutto</th><th class="num">Uber-Gebühr netto</th><th class="num">Werbung</th><th class="num">Auszahlung</th></tr></thead>
-          <tbody>${uber.weeks.map(w=>`<tr><td>${fmtDate(w.periodStart)} – ${fmtDate(w.periodEnd)}</td><td class="num">${w.orders}</td><td class="num">${fmtEUR(w.grossOrderValue)}</td><td class="num">${fmtEUR(w.uberEatsFee_net)}</td><td class="num">${fmtEUR(Math.abs((w.marketing.adsGross||0)+(w.marketing.offerFeeGross||0)))}</td><td class="num">${fmtEUR(w.payoutTotal)}</td></tr>`).join('')}</tbody>
+          <tbody>${rows.length?rows.map(w=>`<tr><td>${fmtDate(w.periodStart)} – ${fmtDate(w.periodEnd)}</td><td class="num">${w.orders}</td><td class="num">${fmtEUR(w.grossOrderValue)}</td><td class="num">${fmtEUR(w.uberEatsFee_net)}</td><td class="num">${fmtEUR(Math.abs((w.marketing.adsGross||0)+(w.marketing.offerFeeGross||0)))}</td><td class="num">${fmtEUR(w.payoutTotal)}</td></tr>`).join(''):emptyRow(6)}</tbody>
         </table></div>
       </div>`;
-  }catch(e){}
-
-  try{
-    const lief = await jget('lieferando.json');
+  }
+  if(STATE.delivery.lief && (!platform || platform==='lief')){
+    const rows = STATE.delivery.lief.weeks.filter(w => inRange(periodKeyLief(w), from, to));
     container.innerHTML += `
       <div class="platform-block">
         <div class="platform-head"><span class="dot lief"></span><h3 style="margin:0;font-family:'Cinzel',serif;color:var(--navy);">Lieferando</h3></div>
         <div class="table-wrap"><table>
           <thead><tr><th>Woche</th><th class="num">Bestellungen</th><th class="num">Umsatz</th><th class="num">Servicegebühr</th><th class="num">MwSt.</th><th class="num">Auszahlung</th></tr></thead>
-          <tbody>${lief.weeks.map(w=>`<tr><td>${fmtDate(w.periodStart)} – ${fmtDate(w.periodEnd)}</td><td class="num">${w.orders}</td><td class="num">${fmtEUR(w.revenue_gross)}</td><td class="num">${fmtEUR(w.serviceFee30pct)}</td><td class="num">${fmtEUR(w.vat19)}</td><td class="num">${fmtEUR(w.payoutAmount)}</td></tr>`).join('')}</tbody>
+          <tbody>${rows.length?rows.map(w=>`<tr><td>${fmtDate(w.periodStart)} – ${fmtDate(w.periodEnd)}</td><td class="num">${w.orders}</td><td class="num">${fmtEUR(w.revenue_gross)}</td><td class="num">${fmtEUR(w.serviceFee30pct)}</td><td class="num">${fmtEUR(w.vat19)}</td><td class="num">${fmtEUR(w.payoutAmount)}</td></tr>`).join(''):emptyRow(6)}</tbody>
         </table></div>
       </div>`;
-  }catch(e){}
+  }
+  if(!container.innerHTML) container.innerHTML = `<div class="empty-note">Keine Daten für diesen Filter.</div>`;
+}
+async function loadDelivery(){
+  try{ STATE.delivery.wolt = await jget('wolt.json'); }catch(e){}
+  try{ STATE.delivery.uber = await jget('uber_eats.json'); }catch(e){}
+  try{ STATE.delivery.lief = await jget('lieferando.json'); }catch(e){}
+  renderDeliveryBlocks();
+  document.getElementById('delApply').addEventListener('click', renderDeliveryBlocks);
+  document.getElementById('delReset').addEventListener('click', ()=>{
+    document.getElementById('delPlatform').value=''; document.getElementById('delFrom').value=''; document.getElementById('delTo').value='';
+    renderDeliveryBlocks();
+  });
 }
 
-function renderMonthly(rm){
-  const rows = rm.monthly;
-  const wrap = document.getElementById('monthlyTableWrap');
-  wrap.innerHTML = `<table>
-    <thead><tr><th>Monat</th><th class="num">Umsatz</th><th class="num">UberEats</th><th class="num">Wolt</th><th class="num">Lieferando</th><th class="num">SumUp Rest.</th><th class="num">Tollwood</th><th class="num">Bar</th><th class="num">Karte</th><th class="num">Ausgaben</th><th class="num">Trinkgeld</th></tr></thead>
-    <tbody>${rows.map(r=>`<tr>
-      <td>${r.month}</td>
-      <td class="num">${fmtEUR(r.umsatz)}</td>
-      <td class="num">${fmtEUR(r.uber)}</td>
-      <td class="num">${fmtEUR(r.wolt)}</td>
-      <td class="num">${fmtEUR(r.lieferando)}</td>
-      <td class="num">${fmtEUR(r.sumup_restaurant)}</td>
-      <td class="num">${fmtEUR(r.tollwood)}</td>
-      <td class="num">${fmtEUR(r.bar)}</td>
-      <td class="num">${fmtEUR(r.karte)}</td>
-      <td class="num">${fmtEUR(r.ausgaben)}</td>
-      <td class="num">${r.trinkgeld!==undefined?fmtEUR(r.trinkgeld):'–'}</td>
-    </tr>`).join('')}</tbody>
-  </table>`;
-}
-
-function renderPrices(pr){
+/* ============ PRICES ============ */
+function renderPricesTable(){
+  const pr = STATE.prices;
+  if(!pr) return;
+  const supplierFilter = document.getElementById('priceSupplier').value;
+  const entries = Object.entries(pr.prices).filter(([k,v])=>v && (!supplierFilter || v.latest_supplier===supplierFilter));
+  document.getElementById('priceCount').textContent = `${entries.length} Zutat(en)`;
   const wrap = document.getElementById('pricesTableWrap');
-  const entries = Object.entries(pr.prices).filter(([k,v])=>v);
+  if(!entries.length){ wrap.innerHTML = `<div class="empty-note">Keine Zutaten für diesen Lieferanten.</div>`; return; }
   wrap.innerHTML = `<table>
     <thead><tr><th>Zutat</th><th class="num">Letzter Preis</th><th>Einheit</th><th class="num">Ø Preis</th><th class="num">n</th><th>Letzte Quelle</th></tr></thead>
     <tbody>${entries.map(([name,v])=>`<tr>
@@ -513,12 +753,28 @@ function renderPrices(pr){
     </tr>`).join('')}</tbody>
   </table>`;
 }
+function initPriceFilters(){
+  const suppliers = [...new Set(Object.values(STATE.prices.prices).filter(v=>v&&v.latest_supplier).map(v=>v.latest_supplier))].sort();
+  const sel = document.getElementById('priceSupplier');
+  suppliers.forEach(s=>{ const o=document.createElement('option'); o.value=s; o.textContent=s; sel.appendChild(o); });
+  document.getElementById('priceApply').addEventListener('click', renderPricesTable);
+  document.getElementById('priceReset').addEventListener('click', ()=>{ sel.value=''; renderPricesTable(); });
+  renderPricesTable();
+}
 
-function renderRecipes(rc){
+/* ============ RECIPES ============ */
+function renderRecipeList(){
+  const rc = STATE.recipes;
+  if(!rc) return;
   document.getElementById('recipeMethodNote').textContent = rc.methodology_note || '';
-  const container = document.getElementById('recipeList');
+  const status = document.getElementById('recipeStatus').value;
   const known = new Map(rc.known_recipes.map(r=>[r.dish, r]));
-  const dishes = Object.keys(rc.full_recipes);
+  let dishes = Object.keys(rc.full_recipes);
+  if(status==='verified') dishes = dishes.filter(d=>known.get(d)&&known.get(d).verified);
+  if(status==='estimated') dishes = dishes.filter(d=>!(known.get(d)&&known.get(d).verified));
+  document.getElementById('recipeCount').textContent = `${dishes.length} Gericht(e)`;
+  const container = document.getElementById('recipeList');
+  if(!dishes.length){ container.innerHTML = `<div class="empty-note">Keine Gerichte für diesen Filter.</div>`; return; }
   container.innerHTML = dishes.map(dish => {
     const recipe = rc.full_recipes[dish];
     const kr = known.get(dish);
@@ -544,42 +800,33 @@ function renderRecipes(rc){
   }).join('');
   container.querySelectorAll('.supplier-head').forEach(h=>h.addEventListener('click',()=>h.nextElementSibling.classList.toggle('open')));
 }
+function initRecipeFilters(){
+  document.getElementById('recipeApply').addEventListener('click', renderRecipeList);
+  document.getElementById('recipeReset').addEventListener('click', ()=>{
+    document.getElementById('recipeStatus').value=''; renderRecipeList();
+  });
+  renderRecipeList();
+}
 
-function renderBestsellers(rc){
-  const rows = rc.top50_estimated.slice().sort((a,b)=>b.qty-a.qty);
+/* ============ BESTSELLERS ============ */
+function renderBestsellers(){
+  const rc = STATE.recipes;
+  if(!rc) return;
+  const sortKey = document.getElementById('bsSort').value;
+  const rows = rc.top50_estimated.slice().sort((a,b)=>(b[sortKey]||0)-(a[sortKey]||0));
   document.getElementById('bestsellersTableWrap').innerHTML = `<table>
     <thead><tr><th>Gericht</th><th class="num">Menge</th><th class="num">Umsatz</th><th class="num">Ø Preis</th><th class="num">Kosten</th><th class="num">Foodcost %</th><th class="num">Marge %</th></tr></thead>
     <tbody>${rows.map(r=>`<tr><td>${r.dish}</td><td class="num">${fmtNum(r.qty)}</td><td class="num">${fmtEUR(r.revenue)}</td><td class="num">${fmtEUR(r.avg_price)}</td><td class="num">${fmtEUR(r.cost)}</td><td class="num">${r.food_cost_pct}%</td><td class="num">${r.margin_pct}%</td></tr>`).join('')}</tbody>
   </table>`;
-
   const ft = rc.foodtruck_items.slice().sort((a,b)=>b.qty-a.qty);
   document.getElementById('foodtruckTableWrap').innerHTML = `<table>
     <thead><tr><th>Position</th><th class="num">Menge</th><th class="num">Umsatz</th><th class="num">Bestellungen</th></tr></thead>
     <tbody>${ft.map(r=>`<tr><td>${r.name}</td><td class="num">${fmtNum(r.qty)}</td><td class="num">${fmtEUR(r.revenue)}</td><td class="num">${fmtNum(r.orders)}</td></tr>`).join('')}</tbody>
   </table>`;
 }
-
-function renderKassenbuch(kb){
-  document.getElementById('kassenbuchKpis').innerHTML = [
-    kpi("Bar-Einnahmen gesamt", fmtEUR(kb.cashTxTotal), kb.cashTxCount + " Buchungen", "gold"),
-    kpi("Bar-Ausgaben gesamt", fmtEUR(kb.cashExpensesTotal), kb.cashExpensesCount + " Buchungen", "coral"),
-    kpi("Netto Bargeld", fmtEUR(kb.cashTxTotal - kb.cashExpensesTotal), "", "sky"),
-  ].join("");
-
-  document.getElementById('kassenbuchMonthWrap').innerHTML = `<table>
-    <thead><tr><th>Monat</th><th class="num">Buchungen</th><th class="num">Summe</th></tr></thead>
-    <tbody>${kb.byMonth.map(m=>`<tr><td>${m.month}</td><td class="num">${m.count}</td><td class="num">${fmtEUR(m.total)}</td></tr>`).join('')}</tbody>
-  </table>`;
-
-  document.getElementById('kassenbuchExpensesWrap').innerHTML = `<table>
-    <thead><tr><th>Datum</th><th>Text</th><th>Konto</th><th class="num">Betrag</th></tr></thead>
-    <tbody>${kb.cashExpenses.map(e=>`<tr><td>${fmtDate(e.date)}</td><td>${e.text}</td><td>${e.account}</td><td class="num">${fmtEUR(e.gross)}</td></tr>`).join('')}</tbody>
-  </table>`;
-
-  document.getElementById('kassenbuchTxWrap').innerHTML = `<table>
-    <thead><tr><th>Datum</th><th>Plattform</th><th class="num">Betrag</th><th>Notiz</th></tr></thead>
-    <tbody>${kb.recentCashTx.map(t=>`<tr><td>${fmtDate(t.date)}</td><td>${t.platform}</td><td class="num">${fmtEUR(t.cash_amount)}</td><td style="white-space:normal;">${t.note||''}</td></tr>`).join('')}</tbody>
-  </table>`;
+function initBestsellerFilters(){
+  document.getElementById('bsApply').addEventListener('click', renderBestsellers);
+  renderBestsellers();
 }
 
 // tab switching
@@ -597,13 +844,15 @@ document.querySelectorAll('.tabbtn').forEach(btn=>{
     const manifest = await jget('manifest.json');
     document.getElementById('stampDate').textContent = new Date(manifest.generatedAt).toLocaleDateString('de-DE');
     document.getElementById('loading').style.display = 'none';
+
     renderOverview(manifest);
-    await renderSuppliers(manifest);
-    try{ renderKassenbuch(await jget('kassenbuch.json')); }catch(e){}
-    await renderDelivery();
-    try{ renderMonthly(await jget('revenue_monthly.json')); }catch(e){}
-    try{ renderPrices(await jget('ingredient_prices.json')); }catch(e){}
-    try{ const rc = await jget('recipes.json'); renderRecipes(rc); renderBestsellers(rc); }catch(e){}
+    await loadSuppliers(manifest);
+
+    try{ STATE.kassenbuch = await jget('kassenbuch.json'); renderKassenbuchTables(); initKassenbuchFilters(); }catch(e){}
+    await loadDelivery();
+    try{ STATE.revenueMonthly = await jget('revenue_monthly.json'); renderMonthlyTable(); initMonthlyFilters(); }catch(e){}
+    try{ STATE.prices = await jget('ingredient_prices.json'); initPriceFilters(); }catch(e){}
+    try{ STATE.recipes = await jget('recipes.json'); initRecipeFilters(); initBestsellerFilters(); }catch(e){}
   }catch(e){
     document.getElementById('loading').style.display = 'none';
     const err = document.getElementById('err');
