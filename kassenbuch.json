@@ -176,7 +176,7 @@
    "created_at": "2026-07-01T11:34:11.074Z"
   }
  ],
- "recentCashTx": [
+ "allCashTx": [
   {
    "id": "tx_t8zmcn_28",
    "date": "2026-07-26",
@@ -716,6 +716,4578 @@
    "period_id": "sumup-restaurant-565#19",
    "source_file": "Tagesabschlussbericht-2026-07-11_2026-07-12.pdf",
    "note": "SumUp Restaurant Tagesabschluss #565 · 19 % · 11.07.2026"
+  },
+  {
+   "id": "tx_jsv19c_26",
+   "date": "2026-07-09",
+   "platform": "SumUp",
+   "cash_amount": 481.5,
+   "period_id": "sumup-foodtruck-25#7",
+   "source_file": "Tagesabschlussbericht-2026-07-09_2026-07-10.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #25 · 7 % · 09.07.2026"
+  },
+  {
+   "id": "tx_t8yelo_28",
+   "date": "2026-07-09",
+   "platform": "SumUp",
+   "cash_amount": 3.68,
+   "period_id": "sumup-restaurant-563#0",
+   "source_file": "Tagesabschlussbericht-2026-07-09_2026-07-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #563 · 0 % (Trinkgeld) · 09.07.2026"
+  },
+  {
+   "id": "tx_t8yelv_28",
+   "date": "2026-07-09",
+   "platform": "SumUp",
+   "cash_amount": 119.7,
+   "period_id": "sumup-restaurant-563#7",
+   "source_file": "Tagesabschlussbericht-2026-07-09_2026-07-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #563 · 7 % · 09.07.2026"
+  },
+  {
+   "id": "tx_1ic9x0s_29",
+   "date": "2026-07-09",
+   "platform": "SumUp",
+   "cash_amount": 42.72,
+   "period_id": "sumup-restaurant-563#19",
+   "source_file": "Tagesabschlussbericht-2026-07-09_2026-07-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #563 · 19 % · 09.07.2026"
+  },
+  {
+   "id": "tx_jsv0in_26",
+   "date": "2026-07-08",
+   "platform": "SumUp",
+   "cash_amount": 405,
+   "period_id": "sumup-foodtruck-24#7",
+   "source_file": "Tagesabschlussbericht-2026-07-08_2026-07-09.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #24 · 7 % · 08.07.2026"
+  },
+  {
+   "id": "tx_t8yduz_28",
+   "date": "2026-07-08",
+   "platform": "SumUp",
+   "cash_amount": 6.62,
+   "period_id": "sumup-restaurant-562#0",
+   "source_file": "Tagesabschlussbericht-2026-07-08_2026-07-09.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #562 · 0 % (Trinkgeld) · 08.07.2026"
+  },
+  {
+   "id": "tx_t8ydv6_28",
+   "date": "2026-07-08",
+   "platform": "SumUp",
+   "cash_amount": 97.87,
+   "period_id": "sumup-restaurant-562#7",
+   "source_file": "Tagesabschlussbericht-2026-07-08_2026-07-09.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #562 · 7 % · 08.07.2026"
+  },
+  {
+   "id": "tx_1ic9a19_29",
+   "date": "2026-07-08",
+   "platform": "SumUp",
+   "cash_amount": 28.71,
+   "period_id": "sumup-restaurant-562#19",
+   "source_file": "Tagesabschlussbericht-2026-07-08_2026-07-09.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #562 · 19 % · 08.07.2026"
+  },
+  {
+   "id": "tx_1imni11_34",
+   "date": "2026-07-07",
+   "platform": "Tollwood",
+   "cash_amount": 1257.47,
+   "period_id": "tollwood-2026-07-07-#19#7",
+   "source_file": "WhatsApp Image 2026-07-08 at 10.44.19.jpeg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #19 · 7 % · 07.07.2026"
+  },
+  {
+   "id": "tx_1nsn9cq_35",
+   "date": "2026-07-07",
+   "platform": "Tollwood",
+   "cash_amount": 64.13,
+   "period_id": "tollwood-2026-07-07-#19#19",
+   "source_file": "WhatsApp Image 2026-07-08 at 10.44.19.jpeg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #19 · 19 % · 07.07.2026"
+  },
+  {
+   "id": "tx_t8yd4a_28",
+   "date": "2026-07-07",
+   "platform": "SumUp",
+   "cash_amount": 4.48,
+   "period_id": "sumup-restaurant-561#0",
+   "source_file": "Tagesabschlussbericht-2026-07-07_2026-07-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #561 · 0 % (Trinkgeld) · 07.07.2026"
+  },
+  {
+   "id": "tx_t8yd4h_28",
+   "date": "2026-07-07",
+   "platform": "SumUp",
+   "cash_amount": 73.63,
+   "period_id": "sumup-restaurant-561#7",
+   "source_file": "Tagesabschlussbericht-2026-07-07_2026-07-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #561 · 7 % · 07.07.2026"
+  },
+  {
+   "id": "tx_1ic8n1q_29",
+   "date": "2026-07-07",
+   "platform": "SumUp",
+   "cash_amount": 14.59,
+   "period_id": "sumup-restaurant-561#19",
+   "source_file": "Tagesabschlussbericht-2026-07-07_2026-07-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #561 · 19 % · 07.07.2026"
+  },
+  {
+   "id": "tx_jsuzrr_26",
+   "date": "2026-07-06",
+   "platform": "SumUp",
+   "cash_amount": 0.25,
+   "period_id": "sumup-foodtruck-23#0",
+   "source_file": "Tagesabschlussbericht-2026-07-06_2026-07-07.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #23 · 0 % (Trinkgeld) · 06.07.2026"
+  },
+  {
+   "id": "tx_jsuzry_26",
+   "date": "2026-07-06",
+   "platform": "SumUp",
+   "cash_amount": 133.72,
+   "period_id": "sumup-foodtruck-23#7",
+   "source_file": "Tagesabschlussbericht-2026-07-06_2026-07-07.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #23 · 7 % · 06.07.2026"
+  },
+  {
+   "id": "tx_19lsd5t_27",
+   "date": "2026-07-06",
+   "platform": "SumUp",
+   "cash_amount": 9.33,
+   "period_id": "sumup-foodtruck-23#19",
+   "source_file": "Tagesabschlussbericht-2026-07-06_2026-07-07.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #23 · 19 % · 06.07.2026"
+  },
+  {
+   "id": "tx_t8ycdl_28",
+   "date": "2026-07-06",
+   "platform": "SumUp",
+   "cash_amount": 1.95,
+   "period_id": "sumup-restaurant-560#0",
+   "source_file": "Tagesabschlussbericht-2026-07-06_2026-07-07.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #560 · 0 % (Trinkgeld) · 06.07.2026"
+  },
+  {
+   "id": "tx_t8ycds_28",
+   "date": "2026-07-06",
+   "platform": "SumUp",
+   "cash_amount": 31.34,
+   "period_id": "sumup-restaurant-560#7",
+   "source_file": "Tagesabschlussbericht-2026-07-06_2026-07-07.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #560 · 7 % · 06.07.2026"
+  },
+  {
+   "id": "tx_1ic8027_29",
+   "date": "2026-07-06",
+   "platform": "SumUp",
+   "cash_amount": 5.51,
+   "period_id": "sumup-restaurant-560#19",
+   "source_file": "Tagesabschlussbericht-2026-07-06_2026-07-07.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #560 · 19 % · 06.07.2026"
+  },
+  {
+   "id": "tx_p9uw3l_34",
+   "date": "2026-07-05",
+   "platform": "Tollwood",
+   "cash_amount": 2146.63,
+   "period_id": "tollwood-2026-07-05-#17#7",
+   "source_file": "PHOTO-2026-07-05-22-47-42.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #17 · 7 % · 05.07.2026"
+  },
+  {
+   "id": "tx_25d19a_35",
+   "date": "2026-07-05",
+   "platform": "Tollwood",
+   "cash_amount": 95.47,
+   "period_id": "tollwood-2026-07-05-#17#19",
+   "source_file": "PHOTO-2026-07-05-22-47-42.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #17 · 19 % · 05.07.2026"
+  },
+  {
+   "id": "tx_t8xw2b_28",
+   "date": "2026-07-05",
+   "platform": "SumUp",
+   "cash_amount": 4.77,
+   "period_id": "sumup-restaurant-559#0",
+   "source_file": "Tagesabschlussbericht-2026-07-05_2026-07-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #559 · 0 % (Trinkgeld) · 05.07.2026"
+  },
+  {
+   "id": "tx_t8xw2i_28",
+   "date": "2026-07-05",
+   "platform": "SumUp",
+   "cash_amount": 102.21,
+   "period_id": "sumup-restaurant-559#7",
+   "source_file": "Tagesabschlussbericht-2026-07-05_2026-07-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #559 · 7 % · 05.07.2026"
+  },
+  {
+   "id": "tx_1ibtycl_29",
+   "date": "2026-07-05",
+   "platform": "SumUp",
+   "cash_amount": 21.22,
+   "period_id": "sumup-restaurant-559#19",
+   "source_file": "Tagesabschlussbericht-2026-07-05_2026-07-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #559 · 19 % · 05.07.2026"
+  },
+  {
+   "id": "tx_t8xvbm_28",
+   "date": "2026-07-04",
+   "platform": "SumUp",
+   "cash_amount": 0.85,
+   "period_id": "sumup-restaurant-558#0",
+   "source_file": "Tagesabschlussbericht-2026-07-04_2026-07-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #558 · 0 % (Trinkgeld) · 04.07.2026"
+  },
+  {
+   "id": "tx_t8xvbt_28",
+   "date": "2026-07-04",
+   "platform": "SumUp",
+   "cash_amount": 44.9,
+   "period_id": "sumup-restaurant-558#7",
+   "source_file": "Tagesabschlussbericht-2026-07-04_2026-07-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #558 · 7 % · 04.07.2026"
+  },
+  {
+   "id": "tx_1ibtbd2_29",
+   "date": "2026-07-04",
+   "platform": "SumUp",
+   "cash_amount": 8.44,
+   "period_id": "sumup-restaurant-558#19",
+   "source_file": "Tagesabschlussbericht-2026-07-04_2026-07-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #558 · 19 % · 04.07.2026"
+  },
+  {
+   "id": "tx_t8xukx_28",
+   "date": "2026-07-03",
+   "platform": "SumUp",
+   "cash_amount": 2.56,
+   "period_id": "sumup-restaurant-557#0",
+   "source_file": "Tagesabschlussbericht-2026-07-03_2026-07-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #557 · 0 % (Trinkgeld) · 03.07.2026"
+  },
+  {
+   "id": "tx_t8xul4_28",
+   "date": "2026-07-03",
+   "platform": "SumUp",
+   "cash_amount": 37.24,
+   "period_id": "sumup-restaurant-557#7",
+   "source_file": "Tagesabschlussbericht-2026-07-03_2026-07-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #557 · 7 % · 03.07.2026"
+  },
+  {
+   "id": "tx_1ibsodj_29",
+   "date": "2026-07-03",
+   "platform": "SumUp",
+   "cash_amount": 10.9,
+   "period_id": "sumup-restaurant-557#19",
+   "source_file": "Tagesabschlussbericht-2026-07-03_2026-07-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #557 · 19 % · 03.07.2026"
+  },
+  {
+   "id": "tx_jsuz12_26",
+   "date": "2026-07-02",
+   "platform": "SumUp",
+   "cash_amount": 0.06,
+   "period_id": "sumup-foodtruck-22#0",
+   "source_file": "Tagesabschlussbericht-2026-07-02_2026-07-03.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #22 · 0 % (Trinkgeld) · 02.07.2026"
+  },
+  {
+   "id": "tx_jsuz19_26",
+   "date": "2026-07-02",
+   "platform": "SumUp",
+   "cash_amount": 39.44,
+   "period_id": "sumup-foodtruck-22#7",
+   "source_file": "Tagesabschlussbericht-2026-07-02_2026-07-03.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #22 · 7 % · 02.07.2026"
+  },
+  {
+   "id": "tx_t8xtu8_28",
+   "date": "2026-07-02",
+   "platform": "SumUp",
+   "cash_amount": 0.8,
+   "period_id": "sumup-restaurant-556#0",
+   "source_file": "Tagesabschlussbericht-2026-07-02_2026-07-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #556 · 0 % (Trinkgeld) · 02.07.2026"
+  },
+  {
+   "id": "tx_t8xtuf_28",
+   "date": "2026-07-02",
+   "platform": "SumUp",
+   "cash_amount": 29.14,
+   "period_id": "sumup-restaurant-556#7",
+   "source_file": "Tagesabschlussbericht-2026-07-02_2026-07-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #556 · 7 % · 02.07.2026"
+  },
+  {
+   "id": "tx_1ibs1e0_29",
+   "date": "2026-07-02",
+   "platform": "SumUp",
+   "cash_amount": 5.76,
+   "period_id": "sumup-restaurant-556#19",
+   "source_file": "Tagesabschlussbericht-2026-07-02_2026-07-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #556 · 19 % · 02.07.2026"
+  },
+  {
+   "id": "tx_11ldq7t_34",
+   "date": "2026-07-01",
+   "platform": "Tollwood",
+   "cash_amount": 901.77,
+   "period_id": "tollwood-2026-07-01-#13#7",
+   "source_file": "3bd33476-6436-43bd-ba17-98aa712aa5bb.JPG",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #13 · 7 % · 01.07.2026"
+  },
+  {
+   "id": "tx_sx0p0m_35",
+   "date": "2026-07-01",
+   "platform": "Tollwood",
+   "cash_amount": 38.33,
+   "period_id": "tollwood-2026-07-01-#13#19",
+   "source_file": "3bd33476-6436-43bd-ba17-98aa712aa5bb.JPG",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #13 · 19 % · 01.07.2026"
+  },
+  {
+   "id": "tx_t8xt3j_28",
+   "date": "2026-07-01",
+   "platform": "SumUp",
+   "cash_amount": 3.61,
+   "period_id": "sumup-restaurant-555#0",
+   "source_file": "Tagesabschlussbericht-2026-07-01_2026-07-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #555 · 0 % (Trinkgeld) · 01.07.2026"
+  },
+  {
+   "id": "tx_t8xt3q_28",
+   "date": "2026-07-01",
+   "platform": "SumUp",
+   "cash_amount": 127.28,
+   "period_id": "sumup-restaurant-555#7",
+   "source_file": "Tagesabschlussbericht-2026-07-01_2026-07-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #555 · 7 % · 01.07.2026"
+  },
+  {
+   "id": "tx_1ibreeh_29",
+   "date": "2026-07-01",
+   "platform": "SumUp",
+   "cash_amount": 26.82,
+   "period_id": "sumup-restaurant-555#19",
+   "source_file": "Tagesabschlussbericht-2026-07-01_2026-07-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #555 · 19 % · 01.07.2026"
+  },
+  {
+   "id": "tx_15lqr91_34",
+   "date": "2026-06-30",
+   "platform": "Tollwood",
+   "cash_amount": 738.89,
+   "period_id": "tollwood-2026-06-30-#12#7",
+   "source_file": "IMG_3822.JPG",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #12 · 7 % · 30.06.2026"
+  },
+  {
+   "id": "tx_b60h4a_35",
+   "date": "2026-06-30",
+   "platform": "Tollwood",
+   "cash_amount": 37.41,
+   "period_id": "tollwood-2026-06-30-#12#19",
+   "source_file": "IMG_3822.JPG",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #12 · 19 % · 30.06.2026"
+  },
+  {
+   "id": "tx_t8xscu_28",
+   "date": "2026-06-30",
+   "platform": "SumUp",
+   "cash_amount": 1.36,
+   "period_id": "sumup-restaurant-554#0",
+   "source_file": "Tagesabschlussbericht-2026-06-30_2026-07-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #554 · 0 % (Trinkgeld) · 30.06.2026"
+  },
+  {
+   "id": "tx_t8xsd1_28",
+   "date": "2026-06-30",
+   "platform": "SumUp",
+   "cash_amount": 59.17,
+   "period_id": "sumup-restaurant-554#7",
+   "source_file": "Tagesabschlussbericht-2026-06-30_2026-07-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #554 · 7 % · 30.06.2026"
+  },
+  {
+   "id": "tx_1ibqrey_29",
+   "date": "2026-06-30",
+   "platform": "SumUp",
+   "cash_amount": 12.67,
+   "period_id": "sumup-restaurant-554#19",
+   "source_file": "Tagesabschlussbericht-2026-06-30_2026-07-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #554 · 19 % · 30.06.2026"
+  },
+  {
+   "id": "tx_2tgpi6_34",
+   "date": "2026-06-29",
+   "platform": "Tollwood",
+   "cash_amount": 355.89,
+   "period_id": "tollwood-2026-06-29-#11#7",
+   "source_file": "PHOTO-2026-06-29-22-54-31.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #11 · 7 % · 29.06.2026"
+  },
+  {
+   "id": "tx_gc9wkh_35",
+   "date": "2026-06-29",
+   "platform": "Tollwood",
+   "cash_amount": 23.21,
+   "period_id": "tollwood-2026-06-29-#11#19",
+   "source_file": "PHOTO-2026-06-29-22-54-31.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #11 · 19 % · 29.06.2026"
+  },
+  {
+   "id": "tx_1n66gik_34",
+   "date": "2026-06-28",
+   "platform": "Tollwood",
+   "cash_amount": 950.4,
+   "period_id": "tollwood-2026-06-28-#10#7",
+   "source_file": "PHOTO-2026-06-30-07-28-15.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #10 · 7 % · 28.06.2026"
+  },
+  {
+   "id": "tx_1mjquhv_35",
+   "date": "2026-06-28",
+   "platform": "Tollwood",
+   "cash_amount": 79.5,
+   "period_id": "tollwood-2026-06-28-#10#19",
+   "source_file": "PHOTO-2026-06-30-07-28-15.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #10 · 19 % · 28.06.2026"
+  },
+  {
+   "id": "tx_t8xrm5_28",
+   "date": "2026-06-28",
+   "platform": "SumUp",
+   "cash_amount": 1.7,
+   "period_id": "sumup-restaurant-553#0",
+   "source_file": "Tagesabschlussbericht-2026-06-28_2026-06-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #553 · 0 % (Trinkgeld) · 28.06.2026"
+  },
+  {
+   "id": "tx_t8xrmc_28",
+   "date": "2026-06-28",
+   "platform": "SumUp",
+   "cash_amount": 191.64,
+   "period_id": "sumup-restaurant-553#7",
+   "source_file": "Tagesabschlussbericht-2026-06-28_2026-06-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #553 · 7 % · 28.06.2026"
+  },
+  {
+   "id": "tx_1ibq4ff_29",
+   "date": "2026-06-28",
+   "platform": "SumUp",
+   "cash_amount": 29.06,
+   "period_id": "sumup-restaurant-553#19",
+   "source_file": "Tagesabschlussbericht-2026-06-28_2026-06-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #553 · 19 % · 28.06.2026"
+  },
+  {
+   "id": "tx_1b9falh_33",
+   "date": "2026-06-27",
+   "platform": "Tollwood",
+   "cash_amount": 406.05,
+   "period_id": "tollwood-2026-06-27-#9#7",
+   "source_file": "PHOTO-2026-06-28-08-05-29.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #9 · 7 % · 27.06.2026"
+  },
+  {
+   "id": "tx_18hx0vu_34",
+   "date": "2026-06-27",
+   "platform": "Tollwood",
+   "cash_amount": 28.95,
+   "period_id": "tollwood-2026-06-27-#9#19",
+   "source_file": "PHOTO-2026-06-28-08-05-29.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #9 · 19 % · 27.06.2026"
+  },
+  {
+   "id": "tx_jsuyak_26",
+   "date": "2026-06-27",
+   "platform": "SumUp",
+   "cash_amount": 57.25,
+   "period_id": "sumup-foodtruck-21#7",
+   "source_file": "Tagesabschlussbericht-2026-06-27_2026-06-28.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #21 · 7 % · 27.06.2026"
+  },
+  {
+   "id": "tx_t8xqvg_28",
+   "date": "2026-06-27",
+   "platform": "SumUp",
+   "cash_amount": 0.78,
+   "period_id": "sumup-restaurant-552#0",
+   "source_file": "Tagesabschlussbericht-2026-06-27_2026-06-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #552 · 0 % (Trinkgeld) · 27.06.2026"
+  },
+  {
+   "id": "tx_t8xqvn_28",
+   "date": "2026-06-27",
+   "platform": "SumUp",
+   "cash_amount": 37.24,
+   "period_id": "sumup-restaurant-552#7",
+   "source_file": "Tagesabschlussbericht-2026-06-27_2026-06-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #552 · 7 % · 27.06.2026"
+  },
+  {
+   "id": "tx_1ibphfw_29",
+   "date": "2026-06-27",
+   "platform": "SumUp",
+   "cash_amount": 8.28,
+   "period_id": "sumup-restaurant-552#19",
+   "source_file": "Tagesabschlussbericht-2026-06-27_2026-06-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #552 · 19 % · 27.06.2026"
+  },
+  {
+   "id": "tx_1asdngl_33",
+   "date": "2026-06-26",
+   "platform": "Tollwood",
+   "cash_amount": 641.43,
+   "period_id": "tollwood-2026-06-26-#8#7",
+   "source_file": "95CC3990-E97D-45C1-A747-C1F4257C2576.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #8 · 7 % · 26.06.2026"
+  },
+  {
+   "id": "tx_tti3oa_34",
+   "date": "2026-06-26",
+   "platform": "Tollwood",
+   "cash_amount": 41.67,
+   "period_id": "tollwood-2026-06-26-#8#19",
+   "source_file": "95CC3990-E97D-45C1-A747-C1F4257C2576.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #8 · 19 % · 26.06.2026"
+  },
+  {
+   "id": "tx_t8xq4r_28",
+   "date": "2026-06-26",
+   "platform": "SumUp",
+   "cash_amount": 4.48,
+   "period_id": "sumup-restaurant-551#0",
+   "source_file": "Tagesabschlussbericht-2026-06-26_2026-06-27.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #551 · 0 % (Trinkgeld) · 26.06.2026"
+  },
+  {
+   "id": "tx_t8xq4y_28",
+   "date": "2026-06-26",
+   "platform": "SumUp",
+   "cash_amount": 347.73,
+   "period_id": "sumup-restaurant-551#7",
+   "source_file": "Tagesabschlussbericht-2026-06-26_2026-06-27.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #551 · 7 % · 26.06.2026"
+  },
+  {
+   "id": "tx_1ibougd_29",
+   "date": "2026-06-26",
+   "platform": "SumUp",
+   "cash_amount": 54,
+   "period_id": "sumup-restaurant-551#19",
+   "source_file": "Tagesabschlussbericht-2026-06-26_2026-06-27.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #551 · 19 % · 26.06.2026"
+  },
+  {
+   "id": "tx_1abc0bp_33",
+   "date": "2026-06-25",
+   "platform": "Tollwood",
+   "cash_amount": 746.21,
+   "period_id": "tollwood-2026-06-25-#7#7",
+   "source_file": "124861F2-B57B-4918-8486-EC41BC391F58.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #7 · 7 % · 25.06.2026"
+  },
+  {
+   "id": "tx_f536gq_34",
+   "date": "2026-06-25",
+   "platform": "Tollwood",
+   "cash_amount": 29.19,
+   "period_id": "tollwood-2026-06-25-#7#19",
+   "source_file": "124861F2-B57B-4918-8486-EC41BC391F58.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #7 · 19 % · 25.06.2026"
+  },
+  {
+   "id": "tx_t8x92s_28",
+   "date": "2026-06-24",
+   "platform": "SumUp",
+   "cash_amount": 0.28,
+   "period_id": "sumup-restaurant-549#0",
+   "source_file": "Tagesabschlussbericht-2026-06-24_2026-06-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #549 · 0 % (Trinkgeld) · 24.06.2026"
+  },
+  {
+   "id": "tx_t8x92z_28",
+   "date": "2026-06-24",
+   "platform": "SumUp",
+   "cash_amount": 16.7,
+   "period_id": "sumup-restaurant-549#7",
+   "source_file": "Tagesabschlussbericht-2026-06-24_2026-06-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #549 · 7 % · 24.06.2026"
+  },
+  {
+   "id": "tx_1iba5r8_29",
+   "date": "2026-06-24",
+   "platform": "SumUp",
+   "cash_amount": 2.92,
+   "period_id": "sumup-restaurant-549#19",
+   "source_file": "Tagesabschlussbericht-2026-06-24_2026-06-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #549 · 19 % · 24.06.2026"
+  },
+  {
+   "id": "tx_19d8q1x_33",
+   "date": "2026-06-23",
+   "platform": "Tollwood",
+   "cash_amount": 494.62,
+   "period_id": "tollwood-2026-06-23-#5#7",
+   "source_file": "IMG_3773.JPG",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #5 · 7 % · 23.06.2026"
+  },
+  {
+   "id": "tx_1ktde0q_34",
+   "date": "2026-06-23",
+   "platform": "Tollwood",
+   "cash_amount": 33.58,
+   "period_id": "tollwood-2026-06-23-#5#19",
+   "source_file": "IMG_3773.JPG",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #5 · 19 % · 23.06.2026"
+  },
+  {
+   "id": "tx_jsughw_26",
+   "date": "2026-06-23",
+   "platform": "SumUp",
+   "cash_amount": 45,
+   "period_id": "sumup-foodtruck-18#7",
+   "source_file": "Tagesabschlussbericht-2026-06-23_2026-06-24.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #18 · 7 % · 23.06.2026"
+  },
+  {
+   "id": "tx_18w72x1_33",
+   "date": "2026-06-22",
+   "platform": "Tollwood",
+   "cash_amount": 633,
+   "period_id": "tollwood-2026-06-22-#4#7",
+   "source_file": "f7b4383a-bc38-42e8-9b60-6ef677b53f8a.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #4 · 7 % · 22.06.2026"
+  },
+  {
+   "id": "tx_164ygt6_34",
+   "date": "2026-06-22",
+   "platform": "Tollwood",
+   "cash_amount": 28.3,
+   "period_id": "tollwood-2026-06-22-#4#19",
+   "source_file": "f7b4383a-bc38-42e8-9b60-6ef677b53f8a.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #4 · 19 % · 22.06.2026"
+  },
+  {
+   "id": "tx_t8x7le_28",
+   "date": "2026-06-22",
+   "platform": "SumUp",
+   "cash_amount": 4.2,
+   "period_id": "sumup-restaurant-547#0",
+   "source_file": "Tagesabschlussbericht-2026-06-22_2026-06-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #547 · 0 % (Trinkgeld) · 22.06.2026"
+  },
+  {
+   "id": "tx_t8x7ll_28",
+   "date": "2026-06-22",
+   "platform": "SumUp",
+   "cash_amount": 87.76,
+   "period_id": "sumup-restaurant-547#7",
+   "source_file": "Tagesabschlussbericht-2026-06-22_2026-06-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #547 · 7 % · 22.06.2026"
+  },
+  {
+   "id": "tx_1ib8vs6_29",
+   "date": "2026-06-22",
+   "platform": "SumUp",
+   "cash_amount": 19.74,
+   "period_id": "sumup-restaurant-547#19",
+   "source_file": "Tagesabschlussbericht-2026-06-22_2026-06-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #547 · 19 % · 22.06.2026"
+  },
+  {
+   "id": "tx_18f5fs5_33",
+   "date": "2026-06-21",
+   "platform": "Tollwood",
+   "cash_amount": 614.04,
+   "period_id": "tollwood-2026-06-21-#3#7",
+   "source_file": "IMG_3747.JPG",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #3 · 7 % · 21.06.2026"
+  },
+  {
+   "id": "tx_rgjjlm_34",
+   "date": "2026-06-21",
+   "platform": "Tollwood",
+   "cash_amount": 43.86,
+   "period_id": "tollwood-2026-06-21-#3#19",
+   "source_file": "IMG_3747.JPG",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #3 · 19 % · 21.06.2026"
+  },
+  {
+   "id": "tx_t8x6up_28",
+   "date": "2026-06-21",
+   "platform": "SumUp",
+   "cash_amount": 0.54,
+   "period_id": "sumup-restaurant-546#0",
+   "source_file": "Tagesabschlussbericht-2026-06-21_2026-06-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #546 · 0 % (Trinkgeld) · 21.06.2026"
+  },
+  {
+   "id": "tx_t8x6uw_28",
+   "date": "2026-06-21",
+   "platform": "SumUp",
+   "cash_amount": 15.9,
+   "period_id": "sumup-restaurant-546#7",
+   "source_file": "Tagesabschlussbericht-2026-06-21_2026-06-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #546 · 7 % · 21.06.2026"
+  },
+  {
+   "id": "tx_1ib88sn_29",
+   "date": "2026-06-21",
+   "platform": "SumUp",
+   "cash_amount": 3.66,
+   "period_id": "sumup-restaurant-546#19",
+   "source_file": "Tagesabschlussbericht-2026-06-21_2026-06-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #546 · 19 % · 21.06.2026"
+  },
+  {
+   "id": "tx_17y3sn9_33",
+   "date": "2026-06-20",
+   "platform": "Tollwood",
+   "cash_amount": 1073,
+   "period_id": "tollwood-2026-06-20-#2#7",
+   "source_file": "5fc7e10c-2211-4bc7-97e5-3750df3a6e62.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #2 · 7 % · 20.06.2026"
+  },
+  {
+   "id": "tx_cs4me2_34",
+   "date": "2026-06-20",
+   "platform": "Tollwood",
+   "cash_amount": 88.6,
+   "period_id": "tollwood-2026-06-20-#2#19",
+   "source_file": "5fc7e10c-2211-4bc7-97e5-3750df3a6e62.jpg",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #2 · 19 % · 20.06.2026"
+  },
+  {
+   "id": "tx_t8x640_28",
+   "date": "2026-06-20",
+   "platform": "SumUp",
+   "cash_amount": 1.21,
+   "period_id": "sumup-restaurant-545#0",
+   "source_file": "Tagesabschlussbericht-2026-06-20_2026-06-21.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #545 · 0 % (Trinkgeld) · 20.06.2026"
+  },
+  {
+   "id": "tx_t8x647_28",
+   "date": "2026-06-20",
+   "platform": "SumUp",
+   "cash_amount": 54.75,
+   "period_id": "sumup-restaurant-545#7",
+   "source_file": "Tagesabschlussbericht-2026-06-20_2026-06-21.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #545 · 7 % · 20.06.2026"
+  },
+  {
+   "id": "tx_1ib7lt4_29",
+   "date": "2026-06-20",
+   "platform": "SumUp",
+   "cash_amount": 7.44,
+   "period_id": "sumup-restaurant-545#19",
+   "source_file": "Tagesabschlussbericht-2026-06-20_2026-06-21.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #545 · 19 % · 20.06.2026"
+  },
+  {
+   "id": "tx_xj438a_33",
+   "date": "2026-06-19",
+   "platform": "Tollwood",
+   "cash_amount": 794.76,
+   "period_id": "tollwood-2026-06-19-#1#7",
+   "source_file": "IMG_3706.JPG",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #1 · 7 % · 19.06.2026"
+  },
+  {
+   "id": "tx_190y0dh_34",
+   "date": "2026-06-19",
+   "platform": "Tollwood",
+   "cash_amount": 63.64,
+   "period_id": "tollwood-2026-06-19-#1#19",
+   "source_file": "IMG_3706.JPG",
+   "note": "Tollwood Sommer 2026 · Tagesabschluss #1 · 19 % · 19.06.2026"
+  },
+  {
+   "id": "tx_t8x5db_28",
+   "date": "2026-06-19",
+   "platform": "SumUp",
+   "cash_amount": 1.36,
+   "period_id": "sumup-restaurant-544#0",
+   "source_file": "Tagesabschlussbericht-2026-06-19_2026-06-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #544 · 0 % (Trinkgeld) · 19.06.2026"
+  },
+  {
+   "id": "tx_t8x5di_28",
+   "date": "2026-06-19",
+   "platform": "SumUp",
+   "cash_amount": 40.03,
+   "period_id": "sumup-restaurant-544#7",
+   "source_file": "Tagesabschlussbericht-2026-06-19_2026-06-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #544 · 7 % · 19.06.2026"
+  },
+  {
+   "id": "tx_1ib6ytl_29",
+   "date": "2026-06-19",
+   "platform": "SumUp",
+   "cash_amount": 6.3,
+   "period_id": "sumup-restaurant-544#19",
+   "source_file": "Tagesabschlussbericht-2026-06-19_2026-06-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #544 · 19 % · 19.06.2026"
+  },
+  {
+   "id": "tx_t8x3vx_28",
+   "date": "2026-06-17",
+   "platform": "SumUp",
+   "cash_amount": 1.86,
+   "period_id": "sumup-restaurant-542#0",
+   "source_file": "Tagesabschlussbericht-2026-06-17_2026-06-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #542 · 0 % (Trinkgeld) · 17.06.2026"
+  },
+  {
+   "id": "tx_t8x3w4_28",
+   "date": "2026-06-17",
+   "platform": "SumUp",
+   "cash_amount": 28.63,
+   "period_id": "sumup-restaurant-542#7",
+   "source_file": "Tagesabschlussbericht-2026-06-17_2026-06-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #542 · 7 % · 17.06.2026"
+  },
+  {
+   "id": "tx_1ib5ouj_29",
+   "date": "2026-06-17",
+   "platform": "SumUp",
+   "cash_amount": 5.91,
+   "period_id": "sumup-restaurant-542#19",
+   "source_file": "Tagesabschlussbericht-2026-06-17_2026-06-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #542 · 19 % · 17.06.2026"
+  },
+  {
+   "id": "tx_t8x358_28",
+   "date": "2026-06-16",
+   "platform": "SumUp",
+   "cash_amount": 1.33,
+   "period_id": "sumup-restaurant-541#0",
+   "source_file": "Tagesabschlussbericht-2026-06-16_2026-06-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #541 · 0 % (Trinkgeld) · 16.06.2026"
+  },
+  {
+   "id": "tx_t8x35f_28",
+   "date": "2026-06-16",
+   "platform": "SumUp",
+   "cash_amount": 35.81,
+   "period_id": "sumup-restaurant-541#7",
+   "source_file": "Tagesabschlussbericht-2026-06-16_2026-06-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #541 · 7 % · 16.06.2026"
+  },
+  {
+   "id": "tx_1ib51v0_29",
+   "date": "2026-06-16",
+   "platform": "SumUp",
+   "cash_amount": 9.15,
+   "period_id": "sumup-restaurant-541#19",
+   "source_file": "Tagesabschlussbericht-2026-06-16_2026-06-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #541 · 19 % · 16.06.2026"
+  },
+  {
+   "id": "tx_t8x2ej_28",
+   "date": "2026-06-15",
+   "platform": "SumUp",
+   "cash_amount": 1.29,
+   "period_id": "sumup-restaurant-540#0",
+   "source_file": "Tagesabschlussbericht-2026-06-15_2026-06-16.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #540 · 0 % (Trinkgeld) · 15.06.2026"
+  },
+  {
+   "id": "tx_t8x2eq_28",
+   "date": "2026-06-15",
+   "platform": "SumUp",
+   "cash_amount": 30.9,
+   "period_id": "sumup-restaurant-540#7",
+   "source_file": "Tagesabschlussbericht-2026-06-15_2026-06-16.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #540 · 7 % · 15.06.2026"
+  },
+  {
+   "id": "tx_1ib4evh_29",
+   "date": "2026-06-15",
+   "platform": "SumUp",
+   "cash_amount": 7.42,
+   "period_id": "sumup-restaurant-540#19",
+   "source_file": "Tagesabschlussbericht-2026-06-15_2026-06-16.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #540 · 19 % · 15.06.2026"
+  },
+  {
+   "id": "tx_t8wm39_28",
+   "date": "2026-06-14",
+   "platform": "SumUp",
+   "cash_amount": 2.18,
+   "period_id": "sumup-restaurant-539#0",
+   "source_file": "Tagesabschlussbericht-2026-06-14_2026-06-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #539 · 0 % (Trinkgeld) · 14.06.2026"
+  },
+  {
+   "id": "tx_t8wm3g_28",
+   "date": "2026-06-14",
+   "platform": "SumUp",
+   "cash_amount": 25.63,
+   "period_id": "sumup-restaurant-539#7",
+   "source_file": "Tagesabschlussbericht-2026-06-14_2026-06-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #539 · 7 % · 14.06.2026"
+  },
+  {
+   "id": "tx_1iaqd5v_29",
+   "date": "2026-06-14",
+   "platform": "SumUp",
+   "cash_amount": 5.69,
+   "period_id": "sumup-restaurant-539#19",
+   "source_file": "Tagesabschlussbericht-2026-06-14_2026-06-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #539 · 19 % · 14.06.2026"
+  },
+  {
+   "id": "tx_t8wlck_28",
+   "date": "2026-06-13",
+   "platform": "SumUp",
+   "cash_amount": 9.55,
+   "period_id": "sumup-restaurant-538#0",
+   "source_file": "Tagesabschlussbericht-2026-06-13_2026-06-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #538 · 0 % (Trinkgeld) · 13.06.2026"
+  },
+  {
+   "id": "tx_t8wlcr_28",
+   "date": "2026-06-13",
+   "platform": "SumUp",
+   "cash_amount": 168.83,
+   "period_id": "sumup-restaurant-538#7",
+   "source_file": "Tagesabschlussbericht-2026-06-13_2026-06-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #538 · 7 % · 13.06.2026"
+  },
+  {
+   "id": "tx_1iapq6c_29",
+   "date": "2026-06-13",
+   "platform": "SumUp",
+   "cash_amount": 37.62,
+   "period_id": "sumup-restaurant-538#19",
+   "source_file": "Tagesabschlussbericht-2026-06-13_2026-06-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #538 · 19 % · 13.06.2026"
+  },
+  {
+   "id": "tx_t8wklv_28",
+   "date": "2026-06-12",
+   "platform": "SumUp",
+   "cash_amount": 4.67,
+   "period_id": "sumup-restaurant-537#0",
+   "source_file": "Tagesabschlussbericht-2026-06-12_2026-06-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #537 · 0 % (Trinkgeld) · 12.06.2026"
+  },
+  {
+   "id": "tx_t8wkm2_28",
+   "date": "2026-06-12",
+   "platform": "SumUp",
+   "cash_amount": 76.04,
+   "period_id": "sumup-restaurant-537#7",
+   "source_file": "Tagesabschlussbericht-2026-06-12_2026-06-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #537 · 7 % · 12.06.2026"
+  },
+  {
+   "id": "tx_1iap36t_29",
+   "date": "2026-06-12",
+   "platform": "SumUp",
+   "cash_amount": 20.19,
+   "period_id": "sumup-restaurant-537#19",
+   "source_file": "Tagesabschlussbericht-2026-06-12_2026-06-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #537 · 19 % · 12.06.2026"
+  },
+  {
+   "id": "tx_jsudj4_26",
+   "date": "2026-06-11",
+   "platform": "SumUp",
+   "cash_amount": 2010,
+   "period_id": "sumup-foodtruck-14#7",
+   "source_file": "Tagesabschlussbericht-2026-06-11_2026-06-12.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #14 · 7 % · 11.06.2026"
+  },
+  {
+   "id": "tx_t8wjv6_28",
+   "date": "2026-06-11",
+   "platform": "SumUp",
+   "cash_amount": 4.43,
+   "period_id": "sumup-restaurant-536#0",
+   "source_file": "Tagesabschlussbericht-2026-06-11_2026-06-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #536 · 0 % (Trinkgeld) · 11.06.2026"
+  },
+  {
+   "id": "tx_t8wjvd_28",
+   "date": "2026-06-11",
+   "platform": "SumUp",
+   "cash_amount": 207.14,
+   "period_id": "sumup-restaurant-536#7",
+   "source_file": "Tagesabschlussbericht-2026-06-11_2026-06-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #536 · 7 % · 11.06.2026"
+  },
+  {
+   "id": "tx_1iaog7a_29",
+   "date": "2026-06-11",
+   "platform": "SumUp",
+   "cash_amount": 17.95,
+   "period_id": "sumup-restaurant-536#19",
+   "source_file": "Tagesabschlussbericht-2026-06-11_2026-06-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #536 · 19 % · 11.06.2026"
+  },
+  {
+   "id": "tx_t8wj4h_28",
+   "date": "2026-06-10",
+   "platform": "SumUp",
+   "cash_amount": 1.58,
+   "period_id": "sumup-restaurant-535#0",
+   "source_file": "Tagesabschlussbericht-2026-06-10_2026-06-11.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #535 · 0 % (Trinkgeld) · 10.06.2026"
+  },
+  {
+   "id": "tx_t8wj4o_28",
+   "date": "2026-06-10",
+   "platform": "SumUp",
+   "cash_amount": 130.3,
+   "period_id": "sumup-restaurant-535#7",
+   "source_file": "Tagesabschlussbericht-2026-06-10_2026-06-11.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #535 · 7 % · 10.06.2026"
+  },
+  {
+   "id": "tx_1iant7r_29",
+   "date": "2026-06-10",
+   "platform": "SumUp",
+   "cash_amount": 18.81,
+   "period_id": "sumup-restaurant-535#19",
+   "source_file": "Tagesabschlussbericht-2026-06-10_2026-06-11.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #535 · 19 % · 10.06.2026"
+  },
+  {
+   "id": "tx_jsucs8_26",
+   "date": "2026-06-09",
+   "platform": "SumUp",
+   "cash_amount": 0.77,
+   "period_id": "sumup-foodtruck-13#0",
+   "source_file": "Tagesabschlussbericht-2026-06-09_2026-06-10.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #13 · 0 % (Trinkgeld) · 09.06.2026"
+  },
+  {
+   "id": "tx_jsucsf_26",
+   "date": "2026-06-09",
+   "platform": "SumUp",
+   "cash_amount": 83.73,
+   "period_id": "sumup-foodtruck-13#7",
+   "source_file": "Tagesabschlussbericht-2026-06-09_2026-06-10.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #13 · 7 % · 09.06.2026"
+  },
+  {
+   "id": "tx_t8wids_28",
+   "date": "2026-06-09",
+   "platform": "SumUp",
+   "cash_amount": 7.95,
+   "period_id": "sumup-restaurant-534#0",
+   "source_file": "Tagesabschlussbericht-2026-06-09_2026-06-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #534 · 0 % (Trinkgeld) · 09.06.2026"
+  },
+  {
+   "id": "tx_t8widz_28",
+   "date": "2026-06-09",
+   "platform": "SumUp",
+   "cash_amount": 132.16,
+   "period_id": "sumup-restaurant-534#7",
+   "source_file": "Tagesabschlussbericht-2026-06-09_2026-06-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #534 · 7 % · 09.06.2026"
+  },
+  {
+   "id": "tx_1ian688_29",
+   "date": "2026-06-09",
+   "platform": "SumUp",
+   "cash_amount": 24.4,
+   "period_id": "sumup-restaurant-534#19",
+   "source_file": "Tagesabschlussbericht-2026-06-09_2026-06-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #534 · 19 % · 09.06.2026"
+  },
+  {
+   "id": "tx_jsuc1q_26",
+   "date": "2026-06-08",
+   "platform": "SumUp",
+   "cash_amount": 150.93,
+   "period_id": "sumup-foodtruck-12#7",
+   "source_file": "Tagesabschlussbericht-2026-06-08_2026-06-09.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #12 · 7 % · 08.06.2026"
+  },
+  {
+   "id": "tx_19l7xkx_27",
+   "date": "2026-06-08",
+   "platform": "SumUp",
+   "cash_amount": 1.07,
+   "period_id": "sumup-foodtruck-12#19",
+   "source_file": "Tagesabschlussbericht-2026-06-08_2026-06-09.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #12 · 19 % · 08.06.2026"
+  },
+  {
+   "id": "tx_t8whn3_28",
+   "date": "2026-06-08",
+   "platform": "SumUp",
+   "cash_amount": 4.4,
+   "period_id": "sumup-restaurant-533#0",
+   "source_file": "Tagesabschlussbericht-2026-06-08_2026-06-09.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #533 · 0 % (Trinkgeld) · 08.06.2026"
+  },
+  {
+   "id": "tx_t8whna_28",
+   "date": "2026-06-08",
+   "platform": "SumUp",
+   "cash_amount": 202,
+   "period_id": "sumup-restaurant-533#7",
+   "source_file": "Tagesabschlussbericht-2026-06-08_2026-06-09.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #533 · 7 % · 08.06.2026"
+  },
+  {
+   "id": "tx_1iamj8p_29",
+   "date": "2026-06-08",
+   "platform": "SumUp",
+   "cash_amount": 29.4,
+   "period_id": "sumup-restaurant-533#19",
+   "source_file": "Tagesabschlussbericht-2026-06-08_2026-06-09.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #533 · 19 % · 08.06.2026"
+  },
+  {
+   "id": "tx_t8wgwe_28",
+   "date": "2026-06-07",
+   "platform": "SumUp",
+   "cash_amount": 2.79,
+   "period_id": "sumup-restaurant-532#0",
+   "source_file": "Tagesabschlussbericht-2026-06-07_2026-06-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #532 · 0 % (Trinkgeld) · 07.06.2026"
+  },
+  {
+   "id": "tx_t8wgwl_28",
+   "date": "2026-06-07",
+   "platform": "SumUp",
+   "cash_amount": 69.88,
+   "period_id": "sumup-restaurant-532#7",
+   "source_file": "Tagesabschlussbericht-2026-06-07_2026-06-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #532 · 7 % · 07.06.2026"
+  },
+  {
+   "id": "tx_1ialw96_29",
+   "date": "2026-06-07",
+   "platform": "SumUp",
+   "cash_amount": 16.23,
+   "period_id": "sumup-restaurant-532#19",
+   "source_file": "Tagesabschlussbericht-2026-06-07_2026-06-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #532 · 19 % · 07.06.2026"
+  },
+  {
+   "id": "tx_t8wff0_28",
+   "date": "2026-06-05",
+   "platform": "SumUp",
+   "cash_amount": 10.17,
+   "period_id": "sumup-restaurant-530#0",
+   "source_file": "Tagesabschlussbericht-2026-06-05_2026-06-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #530 · 0 % (Trinkgeld) · 05.06.2026"
+  },
+  {
+   "id": "tx_t8wff7_28",
+   "date": "2026-06-05",
+   "platform": "SumUp",
+   "cash_amount": 114.74,
+   "period_id": "sumup-restaurant-530#7",
+   "source_file": "Tagesabschlussbericht-2026-06-05_2026-06-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #530 · 7 % · 05.06.2026"
+  },
+  {
+   "id": "tx_1iakma4_29",
+   "date": "2026-06-05",
+   "platform": "SumUp",
+   "cash_amount": 30.69,
+   "period_id": "sumup-restaurant-530#19",
+   "source_file": "Tagesabschlussbericht-2026-06-05_2026-06-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #530 · 19 % · 05.06.2026"
+  },
+  {
+   "id": "tx_t8vz3q_28",
+   "date": "2026-06-04",
+   "platform": "SumUp",
+   "cash_amount": 5.57,
+   "period_id": "sumup-restaurant-529#0",
+   "source_file": "Tagesabschlussbericht-2026-06-04_2026-06-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #529 · 0 % (Trinkgeld) · 04.06.2026"
+  },
+  {
+   "id": "tx_t8vz3x_28",
+   "date": "2026-06-04",
+   "platform": "SumUp",
+   "cash_amount": 78.65,
+   "period_id": "sumup-restaurant-529#7",
+   "source_file": "Tagesabschlussbericht-2026-06-04_2026-06-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #529 · 7 % · 04.06.2026"
+  },
+  {
+   "id": "tx_1ia6kki_29",
+   "date": "2026-06-04",
+   "platform": "SumUp",
+   "cash_amount": 18.68,
+   "period_id": "sumup-restaurant-529#19",
+   "source_file": "Tagesabschlussbericht-2026-06-04_2026-06-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #529 · 19 % · 04.06.2026"
+  },
+  {
+   "id": "tx_t8vyd1_28",
+   "date": "2026-06-03",
+   "platform": "SumUp",
+   "cash_amount": 3.93,
+   "period_id": "sumup-restaurant-528#0",
+   "source_file": "Tagesabschlussbericht-2026-06-03_2026-06-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #528 · 0 % (Trinkgeld) · 03.06.2026"
+  },
+  {
+   "id": "tx_t8vyd8_28",
+   "date": "2026-06-03",
+   "platform": "SumUp",
+   "cash_amount": 56.4,
+   "period_id": "sumup-restaurant-528#7",
+   "source_file": "Tagesabschlussbericht-2026-06-03_2026-06-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #528 · 7 % · 03.06.2026"
+  },
+  {
+   "id": "tx_1ia5xkz_29",
+   "date": "2026-06-03",
+   "platform": "SumUp",
+   "cash_amount": 11.98,
+   "period_id": "sumup-restaurant-528#19",
+   "source_file": "Tagesabschlussbericht-2026-06-03_2026-06-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #528 · 19 % · 03.06.2026"
+  },
+  {
+   "id": "tx_t8vxmc_28",
+   "date": "2026-06-02",
+   "platform": "SumUp",
+   "cash_amount": 1.52,
+   "period_id": "sumup-restaurant-527#0",
+   "source_file": "Tagesabschlussbericht-2026-06-02_2026-06-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #527 · 0 % (Trinkgeld) · 02.06.2026"
+  },
+  {
+   "id": "tx_t8vxmj_28",
+   "date": "2026-06-02",
+   "platform": "SumUp",
+   "cash_amount": 136.7,
+   "period_id": "sumup-restaurant-527#7",
+   "source_file": "Tagesabschlussbericht-2026-06-02_2026-06-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #527 · 7 % · 02.06.2026"
+  },
+  {
+   "id": "tx_1ia5alg_29",
+   "date": "2026-06-02",
+   "platform": "SumUp",
+   "cash_amount": 16.27,
+   "period_id": "sumup-restaurant-527#19",
+   "source_file": "Tagesabschlussbericht-2026-06-02_2026-06-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #527 · 19 % · 02.06.2026"
+  },
+  {
+   "id": "tx_t8vwvn_28",
+   "date": "2026-06-01",
+   "platform": "SumUp",
+   "cash_amount": 5.18,
+   "period_id": "sumup-restaurant-526#0",
+   "source_file": "Tagesabschlussbericht-2026-06-01_2026-06-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #526 · 0 % (Trinkgeld) · 01.06.2026"
+  },
+  {
+   "id": "tx_t8vwvu_28",
+   "date": "2026-06-01",
+   "platform": "SumUp",
+   "cash_amount": 64.58,
+   "period_id": "sumup-restaurant-526#7",
+   "source_file": "Tagesabschlussbericht-2026-06-01_2026-06-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #526 · 7 % · 01.06.2026"
+  },
+  {
+   "id": "tx_1ia4nlx_29",
+   "date": "2026-06-01",
+   "platform": "SumUp",
+   "cash_amount": 17.74,
+   "period_id": "sumup-restaurant-526#19",
+   "source_file": "Tagesabschlussbericht-2026-06-01_2026-06-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #526 · 19 % · 01.06.2026"
+  },
+  {
+   "id": "tx_t8vw4y_28",
+   "date": "2026-05-31",
+   "platform": "SumUp",
+   "cash_amount": 9.01,
+   "period_id": "sumup-restaurant-525#0",
+   "source_file": "Tagesabschlussbericht-2026-05-31_2026-06-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #525 · 0 % (Trinkgeld) · 31.05.2026"
+  },
+  {
+   "id": "tx_t8vw55_28",
+   "date": "2026-05-31",
+   "platform": "SumUp",
+   "cash_amount": 181.26,
+   "period_id": "sumup-restaurant-525#7",
+   "source_file": "Tagesabschlussbericht-2026-05-31_2026-06-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #525 · 7 % · 31.05.2026"
+  },
+  {
+   "id": "tx_1ia40me_29",
+   "date": "2026-05-31",
+   "platform": "SumUp",
+   "cash_amount": 38.42,
+   "period_id": "sumup-restaurant-525#19",
+   "source_file": "Tagesabschlussbericht-2026-05-31_2026-06-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #525 · 19 % · 31.05.2026"
+  },
+  {
+   "id": "tx_t8vtwv_28",
+   "date": "2026-05-28",
+   "platform": "SumUp",
+   "cash_amount": 3.16,
+   "period_id": "sumup-restaurant-522#0",
+   "source_file": "Tagesabschlussbericht-2026-05-28_2026-05-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #522 · 0 % (Trinkgeld) · 28.05.2026"
+  },
+  {
+   "id": "tx_t8vtx2_28",
+   "date": "2026-05-28",
+   "platform": "SumUp",
+   "cash_amount": 98.25,
+   "period_id": "sumup-restaurant-522#7",
+   "source_file": "Tagesabschlussbericht-2026-05-28_2026-05-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #522 · 7 % · 28.05.2026"
+  },
+  {
+   "id": "tx_1ia23nt_29",
+   "date": "2026-05-28",
+   "platform": "SumUp",
+   "cash_amount": 11.49,
+   "period_id": "sumup-restaurant-522#19",
+   "source_file": "Tagesabschlussbericht-2026-05-28_2026-05-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #522 · 19 % · 28.05.2026"
+  },
+  {
+   "id": "tx_t8vt66_28",
+   "date": "2026-05-27",
+   "platform": "SumUp",
+   "cash_amount": 7.25,
+   "period_id": "sumup-restaurant-521#0",
+   "source_file": "Tagesabschlussbericht-2026-05-27_2026-05-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #521 · 0 % (Trinkgeld) · 27.05.2026"
+  },
+  {
+   "id": "tx_t8vt6d_28",
+   "date": "2026-05-27",
+   "platform": "SumUp",
+   "cash_amount": 115.31,
+   "period_id": "sumup-restaurant-521#7",
+   "source_file": "Tagesabschlussbericht-2026-05-27_2026-05-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #521 · 7 % · 27.05.2026"
+  },
+  {
+   "id": "tx_1ia1goa_29",
+   "date": "2026-05-27",
+   "platform": "SumUp",
+   "cash_amount": 43.54,
+   "period_id": "sumup-restaurant-521#19",
+   "source_file": "Tagesabschlussbericht-2026-05-27_2026-05-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #521 · 19 % · 27.05.2026"
+  },
+  {
+   "id": "tx_jsuak5_26",
+   "date": "2026-05-26",
+   "platform": "SumUp",
+   "cash_amount": 0.49,
+   "period_id": "sumup-foodtruck-10#0",
+   "source_file": "Tagesabschlussbericht-2026-05-26_2026-05-27.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #10 · 0 % (Trinkgeld) · 26.05.2026"
+  },
+  {
+   "id": "tx_jsuakc_26",
+   "date": "2026-05-26",
+   "platform": "SumUp",
+   "cash_amount": 53.51,
+   "period_id": "sumup-foodtruck-10#7",
+   "source_file": "Tagesabschlussbericht-2026-05-26_2026-05-27.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #10 · 7 % · 26.05.2026"
+  },
+  {
+   "id": "tx_t8vsfh_28",
+   "date": "2026-05-26",
+   "platform": "SumUp",
+   "cash_amount": 1.32,
+   "period_id": "sumup-restaurant-520#0",
+   "source_file": "Tagesabschlussbericht-2026-05-26_2026-05-27.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #520 · 0 % (Trinkgeld) · 26.05.2026"
+  },
+  {
+   "id": "tx_t8vsfo_28",
+   "date": "2026-05-26",
+   "platform": "SumUp",
+   "cash_amount": 50.31,
+   "period_id": "sumup-restaurant-520#7",
+   "source_file": "Tagesabschlussbericht-2026-05-26_2026-05-27.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #520 · 7 % · 26.05.2026"
+  },
+  {
+   "id": "tx_1ia0tor_29",
+   "date": "2026-05-26",
+   "platform": "SumUp",
+   "cash_amount": 9.87,
+   "period_id": "sumup-restaurant-520#19",
+   "source_file": "Tagesabschlussbericht-2026-05-26_2026-05-27.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #520 · 19 % · 26.05.2026"
+  },
+  {
+   "id": "tx_njvh2c_25",
+   "date": "2026-05-25",
+   "platform": "SumUp",
+   "cash_amount": 816,
+   "period_id": "sumup-foodtruck-9#7",
+   "source_file": "Tagesabschlussbericht-2026-05-25_2026-05-26.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #9 · 7 % · 25.05.2026"
+  },
+  {
+   "id": "tx_t8vc47_28",
+   "date": "2026-05-25",
+   "platform": "SumUp",
+   "cash_amount": 8.12,
+   "period_id": "sumup-restaurant-519#0",
+   "source_file": "Tagesabschlussbericht-2026-05-25_2026-05-26.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #519 · 0 % (Trinkgeld) · 25.05.2026"
+  },
+  {
+   "id": "tx_t8vc4e_28",
+   "date": "2026-05-25",
+   "platform": "SumUp",
+   "cash_amount": 213.19,
+   "period_id": "sumup-restaurant-519#7",
+   "source_file": "Tagesabschlussbericht-2026-05-25_2026-05-26.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #519 · 7 % · 25.05.2026"
+  },
+  {
+   "id": "tx_1i9mrz5_29",
+   "date": "2026-05-25",
+   "platform": "SumUp",
+   "cash_amount": 33.29,
+   "period_id": "sumup-restaurant-519#19",
+   "source_file": "Tagesabschlussbericht-2026-05-25_2026-05-26.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #519 · 19 % · 25.05.2026"
+  },
+  {
+   "id": "tx_njvgbn_25",
+   "date": "2026-05-24",
+   "platform": "SumUp",
+   "cash_amount": 511,
+   "period_id": "sumup-foodtruck-8#7",
+   "source_file": "Tagesabschlussbericht-2026-05-24_2026-05-25.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #8 · 7 % · 24.05.2026"
+  },
+  {
+   "id": "tx_t8vbdi_28",
+   "date": "2026-05-24",
+   "platform": "SumUp",
+   "cash_amount": 3.35,
+   "period_id": "sumup-restaurant-518#0",
+   "source_file": "Tagesabschlussbericht-2026-05-24_2026-05-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #518 · 0 % (Trinkgeld) · 24.05.2026"
+  },
+  {
+   "id": "tx_t8vbdp_28",
+   "date": "2026-05-24",
+   "platform": "SumUp",
+   "cash_amount": 47.8,
+   "period_id": "sumup-restaurant-518#7",
+   "source_file": "Tagesabschlussbericht-2026-05-24_2026-05-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #518 · 7 % · 24.05.2026"
+  },
+  {
+   "id": "tx_1i9m4zm_29",
+   "date": "2026-05-24",
+   "platform": "SumUp",
+   "cash_amount": 7.55,
+   "period_id": "sumup-restaurant-518#19",
+   "source_file": "Tagesabschlussbericht-2026-05-24_2026-05-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #518 · 19 % · 24.05.2026"
+  },
+  {
+   "id": "tx_njvfky_25",
+   "date": "2026-05-23",
+   "platform": "SumUp",
+   "cash_amount": 512,
+   "period_id": "sumup-foodtruck-7#7",
+   "source_file": "Tagesabschlussbericht-2026-05-23_2026-05-24.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #7 · 7 % · 23.05.2026"
+  },
+  {
+   "id": "tx_t8vamt_28",
+   "date": "2026-05-23",
+   "platform": "SumUp",
+   "cash_amount": 2.25,
+   "period_id": "sumup-restaurant-517#0",
+   "source_file": "Tagesabschlussbericht-2026-05-23_2026-05-24.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #517 · 0 % (Trinkgeld) · 23.05.2026"
+  },
+  {
+   "id": "tx_t8van0_28",
+   "date": "2026-05-23",
+   "platform": "SumUp",
+   "cash_amount": 31.33,
+   "period_id": "sumup-restaurant-517#7",
+   "source_file": "Tagesabschlussbericht-2026-05-23_2026-05-24.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #517 · 7 % · 23.05.2026"
+  },
+  {
+   "id": "tx_1i9li03_29",
+   "date": "2026-05-23",
+   "platform": "SumUp",
+   "cash_amount": 11.32,
+   "period_id": "sumup-restaurant-517#19",
+   "source_file": "Tagesabschlussbericht-2026-05-23_2026-05-24.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #517 · 19 % · 23.05.2026"
+  },
+  {
+   "id": "tx_t8v9w4_28",
+   "date": "2026-05-22",
+   "platform": "SumUp",
+   "cash_amount": 1.32,
+   "period_id": "sumup-restaurant-516#0",
+   "source_file": "Tagesabschlussbericht-2026-05-22_2026-05-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #516 · 0 % (Trinkgeld) · 22.05.2026"
+  },
+  {
+   "id": "tx_t8v9wb_28",
+   "date": "2026-05-22",
+   "platform": "SumUp",
+   "cash_amount": 28.01,
+   "period_id": "sumup-restaurant-516#7",
+   "source_file": "Tagesabschlussbericht-2026-05-22_2026-05-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #516 · 7 % · 22.05.2026"
+  },
+  {
+   "id": "tx_1i9kv0k_29",
+   "date": "2026-05-22",
+   "platform": "SumUp",
+   "cash_amount": 5.57,
+   "period_id": "sumup-restaurant-516#19",
+   "source_file": "Tagesabschlussbericht-2026-05-22_2026-05-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #516 · 19 % · 22.05.2026"
+  },
+  {
+   "id": "tx_njveu9_25",
+   "date": "2026-05-21",
+   "platform": "SumUp",
+   "cash_amount": 44,
+   "period_id": "sumup-foodtruck-6#7",
+   "source_file": "Tagesabschlussbericht-2026-05-21_2026-05-22.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #6 · 7 % · 21.05.2026"
+  },
+  {
+   "id": "tx_t8v95f_28",
+   "date": "2026-05-21",
+   "platform": "SumUp",
+   "cash_amount": 4.17,
+   "period_id": "sumup-restaurant-515#0",
+   "source_file": "Tagesabschlussbericht-2026-05-21_2026-05-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #515 · 0 % (Trinkgeld) · 21.05.2026"
+  },
+  {
+   "id": "tx_t8v95m_28",
+   "date": "2026-05-21",
+   "platform": "SumUp",
+   "cash_amount": 101.14,
+   "period_id": "sumup-restaurant-515#7",
+   "source_file": "Tagesabschlussbericht-2026-05-21_2026-05-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #515 · 7 % · 21.05.2026"
+  },
+  {
+   "id": "tx_1i9k811_29",
+   "date": "2026-05-21",
+   "platform": "SumUp",
+   "cash_amount": 15.3,
+   "period_id": "sumup-restaurant-515#19",
+   "source_file": "Tagesabschlussbericht-2026-05-21_2026-05-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #515 · 19 % · 21.05.2026"
+  },
+  {
+   "id": "tx_t8v8eq_28",
+   "date": "2026-05-20",
+   "platform": "SumUp",
+   "cash_amount": 3.49,
+   "period_id": "sumup-restaurant-514#0",
+   "source_file": "Tagesabschlussbericht-2026-05-20_2026-05-21.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #514 · 0 % (Trinkgeld) · 20.05.2026"
+  },
+  {
+   "id": "tx_t8v8ex_28",
+   "date": "2026-05-20",
+   "platform": "SumUp",
+   "cash_amount": 47.48,
+   "period_id": "sumup-restaurant-514#7",
+   "source_file": "Tagesabschlussbericht-2026-05-20_2026-05-21.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #514 · 7 % · 20.05.2026"
+  },
+  {
+   "id": "tx_1i9jl1i_29",
+   "date": "2026-05-20",
+   "platform": "SumUp",
+   "cash_amount": 14.14,
+   "period_id": "sumup-restaurant-514#19",
+   "source_file": "Tagesabschlussbericht-2026-05-20_2026-05-21.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #514 · 19 % · 20.05.2026"
+  },
+  {
+   "id": "tx_njve3k_25",
+   "date": "2026-05-19",
+   "platform": "SumUp",
+   "cash_amount": 11.5,
+   "period_id": "sumup-foodtruck-5#7",
+   "source_file": "Tagesabschlussbericht-2026-05-19_2026-05-20.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #5 · 7 % · 19.05.2026"
+  },
+  {
+   "id": "tx_t8v7o1_28",
+   "date": "2026-05-19",
+   "platform": "SumUp",
+   "cash_amount": 4.79,
+   "period_id": "sumup-restaurant-513#0",
+   "source_file": "Tagesabschlussbericht-2026-05-19_2026-05-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #513 · 0 % (Trinkgeld) · 19.05.2026"
+  },
+  {
+   "id": "tx_t8v7o8_28",
+   "date": "2026-05-19",
+   "platform": "SumUp",
+   "cash_amount": 92.2,
+   "period_id": "sumup-restaurant-513#7",
+   "source_file": "Tagesabschlussbericht-2026-05-19_2026-05-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #513 · 7 % · 19.05.2026"
+  },
+  {
+   "id": "tx_1i9iy1z_29",
+   "date": "2026-05-19",
+   "platform": "SumUp",
+   "cash_amount": 13.92,
+   "period_id": "sumup-restaurant-513#19",
+   "source_file": "Tagesabschlussbericht-2026-05-19_2026-05-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #513 · 19 % · 19.05.2026"
+  },
+  {
+   "id": "tx_t8v6xc_28",
+   "date": "2026-05-18",
+   "platform": "SumUp",
+   "cash_amount": 4.16,
+   "period_id": "sumup-restaurant-512#0",
+   "source_file": "Tagesabschlussbericht-2026-05-18_2026-05-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #512 · 0 % (Trinkgeld) · 18.05.2026"
+  },
+  {
+   "id": "tx_t8v6xj_28",
+   "date": "2026-05-18",
+   "platform": "SumUp",
+   "cash_amount": 67.25,
+   "period_id": "sumup-restaurant-512#7",
+   "source_file": "Tagesabschlussbericht-2026-05-18_2026-05-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #512 · 7 % · 18.05.2026"
+  },
+  {
+   "id": "tx_1i9ib2g_29",
+   "date": "2026-05-18",
+   "platform": "SumUp",
+   "cash_amount": 19.55,
+   "period_id": "sumup-restaurant-512#19",
+   "source_file": "Tagesabschlussbericht-2026-05-18_2026-05-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #512 · 19 % · 18.05.2026"
+  },
+  {
+   "id": "tx_t8v66n_28",
+   "date": "2026-05-17",
+   "platform": "SumUp",
+   "cash_amount": 14.27,
+   "period_id": "sumup-restaurant-511#0",
+   "source_file": "Tagesabschlussbericht-2026-05-17_2026-05-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #511 · 0 % (Trinkgeld) · 17.05.2026"
+  },
+  {
+   "id": "tx_t8v66u_28",
+   "date": "2026-05-17",
+   "platform": "SumUp",
+   "cash_amount": 235.81,
+   "period_id": "sumup-restaurant-511#7",
+   "source_file": "Tagesabschlussbericht-2026-05-17_2026-05-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #511 · 7 % · 17.05.2026"
+  },
+  {
+   "id": "tx_1i9ho2x_29",
+   "date": "2026-05-17",
+   "platform": "SumUp",
+   "cash_amount": 58.32,
+   "period_id": "sumup-restaurant-511#19",
+   "source_file": "Tagesabschlussbericht-2026-05-17_2026-05-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #511 · 19 % · 17.05.2026"
+  },
+  {
+   "id": "tx_t8v5fy_28",
+   "date": "2026-05-16",
+   "platform": "SumUp",
+   "cash_amount": 0.84,
+   "period_id": "sumup-restaurant-510#0",
+   "source_file": "Tagesabschlussbericht-2026-05-16_2026-05-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #510 · 0 % (Trinkgeld) · 16.05.2026"
+  },
+  {
+   "id": "tx_t8v5g5_28",
+   "date": "2026-05-16",
+   "platform": "SumUp",
+   "cash_amount": 17.36,
+   "period_id": "sumup-restaurant-510#7",
+   "source_file": "Tagesabschlussbericht-2026-05-16_2026-05-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #510 · 7 % · 16.05.2026"
+  },
+  {
+   "id": "tx_1i9h13e_29",
+   "date": "2026-05-16",
+   "platform": "SumUp",
+   "cash_amount": 4.7,
+   "period_id": "sumup-restaurant-510#19",
+   "source_file": "Tagesabschlussbericht-2026-05-16_2026-05-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #510 · 19 % · 16.05.2026"
+  },
+  {
+   "id": "tx_t8up4o_28",
+   "date": "2026-05-15",
+   "platform": "SumUp",
+   "cash_amount": 4.2,
+   "period_id": "sumup-restaurant-509#0",
+   "source_file": "Tagesabschlussbericht-2026-05-15_2026-05-16.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #509 · 0 % (Trinkgeld) · 15.05.2026"
+  },
+  {
+   "id": "tx_t8up4v_28",
+   "date": "2026-05-15",
+   "platform": "SumUp",
+   "cash_amount": 75.63,
+   "period_id": "sumup-restaurant-509#7",
+   "source_file": "Tagesabschlussbericht-2026-05-15_2026-05-16.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #509 · 7 % · 15.05.2026"
+  },
+  {
+   "id": "tx_1i92zds_29",
+   "date": "2026-05-15",
+   "platform": "SumUp",
+   "cash_amount": 17.47,
+   "period_id": "sumup-restaurant-509#19",
+   "source_file": "Tagesabschlussbericht-2026-05-15_2026-05-16.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #509 · 19 % · 15.05.2026"
+  },
+  {
+   "id": "tx_t8uodz_28",
+   "date": "2026-05-14",
+   "platform": "SumUp",
+   "cash_amount": 17.46,
+   "period_id": "sumup-restaurant-508#0",
+   "source_file": "Tagesabschlussbericht-2026-05-14_2026-05-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #508 · 0 % (Trinkgeld) · 14.05.2026"
+  },
+  {
+   "id": "tx_t8uoe6_28",
+   "date": "2026-05-14",
+   "platform": "SumUp",
+   "cash_amount": 278.65,
+   "period_id": "sumup-restaurant-508#7",
+   "source_file": "Tagesabschlussbericht-2026-05-14_2026-05-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #508 · 7 % · 14.05.2026"
+  },
+  {
+   "id": "tx_1i92ce9_29",
+   "date": "2026-05-14",
+   "platform": "SumUp",
+   "cash_amount": 44.89,
+   "period_id": "sumup-restaurant-508#19",
+   "source_file": "Tagesabschlussbericht-2026-05-14_2026-05-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #508 · 19 % · 14.05.2026"
+  },
+  {
+   "id": "tx_t8unna_28",
+   "date": "2026-05-13",
+   "platform": "SumUp",
+   "cash_amount": 3.92,
+   "period_id": "sumup-restaurant-507#0",
+   "source_file": "Tagesabschlussbericht-2026-05-13_2026-05-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #507 · 0 % (Trinkgeld) · 13.05.2026"
+  },
+  {
+   "id": "tx_t8unnh_28",
+   "date": "2026-05-13",
+   "platform": "SumUp",
+   "cash_amount": 48.16,
+   "period_id": "sumup-restaurant-507#7",
+   "source_file": "Tagesabschlussbericht-2026-05-13_2026-05-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #507 · 7 % · 13.05.2026"
+  },
+  {
+   "id": "tx_1i91peq_29",
+   "date": "2026-05-13",
+   "platform": "SumUp",
+   "cash_amount": 9.52,
+   "period_id": "sumup-restaurant-507#19",
+   "source_file": "Tagesabschlussbericht-2026-05-13_2026-05-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #507 · 19 % · 13.05.2026"
+  },
+  {
+   "id": "tx_njvdcv_25",
+   "date": "2026-05-12",
+   "platform": "SumUp",
+   "cash_amount": 100.5,
+   "period_id": "sumup-foodtruck-4#7",
+   "source_file": "Tagesabschlussbericht-2026-05-12_2026-05-13.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #4 · 7 % · 12.05.2026"
+  },
+  {
+   "id": "tx_t8umwl_28",
+   "date": "2026-05-12",
+   "platform": "SumUp",
+   "cash_amount": 1.79,
+   "period_id": "sumup-restaurant-506#0",
+   "source_file": "Tagesabschlussbericht-2026-05-12_2026-05-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #506 · 0 % (Trinkgeld) · 12.05.2026"
+  },
+  {
+   "id": "tx_t8umws_28",
+   "date": "2026-05-12",
+   "platform": "SumUp",
+   "cash_amount": 30.28,
+   "period_id": "sumup-restaurant-506#7",
+   "source_file": "Tagesabschlussbericht-2026-05-12_2026-05-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #506 · 7 % · 12.05.2026"
+  },
+  {
+   "id": "tx_1i912f7_29",
+   "date": "2026-05-12",
+   "platform": "SumUp",
+   "cash_amount": 3.43,
+   "period_id": "sumup-restaurant-506#19",
+   "source_file": "Tagesabschlussbericht-2026-05-12_2026-05-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #506 · 19 % · 12.05.2026"
+  },
+  {
+   "id": "tx_t8um5w_28",
+   "date": "2026-05-11",
+   "platform": "SumUp",
+   "cash_amount": 2.89,
+   "period_id": "sumup-restaurant-505#0",
+   "source_file": "Tagesabschlussbericht-2026-05-11_2026-05-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #505 · 0 % (Trinkgeld) · 11.05.2026"
+  },
+  {
+   "id": "tx_t8um63_28",
+   "date": "2026-05-11",
+   "platform": "SumUp",
+   "cash_amount": 124.72,
+   "period_id": "sumup-restaurant-505#7",
+   "source_file": "Tagesabschlussbericht-2026-05-11_2026-05-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #505 · 7 % · 11.05.2026"
+  },
+  {
+   "id": "tx_1i90ffo_29",
+   "date": "2026-05-11",
+   "platform": "SumUp",
+   "cash_amount": 23.99,
+   "period_id": "sumup-restaurant-505#19",
+   "source_file": "Tagesabschlussbericht-2026-05-11_2026-05-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #505 · 19 % · 11.05.2026"
+  },
+  {
+   "id": "tx_t8ulf7_28",
+   "date": "2026-05-10",
+   "platform": "SumUp",
+   "cash_amount": 14.7,
+   "period_id": "sumup-restaurant-504#0",
+   "source_file": "Tagesabschlussbericht-2026-05-10_2026-05-11.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #504 · 0 % (Trinkgeld) · 10.05.2026"
+  },
+  {
+   "id": "tx_t8ulfe_28",
+   "date": "2026-05-10",
+   "platform": "SumUp",
+   "cash_amount": 254.89,
+   "period_id": "sumup-restaurant-504#7",
+   "source_file": "Tagesabschlussbericht-2026-05-10_2026-05-11.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #504 · 7 % · 10.05.2026"
+  },
+  {
+   "id": "tx_1i8zsg5_29",
+   "date": "2026-05-10",
+   "platform": "SumUp",
+   "cash_amount": 27.53,
+   "period_id": "sumup-restaurant-504#19",
+   "source_file": "Tagesabschlussbericht-2026-05-10_2026-05-11.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #504 · 19 % · 10.05.2026"
+  },
+  {
+   "id": "tx_njvclz_25",
+   "date": "2026-05-09",
+   "platform": "SumUp",
+   "cash_amount": 0.36,
+   "period_id": "sumup-foodtruck-3#0",
+   "source_file": "Tagesabschlussbericht-2026-05-09_2026-05-10.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #3 · 0 % (Trinkgeld) · 09.05.2026"
+  },
+  {
+   "id": "tx_njvcm6_25",
+   "date": "2026-05-09",
+   "platform": "SumUp",
+   "cash_amount": 467.64,
+   "period_id": "sumup-foodtruck-3#7",
+   "source_file": "Tagesabschlussbericht-2026-05-09_2026-05-10.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #3 · 7 % · 09.05.2026"
+  },
+  {
+   "id": "tx_t8ukoi_28",
+   "date": "2026-05-09",
+   "platform": "SumUp",
+   "cash_amount": 0.38,
+   "period_id": "sumup-restaurant-503#0",
+   "source_file": "Tagesabschlussbericht-2026-05-09_2026-05-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #503 · 0 % (Trinkgeld) · 09.05.2026"
+  },
+  {
+   "id": "tx_t8ukop_28",
+   "date": "2026-05-09",
+   "platform": "SumUp",
+   "cash_amount": 14.55,
+   "period_id": "sumup-restaurant-503#7",
+   "source_file": "Tagesabschlussbericht-2026-05-09_2026-05-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #503 · 7 % · 09.05.2026"
+  },
+  {
+   "id": "tx_1i8z5gm_29",
+   "date": "2026-05-09",
+   "platform": "SumUp",
+   "cash_amount": 1.97,
+   "period_id": "sumup-restaurant-503#19",
+   "source_file": "Tagesabschlussbericht-2026-05-09_2026-05-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #503 · 19 % · 09.05.2026"
+  },
+  {
+   "id": "tx_t8ujxt_28",
+   "date": "2026-05-08",
+   "platform": "SumUp",
+   "cash_amount": 6.16,
+   "period_id": "sumup-restaurant-502#0",
+   "source_file": "Tagesabschlussbericht-2026-05-08_2026-05-09.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #502 · 0 % (Trinkgeld) · 08.05.2026"
+  },
+  {
+   "id": "tx_t8ujy0_28",
+   "date": "2026-05-08",
+   "platform": "SumUp",
+   "cash_amount": 116.27,
+   "period_id": "sumup-restaurant-502#7",
+   "source_file": "Tagesabschlussbericht-2026-05-08_2026-05-09.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #502 · 7 % · 08.05.2026"
+  },
+  {
+   "id": "tx_1i8yih3_29",
+   "date": "2026-05-08",
+   "platform": "SumUp",
+   "cash_amount": 24.06,
+   "period_id": "sumup-restaurant-502#19",
+   "source_file": "Tagesabschlussbericht-2026-05-08_2026-05-09.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #502 · 19 % · 08.05.2026"
+  },
+  {
+   "id": "tx_t8uj74_28",
+   "date": "2026-05-07",
+   "platform": "SumUp",
+   "cash_amount": 0.93,
+   "period_id": "sumup-restaurant-501#0",
+   "source_file": "Tagesabschlussbericht-2026-05-07_2026-05-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #501 · 0 % (Trinkgeld) · 07.05.2026"
+  },
+  {
+   "id": "tx_t8uj7b_28",
+   "date": "2026-05-07",
+   "platform": "SumUp",
+   "cash_amount": 31.4,
+   "period_id": "sumup-restaurant-501#7",
+   "source_file": "Tagesabschlussbericht-2026-05-07_2026-05-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #501 · 7 % · 07.05.2026"
+  },
+  {
+   "id": "tx_1i8xvhk_29",
+   "date": "2026-05-07",
+   "platform": "SumUp",
+   "cash_amount": 7.06,
+   "period_id": "sumup-restaurant-501#19",
+   "source_file": "Tagesabschlussbericht-2026-05-07_2026-05-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #501 · 19 % · 07.05.2026"
+  },
+  {
+   "id": "tx_t8uigf_28",
+   "date": "2026-05-06",
+   "platform": "SumUp",
+   "cash_amount": 4.21,
+   "period_id": "sumup-restaurant-500#0",
+   "source_file": "Tagesabschlussbericht-2026-05-06_2026-05-07.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #500 · 0 % (Trinkgeld) · 06.05.2026"
+  },
+  {
+   "id": "tx_t8uigm_28",
+   "date": "2026-05-06",
+   "platform": "SumUp",
+   "cash_amount": 122.3,
+   "period_id": "sumup-restaurant-500#7",
+   "source_file": "Tagesabschlussbericht-2026-05-06_2026-05-07.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #500 · 7 % · 06.05.2026"
+  },
+  {
+   "id": "tx_1i8x8i1_29",
+   "date": "2026-05-06",
+   "platform": "SumUp",
+   "cash_amount": 26.29,
+   "period_id": "sumup-restaurant-500#19",
+   "source_file": "Tagesabschlussbericht-2026-05-06_2026-05-07.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #500 · 19 % · 06.05.2026"
+  },
+  {
+   "id": "tx_njvbvh_25",
+   "date": "2026-05-05",
+   "platform": "SumUp",
+   "cash_amount": 32.5,
+   "period_id": "sumup-foodtruck-2#7",
+   "source_file": "Tagesabschlussbericht-2026-05-05_2026-05-06.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #2 · 7 % · 05.05.2026"
+  },
+  {
+   "id": "tx_njvb4s_25",
+   "date": "2026-05-04",
+   "platform": "SumUp",
+   "cash_amount": 57.86,
+   "period_id": "sumup-foodtruck-1#7",
+   "source_file": "Tagesabschlussbericht-2026-05-04_2026-05-05.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #1 · 7 % · 04.05.2026"
+  },
+  {
+   "id": "tx_jsu19f_26",
+   "date": "2026-05-04",
+   "platform": "SumUp",
+   "cash_amount": 4.64,
+   "period_id": "sumup-foodtruck-1#19",
+   "source_file": "Tagesabschlussbericht-2026-05-04_2026-05-05.pdf",
+   "note": "SumUp Foodtruck Tagesabschluss #1 · 19 % · 04.05.2026"
+  },
+  {
+   "id": "tx_t8gmod_28",
+   "date": "2026-05-04",
+   "platform": "SumUp",
+   "cash_amount": 2.86,
+   "period_id": "sumup-restaurant-498#0",
+   "source_file": "Tagesabschlussbericht-2026-05-04_2026-05-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #498 · 0 % (Trinkgeld) · 04.05.2026"
+  },
+  {
+   "id": "tx_t8gmok_28",
+   "date": "2026-05-04",
+   "platform": "SumUp",
+   "cash_amount": 95.42,
+   "period_id": "sumup-restaurant-498#7",
+   "source_file": "Tagesabschlussbericht-2026-05-04_2026-05-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #498 · 7 % · 04.05.2026"
+  },
+  {
+   "id": "tx_1hwyvcb_29",
+   "date": "2026-05-04",
+   "platform": "SumUp",
+   "cash_amount": 15.82,
+   "period_id": "sumup-restaurant-498#19",
+   "source_file": "Tagesabschlussbericht-2026-05-04_2026-05-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #498 · 19 % · 04.05.2026"
+  },
+  {
+   "id": "tx_t8glxo_28",
+   "date": "2026-05-03",
+   "platform": "SumUp",
+   "cash_amount": 8.98,
+   "period_id": "sumup-restaurant-497#0",
+   "source_file": "Tagesabschlussbericht-2026-05-03_2026-05-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #497 · 0 % (Trinkgeld) · 03.05.2026"
+  },
+  {
+   "id": "tx_t8glxv_28",
+   "date": "2026-05-03",
+   "platform": "SumUp",
+   "cash_amount": 99.8,
+   "period_id": "sumup-restaurant-497#7",
+   "source_file": "Tagesabschlussbericht-2026-05-03_2026-05-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #497 · 7 % · 03.05.2026"
+  },
+  {
+   "id": "tx_1hwy8cs_29",
+   "date": "2026-05-03",
+   "platform": "SumUp",
+   "cash_amount": 16.12,
+   "period_id": "sumup-restaurant-497#19",
+   "source_file": "Tagesabschlussbericht-2026-05-03_2026-05-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #497 · 19 % · 03.05.2026"
+  },
+  {
+   "id": "tx_t8gl6z_28",
+   "date": "2026-05-02",
+   "platform": "SumUp",
+   "cash_amount": 8.49,
+   "period_id": "sumup-restaurant-496#0",
+   "source_file": "Tagesabschlussbericht-2026-05-02_2026-05-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #496 · 0 % (Trinkgeld) · 02.05.2026"
+  },
+  {
+   "id": "tx_t8gl76_28",
+   "date": "2026-05-02",
+   "platform": "SumUp",
+   "cash_amount": 120.96,
+   "period_id": "sumup-restaurant-496#7",
+   "source_file": "Tagesabschlussbericht-2026-05-02_2026-05-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #496 · 7 % · 02.05.2026"
+  },
+  {
+   "id": "tx_1hwxld9_29",
+   "date": "2026-05-02",
+   "platform": "SumUp",
+   "cash_amount": 21.95,
+   "period_id": "sumup-restaurant-496#19",
+   "source_file": "Tagesabschlussbericht-2026-05-02_2026-05-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #496 · 19 % · 02.05.2026"
+  },
+  {
+   "id": "tx_t8gkga_28",
+   "date": "2026-05-01",
+   "platform": "SumUp",
+   "cash_amount": 9.04,
+   "period_id": "sumup-restaurant-495#0",
+   "source_file": "Tagesabschlussbericht-2026-05-01_2026-05-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #495 · 0 % (Trinkgeld) · 01.05.2026"
+  },
+  {
+   "id": "tx_t8gkgh_28",
+   "date": "2026-05-01",
+   "platform": "SumUp",
+   "cash_amount": 88.64,
+   "period_id": "sumup-restaurant-495#7",
+   "source_file": "Tagesabschlussbericht-2026-05-01_2026-05-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #495 · 7 % · 01.05.2026"
+  },
+  {
+   "id": "tx_1hwwydq_29",
+   "date": "2026-05-01",
+   "platform": "SumUp",
+   "cash_amount": 24.98,
+   "period_id": "sumup-restaurant-495#19",
+   "source_file": "Tagesabschlussbericht-2026-05-01_2026-05-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #495 · 19 % · 01.05.2026"
+  },
+  {
+   "id": "tx_t8gi87_28",
+   "date": "2026-04-28",
+   "platform": "SumUp",
+   "cash_amount": 3.14,
+   "period_id": "sumup-restaurant-492#0",
+   "source_file": "Tagesabschlussbericht-2026-04-28_2026-04-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #492 · 0 % (Trinkgeld) · 28.04.2026"
+  },
+  {
+   "id": "tx_t8gi8e_28",
+   "date": "2026-04-28",
+   "platform": "SumUp",
+   "cash_amount": 107.03,
+   "period_id": "sumup-restaurant-492#7",
+   "source_file": "Tagesabschlussbericht-2026-04-28_2026-04-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #492 · 7 % · 28.04.2026"
+  },
+  {
+   "id": "tx_1hwv1f5_29",
+   "date": "2026-04-28",
+   "platform": "SumUp",
+   "cash_amount": 8.83,
+   "period_id": "sumup-restaurant-492#19",
+   "source_file": "Tagesabschlussbericht-2026-04-28_2026-04-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #492 · 19 % · 28.04.2026"
+  },
+  {
+   "id": "tx_t8ghhi_28",
+   "date": "2026-04-27",
+   "platform": "SumUp",
+   "cash_amount": 6.17,
+   "period_id": "sumup-restaurant-491#0",
+   "source_file": "Tagesabschlussbericht-2026-04-27_2026-04-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #491 · 0 % (Trinkgeld) · 27.04.2026"
+  },
+  {
+   "id": "tx_t8ghhp_28",
+   "date": "2026-04-27",
+   "platform": "SumUp",
+   "cash_amount": 89.28,
+   "period_id": "sumup-restaurant-491#7",
+   "source_file": "Tagesabschlussbericht-2026-04-27_2026-04-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #491 · 7 % · 27.04.2026"
+  },
+  {
+   "id": "tx_1hwuefm_29",
+   "date": "2026-04-27",
+   "platform": "SumUp",
+   "cash_amount": 19.45,
+   "period_id": "sumup-restaurant-491#19",
+   "source_file": "Tagesabschlussbericht-2026-04-27_2026-04-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #491 · 19 % · 27.04.2026"
+  },
+  {
+   "id": "tx_t8g0fj_28",
+   "date": "2026-04-25",
+   "platform": "SumUp",
+   "cash_amount": 14.35,
+   "period_id": "sumup-restaurant-489#0",
+   "source_file": "Tagesabschlussbericht-2026-04-25_2026-04-26.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #489 · 0 % (Trinkgeld) · 25.04.2026"
+  },
+  {
+   "id": "tx_t8g0fq_28",
+   "date": "2026-04-25",
+   "platform": "SumUp",
+   "cash_amount": 446.12,
+   "period_id": "sumup-restaurant-489#7",
+   "source_file": "Tagesabschlussbericht-2026-04-25_2026-04-26.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #489 · 7 % · 25.04.2026"
+  },
+  {
+   "id": "tx_1hwfpqh_29",
+   "date": "2026-04-25",
+   "platform": "SumUp",
+   "cash_amount": 25.43,
+   "period_id": "sumup-restaurant-489#19",
+   "source_file": "Tagesabschlussbericht-2026-04-25_2026-04-26.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #489 · 19 % · 25.04.2026"
+  },
+  {
+   "id": "tx_t8fzou_28",
+   "date": "2026-04-24",
+   "platform": "SumUp",
+   "cash_amount": 10.58,
+   "period_id": "sumup-restaurant-488#0",
+   "source_file": "Tagesabschlussbericht-2026-04-24_2026-04-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #488 · 0 % (Trinkgeld) · 24.04.2026"
+  },
+  {
+   "id": "tx_t8fzp1_28",
+   "date": "2026-04-24",
+   "platform": "SumUp",
+   "cash_amount": 364.89,
+   "period_id": "sumup-restaurant-488#7",
+   "source_file": "Tagesabschlussbericht-2026-04-24_2026-04-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #488 · 7 % · 24.04.2026"
+  },
+  {
+   "id": "tx_1hwf2qy_29",
+   "date": "2026-04-24",
+   "platform": "SumUp",
+   "cash_amount": 41.23,
+   "period_id": "sumup-restaurant-488#19",
+   "source_file": "Tagesabschlussbericht-2026-04-24_2026-04-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #488 · 19 % · 24.04.2026"
+  },
+  {
+   "id": "tx_t8fyy5_28",
+   "date": "2026-04-23",
+   "platform": "SumUp",
+   "cash_amount": 2.98,
+   "period_id": "sumup-restaurant-487#0",
+   "source_file": "Tagesabschlussbericht-2026-04-23_2026-04-24.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #487 · 0 % (Trinkgeld) · 23.04.2026"
+  },
+  {
+   "id": "tx_t8fyyc_28",
+   "date": "2026-04-23",
+   "platform": "SumUp",
+   "cash_amount": 56.65,
+   "period_id": "sumup-restaurant-487#7",
+   "source_file": "Tagesabschlussbericht-2026-04-23_2026-04-24.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #487 · 7 % · 23.04.2026"
+  },
+  {
+   "id": "tx_1hwefrf_29",
+   "date": "2026-04-23",
+   "platform": "SumUp",
+   "cash_amount": 15.17,
+   "period_id": "sumup-restaurant-487#19",
+   "source_file": "Tagesabschlussbericht-2026-04-23_2026-04-24.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #487 · 19 % · 23.04.2026"
+  },
+  {
+   "id": "tx_t8fy7g_28",
+   "date": "2026-04-22",
+   "platform": "SumUp",
+   "cash_amount": 1.37,
+   "period_id": "sumup-restaurant-486#0",
+   "source_file": "Tagesabschlussbericht-2026-04-22_2026-04-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #486 · 0 % (Trinkgeld) · 22.04.2026"
+  },
+  {
+   "id": "tx_t8fy7n_28",
+   "date": "2026-04-22",
+   "platform": "SumUp",
+   "cash_amount": 63.14,
+   "period_id": "sumup-restaurant-486#7",
+   "source_file": "Tagesabschlussbericht-2026-04-22_2026-04-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #486 · 7 % · 22.04.2026"
+  },
+  {
+   "id": "tx_1hwdsrw_29",
+   "date": "2026-04-22",
+   "platform": "SumUp",
+   "cash_amount": 4.49,
+   "period_id": "sumup-restaurant-486#19",
+   "source_file": "Tagesabschlussbericht-2026-04-22_2026-04-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #486 · 19 % · 22.04.2026"
+  },
+  {
+   "id": "tx_t8fxgr_28",
+   "date": "2026-04-21",
+   "platform": "SumUp",
+   "cash_amount": 4.78,
+   "period_id": "sumup-restaurant-485#0",
+   "source_file": "Tagesabschlussbericht-2026-04-21_2026-04-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #485 · 0 % (Trinkgeld) · 21.04.2026"
+  },
+  {
+   "id": "tx_t8fxgy_28",
+   "date": "2026-04-21",
+   "platform": "SumUp",
+   "cash_amount": 128.09,
+   "period_id": "sumup-restaurant-485#7",
+   "source_file": "Tagesabschlussbericht-2026-04-21_2026-04-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #485 · 7 % · 21.04.2026"
+  },
+  {
+   "id": "tx_1hwd5sd_29",
+   "date": "2026-04-21",
+   "platform": "SumUp",
+   "cash_amount": 15.23,
+   "period_id": "sumup-restaurant-485#19",
+   "source_file": "Tagesabschlussbericht-2026-04-21_2026-04-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #485 · 19 % · 21.04.2026"
+  },
+  {
+   "id": "tx_t8fvzd_28",
+   "date": "2026-04-19",
+   "platform": "SumUp",
+   "cash_amount": 5.61,
+   "period_id": "sumup-restaurant-483#0",
+   "source_file": "Tagesabschlussbericht-2026-04-19_2026-04-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #483 · 0 % (Trinkgeld) · 19.04.2026"
+  },
+  {
+   "id": "tx_t8fvzk_28",
+   "date": "2026-04-19",
+   "platform": "SumUp",
+   "cash_amount": 312.23,
+   "period_id": "sumup-restaurant-483#7",
+   "source_file": "Tagesabschlussbericht-2026-04-19_2026-04-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #483 · 7 % · 19.04.2026"
+  },
+  {
+   "id": "tx_1hwbvtb_29",
+   "date": "2026-04-19",
+   "platform": "SumUp",
+   "cash_amount": 29.61,
+   "period_id": "sumup-restaurant-483#19",
+   "source_file": "Tagesabschlussbericht-2026-04-19_2026-04-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #483 · 19 % · 19.04.2026"
+  },
+  {
+   "id": "tx_t8fv8o_28",
+   "date": "2026-04-18",
+   "platform": "SumUp",
+   "cash_amount": 5.42,
+   "period_id": "sumup-restaurant-482#0",
+   "source_file": "Tagesabschlussbericht-2026-04-18_2026-04-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #482 · 0 % (Trinkgeld) · 18.04.2026"
+  },
+  {
+   "id": "tx_t8fv8v_28",
+   "date": "2026-04-18",
+   "platform": "SumUp",
+   "cash_amount": 78.62,
+   "period_id": "sumup-restaurant-482#7",
+   "source_file": "Tagesabschlussbericht-2026-04-18_2026-04-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #482 · 7 % · 18.04.2026"
+  },
+  {
+   "id": "tx_1hwb8ts_29",
+   "date": "2026-04-18",
+   "platform": "SumUp",
+   "cash_amount": 19.75,
+   "period_id": "sumup-restaurant-482#19",
+   "source_file": "Tagesabschlussbericht-2026-04-18_2026-04-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #482 · 19 % · 18.04.2026"
+  },
+  {
+   "id": "tx_t8fuhz_28",
+   "date": "2026-04-17",
+   "platform": "SumUp",
+   "cash_amount": 5.02,
+   "period_id": "sumup-restaurant-481#0",
+   "source_file": "Tagesabschlussbericht-2026-04-17_2026-04-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #481 · 0 % (Trinkgeld) · 17.04.2026"
+  },
+  {
+   "id": "tx_t8fui6_28",
+   "date": "2026-04-17",
+   "platform": "SumUp",
+   "cash_amount": 61.45,
+   "period_id": "sumup-restaurant-481#7",
+   "source_file": "Tagesabschlussbericht-2026-04-17_2026-04-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #481 · 7 % · 17.04.2026"
+  },
+  {
+   "id": "tx_1hwalu9_29",
+   "date": "2026-04-17",
+   "platform": "SumUp",
+   "cash_amount": 13.24,
+   "period_id": "sumup-restaurant-481#19",
+   "source_file": "Tagesabschlussbericht-2026-04-17_2026-04-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #481 · 19 % · 17.04.2026"
+  },
+  {
+   "id": "tx_t8ftra_28",
+   "date": "2026-04-16",
+   "platform": "SumUp",
+   "cash_amount": 1.28,
+   "period_id": "sumup-restaurant-480#0",
+   "source_file": "Tagesabschlussbericht-2026-04-16_2026-04-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #480 · 0 % (Trinkgeld) · 16.04.2026"
+  },
+  {
+   "id": "tx_t8ftrh_28",
+   "date": "2026-04-16",
+   "platform": "SumUp",
+   "cash_amount": 59.66,
+   "period_id": "sumup-restaurant-480#7",
+   "source_file": "Tagesabschlussbericht-2026-04-16_2026-04-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #480 · 7 % · 16.04.2026"
+  },
+  {
+   "id": "tx_1hw9yuq_29",
+   "date": "2026-04-16",
+   "platform": "SumUp",
+   "cash_amount": 5.53,
+   "period_id": "sumup-restaurant-480#19",
+   "source_file": "Tagesabschlussbericht-2026-04-16_2026-04-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #480 · 19 % · 16.04.2026"
+  },
+  {
+   "id": "tx_t8fcpb_28",
+   "date": "2026-04-14",
+   "platform": "SumUp",
+   "cash_amount": 1.72,
+   "period_id": "sumup-restaurant-478#0",
+   "source_file": "Tagesabschlussbericht-2026-04-14_2026-04-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #478 · 0 % (Trinkgeld) · 14.04.2026"
+  },
+  {
+   "id": "tx_t8fcpi_28",
+   "date": "2026-04-14",
+   "platform": "SumUp",
+   "cash_amount": 112.94,
+   "period_id": "sumup-restaurant-478#7",
+   "source_file": "Tagesabschlussbericht-2026-04-14_2026-04-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #478 · 7 % · 14.04.2026"
+  },
+  {
+   "id": "tx_1hvva5l_29",
+   "date": "2026-04-14",
+   "platform": "SumUp",
+   "cash_amount": 9.35,
+   "period_id": "sumup-restaurant-478#19",
+   "source_file": "Tagesabschlussbericht-2026-04-14_2026-04-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #478 · 19 % · 14.04.2026"
+  },
+  {
+   "id": "tx_t8fah8_28",
+   "date": "2026-04-11",
+   "platform": "SumUp",
+   "cash_amount": 1.41,
+   "period_id": "sumup-restaurant-475#0",
+   "source_file": "Tagesabschlussbericht-2026-04-11_2026-04-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #475 · 0 % (Trinkgeld) · 11.04.2026"
+  },
+  {
+   "id": "tx_t8fahf_28",
+   "date": "2026-04-11",
+   "platform": "SumUp",
+   "cash_amount": 22.43,
+   "period_id": "sumup-restaurant-475#7",
+   "source_file": "Tagesabschlussbericht-2026-04-11_2026-04-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #475 · 7 % · 11.04.2026"
+  },
+  {
+   "id": "tx_1hvtd70_29",
+   "date": "2026-04-11",
+   "platform": "SumUp",
+   "cash_amount": 4.66,
+   "period_id": "sumup-restaurant-475#19",
+   "source_file": "Tagesabschlussbericht-2026-04-11_2026-04-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #475 · 19 % · 11.04.2026"
+  },
+  {
+   "id": "tx_t8f9qj_28",
+   "date": "2026-04-10",
+   "platform": "SumUp",
+   "cash_amount": 7.72,
+   "period_id": "sumup-restaurant-474#0",
+   "source_file": "Tagesabschlussbericht-2026-04-10_2026-04-11.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #474 · 0 % (Trinkgeld) · 10.04.2026"
+  },
+  {
+   "id": "tx_t8f9qq_28",
+   "date": "2026-04-10",
+   "platform": "SumUp",
+   "cash_amount": 146.19,
+   "period_id": "sumup-restaurant-474#7",
+   "source_file": "Tagesabschlussbericht-2026-04-10_2026-04-11.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #474 · 7 % · 10.04.2026"
+  },
+  {
+   "id": "tx_1hvsq7h_29",
+   "date": "2026-04-10",
+   "platform": "SumUp",
+   "cash_amount": 24.29,
+   "period_id": "sumup-restaurant-474#19",
+   "source_file": "Tagesabschlussbericht-2026-04-10_2026-04-11.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #474 · 19 % · 10.04.2026"
+  },
+  {
+   "id": "tx_t8f8zu_28",
+   "date": "2026-04-09",
+   "platform": "SumUp",
+   "cash_amount": 6.78,
+   "period_id": "sumup-restaurant-473#0",
+   "source_file": "Tagesabschlussbericht-2026-04-09_2026-04-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #473 · 0 % (Trinkgeld) · 09.04.2026"
+  },
+  {
+   "id": "tx_t8f901_28",
+   "date": "2026-04-09",
+   "platform": "SumUp",
+   "cash_amount": 97.46,
+   "period_id": "sumup-restaurant-473#7",
+   "source_file": "Tagesabschlussbericht-2026-04-09_2026-04-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #473 · 7 % · 09.04.2026"
+  },
+  {
+   "id": "tx_1hvs37y_29",
+   "date": "2026-04-09",
+   "platform": "SumUp",
+   "cash_amount": 20.16,
+   "period_id": "sumup-restaurant-473#19",
+   "source_file": "Tagesabschlussbericht-2026-04-09_2026-04-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #473 · 19 % · 09.04.2026"
+  },
+  {
+   "id": "tx_t8f7ig_28",
+   "date": "2026-04-07",
+   "platform": "SumUp",
+   "cash_amount": 7.79,
+   "period_id": "sumup-restaurant-471#0",
+   "source_file": "Tagesabschlussbericht-2026-04-07_2026-04-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #471 · 0 % (Trinkgeld) · 07.04.2026"
+  },
+  {
+   "id": "tx_t8f7in_28",
+   "date": "2026-04-07",
+   "platform": "SumUp",
+   "cash_amount": 193.71,
+   "period_id": "sumup-restaurant-471#7",
+   "source_file": "Tagesabschlussbericht-2026-04-07_2026-04-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #471 · 7 % · 07.04.2026"
+  },
+  {
+   "id": "tx_1hvqt8w_29",
+   "date": "2026-04-07",
+   "platform": "SumUp",
+   "cash_amount": 36.3,
+   "period_id": "sumup-restaurant-471#19",
+   "source_file": "Tagesabschlussbericht-2026-04-07_2026-04-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #471 · 19 % · 07.04.2026"
+  },
+  {
+   "id": "tx_t8eqgh_28",
+   "date": "2026-04-05",
+   "platform": "SumUp",
+   "cash_amount": 2.37,
+   "period_id": "sumup-restaurant-469#0",
+   "source_file": "Tagesabschlussbericht-2026-04-05_2026-04-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #469 · 0 % (Trinkgeld) · 05.04.2026"
+  },
+  {
+   "id": "tx_t8eqgo_28",
+   "date": "2026-04-05",
+   "platform": "SumUp",
+   "cash_amount": 110.01,
+   "period_id": "sumup-restaurant-469#7",
+   "source_file": "Tagesabschlussbericht-2026-04-05_2026-04-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #469 · 7 % · 05.04.2026"
+  },
+  {
+   "id": "tx_1hvc4jr_29",
+   "date": "2026-04-05",
+   "platform": "SumUp",
+   "cash_amount": 13.82,
+   "period_id": "sumup-restaurant-469#19",
+   "source_file": "Tagesabschlussbericht-2026-04-05_2026-04-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #469 · 19 % · 05.04.2026"
+  },
+  {
+   "id": "tx_t8epps_28",
+   "date": "2026-04-04",
+   "platform": "SumUp",
+   "cash_amount": 0.95,
+   "period_id": "sumup-restaurant-468#0",
+   "source_file": "Tagesabschlussbericht-2026-04-04_2026-04-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #468 · 0 % (Trinkgeld) · 04.04.2026"
+  },
+  {
+   "id": "tx_t8eppz_28",
+   "date": "2026-04-04",
+   "platform": "SumUp",
+   "cash_amount": 16.34,
+   "period_id": "sumup-restaurant-468#7",
+   "source_file": "Tagesabschlussbericht-2026-04-04_2026-04-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #468 · 7 % · 04.04.2026"
+  },
+  {
+   "id": "tx_1hvbhk8_29",
+   "date": "2026-04-04",
+   "platform": "SumUp",
+   "cash_amount": 4.61,
+   "period_id": "sumup-restaurant-468#19",
+   "source_file": "Tagesabschlussbericht-2026-04-04_2026-04-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #468 · 19 % · 04.04.2026"
+  },
+  {
+   "id": "tx_t8eoz3_28",
+   "date": "2026-04-03",
+   "platform": "SumUp",
+   "cash_amount": 9.56,
+   "period_id": "sumup-restaurant-467#0",
+   "source_file": "Tagesabschlussbericht-2026-04-03_2026-04-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #467 · 0 % (Trinkgeld) · 03.04.2026"
+  },
+  {
+   "id": "tx_t8eoza_28",
+   "date": "2026-04-03",
+   "platform": "SumUp",
+   "cash_amount": 270.5,
+   "period_id": "sumup-restaurant-467#7",
+   "source_file": "Tagesabschlussbericht-2026-04-03_2026-04-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #467 · 7 % · 03.04.2026"
+  },
+  {
+   "id": "tx_1hvaukp_29",
+   "date": "2026-04-03",
+   "platform": "SumUp",
+   "cash_amount": 50.33,
+   "period_id": "sumup-restaurant-467#19",
+   "source_file": "Tagesabschlussbericht-2026-04-03_2026-04-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #467 · 19 % · 03.04.2026"
+  },
+  {
+   "id": "tx_t8eo8e_28",
+   "date": "2026-04-02",
+   "platform": "SumUp",
+   "cash_amount": 2.8,
+   "period_id": "sumup-restaurant-466#0",
+   "source_file": "Tagesabschlussbericht-2026-04-02_2026-04-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #466 · 0 % (Trinkgeld) · 02.04.2026"
+  },
+  {
+   "id": "tx_t8eo8l_28",
+   "date": "2026-04-02",
+   "platform": "SumUp",
+   "cash_amount": 91.54,
+   "period_id": "sumup-restaurant-466#7",
+   "source_file": "Tagesabschlussbericht-2026-04-02_2026-04-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #466 · 7 % · 02.04.2026"
+  },
+  {
+   "id": "tx_1hva7l6_29",
+   "date": "2026-04-02",
+   "platform": "SumUp",
+   "cash_amount": 17.67,
+   "period_id": "sumup-restaurant-466#19",
+   "source_file": "Tagesabschlussbericht-2026-04-02_2026-04-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #466 · 19 % · 02.04.2026"
+  },
+  {
+   "id": "tx_t8enhp_28",
+   "date": "2026-04-01",
+   "platform": "SumUp",
+   "cash_amount": 9,
+   "period_id": "sumup-restaurant-465#0",
+   "source_file": "Tagesabschlussbericht-2026-04-01_2026-04-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #465 · 0 % (Trinkgeld) · 01.04.2026"
+  },
+  {
+   "id": "tx_t8enhw_28",
+   "date": "2026-04-01",
+   "platform": "SumUp",
+   "cash_amount": 80.54,
+   "period_id": "sumup-restaurant-465#7",
+   "source_file": "Tagesabschlussbericht-2026-04-01_2026-04-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #465 · 7 % · 01.04.2026"
+  },
+  {
+   "id": "tx_1hv9kln_29",
+   "date": "2026-04-01",
+   "platform": "SumUp",
+   "cash_amount": 23.96,
+   "period_id": "sumup-restaurant-465#19",
+   "source_file": "Tagesabschlussbericht-2026-04-01_2026-04-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #465 · 19 % · 01.04.2026"
+  },
+  {
+   "id": "tx_t8emr0_28",
+   "date": "2026-03-31",
+   "platform": "SumUp",
+   "cash_amount": 1.96,
+   "period_id": "sumup-restaurant-464#0",
+   "source_file": "Tagesabschlussbericht-2026-03-31_2026-04-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #464 · 0 % (Trinkgeld) · 31.03.2026"
+  },
+  {
+   "id": "tx_t8emr7_28",
+   "date": "2026-03-31",
+   "platform": "SumUp",
+   "cash_amount": 73.74,
+   "period_id": "sumup-restaurant-464#7",
+   "source_file": "Tagesabschlussbericht-2026-03-31_2026-04-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #464 · 7 % · 31.03.2026"
+  },
+  {
+   "id": "tx_1hv8xm4_29",
+   "date": "2026-03-31",
+   "platform": "SumUp",
+   "cash_amount": 4.5,
+   "period_id": "sumup-restaurant-464#19",
+   "source_file": "Tagesabschlussbericht-2026-03-31_2026-04-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #464 · 19 % · 31.03.2026"
+  },
+  {
+   "id": "tx_t8em0b_28",
+   "date": "2026-03-30",
+   "platform": "SumUp",
+   "cash_amount": 10.12,
+   "period_id": "sumup-restaurant-463#0",
+   "source_file": "Tagesabschlussbericht-2026-03-30_2026-03-31.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #463 · 0 % (Trinkgeld) · 30.03.2026"
+  },
+  {
+   "id": "tx_t8em0i_28",
+   "date": "2026-03-30",
+   "platform": "SumUp",
+   "cash_amount": 446.15,
+   "period_id": "sumup-restaurant-463#7",
+   "source_file": "Tagesabschlussbericht-2026-03-30_2026-03-31.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #463 · 7 % · 30.03.2026"
+  },
+  {
+   "id": "tx_1hv8aml_29",
+   "date": "2026-03-30",
+   "platform": "SumUp",
+   "cash_amount": 109.43,
+   "period_id": "sumup-restaurant-463#19",
+   "source_file": "Tagesabschlussbericht-2026-03-30_2026-03-31.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #463 · 19 % · 30.03.2026"
+  },
+  {
+   "id": "tx_t8ekix_28",
+   "date": "2026-03-28",
+   "platform": "SumUp",
+   "cash_amount": 3.61,
+   "period_id": "sumup-restaurant-461#0",
+   "source_file": "Tagesabschlussbericht-2026-03-28_2026-03-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #461 · 0 % (Trinkgeld) · 28.03.2026"
+  },
+  {
+   "id": "tx_t8ekj4_28",
+   "date": "2026-03-28",
+   "platform": "SumUp",
+   "cash_amount": 46.09,
+   "period_id": "sumup-restaurant-461#7",
+   "source_file": "Tagesabschlussbericht-2026-03-28_2026-03-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #461 · 7 % · 28.03.2026"
+  },
+  {
+   "id": "tx_1hv70nj_29",
+   "date": "2026-03-28",
+   "platform": "SumUp",
+   "cash_amount": 9.69,
+   "period_id": "sumup-restaurant-461#19",
+   "source_file": "Tagesabschlussbericht-2026-03-28_2026-03-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #461 · 19 % · 28.03.2026"
+  },
+  {
+   "id": "tx_t8ejs8_28",
+   "date": "2026-03-27",
+   "platform": "SumUp",
+   "cash_amount": 8.56,
+   "period_id": "sumup-restaurant-460#0",
+   "source_file": "Tagesabschlussbericht-2026-03-27_2026-03-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #460 · 0 % (Trinkgeld) · 27.03.2026"
+  },
+  {
+   "id": "tx_t8ejsf_28",
+   "date": "2026-03-27",
+   "platform": "SumUp",
+   "cash_amount": 129.72,
+   "period_id": "sumup-restaurant-460#7",
+   "source_file": "Tagesabschlussbericht-2026-03-27_2026-03-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #460 · 7 % · 27.03.2026"
+  },
+  {
+   "id": "tx_1hv6do0_29",
+   "date": "2026-03-27",
+   "platform": "SumUp",
+   "cash_amount": 27.23,
+   "period_id": "sumup-restaurant-460#19",
+   "source_file": "Tagesabschlussbericht-2026-03-27_2026-03-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #460 · 19 % · 27.03.2026"
+  },
+  {
+   "id": "tx_t8e3gy_28",
+   "date": "2026-03-26",
+   "platform": "SumUp",
+   "cash_amount": 15.7,
+   "period_id": "sumup-restaurant-459#0",
+   "source_file": "Tagesabschlussbericht-2026-03-26_2026-03-27.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #459 · 0 % (Trinkgeld) · 26.03.2026"
+  },
+  {
+   "id": "tx_t8e3h5_28",
+   "date": "2026-03-26",
+   "platform": "SumUp",
+   "cash_amount": 227.2,
+   "period_id": "sumup-restaurant-459#7",
+   "source_file": "Tagesabschlussbericht-2026-03-26_2026-03-27.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #459 · 7 % · 26.03.2026"
+  },
+  {
+   "id": "tx_1husbye_29",
+   "date": "2026-03-26",
+   "platform": "SumUp",
+   "cash_amount": 45.8,
+   "period_id": "sumup-restaurant-459#19",
+   "source_file": "Tagesabschlussbericht-2026-03-26_2026-03-27.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #459 · 19 % · 26.03.2026"
+  },
+  {
+   "id": "tx_t8e2q9_28",
+   "date": "2026-03-25",
+   "platform": "SumUp",
+   "cash_amount": 9.26,
+   "period_id": "sumup-restaurant-458#0",
+   "source_file": "Tagesabschlussbericht-2026-03-25_2026-03-26.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #458 · 0 % (Trinkgeld) · 25.03.2026"
+  },
+  {
+   "id": "tx_t8e2qg_28",
+   "date": "2026-03-25",
+   "platform": "SumUp",
+   "cash_amount": 156.94,
+   "period_id": "sumup-restaurant-458#7",
+   "source_file": "Tagesabschlussbericht-2026-03-25_2026-03-26.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #458 · 7 % · 25.03.2026"
+  },
+  {
+   "id": "tx_1huroyv_29",
+   "date": "2026-03-25",
+   "platform": "SumUp",
+   "cash_amount": 33.49,
+   "period_id": "sumup-restaurant-458#19",
+   "source_file": "Tagesabschlussbericht-2026-03-25_2026-03-26.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #458 · 19 % · 25.03.2026"
+  },
+  {
+   "id": "tx_t8e1zk_28",
+   "date": "2026-03-24",
+   "platform": "SumUp",
+   "cash_amount": 4.14,
+   "period_id": "sumup-restaurant-457#0",
+   "source_file": "Tagesabschlussbericht-2026-03-24_2026-03-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #457 · 0 % (Trinkgeld) · 24.03.2026"
+  },
+  {
+   "id": "tx_t8e1zr_28",
+   "date": "2026-03-24",
+   "platform": "SumUp",
+   "cash_amount": 185.12,
+   "period_id": "sumup-restaurant-457#7",
+   "source_file": "Tagesabschlussbericht-2026-03-24_2026-03-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #457 · 7 % · 24.03.2026"
+  },
+  {
+   "id": "tx_1hur1zc_29",
+   "date": "2026-03-24",
+   "platform": "SumUp",
+   "cash_amount": 35.54,
+   "period_id": "sumup-restaurant-457#19",
+   "source_file": "Tagesabschlussbericht-2026-03-24_2026-03-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #457 · 19 % · 24.03.2026"
+  },
+  {
+   "id": "tx_t8e18v_28",
+   "date": "2026-03-23",
+   "platform": "SumUp",
+   "cash_amount": 10.15,
+   "period_id": "sumup-restaurant-456#0",
+   "source_file": "Tagesabschlussbericht-2026-03-23_2026-03-24.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #456 · 0 % (Trinkgeld) · 23.03.2026"
+  },
+  {
+   "id": "tx_t8e192_28",
+   "date": "2026-03-23",
+   "platform": "SumUp",
+   "cash_amount": 390.15,
+   "period_id": "sumup-restaurant-456#7",
+   "source_file": "Tagesabschlussbericht-2026-03-23_2026-03-24.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #456 · 7 % · 23.03.2026"
+  },
+  {
+   "id": "tx_1huqezt_29",
+   "date": "2026-03-23",
+   "platform": "SumUp",
+   "cash_amount": 52.7,
+   "period_id": "sumup-restaurant-456#19",
+   "source_file": "Tagesabschlussbericht-2026-03-23_2026-03-24.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #456 · 19 % · 23.03.2026"
+  },
+  {
+   "id": "tx_t8e0i6_28",
+   "date": "2026-03-22",
+   "platform": "SumUp",
+   "cash_amount": 21.66,
+   "period_id": "sumup-restaurant-455#0",
+   "source_file": "Tagesabschlussbericht-2026-03-22_2026-03-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #455 · 0 % (Trinkgeld) · 22.03.2026"
+  },
+  {
+   "id": "tx_t8e0id_28",
+   "date": "2026-03-22",
+   "platform": "SumUp",
+   "cash_amount": 421.11,
+   "period_id": "sumup-restaurant-455#7",
+   "source_file": "Tagesabschlussbericht-2026-03-22_2026-03-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #455 · 7 % · 22.03.2026"
+  },
+  {
+   "id": "tx_1hups0a_29",
+   "date": "2026-03-22",
+   "platform": "SumUp",
+   "cash_amount": 67.93,
+   "period_id": "sumup-restaurant-455#19",
+   "source_file": "Tagesabschlussbericht-2026-03-22_2026-03-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #455 · 19 % · 22.03.2026"
+  },
+  {
+   "id": "tx_t8dzrh_28",
+   "date": "2026-03-21",
+   "platform": "SumUp",
+   "cash_amount": 3.43,
+   "period_id": "sumup-restaurant-454#0",
+   "source_file": "Tagesabschlussbericht-2026-03-21_2026-03-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #454 · 0 % (Trinkgeld) · 21.03.2026"
+  },
+  {
+   "id": "tx_t8dzro_28",
+   "date": "2026-03-21",
+   "platform": "SumUp",
+   "cash_amount": 84.31,
+   "period_id": "sumup-restaurant-454#7",
+   "source_file": "Tagesabschlussbericht-2026-03-21_2026-03-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #454 · 7 % · 21.03.2026"
+  },
+  {
+   "id": "tx_1hup50r_29",
+   "date": "2026-03-21",
+   "platform": "SumUp",
+   "cash_amount": 11.05,
+   "period_id": "sumup-restaurant-454#19",
+   "source_file": "Tagesabschlussbericht-2026-03-21_2026-03-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #454 · 19 % · 21.03.2026"
+  },
+  {
+   "id": "tx_t8dz0s_28",
+   "date": "2026-03-20",
+   "platform": "SumUp",
+   "cash_amount": 8.57,
+   "period_id": "sumup-restaurant-453#0",
+   "source_file": "Tagesabschlussbericht-2026-03-20_2026-03-21.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #453 · 0 % (Trinkgeld) · 20.03.2026"
+  },
+  {
+   "id": "tx_t8dz0z_28",
+   "date": "2026-03-20",
+   "platform": "SumUp",
+   "cash_amount": 245.25,
+   "period_id": "sumup-restaurant-453#7",
+   "source_file": "Tagesabschlussbericht-2026-03-20_2026-03-21.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #453 · 7 % · 20.03.2026"
+  },
+  {
+   "id": "tx_1huoi18_29",
+   "date": "2026-03-20",
+   "platform": "SumUp",
+   "cash_amount": 44.95,
+   "period_id": "sumup-restaurant-453#19",
+   "source_file": "Tagesabschlussbericht-2026-03-20_2026-03-21.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #453 · 19 % · 20.03.2026"
+  },
+  {
+   "id": "tx_t8dya3_28",
+   "date": "2026-03-19",
+   "platform": "SumUp",
+   "cash_amount": 9.97,
+   "period_id": "sumup-restaurant-452#0",
+   "source_file": "Tagesabschlussbericht-2026-03-19_2026-03-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #452 · 0 % (Trinkgeld) · 19.03.2026"
+  },
+  {
+   "id": "tx_t8dyaa_28",
+   "date": "2026-03-19",
+   "platform": "SumUp",
+   "cash_amount": 278.48,
+   "period_id": "sumup-restaurant-452#7",
+   "source_file": "Tagesabschlussbericht-2026-03-19_2026-03-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #452 · 7 % · 19.03.2026"
+  },
+  {
+   "id": "tx_1hunv1p_29",
+   "date": "2026-03-19",
+   "platform": "SumUp",
+   "cash_amount": 37.35,
+   "period_id": "sumup-restaurant-452#19",
+   "source_file": "Tagesabschlussbericht-2026-03-19_2026-03-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #452 · 19 % · 19.03.2026"
+  },
+  {
+   "id": "tx_t8dxje_28",
+   "date": "2026-03-18",
+   "platform": "SumUp",
+   "cash_amount": 3.53,
+   "period_id": "sumup-restaurant-451#0",
+   "source_file": "Tagesabschlussbericht-2026-03-18_2026-03-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #451 · 0 % (Trinkgeld) · 18.03.2026"
+  },
+  {
+   "id": "tx_t8dxjl_28",
+   "date": "2026-03-18",
+   "platform": "SumUp",
+   "cash_amount": 106.66,
+   "period_id": "sumup-restaurant-451#7",
+   "source_file": "Tagesabschlussbericht-2026-03-18_2026-03-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #451 · 7 % · 18.03.2026"
+  },
+  {
+   "id": "tx_1hun826_29",
+   "date": "2026-03-18",
+   "platform": "SumUp",
+   "cash_amount": 23.73,
+   "period_id": "sumup-restaurant-451#19",
+   "source_file": "Tagesabschlussbericht-2026-03-18_2026-03-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #451 · 19 % · 18.03.2026"
+  },
+  {
+   "id": "tx_t8dwsp_28",
+   "date": "2026-03-17",
+   "platform": "SumUp",
+   "cash_amount": 5.18,
+   "period_id": "sumup-restaurant-450#0",
+   "source_file": "Tagesabschlussbericht-2026-03-17_2026-03-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #450 · 0 % (Trinkgeld) · 17.03.2026"
+  },
+  {
+   "id": "tx_t8dwsw_28",
+   "date": "2026-03-17",
+   "platform": "SumUp",
+   "cash_amount": 182.05,
+   "period_id": "sumup-restaurant-450#7",
+   "source_file": "Tagesabschlussbericht-2026-03-17_2026-03-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #450 · 7 % · 17.03.2026"
+  },
+  {
+   "id": "tx_1huml2n_29",
+   "date": "2026-03-17",
+   "platform": "SumUp",
+   "cash_amount": 38.37,
+   "period_id": "sumup-restaurant-450#19",
+   "source_file": "Tagesabschlussbericht-2026-03-17_2026-03-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #450 · 19 % · 17.03.2026"
+  },
+  {
+   "id": "tx_t8dghf_28",
+   "date": "2026-03-16",
+   "platform": "SumUp",
+   "cash_amount": 0.66,
+   "period_id": "sumup-restaurant-449#0",
+   "source_file": "Tagesabschlussbericht-2026-03-16_2026-03-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #449 · 0 % (Trinkgeld) · 16.03.2026"
+  },
+  {
+   "id": "tx_t8dghm_28",
+   "date": "2026-03-16",
+   "platform": "SumUp",
+   "cash_amount": 17.25,
+   "period_id": "sumup-restaurant-449#7",
+   "source_file": "Tagesabschlussbericht-2026-03-16_2026-03-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #449 · 7 % · 16.03.2026"
+  },
+  {
+   "id": "tx_1hu8jd1_29",
+   "date": "2026-03-16",
+   "platform": "SumUp",
+   "cash_amount": 2.49,
+   "period_id": "sumup-restaurant-449#19",
+   "source_file": "Tagesabschlussbericht-2026-03-16_2026-03-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #449 · 19 % · 16.03.2026"
+  },
+  {
+   "id": "tx_t8dfqq_28",
+   "date": "2026-03-15",
+   "platform": "SumUp",
+   "cash_amount": 9.06,
+   "period_id": "sumup-restaurant-448#0",
+   "source_file": "Tagesabschlussbericht-2026-03-15_2026-03-16.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #448 · 0 % (Trinkgeld) · 15.03.2026"
+  },
+  {
+   "id": "tx_t8dfqx_28",
+   "date": "2026-03-15",
+   "platform": "SumUp",
+   "cash_amount": 171.71,
+   "period_id": "sumup-restaurant-448#7",
+   "source_file": "Tagesabschlussbericht-2026-03-15_2026-03-16.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #448 · 7 % · 15.03.2026"
+  },
+  {
+   "id": "tx_1hu7wdi_29",
+   "date": "2026-03-15",
+   "platform": "SumUp",
+   "cash_amount": 19.13,
+   "period_id": "sumup-restaurant-448#19",
+   "source_file": "Tagesabschlussbericht-2026-03-15_2026-03-16.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #448 · 19 % · 15.03.2026"
+  },
+  {
+   "id": "tx_t8df01_28",
+   "date": "2026-03-14",
+   "platform": "SumUp",
+   "cash_amount": 13.99,
+   "period_id": "sumup-restaurant-447#0",
+   "source_file": "Tagesabschlussbericht-2026-03-14_2026-03-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #447 · 0 % (Trinkgeld) · 14.03.2026"
+  },
+  {
+   "id": "tx_t8df08_28",
+   "date": "2026-03-14",
+   "platform": "SumUp",
+   "cash_amount": 182.95,
+   "period_id": "sumup-restaurant-447#7",
+   "source_file": "Tagesabschlussbericht-2026-03-14_2026-03-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #447 · 7 % · 14.03.2026"
+  },
+  {
+   "id": "tx_1hu79dz_29",
+   "date": "2026-03-14",
+   "platform": "SumUp",
+   "cash_amount": 46.25,
+   "period_id": "sumup-restaurant-447#19",
+   "source_file": "Tagesabschlussbericht-2026-03-14_2026-03-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #447 · 19 % · 14.03.2026"
+  },
+  {
+   "id": "tx_t8de9c_28",
+   "date": "2026-03-13",
+   "platform": "SumUp",
+   "cash_amount": 9.8,
+   "period_id": "sumup-restaurant-446#0",
+   "source_file": "Tagesabschlussbericht-2026-03-13_2026-03-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #446 · 0 % (Trinkgeld) · 13.03.2026"
+  },
+  {
+   "id": "tx_t8de9j_28",
+   "date": "2026-03-13",
+   "platform": "SumUp",
+   "cash_amount": 162.59,
+   "period_id": "sumup-restaurant-446#7",
+   "source_file": "Tagesabschlussbericht-2026-03-13_2026-03-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #446 · 7 % · 13.03.2026"
+  },
+  {
+   "id": "tx_1hu6meg_29",
+   "date": "2026-03-13",
+   "platform": "SumUp",
+   "cash_amount": 34.31,
+   "period_id": "sumup-restaurant-446#19",
+   "source_file": "Tagesabschlussbericht-2026-03-13_2026-03-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #446 · 19 % · 13.03.2026"
+  },
+  {
+   "id": "tx_t8ddin_28",
+   "date": "2026-03-12",
+   "platform": "SumUp",
+   "cash_amount": 9.24,
+   "period_id": "sumup-restaurant-445#0",
+   "source_file": "Tagesabschlussbericht-2026-03-12_2026-03-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #445 · 0 % (Trinkgeld) · 12.03.2026"
+  },
+  {
+   "id": "tx_t8ddiu_28",
+   "date": "2026-03-12",
+   "platform": "SumUp",
+   "cash_amount": 119.84,
+   "period_id": "sumup-restaurant-445#7",
+   "source_file": "Tagesabschlussbericht-2026-03-12_2026-03-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #445 · 7 % · 12.03.2026"
+  },
+  {
+   "id": "tx_1hu5zex_29",
+   "date": "2026-03-12",
+   "platform": "SumUp",
+   "cash_amount": 28.32,
+   "period_id": "sumup-restaurant-445#19",
+   "source_file": "Tagesabschlussbericht-2026-03-12_2026-03-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #445 · 19 % · 12.03.2026"
+  },
+  {
+   "id": "tx_t8dcry_28",
+   "date": "2026-03-11",
+   "platform": "SumUp",
+   "cash_amount": 10.76,
+   "period_id": "sumup-restaurant-444#0",
+   "source_file": "Tagesabschlussbericht-2026-03-11_2026-03-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #444 · 0 % (Trinkgeld) · 11.03.2026"
+  },
+  {
+   "id": "tx_t8dcs5_28",
+   "date": "2026-03-11",
+   "platform": "SumUp",
+   "cash_amount": 113.73,
+   "period_id": "sumup-restaurant-444#7",
+   "source_file": "Tagesabschlussbericht-2026-03-11_2026-03-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #444 · 7 % · 11.03.2026"
+  },
+  {
+   "id": "tx_1hu5cfe_29",
+   "date": "2026-03-11",
+   "platform": "SumUp",
+   "cash_amount": 31.71,
+   "period_id": "sumup-restaurant-444#19",
+   "source_file": "Tagesabschlussbericht-2026-03-11_2026-03-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #444 · 19 % · 11.03.2026"
+  },
+  {
+   "id": "tx_t8d9t6_28",
+   "date": "2026-03-07",
+   "platform": "SumUp",
+   "cash_amount": 12.54,
+   "period_id": "sumup-restaurant-440#0",
+   "source_file": "Tagesabschlussbericht-2026-03-07_2026-03-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #440 · 0 % (Trinkgeld) · 07.03.2026"
+  },
+  {
+   "id": "tx_t8d9td_28",
+   "date": "2026-03-07",
+   "platform": "SumUp",
+   "cash_amount": 158.68,
+   "period_id": "sumup-restaurant-440#7",
+   "source_file": "Tagesabschlussbericht-2026-03-07_2026-03-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #440 · 7 % · 07.03.2026"
+  },
+  {
+   "id": "tx_1hu2sha_29",
+   "date": "2026-03-07",
+   "platform": "SumUp",
+   "cash_amount": 41.19,
+   "period_id": "sumup-restaurant-440#19",
+   "source_file": "Tagesabschlussbericht-2026-03-07_2026-03-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #440 · 19 % · 07.03.2026"
+  },
+  {
+   "id": "tx_t8csr7_28",
+   "date": "2026-03-05",
+   "platform": "SumUp",
+   "cash_amount": 2.71,
+   "period_id": "sumup-restaurant-438#0",
+   "source_file": "Tagesabschlussbericht-2026-03-05_2026-03-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #438 · 0 % (Trinkgeld) · 05.03.2026"
+  },
+  {
+   "id": "tx_t8csre_28",
+   "date": "2026-03-05",
+   "platform": "SumUp",
+   "cash_amount": 132.47,
+   "period_id": "sumup-restaurant-438#7",
+   "source_file": "Tagesabschlussbericht-2026-03-05_2026-03-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #438 · 7 % · 05.03.2026"
+  },
+  {
+   "id": "tx_1hto3s5_29",
+   "date": "2026-03-05",
+   "platform": "SumUp",
+   "cash_amount": 14.73,
+   "period_id": "sumup-restaurant-438#19",
+   "source_file": "Tagesabschlussbericht-2026-03-05_2026-03-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #438 · 19 % · 05.03.2026"
+  },
+  {
+   "id": "tx_t8cr9t_28",
+   "date": "2026-03-03",
+   "platform": "SumUp",
+   "cash_amount": 3.43,
+   "period_id": "sumup-restaurant-436#0",
+   "source_file": "Tagesabschlussbericht-2026-03-03_2026-03-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #436 · 0 % (Trinkgeld) · 03.03.2026"
+  },
+  {
+   "id": "tx_t8cra0_28",
+   "date": "2026-03-03",
+   "platform": "SumUp",
+   "cash_amount": 47.78,
+   "period_id": "sumup-restaurant-436#7",
+   "source_file": "Tagesabschlussbericht-2026-03-03_2026-03-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #436 · 7 % · 03.03.2026"
+  },
+  {
+   "id": "tx_1htmtt3_29",
+   "date": "2026-03-03",
+   "platform": "SumUp",
+   "cash_amount": 8.59,
+   "period_id": "sumup-restaurant-436#19",
+   "source_file": "Tagesabschlussbericht-2026-03-03_2026-03-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #436 · 19 % · 03.03.2026"
+  },
+  {
+   "id": "tx_t8cqj4_28",
+   "date": "2026-03-02",
+   "platform": "SumUp",
+   "cash_amount": 1.52,
+   "period_id": "sumup-restaurant-435#0",
+   "source_file": "Tagesabschlussbericht-2026-03-02_2026-03-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #435 · 0 % (Trinkgeld) · 02.03.2026"
+  },
+  {
+   "id": "tx_t8cqjb_28",
+   "date": "2026-03-02",
+   "platform": "SumUp",
+   "cash_amount": 138.78,
+   "period_id": "sumup-restaurant-435#7",
+   "source_file": "Tagesabschlussbericht-2026-03-02_2026-03-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #435 · 7 % · 02.03.2026"
+  },
+  {
+   "id": "tx_1htm6tk_29",
+   "date": "2026-03-02",
+   "platform": "SumUp",
+   "cash_amount": 5.89,
+   "period_id": "sumup-restaurant-435#19",
+   "source_file": "Tagesabschlussbericht-2026-03-02_2026-03-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #435 · 19 % · 02.03.2026"
+  },
+  {
+   "id": "tx_t8cpsf_28",
+   "date": "2026-03-01",
+   "platform": "SumUp",
+   "cash_amount": 1.42,
+   "period_id": "sumup-restaurant-434#0",
+   "source_file": "Tagesabschlussbericht-2026-03-01_2026-03-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #434 · 0 % (Trinkgeld) · 01.03.2026"
+  },
+  {
+   "id": "tx_t8cpsm_28",
+   "date": "2026-03-01",
+   "platform": "SumUp",
+   "cash_amount": 22.72,
+   "period_id": "sumup-restaurant-434#7",
+   "source_file": "Tagesabschlussbericht-2026-03-01_2026-03-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #434 · 7 % · 01.03.2026"
+  },
+  {
+   "id": "tx_1htlju1_29",
+   "date": "2026-03-01",
+   "platform": "SumUp",
+   "cash_amount": 4.66,
+   "period_id": "sumup-restaurant-434#19",
+   "source_file": "Tagesabschlussbericht-2026-03-01_2026-03-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #434 · 19 % · 01.03.2026"
+  },
+  {
+   "id": "tx_t8cp1q_28",
+   "date": "2026-02-28",
+   "platform": "SumUp",
+   "cash_amount": 4.03,
+   "period_id": "sumup-restaurant-433#0",
+   "source_file": "Tagesabschlussbericht-2026-02-28_2026-03-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #433 · 0 % (Trinkgeld) · 28.02.2026"
+  },
+  {
+   "id": "tx_t8cp1x_28",
+   "date": "2026-02-28",
+   "platform": "SumUp",
+   "cash_amount": 67.02,
+   "period_id": "sumup-restaurant-433#7",
+   "source_file": "Tagesabschlussbericht-2026-02-28_2026-03-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #433 · 7 % · 28.02.2026"
+  },
+  {
+   "id": "tx_1htkwui_29",
+   "date": "2026-02-28",
+   "platform": "SumUp",
+   "cash_amount": 15.75,
+   "period_id": "sumup-restaurant-433#19",
+   "source_file": "Tagesabschlussbericht-2026-02-28_2026-03-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #433 · 19 % · 28.02.2026"
+  },
+  {
+   "id": "tx_t8cob1_28",
+   "date": "2026-02-27",
+   "platform": "SumUp",
+   "cash_amount": 7.06,
+   "period_id": "sumup-restaurant-432#0",
+   "source_file": "Tagesabschlussbericht-2026-02-27_2026-02-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #432 · 0 % (Trinkgeld) · 27.02.2026"
+  },
+  {
+   "id": "tx_t8cob8_28",
+   "date": "2026-02-27",
+   "platform": "SumUp",
+   "cash_amount": 108.12,
+   "period_id": "sumup-restaurant-432#7",
+   "source_file": "Tagesabschlussbericht-2026-02-27_2026-02-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #432 · 7 % · 27.02.2026"
+  },
+  {
+   "id": "tx_1htk9uz_29",
+   "date": "2026-02-27",
+   "platform": "SumUp",
+   "cash_amount": 24.73,
+   "period_id": "sumup-restaurant-432#19",
+   "source_file": "Tagesabschlussbericht-2026-02-27_2026-02-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #432 · 19 % · 27.02.2026"
+  },
+  {
+   "id": "tx_t8cmtn_28",
+   "date": "2026-02-25",
+   "platform": "SumUp",
+   "cash_amount": 5.35,
+   "period_id": "sumup-restaurant-430#0",
+   "source_file": "Tagesabschlussbericht-2026-02-25_2026-02-26.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #430 · 0 % (Trinkgeld) · 25.02.2026"
+  },
+  {
+   "id": "tx_t8cmtu_28",
+   "date": "2026-02-25",
+   "platform": "SumUp",
+   "cash_amount": 58.79,
+   "period_id": "sumup-restaurant-430#7",
+   "source_file": "Tagesabschlussbericht-2026-02-25_2026-02-26.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #430 · 7 % · 25.02.2026"
+  },
+  {
+   "id": "tx_1htizvx_29",
+   "date": "2026-02-25",
+   "platform": "SumUp",
+   "cash_amount": 21.26,
+   "period_id": "sumup-restaurant-430#19",
+   "source_file": "Tagesabschlussbericht-2026-02-25_2026-02-26.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #430 · 19 % · 25.02.2026"
+  },
+  {
+   "id": "tx_t8c50z_28",
+   "date": "2026-02-22",
+   "platform": "SumUp",
+   "cash_amount": 0.56,
+   "period_id": "sumup-restaurant-427#0",
+   "source_file": "Tagesabschlussbericht-2026-02-22_2026-02-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #427 · 0 % (Trinkgeld) · 22.02.2026"
+  },
+  {
+   "id": "tx_t8c516_28",
+   "date": "2026-02-22",
+   "platform": "SumUp",
+   "cash_amount": 7.16,
+   "period_id": "sumup-restaurant-427#7",
+   "source_file": "Tagesabschlussbericht-2026-02-22_2026-02-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #427 · 7 % · 22.02.2026"
+  },
+  {
+   "id": "tx_1ht3o79_29",
+   "date": "2026-02-22",
+   "platform": "SumUp",
+   "cash_amount": 1.28,
+   "period_id": "sumup-restaurant-427#19",
+   "source_file": "Tagesabschlussbericht-2026-02-22_2026-02-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #427 · 19 % · 22.02.2026"
+  },
+  {
+   "id": "tx_t8c4aa_28",
+   "date": "2026-02-21",
+   "platform": "SumUp",
+   "cash_amount": 6.6,
+   "period_id": "sumup-restaurant-426#0",
+   "source_file": "Tagesabschlussbericht-2026-02-21_2026-02-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #426 · 0 % (Trinkgeld) · 21.02.2026"
+  },
+  {
+   "id": "tx_t8c4ah_28",
+   "date": "2026-02-21",
+   "platform": "SumUp",
+   "cash_amount": 90.87,
+   "period_id": "sumup-restaurant-426#7",
+   "source_file": "Tagesabschlussbericht-2026-02-21_2026-02-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #426 · 7 % · 21.02.2026"
+  },
+  {
+   "id": "tx_1ht317q_29",
+   "date": "2026-02-21",
+   "platform": "SumUp",
+   "cash_amount": 21.84,
+   "period_id": "sumup-restaurant-426#19",
+   "source_file": "Tagesabschlussbericht-2026-02-21_2026-02-22.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #426 · 19 % · 21.02.2026"
+  },
+  {
+   "id": "tx_t8c2sw_28",
+   "date": "2026-02-19",
+   "platform": "SumUp",
+   "cash_amount": 1,
+   "period_id": "sumup-restaurant-424#0",
+   "source_file": "Tagesabschlussbericht-2026-02-19_2026-02-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #424 · 0 % (Trinkgeld) · 19.02.2026"
+  },
+  {
+   "id": "tx_t8c2t3_28",
+   "date": "2026-02-19",
+   "platform": "SumUp",
+   "cash_amount": 329.92,
+   "period_id": "sumup-restaurant-424#7",
+   "source_file": "Tagesabschlussbericht-2026-02-19_2026-02-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #424 · 7 % · 19.02.2026"
+  },
+  {
+   "id": "tx_1ht1r8o_29",
+   "date": "2026-02-19",
+   "platform": "SumUp",
+   "cash_amount": 24.19,
+   "period_id": "sumup-restaurant-424#19",
+   "source_file": "Tagesabschlussbericht-2026-02-19_2026-02-20.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #424 · 19 % · 19.02.2026"
+  },
+  {
+   "id": "tx_t8c227_28",
+   "date": "2026-02-18",
+   "platform": "SumUp",
+   "cash_amount": 0.48,
+   "period_id": "sumup-restaurant-423#0",
+   "source_file": "Tagesabschlussbericht-2026-02-18_2026-02-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #423 · 0 % (Trinkgeld) · 18.02.2026"
+  },
+  {
+   "id": "tx_t8c22e_28",
+   "date": "2026-02-18",
+   "platform": "SumUp",
+   "cash_amount": 8.07,
+   "period_id": "sumup-restaurant-423#7",
+   "source_file": "Tagesabschlussbericht-2026-02-18_2026-02-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #423 · 7 % · 18.02.2026"
+  },
+  {
+   "id": "tx_1ht1495_29",
+   "date": "2026-02-18",
+   "platform": "SumUp",
+   "cash_amount": 1.35,
+   "period_id": "sumup-restaurant-423#19",
+   "source_file": "Tagesabschlussbericht-2026-02-18_2026-02-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #423 · 19 % · 18.02.2026"
+  },
+  {
+   "id": "tx_t8c0kt_28",
+   "date": "2026-02-16",
+   "platform": "SumUp",
+   "cash_amount": 5.46,
+   "period_id": "sumup-restaurant-421#0",
+   "source_file": "Tagesabschlussbericht-2026-02-16_2026-02-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #421 · 0 % (Trinkgeld) · 16.02.2026"
+  },
+  {
+   "id": "tx_t8c0l0_28",
+   "date": "2026-02-16",
+   "platform": "SumUp",
+   "cash_amount": 134.83,
+   "period_id": "sumup-restaurant-421#7",
+   "source_file": "Tagesabschlussbericht-2026-02-16_2026-02-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #421 · 7 % · 16.02.2026"
+  },
+  {
+   "id": "tx_1hszua3_29",
+   "date": "2026-02-16",
+   "platform": "SumUp",
+   "cash_amount": 35.91,
+   "period_id": "sumup-restaurant-421#19",
+   "source_file": "Tagesabschlussbericht-2026-02-16_2026-02-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #421 · 19 % · 16.02.2026"
+  },
+  {
+   "id": "tx_t8bzu4_28",
+   "date": "2026-02-15",
+   "platform": "SumUp",
+   "cash_amount": 3.73,
+   "period_id": "sumup-restaurant-420#0",
+   "source_file": "Tagesabschlussbericht-2026-02-15_2026-02-16.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #420 · 0 % (Trinkgeld) · 15.02.2026"
+  },
+  {
+   "id": "tx_t8bzub_28",
+   "date": "2026-02-15",
+   "platform": "SumUp",
+   "cash_amount": 52.78,
+   "period_id": "sumup-restaurant-420#7",
+   "source_file": "Tagesabschlussbericht-2026-02-15_2026-02-16.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #420 · 7 % · 15.02.2026"
+  },
+  {
+   "id": "tx_1hsz7ak_29",
+   "date": "2026-02-15",
+   "platform": "SumUp",
+   "cash_amount": 12.79,
+   "period_id": "sumup-restaurant-420#19",
+   "source_file": "Tagesabschlussbericht-2026-02-15_2026-02-16.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #420 · 19 % · 15.02.2026"
+  },
+  {
+   "id": "tx_t8bis5_28",
+   "date": "2026-02-13",
+   "platform": "SumUp",
+   "cash_amount": 12.87,
+   "period_id": "sumup-restaurant-418#0",
+   "source_file": "Tagesabschlussbericht-2026-02-13_2026-02-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #418 · 0 % (Trinkgeld) · 13.02.2026"
+  },
+  {
+   "id": "tx_t8bisc_28",
+   "date": "2026-02-13",
+   "platform": "SumUp",
+   "cash_amount": 160.38,
+   "period_id": "sumup-restaurant-418#7",
+   "source_file": "Tagesabschlussbericht-2026-02-13_2026-02-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #418 · 7 % · 13.02.2026"
+  },
+  {
+   "id": "tx_1hskilf_29",
+   "date": "2026-02-13",
+   "platform": "SumUp",
+   "cash_amount": 37.85,
+   "period_id": "sumup-restaurant-418#19",
+   "source_file": "Tagesabschlussbericht-2026-02-13_2026-02-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #418 · 19 % · 13.02.2026"
+  },
+  {
+   "id": "tx_t8bi1g_28",
+   "date": "2026-02-12",
+   "platform": "SumUp",
+   "cash_amount": 1.46,
+   "period_id": "sumup-restaurant-417#0",
+   "source_file": "Tagesabschlussbericht-2026-02-12_2026-02-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #417 · 0 % (Trinkgeld) · 12.02.2026"
+  },
+  {
+   "id": "tx_t8bi1n_28",
+   "date": "2026-02-12",
+   "platform": "SumUp",
+   "cash_amount": 113.31,
+   "period_id": "sumup-restaurant-417#7",
+   "source_file": "Tagesabschlussbericht-2026-02-12_2026-02-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #417 · 7 % · 12.02.2026"
+  },
+  {
+   "id": "tx_1hsjvlw_29",
+   "date": "2026-02-12",
+   "platform": "SumUp",
+   "cash_amount": 9.03,
+   "period_id": "sumup-restaurant-417#19",
+   "source_file": "Tagesabschlussbericht-2026-02-12_2026-02-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #417 · 19 % · 12.02.2026"
+  },
+  {
+   "id": "tx_t8bhar_28",
+   "date": "2026-02-11",
+   "platform": "SumUp",
+   "cash_amount": 12.27,
+   "period_id": "sumup-restaurant-416#0",
+   "source_file": "Tagesabschlussbericht-2026-02-11_2026-02-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #416 · 0 % (Trinkgeld) · 11.02.2026"
+  },
+  {
+   "id": "tx_t8bhay_28",
+   "date": "2026-02-11",
+   "platform": "SumUp",
+   "cash_amount": 146.9,
+   "period_id": "sumup-restaurant-416#7",
+   "source_file": "Tagesabschlussbericht-2026-02-11_2026-02-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #416 · 7 % · 11.02.2026"
+  },
+  {
+   "id": "tx_1hsj8md_29",
+   "date": "2026-02-11",
+   "platform": "SumUp",
+   "cash_amount": 37.53,
+   "period_id": "sumup-restaurant-416#19",
+   "source_file": "Tagesabschlussbericht-2026-02-11_2026-02-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #416 · 19 % · 11.02.2026"
+  },
+  {
+   "id": "tx_t8bftd_28",
+   "date": "2026-02-09",
+   "platform": "SumUp",
+   "cash_amount": 0.49,
+   "period_id": "sumup-restaurant-414#0",
+   "source_file": "Tagesabschlussbericht-2026-02-09_2026-02-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #414 · 0 % (Trinkgeld) · 09.02.2026"
+  },
+  {
+   "id": "tx_t8bftk_28",
+   "date": "2026-02-09",
+   "platform": "SumUp",
+   "cash_amount": 73.11,
+   "period_id": "sumup-restaurant-414#7",
+   "source_file": "Tagesabschlussbericht-2026-02-09_2026-02-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #414 · 7 % · 09.02.2026"
+  },
+  {
+   "id": "tx_1hshynb_29",
+   "date": "2026-02-09",
+   "platform": "SumUp",
+   "cash_amount": 10.39,
+   "period_id": "sumup-restaurant-414#19",
+   "source_file": "Tagesabschlussbericht-2026-02-09_2026-02-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #414 · 19 % · 09.02.2026"
+  },
+  {
+   "id": "tx_t8bf2o_28",
+   "date": "2026-02-08",
+   "platform": "SumUp",
+   "cash_amount": 5.68,
+   "period_id": "sumup-restaurant-413#0",
+   "source_file": "Tagesabschlussbericht-2026-02-08_2026-02-09.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #413 · 0 % (Trinkgeld) · 08.02.2026"
+  },
+  {
+   "id": "tx_t8bf2v_28",
+   "date": "2026-02-08",
+   "platform": "SumUp",
+   "cash_amount": 91.09,
+   "period_id": "sumup-restaurant-413#7",
+   "source_file": "Tagesabschlussbericht-2026-02-08_2026-02-09.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #413 · 7 % · 08.02.2026"
+  },
+  {
+   "id": "tx_1hshbns_29",
+   "date": "2026-02-08",
+   "platform": "SumUp",
+   "cash_amount": 22.43,
+   "period_id": "sumup-restaurant-413#19",
+   "source_file": "Tagesabschlussbericht-2026-02-08_2026-02-09.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #413 · 19 % · 08.02.2026"
+  },
+  {
+   "id": "tx_t8bebz_28",
+   "date": "2026-02-07",
+   "platform": "SumUp",
+   "cash_amount": 6.7,
+   "period_id": "sumup-restaurant-412#0",
+   "source_file": "Tagesabschlussbericht-2026-02-07_2026-02-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #412 · 0 % (Trinkgeld) · 07.02.2026"
+  },
+  {
+   "id": "tx_t8bec6_28",
+   "date": "2026-02-07",
+   "platform": "SumUp",
+   "cash_amount": 251.68,
+   "period_id": "sumup-restaurant-412#7",
+   "source_file": "Tagesabschlussbericht-2026-02-07_2026-02-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #412 · 7 % · 07.02.2026"
+  },
+  {
+   "id": "tx_1hsgoo9_29",
+   "date": "2026-02-07",
+   "platform": "SumUp",
+   "cash_amount": 44.32,
+   "period_id": "sumup-restaurant-412#19",
+   "source_file": "Tagesabschlussbericht-2026-02-07_2026-02-08.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #412 · 19 % · 07.02.2026"
+  },
+  {
+   "id": "tx_t8bdla_28",
+   "date": "2026-02-06",
+   "platform": "SumUp",
+   "cash_amount": 16.44,
+   "period_id": "sumup-restaurant-411#0",
+   "source_file": "Tagesabschlussbericht-2026-02-06_2026-02-07.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #411 · 0 % (Trinkgeld) · 06.02.2026"
+  },
+  {
+   "id": "tx_t8bdlh_28",
+   "date": "2026-02-06",
+   "platform": "SumUp",
+   "cash_amount": 288.17,
+   "period_id": "sumup-restaurant-411#7",
+   "source_file": "Tagesabschlussbericht-2026-02-06_2026-02-07.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #411 · 7 % · 06.02.2026"
+  },
+  {
+   "id": "tx_1hsg1oq_29",
+   "date": "2026-02-06",
+   "platform": "SumUp",
+   "cash_amount": 80.49,
+   "period_id": "sumup-restaurant-411#19",
+   "source_file": "Tagesabschlussbericht-2026-02-06_2026-02-07.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #411 · 19 % · 06.02.2026"
+  },
+  {
+   "id": "tx_t8bcul_28",
+   "date": "2026-02-05",
+   "platform": "SumUp",
+   "cash_amount": 0.48,
+   "period_id": "sumup-restaurant-410#0",
+   "source_file": "Tagesabschlussbericht-2026-02-05_2026-02-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #410 · 0 % (Trinkgeld) · 05.02.2026"
+  },
+  {
+   "id": "tx_t8bcus_28",
+   "date": "2026-02-05",
+   "platform": "SumUp",
+   "cash_amount": 17.07,
+   "period_id": "sumup-restaurant-410#7",
+   "source_file": "Tagesabschlussbericht-2026-02-05_2026-02-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #410 · 7 % · 05.02.2026"
+  },
+  {
+   "id": "tx_1hsfep7_29",
+   "date": "2026-02-05",
+   "platform": "SumUp",
+   "cash_amount": 2.25,
+   "period_id": "sumup-restaurant-410#19",
+   "source_file": "Tagesabschlussbericht-2026-02-05_2026-02-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #410 · 19 % · 05.02.2026"
+  },
+  {
+   "id": "tx_t8awjb_28",
+   "date": "2026-02-04",
+   "platform": "SumUp",
+   "cash_amount": 9.77,
+   "period_id": "sumup-restaurant-409#0",
+   "source_file": "Tagesabschlussbericht-2026-02-04_2026-02-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #409 · 0 % (Trinkgeld) · 04.02.2026"
+  },
+  {
+   "id": "tx_t8awji_28",
+   "date": "2026-02-04",
+   "platform": "SumUp",
+   "cash_amount": 266.67,
+   "period_id": "sumup-restaurant-409#7",
+   "source_file": "Tagesabschlussbericht-2026-02-04_2026-02-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #409 · 7 % · 04.02.2026"
+  },
+  {
+   "id": "tx_1hs1czl_29",
+   "date": "2026-02-04",
+   "platform": "SumUp",
+   "cash_amount": 75.16,
+   "period_id": "sumup-restaurant-409#19",
+   "source_file": "Tagesabschlussbericht-2026-02-04_2026-02-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #409 · 19 % · 04.02.2026"
+  },
+  {
+   "id": "tx_t8av1x_28",
+   "date": "2026-02-02",
+   "platform": "SumUp",
+   "cash_amount": 10.65,
+   "period_id": "sumup-restaurant-407#0",
+   "source_file": "Tagesabschlussbericht-2026-02-02_2026-02-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #407 · 0 % (Trinkgeld) · 02.02.2026"
+  },
+  {
+   "id": "tx_t8av24_28",
+   "date": "2026-02-02",
+   "platform": "SumUp",
+   "cash_amount": 159.32,
+   "period_id": "sumup-restaurant-407#7",
+   "source_file": "Tagesabschlussbericht-2026-02-02_2026-02-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #407 · 7 % · 02.02.2026"
+  },
+  {
+   "id": "tx_1hs030j_29",
+   "date": "2026-02-02",
+   "platform": "SumUp",
+   "cash_amount": 77.73,
+   "period_id": "sumup-restaurant-407#19",
+   "source_file": "Tagesabschlussbericht-2026-02-02_2026-02-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #407 · 19 % · 02.02.2026"
+  },
+  {
+   "id": "tx_t8aub8_28",
+   "date": "2026-02-01",
+   "platform": "SumUp",
+   "cash_amount": 9.43,
+   "period_id": "sumup-restaurant-406#0",
+   "source_file": "Tagesabschlussbericht-2026-02-01_2026-02-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #406 · 0 % (Trinkgeld) · 01.02.2026"
+  },
+  {
+   "id": "tx_t8aubf_28",
+   "date": "2026-02-01",
+   "platform": "SumUp",
+   "cash_amount": 240.13,
+   "period_id": "sumup-restaurant-406#7",
+   "source_file": "Tagesabschlussbericht-2026-02-01_2026-02-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #406 · 7 % · 01.02.2026"
+  },
+  {
+   "id": "tx_1hrzg10_29",
+   "date": "2026-02-01",
+   "platform": "SumUp",
+   "cash_amount": 39.04,
+   "period_id": "sumup-restaurant-406#19",
+   "source_file": "Tagesabschlussbericht-2026-02-01_2026-02-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #406 · 19 % · 01.02.2026"
+  },
+  {
+   "id": "tx_t8atkj_28",
+   "date": "2026-01-31",
+   "platform": "SumUp",
+   "cash_amount": 32.48,
+   "period_id": "sumup-restaurant-405#0",
+   "source_file": "Tagesabschlussbericht-2026-01-31_2026-02-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #405 · 0 % (Trinkgeld) · 31.01.2026"
+  },
+  {
+   "id": "tx_t8atkq_28",
+   "date": "2026-01-31",
+   "platform": "SumUp",
+   "cash_amount": 1538.59,
+   "period_id": "sumup-restaurant-405#7",
+   "source_file": "Tagesabschlussbericht-2026-01-31_2026-02-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #405 · 7 % · 31.01.2026"
+  },
+  {
+   "id": "tx_1hryt1h_29",
+   "date": "2026-01-31",
+   "platform": "SumUp",
+   "cash_amount": 134.53,
+   "period_id": "sumup-restaurant-405#19",
+   "source_file": "Tagesabschlussbericht-2026-01-31_2026-02-01.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #405 · 19 % · 31.01.2026"
+  },
+  {
+   "id": "tx_t8as35_28",
+   "date": "2026-01-29",
+   "platform": "SumUp",
+   "cash_amount": 0.71,
+   "period_id": "sumup-restaurant-403#0",
+   "source_file": "Tagesabschlussbericht-2026-01-29_2026-01-30.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #403 · 0 % (Trinkgeld) · 29.01.2026"
+  },
+  {
+   "id": "tx_t8as3c_28",
+   "date": "2026-01-29",
+   "platform": "SumUp",
+   "cash_amount": 28.88,
+   "period_id": "sumup-restaurant-403#7",
+   "source_file": "Tagesabschlussbericht-2026-01-29_2026-01-30.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #403 · 7 % · 29.01.2026"
+  },
+  {
+   "id": "tx_1hrxj2f_29",
+   "date": "2026-01-29",
+   "platform": "SumUp",
+   "cash_amount": 2.01,
+   "period_id": "sumup-restaurant-403#19",
+   "source_file": "Tagesabschlussbericht-2026-01-29_2026-01-30.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #403 · 19 % · 29.01.2026"
+  },
+  {
+   "id": "tx_t8arcg_28",
+   "date": "2026-01-28",
+   "platform": "SumUp",
+   "cash_amount": 12.97,
+   "period_id": "sumup-restaurant-402#0",
+   "source_file": "Tagesabschlussbericht-2026-01-28_2026-01-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #402 · 0 % (Trinkgeld) · 28.01.2026"
+  },
+  {
+   "id": "tx_t8arcn_28",
+   "date": "2026-01-28",
+   "platform": "SumUp",
+   "cash_amount": 179.02,
+   "period_id": "sumup-restaurant-402#7",
+   "source_file": "Tagesabschlussbericht-2026-01-28_2026-01-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #402 · 7 % · 28.01.2026"
+  },
+  {
+   "id": "tx_1hrww2w_29",
+   "date": "2026-01-28",
+   "platform": "SumUp",
+   "cash_amount": 45.21,
+   "period_id": "sumup-restaurant-402#19",
+   "source_file": "Tagesabschlussbericht-2026-01-28_2026-01-29.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #402 · 19 % · 28.01.2026"
+  },
+  {
+   "id": "tx_t8aqlr_28",
+   "date": "2026-01-27",
+   "platform": "SumUp",
+   "cash_amount": 6,
+   "period_id": "sumup-restaurant-401#0",
+   "source_file": "Tagesabschlussbericht-2026-01-27_2026-01-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #401 · 0 % (Trinkgeld) · 27.01.2026"
+  },
+  {
+   "id": "tx_t8aqly_28",
+   "date": "2026-01-27",
+   "platform": "SumUp",
+   "cash_amount": 163.36,
+   "period_id": "sumup-restaurant-401#7",
+   "source_file": "Tagesabschlussbericht-2026-01-27_2026-01-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #401 · 7 % · 27.01.2026"
+  },
+  {
+   "id": "tx_1hrw93d_29",
+   "date": "2026-01-27",
+   "platform": "SumUp",
+   "cash_amount": 21.84,
+   "period_id": "sumup-restaurant-401#19",
+   "source_file": "Tagesabschlussbericht-2026-01-27_2026-01-28.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #401 · 19 % · 27.01.2026"
+  },
+  {
+   "id": "tx_t8apv2_28",
+   "date": "2026-01-26",
+   "platform": "SumUp",
+   "cash_amount": 3.32,
+   "period_id": "sumup-restaurant-400#0",
+   "source_file": "Tagesabschlussbericht-2026-01-26_2026-01-27.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #400 · 0 % (Trinkgeld) · 26.01.2026"
+  },
+  {
+   "id": "tx_t8apv9_28",
+   "date": "2026-01-26",
+   "platform": "SumUp",
+   "cash_amount": 63.39,
+   "period_id": "sumup-restaurant-400#7",
+   "source_file": "Tagesabschlussbericht-2026-01-26_2026-01-27.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #400 · 7 % · 26.01.2026"
+  },
+  {
+   "id": "tx_1hrvm3u_29",
+   "date": "2026-01-26",
+   "platform": "SumUp",
+   "cash_amount": 16.79,
+   "period_id": "sumup-restaurant-400#19",
+   "source_file": "Tagesabschlussbericht-2026-01-26_2026-01-27.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #400 · 19 % · 26.01.2026"
+  },
+  {
+   "id": "tx_t7wu30_28",
+   "date": "2026-01-24",
+   "platform": "SumUp",
+   "cash_amount": 11.54,
+   "period_id": "sumup-restaurant-398#0",
+   "source_file": "Tagesabschlussbericht-2026-01-24_2026-01-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #398 · 0 % (Trinkgeld) · 24.01.2026"
+  },
+  {
+   "id": "tx_t7wu37_28",
+   "date": "2026-01-24",
+   "platform": "SumUp",
+   "cash_amount": 232.79,
+   "period_id": "sumup-restaurant-398#7",
+   "source_file": "Tagesabschlussbericht-2026-01-24_2026-01-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #398 · 7 % · 24.01.2026"
+  },
+  {
+   "id": "tx_1hfx8y4_29",
+   "date": "2026-01-24",
+   "platform": "SumUp",
+   "cash_amount": 56.37,
+   "period_id": "sumup-restaurant-398#19",
+   "source_file": "Tagesabschlussbericht-2026-01-24_2026-01-25.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #398 · 19 % · 24.01.2026"
+  },
+  {
+   "id": "tx_t7wtcb_28",
+   "date": "2026-01-23",
+   "platform": "SumUp",
+   "cash_amount": 11.61,
+   "period_id": "sumup-restaurant-397#0",
+   "source_file": "Tagesabschlussbericht-2026-01-23_2026-01-24.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #397 · 0 % (Trinkgeld) · 23.01.2026"
+  },
+  {
+   "id": "tx_t7wtci_28",
+   "date": "2026-01-23",
+   "platform": "SumUp",
+   "cash_amount": 197.11,
+   "period_id": "sumup-restaurant-397#7",
+   "source_file": "Tagesabschlussbericht-2026-01-23_2026-01-24.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #397 · 7 % · 23.01.2026"
+  },
+  {
+   "id": "tx_1hfwlyl_29",
+   "date": "2026-01-23",
+   "platform": "SumUp",
+   "cash_amount": 38.77,
+   "period_id": "sumup-restaurant-397#19",
+   "source_file": "Tagesabschlussbericht-2026-01-23_2026-01-24.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #397 · 19 % · 23.01.2026"
+  },
+  {
+   "id": "tx_t7wslm_28",
+   "date": "2026-01-22",
+   "platform": "SumUp",
+   "cash_amount": 7.01,
+   "period_id": "sumup-restaurant-396#0",
+   "source_file": "Tagesabschlussbericht-2026-01-22_2026-01-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #396 · 0 % (Trinkgeld) · 22.01.2026"
+  },
+  {
+   "id": "tx_t7wslt_28",
+   "date": "2026-01-22",
+   "platform": "SumUp",
+   "cash_amount": 262.89,
+   "period_id": "sumup-restaurant-396#7",
+   "source_file": "Tagesabschlussbericht-2026-01-22_2026-01-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #396 · 7 % · 22.01.2026"
+  },
+  {
+   "id": "tx_1hfvyz2_29",
+   "date": "2026-01-22",
+   "platform": "SumUp",
+   "cash_amount": 24.2,
+   "period_id": "sumup-restaurant-396#19",
+   "source_file": "Tagesabschlussbericht-2026-01-22_2026-01-23.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #396 · 19 % · 22.01.2026"
+  },
+  {
+   "id": "tx_t7wpmu_28",
+   "date": "2026-01-18",
+   "platform": "SumUp",
+   "cash_amount": 2.52,
+   "period_id": "sumup-restaurant-392#0",
+   "source_file": "Tagesabschlussbericht-2026-01-18_2026-01-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #392 · 0 % (Trinkgeld) · 18.01.2026"
+  },
+  {
+   "id": "tx_t7wpn1_28",
+   "date": "2026-01-18",
+   "platform": "SumUp",
+   "cash_amount": 45.41,
+   "period_id": "sumup-restaurant-392#7",
+   "source_file": "Tagesabschlussbericht-2026-01-18_2026-01-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #392 · 7 % · 18.01.2026"
+  },
+  {
+   "id": "tx_1hftf0y_29",
+   "date": "2026-01-18",
+   "platform": "SumUp",
+   "cash_amount": 9.56,
+   "period_id": "sumup-restaurant-392#19",
+   "source_file": "Tagesabschlussbericht-2026-01-18_2026-01-19.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #392 · 19 % · 18.01.2026"
+  },
+  {
+   "id": "tx_t7wow5_28",
+   "date": "2026-01-17",
+   "platform": "SumUp",
+   "cash_amount": 12.69,
+   "period_id": "sumup-restaurant-391#0",
+   "source_file": "Tagesabschlussbericht-2026-01-17_2026-01-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #391 · 0 % (Trinkgeld) · 17.01.2026"
+  },
+  {
+   "id": "tx_t7wowc_28",
+   "date": "2026-01-17",
+   "platform": "SumUp",
+   "cash_amount": 271.82,
+   "period_id": "sumup-restaurant-391#7",
+   "source_file": "Tagesabschlussbericht-2026-01-17_2026-01-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #391 · 7 % · 17.01.2026"
+  },
+  {
+   "id": "tx_1hfss1f_29",
+   "date": "2026-01-17",
+   "platform": "SumUp",
+   "cash_amount": 58.29,
+   "period_id": "sumup-restaurant-391#19",
+   "source_file": "Tagesabschlussbericht-2026-01-17_2026-01-18.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #391 · 19 % · 17.01.2026"
+  },
+  {
+   "id": "tx_t7wo5g_28",
+   "date": "2026-01-16",
+   "platform": "SumUp",
+   "cash_amount": 2.04,
+   "period_id": "sumup-restaurant-390#0",
+   "source_file": "Tagesabschlussbericht-2026-01-16_2026-01-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #390 · 0 % (Trinkgeld) · 16.01.2026"
+  },
+  {
+   "id": "tx_t7wo5n_28",
+   "date": "2026-01-16",
+   "platform": "SumUp",
+   "cash_amount": 21,
+   "period_id": "sumup-restaurant-390#7",
+   "source_file": "Tagesabschlussbericht-2026-01-16_2026-01-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #390 · 7 % · 16.01.2026"
+  },
+  {
+   "id": "tx_1hfs51w_29",
+   "date": "2026-01-16",
+   "platform": "SumUp",
+   "cash_amount": 3.76,
+   "period_id": "sumup-restaurant-390#19",
+   "source_file": "Tagesabschlussbericht-2026-01-16_2026-01-17.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #390 · 19 % · 16.01.2026"
+  },
+  {
+   "id": "tx_t7w73h_28",
+   "date": "2026-01-14",
+   "platform": "SumUp",
+   "cash_amount": 0.56,
+   "period_id": "sumup-restaurant-388#0",
+   "source_file": "Tagesabschlussbericht-2026-01-14_2026-01-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #388 · 0 % (Trinkgeld) · 14.01.2026"
+  },
+  {
+   "id": "tx_t7w73o_28",
+   "date": "2026-01-14",
+   "platform": "SumUp",
+   "cash_amount": 15.99,
+   "period_id": "sumup-restaurant-388#7",
+   "source_file": "Tagesabschlussbericht-2026-01-14_2026-01-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #388 · 7 % · 14.01.2026"
+  },
+  {
+   "id": "tx_1hfdgcr_29",
+   "date": "2026-01-14",
+   "platform": "SumUp",
+   "cash_amount": 3.85,
+   "period_id": "sumup-restaurant-388#19",
+   "source_file": "Tagesabschlussbericht-2026-01-14_2026-01-15.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #388 · 19 % · 14.01.2026"
+  },
+  {
+   "id": "tx_t7w6cs_28",
+   "date": "2026-01-13",
+   "platform": "SumUp",
+   "cash_amount": 3.66,
+   "period_id": "sumup-restaurant-387#0",
+   "source_file": "Tagesabschlussbericht-2026-01-13_2026-01-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #387 · 0 % (Trinkgeld) · 13.01.2026"
+  },
+  {
+   "id": "tx_t7w6cz_28",
+   "date": "2026-01-13",
+   "platform": "SumUp",
+   "cash_amount": 66.46,
+   "period_id": "sumup-restaurant-387#7",
+   "source_file": "Tagesabschlussbericht-2026-01-13_2026-01-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #387 · 7 % · 13.01.2026"
+  },
+  {
+   "id": "tx_1hfctd8_29",
+   "date": "2026-01-13",
+   "platform": "SumUp",
+   "cash_amount": 18.08,
+   "period_id": "sumup-restaurant-387#19",
+   "source_file": "Tagesabschlussbericht-2026-01-13_2026-01-14.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #387 · 19 % · 13.01.2026"
+  },
+  {
+   "id": "tx_t7w5m3_28",
+   "date": "2026-01-12",
+   "platform": "SumUp",
+   "cash_amount": 4.26,
+   "period_id": "sumup-restaurant-386#0",
+   "source_file": "Tagesabschlussbericht-2026-01-12_2026-01-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #386 · 0 % (Trinkgeld) · 12.01.2026"
+  },
+  {
+   "id": "tx_t7w5ma_28",
+   "date": "2026-01-12",
+   "platform": "SumUp",
+   "cash_amount": 79.07,
+   "period_id": "sumup-restaurant-386#7",
+   "source_file": "Tagesabschlussbericht-2026-01-12_2026-01-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #386 · 7 % · 12.01.2026"
+  },
+  {
+   "id": "tx_1hfc6dp_29",
+   "date": "2026-01-12",
+   "platform": "SumUp",
+   "cash_amount": 17.57,
+   "period_id": "sumup-restaurant-386#19",
+   "source_file": "Tagesabschlussbericht-2026-01-12_2026-01-13.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #386 · 19 % · 12.01.2026"
+  },
+  {
+   "id": "tx_t7w4ve_28",
+   "date": "2026-01-11",
+   "platform": "SumUp",
+   "cash_amount": 4.31,
+   "period_id": "sumup-restaurant-385#0",
+   "source_file": "Tagesabschlussbericht-2026-01-11_2026-01-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #385 · 0 % (Trinkgeld) · 11.01.2026"
+  },
+  {
+   "id": "tx_t7w4vl_28",
+   "date": "2026-01-11",
+   "platform": "SumUp",
+   "cash_amount": 59.24,
+   "period_id": "sumup-restaurant-385#7",
+   "source_file": "Tagesabschlussbericht-2026-01-11_2026-01-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #385 · 7 % · 11.01.2026"
+  },
+  {
+   "id": "tx_1hfbje6_29",
+   "date": "2026-01-11",
+   "platform": "SumUp",
+   "cash_amount": 9.05,
+   "period_id": "sumup-restaurant-385#19",
+   "source_file": "Tagesabschlussbericht-2026-01-11_2026-01-12.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #385 · 19 % · 11.01.2026"
+  },
+  {
+   "id": "tx_t7w44p_28",
+   "date": "2026-01-10",
+   "platform": "SumUp",
+   "cash_amount": 3.91,
+   "period_id": "sumup-restaurant-384#0",
+   "source_file": "Tagesabschlussbericht-2026-01-10_2026-01-11.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #384 · 0 % (Trinkgeld) · 10.01.2026"
+  },
+  {
+   "id": "tx_t7w44w_28",
+   "date": "2026-01-10",
+   "platform": "SumUp",
+   "cash_amount": 51.61,
+   "period_id": "sumup-restaurant-384#7",
+   "source_file": "Tagesabschlussbericht-2026-01-10_2026-01-11.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #384 · 7 % · 10.01.2026"
+  },
+  {
+   "id": "tx_1hfawen_29",
+   "date": "2026-01-10",
+   "platform": "SumUp",
+   "cash_amount": 15.68,
+   "period_id": "sumup-restaurant-384#19",
+   "source_file": "Tagesabschlussbericht-2026-01-10_2026-01-11.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #384 · 19 % · 10.01.2026"
+  },
+  {
+   "id": "tx_t7w3e0_28",
+   "date": "2026-01-09",
+   "platform": "SumUp",
+   "cash_amount": 4.16,
+   "period_id": "sumup-restaurant-383#0",
+   "source_file": "Tagesabschlussbericht-2026-01-09_2026-01-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #383 · 0 % (Trinkgeld) · 09.01.2026"
+  },
+  {
+   "id": "tx_t7w3e7_28",
+   "date": "2026-01-09",
+   "platform": "SumUp",
+   "cash_amount": 43.54,
+   "period_id": "sumup-restaurant-383#7",
+   "source_file": "Tagesabschlussbericht-2026-01-09_2026-01-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #383 · 7 % · 09.01.2026"
+  },
+  {
+   "id": "tx_1hfa9f4_29",
+   "date": "2026-01-09",
+   "platform": "SumUp",
+   "cash_amount": 9.3,
+   "period_id": "sumup-restaurant-383#19",
+   "source_file": "Tagesabschlussbericht-2026-01-09_2026-01-10.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #383 · 19 % · 09.01.2026"
+  },
+  {
+   "id": "tx_t7w15x_28",
+   "date": "2026-01-06",
+   "platform": "SumUp",
+   "cash_amount": 11.05,
+   "period_id": "sumup-restaurant-380#0",
+   "source_file": "Tagesabschlussbericht-2026-01-06_2026-01-07.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #380 · 0 % (Trinkgeld) · 06.01.2026"
+  },
+  {
+   "id": "tx_t7w164_28",
+   "date": "2026-01-06",
+   "platform": "SumUp",
+   "cash_amount": 181.42,
+   "period_id": "sumup-restaurant-380#7",
+   "source_file": "Tagesabschlussbericht-2026-01-06_2026-01-07.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #380 · 7 % · 06.01.2026"
+  },
+  {
+   "id": "tx_1hf8cgj_29",
+   "date": "2026-01-06",
+   "platform": "SumUp",
+   "cash_amount": 47.83,
+   "period_id": "sumup-restaurant-380#19",
+   "source_file": "Tagesabschlussbericht-2026-01-06_2026-01-07.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #380 · 19 % · 06.01.2026"
+  },
+  {
+   "id": "tx_t7vkun_28",
+   "date": "2026-01-05",
+   "platform": "SumUp",
+   "cash_amount": 1.15,
+   "period_id": "sumup-restaurant-379#0",
+   "source_file": "Tagesabschlussbericht-2026-01-05_2026-01-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #379 · 0 % (Trinkgeld) · 05.01.2026"
+  },
+  {
+   "id": "tx_t7vkuu_28",
+   "date": "2026-01-05",
+   "platform": "SumUp",
+   "cash_amount": 69.91,
+   "period_id": "sumup-restaurant-379#7",
+   "source_file": "Tagesabschlussbericht-2026-01-05_2026-01-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #379 · 7 % · 05.01.2026"
+  },
+  {
+   "id": "tx_1heuaqx_29",
+   "date": "2026-01-05",
+   "platform": "SumUp",
+   "cash_amount": 14.34,
+   "period_id": "sumup-restaurant-379#19",
+   "source_file": "Tagesabschlussbericht-2026-01-05_2026-01-06.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #379 · 19 % · 05.01.2026"
+  },
+  {
+   "id": "tx_t7vk3y_28",
+   "date": "2026-01-04",
+   "platform": "SumUp",
+   "cash_amount": 1.35,
+   "period_id": "sumup-restaurant-378#0",
+   "source_file": "Tagesabschlussbericht-2026-01-04_2026-01-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #378 · 0 % (Trinkgeld) · 04.01.2026"
+  },
+  {
+   "id": "tx_t7vk45_28",
+   "date": "2026-01-04",
+   "platform": "SumUp",
+   "cash_amount": 16.31,
+   "period_id": "sumup-restaurant-378#7",
+   "source_file": "Tagesabschlussbericht-2026-01-04_2026-01-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #378 · 7 % · 04.01.2026"
+  },
+  {
+   "id": "tx_1hetnre_29",
+   "date": "2026-01-04",
+   "platform": "SumUp",
+   "cash_amount": 3.74,
+   "period_id": "sumup-restaurant-378#19",
+   "source_file": "Tagesabschlussbericht-2026-01-04_2026-01-05.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #378 · 19 % · 04.01.2026"
+  },
+  {
+   "id": "tx_t7vjd9_28",
+   "date": "2026-01-03",
+   "platform": "SumUp",
+   "cash_amount": 7.51,
+   "period_id": "sumup-restaurant-377#0",
+   "source_file": "Tagesabschlussbericht-2026-01-03_2026-01-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #377 · 0 % (Trinkgeld) · 03.01.2026"
+  },
+  {
+   "id": "tx_t7vjdg_28",
+   "date": "2026-01-03",
+   "platform": "SumUp",
+   "cash_amount": 163.82,
+   "period_id": "sumup-restaurant-377#7",
+   "source_file": "Tagesabschlussbericht-2026-01-03_2026-01-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #377 · 7 % · 03.01.2026"
+  },
+  {
+   "id": "tx_1het0rv_29",
+   "date": "2026-01-03",
+   "platform": "SumUp",
+   "cash_amount": 46.77,
+   "period_id": "sumup-restaurant-377#19",
+   "source_file": "Tagesabschlussbericht-2026-01-03_2026-01-04.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #377 · 19 % · 03.01.2026"
+  },
+  {
+   "id": "tx_t7vimk_28",
+   "date": "2026-01-02",
+   "platform": "SumUp",
+   "cash_amount": 2.39,
+   "period_id": "sumup-restaurant-376#0",
+   "source_file": "Tagesabschlussbericht-2026-01-02_2026-01-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #376 · 0 % (Trinkgeld) · 02.01.2026"
+  },
+  {
+   "id": "tx_t7vimr_28",
+   "date": "2026-01-02",
+   "platform": "SumUp",
+   "cash_amount": 46.97,
+   "period_id": "sumup-restaurant-376#7",
+   "source_file": "Tagesabschlussbericht-2026-01-02_2026-01-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #376 · 7 % · 02.01.2026"
+  },
+  {
+   "id": "tx_1hesdsc_29",
+   "date": "2026-01-02",
+   "platform": "SumUp",
+   "cash_amount": 6.15,
+   "period_id": "sumup-restaurant-376#19",
+   "source_file": "Tagesabschlussbericht-2026-01-02_2026-01-03.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #376 · 19 % · 02.01.2026"
+  },
+  {
+   "id": "tx_t7vhvv_28",
+   "date": "2026-01-01",
+   "platform": "SumUp",
+   "cash_amount": 1.75,
+   "period_id": "sumup-restaurant-375#0",
+   "source_file": "Tagesabschlussbericht-2026-01-01_2026-01-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #375 · 0 % (Trinkgeld) · 01.01.2026"
+  },
+  {
+   "id": "tx_t7vhw2_28",
+   "date": "2026-01-01",
+   "platform": "SumUp",
+   "cash_amount": 61.16,
+   "period_id": "sumup-restaurant-375#7",
+   "source_file": "Tagesabschlussbericht-2026-01-01_2026-01-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #375 · 7 % · 01.01.2026"
+  },
+  {
+   "id": "tx_1herqst_29",
+   "date": "2026-01-01",
+   "platform": "SumUp",
+   "cash_amount": 10.6,
+   "period_id": "sumup-restaurant-375#19",
+   "source_file": "Tagesabschlussbericht-2026-01-01_2026-01-02.pdf",
+   "note": "SumUp Restaurant Tagesabschluss #375 · 19 % · 01.01.2026"
   }
  ]
 }
