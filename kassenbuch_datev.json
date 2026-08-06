@@ -1,0 +1,138 @@
+{
+ "period": "DATEV (Herr Steuer, Jan-Jun 2026)",
+ "methodology": "Bar-Zuwachs = Tageseinnahmen 7%+19% + Trinkgeld Einnahme + Pfand Einnahme − Pfand Ausgabe − Karte/Sumup-Ausgabe (Kassenbuch bildet nur physisches Bargeld ab, nicht den kompletten Umsatz). Monatsebene, da die tageweise DATEV-Erfassung aus einer fruheren Session stammt und die Rohzeilen hier nicht mehr vorliegen — nur die monatlich reconciled Bar/Karte/Ausgaben-Summen aus dem SumUp-Verkaufsbericht.",
+ "gegenkonten": {
+  "Tageseinnahmen 7%": "4300",
+  "Tageseinnahmen 19%": "4400",
+  "Trinkgeld": "1375",
+  "Pfand (nur Tollwood)": "3786",
+  "Sumup/Karte Restaurant": "1463",
+  "EC/Karte Foodtruck+Tollwood": "1462",
+  "Lieferando": "1465",
+  "Wolt": "1466",
+  "Uber Eats": "1467",
+  "Lohn bar": "3720",
+  "Einzahlung Bank": "1460"
+ },
+ "vat_split_confirmed": {
+  "UberEats": {
+   "pct7": 97.84,
+   "pct19": 2.16
+  },
+  "SumUp Restaurant": {
+   "pct7": 83.97,
+   "pct19": 16.03
+  },
+  "Wolt": {
+   "pct7": 100.0,
+   "pct19": 0.0
+  },
+  "Lieferando": {
+   "pct7": 100.0,
+   "pct19": 0.0
+  }
+ },
+ "monthly": [
+  {
+   "month": "2026-01",
+   "umsatzGesamt": 39470.93,
+   "bar": 5965.799999999999,
+   "karte": 35184.729999999996,
+   "ausgaben": 4375.070000000001,
+   "trinkgeld": 751.94,
+   "nettoBarBewegung": 1590.73
+  },
+  {
+   "month": "2026-02",
+   "umsatzGesamt": 52010.45,
+   "bar": 5741.91,
+   "karte": 46486.43999999999,
+   "ausgaben": 6052.39,
+   "trinkgeld": 1007.28,
+   "nettoBarBewegung": -310.48
+  },
+  {
+   "month": "2026-03",
+   "umsatzGesamt": 61438.79,
+   "bar": 5739.079999999999,
+   "karte": 55971.70999999999,
+   "ausgaben": 6064.780000000001,
+   "trinkgeld": 1254.43,
+   "nettoBarBewegung": -325.7
+  },
+  {
+   "month": "2026-04",
+   "umsatzGesamt": 49255.05,
+   "bar": 5138.75,
+   "karte": 45194.30000000001,
+   "ausgaben": 8114.63,
+   "trinkgeld": 960.01,
+   "nettoBarBewegung": -2975.88
+  },
+  {
+   "month": "2026-05",
+   "umsatzGesamt": 47435.99,
+   "bar": 6145.929999999999,
+   "karte": 49084.05999999999,
+   "ausgaben": 6308.9,
+   "trinkgeld": 1076.82,
+   "nettoBarBewegung": -162.97
+  },
+  {
+   "month": "2026-06",
+   "umsatzGesamt": 65360.63,
+   "bar": 15111.23,
+   "karte": 63583.3,
+   "ausgaben": 13275.670000000002,
+   "trinkgeld": 637.76,
+   "nettoBarBewegung": 1835.56
+  }
+ ],
+ "deliveryPassThrough": {
+  "note": "Lieferdienst-Umsatz wird zusaetzlich als Tageseinnahme 7%/19% gebucht UND als gleich hohe Ausgabe (Gegenkonto 1465/1466/1467) — Netto-Effekt auf Bar-Bestand = 0. Reine buchhalterische Sichtbarmachung des Lieferumsatzes im Kassenbuch.",
+  "monthly": [
+   {
+    "month": "2026-01",
+    "uberEats": 15571.0,
+    "wolt": 1773.7,
+    "lieferando": 4235.1,
+    "gesamt": 21579.8
+   },
+   {
+    "month": "2026-02",
+    "uberEats": 16593.0,
+    "wolt": 3393.7,
+    "lieferando": 7709.1,
+    "gesamt": 27695.8
+   },
+   {
+    "month": "2026-03",
+    "uberEats": 19058.8,
+    "wolt": 3819.62,
+    "lieferando": 8231.1,
+    "gesamt": 31109.52
+   },
+   {
+    "month": "2026-04",
+    "uberEats": 12588.7,
+    "wolt": 4568.34,
+    "lieferando": 6334.89,
+    "gesamt": 23491.93
+   },
+   {
+    "month": "2026-05",
+    "uberEats": 12884.6,
+    "wolt": 5965.93,
+    "lieferando": 7080.63,
+    "gesamt": 25931.16
+   },
+   {
+    "month": "2026-06",
+    "uberEats": 9999.3,
+    "wolt": 4918.4,
+    "lieferando": 4867.7,
+    "gesamt": 19785.4
+   }
+  ]
+ }
+}
