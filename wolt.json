@@ -1,6 +1,6 @@
 {
  "platform": "Wolt",
- "lastUpdated": "2026-08-05",
+ "lastUpdated": "2026-08-15",
  "note": "Weekly Hexa invoicing cycle. Each period = merchant invoice (platform fees), payout report (revenue detail + payout), sales report (order-level detail). Figures below are period-level summaries, not order-line detail.",
  "periods": [
   {
@@ -104,6 +104,61 @@
     "merchantInvoice": "1pHIL2C8vita4jrdgJHs84livSe5FZJfI",
     "payoutReport": "1HLrgdSQ9RM1-HvGi3MoxMUwgct28ooeH",
     "salesReport": "1C8uvhoo_32bHIuEZGnhTIkUBreW-ZQoZ"
+   }
+  },
+  {
+   "periodEnd": "2026-08-05",
+   "period": "2026-08-01 to 2026-08-05",
+   "invoiceNo": "DEU/26/HRB217122B/1/512733",
+   "invoiceDate": "2026-08-05",
+   "wolt_fee_net": 245.88,
+   "wolt_fee_vat": 46.71,
+   "wolt_fee_gross": 292.59,
+   "orderFees_net": 13.23,
+   "orderFees_gross": 15.74,
+   "deliveryServiceFees_net": 90.61,
+   "deliveryServiceFees_gross": 107.82,
+   "adSpend_net": -26.57,
+   "adSpend_gross": -31.61,
+   "invoiceTotal_gross": 384.54,
+   "revenue_goods_net": 813.44,
+   "revenue_goods_gross": 870.46,
+   "revenue_delivery_service_net": 95.37,
+   "revenue_delivery_service_gross": 101.85,
+   "payoutCorrections": -6.54,
+   "payoutAmount": 580.77,
+   "driveFileIds": {
+    "merchantInvoice": "1mxxQ8-LtOuCYgHpLWalborjLsk1SNtj_",
+    "payoutReport": "1iw7zk570CDtXkgNu1I7FpRkwM74qi5lA",
+    "salesReport": "1ndz9M_VdhM7aclM1m_9ls49JcczOuaZi"
+   }
+  },
+  {
+   "periodEnd": "2026-08-10",
+   "period": "2026-08-06 to 2026-08-10",
+   "invoiceNo": "DEU/26/HRB217122B/1/523765",
+   "invoiceDate": "2026-08-10",
+   "wolt_fee_net": 254.13,
+   "wolt_fee_vat": 48.28,
+   "wolt_fee_gross": 302.41,
+   "orderFees_net": 11.27,
+   "orderFees_gross": 13.41,
+   "deliveryServiceFees_net": 96.35,
+   "deliveryServiceFees_gross": 114.65,
+   "lateFees_gross": 2.8,
+   "adSpend_net": 52.04,
+   "adSpend_gross": 61.93,
+   "invoiceTotal_gross": 495.2,
+   "revenue_goods_net": 875.87,
+   "revenue_goods_gross": 937.24,
+   "revenue_delivery_service_net": 105.89,
+   "revenue_delivery_service_gross": 113.03,
+   "payoutCorrections": 0.0,
+   "payoutAmount": 555.07,
+   "driveFileIds": {
+    "merchantInvoice": "1kKlqjvrBsYWcoO76LCBcWAFWEvEnCKGY",
+    "payoutReport": "18yjWFq5X56vh7f2DKzLURwuLYtStuF-3",
+    "salesReport": "1xBuUFOLj0XSyhVXDdHqxC36uldInE49q"
    }
   }
  ]
