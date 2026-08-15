@@ -20,98 +20,105 @@
    "umsatz": 39470.93,
    "uber": 15571.0,
    "wolt": 1773.7,
-   "lieferando": 4235.1,
+   "lieferando": 4155.5,
    "sumup_restaurant": 15873.63,
    "sumup_foodtruck": 2017.5,
    "tollwood": 0,
    "bar": 5965.799999999999,
    "karte": 35184.729999999996,
    "ausgaben": 4375.070000000001,
-   "trinkgeld": 751.94
+   "trinkgeld": 751.94,
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
   },
   {
    "month": "2026-02",
    "umsatz": 52010.45,
    "uber": 16593.0,
    "wolt": 3393.7,
-   "lieferando": 7709.1,
+   "lieferando": 7650.61,
    "sumup_restaurant": 22627.15,
    "sumup_foodtruck": 1687.5,
    "tollwood": 0,
    "bar": 5741.91,
    "karte": 46486.43999999999,
    "ausgaben": 6052.39,
-   "trinkgeld": 1007.28
+   "trinkgeld": 1007.28,
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
   },
   {
    "month": "2026-03",
    "umsatz": 61438.79,
    "uber": 19058.8,
    "wolt": 3819.62,
-   "lieferando": 8231.1,
+   "lieferando": 8135.1,
    "sumup_restaurant": 26071.77,
    "sumup_foodtruck": 4257.5,
    "tollwood": 0,
    "bar": 5739.079999999999,
    "karte": 55971.70999999999,
    "ausgaben": 6064.780000000001,
-   "trinkgeld": 1254.43
+   "trinkgeld": 1254.43,
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
   },
   {
    "month": "2026-04",
    "umsatz": 49255.05,
    "uber": 12588.7,
    "wolt": 4568.34,
-   "lieferando": 6334.89,
+   "lieferando": 6255.61,
    "sumup_restaurant": 20481.02,
    "sumup_foodtruck": 5282.1,
    "tollwood": 0,
    "bar": 5138.75,
    "karte": 45194.30000000001,
    "ausgaben": 8114.63,
-   "trinkgeld": 960.01
+   "trinkgeld": 960.01,
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
   },
   {
    "month": "2026-05",
    "umsatz": 47435.99,
    "uber": 12884.6,
    "wolt": 5965.93,
-   "lieferando": 7080.63,
+   "lieferando": 7091.68,
    "sumup_restaurant": 21497.33,
    "sumup_foodtruck": 7.5,
    "tollwood": 0,
    "bar": 6145.929999999999,
    "karte": 49084.05999999999,
    "ausgaben": 6308.9,
-   "trinkgeld": 1076.82
+   "trinkgeld": 1076.82,
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
   },
   {
    "month": "2026-06",
    "umsatz": 65360.63,
    "uber": 9999.3,
    "wolt": 4918.4,
-   "lieferando": 4867.7,
+   "lieferando": 4796.05,
    "sumup_restaurant": 16715.73,
    "sumup_foodtruck": 27.5,
    "tollwood": 28832.000000000004,
    "bar": 15111.23,
    "karte": 63583.3,
    "ausgaben": 13275.670000000002,
-   "trinkgeld": 637.76
+   "trinkgeld": 637.76,
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
   },
   {
    "month": "2026-07",
    "umsatz": 137782.32,
    "uber": 17862.8,
    "wolt": 6663.219999999999,
-   "lieferando": 6634.95,
+   "lieferando": 6589.15,
    "sumup_restaurant": 17966.35,
    "sumup_foodtruck": 25.5,
    "tollwood": 88629.50000000001,
    "bar": 37958.00000000001,
    "karte": 110017.22000000002,
    "ausgaben": 12051.719999999998,
-   "trinkgeld": 627.97
+   "trinkgeld": 627.97,
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
   },
   {
    "month": "2026-08",
@@ -119,7 +126,7 @@
    "ausgaben": 0,
    "uber": 8172.9,
    "wolt": 0,
-   "lieferando": 0,
+   "lieferando": 2289.9,
    "sumup_restaurant": 1982.83,
    "sumup_foodtruck": 0,
    "tollwood": 0,
@@ -127,7 +134,8 @@
    "karte": 2529.0,
    "trinkgeld": 114.28,
    "uberOrders": 163,
-   "uberSource": "Uber sales-over-time CSV export, month-to-date as of 2026-08-15 (partial month)"
+   "uberSource": "Uber sales-over-time CSV export, month-to-date as of 2026-08-15 (partial month)",
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
   }
  ],
  "live_periods": [
