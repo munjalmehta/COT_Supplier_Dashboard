@@ -1,6 +1,6 @@
 {
  "platform": "Lieferando (Takeaway.com)",
- "lastUpdated": "2026-08-05",
+ "lastUpdated": "2026-08-15",
  "weeks": [
   {
    "periodStart": "2026-06-21",
@@ -88,6 +88,40 @@
    "invoiceTotal_gross": 756.95,
    "payoutAmount": 784.55,
    "driveFileId": "1Uk2os6sfC4Rua0UDYXkYjgHVwo9WRfmp"
+  },
+  {
+   "periodStart": "2026-07-26",
+   "periodEnd": "2026-08-01",
+   "invoiceDate": "2026-08-02",
+   "invoiceNo": "352560272",
+   "orders": 40,
+   "revenue_gross": 1541.1,
+   "serviceFee30pct": 422.26,
+   "topRankFee": 138.75,
+   "onlinePaymentAdminFee": 25.6,
+   "pickupFee14pct": 18.7,
+   "subtotal_net": 605.31,
+   "vat19": 115.01,
+   "invoiceTotal_gross": 720.32,
+   "payoutAmount": 820.78,
+   "driveFileId": "1poSJDubH5OrB7LqaNN1C5uMWQFZyXVfB"
+  },
+  {
+   "periodStart": "2026-08-02",
+   "periodEnd": "2026-08-08",
+   "invoiceDate": "2026-08-09",
+   "invoiceNo": "353445212",
+   "orders": 38,
+   "revenue_gross": 1137.2,
+   "serviceFee30pct": 314.46,
+   "topRankFee": 131.25,
+   "onlinePaymentAdminFee": 24.32,
+   "pickupFee14pct": 12.46,
+   "subtotal_net": 482.49,
+   "vat19": 91.67,
+   "invoiceTotal_gross": 574.16,
+   "payoutAmount": 563.04,
+   "driveFileId": "1djFH_PlWxTm9z7aAYWeGGK1XJ19ALg6l"
   }
  ]
 }
