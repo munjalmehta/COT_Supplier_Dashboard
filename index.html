@@ -356,8 +356,25 @@
     <p class="section-sub">Lieferdienst-Umsatz wird als Tageseinnahme UND gleich hohe Ausgabe gebucht (Gegenkonto 1465/1466/1467) — Netto-Effekt auf Bar-Bestand = 0.</p>
     <div id="datevDeliveryWrap" class="table-wrap" style="margin-bottom:30px;"></div>
 
-    <h2 class="section-title">AGENDA-Periode (ab 01.07.2026) — Tagesebene</h2>
-    <p class="section-sub">Reale Kassenbuch-Einträge aus dem AGENDA-Export (SumUp Restaurant/Foodtruck, Tollwood Bar-Anteile).</p>
+    <h2 class="section-title" style="margin-top:20px;">AGENDA-Periode — echte Buchungen (Tollwood + Foodtruck)</h2>
+    <p class="section-sub">Direkt aus den AGENDA-Kassenbuch-Exportdateien von Frau Ottensmeyer — Status "bereitgestellt"/"neu". Restaurant (Kasse 1602) ist in diesem Upload nicht enthalten.</p>
+    <div id="agendaKbSummaryWrap" class="table-wrap" style="margin-bottom:12px;"></div>
+    <div class="filter-bar">
+      <div class="filter-field"><label>Kasse</label>
+        <select id="agKbKasse"><option value="">Alle</option><option value="Tollwood">Tollwood</option><option value="Foodtruck">Foodtruck</option></select>
+      </div>
+      <div class="filter-field"><label>Von Datum</label><input type="date" id="agKbFrom"></div>
+      <div class="filter-field"><label>Bis Datum</label><input type="date" id="agKbTo"></div>
+      <div class="filter-actions">
+        <button class="filter-btn apply" id="agKbApply">Filtern</button>
+        <button class="filter-btn reset" id="agKbReset">Zurücksetzen</button>
+      </div>
+    </div>
+    <div class="filter-count" id="agKbCount"></div>
+    <div id="agendaKbEntriesWrap" class="table-wrap" style="margin-bottom:30px;"></div>
+
+    <h2 class="section-title">AGENDA-Periode (ab 01.07.2026) — App-Export, alle Kassen</h2>
+    <p class="section-sub">Kassenbuch-App-Export (nur Bargeld-Anteil, alle Kassen inkl. Restaurant) — zur Gegenprobe der obigen echten AGENDA-Buchungen.</p>
     <div class="filter-bar">
       <div class="filter-field"><label>Von Datum</label><input type="date" id="kbFrom"></div>
       <div class="filter-field"><label>Bis Datum</label><input type="date" id="kbTo"></div>
@@ -508,7 +525,7 @@ const SUPPLIER_FILES = {
 };
 
 // ---- global state (raw data, fetched once) ----
-const STATE = { supplierData: {}, kassenbuch: null, revenueMonthly: null, prices: null, recipes: null, delivery: {} };
+const STATE = { supplierData: {}, kassenbuch: null, agendaKassenbuch: null, revenueMonthly: null, prices: null, recipes: null, delivery: {} };
 
 function kpi(label, value, sub, cls){
   return `<div class="kpi ${cls||''}"><p class="kpi-label">${label}</p><p class="kpi-value">${value}</p>${sub?`<p class="kpi-sub">${sub}</p>`:''}</div>`;
@@ -590,6 +607,38 @@ function renderDatevTables(kd){
     <thead><tr><th>Monat</th><th class="num">Uber Eats (1467)</th><th class="num">Wolt (1466)</th><th class="num">Lieferando (1465)</th><th class="num">Gesamt (Einnahme = Ausgabe)</th></tr></thead>
     <tbody>${kd.deliveryPassThrough.monthly.map(m=>`<tr><td>${m.month}</td><td class="num">${fmtEUR(m.uberEats)}</td><td class="num">${fmtEUR(m.wolt)}</td><td class="num">${fmtEUR(m.lieferando)}</td><td class="num">${fmtEUR(m.gesamt)}</td></tr>`).join('')}</tbody>
   </table>`;
+}
+
+/* ============ KASSENBUCH: real AGENDA data (Tollwood + Foodtruck) ============ */
+function renderAgendaKbTables(){
+  const ag = STATE.agendaKassenbuch;
+  if(!ag) return;
+  const kasse = document.getElementById('agKbKasse').value;
+  const from = document.getElementById('agKbFrom').value;
+  const to = document.getElementById('agKbTo').value;
+
+  document.getElementById('agendaKbSummaryWrap').innerHTML = `<table>
+    <thead><tr><th>Kasse</th><th>Monat</th><th class="num">Einnahmen 7%</th><th class="num">Einnahmen 19%</th><th class="num">Pfand Ein/Aus</th><th class="num">EC/Karte</th><th class="num">Trinkgeld</th><th class="num">Lohn bar</th><th class="num">Einzahlung Bank</th><th class="num">Buchungen</th></tr></thead>
+    <tbody>${ag.monthlySummary.map(s=>`<tr>
+      <td>${s.kasse}</td><td>${s.month}</td><td class="num">${fmtEUR(s.einnahmen7)}</td><td class="num">${fmtEUR(s.einnahmen19)}</td>
+      <td class="num">${fmtEUR(s.pfandEinnahme + s.pfandAusgabe)}</td><td class="num">${fmtEUR(s.ecKarte)}</td><td class="num">${fmtEUR(s.trinkgeld)}</td>
+      <td class="num">${fmtEUR(s.lohnBar)}</td><td class="num">${fmtEUR(s.einzahlungBank)}</td><td class="num">${s.count}</td>
+    </tr>`).join('')}</tbody>
+  </table>`;
+
+  const filtered = ag.entries.filter(e => (!kasse || e.kasse===kasse) && inRange(e.date, from, to));
+  document.getElementById('agKbCount').textContent = `${filtered.length} von ${ag.entryCount} Buchungen`;
+  document.getElementById('agendaKbEntriesWrap').innerHTML = `<table>
+    <thead><tr><th>Datum</th><th>Kasse</th><th>Text</th><th class="num">Betrag</th><th class="num">USt%</th><th>Notiz</th></tr></thead>
+    <tbody>${filtered.length?filtered.map(e=>`<tr><td>${fmtDate(e.date)}</td><td>${e.kasse}</td><td>${e.text}</td><td class="num">${fmtEUR(e.amount)}</td><td class="num">${e.ustPct!==null?e.ustPct+'%':''}</td><td style="white-space:normal;">${e.notiz||''}</td></tr>`).join(''):emptyRow(6)}</tbody>
+  </table>`;
+}
+function initAgendaKbFilters(){
+  document.getElementById('agKbApply').addEventListener('click', renderAgendaKbTables);
+  document.getElementById('agKbReset').addEventListener('click', ()=>{
+    document.getElementById('agKbKasse').value=''; document.getElementById('agKbFrom').value=''; document.getElementById('agKbTo').value='';
+    renderAgendaKbTables();
+  });
 }
 
 /* ============ KASSENBUCH: AGENDA period ============ */
@@ -877,6 +926,7 @@ document.querySelectorAll('.tabbtn').forEach(btn=>{
     await loadSuppliers(manifest);
 
     try{ STATE.kassenbuch = await jget('kassenbuch.json'); renderKassenbuchTables(); initKassenbuchFilters(); }catch(e){}
+    try{ STATE.agendaKassenbuch = await jget('agenda_kassenbuch.json'); renderAgendaKbTables(); initAgendaKbFilters(); }catch(e){}
     try{ const kd = await jget('kassenbuch_datev.json'); renderDatevTables(kd); }catch(e){}
     await loadDelivery();
     try{ STATE.revenueMonthly = await jget('revenue_monthly.json'); renderMonthlyTable(); initMonthlyFilters(); }catch(e){}
