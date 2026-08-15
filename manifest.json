@@ -95,8 +95,8 @@
  },
  "revenueByPlatform": {
   "source": "claude-dashboard-checkpoint/checkpoint-part1-overview.json (Google Drive, saved 2026-08-03)",
-  "period": "inception through 2026-07-27 (all channels); SumUp Restaurant + Foodtruck extended through 2026-08-05",
-  "note": "Full revenue reconciliation across all sales channels, from a separate/earlier dashboard build. Distinct from the deliveryPlatforms section above, which only covers weekly fee/payout detail for June-July 2026. Figures here are cumulative since inception. SumUp Restaurant/Foodtruck refreshed 2026-08-15 using Verkaufsbericht CSV covering 01.08-05.08.2026 (Restaurant) and 03.08-05.08.2026 (Foodtruck), added to the 27.07.2026 baseline. KNOWN GAP: 28.07-31.07.2026 not covered by any source found — not included, not estimated. Delivery-platform pass-through rows (Wolt/Uber/Lieferando bookings inside SumUp) excluded from these figures to avoid double-counting with wolt.json/uber_eats.json/lieferando.json.",
+  "period": "inception through 2026-07-27 (all other channels); SumUp Restaurant + Foodtruck fully extended through 2026-08-14 using complete Verkaufsbericht exports",
+  "note": "SumUp Restaurant/Foodtruck refreshed 2026-08-15 using full Verkaufsbericht CSVs (01.07-14.08.2026), replacing the earlier partial 01.08-05.08 patch. No remaining gap for these two channels. Delivery-platform pass-through rows (Wolt/Uber/Lieferando bookings inside SumUp) excluded to avoid double-counting with wolt.json/uber_eats.json/lieferando.json. Other channels (UberEats/Tollwood/Lieferando/Wolt) still dated through 27.07.2026.",
   "byPlatform": [
    {
     "platform": "UberEats",
@@ -111,13 +111,13 @@
    },
    {
     "platform": "SumUp Restaurant",
-    "orderCount": 4221,
-    "gross": 158450.41,
-    "net": 145795.27,
-    "vat7": 8785.36,
-    "vat19": 3857.93,
+    "orderCount": 4385,
+    "gross": 165265.81,
+    "net": 152053.91,
+    "vat7": 9155.08,
+    "vat19": 4044.97,
     "platformFees": 0.0,
-    "payout": 158450.41,
+    "payout": 165265.81,
     "commissionPct": 0.0
    },
    {
@@ -144,13 +144,13 @@
    },
    {
     "platform": "SumUp Foodtruck",
-    "orderCount": 2357,
-    "gross": 38239.6,
-    "net": 35719.81,
-    "vat7": 2490.7,
-    "vat19": 26.58,
+    "orderCount": 2579,
+    "gross": 40960.1,
+    "net": 38260.95,
+    "vat7": 2667.66,
+    "vat19": 28.98,
     "platformFees": 0.0,
-    "payout": 38239.6,
+    "payout": 40960.1,
     "commissionPct": 0.0
    },
    {
@@ -166,15 +166,15 @@
    }
   ],
   "totals": {
-   "bruttoumsatz": 491828.59,
-   "nettoumsatz": 456702.37,
-   "ust7": 30138.62,
-   "ust19": 4973.24,
+   "bruttoumsatz": 501364.49,
+   "nettoumsatz": 465502.15,
+   "ust7": 30685.3,
+   "ust19": 5162.68,
    "plattformGebuehren": 72639.79,
-   "auszahlungGesamt": 419188.8,
+   "auszahlungGesamt": 428724.7,
    "bargeldKasse": 51620.53,
    "ustZahllastGesamt": 30087.84,
-   "anzahlVerkaeufe": 10397
+   "anzahlVerkaeufe": 10783
   }
  }
 }
