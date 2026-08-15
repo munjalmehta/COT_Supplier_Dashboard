@@ -1,111 +1,140 @@
 {
-  "_purpose": "Standing config for COT Supplier Dashboard rescans. Load this FIRST in any new session before rescanning suppliers/delivery platforms/SumUp/Kassenbuch, instead of reconstructing folder IDs and logic from memory text or old chats.",
-  "_repo": "github.com/munjalmehta/COT_Supplier_Dashboard",
-  "_dashboard_url": "https://munjalmehta.github.io/COT_Supplier_Dashboard/",
-  "_lastUpdated": "2026-08-15",
+  "_purpose": "Standing reference for all COT_Supplier_Dashboard rescans. ALWAYS fetch and read this file first (via raw.githubusercontent.com) before any supplier/delivery-platform/SumUp/Kassenbuch rescan, instead of reconstructing folder IDs, schemas, and logic from memory text each session. Update and repush this file whenever new logic/folders/quirks are discovered.",
+  "repo": "munjalmehta/COT_Supplier_Dashboard",
+  "dashboard_url": "https://munjalmehta.github.io/COT_Supplier_Dashboard/",
+  "github_push_method": "curl with PAT (full 'repo' scope required, ask user for it fresh each session - never persisted). GET current file sha via api.github.com/repos/{repo}/contents/{path}, then PUT with base64 content + sha. ALWAYS use api.github.com for reads before editing, never raw.githubusercontent.com (CDN can serve stale cached content).",
 
-  "github": {
-    "repo": "munjalmehta/COT_Supplier_Dashboard",
-    "raw_base": "https://raw.githubusercontent.com/munjalmehta/COT_Supplier_Dashboard/main/",
-    "api_base": "https://api.github.com/repos/munjalmehta/COT_Supplier_Dashboard",
-    "push_method": "PAT via curl (GET sha, then PUT with base64 content). Always fetch current sha first to avoid overwrite conflicts. Use GitHub API, not raw.githubusercontent.com, for pre-edit reads (CDN can be stale).",
-    "note": "PAT is not persisted between sessions (fresh container each time) - must be re-supplied by Munjal when pushing is needed."
-  },
-
-  "supplier_folders": {
-    "root_supplier_bills": {"id": "1rgPDkBYaDa4XO6uxxLut5K58pKImS641", "note": "loose unfiled invoices sometimes appear here directly, check on rescan"},
-    "Rajesh Global Food": {"folderId": "1vSyGnfTTkdrWRNDMnQ3YK-CQibJ-YKVO", "dataFile": "rajesh_global_food.json"},
-    "GFT Group": {"folderId": "1BCgWROx-H_theFZx0subsjX0l362oCNU", "dataFile": "gft_group.json"},
-    "Ökoring": {"folderId": "1E_96Q8gf34aNt_OrGQ5ajwRcbuNHkifm", "dataFile": "oekoring.json"},
-    "Kupfer & Sohn": {"folderId": "1AR7acZ6X9dEgjuM5NgQEnGpPudqsXcEX", "dataFile": "kupfer_sohn.json"},
-    "RK Traders": {"folderId": "1vJulXtljk9DZ0rQ1QhlXUjMNtWQbjoXT", "dataFile": "rk_traders.json", "note": "folder sometimes titled 'Rohit' but same folder ID"},
-    "Metro": {"folderId": "1PFJqDo4yXcyHX7W58Ge0uoz59NOB8zYi", "dataFile": "metro.json"},
-    "Smart Elite Dienstleistungen GmbH": {"folderId": null, "dataFile": "smart_elite.json", "note": "new supplier found unfiled in root_supplier_bills 15.08.2026 - only 1 invoice so far, no dedicated folder yet"}
-  },
-  "supplier_invoice_schema": {
-    "common_fields": ["invoiceNo", "date", "netTotal", "vat7 and/or vat19", "grossTotal", "driveFileId"],
-    "optional_fields": ["dueDate", "deliveryDate", "orderNo", "deliveryNo", "store", "lineItems (sku/description/qty/unit/unitPrice/vat/amount)", "summary (for bulk-basket suppliers like Metro/Kupfer where full lineItems aren't worth extracting)"],
-    "rescan_procedure": [
-      "1. Fetch current manifest.json from repo to get each supplier's latestInvoiceDate",
-      "2. For each supplier folder, Google Drive:search_files with parentId + modifiedTime > latestInvoiceDate (or a safe buffer before it)",
-      "3. Dedupe against existing invoiceNo list in that supplier's dataFile (fetch from repo) - many re-uploads/duplicate filenames of the same invoice appear",
-      "4. Parse contentSnippet OCR text for new invoices only",
-      "5. Batch all new invoices across all suppliers, append to respective JSON files, recompute manifest totals in ONE pass",
-      "6. Push all changed files in one batch at the end, not one push per supplier"
-    ]
-  },
-
-  "delivery_platform_folders": {
-    "Wolt": {"folderId": "1UcSBEBixsTXsIIEg9dthytzEh7lvSex0", "dataFile": "wolt.json", "unit": "period (weekly-ish, ~5 day cycles, 3 files per period: merchant invoice/fee, payout report, sales report)"},
-    "Uber Eats": {"folderId": "12TWNeL7x3R8CaogSponHsdsS94JnvdRP", "dataFile": "uber_eats.json", "unit": "week (Mon-Sun), source = weekly Aktivitätsübersicht PDF + official quarterly-ish fee invoice PDFs (0000029 etc, link via officialInvoiceNo)", "authoritative_monthly_source": "Uber's own 'sales-over-time' CSV export (user uploads periodically) - use this for monthly gross totals instead of summing weekly PDFs when available, it's ground truth and cheaper to process"},
-    "Lieferando": {"folderId": "1LShwD0UKoGdfMxSatdtfr2iCdG3m8zBf", "dataFile": "lieferando.json", "unit": "week (source = TAKEAWAY_EXPORT weekly invoice PDF)", "authoritative_monthly_source": "Lieferando 'online_payments_report' CSV, one per calendar month (user uploads periodically, columns Date;Description/OrderRef;Amount formatted 'XX.XX €'). This is calendar-month aligned (unlike weekly invoices which cross month boundaries) - prefer this for monthly totals, replace weekly-derived monthly figures when available."}
-  },
-  "delivery_platform_schema": {
-    "Wolt": ["periodEnd", "period", "invoiceNo", "invoiceDate", "wolt_fee_net/vat/gross", "orderFees_net/gross", "deliveryServiceFees_net/gross", "lateFees_gross (optional)", "adSpend_net/gross", "invoiceTotal_gross", "revenue_goods_net/gross", "revenue_delivery_service_net/gross", "payoutCorrections", "payoutAmount", "driveFileIds{merchantInvoice,payoutReport,salesReport}"],
-    "UberEats": ["periodStart/End", "reportDate", "orders", "grossOrderValue", "discounts", "netAfterDiscounts", "commissions{uberDelivery33pct/30pct, ownDelivery13pct, pickup13pct - each with _orders and _amt}", "uberEatsFee_net/vat", "marketing{adsGross,offerFeeGross}", "misc{deliveryFeesCollected,tips,refunds,vatRounding,other,cashCollected}", "payoutTotal", "driveFileId", "officialInvoiceFileId/No (optional, when the formal fee invoice PDF exists separately)"],
-    "Lieferando": ["periodStart/End", "invoiceDate", "invoiceNo", "orders", "revenue_gross", "serviceFee30pct", "topRankFee", "onlinePaymentAdminFee", "pickupFee14pct", "subtotal_net", "vat19", "invoiceTotal_gross", "chargebacks (optional)", "payoutAmount", "driveFileId"]
+  "google_drive_folder_ids": {
+    "scan_inbox": "1HdIHhOcICudm6kqd-o6MtVsiQTnEx7kS",
+    "tax_documents_root": "154UO06HyvdGoIJGYLQUUxhrYPLythR7T",
+    "restaurant_bills_root": "1rgPDkBYaDa4XO6uxxLut5K58pKImS641",
+    "dashboard_final_inputs": "1A6rnon5Q1R61gex2OluGkuaxagsOTR0G",
+    "suppliers": {
+      "Rajesh Global Food": "1vSyGnfTTkdrWRNDMnQ3YK-CQibJ-YKVO",
+      "GFT Group": "1BCgWROx-H_theFZx0subsjX0l362oCNU",
+      "Ökoring": "1E_96Q8gf34aNt_OrGQ5ajwRcbuNHkifm",
+      "Kupfer & Sohn": "1AR7acZ6X9dEgjuM5NgQEnGpPudqsXcEX",
+      "RK Traders": "1vJulXtljk9DZ0rQ1QhlXUjMNtWQbjoXT",
+      "Metro": "1PFJqDo4yXcyHX7W58Ge0uoz59NOB8zYi"
+    },
+    "smart_elite_note": "No dedicated folder - single invoice (Rechnung 4837) found loose in restaurant_bills_root, not in a supplier subfolder. Check root periodically for new unfiled loose invoices from new suppliers.",
+    "delivery_platforms": {
+      "uber_eats": "12TWNeL7x3R8CaogSponHsdsS94JnvdRP",
+      "wolt": "1UcSBEBixsTXsIIEg9dthytzEh7lvSex0",
+      "lieferando": "1LShwD0UKoGdfMxSatdtfr2iCdG3m8zBf"
+    },
+    "sumup": {
+      "root": "1jYPaGrlns3ys1hlfzeTXAJeJQBOcugcd",
+      "restaurant_tagesabschluss": "1_f-Q9KkiELtDIyGTYiMVBlB1g4TfE8zk",
+      "foodtruck_tagesabschluss": "12nzDrhxU1emo67SNKhGahxIYLoHj_tum",
+      "note": "Both Restaurant and Foodtruck sales can appear in the SAME Verkaufsbericht CSV within the Restaurant folder, distinguished by the 'Kategorie' column (00_Restaurant vs 00_Foodtruck/01_Foodtruck_Event) - NOT by which folder the file sits in. Always filter by Kategorie column, not by folder."
+    },
+    "checkpoint_source_folders": {
+      "root": "1VHlj0zGRP88rHCiItbrCDXuHauhRcuv6",
+      "final_inputs": "1A6rnon5Q1R61gex2OluGkuaxagsOTR0G (same as dashboard_final_inputs, contains uberEats/Sumup/wolt/Tollwood/Lieferando subfolders + Steuerberater_all CSV + kassenbuch-latest.json)",
+      "kassenbuch_app_export_history": "1LNEBZxrMTCHp4jF9GJNMIeGmSsASC8Uc (versioned kassenbuch-YYYY-MM-DD.json snapshots; use the most recent by savedAt field)",
+      "claude_dashboard_checkpoint": "1kZnKBtO4o4xbvKdANTPu9D2VRt6WrdZt (5 JSON files: part1-overview, part2a-known-recipes, part2b-prices-top50summary, part3a/3b-full-recipes. One-time historical build from 03.08.2026, NOT a live source - do not expect new files to appear here.)"
+    }
   },
 
-  "sumup": {
-    "restaurant_folder_id": "1_f-Q9KkiELtDIyGTYiMVBlB1g4TfE8zk",
-    "foodtruck_folder_id": "12nzDrhxU1emo67SNKhGahxIYLoHj_tum",
-    "customer_number": "MXLL2CZZ",
-    "status_as_of_2026-08-15": "STALE - cumulative revenueByPlatform in manifest.json and kassenbuch.json cash snapshot both dated 27.07.2026. Rebuild attempted 15.08 but not completed (large multi-month transaction-level CSV parse task, aborted mid-session).",
-    "rebuild_method": "Download 'Verkaufsbericht-YYYY-MM-01_YYYY-MM-DD.csv' per month via Google Drive:download_file_content (NOT read_file_content - that tool's markdown-escaping of the raw text corrupts JSON/CSV punctuation and is unreliable for bulk data; download_file_content gives clean base64). Parse CSV columns: Datum,Typ,Transaktionsnummer,Zahlungsmethode,Menge,Beschreibung,Kategorie,Rabatt,Preis(brutto),Preis(netto),Steuer,Steuersatz,Konto. Kategorie='00_Restaurant' vs foodtruck categories split the two channels. Rows with Konto='lokal@chutneyontop.de' and Beschreibung='Trinkgeld' are tips (exclude from revenue, track separately). Rows with Konto='chutneyontop@gmail.com' and Beschreibung like 'Wolt 7% lieferung'/'Lieferando 7%'/'Uber 19%' are the AGENDA-workflow delivery-platform revenue pass-through bookings entered directly into SumUp (per AGENDA_Kassenbuch_Import_Referenz.md logic) - do not double-count against the separate Wolt/UberEats/Lieferando JSON files, these are the same money booked a second way for cash-register purposes.",
-    "known_vat_ratios_confirmed": {"SumUp Restaurant": "83.97% at 7%, 16.03% at 19%", "SumUp Foodtruck": "~99.6% at 7% (derived, not explicitly confirmed by Nicole)"}
+  "supplier_json_files": {
+    "manifest.json": "master index: per-supplier invoiceCount/earliestInvoiceDate/latestInvoiceDate/totalNetSpend, plus revenueByPlatform and deliveryPlatforms sections",
+    "rajesh_global_food.json": "schema: invoiceNo, date, dueDate, deliveryDate, netTotal, vat7, vat19, grossTotal, driveFileId, lineItems[{sku,description,qty,unit,unitPrice,vat,amount}]",
+    "gft_group.json": "schema: invoiceNo, date, orderNo, deliveryNo, netTotal, vat7 (mostly 7% only, some mixed), grossTotal, driveFileId, lineItems[{sku,description,qty,unitPrice,amount}]",
+    "oekoring.json": "similar invoice-level schema, some entries have invoiceNo=None (parsed by date only)",
+    "kupfer_sohn.json": "some entries use full lineItems, others use a 'summary' text field instead (dairy/cleaning supplies, simpler basket)",
+    "rk_traders.json": "produce supplier; schema: invoiceNo, date, netTotal, vat7, grossTotal, driveFileId, lineItems[{desc,qty,unit,unitPrice,amount}] - note: RK Traders' Drive folder was renamed 'Rohit' at one point but folder ID stayed the same",
+    "metro.json": "two entry styles: full lineItems style (early entries) OR 'store'+'summary' style (large basket receipts, easier to summarize than itemize) - both valid, pick whichever is more practical per invoice",
+    "smart_elite.json": "single new supplier added 2026-08-15, same invoice-level schema as others plus a supplierInfo block (address/email/iban/hrb/ustId/steuerNr)"
   },
 
-  "kassenbuch": {
-    "source_folder_for_exports": "1LNEBZxrMTCHp4jF9GJNMIeGmSsASC8Uc (Kassenbuch-App export history, many kassenbuch-YYYY-MM-DD.json snapshots + kassenbuch-latest.json)",
-    "dataFile": "kassenbuch.json",
-    "structure": "Kassenbuch app export has: version, savedAt, device, openings, cashExpenses[], cashTx[], recurring. cashTx has date/platform(SumUp|Tollwood)/cash_amount/note.",
-    "download_method": "Use Google Drive:download_file_content for these too, NOT read_file_content, for the same corruption reason as SumUp CSVs.",
+  "delivery_platform_json_files": {
+    "wolt.json": {
+      "unit": "period (not calendar week) - Wolt's own Hexa invoicing cycle, usually ~5 days",
+      "schema": "periodEnd, period, invoiceNo, invoiceDate, wolt_fee_net/vat/gross, orderFees_net/gross, deliveryServiceFees_net/gross, lateFees_gross (optional), adSpend_net/gross (optional), invoiceTotal_gross, revenue_goods_net/gross, revenue_delivery_service_net/gross, payoutCorrections, payoutAmount, driveFileIds{merchantInvoice,payoutReport,salesReport}",
+      "source_docs_per_period": "3 files: merchant invoice (fees), payout report (revenue+payout), sales report (order detail) - all 3 needed for full picture, but merchant invoice alone gives fee data if others missing"
+    },
+    "uber_eats.json": {
+      "unit": "calendar week (Mon-Sun), sourced from weekly 'Aktivitätsübersicht' (activity overview) PDF",
+      "schema": "periodStart, periodEnd, reportDate, orders, grossOrderValue, discounts, netAfterDiscounts, commissions{uberDelivery33pct_orders/amt, uberDelivery30pct_orders/amt, ownDelivery13pct_orders/amt, pickup13pct_orders/amt}, uberEatsFee_net/vat, marketing{adsGross,offerFeeGross}, misc{deliveryFeesCollected,tips,refunds,vatRounding,other,cashCollected}, payoutTotal, driveFileId, officialInvoiceFileId+officialInvoiceNo (optional, when the formal tax invoice for that week's fee is also found)",
+      "authoritative_monthly_source": "Uber also provides a 'sales-over-time' CSV export (month-by-month gross sales + order count) which is MORE reliable than summing weekly Aktivitätsübersicht PDFs - use this for revenue_monthly.json's monthly 'uber' figure whenever the user uploads or you can locate one. Confirmed exact match Jan-Jul 2026 against previously-built weekly-derived figures."
+    },
+    "lieferando.json": {
+      "unit": "Lieferando's own weekly billing period (Mon-Sun), sourced from weekly invoice",
+      "schema": "periodStart, periodEnd, invoiceDate, invoiceNo, orders, revenue_gross, serviceFee30pct, topRankFee, onlinePaymentAdminFee, pickupFee14pct, subtotal_net, vat19, invoiceTotal_gross, tips (optional), chargebacks (optional), payoutAmount, driveFileId",
+      "authoritative_calendar_month_source": "Lieferando also provides 'online_payments_report' CSVs (one per calendar month, per-order Date/description/Amount rows, format Date;Description;\"XX,XX €\"). These give CALENDAR-MONTH-aligned totals, which differ slightly (~1%) from the weekly-invoice-period sums used to build revenue_monthly.json's monthly 'lieferando' figures, because Lieferando's billing weeks cross month boundaries. When available, prefer the online_payments_report CSV total for revenue_monthly.json's monthly figure - it's what actually reconciles to calendar-month bookkeeping. As of 2026-08-15 all 8 months (Jan-Aug 2026) were replaced with this source."
+    }
+  },
+
+  "sumup_logic": {
+    "verkaufsbericht_csv_schema": "Datum,Typ,Transaktionsnummer,Zahlungsmethode,Menge,Beschreibung,Kategorie,Rabatt,Preis (brutto),Preis (netto),Steuer,Steuersatz,Konto",
+    "row_types_to_distinguish": {
+      "restaurant_food_sales": "Kategorie = 00_Restaurant, Konto = Restaurant",
+      "foodtruck_food_sales": "Kategorie = 00_Foodtruck or 01_Foodtruck_Event, Konto = Foodtruck",
+      "trinkgeld_tips": "Kategorie is EMPTY, Beschreibung = 'Trinkgeld', Konto = lokal@chutneyontop.de. EXCLUDE from revenue - not COT income, track separately.",
+      "delivery_platform_passthrough": "Kategorie is EMPTY, Beschreibung = 'Wolt X% lieferung' / 'Lieferando X%' / 'Uber X%', Konto = chutneyontop@gmail.com. These are the AGENDA delivery-platform pass-through bookings (Einnahme=Ausgabe, net zero cash effect) - do NOT double-count against the separate wolt.json/uber_eats.json/lieferando.json weekly tracking, they represent the same money booked into the SumUp cash system."
+    },
+    "confirmed_vat_splits_cumulative_since_inception": {
+      "Uber Eats": {"pct7": 97.84, "pct19": 2.16},
+      "SumUp Restaurant": {"pct7": 83.97, "pct19": 16.03},
+      "SumUp Foodtruck": {"pct7": "~99.6 (derived from cumulative vat7/vat19, not independently confirmed)"},
+      "Wolt": {"pct7": 100.0, "pct19": 0.0},
+      "Lieferando": {"pct7": 100.0, "pct19": 0.0, "caveat": "No real per-order VAT split exists in Lieferando data - booked 100% at 7% by agreement with Frau Ottensmeyer, not because it's actually verified that way"}
+    },
+    "cumulative_source_note": "The manifest.revenueByPlatform figures (inception through 2026-07-27) were built ONCE from a full historical SumUp Verkaufsbericht export (2026-01-01 to 2026-08-02) in an earlier session. That raw historical export is NOT sitting in Drive as a re-derivable file - only per-day/per-month exports appear going forward (e.g. Verkaufsbericht-2026-08-01_2026-08-31.csv). Refreshing the CUMULATIVE totals requires either: (a) locating monthly Verkaufsbericht CSVs for every month and re-aggregating from scratch, or (b) accepting the existing cumulative figure as a fixed baseline and adding only NEW months on top. Prefer (b) for efficiency unless the user explicitly asks for a full rebuild.",
+    "as_of_2026_08_15_status": "August 2026 Verkaufsbericht CSV located (Drive file: Verkaufsbericht-2026-08-01_2026-08-31.csv, Restaurant folder) but not yet fully parsed/aggregated into the dashboard - flagged as in-progress, pick up from here next session."
+  },
+
+  "kassenbuch_logic": {
     "two_periods": {
       "DATEV": {
-        "period": "inception through 30.06.2026",
-        "handled_by": "Herr Steuer (Beraternummer 157031, Mandantennummer 67314, SKR04)",
-        "granularity": "monthly only (day-level DATEV workbook 'Kassenbuch_DATEV_Jan-Jun_2026.xlsx' built in an earlier chat session but the file itself is not saved anywhere retrievable - only the chat summary survives). Current dashboard kassenbuch_datev.json rebuilds this at monthly level from revenue_monthly.json's bar/karte/ausgaben/trinkgeld columns.",
-        "formula": "Bar-Zuwachs = Bar-Einnahmen (7%+19%) + Trinkgeld Einnahme + Pfand Einnahme (Tollwood only) - Pfand Ausgabe - Karte/Sumup-Ausgabe",
-        "gegenkonten": {"Tageseinnahmen 7%": "4300", "Tageseinnahmen 19%": "4400", "Trinkgeld": "1375", "Pfand": "3786", "Sumup/Karte Restaurant": "1463", "EC/Karte Foodtruck+Tollwood": "1462", "Lieferando": "1465", "Wolt": "1466", "Uber Eats": "1467", "Lohn bar": "3720", "Einzahlung Bank": "1460"},
-        "delivery_pass_through": "Lieferdienst-Umsatz booked as Tageseinnahme AND matching Ausgabe (Gegenkonto 1465/1466/1467) - net zero cash effect, pure visibility booking."
+        "range": "inception through 2026-06-30",
+        "owner": "Herr Steuer (Beraternummer 157031, Mandantennummer 67314, SKR04)",
+        "granularity_in_dashboard": "MONTHLY ONLY - the original day-level DATEV workbook (Kassenbuch_DATEV_Jan-Jun_2026.xlsx, built in an earlier chat session with full VAT-corrected daily entries + Tollwood Pfand logic) is NOT recoverable from Drive or this session - only its chat summary survived. dashboard's kassenbuch_datev.json is a monthly-level reconstruction from revenue_monthly.json's bar/karte/ausgaben/trinkgeld fields, NOT the original day-level file. If the user re-uploads that xlsx, rebuild kassenbuch_datev.json at day-level and replace.",
+        "formula": "Bar-Zuwachs = Bar-Einnahmen (Tageseinnahmen 7%+19% + Trinkgeld Einnahme + Pfand Einnahme) - Pfand Ausgabe - Karte/Sumup-Ausgabe - other cash Ausgaben",
+        "delivery_platform_treatment": "Booked as Tageseinnahme (7% or 19%) AND an equally-sized Ausgabe (Gegenkonto 1465 Lieferando / 1466 Wolt / 1467 Uber Eats) - net zero cash effect, pure sichtbarmachung of delivery revenue in the cash book",
+        "gegenkonten": {"Tageseinnahmen 7%":"4300","Tageseinnahmen 19%":"4400","Trinkgeld":"1375","Pfand (Tollwood only)":"3786","Sumup/Karte Restaurant":"1463","EC/Karte Foodtruck+Tollwood":"1462","Lieferando":"1465","Wolt":"1466","Uber Eats":"1467","Lohn bar":"3720","Einzahlung Bank":"1460"}
       },
       "AGENDA": {
-        "period": "01.07.2026 onward",
-        "handled_by": "Frau Ottensmeyer (Kanzlei-Nummer 1, AGENDA software)",
-        "granularity": "daily, real data available via Kassenbuch-App export cashTx",
-        "always_check": "AGENDA_Kassenbuch_Import_Referenz.md in project knowledge before building any AGENDA import file - has exact Gegenkonto/VAT-split/formatting rules (30-char text limit, .xls not .xlsx, single complete monthly file replaces not appends, Buchungsdatum=31st for delivery platforms with real date in Notiz, paired income+outflow rows for delivery platforms so net cash=0)"
+        "range": "2026-07-01 onward",
+        "owner": "Frau Ottensmeyer (always address as 'Frau Ottensmeyer', never 'Nicole')",
+        "granularity_in_dashboard": "DAY-LEVEL, REAL - sourced from the actual Kassenbuch-App export (kassenbuch-YYYY-MM-DD.json in kassenbuch_app_export_history folder). Contains cashExpenses[] and cashTx[] (per-platform per-day cash entries, currently SumUp + Tollwood). Use the file with the latest savedAt.",
+        "always_check_before_import": "AGENDA_Kassenbuch_Import_Referenz.md in project knowledge - has the authoritative Gegenkonto/import-format rules, read it before building any AGENDA import file",
+        "mandatory_with_every_import": "Also deliver a SumUp revenue breakdown split by 7%/19% VAT alongside any AGENDA Kassenbuch import file, without being asked separately."
       }
     }
   },
 
-  "vat_splits_confirmed": {
-    "Wolt": "100% at 7%",
-    "Lieferando": "100% at 7% (by agreement with Nicole - Lieferando's own data has no tax-rate breakdown)",
-    "Uber Eats": "97.84% at 7%, 2.16% at 19%",
-    "SumUp Restaurant": "83.97% at 7%, 16.03% at 19%"
+  "cutoff_date_tracking": {
+    "method": "Before any rescan, first fetch manifest.json (suppliers) or the relevant platform JSON's periods/weeks array (delivery platforms) to find the current latestInvoiceDate / periodEnd per source. Then search Drive with modifiedTime > that cutoff, NOT a round-numbered date - tighter cutoffs mean fewer stale/duplicate re-fetches per rescan.",
+    "duplicate_files_are_common": "Google Drive frequently has near-duplicate files for the same invoice (different filename, same content, re-uploaded/re-synced) - always dedupe by invoiceNo/date against what's already in the JSON before adding, not just by filename."
+  },
+
+  "known_technical_quirks": {
+    "google_drive_search_files_broken_for_non_gdocs": "google_drive_search tool (legacy) is broken for non-Google-Doc files - use Google Drive:search_files with query = \"parentId = '[folder_id]'\" instead, optionally with \"and modifiedTime > 'ISO_DATE'\"",
+    "download_file_content_vs_read_file_content": "download_file_content returns raw base64 (accurate but must decode yourself, large files get saved to a tool_results JSON file with a 'text' field containing the wrapper JSON with a base64 'content' field - extract via python, don't hand-copy). read_file_content returns human-readable text but applies MARKDOWN ESCAPING (backslash before _#[]) which must be stripped via regex before json.loads. For large files (>50KB) prefer download_file_content and process via bash/python entirely programmatically - do NOT hand-transcribe base64 or escaped text into a python heredoc, this is extremely error-prone (caused real corruption/brace-mismatch bugs in earlier sessions) and burns huge amounts of context.",
+    "github_api_not_raw_for_writes": "Always GET the current sha via api.github.com before PUT (write) - raw.githubusercontent.com can serve stale cached content and using its content as a base for edits risks clobbering newer commits.",
+    "bash_argument_list_too_long": "Very large base64 strings (>~150KB) can blow the shell's argument list limit when passed via python -c \"...\". Write large payloads to a JSON file first (python script that writes directly to a .json file) then reference that file with curl -d @file.json, rather than inlining huge strings in a shell command."
   },
 
   "recipe_costing_yield_rules": {
-    "chicken": "1kg raw chicken shrinks to approx. 700g usable/cooked weight before use (70% yield) - use this when calculating chicken portion costs. NOTE: existing recipes.json entries for chicken dishes (Butter Chicken, CTM etc) were built using an older 60% yield assumption (250g raw -> 150g cooked) - these need recalculation to the corrected 70% yield if/when recipes.json is next touched.",
-    "paneer": "10L milk yields approx. 1kg house-made paneer. Milk ~€1.05/L -> paneer house cost ~€10.50/kg."
+    "chicken": "1kg raw chicken shrinks to approx. 700g usable/cooked weight before use (70% yield) - apply this when calculating chicken portion costs. NOTE: earlier recipes.json entries (built in the checkpoint session) used a 60% yield assumption (e.g. CTM: 250g raw -> 150g cooked) - this is now SUPERSEDED by the 70% figure. Recipes.json has not yet been recalculated with the corrected yield as of 2026-08-15 - flagged as pending.",
+    "paneer": "10L milk yields approx. 1kg house-made paneer. Bulk milk at ~€1.05/L -> ~€10.50/kg paneer house cost."
   },
 
-  "known_data_quirks": [
-    "Google Drive:read_file_content applies markdown-style backslash-escaping to underscores/brackets/hashes in returned text, which corrupts JSON/CSV when copy-pasted for reconstruction. Always prefer Google Drive:download_file_content (raw base64) for any file whose exact byte content matters (CSVs, JSONs to be parsed). Even download_file_content occasionally introduces a stray trailing brace if hand-transcribed through the chat - decode programmatically (base64.b64decode) rather than retyping content.",
-    "Duplicate re-uploads: the same invoice sometimes appears as multiple Drive files with near-identical or '(1)' suffixed names - dedupe by invoiceNo, not by filename or fileId.",
-    "Wolt periods sometimes have only 1-2 of the 3 expected documents (merchant invoice/payout report/sales report) - note incompleteness in driveFileIds rather than fabricating missing figures.",
-    "manifest.revenueByPlatform is a CUMULATIVE snapshot from a specific past reconciliation (dated 27.07.2026 as of Aug 2026) - it does NOT auto-update from the weekly wolt.json/uber_eats.json/lieferando.json files. These are two separate data views kept intentionally distinct in the dashboard UI."
+  "dashboard_data_files_in_repo": [
+    "index.html (the dashboard page itself, 8 tabs: Übersicht/Umsatz/Kassenbuch/Lieferanten/Belege live/Preisvergleich/Rezept-Kosten/Meistverkauft, all with date/supplier/platform filters where applicable)",
+    "manifest.json", "rajesh_global_food.json", "gft_group.json", "oekoring.json", "kupfer_sohn.json", "rk_traders.json", "metro.json", "smart_elite.json",
+    "wolt.json", "uber_eats.json", "lieferando.json",
+    "revenue_monthly.json", "ingredient_prices.json", "recipes.json", "kassenbuch.json", "kassenbuch_datev.json",
+    "rescan_config.json (this file)"
   ],
 
-  "dashboard_files_in_repo": [
-    "manifest.json - master index: supplier totals, revenueByPlatform (cumulative), deliveryPlatforms index, lastRescan log",
-    "rajesh_global_food.json, gft_group.json, oekoring.json, kupfer_sohn.json, rk_traders.json, metro.json, smart_elite.json - per-supplier invoices",
-    "wolt.json, uber_eats.json, lieferando.json - per-platform period/weekly records",
-    "kassenbuch.json - AGENDA period real cash transactions (allCashTx, cashExpenses, byMonth, byPlatform)",
-    "kassenbuch_datev.json - DATEV period monthly Bar-Zuwachs summary + delivery pass-through",
-    "revenue_monthly.json - month-by-month revenue by channel (Dec 2025-present), from checkpoint + subsequent corrections (Uber Eats CSV, Lieferando online_payments_report)",
-    "ingredient_prices.json - 29 tracked ingredients, latest/avg price from supplier invoices",
-    "recipes.json - 48 dish recipes with full ingredient cost lines, known_recipes (verified vs estimated), foodtruck_items",
-    "index.html - the dashboard itself: 8 tabs (Übersicht/Umsatz/Kassenbuch/Lieferanten/Belege live/Preisvergleich/Rezept-Kosten/Meistverkauft), fetches all above JSON live from raw.githubusercontent.com on every page load, has date/supplier/platform filters per tab"
+  "last_updated": "2026-08-15",
+  "open_items_pending_next_session": [
+    "SumUp August 2026 Verkaufsbericht CSV located but not yet parsed/aggregated into dashboard (Restaurant vs Foodtruck split via Kategorie column)",
+    "SumUp cumulative revenueByPlatform figures still dated 2026-07-27 - need incremental monthly top-up strategy, not full rebuild",
+    "recipes.json chicken-based recipes need recalculation from 60% to 70% cooked yield",
+    "If user re-uploads Kassenbuch_DATEV_Jan-Jun_2026.xlsx, rebuild kassenbuch_datev.json at day-level"
   ]
 }
