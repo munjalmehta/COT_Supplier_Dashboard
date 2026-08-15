@@ -117,7 +117,7 @@
    "month": "2026-08",
    "umsatz": 4511.83,
    "ausgaben": 0,
-   "uber": 2529.0,
+   "uber": 8172.9,
    "wolt": 0,
    "lieferando": 0,
    "sumup_restaurant": 1982.83,
@@ -125,7 +125,9 @@
    "tollwood": 0,
    "bar": 0,
    "karte": 2529.0,
-   "trinkgeld": 114.28
+   "trinkgeld": 114.28,
+   "uberOrders": 163,
+   "uberSource": "Uber sales-over-time CSV export, month-to-date as of 2026-08-15 (partial month)"
   }
  ],
  "live_periods": [
@@ -300,5 +302,6 @@
    ]
   ],
   "sumup_source_note": "SumUp-Zahlen (Restaurant, Foodtruck, Trinkgeld) jetzt aus dem echten SumUp-Verkaufsbericht (2026-01-01 bis 2026-08-02), gruppiert nach Kategorie statt Konto (Konto = welches Geraet/Login gebucht hat, nicht der Kanal). Trinkgeld war bisher nirgends im Dashboard erfasst (Gesamt 6.430,49 EUR ueber den Zeitraum) und ist jetzt separat ausgewiesen, aber NICHT im Umsatz mitgezaehlt, da es kein COT-Einkommen ist."
- }
+ },
+ "lastUpdated": "2026-08-15"
 }
