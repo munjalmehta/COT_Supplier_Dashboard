@@ -1,10 +1,10 @@
 {
- "source": "AGENDA Kassenbuch export (Frau Ottensmeyer), uploaded 2026-08-15",
- "entryCount": 155,
+ "source": "AGENDA Kassenbuch export (Frau Ottensmeyer), uploaded 2026-08-15 (Tollwood, Foodtruck, Restaurant)",
+ "entryCount": 577,
  "kassen": {
   "1600": "Tollwood",
   "1601": "Foodtruck",
-  "1602": "Restaurant (not in this upload)"
+  "1602": "Restaurant"
  },
  "monthlySummary": [
   {
@@ -16,8 +16,15 @@
    "pfandAusgabe": 0.0,
    "ecKarte": -13140.9,
    "trinkgeld": 6.1,
+   "trinkgeldAuszahlung": 0.0,
    "lohnBar": 0.0,
    "einzahlungBank": 0.0,
+   "deliveryEinnahmeUber": 0.0,
+   "deliveryAusgabeUber": 0.0,
+   "deliveryEinnahmeLieferando": 0.0,
+   "deliveryAusgabeLieferando": 0.0,
+   "deliveryEinnahmeWolt": 0.0,
+   "deliveryAusgabeWolt": 0.0,
    "sonstiges": 0.0,
    "count": 39
   },
@@ -30,10 +37,59 @@
    "pfandAusgabe": 0.0,
    "ecKarte": 0.0,
    "trinkgeld": 0.0,
+   "trinkgeldAuszahlung": 0.0,
    "lohnBar": 0.0,
    "einzahlungBank": -4195.3,
+   "deliveryEinnahmeUber": 0.0,
+   "deliveryAusgabeUber": 0.0,
+   "deliveryEinnahmeLieferando": 0.0,
+   "deliveryAusgabeLieferando": 0.0,
+   "deliveryEinnahmeWolt": 0.0,
+   "deliveryAusgabeWolt": 0.0,
    "sonstiges": 0.0,
    "count": 5
+  },
+  {
+   "kasse": "Restaurant",
+   "month": "2026-07",
+   "einnahmen7": 15114.22,
+   "einnahmen19": 2877.63,
+   "pfandEinnahme": 0.0,
+   "pfandAusgabe": 0.0,
+   "ecKarte": -15076.42,
+   "trinkgeld": 627.97,
+   "trinkgeldAuszahlung": -592.98,
+   "lohnBar": 0.0,
+   "einzahlungBank": 0.0,
+   "deliveryEinnahmeUber": 17410.28,
+   "deliveryAusgabeUber": -17410.28,
+   "deliveryEinnahmeLieferando": 6501.65,
+   "deliveryAusgabeLieferando": -6501.65,
+   "deliveryEinnahmeWolt": 6981.69,
+   "deliveryAusgabeWolt": -6981.69,
+   "sonstiges": -119.4,
+   "count": 328
+  },
+  {
+   "kasse": "Restaurant",
+   "month": "2026-08",
+   "einnahmen7": 1098.0,
+   "einnahmen19": 259.8,
+   "pfandEinnahme": 0.0,
+   "pfandAusgabe": 0.0,
+   "ecKarte": 0.0,
+   "trinkgeld": 0.0,
+   "trinkgeldAuszahlung": 0.0,
+   "lohnBar": 0.0,
+   "einzahlungBank": -1321.94,
+   "deliveryEinnahmeUber": 6319.0,
+   "deliveryAusgabeUber": -6319.0,
+   "deliveryEinnahmeLieferando": 2029.6,
+   "deliveryAusgabeLieferando": -2029.6,
+   "deliveryEinnahmeWolt": 1807.7,
+   "deliveryAusgabeWolt": -1807.7,
+   "sonstiges": -48.0,
+   "count": 94
   },
   {
    "kasse": "Tollwood",
@@ -44,8 +100,15 @@
    "pfandAusgabe": -14954.0,
    "ecKarte": -57247.4,
    "trinkgeld": 0.0,
+   "trinkgeldAuszahlung": 0.0,
    "lohnBar": -10062.03,
    "einzahlungBank": 0.0,
+   "deliveryEinnahmeUber": 0.0,
+   "deliveryAusgabeUber": 0.0,
+   "deliveryEinnahmeLieferando": 0.0,
+   "deliveryAusgabeLieferando": 0.0,
+   "deliveryEinnahmeWolt": 0.0,
+   "deliveryAusgabeWolt": 0.0,
    "sonstiges": -1096.61,
    "count": 110
   },
@@ -58,8 +121,15 @@
    "pfandAusgabe": 0.0,
    "ecKarte": 0.0,
    "trinkgeld": 0.0,
+   "trinkgeldAuszahlung": 0.0,
    "lohnBar": 0.0,
    "einzahlungBank": -19382.76,
+   "deliveryEinnahmeUber": 0.0,
+   "deliveryAusgabeUber": 0.0,
+   "deliveryEinnahmeLieferando": 0.0,
+   "deliveryAusgabeLieferando": 0.0,
+   "deliveryEinnahmeWolt": 0.0,
+   "deliveryAusgabeWolt": 0.0,
    "sonstiges": 0.0,
    "count": 1
   }
@@ -1614,6 +1684,4226 @@
    "ustPct": 7.0,
    "notiz": "Verkaufsbericht",
    "status": "neu"
+  },
+  {
+   "date": "2026-08-01",
+   "kasse": "Restaurant",
+   "amount": 32.1,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Z-Bon 586, Anteil ohne Lieferdienste",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-01",
+   "kasse": "Restaurant",
+   "amount": 17.0,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Z-Bon 586, Anteil ohne Lieferdienste",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-01",
+   "kasse": "Restaurant",
+   "amount": 144.26,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "SumUp TAAA4KVNVGT, 22:57 Uhr",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-01",
+   "kasse": "Restaurant",
+   "amount": -144.26,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": 0.0,
+   "notiz": "SumUp TAAA4KVNVGT, 22:57 Uhr, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-01",
+   "kasse": "Restaurant",
+   "amount": 95.7,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "SumUp TAAA4KVQP4G, 23:00 Uhr",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-01",
+   "kasse": "Restaurant",
+   "amount": -95.7,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": 0.0,
+   "notiz": "SumUp TAAA4KVQP4G, 23:00 Uhr, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-01",
+   "kasse": "Restaurant",
+   "amount": 958.6,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "SumUp TAAA4KVYYZY, 23:16 Uhr",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-01",
+   "kasse": "Restaurant",
+   "amount": 35.0,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "SumUp TAAA4KVTCVA, 23:06 Uhr",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-01",
+   "kasse": "Restaurant",
+   "amount": -993.6,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": 0.0,
+   "notiz": "SumUp TAAA4KVTCVA + TAAA4KVYYZY (35,00 + 958,60), Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-02",
+   "kasse": "Restaurant",
+   "amount": 183.6,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Z-Bon 587",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-02",
+   "kasse": "Restaurant",
+   "amount": 37.1,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Z-Bon 587",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-02",
+   "kasse": "Restaurant",
+   "amount": 208.32,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, Wolt Umsatzbericht 05.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-02",
+   "kasse": "Restaurant",
+   "amount": -208.32,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": 0.0,
+   "notiz": "Wolt Umsatzbericht 05.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-02",
+   "kasse": "Restaurant",
+   "amount": 132.0,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, aus Bestell-Einzelliste TAKEAWAY_EXPORT-46",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-02",
+   "kasse": "Restaurant",
+   "amount": -132.0,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": 0.0,
+   "notiz": "aus Bestell-Einzelliste, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-03",
+   "kasse": "Restaurant",
+   "amount": 259.4,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Z-Bon 588",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-03",
+   "kasse": "Restaurant",
+   "amount": 73.2,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Z-Bon 588",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-03",
+   "kasse": "Restaurant",
+   "amount": 223.48,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, Wolt Umsatzbericht 05.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-03",
+   "kasse": "Restaurant",
+   "amount": -223.48,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": 0.0,
+   "notiz": "Wolt Umsatzbericht 05.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-03",
+   "kasse": "Restaurant",
+   "amount": 171.9,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, aus Bestell-Einzelliste",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-03",
+   "kasse": "Restaurant",
+   "amount": -171.9,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": 0.0,
+   "notiz": "aus Bestell-Einzelliste, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-03",
+   "kasse": "Restaurant",
+   "amount": 565.5,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, vor Rabatt, Uber Aktivitaetsuebersicht 10.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-03",
+   "kasse": "Restaurant",
+   "amount": -565.5,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": 0.0,
+   "notiz": "Uber Aktivitaetsuebersicht 10.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-04",
+   "kasse": "Restaurant",
+   "amount": 100.1,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Z-Bon 589",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-04",
+   "kasse": "Restaurant",
+   "amount": 52.6,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Z-Bon 589",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-04",
+   "kasse": "Restaurant",
+   "amount": -1321.94,
+   "text": "Einzahlung Bank",
+   "gegenkonto": 1460,
+   "ustPct": 0.0,
+   "notiz": "Anteil an Gesamteinzahlung 24.900 EUR (04.08.); Rest verbleibt in Kasse Restaurant",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-04",
+   "kasse": "Restaurant",
+   "amount": -48.0,
+   "text": "sonstige Ausgabe",
+   "gegenkonto": 1370,
+   "ustPct": 0.0,
+   "notiz": "Porta und Cortes GmbH & Co. KG, Rechnung Nr. 117309, Reinigung Schankanlage, bar bezahlt",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-04",
+   "kasse": "Restaurant",
+   "amount": 143.58,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, Wolt Umsatzbericht 05.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-04",
+   "kasse": "Restaurant",
+   "amount": -143.58,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": 0.0,
+   "notiz": "Wolt Umsatzbericht 05.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-04",
+   "kasse": "Restaurant",
+   "amount": 110.1,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, aus Bestell-Einzelliste",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-04",
+   "kasse": "Restaurant",
+   "amount": -110.1,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": 0.0,
+   "notiz": "aus Bestell-Einzelliste, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-04",
+   "kasse": "Restaurant",
+   "amount": 286.8,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, vor Rabatt, Uber Aktivitaetsuebersicht 10.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-04",
+   "kasse": "Restaurant",
+   "amount": -286.8,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": 0.0,
+   "notiz": "Uber Aktivitaetsuebersicht 10.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-05",
+   "kasse": "Restaurant",
+   "amount": 66.8,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Z-Bon 590 / Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-05",
+   "kasse": "Restaurant",
+   "amount": 24.8,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Z-Bon 590 / Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-05",
+   "kasse": "Restaurant",
+   "amount": 150.82,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, Wolt Umsatzbericht 05.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-05",
+   "kasse": "Restaurant",
+   "amount": -150.82,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": 0.0,
+   "notiz": "Wolt Umsatzbericht 05.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-05",
+   "kasse": "Restaurant",
+   "amount": 86.8,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, aus Bestell-Einzelliste",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-05",
+   "kasse": "Restaurant",
+   "amount": -86.8,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": 0.0,
+   "notiz": "aus Bestell-Einzelliste, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-05",
+   "kasse": "Restaurant",
+   "amount": 614.9,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, vor Rabatt, Uber Aktivitaetsuebersicht 10.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-05",
+   "kasse": "Restaurant",
+   "amount": -614.9,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": 0.0,
+   "notiz": "Uber Aktivitaetsuebersicht 10.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-06",
+   "kasse": "Restaurant",
+   "amount": 54.7,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Z-Bon 591 / Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-06",
+   "kasse": "Restaurant",
+   "amount": 134.1,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, aus Bestell-Einzelliste",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-06",
+   "kasse": "Restaurant",
+   "amount": -134.1,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": 0.0,
+   "notiz": "aus Bestell-Einzelliste, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-06",
+   "kasse": "Restaurant",
+   "amount": 614.5,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, vor Rabatt, Uber Aktivitaetsuebersicht 10.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-06",
+   "kasse": "Restaurant",
+   "amount": -614.5,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": 0.0,
+   "notiz": "Uber Aktivitaetsuebersicht 10.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-07",
+   "kasse": "Restaurant",
+   "amount": 45.3,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Z-Bon 592 / Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-07",
+   "kasse": "Restaurant",
+   "amount": 8.0,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Z-Bon 592 / Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-07",
+   "kasse": "Restaurant",
+   "amount": 36.14,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, Wolt Umsatzbericht 10.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-07",
+   "kasse": "Restaurant",
+   "amount": -36.14,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": 0.0,
+   "notiz": "Wolt Umsatzbericht 10.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-07",
+   "kasse": "Restaurant",
+   "amount": 382.9,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, aus Bestell-Einzelliste",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-07",
+   "kasse": "Restaurant",
+   "amount": -382.9,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": 0.0,
+   "notiz": "aus Bestell-Einzelliste, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-07",
+   "kasse": "Restaurant",
+   "amount": 282.6,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, vor Rabatt, Uber Aktivitaetsuebersicht 10.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-07",
+   "kasse": "Restaurant",
+   "amount": -282.6,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": 0.0,
+   "notiz": "Uber Aktivitaetsuebersicht 10.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-08",
+   "kasse": "Restaurant",
+   "amount": 72.4,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-08",
+   "kasse": "Restaurant",
+   "amount": 143.28,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, Wolt Umsatzbericht 10.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-08",
+   "kasse": "Restaurant",
+   "amount": -143.28,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": 0.0,
+   "notiz": "Wolt Umsatzbericht 10.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-08",
+   "kasse": "Restaurant",
+   "amount": 119.4,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, aus Bestell-Einzelliste",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-08",
+   "kasse": "Restaurant",
+   "amount": -119.4,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": 0.0,
+   "notiz": "aus Bestell-Einzelliste, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-08",
+   "kasse": "Restaurant",
+   "amount": 314.1,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, vor Rabatt, Uber Aktivitaetsuebersicht 10.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-08",
+   "kasse": "Restaurant",
+   "amount": -314.1,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": 0.0,
+   "notiz": "Uber Aktivitaetsuebersicht 10.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-09",
+   "kasse": "Restaurant",
+   "amount": 52.4,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-09",
+   "kasse": "Restaurant",
+   "amount": 4.0,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-09",
+   "kasse": "Restaurant",
+   "amount": 528.8,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, Wolt Umsatzbericht 10.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-09",
+   "kasse": "Restaurant",
+   "amount": -528.8,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": 0.0,
+   "notiz": "Wolt Umsatzbericht 10.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-09",
+   "kasse": "Restaurant",
+   "amount": 866.0,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, vor Rabatt, Uber Aktivitaetsuebersicht 10.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-09",
+   "kasse": "Restaurant",
+   "amount": -866.0,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": 0.0,
+   "notiz": "Uber Aktivitaetsuebersicht 10.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-09",
+   "kasse": "Restaurant",
+   "amount": 335.3,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, aus Bestell-Einzelliste online_payments_report_number_8",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-09",
+   "kasse": "Restaurant",
+   "amount": -335.3,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": 0.0,
+   "notiz": "aus Bestell-Einzelliste online_payments_report_number_8, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-10",
+   "kasse": "Restaurant",
+   "amount": 40.8,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-10",
+   "kasse": "Restaurant",
+   "amount": 3.5,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-10",
+   "kasse": "Restaurant",
+   "amount": 229.02,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, Wolt Umsatzbericht 10.08.",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-10",
+   "kasse": "Restaurant",
+   "amount": -229.02,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": 0.0,
+   "notiz": "Wolt Umsatzbericht 10.08., Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-10",
+   "kasse": "Restaurant",
+   "amount": 492.0,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, vor Rabatt, Uber sales-over-time Export",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-10",
+   "kasse": "Restaurant",
+   "amount": -492.0,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": 0.0,
+   "notiz": "Uber sales-over-time Export, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-10",
+   "kasse": "Restaurant",
+   "amount": 222.1,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, aus Bestell-Einzelliste online_payments_report_number_8",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-10",
+   "kasse": "Restaurant",
+   "amount": -222.1,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": 0.0,
+   "notiz": "aus Bestell-Einzelliste online_payments_report_number_8, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-11",
+   "kasse": "Restaurant",
+   "amount": 37.0,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-11",
+   "kasse": "Restaurant",
+   "amount": 25.4,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-11",
+   "kasse": "Restaurant",
+   "amount": 435.0,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, vor Rabatt, Uber sales-over-time Export",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-11",
+   "kasse": "Restaurant",
+   "amount": -435.0,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": 0.0,
+   "notiz": "Uber sales-over-time Export, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-11",
+   "kasse": "Restaurant",
+   "amount": 130.8,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, aus Bestell-Einzelliste online_payments_report_number_8",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-11",
+   "kasse": "Restaurant",
+   "amount": -130.8,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": 0.0,
+   "notiz": "aus Bestell-Einzelliste online_payments_report_number_8, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-12",
+   "kasse": "Restaurant",
+   "amount": 139.0,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-12",
+   "kasse": "Restaurant",
+   "amount": 14.2,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-12",
+   "kasse": "Restaurant",
+   "amount": 229.0,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, vor Rabatt, Uber sales-over-time Export",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-12",
+   "kasse": "Restaurant",
+   "amount": -229.0,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": 0.0,
+   "notiz": "Uber sales-over-time Export, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-12",
+   "kasse": "Restaurant",
+   "amount": 43.9,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, aus Bestell-Einzelliste online_payments_report_number_8",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-12",
+   "kasse": "Restaurant",
+   "amount": -43.9,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": 0.0,
+   "notiz": "aus Bestell-Einzelliste online_payments_report_number_8, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-13",
+   "kasse": "Restaurant",
+   "amount": 14.4,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Verkaufsbericht",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-13",
+   "kasse": "Restaurant",
+   "amount": 625.0,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, vor Rabatt, Uber sales-over-time Export",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-13",
+   "kasse": "Restaurant",
+   "amount": -625.0,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": 0.0,
+   "notiz": "Uber sales-over-time Export, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-13",
+   "kasse": "Restaurant",
+   "amount": 64.6,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "PRUEFEN: 100% 7% angenommen, aus Bestell-Einzelliste online_payments_report_number_8",
+   "status": "nan"
+  },
+  {
+   "date": "2026-08-13",
+   "kasse": "Restaurant",
+   "amount": -64.6,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": 0.0,
+   "notiz": "aus Bestell-Einzelliste online_payments_report_number_8, Tagessumme",
+   "status": "nan"
+  },
+  {
+   "date": "2026-07-01",
+   "kasse": "Restaurant",
+   "amount": 527.3,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-01",
+   "kasse": "Restaurant",
+   "amount": 111.1,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-01",
+   "kasse": "Restaurant",
+   "amount": 14.94,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-01",
+   "kasse": "Restaurant",
+   "amount": -495.64,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-02",
+   "kasse": "Restaurant",
+   "amount": 367.5,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-02",
+   "kasse": "Restaurant",
+   "amount": 72.7,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-02",
+   "kasse": "Restaurant",
+   "amount": 10.1,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-02",
+   "kasse": "Restaurant",
+   "amount": -414.6,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-03",
+   "kasse": "Restaurant",
+   "amount": 530.8,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-03",
+   "kasse": "Restaurant",
+   "amount": 155.3,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-03",
+   "kasse": "Restaurant",
+   "amount": 36.53,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-03",
+   "kasse": "Restaurant",
+   "amount": -671.93,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-03",
+   "kasse": "Restaurant",
+   "amount": -71.4,
+   "text": "Porta Cortes CO2 Gas",
+   "gegenkonto": 1370,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-03",
+   "kasse": "Restaurant",
+   "amount": -48.0,
+   "text": "Porta Cortes Reinigung",
+   "gegenkonto": 1370,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-04",
+   "kasse": "Restaurant",
+   "amount": 426.0,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-04",
+   "kasse": "Restaurant",
+   "amount": 80.1,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-04",
+   "kasse": "Restaurant",
+   "amount": 8.09,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-04",
+   "kasse": "Restaurant",
+   "amount": -459.99,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-05",
+   "kasse": "Restaurant",
+   "amount": 598.8,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-05",
+   "kasse": "Restaurant",
+   "amount": 124.3,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-05",
+   "kasse": "Restaurant",
+   "amount": 27.93,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-05",
+   "kasse": "Restaurant",
+   "amount": -622.83,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-06",
+   "kasse": "Restaurant",
+   "amount": 562.3,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-06",
+   "kasse": "Restaurant",
+   "amount": 98.8,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-06",
+   "kasse": "Restaurant",
+   "amount": 34.99,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-06",
+   "kasse": "Restaurant",
+   "amount": -657.29,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-07",
+   "kasse": "Restaurant",
+   "amount": 287.6,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-07",
+   "kasse": "Restaurant",
+   "amount": 57.0,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-07",
+   "kasse": "Restaurant",
+   "amount": 17.5,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-07",
+   "kasse": "Restaurant",
+   "amount": -269.4,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-08",
+   "kasse": "Restaurant",
+   "amount": 495.3,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-08",
+   "kasse": "Restaurant",
+   "amount": 145.3,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-08",
+   "kasse": "Restaurant",
+   "amount": 33.49,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-08",
+   "kasse": "Restaurant",
+   "amount": -540.89,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-09",
+   "kasse": "Restaurant",
+   "amount": 211.0,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-09",
+   "kasse": "Restaurant",
+   "amount": 75.3,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-09",
+   "kasse": "Restaurant",
+   "amount": 6.48,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-09",
+   "kasse": "Restaurant",
+   "amount": -126.68,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-10",
+   "kasse": "Restaurant",
+   "amount": 324.9,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-10",
+   "kasse": "Restaurant",
+   "amount": 46.3,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-10",
+   "kasse": "Restaurant",
+   "amount": 8.56,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-10",
+   "kasse": "Restaurant",
+   "amount": -379.76,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-11",
+   "kasse": "Restaurant",
+   "amount": 592.6,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-11",
+   "kasse": "Restaurant",
+   "amount": 84.3,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-11",
+   "kasse": "Restaurant",
+   "amount": 16.4,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-11",
+   "kasse": "Restaurant",
+   "amount": -532.0,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-12",
+   "kasse": "Restaurant",
+   "amount": 628.7,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-12",
+   "kasse": "Restaurant",
+   "amount": 92.8,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-12",
+   "kasse": "Restaurant",
+   "amount": 19.08,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-12",
+   "kasse": "Restaurant",
+   "amount": -607.08,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-13",
+   "kasse": "Restaurant",
+   "amount": 472.5,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-13",
+   "kasse": "Restaurant",
+   "amount": 86.5,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-13",
+   "kasse": "Restaurant",
+   "amount": 14.8,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-13",
+   "kasse": "Restaurant",
+   "amount": -327.8,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-14",
+   "kasse": "Restaurant",
+   "amount": 542.8,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-14",
+   "kasse": "Restaurant",
+   "amount": 87.9,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-14",
+   "kasse": "Restaurant",
+   "amount": 17.74,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-14",
+   "kasse": "Restaurant",
+   "amount": -598.64,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-15",
+   "kasse": "Restaurant",
+   "amount": 443.2,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-15",
+   "kasse": "Restaurant",
+   "amount": 39.8,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-15",
+   "kasse": "Restaurant",
+   "amount": 3.6,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-15",
+   "kasse": "Restaurant",
+   "amount": -472.1,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-16",
+   "kasse": "Restaurant",
+   "amount": 299.5,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-16",
+   "kasse": "Restaurant",
+   "amount": 66.3,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-16",
+   "kasse": "Restaurant",
+   "amount": 8.78,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-16",
+   "kasse": "Restaurant",
+   "amount": -250.28,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-17",
+   "kasse": "Restaurant",
+   "amount": 663.4,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-17",
+   "kasse": "Restaurant",
+   "amount": 132.7,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-17",
+   "kasse": "Restaurant",
+   "amount": 31.91,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-17",
+   "kasse": "Restaurant",
+   "amount": -517.51,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-18",
+   "kasse": "Restaurant",
+   "amount": 328.0,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-18",
+   "kasse": "Restaurant",
+   "amount": 94.2,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-18",
+   "kasse": "Restaurant",
+   "amount": 8.23,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-18",
+   "kasse": "Restaurant",
+   "amount": -296.43,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-19",
+   "kasse": "Restaurant",
+   "amount": 571.3,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-19",
+   "kasse": "Restaurant",
+   "amount": 86.6,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-19",
+   "kasse": "Restaurant",
+   "amount": 7.7,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-19",
+   "kasse": "Restaurant",
+   "amount": -470.4,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-20",
+   "kasse": "Restaurant",
+   "amount": 375.2,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-20",
+   "kasse": "Restaurant",
+   "amount": 33.9,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-20",
+   "kasse": "Restaurant",
+   "amount": 10.34,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-20",
+   "kasse": "Restaurant",
+   "amount": -399.04,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-21",
+   "kasse": "Restaurant",
+   "amount": 584.55,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-21",
+   "kasse": "Restaurant",
+   "amount": 99.8,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-21",
+   "kasse": "Restaurant",
+   "amount": 22.77,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-21",
+   "kasse": "Restaurant",
+   "amount": -646.32,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-22",
+   "kasse": "Restaurant",
+   "amount": 598.0,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-22",
+   "kasse": "Restaurant",
+   "amount": 106.3,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-22",
+   "kasse": "Restaurant",
+   "amount": 30.01,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-22",
+   "kasse": "Restaurant",
+   "amount": -568.81,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-23",
+   "kasse": "Restaurant",
+   "amount": 612.9,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-23",
+   "kasse": "Restaurant",
+   "amount": 99.7,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-23",
+   "kasse": "Restaurant",
+   "amount": 18.38,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-23",
+   "kasse": "Restaurant",
+   "amount": -515.78,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-24",
+   "kasse": "Restaurant",
+   "amount": 313.27,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-24",
+   "kasse": "Restaurant",
+   "amount": 72.13,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-24",
+   "kasse": "Restaurant",
+   "amount": 18.59,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-24",
+   "kasse": "Restaurant",
+   "amount": -265.49,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-25",
+   "kasse": "Restaurant",
+   "amount": 416.5,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-25",
+   "kasse": "Restaurant",
+   "amount": 67.7,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-25",
+   "kasse": "Restaurant",
+   "amount": 17.04,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-25",
+   "kasse": "Restaurant",
+   "amount": -398.74,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-26",
+   "kasse": "Restaurant",
+   "amount": 836.5,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-26",
+   "kasse": "Restaurant",
+   "amount": 178.9,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-26",
+   "kasse": "Restaurant",
+   "amount": 53.61,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-26",
+   "kasse": "Restaurant",
+   "amount": -921.01,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-27",
+   "kasse": "Restaurant",
+   "amount": 749.7,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-27",
+   "kasse": "Restaurant",
+   "amount": 169.7,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-27",
+   "kasse": "Restaurant",
+   "amount": 43.8,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-27",
+   "kasse": "Restaurant",
+   "amount": -718.0,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-28",
+   "kasse": "Restaurant",
+   "amount": 176.7,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-28",
+   "kasse": "Restaurant",
+   "amount": 39.6,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-28",
+   "kasse": "Restaurant",
+   "amount": 3.45,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-28",
+   "kasse": "Restaurant",
+   "amount": -182.55,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-29",
+   "kasse": "Restaurant",
+   "amount": 504.9,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-29",
+   "kasse": "Restaurant",
+   "amount": 59.7,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-29",
+   "kasse": "Restaurant",
+   "amount": 27.52,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-29",
+   "kasse": "Restaurant",
+   "amount": -527.12,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-30",
+   "kasse": "Restaurant",
+   "amount": 410.8,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-30",
+   "kasse": "Restaurant",
+   "amount": 54.7,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-30",
+   "kasse": "Restaurant",
+   "amount": 1.2,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-30",
+   "kasse": "Restaurant",
+   "amount": -380.0,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 661.7,
+   "text": "Tageseinnahmen 7% Restaurant",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 158.2,
+   "text": "Tageseinnahmen 19% Restaurant",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 54.41,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -842.31,
+   "text": "Sumup",
+   "gegenkonto": 1463,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -592.98,
+   "text": "Trinkgeld Ausz. Mitarbeiter",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 282.15,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 01.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -282.15,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 01.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 53.55,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 02.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -53.55,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 02.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 184.25,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 03.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -184.25,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 03.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 201.05,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 04.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -201.05,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 04.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 707.15,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 05.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -707.15,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 05.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 211.1,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 07.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -211.1,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 07.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 287.25,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 08.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -287.25,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 08.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 141.45,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 09.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -141.45,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 09.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 231.65,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 10.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -231.65,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 10.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 256.35,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 11.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -256.35,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 11.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 315.9,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 12.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -315.9,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 12.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 164.6,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 13.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -164.6,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 13.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 52.7,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 14.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -52.7,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 14.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 21.6,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 15.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -21.6,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 15.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 365.2,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 17.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -365.2,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 17.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 38.8,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 18.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -38.8,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 18.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 337.2,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 19.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -337.2,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 19.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 173.08,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 20.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -173.08,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 20.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 90.97,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 21.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -90.97,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 21.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 21.8,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 22.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -21.8,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 22.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 365.38,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 23.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -365.38,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 23.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 288.59,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 24.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -288.59,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 24.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 264.48,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 25.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -264.48,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 25.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 576.6,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 26.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -576.6,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 26.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 92.1,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 27.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -92.1,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 27.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 116.0,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 28.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -116.0,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 28.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 156.8,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 29.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -156.8,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 29.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 223.5,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 30.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -223.5,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 30.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 280.4,
+   "text": "Tageseinnahmen 7% Lieferando",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 31.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -280.4,
+   "text": "Lieferando",
+   "gegenkonto": 1465,
+   "ustPct": null,
+   "notiz": "Umsatz 31.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 249.77,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 01.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 10.02,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 01.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -259.79,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 01.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 239.22,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 02.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 5.01,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 02.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -244.23,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 02.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 631.3,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 03.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 5.01,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 03.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -636.31,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 03.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 444.05,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 04.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -444.05,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 04.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 466.06,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 05.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 5.01,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 05.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -471.07,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 05.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 293.94,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 07.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 10.02,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 07.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -303.96,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 07.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 163.4,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 08.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -163.4,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 08.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 304.95,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 09.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 20.04,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 09.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -324.99,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 09.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 689.69,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 10.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 25.05,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 10.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -714.74,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 10.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 610.51,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 11.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 25.05,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 11.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -635.56,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 11.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 939.92,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 12.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 20.04,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 12.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -959.96,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 12.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 491.74,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 13.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 5.01,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 13.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -496.75,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 13.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 621.36,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 14.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 10.02,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 14.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -631.38,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 14.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 499.69,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 15.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -499.69,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 15.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 381.99,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 16.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 10.02,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 16.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -392.01,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 16.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 880.15,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 17.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 30.06,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 17.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -910.21,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 17.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 746.4,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 18.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 10.02,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 18.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -756.42,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 18.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 911.64,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 19.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 30.06,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 19.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -941.7,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 19.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 751.75,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 20.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 15.03,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 20.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -766.78,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 20.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 442.52,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 21.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 10.02,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 21.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -452.54,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 21.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 929.22,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 22.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 35.07,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 22.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -964.29,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 22.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 848.36,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 23.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 5.01,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 23.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -853.37,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 23.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 425.1,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 24.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 10.02,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 24.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -435.12,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 24.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 503.66,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 25.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -503.66,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 25.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 820.69,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 26.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 20.04,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 26.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -840.73,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 26.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 537.29,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 27.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 5.01,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 27.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -542.3,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 27.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 643.07,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 28.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 20.04,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 28.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -663.11,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 28.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 733.56,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 29.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 20.04,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 29.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -753.6,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 29.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 259.25,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 30.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -259.25,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 30.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 574.28,
+   "text": "Tageseinnahmen 7% Uber Eats",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 31.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 15.03,
+   "text": "Tageseinnahmen 19% Uber Eats",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": "Umsatz 31.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -589.31,
+   "text": "Uber Eats",
+   "gegenkonto": 1467,
+   "ustPct": null,
+   "notiz": "Umsatz 31.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 271.22,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 01.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -271.22,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 01.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 233.37,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 02.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -233.37,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 02.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 219.39,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 03.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -219.39,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 03.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 330.55,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 04.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -330.55,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 04.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 490.91,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 05.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -490.91,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 05.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 181.32,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 07.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -181.32,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 07.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 205.01,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 08.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -205.01,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 08.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 223.95,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 09.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -223.95,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 09.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 67.52,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 10.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -67.52,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 10.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 370.66,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 11.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -370.66,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 11.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 221.94,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 12.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -221.94,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 12.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 145.91,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 13.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -145.91,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 13.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 223.56,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 14.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -223.56,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 14.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 112.96,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 15.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -112.96,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 15.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 168.32,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 16.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -168.32,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 16.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 410.99,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 17.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -410.99,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 17.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 301.48,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 18.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -301.48,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 18.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 428.88,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 19.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -428.88,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 19.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 78.58,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 20.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -78.58,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 20.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 111.47,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 21.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -111.47,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 21.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 236.05,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 22.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -236.05,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 22.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 244.01,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 23.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -244.01,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 23.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 187.82,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 24.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -187.82,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 24.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 227.08,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 25.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -227.08,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 25.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 188.24,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 26.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -188.24,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 26.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 293.28,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 27.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -293.28,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 27.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 335.44,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 28.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -335.44,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 28.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 76.62,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 30.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -76.62,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 30.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": 395.16,
+   "text": "Tageseinnahmen 7% Wolt",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Umsatz 31.07.2026",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Restaurant",
+   "amount": -395.16,
+   "text": "Wolt",
+   "gegenkonto": 1466,
+   "ustPct": null,
+   "notiz": "Umsatz 31.07.2026",
+   "status": "bereitgestellt"
   }
  ]
 }
