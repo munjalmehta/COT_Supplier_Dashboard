@@ -1,6 +1,6 @@
 {
  "platform": "Uber Eats",
- "lastUpdated": "2026-08-05",
+ "lastUpdated": "2026-08-15",
  "note": "Weekly 'Aktivitätsübersicht' (activity overview) summaries. Official platform-fee tax invoices (net Uber Eats Gebühr + marketing) linked separately where captured.",
  "weeks": [
   {
@@ -270,6 +270,73 @@
    "driveFileId": "1zpFrWhyVAA7tlPsw5eD7XfDR_yTy3Rek",
    "officialInvoiceFileId": "15wJBui3aoVTksG3Tu5JhEXTtYr2AuTmN",
    "officialInvoiceNo": "UBER_DEU-GECFHAHI-01-2026-0000032"
+  },
+  {
+   "periodStart": "2026-07-27",
+   "periodEnd": "2026-08-02",
+   "reportDate": "2026-08-03",
+   "orders": 102,
+   "grossOrderValue": 5229.3,
+   "discounts": -1666.0,
+   "netAfterDiscounts": 3563.3,
+   "commissions": {
+    "uberDelivery33pct_orders": 17,
+    "uberDelivery33pct_amt": 179.53,
+    "uberDelivery30pct_orders": 3,
+    "uberDelivery30pct_amt": 33.06,
+    "ownDelivery13pct_orders": 78,
+    "ownDelivery13pct_amt": 394.87,
+    "pickup13pct_orders": 4,
+    "pickup13pct_amt": 17.83
+   },
+   "uberEatsFee_net": 625.29,
+   "uberEatsFee_vat": 118.75,
+   "marketing": {
+    "adsGross": -171.85,
+    "offerFeeGross": -77.22
+   },
+   "misc": {
+    "deliveryFeesCollected": 265.0,
+    "tips": 22.56,
+    "refunds": -9.5,
+    "vatRounding": -0.04,
+    "other": 0.17
+   },
+   "payoutTotal": 2848.38,
+   "driveFileId": "1wAXLVswCqdpV1uqyuCtDBaC1LxqFxsUm"
+  },
+  {
+   "periodStart": "2026-08-03",
+   "periodEnd": "2026-08-09",
+   "reportDate": "2026-08-10",
+   "orders": 75,
+   "grossOrderValue": 3544.4,
+   "discounts": -979.0,
+   "netAfterDiscounts": 2565.4,
+   "commissions": {
+    "uberDelivery33pct_orders": 48,
+    "uberDelivery33pct_amt": 505.42,
+    "uberDelivery30pct_orders": 15,
+    "uberDelivery30pct_amt": 182.85,
+    "ownDelivery13pct_orders": 10,
+    "ownDelivery13pct_amt": 50.17,
+    "pickup13pct_orders": 2,
+    "pickup13pct_amt": 9.85
+   },
+   "uberEatsFee_net": 748.29,
+   "uberEatsFee_vat": 142.17,
+   "marketing": {
+    "adsGross": -161.22,
+    "offerFeeGross": -46.53
+   },
+   "misc": {
+    "deliveryFeesCollected": 37.0,
+    "refunds": -5.0,
+    "vatRounding": -0.06,
+    "other": 0.18
+   },
+   "payoutTotal": 1499.31,
+   "driveFileId": "18qyLbHHedvkKu8SXNf786A3AGKjyAVIY"
   }
  ]
 }
