@@ -361,7 +361,7 @@
     <div id="agendaKbSummaryWrap" class="table-wrap" style="margin-bottom:12px;"></div>
     <div class="filter-bar">
       <div class="filter-field"><label>Kasse</label>
-        <select id="agKbKasse"><option value="">Alle</option><option value="Tollwood">Tollwood</option><option value="Foodtruck">Foodtruck</option></select>
+        <select id="agKbKasse"><option value="">Alle</option><option value="Tollwood">Tollwood</option><option value="Foodtruck">Foodtruck</option><option value="Restaurant">Restaurant</option></select>
       </div>
       <div class="filter-field"><label>Von Datum</label><input type="date" id="agKbFrom"></div>
       <div class="filter-field"><label>Bis Datum</label><input type="date" id="agKbTo"></div>
@@ -618,12 +618,14 @@ function renderAgendaKbTables(){
   const to = document.getElementById('agKbTo').value;
 
   document.getElementById('agendaKbSummaryWrap').innerHTML = `<table>
-    <thead><tr><th>Kasse</th><th>Monat</th><th class="num">Einnahmen 7%</th><th class="num">Einnahmen 19%</th><th class="num">Pfand Ein/Aus</th><th class="num">EC/Karte</th><th class="num">Trinkgeld</th><th class="num">Lohn bar</th><th class="num">Einzahlung Bank</th><th class="num">Buchungen</th></tr></thead>
-    <tbody>${ag.monthlySummary.map(s=>`<tr>
+    <thead><tr><th>Kasse</th><th>Monat</th><th class="num">Einnahmen 7%</th><th class="num">Einnahmen 19%</th><th class="num">Pfand Ein/Aus</th><th class="num">EC/Karte (Sumup)</th><th class="num">Lieferdienst (Ein=Aus)</th><th class="num">Trinkgeld</th><th class="num">Lohn bar</th><th class="num">Einzahlung Bank</th><th class="num">Buchungen</th></tr></thead>
+    <tbody>${ag.monthlySummary.map(s=>{
+      const delEin = (s.deliveryEinnahmeUber||0)+(s.deliveryEinnahmeLieferando||0)+(s.deliveryEinnahmeWolt||0);
+      return `<tr>
       <td>${s.kasse}</td><td>${s.month}</td><td class="num">${fmtEUR(s.einnahmen7)}</td><td class="num">${fmtEUR(s.einnahmen19)}</td>
-      <td class="num">${fmtEUR(s.pfandEinnahme + s.pfandAusgabe)}</td><td class="num">${fmtEUR(s.ecKarte)}</td><td class="num">${fmtEUR(s.trinkgeld)}</td>
+      <td class="num">${fmtEUR(s.pfandEinnahme + s.pfandAusgabe)}</td><td class="num">${fmtEUR(s.ecKarte)}</td><td class="num">${fmtEUR(delEin)}</td><td class="num">${fmtEUR(s.trinkgeld)}</td>
       <td class="num">${fmtEUR(s.lohnBar)}</td><td class="num">${fmtEUR(s.einzahlungBank)}</td><td class="num">${s.count}</td>
-    </tr>`).join('')}</tbody>
+    </tr>`;}).join('')}</tbody>
   </table>`;
 
   const filtered = ag.entries.filter(e => (!kasse || e.kasse===kasse) && inRange(e.date, from, to));
