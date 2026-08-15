@@ -1,7 +1,7 @@
 {
  "supplier": "GFT Group",
- "lastUpdated": "2026-08-05",
- "invoiceCount": 34,
+ "lastUpdated": "2026-08-15",
+ "invoiceCount": 36,
  "invoices": [
   {
    "invoiceNo": "326111636",
@@ -2079,6 +2079,72 @@
      "qty": 5,
      "unitPrice": 37.0,
      "amount": 185.0
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326115348",
+   "date": "2026-08-12",
+   "orderNo": "3000058291",
+   "deliveryNo": "89699",
+   "netTotal": 601.95,
+   "vat7": 42.14,
+   "grossTotal": 644.09,
+   "driveFileId": "1l46RoDwBBSF-rZJ5wM1I2GnlM1ZGKo0G",
+   "lineItems": [
+    {
+     "sku": "41293",
+     "description": "FROZ. CHICKEN TFG FILLET SALTED THAILAND 6x2kg",
+     "qty": 3,
+     "unitPrice": 50.0,
+     "amount": 150.0
+    },
+    {
+     "sku": "19105",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "qty": 5,
+     "unitPrice": 18.0,
+     "amount": 90.0
+    },
+    {
+     "sku": "41116",
+     "description": "SCAMPI'S BT 8/12 (OK-MS) EASY PEEL 20% (RED LABEL) 1x1kg",
+     "qty": 4,
+     "unitPrice": 12.0,
+     "amount": 48.0
+    },
+    {
+     "sku": "41103",
+     "description": "FROZ. LAMB w/o BONES 1kg",
+     "qty": 27.3,
+     "unitPrice": 11.5,
+     "amount": 313.95
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326115349",
+   "date": "2026-08-12",
+   "orderNo": "3000058312",
+   "deliveryNo": "89727",
+   "netTotal": 61.75,
+   "vat7": 4.32,
+   "grossTotal": 66.07,
+   "driveFileId": "1XPUtiLll3ufJGcbDf9EqK-TssmtP15tg",
+   "lineItems": [
+    {
+     "sku": "21471",
+     "description": "TRS CHILLI WHOLE EX HOT CTN. 6x400g",
+     "qty": 1,
+     "unitPrice": 39.75,
+     "amount": 39.75
+    },
+    {
+     "sku": "26542",
+     "description": "TRS KASHMIRI CHILLI WHOLE 8x150g",
+     "qty": 1,
+     "unitPrice": 22.0,
+     "amount": 22.0
     }
    ]
   }
