@@ -1,7 +1,7 @@
 {
  "supplier": "RK Traders",
- "lastUpdated": "2026-07-16",
- "invoiceCount": 33,
+ "lastUpdated": "2026-08-15",
+ "invoiceCount": 40,
  "contact": "Rohit Kumar",
  "invoices": [
   {
@@ -2777,6 +2777,433 @@
      "unit": "Kiste",
      "unitPrice": 8.9,
      "amount": 26.7
+    }
+   ]
+  },
+  {
+   "invoiceNo": "RE4378",
+   "date": "2026-07-16",
+   "netTotal": 165.89,
+   "vat7": 11.61,
+   "grossTotal": 177.5,
+   "driveFileId": "1OJhkrGC3Tf-57f63ASC1YZbihVLHTQPd",
+   "lineItems": [
+    {
+     "desc": "Eisberg 10er",
+     "qty": 2,
+     "unit": "Kiste",
+     "unitPrice": 11.99,
+     "amount": 23.98
+    },
+    {
+     "desc": "Gurken 5kg",
+     "qty": 2,
+     "unit": "Karton",
+     "unitPrice": 13.99,
+     "amount": 27.98
+    },
+    {
+     "desc": "Paprika Mix 5kg",
+     "qty": 2,
+     "unit": "Karton",
+     "unitPrice": 14.99,
+     "amount": 29.98
+    },
+    {
+     "desc": "Coriander 10 bund",
+     "qty": 4,
+     "unit": "Kiste",
+     "unitPrice": 8.99,
+     "amount": 35.96
+    },
+    {
+     "desc": "Aubergine 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 11.5,
+     "amount": 11.5
+    },
+    {
+     "desc": "Zucchini 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 8.5,
+     "amount": 8.5
+    },
+    {
+     "desc": "Bindi 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 27.99,
+     "amount": 27.99
+    }
+   ]
+  },
+  {
+   "invoiceNo": "RE4379",
+   "date": "2026-07-18",
+   "netTotal": 146.27,
+   "vat7": 10.24,
+   "grossTotal": 156.51,
+   "driveFileId": "1ReR0LvA-Vd_YwhVKpHzmm3QDomcwbPRc",
+   "lineItems": [
+    {
+     "desc": "Zwiebel 25kg",
+     "qty": 4,
+     "unit": "Sack",
+     "unitPrice": 14.99,
+     "amount": 59.96
+    },
+    {
+     "desc": "Kartoffel 25kg",
+     "qty": 2,
+     "unit": "Sack",
+     "unitPrice": 19.8,
+     "amount": 39.6
+    },
+    {
+     "desc": "Lauchzwiebeln",
+     "qty": 14,
+     "unit": "Stück",
+     "unitPrice": 0.99,
+     "amount": 13.86
+    },
+    {
+     "desc": "Minze 10 bund",
+     "qty": 2,
+     "unit": "Kiste",
+     "unitPrice": 8.5,
+     "amount": 17.0
+    },
+    {
+     "desc": "Tomaten 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 8.5,
+     "amount": 8.5
+    },
+    {
+     "desc": "Zitronen 3kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 7.35,
+     "amount": 7.35
+    }
+   ]
+  },
+  {
+   "invoiceNo": "RE4377",
+   "date": "2026-07-23",
+   "netTotal": 292.75,
+   "vat7": 20.49,
+   "grossTotal": 313.24,
+   "driveFileId": "1F2KFOfHVfLpwz5O4ig52hNdESsFDAdZy",
+   "lineItems": [
+    {
+     "desc": "Tomaten 5kg",
+     "qty": 2,
+     "unit": "Karton",
+     "unitPrice": 9.99,
+     "amount": 19.98
+    },
+    {
+     "desc": "Coriander 10 bund",
+     "qty": 4,
+     "unit": "Kiste",
+     "unitPrice": 8.99,
+     "amount": 35.96
+    },
+    {
+     "desc": "Minze 10 bund",
+     "qty": 4,
+     "unit": "Kiste",
+     "unitPrice": 8.5,
+     "amount": 34.0
+    },
+    {
+     "desc": "Weißkraut 15kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 11.99,
+     "amount": 11.99
+    },
+    {
+     "desc": "Blumenkohl 6er",
+     "qty": 1,
+     "unit": "Kiste",
+     "unitPrice": 12.99,
+     "amount": 12.99
+    },
+    {
+     "desc": "Karotten 10kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 10.5,
+     "amount": 10.5
+    },
+    {
+     "desc": "Granatapfel",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 17.99,
+     "amount": 17.99
+    },
+    {
+     "desc": "Paprika Mix 5kg",
+     "qty": 2,
+     "unit": "Karton",
+     "unitPrice": 14.99,
+     "amount": 29.98
+    },
+    {
+     "desc": "Kartoffel 25kg",
+     "qty": 3,
+     "unit": "Sack",
+     "unitPrice": 19.8,
+     "amount": 59.4
+    },
+    {
+     "desc": "Zwiebel 25kg",
+     "qty": 4,
+     "unit": "Sack",
+     "unitPrice": 14.99,
+     "amount": 59.96
+    }
+   ]
+  },
+  {
+   "invoiceNo": "RE4376",
+   "date": "2026-07-24",
+   "netTotal": 75.48,
+   "vat7": 5.28,
+   "grossTotal": 80.76,
+   "driveFileId": "1yhPZL_-eZgDUDks1jT4TcL6luRXmIHW_",
+   "lineItems": [
+    {
+     "desc": "Eisberg 10er",
+     "qty": 3,
+     "unit": "Kiste",
+     "unitPrice": 13.5,
+     "amount": 40.5
+    },
+    {
+     "desc": "Spinat/Palak",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 20.99,
+     "amount": 20.99
+    },
+    {
+     "desc": "Gurken 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 13.99,
+     "amount": 13.99
+    }
+   ]
+  },
+  {
+   "invoiceNo": "RE4441",
+   "date": "2026-07-28",
+   "netTotal": 213.88,
+   "vat7": 14.97,
+   "grossTotal": 228.85,
+   "driveFileId": "1BF3to1EgI4plbfwMoj1UgxMY4i4tpif8",
+   "lineItems": [
+    {
+     "desc": "Bindi 5kg",
+     "qty": 2,
+     "unit": "Karton",
+     "unitPrice": 27.99,
+     "amount": 55.98
+    },
+    {
+     "desc": "Aubergine 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 11.5,
+     "amount": 11.5
+    },
+    {
+     "desc": "Zwiebel 25kg",
+     "qty": 3,
+     "unit": "Sack",
+     "unitPrice": 14.99,
+     "amount": 44.97
+    },
+    {
+     "desc": "Kartoffel 25kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 19.49,
+     "amount": 19.49
+    },
+    {
+     "desc": "Karotten 10kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 10.5,
+     "amount": 10.5
+    },
+    {
+     "desc": "Weißkraut 15kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 11.99,
+     "amount": 11.99
+    },
+    {
+     "desc": "Gurken 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 12.99,
+     "amount": 12.99
+    },
+    {
+     "desc": "Tomaten 5kg",
+     "qty": 2,
+     "unit": "Karton",
+     "unitPrice": 8.99,
+     "amount": 17.98
+    },
+    {
+     "desc": "Coriander 10 bund",
+     "qty": 2,
+     "unit": "Kiste",
+     "unitPrice": 8.99,
+     "amount": 17.98
+    },
+    {
+     "desc": "Rote Zwiebel 10kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 10.5,
+     "amount": 10.5
+    }
+   ]
+  },
+  {
+   "invoiceNo": "RE4522",
+   "date": "2026-08-03",
+   "netTotal": 255.02,
+   "vat7": 17.85,
+   "grossTotal": 272.87,
+   "driveFileId": "1nuSd54Axuk2QEpIE8T_1mX-LniSVygiI",
+   "lineItems": [
+    {
+     "desc": "Tomaten 5kg",
+     "qty": 2,
+     "unit": "Karton",
+     "unitPrice": 9.49,
+     "amount": 18.98
+    },
+    {
+     "desc": "Gurken 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 12.99,
+     "amount": 12.99
+    },
+    {
+     "desc": "Zwiebel 25kg",
+     "qty": 3,
+     "unit": "Sack",
+     "unitPrice": 14.49,
+     "amount": 43.47
+    },
+    {
+     "desc": "Coriander 10 bund",
+     "qty": 2,
+     "unit": "Kiste",
+     "unitPrice": 8.99,
+     "amount": 17.98
+    },
+    {
+     "desc": "Zitronen 3kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 7.35,
+     "amount": 7.35
+    },
+    {
+     "desc": "Ingwer 12kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 40.0,
+     "amount": 40.0
+    },
+    {
+     "desc": "Zucchini 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 9.3,
+     "amount": 9.3
+    },
+    {
+     "desc": "Eisberg 10er",
+     "qty": 1,
+     "unit": "Kiste",
+     "unitPrice": 13.5,
+     "amount": 13.5
+    },
+    {
+     "desc": "Paprika Mix 5kg",
+     "qty": 2,
+     "unit": "Karton",
+     "unitPrice": 15.49,
+     "amount": 30.98
+    },
+    {
+     "desc": "Blumenkohl 6er",
+     "qty": 1,
+     "unit": "Kiste",
+     "unitPrice": 11.49,
+     "amount": 11.49
+    },
+    {
+     "desc": "Bindi 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 27.99,
+     "amount": 27.99
+    },
+    {
+     "desc": "Spinat/Palak",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 20.99,
+     "amount": 20.99
+    }
+   ]
+  },
+  {
+   "invoiceNo": "RE4527",
+   "date": "2026-08-04",
+   "netTotal": 41.48,
+   "vat7": 2.9,
+   "grossTotal": 44.38,
+   "driveFileId": "1MqluommgQhhRBKkQwSkKcxGzf3wIoAQc",
+   "lineItems": [
+    {
+     "desc": "Rote Zwiebel 10kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 10.5,
+     "amount": 10.5
+    },
+    {
+     "desc": "Granatapfel",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 16.99,
+     "amount": 16.99
+    },
+    {
+     "desc": "Banana leaves round",
+     "qty": 1,
+     "unit": "packet",
+     "unitPrice": 13.99,
+     "amount": 13.99
     }
    ]
   }
