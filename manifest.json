@@ -95,19 +95,19 @@
  },
  "revenueByPlatform": {
   "source": "claude-dashboard-checkpoint/checkpoint-part1-overview.json (Google Drive, saved 2026-08-03)",
-  "period": "inception through 2026-07-27 (all other channels); SumUp Restaurant + Foodtruck fully extended through 2026-08-14 using complete Verkaufsbericht exports",
-  "note": "SumUp Restaurant/Foodtruck refreshed 2026-08-15 using full Verkaufsbericht CSVs (01.07-14.08.2026), replacing the earlier partial 01.08-05.08 patch. No remaining gap for these two channels. Delivery-platform pass-through rows (Wolt/Uber/Lieferando bookings inside SumUp) excluded to avoid double-counting with wolt.json/uber_eats.json/lieferando.json. Other channels (UberEats/Tollwood/Lieferando/Wolt) still dated through 27.07.2026.",
+  "period": "inception through 2026-08-14 (SumUp Restaurant/Foodtruck, day-level) / through latest scanned weekly period (UberEats to 09.08, Lieferando to 08.08, Wolt to 10.08) / Tollwood and remaining detail through 27.07.2026 (no newer seasonal data)",
+  "note": "Full refresh 2026-08-15. UberEats/Lieferando/Wolt cumulative totals rolled forward using the weekly periods already added to uber_eats.json/lieferando.json/wolt.json since the 27.07 baseline (no date overlap, so simple addition). APPROXIMATION FLAGGED: gross/net/vat7 deltas for these three platforms were derived from each period's netAfterDiscounts or revenue_gross figure grossed up at 7% VAT, matching the pattern in the original baseline (gross ≈ net × 1.07) — not a line-by-line reconciliation like the SumUp refresh. platformFees deltas sum each period's total fee/commission line. Wolt order counts are not tracked at the weekly level, so Wolt orderCount is unchanged (understated for this period) — flagged, not corrected. Tollwood has no newer data — the tracked event (summer 2026) has concluded; next data expected for winter Tollwood. SumUp Restaurant/Foodtruck are the only channels refreshed with full day-level fidelity (01.07-14.08.2026, no gaps).",
   "byPlatform": [
    {
     "platform": "UberEats",
-    "orderCount": 2651,
-    "gross": 102257.4,
-    "net": 95567.66,
-    "vat7": 6689.74,
+    "orderCount": 2828,
+    "gross": 108815.11,
+    "net": 101696.36,
+    "vat7": 7118.75,
     "vat19": 0.0,
-    "platformFees": 41117.7,
-    "payout": 61139.7,
-    "commissionPct": 40.21
+    "platformFees": 42752.2,
+    "payout": 65487.39,
+    "commissionPct": 39.29
    },
    {
     "platform": "SumUp Restaurant",
@@ -133,14 +133,14 @@
    },
    {
     "platform": "Lieferando",
-    "orderCount": 204,
-    "gross": 44316.77,
-    "net": 41417.54,
-    "vat7": 2899.23,
+    "orderCount": 282,
+    "gross": 46995.07,
+    "net": 43920.62,
+    "vat7": 3074.45,
     "vat19": 0.0,
-    "platformFees": 17762.16,
-    "payout": 26554.61,
-    "commissionPct": 40.08
+    "platformFees": 19056.64,
+    "payout": 27938.43,
+    "commissionPct": 40.55
    },
    {
     "platform": "SumUp Foodtruck",
@@ -156,25 +156,25 @@
    {
     "platform": "Wolt",
     "orderCount": 933,
-    "gross": 31102.91,
-    "net": 29068.14,
-    "vat7": 2034.77,
+    "gross": 33125.49,
+    "net": 30958.4,
+    "vat7": 2167.09,
     "vat19": 0.0,
-    "platformFees": 13759.93,
-    "payout": 17342.98,
-    "commissionPct": 44.24
+    "platformFees": 14639.67,
+    "payout": 18478.82,
+    "commissionPct": 44.19
    }
   ],
   "totals": {
-   "bruttoumsatz": 501364.49,
-   "nettoumsatz": 465502.15,
-   "ust7": 30685.3,
+   "bruttoumsatz": 512623.08,
+   "nettoumsatz": 476024.19,
+   "ust7": 31421.85,
    "ust19": 5162.68,
-   "plattformGebuehren": 72639.79,
-   "auszahlungGesamt": 428724.7,
+   "plattformGebuehren": 76448.51,
+   "auszahlungGesamt": 435592.05,
    "bargeldKasse": 51620.53,
    "ustZahllastGesamt": 30087.84,
-   "anzahlVerkaeufe": 10783
+   "anzahlVerkaeufe": 11038
   }
  }
 }
