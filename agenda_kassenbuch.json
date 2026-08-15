@@ -1,0 +1,1619 @@
+{
+ "source": "AGENDA Kassenbuch export (Frau Ottensmeyer), uploaded 2026-08-15",
+ "entryCount": 155,
+ "kassen": {
+  "1600": "Tollwood",
+  "1601": "Foodtruck",
+  "1602": "Restaurant (not in this upload)"
+ },
+ "monthlySummary": [
+  {
+   "kasse": "Foodtruck",
+   "month": "2026-07",
+   "einnahmen7": 17247.1,
+   "einnahmen19": 86.5,
+   "pfandEinnahme": 0.0,
+   "pfandAusgabe": 0.0,
+   "ecKarte": -13140.9,
+   "trinkgeld": 6.1,
+   "lohnBar": 0.0,
+   "einzahlungBank": 0.0,
+   "sonstiges": 0.0,
+   "count": 39
+  },
+  {
+   "kasse": "Foodtruck",
+   "month": "2026-08",
+   "einnahmen7": 309.5,
+   "einnahmen19": 0.0,
+   "pfandEinnahme": 0.0,
+   "pfandAusgabe": 0.0,
+   "ecKarte": 0.0,
+   "trinkgeld": 0.0,
+   "lohnBar": 0.0,
+   "einzahlungBank": -4195.3,
+   "sonstiges": 0.0,
+   "count": 5
+  },
+  {
+   "kasse": "Tollwood",
+   "month": "2026-07",
+   "einnahmen7": 82882.8,
+   "einnahmen19": 4914.0,
+   "pfandEinnahme": 14946.0,
+   "pfandAusgabe": -14954.0,
+   "ecKarte": -57247.4,
+   "trinkgeld": 0.0,
+   "lohnBar": -10062.03,
+   "einzahlungBank": 0.0,
+   "sonstiges": -1096.61,
+   "count": 110
+  },
+  {
+   "kasse": "Tollwood",
+   "month": "2026-08",
+   "einnahmen7": 0.0,
+   "einnahmen19": 0.0,
+   "pfandEinnahme": 0.0,
+   "pfandAusgabe": 0.0,
+   "ecKarte": 0.0,
+   "trinkgeld": 0.0,
+   "lohnBar": 0.0,
+   "einzahlungBank": -19382.76,
+   "sonstiges": 0.0,
+   "count": 1
+  }
+ ],
+ "entries": [
+  {
+   "date": "2026-07-01",
+   "kasse": "Tollwood",
+   "amount": 2352.9,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-01",
+   "kasse": "Tollwood",
+   "amount": 100.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-01",
+   "kasse": "Tollwood",
+   "amount": 397.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-01",
+   "kasse": "Tollwood",
+   "amount": -397.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-01",
+   "kasse": "Tollwood",
+   "amount": -1512.8,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-02",
+   "kasse": "Tollwood",
+   "amount": 3892.0,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-02",
+   "kasse": "Tollwood",
+   "amount": 160.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-02",
+   "kasse": "Tollwood",
+   "amount": 412.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-02",
+   "kasse": "Tollwood",
+   "amount": -412.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-02",
+   "kasse": "Tollwood",
+   "amount": -2715.9,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-02",
+   "kasse": "Tollwood",
+   "amount": -974.61,
+   "text": "GEIL Kassensysteme Rg 21979",
+   "gegenkonto": 1370,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-03",
+   "kasse": "Tollwood",
+   "amount": 5815.5,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-03",
+   "kasse": "Tollwood",
+   "amount": 240.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-03",
+   "kasse": "Tollwood",
+   "amount": 992.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-03",
+   "kasse": "Tollwood",
+   "amount": -992.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-03",
+   "kasse": "Tollwood",
+   "amount": -4310.9,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-03",
+   "kasse": "Tollwood",
+   "amount": -18.5,
+   "text": "Sparkasse Geldwechsel-Geb.",
+   "gegenkonto": 1370,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-04",
+   "kasse": "Tollwood",
+   "amount": 6897.4,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-04",
+   "kasse": "Tollwood",
+   "amount": 468.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-04",
+   "kasse": "Tollwood",
+   "amount": 1290.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-04",
+   "kasse": "Tollwood",
+   "amount": -1290.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-04",
+   "kasse": "Tollwood",
+   "amount": -4795.5,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-04",
+   "kasse": "Tollwood",
+   "amount": -21.0,
+   "text": "Sparkasse Geldwechsel-Geb.",
+   "gegenkonto": 1370,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-05",
+   "kasse": "Tollwood",
+   "amount": 5486.5,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-05",
+   "kasse": "Tollwood",
+   "amount": 244.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-05",
+   "kasse": "Tollwood",
+   "amount": 978.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-05",
+   "kasse": "Tollwood",
+   "amount": -978.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-05",
+   "kasse": "Tollwood",
+   "amount": -3488.4,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-05",
+   "kasse": "Tollwood",
+   "amount": -10.0,
+   "text": "Sparkasse Geldwechsel-Geb.",
+   "gegenkonto": 1370,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-07",
+   "kasse": "Tollwood",
+   "amount": 3372.8,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-07",
+   "kasse": "Tollwood",
+   "amount": 172.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-07",
+   "kasse": "Tollwood",
+   "amount": 610.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-07",
+   "kasse": "Tollwood",
+   "amount": -610.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-07",
+   "kasse": "Tollwood",
+   "amount": -2223.2,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-08",
+   "kasse": "Tollwood",
+   "amount": 3879.8,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-08",
+   "kasse": "Tollwood",
+   "amount": 192.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-08",
+   "kasse": "Tollwood",
+   "amount": 690.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-08",
+   "kasse": "Tollwood",
+   "amount": -690.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-08",
+   "kasse": "Tollwood",
+   "amount": -2574.9,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-09",
+   "kasse": "Tollwood",
+   "amount": 4216.5,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-09",
+   "kasse": "Tollwood",
+   "amount": 268.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-09",
+   "kasse": "Tollwood",
+   "amount": 792.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-09",
+   "kasse": "Tollwood",
+   "amount": -796.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-09",
+   "kasse": "Tollwood",
+   "amount": -2845.6,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-10",
+   "kasse": "Tollwood",
+   "amount": 5169.4,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-10",
+   "kasse": "Tollwood",
+   "amount": 264.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-10",
+   "kasse": "Tollwood",
+   "amount": 918.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-10",
+   "kasse": "Tollwood",
+   "amount": -918.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-10",
+   "kasse": "Tollwood",
+   "amount": -3689.8,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-10",
+   "kasse": "Tollwood",
+   "amount": -10.0,
+   "text": "Sparkasse Geldwechsel-Geb.",
+   "gegenkonto": 1370,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-11",
+   "kasse": "Tollwood",
+   "amount": 4728.5,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-11",
+   "kasse": "Tollwood",
+   "amount": 364.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-11",
+   "kasse": "Tollwood",
+   "amount": 922.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-11",
+   "kasse": "Tollwood",
+   "amount": -922.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-11",
+   "kasse": "Tollwood",
+   "amount": -3006.8,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-11",
+   "kasse": "Tollwood",
+   "amount": -12.5,
+   "text": "Sparkasse Geldwechsel-Geb.",
+   "gegenkonto": 1370,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-12",
+   "kasse": "Tollwood",
+   "amount": 5295.8,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-12",
+   "kasse": "Tollwood",
+   "amount": 368.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-12",
+   "kasse": "Tollwood",
+   "amount": 1012.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-12",
+   "kasse": "Tollwood",
+   "amount": -1012.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-12",
+   "kasse": "Tollwood",
+   "amount": -3725.5,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-12",
+   "kasse": "Tollwood",
+   "amount": -12.5,
+   "text": "Sparkasse Geldwechsel-Geb.",
+   "gegenkonto": 1370,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-13",
+   "kasse": "Tollwood",
+   "amount": 3104.2,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-13",
+   "kasse": "Tollwood",
+   "amount": 160.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-13",
+   "kasse": "Tollwood",
+   "amount": 547.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-13",
+   "kasse": "Tollwood",
+   "amount": -547.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-13",
+   "kasse": "Tollwood",
+   "amount": -2008.5,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-14",
+   "kasse": "Tollwood",
+   "amount": 3126.3,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-14",
+   "kasse": "Tollwood",
+   "amount": 220.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-14",
+   "kasse": "Tollwood",
+   "amount": 607.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-14",
+   "kasse": "Tollwood",
+   "amount": -607.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-14",
+   "kasse": "Tollwood",
+   "amount": -2197.4,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-15",
+   "kasse": "Tollwood",
+   "amount": 3695.0,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-15",
+   "kasse": "Tollwood",
+   "amount": 168.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-15",
+   "kasse": "Tollwood",
+   "amount": 648.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-15",
+   "kasse": "Tollwood",
+   "amount": -650.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-15",
+   "kasse": "Tollwood",
+   "amount": -2635.2,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-15",
+   "kasse": "Tollwood",
+   "amount": -15.0,
+   "text": "Sparkasse Geldwechsel-Geb.",
+   "gegenkonto": 1370,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-16",
+   "kasse": "Tollwood",
+   "amount": 3926.0,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-16",
+   "kasse": "Tollwood",
+   "amount": 300.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-16",
+   "kasse": "Tollwood",
+   "amount": 744.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-16",
+   "kasse": "Tollwood",
+   "amount": -744.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-16",
+   "kasse": "Tollwood",
+   "amount": -2995.6,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-17",
+   "kasse": "Tollwood",
+   "amount": 4378.6,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-17",
+   "kasse": "Tollwood",
+   "amount": 374.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-17",
+   "kasse": "Tollwood",
+   "amount": 886.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-17",
+   "kasse": "Tollwood",
+   "amount": -888.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-17",
+   "kasse": "Tollwood",
+   "amount": -3343.2,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-17",
+   "kasse": "Tollwood",
+   "amount": -22.5,
+   "text": "Sparkasse Geldwechsel-Geb.",
+   "gegenkonto": 1370,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-18",
+   "kasse": "Tollwood",
+   "amount": 6822.8,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-18",
+   "kasse": "Tollwood",
+   "amount": 436.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-18",
+   "kasse": "Tollwood",
+   "amount": 1265.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-18",
+   "kasse": "Tollwood",
+   "amount": -1265.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-18",
+   "kasse": "Tollwood",
+   "amount": -5103.5,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-19",
+   "kasse": "Tollwood",
+   "amount": 6722.8,
+   "text": "Tageseinnahmen 7% Tollwood",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-19",
+   "kasse": "Tollwood",
+   "amount": 416.0,
+   "text": "Tageseinnahmen 19% Tollwood",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-19",
+   "kasse": "Tollwood",
+   "amount": 1236.0,
+   "text": "Pfand Einnahme",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-19",
+   "kasse": "Tollwood",
+   "amount": -1236.0,
+   "text": "Pfand Ausgabe",
+   "gegenkonto": 3786,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-19",
+   "kasse": "Tollwood",
+   "amount": -4074.7,
+   "text": "EC/Kreditkarte Tollwood",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Tollwood",
+   "amount": -2065.37,
+   "text": "Lohn Abu Osama",
+   "gegenkonto": 3720,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Tollwood",
+   "amount": -2062.54,
+   "text": "Lohn Anand Singh",
+   "gegenkonto": 3720,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Tollwood",
+   "amount": -300.0,
+   "text": "Lohn Najib Safi",
+   "gegenkonto": 3720,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Tollwood",
+   "amount": -2062.54,
+   "text": "Lohn Pradeep Singh",
+   "gegenkonto": 3720,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Tollwood",
+   "amount": -886.66,
+   "text": "Lohn Reetu Reetu",
+   "gegenkonto": 3720,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Tollwood",
+   "amount": -361.9,
+   "text": "Lohn Ritu Ritu",
+   "gegenkonto": 3720,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Tollwood",
+   "amount": -414.54,
+   "text": "Lohn Sameer Chaudhary",
+   "gegenkonto": 3720,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Tollwood",
+   "amount": -452.34,
+   "text": "Lohn Shraddha Thaker",
+   "gegenkonto": 3720,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Tollwood",
+   "amount": -271.32,
+   "text": "Lohn Sombir Sombir",
+   "gegenkonto": 3720,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Tollwood",
+   "amount": -657.16,
+   "text": "Lohn Vaishali Vora",
+   "gegenkonto": 3720,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-31",
+   "kasse": "Tollwood",
+   "amount": -527.66,
+   "text": "Lohn Veenu Sandila",
+   "gegenkonto": 3720,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-08-04",
+   "kasse": "Tollwood",
+   "amount": -19382.76,
+   "text": "Einzahlung Bank",
+   "gegenkonto": 1460,
+   "ustPct": 0.0,
+   "notiz": "Anteil an Gesamteinzahlung 24.900 EUR (04.08.); Kasse auf 0 EUR ab 05.08. reduziert (Juli-Endbestand vollstaendig eingezahlt)",
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-02",
+   "kasse": "Foodtruck",
+   "amount": 341.5,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-02",
+   "kasse": "Foodtruck",
+   "amount": -302.5,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-02",
+   "kasse": "Foodtruck",
+   "amount": 0.5,
+   "text": "Trinkgeld",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-06",
+   "kasse": "Foodtruck",
+   "amount": 855.6,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-06",
+   "kasse": "Foodtruck",
+   "amount": 59.5,
+   "text": "Tageseinnahmen 19% Foodtruck",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-06",
+   "kasse": "Foodtruck",
+   "amount": 1.6,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-06",
+   "kasse": "Foodtruck",
+   "amount": -770.9,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-08",
+   "kasse": "Foodtruck",
+   "amount": 675.0,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-08",
+   "kasse": "Foodtruck",
+   "amount": -270.0,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-09",
+   "kasse": "Foodtruck",
+   "amount": 823.5,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-09",
+   "kasse": "Foodtruck",
+   "amount": -342.0,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-11",
+   "kasse": "Foodtruck",
+   "amount": 1129.5,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-11",
+   "kasse": "Foodtruck",
+   "amount": -1129.5,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-12",
+   "kasse": "Foodtruck",
+   "amount": 1437.0,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-12",
+   "kasse": "Foodtruck",
+   "amount": -1437.0,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-15",
+   "kasse": "Foodtruck",
+   "amount": 986.0,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-15",
+   "kasse": "Foodtruck",
+   "amount": -576.0,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-17",
+   "kasse": "Foodtruck",
+   "amount": 2685.5,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-17",
+   "kasse": "Foodtruck",
+   "amount": -2685.5,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-18",
+   "kasse": "Foodtruck",
+   "amount": 3754.5,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-18",
+   "kasse": "Foodtruck",
+   "amount": -2266.5,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-20",
+   "kasse": "Foodtruck",
+   "amount": 740.5,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-20",
+   "kasse": "Foodtruck",
+   "amount": -735.5,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-21",
+   "kasse": "Foodtruck",
+   "amount": 475.0,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-21",
+   "kasse": "Foodtruck",
+   "amount": -374.0,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-23",
+   "kasse": "Foodtruck",
+   "amount": 146.5,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-23",
+   "kasse": "Foodtruck",
+   "amount": 12.0,
+   "text": "Tageseinnahmen 19% Foodtruck",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-23",
+   "kasse": "Foodtruck",
+   "amount": -131.5,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-25",
+   "kasse": "Foodtruck",
+   "amount": 2134.5,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-25",
+   "kasse": "Foodtruck",
+   "amount": 3.0,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-25",
+   "kasse": "Foodtruck",
+   "amount": -1227.5,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-28",
+   "kasse": "Foodtruck",
+   "amount": 185.5,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-28",
+   "kasse": "Foodtruck",
+   "amount": 1.0,
+   "text": "Trinkgeld Einnahme",
+   "gegenkonto": 1375,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-28",
+   "kasse": "Foodtruck",
+   "amount": -110.0,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-29",
+   "kasse": "Foodtruck",
+   "amount": 188.5,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-29",
+   "kasse": "Foodtruck",
+   "amount": -142.0,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-30",
+   "kasse": "Foodtruck",
+   "amount": 688.5,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-30",
+   "kasse": "Foodtruck",
+   "amount": 15.0,
+   "text": "Tageseinnahmen 19% Foodtruck",
+   "gegenkonto": 4400,
+   "ustPct": 19.0,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-07-30",
+   "kasse": "Foodtruck",
+   "amount": -640.5,
+   "text": "EC/Kreditkarte Foodtruck",
+   "gegenkonto": 1462,
+   "ustPct": null,
+   "notiz": null,
+   "status": "bereitgestellt"
+  },
+  {
+   "date": "2026-08-04",
+   "kasse": "Foodtruck",
+   "amount": 96.5,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Z-Bon 39 (Landsberger Str. 437), inkl. ca. 0,50 Trinkgeld, unwesentlich",
+   "status": "neu"
+  },
+  {
+   "date": "2026-08-04",
+   "kasse": "Foodtruck",
+   "amount": -4195.3,
+   "text": "Einzahlung Bank",
+   "gegenkonto": 1460,
+   "ustPct": 0.0,
+   "notiz": "Anteil an Gesamteinzahlung 24.900 EUR (04.08.); Kasse auf 100 EUR Startbetrag ab 05.08. reduziert",
+   "status": "neu"
+  },
+  {
+   "date": "2026-08-11",
+   "kasse": "Foodtruck",
+   "amount": 104.5,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Verkaufsbericht",
+   "status": "neu"
+  },
+  {
+   "date": "2026-08-12",
+   "kasse": "Foodtruck",
+   "amount": 98.0,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Verkaufsbericht",
+   "status": "neu"
+  },
+  {
+   "date": "2026-08-13",
+   "kasse": "Foodtruck",
+   "amount": 10.5,
+   "text": "Tageseinnahmen 7% Foodtruck",
+   "gegenkonto": 4300,
+   "ustPct": 7.0,
+   "notiz": "Verkaufsbericht",
+   "status": "neu"
+  }
+ ]
+}
