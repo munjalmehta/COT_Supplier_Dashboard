@@ -1,7 +1,7 @@
 {
  "supplier": "Kupfer & Sohn",
- "lastUpdated": "2026-07-24",
- "invoiceCount": 62,
+ "lastUpdated": "2026-08-15",
+ "invoiceCount": 65,
  "note": "Document types include Rechnung (invoice) and Gutschrift (credit note/Stornorechng). Pfand/Leergut and packaging deposit line items (BGK, CF markers) excluded from lineItems below to focus on goods - see netTotal/grossTotal for full invoice value including deposits.",
  "invoices": [
   {
@@ -808,6 +808,33 @@
      "amount": 20.76
     }
    ]
+  },
+  {
+   "invoiceNo": "550040",
+   "date": "2026-08-04",
+   "netTotal": 160.32,
+   "vat7": 11.22,
+   "grossTotal": 171.54,
+   "driveFileId": "17L9_HL4hJZxzMvbOPwSwK_SIljcKHozN",
+   "summary": "Naturjoghurt mild 3,5%, H-Fettarme Milch 1,5%, Tafelessig hell 5%, H-Küchensahne 30% (abzgl. Pfand/Kolli-Ausgleich)"
+  },
+  {
+   "invoiceNo": "551500",
+   "date": "2026-08-12",
+   "netTotal": 254.53,
+   "vat7": 17.82,
+   "grossTotal": 272.35,
+   "driveFileId": "1FlrRuEUWY7Dz4USsIUO14AGLNN3cXgHU",
+   "summary": "H-Fettarme Milch 1,5%, Naturjoghurt mild 3,5%, Gouda 48% gerieben, Butter mild gesäuert, H-Küchensahne 30%, Rapsöl 10L (abzgl. Pfand/Kolli-Ausgleich)"
+  },
+  {
+   "invoiceNo": "551858",
+   "date": "2026-08-14",
+   "netTotal": 63.0,
+   "vat7": 4.41,
+   "grossTotal": 67.41,
+   "driveFileId": "1XBAnv0B7o9zGCBOqJOS-QLzikMaNaupC",
+   "summary": "Frischmilch 3,5% 10l Eimer"
   }
  ],
  "totalNetSpend": 11245.12,
