@@ -95,8 +95,8 @@
  },
  "revenueByPlatform": {
   "source": "claude-dashboard-checkpoint/checkpoint-part1-overview.json (Google Drive, saved 2026-08-03)",
-  "period": "inception through 2026-07-27",
-  "note": "Full revenue reconciliation across all sales channels, from a separate/earlier dashboard build. Distinct from the deliveryPlatforms section above, which only covers weekly fee/payout detail for June-July 2026. Figures here are cumulative since inception.",
+  "period": "inception through 2026-07-27 (all channels); SumUp Restaurant + Foodtruck extended through 2026-08-05",
+  "note": "Full revenue reconciliation across all sales channels, from a separate/earlier dashboard build. Distinct from the deliveryPlatforms section above, which only covers weekly fee/payout detail for June-July 2026. Figures here are cumulative since inception. SumUp Restaurant/Foodtruck refreshed 2026-08-15 using Verkaufsbericht CSV covering 01.08-05.08.2026 (Restaurant) and 03.08-05.08.2026 (Foodtruck), added to the 27.07.2026 baseline. KNOWN GAP: 28.07-31.07.2026 not covered by any source found — not included, not estimated. Delivery-platform pass-through rows (Wolt/Uber/Lieferando bookings inside SumUp) excluded from these figures to avoid double-counting with wolt.json/uber_eats.json/lieferando.json.",
   "byPlatform": [
    {
     "platform": "UberEats",
@@ -111,13 +111,13 @@
    },
    {
     "platform": "SumUp Restaurant",
-    "orderCount": 4143,
-    "gross": 154865.28,
-    "net": 142503.31,
-    "vat7": 8591.2,
-    "vat19": 3758.92,
+    "orderCount": 4221,
+    "gross": 158450.41,
+    "net": 145795.27,
+    "vat7": 8785.36,
+    "vat19": 3857.93,
     "platformFees": 0.0,
-    "payout": 154865.28,
+    "payout": 158450.41,
     "commissionPct": 0.0
    },
    {
@@ -144,13 +144,13 @@
    },
    {
     "platform": "SumUp Foodtruck",
-    "orderCount": 2257,
-    "gross": 37318.6,
-    "net": 34859.0,
-    "vat7": 2430.51,
+    "orderCount": 2357,
+    "gross": 38239.6,
+    "net": 35719.81,
+    "vat7": 2490.7,
     "vat19": 26.58,
     "platformFees": 0.0,
-    "payout": 37318.6,
+    "payout": 38239.6,
     "commissionPct": 0.0
    },
    {
@@ -166,15 +166,15 @@
    }
   ],
   "totals": {
-   "bruttoumsatz": 487322.46,
-   "nettoumsatz": 452549.6,
-   "ust7": 29884.27,
-   "ust19": 4874.23,
+   "bruttoumsatz": 491828.59,
+   "nettoumsatz": 456702.37,
+   "ust7": 30138.62,
+   "ust19": 4973.24,
    "plattformGebuehren": 72639.79,
-   "auszahlungGesamt": 414682.67,
+   "auszahlungGesamt": 419188.8,
    "bargeldKasse": 51620.53,
    "ustZahllastGesamt": 30087.84,
-   "anzahlVerkaeufe": 10219
+   "anzahlVerkaeufe": 10397
   }
  }
 }
