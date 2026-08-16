@@ -308,6 +308,7 @@
   <button class="tabbtn" data-view="prices">Preisvergleich</button>
   <button class="tabbtn" data-view="recipes">Rezept-Kosten</button>
   <button class="tabbtn" data-view="bestsellers">Meistverkauft</button>
+  <button class="tabbtn" data-view="bank">Bankabgleich</button>
 </div>
 
 <main>
@@ -499,6 +500,43 @@
     <h2 class="section-title" style="margin-top:30px;">Foodtruck — meistverkauft</h2>
     <div id="foodtruckTableWrap" class="table-wrap"></div>
   </section>
+
+  <!-- BANK RECONCILIATION -->
+  <section id="view-bank" class="view">
+    <h2 class="section-title">Bankabgleich</h2>
+    <p class="section-sub" id="bankPeriodNote"></p>
+    <div id="bankKpis" class="kpi-grid"></div>
+
+    <h3 style="font-family:'Cinzel',serif;color:var(--navy);font-size:15px;">Lieferplattform-Auszahlungen (Bank-Eingänge)</h3>
+    <div id="bankPlatformWrap" class="table-wrap" style="margin-bottom:24px;"></div>
+
+    <h3 style="font-family:'Cinzel',serif;color:var(--navy);font-size:15px;">Lieferantenzahlungen (Bank-Ausgänge)</h3>
+    <div id="bankSupplierWrap" class="table-wrap" style="margin-bottom:24px;"></div>
+
+    <h3 style="font-family:'Cinzel',serif;color:var(--navy);font-size:15px;">Sonstige Kategorien (Steuern, Personal, Miete etc.)</h3>
+    <div id="bankOtherWrap" class="table-wrap" style="margin-bottom:24px;"></div>
+
+    <div class="filter-bar">
+      <div class="filter-field"><label>Kategorie</label>
+        <select id="bankCategory">
+          <option value="">Alle</option>
+          <option value="platform_payout">Lieferplattform-Auszahlung</option>
+          <option value="supplier_payment">Lieferantenzahlung</option>
+          <option value="other">Sonstige (kategorisiert)</option>
+          <option value="uncategorized">Nicht kategorisiert</option>
+        </select>
+      </div>
+      <div class="filter-field"><label>Von Datum</label><input type="date" id="bankFrom"></div>
+      <div class="filter-field"><label>Bis Datum</label><input type="date" id="bankTo"></div>
+      <div class="filter-actions">
+        <button class="filter-btn apply" id="bankApply">Filtern</button>
+        <button class="filter-btn reset" id="bankReset">Zurücksetzen</button>
+      </div>
+    </div>
+    <div class="filter-count" id="bankCount"></div>
+    <h3 style="font-family:'Cinzel',serif;color:var(--navy);font-size:15px;">Alle Buchungen</h3>
+    <div id="bankTxWrap" class="table-wrap"></div>
+  </section>
 </main>
 
 <footer>
@@ -528,7 +566,7 @@ const SUPPLIER_FILES = {
 };
 
 // ---- global state (raw data, fetched once) ----
-const STATE = { supplierData: {}, kassenbuch: null, agendaKassenbuch: null, revenueMonthly: null, priceComparison: null, recipes: null, delivery: {} };
+const STATE = { supplierData: {}, kassenbuch: null, agendaKassenbuch: null, revenueMonthly: null, priceComparison: null, recipes: null, delivery: {}, bankReconciliation: null };
 
 function kpi(label, value, sub, cls){
   return `<div class="kpi ${cls||''}"><p class="kpi-label">${label}</p><p class="kpi-value">${value}</p>${sub?`<p class="kpi-sub">${sub}</p>`:''}</div>`;
@@ -958,6 +996,59 @@ function initBestsellerFilters(){
   renderBestsellers();
 }
 
+/* ============ BANK RECONCILIATION ============ */
+function renderBankTables(){
+  const bk = STATE.bankReconciliation;
+  if(!bk) return;
+  document.getElementById('bankPeriodNote').textContent = `Kontoauszug ${fmtDate(bk.period.split(' to ')[0])} – ${fmtDate(bk.period.split(' to ')[1])} · ${bk.transactionCount} Buchungen · Netto-Bewegung ${fmtEUR(bk.netMovement)}`;
+
+  const platformRows = bk.summaryByCategory.filter(s=>s.category==='platform_payout').sort((a,b)=>b.total-a.total);
+  const supplierRows = bk.summaryByCategory.filter(s=>s.category==='supplier_payment').sort((a,b)=>a.total-b.total);
+  const otherRows = bk.summaryByCategory.filter(s=>s.category==='other').sort((a,b)=>a.total-b.total);
+
+  document.getElementById('bankKpis').innerHTML = [
+    kpi("Lieferplattform-Eingänge gesamt", fmtEUR(platformRows.reduce((s,r)=>s+r.total,0)), platformRows.length+" Quellen", "gold"),
+    kpi("Lieferantenzahlungen gesamt", fmtEUR(supplierRows.reduce((s,r)=>s+Math.abs(r.total),0)), supplierRows.length+" Lieferanten", "coral"),
+    kpi("Sonstige Ausgaben (Steuern/Personal/Miete)", fmtEUR(Math.abs(otherRows.reduce((s,r)=>s+r.total,0))), "", "sky"),
+  ].join("");
+
+  document.getElementById('bankPlatformWrap').innerHTML = `<table>
+    <thead><tr><th>Plattform</th><th class="num">Buchungen</th><th class="num">Summe</th><th>Zeitraum</th></tr></thead>
+    <tbody>${platformRows.map(r=>`<tr><td>${r.label}</td><td class="num">${r.count}</td><td class="num">${fmtEUR(r.total)}</td><td>${fmtDate(r.min_date)} – ${fmtDate(r.max_date)}</td></tr>`).join('')}</tbody>
+  </table>`;
+
+  document.getElementById('bankSupplierWrap').innerHTML = `<table>
+    <thead><tr><th>Lieferant</th><th class="num">Buchungen</th><th class="num">Summe</th><th>Zeitraum</th></tr></thead>
+    <tbody>${supplierRows.map(r=>`<tr><td>${r.label}</td><td class="num">${r.count}</td><td class="num">${fmtEUR(Math.abs(r.total))}</td><td>${fmtDate(r.min_date)} – ${fmtDate(r.max_date)}</td></tr>`).join('')}</tbody>
+  </table>`;
+
+  document.getElementById('bankOtherWrap').innerHTML = `<table>
+    <thead><tr><th>Kategorie</th><th class="num">Buchungen</th><th class="num">Summe</th><th>Zeitraum</th></tr></thead>
+    <tbody>${otherRows.map(r=>`<tr><td>${r.label}</td><td class="num">${r.count}</td><td class="num">${fmtEUR(r.total)}</td><td>${fmtDate(r.min_date)} – ${fmtDate(r.max_date)}</td></tr>`).join('')}</tbody>
+  </table>`;
+
+  renderBankTxTable();
+}
+function renderBankTxTable(){
+  const bk = STATE.bankReconciliation;
+  const cat = document.getElementById('bankCategory').value;
+  const from = document.getElementById('bankFrom').value;
+  const to = document.getElementById('bankTo').value;
+  const filtered = bk.transactions.filter(t => (!cat || t.category===cat) && inRange(t.date, from, to));
+  document.getElementById('bankCount').textContent = `${filtered.length} von ${bk.transactionCount} Buchungen`;
+  document.getElementById('bankTxWrap').innerHTML = `<table>
+    <thead><tr><th>Datum</th><th>Empfänger/Zahler</th><th>Verwendungszweck</th><th class="num">Betrag</th><th>Kategorie</th></tr></thead>
+    <tbody>${filtered.length?filtered.slice(0,400).map(t=>`<tr><td>${fmtDate(t.date)}</td><td style="white-space:normal;">${t.beguenstigter||'–'}</td><td style="white-space:normal;">${t.zweck}</td><td class="num">${fmtEUR(t.amount)}</td><td>${t.label}</td></tr>`).join(''):emptyRow(5)}</tbody>
+  </table>`;
+}
+function initBankFilters(){
+  document.getElementById('bankApply').addEventListener('click', renderBankTxTable);
+  document.getElementById('bankReset').addEventListener('click', ()=>{
+    document.getElementById('bankCategory').value=''; document.getElementById('bankFrom').value=''; document.getElementById('bankTo').value='';
+    renderBankTxTable();
+  });
+}
+
 // tab switching
 document.querySelectorAll('.tabbtn').forEach(btn=>{
   btn.addEventListener('click', ()=>{
@@ -984,6 +1075,7 @@ document.querySelectorAll('.tabbtn').forEach(btn=>{
     try{ STATE.revenueMonthly = await jget('revenue_monthly.json'); renderMonthlyTable(); initMonthlyFilters(); }catch(e){}
     try{ STATE.priceComparison = await jget('price_comparison.json'); initPriceFilters(); }catch(e){}
     try{ STATE.recipes = await jget('recipes.json'); initRecipeFilters(); initBestsellerFilters(); }catch(e){}
+    try{ STATE.bankReconciliation = await jget('bank_reconciliation.json'); renderBankTables(); initBankFilters(); }catch(e){}
   }catch(e){
     document.getElementById('loading').style.display = 'none';
     const err = document.getElementById('err');
