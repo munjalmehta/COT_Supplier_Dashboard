@@ -1,0 +1,3269 @@
+{
+ "source": "Mined from supplier invoice line items. Price = amount / total quantity purchased. Returns/credits/Pfand excluded.",
+ "products": {
+  "Hähnchen (TK, Bulkware)": {
+   "unit": "kg",
+   "suppliersCount": 1,
+   "priceHistory": [
+    {
+     "supplier": "GFT Group",
+     "date": "2026-01-05",
+     "pricePerUnit": 5.7,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN VPOLLO BREAST FILLET SINGLE 4x2.5kg",
+     "invoiceNo": "326100048"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-01-15",
+     "pricePerUnit": 5.5,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326100772"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-01-19",
+     "pricePerUnit": 5.5,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326100927"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-02-10",
+     "pricePerUnit": 5.0,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326102429"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-02-18",
+     "pricePerUnit": 5.0,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326102917"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-02-26",
+     "pricePerUnit": 4.9,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326103612"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-03-11",
+     "pricePerUnit": 4.9,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326104505"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-03-24",
+     "pricePerUnit": 4.6,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326105375"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-01",
+     "pricePerUnit": 4.6,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326106014"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-09",
+     "pricePerUnit": 4.6,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326106533"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-13",
+     "pricePerUnit": 4.6,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326106697"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-20",
+     "pricePerUnit": 4.6,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326107216"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-27",
+     "pricePerUnit": 4.4,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326107744"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-05-12",
+     "pricePerUnit": 4.4,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326108780"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-05-19",
+     "pricePerUnit": 4.4,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326109240"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-05-29",
+     "pricePerUnit": 4.4,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326109996"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-06-08",
+     "pricePerUnit": 4.4,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326110589"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-06-15",
+     "pricePerUnit": 4.4,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326111102"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-06-22",
+     "pricePerUnit": 4.4,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326111636"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-06",
+     "pricePerUnit": 4.3,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326112524"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-15",
+     "pricePerUnit": 4.3,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326113202"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-21",
+     "pricePerUnit": 4.25,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN (TFG) SAHA SALTED THAILAND 6x2kg",
+     "invoiceNo": "326113586"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-28",
+     "pricePerUnit": 4.0,
+     "unit": "kg",
+     "description": "TFG FROZ. CHICKEN FILLET SALTED 6x2kg",
+     "invoiceNo": "326114166"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-08-03",
+     "pricePerUnit": 4.0,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN TFG FILLET SALTED THAILAND 6x2kg",
+     "invoiceNo": "326114632"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-08-12",
+     "pricePerUnit": 4.1667,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN TFG FILLET SALTED THAILAND 6x2kg",
+     "invoiceNo": "326115348"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "GFT Group",
+     "price": 4.1667,
+     "date": "2026-08-12",
+     "description": "FROZ. CHICKEN TFG FILLET SALTED THAILAND 6x2kg"
+    }
+   ]
+  },
+  "Hähnchenschenkel": {
+   "unit": "kg",
+   "suppliersCount": 2,
+   "priceHistory": [
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-07-22",
+     "pricePerUnit": 0.349,
+     "unit": "kg",
+     "description": "Hähnchenschenkel - 10Kg",
+     "invoiceNo": "INV/2026/02988"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-28",
+     "pricePerUnit": 3.5,
+     "unit": "kg",
+     "description": "FROZ. CHICKEN LEGS / Hähnchenschenkel (250g-350g) 10kg",
+     "invoiceNo": "326114187"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "GFT Group",
+     "price": 3.5,
+     "date": "2026-07-28",
+     "description": "FROZ. CHICKEN LEGS / Hähnchenschenkel (250g-350g) 10kg"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "price": 0.349,
+     "date": "2026-07-22",
+     "description": "Hähnchenschenkel - 10Kg"
+    }
+   ]
+  },
+  "Lammfleisch (o. Knochen)": {
+   "unit": "kg",
+   "suppliersCount": 1,
+   "priceHistory": [
+    {
+     "supplier": "GFT Group",
+     "date": "2026-01-15",
+     "pricePerUnit": 13.0,
+     "unit": "kg",
+     "description": "FROZ. LAMB W/O BONES (OHNE KNOCHEN) 1x1kg",
+     "invoiceNo": "326100772"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-02-10",
+     "pricePerUnit": 12.5,
+     "unit": "kg",
+     "description": "FROZ. LAMB W/O BONES (OHNE KNOCHEN) 1x1kg",
+     "invoiceNo": "326102429"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-02-18",
+     "pricePerUnit": 13.0,
+     "unit": "kg",
+     "description": "FROZ. LAMB W/O BONES (OHNE KNOCHEN) 1x1kg",
+     "invoiceNo": "326102917"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-03-24",
+     "pricePerUnit": 13.0,
+     "unit": "kg",
+     "description": "FROZ. LAMB W/O BONES (OHNE KNOCHEN) 1x1kg",
+     "invoiceNo": "326105375"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-09",
+     "pricePerUnit": 12.5,
+     "unit": "kg",
+     "description": "FROZ. LAMB w/o BONES (OHNE KNOCHEN) 1x1kg",
+     "invoiceNo": "326106533"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-06-08",
+     "pricePerUnit": 12.0,
+     "unit": "kg",
+     "description": "FROZ. LAMB w/o BONES (OHNE KNOCHEN) 1x1kg",
+     "invoiceNo": "326110589"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-06",
+     "pricePerUnit": 11.9004,
+     "unit": "kg",
+     "description": "FROZ. LAMB w/o BONES 1kg",
+     "invoiceNo": "326112524"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-08-12",
+     "pricePerUnit": 11.5,
+     "unit": "kg",
+     "description": "FROZ. LAMB w/o BONES 1kg",
+     "invoiceNo": "326115348"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "GFT Group",
+     "price": 11.5,
+     "date": "2026-08-12",
+     "description": "FROZ. LAMB w/o BONES 1kg"
+    }
+   ]
+  },
+  "Tomaten (geschält/passiert/frisch)": {
+   "unit": "kg",
+   "suppliersCount": 2,
+   "priceHistory": [
+    {
+     "supplier": "GFT Group",
+     "date": "2026-01-15",
+     "pricePerUnit": 1.4667,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326100772"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-01-19",
+     "pricePerUnit": 1.4667,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326100927"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-02-05",
+     "pricePerUnit": 1.4667,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326102247"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-02-10",
+     "pricePerUnit": 1.4667,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326102429"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-03-03",
+     "pricePerUnit": 1.4667,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326103874"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-03-11",
+     "pricePerUnit": 1.4667,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326104505"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-03-24",
+     "pricePerUnit": 1.4667,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326105375"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-01",
+     "pricePerUnit": 1.4667,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326106014"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-13",
+     "pricePerUnit": 1.4,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326106697"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-27",
+     "pricePerUnit": 1.2667,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326107744"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-06-08",
+     "pricePerUnit": 1.2667,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326110589"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-16",
+     "pricePerUnit": 2.7412,
+     "unit": "kg",
+     "description": "BYO Tomaten passiert ca. 8-10Brix",
+     "invoiceNo": "172604"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-06-22",
+     "pricePerUnit": 1.2,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326111636"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-25",
+     "pricePerUnit": 2.45,
+     "unit": "kg",
+     "description": "L Romatomaten ES",
+     "invoiceNo": "179842"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-01",
+     "pricePerUnit": 2.25,
+     "unit": "kg",
+     "description": "L Romatomaten ES",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-06",
+     "pricePerUnit": 1.2,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326112524"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-11",
+     "pricePerUnit": 2.3,
+     "unit": "kg",
+     "description": "Romatomaten IT",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-13",
+     "pricePerUnit": 2.2,
+     "unit": "kg",
+     "description": "Romatomaten ES",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-15",
+     "pricePerUnit": 1.2,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326113202"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-15",
+     "pricePerUnit": 2.15,
+     "unit": "kg",
+     "description": "Romatomaten ES",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-28",
+     "pricePerUnit": 1.2,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326114166"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-08-12",
+     "pricePerUnit": 1.2,
+     "unit": "kg",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "invoiceNo": "326115348"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "GFT Group",
+     "price": 1.2,
+     "date": "2026-08-12",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg"
+    },
+    {
+     "supplier": "Ökoring",
+     "price": 2.15,
+     "date": "2026-07-15",
+     "description": "Romatomaten ES"
+    }
+   ]
+  },
+  "Basmati Reis": {
+   "unit": "kg",
+   "suppliersCount": 3,
+   "priceHistory": [
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-04-16",
+     "pricePerUnit": 1.7995,
+     "unit": "kg",
+     "description": "Tavish Extra Long Basmati Rice 20Kg [1 X 20Kg]",
+     "invoiceNo": "INV/2026/01298"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-04-29",
+     "pricePerUnit": 1.7995,
+     "unit": "kg",
+     "description": "Tavish Extra Long Basmati Rice 20Kg [1 X 20Kg]",
+     "invoiceNo": "INV/2026/01546"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-05-13",
+     "pricePerUnit": 1.7995,
+     "unit": "kg",
+     "description": "Tavish Extra Long Basmati Rice 20Kg [1 X 20Kg]",
+     "invoiceNo": "INV/2026/01887"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-05-19",
+     "pricePerUnit": 1.7916,
+     "unit": "kg",
+     "description": "DEEP BASMATI EXTRA LONG RICE - 18.14kg [1 X 18.14kg]",
+     "invoiceNo": "INV/2026/01894"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-06-03",
+     "pricePerUnit": 1.85,
+     "unit": "kg",
+     "description": "HEER EXTRA LONG BASMATI RICE 1x20kg",
+     "invoiceNo": "326110338"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-06-11",
+     "pricePerUnit": 1.85,
+     "unit": "kg",
+     "description": "HEER EXTRA LONG BASMATI RICE 1x20kg",
+     "invoiceNo": "326110909"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-16",
+     "pricePerUnit": 4.45,
+     "unit": "kg",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "invoiceNo": "172604"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-25",
+     "pricePerUnit": 4.45,
+     "unit": "kg",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "invoiceNo": "179842"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-30",
+     "pricePerUnit": 4.45,
+     "unit": "kg",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-03",
+     "pricePerUnit": 4.45,
+     "unit": "kg",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-03",
+     "pricePerUnit": 4.45,
+     "unit": "kg",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-05",
+     "pricePerUnit": 4.45,
+     "unit": "kg",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-06",
+     "pricePerUnit": 1.85,
+     "unit": "kg",
+     "description": "HEER EXTRA LONG BASMATI RICE 20kg",
+     "invoiceNo": "326112524"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-08",
+     "pricePerUnit": 4.45,
+     "unit": "kg",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-10",
+     "pricePerUnit": 4.45,
+     "unit": "kg",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-13",
+     "pricePerUnit": 4.45,
+     "unit": "kg",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-15",
+     "pricePerUnit": 1.85,
+     "unit": "kg",
+     "description": "HEER EXTRA LONG BASMATI RICE 20kg",
+     "invoiceNo": "326113202"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-16",
+     "pricePerUnit": 4.45,
+     "unit": "kg",
+     "description": "DAV Basmati Reis weiß Fairtrade",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-21",
+     "pricePerUnit": 1.85,
+     "unit": "kg",
+     "description": "HEER EXTRA LONG BASMATI RICE 20kg",
+     "invoiceNo": "326113586"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-08-03",
+     "pricePerUnit": 1.85,
+     "unit": "kg",
+     "description": "HEER EXTRA LONG BASMATI RICE 20kg",
+     "invoiceNo": "326114632"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "GFT Group",
+     "price": 1.85,
+     "date": "2026-08-03",
+     "description": "HEER EXTRA LONG BASMATI RICE 20kg"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "price": 1.7916,
+     "date": "2026-05-19",
+     "description": "DEEP BASMATI EXTRA LONG RICE - 18.14kg [1 X 18.14kg]"
+    },
+    {
+     "supplier": "Ökoring",
+     "price": 4.45,
+     "date": "2026-07-16",
+     "description": "DAV Basmati Reis weiß Fairtrade"
+    }
+   ]
+  },
+  "Naturjoghurt": {
+   "unit": "kg",
+   "suppliersCount": 3,
+   "priceHistory": [
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-16",
+     "pricePerUnit": 1.81,
+     "unit": "kg",
+     "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
+     "invoiceNo": "172604"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-18",
+     "pricePerUnit": 1.81,
+     "unit": "kg",
+     "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
+     "invoiceNo": "174652"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-24",
+     "pricePerUnit": 1.81,
+     "unit": "kg",
+     "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
+     "invoiceNo": "178708"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-25",
+     "pricePerUnit": 1.81,
+     "unit": "kg",
+     "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
+     "invoiceNo": "179842"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-26",
+     "pricePerUnit": 1.81,
+     "unit": "kg",
+     "description": "SBG Joghurt stichfest 3,5% DE-BW-056-EWG",
+     "invoiceNo": "180224"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-30",
+     "pricePerUnit": 1.81,
+     "unit": "kg",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-03",
+     "pricePerUnit": 1.81,
+     "unit": "kg",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-05",
+     "pricePerUnit": 1.81,
+     "unit": "kg",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-07",
+     "pricePerUnit": 1.81,
+     "unit": "kg",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-10",
+     "pricePerUnit": 1.81,
+     "unit": "kg",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-12",
+     "pricePerUnit": 1.81,
+     "unit": "kg",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-14",
+     "pricePerUnit": 1.81,
+     "unit": "kg",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-16",
+     "pricePerUnit": 1.81,
+     "unit": "kg",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Metro",
+     "date": "2026-07-16",
+     "pricePerUnit": 2.449,
+     "unit": "kg",
+     "description": "Griechischer Joghurt 10% 10kg",
+     "invoiceNo": "16.07.2026/041/0/0/0501/045779"
+    },
+    {
+     "supplier": "Kupfer & Sohn",
+     "date": "2026-07-17",
+     "pricePerUnit": 1.39,
+     "unit": "kg",
+     "description": "Naturjoghurt mild 3,5% 5kg (BGL)",
+     "invoiceNo": "545429"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-18",
+     "pricePerUnit": 1.81,
+     "unit": "kg",
+     "description": "SBG Joghurt stichfest 3,5%",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Kupfer & Sohn",
+     "date": "2026-07-21",
+     "pricePerUnit": 1.39,
+     "unit": "kg",
+     "description": "Naturjoghurt mild 3,5% 5kg (BGL)",
+     "invoiceNo": "546464"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "Kupfer & Sohn",
+     "price": 1.39,
+     "date": "2026-07-21",
+     "description": "Naturjoghurt mild 3,5% 5kg (BGL)"
+    },
+    {
+     "supplier": "Metro",
+     "price": 2.449,
+     "date": "2026-07-16",
+     "description": "Griechischer Joghurt 10% 10kg"
+    },
+    {
+     "supplier": "Ökoring",
+     "price": 1.81,
+     "date": "2026-07-18",
+     "description": "SBG Joghurt stichfest 3,5%"
+    }
+   ]
+  },
+  "Kichererbsen": {
+   "unit": "kg",
+   "suppliersCount": 3,
+   "priceHistory": [
+    {
+     "supplier": "GFT Group",
+     "date": "2026-01-19",
+     "pricePerUnit": 1.3667,
+     "unit": "kg",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+     "invoiceNo": "326100927"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-02-10",
+     "pricePerUnit": 1.3667,
+     "unit": "kg",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+     "invoiceNo": "326102429"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-02-26",
+     "pricePerUnit": 1.3333,
+     "unit": "kg",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+     "invoiceNo": "326103612"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-03-24",
+     "pricePerUnit": 1.3333,
+     "unit": "kg",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+     "invoiceNo": "326105375"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-13",
+     "pricePerUnit": 1.3667,
+     "unit": "kg",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+     "invoiceNo": "326106697"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-27",
+     "pricePerUnit": 1.3,
+     "unit": "kg",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+     "invoiceNo": "326107744"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-05-12",
+     "pricePerUnit": 1.2667,
+     "unit": "kg",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+     "invoiceNo": "326108780"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-05-22",
+     "pricePerUnit": 1.2593,
+     "unit": "kg",
+     "description": "Mazza Boiled ChickPeas 2.5kg [2.5kg X 6]",
+     "invoiceNo": "INV/2026/01967"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-06-11",
+     "pricePerUnit": 1.2667,
+     "unit": "kg",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+     "invoiceNo": "326110909"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-16",
+     "pricePerUnit": 2.9,
+     "unit": "kg",
+     "description": "DAV Kichererbsenmehl",
+     "invoiceNo": "172604"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-16",
+     "pricePerUnit": 5.25,
+     "unit": "kg",
+     "description": "RAP Chana Dal (Kichererbsen halb und geschält)",
+     "invoiceNo": "172604"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-16",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": "172604"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-24",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": "178708"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-25",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": "179842"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-26",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": "180224"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-30",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-07-02",
+     "pricePerUnit": 1.2593,
+     "unit": "kg",
+     "description": "Mazza Boiled ChickPeas 2.5kg [2.5kg x6]",
+     "invoiceNo": "INV/2026/02658"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-03",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-03",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-05",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-07",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-08",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-10",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-12",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-13",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-14",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-15",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-16",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-18",
+     "pricePerUnit": 2.768,
+     "unit": "kg",
+     "description": "AZF Kichererbsen",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-21",
+     "pricePerUnit": 1.2667,
+     "unit": "kg",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+     "invoiceNo": "326113586"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-28",
+     "pricePerUnit": 1.2333,
+     "unit": "kg",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+     "invoiceNo": "326114166"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "GFT Group",
+     "price": 1.2333,
+     "date": "2026-07-28",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "price": 1.2593,
+     "date": "2026-07-02",
+     "description": "Mazza Boiled ChickPeas 2.5kg [2.5kg x6]"
+    },
+    {
+     "supplier": "Ökoring",
+     "price": 2.768,
+     "date": "2026-07-18",
+     "description": "AZF Kichererbsen"
+    }
+   ]
+  },
+  "Milch (Frisch/H-Milch)": {
+   "unit": "l",
+   "suppliersCount": 2,
+   "priceHistory": [
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-16",
+     "pricePerUnit": 1.33,
+     "unit": "l",
+     "description": "BGL H-Alpenmilch 3,5% Fett NF Tetra Slim DE BY 13110 EG",
+     "invoiceNo": "172604"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-16",
+     "pricePerUnit": 4.7288,
+     "unit": "kg",
+     "description": "MOR Kokosmilch 22% Fett",
+     "invoiceNo": "172604"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-30",
+     "pricePerUnit": 3.4677,
+     "unit": "l",
+     "description": "BVO Kokosmilch 22% Fett",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-03",
+     "pricePerUnit": 1.33,
+     "unit": "l",
+     "description": "BGL H-Alpenmilch 3,5%",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-07",
+     "pricePerUnit": 3.4677,
+     "unit": "l",
+     "description": "BVO Kokosmilch 22% Fett",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-12",
+     "pricePerUnit": 3.4677,
+     "unit": "l",
+     "description": "BVO Kokosmilch 22% Fett",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-13",
+     "pricePerUnit": 1.33,
+     "unit": "l",
+     "description": "BGL H-Alpenmilch 3,5% Fett 12x1l",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Kupfer & Sohn",
+     "date": "2026-07-17",
+     "pricePerUnit": 8.76,
+     "unit": "l",
+     "description": "H-Fettarme Milch 1,5% 12×1L",
+     "invoiceNo": "545429"
+    },
+    {
+     "supplier": "Kupfer & Sohn",
+     "date": "2026-07-17",
+     "pricePerUnit": 1.05,
+     "unit": "l",
+     "description": "Frischmilch 3,5% 10L Eimer (BGL)",
+     "invoiceNo": "545430"
+    },
+    {
+     "supplier": "Kupfer & Sohn",
+     "date": "2026-07-21",
+     "pricePerUnit": 0.73,
+     "unit": "l",
+     "description": "H-Fettarme Milch 1,5% 12x1L",
+     "invoiceNo": "546464"
+    },
+    {
+     "supplier": "Kupfer & Sohn",
+     "date": "2026-07-23",
+     "pricePerUnit": 1.05,
+     "unit": "l",
+     "description": "Frischmilch 3,5% 10L Eimer (BGL)",
+     "invoiceNo": "546837"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "Kupfer & Sohn",
+     "price": 1.05,
+     "date": "2026-07-23",
+     "description": "Frischmilch 3,5% 10L Eimer (BGL)"
+    },
+    {
+     "supplier": "Ökoring",
+     "price": 1.33,
+     "date": "2026-07-13",
+     "description": "BGL H-Alpenmilch 3,5% Fett 12x1l"
+    }
+   ]
+  },
+  "Cashewkerne": {
+   "unit": "kg",
+   "suppliersCount": 1,
+   "priceHistory": [
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-07-14",
+     "pricePerUnit": 5.9495,
+     "unit": "kg",
+     "description": "RG LP Cashew Broken 5Kg [4x5Kg]",
+     "invoiceNo": "INV/2026/02870"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "Rajesh Global Food",
+     "price": 5.9495,
+     "date": "2026-07-14",
+     "description": "RG LP Cashew Broken 5Kg [4x5Kg]"
+    }
+   ]
+  },
+  "Zwiebel (weiß)": {
+   "unit": "kg",
+   "suppliersCount": 1,
+   "priceHistory": [
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-11",
+     "pricePerUnit": 0.62,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE2633"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-18",
+     "pricePerUnit": 0.54,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE2709"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-25",
+     "pricePerUnit": 0.54,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE2756"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-02-20",
+     "pricePerUnit": 0.46,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE3001"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-01",
+     "pricePerUnit": 0.4796,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE3095"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-08",
+     "pricePerUnit": 0.5,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE3119"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-22",
+     "pricePerUnit": 0.5196,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE3247"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-27",
+     "pricePerUnit": 0.5196,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE3330"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-03",
+     "pricePerUnit": 0.5196,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE3377"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-12",
+     "pricePerUnit": 0.54,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE3454"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-16",
+     "pricePerUnit": 0.54,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE3486"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-20",
+     "pricePerUnit": 0.54,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE3527"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-26",
+     "pricePerUnit": 0.54,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE3553"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-10",
+     "pricePerUnit": 0.6396,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE3664"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-18",
+     "pricePerUnit": 0.6396,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE3785"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-15",
+     "pricePerUnit": 0.66,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE4051"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-18",
+     "pricePerUnit": 0.6396,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE4076"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-07-01",
+     "pricePerUnit": 0.62,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE4219"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-07-06",
+     "pricePerUnit": 0.5996,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE4244"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-07-09",
+     "pricePerUnit": 0.5196,
+     "unit": "kg",
+     "description": "Zwiebel 25kg",
+     "invoiceNo": "RE4279"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "RK Traders",
+     "price": 0.5196,
+     "date": "2026-07-09",
+     "description": "Zwiebel 25kg"
+    }
+   ]
+  },
+  "Rote Zwiebel": {
+   "unit": "kg",
+   "suppliersCount": 2,
+   "priceHistory": [
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-11",
+     "pricePerUnit": 1.199,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE2633"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-18",
+     "pricePerUnit": 1.199,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE2709"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-25",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE2756"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-02-20",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE3001"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-01",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE3095"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-08",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE3119"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-15",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE3190"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-22",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE3247"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-27",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE3330"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-03",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE3377"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-12",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE3454"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-16",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE3486"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-03",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE3621"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-10",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE3664"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-18",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE3785"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-02",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE3916"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-08",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE3975"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-15",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE4051"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-17",
+     "pricePerUnit": 3.3,
+     "unit": "kg",
+     "description": "L Zwiebeln rot 40/60 (Biomigliore, Sizilien)",
+     "invoiceNo": "173632"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-25",
+     "pricePerUnit": 2.25,
+     "unit": "kg",
+     "description": "L Zwiebeln rot 40/60 (Biomigliore, Sizilien)",
+     "invoiceNo": "179842"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-07-01",
+     "pricePerUnit": 1.05,
+     "unit": "kg",
+     "description": "Rote Zwiebel 10kg",
+     "invoiceNo": "RE4219"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-07",
+     "pricePerUnit": 2.15,
+     "unit": "kg",
+     "description": "Zwiebeln rot 40/60 IT",
+     "invoiceNo": null
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "RK Traders",
+     "price": 1.05,
+     "date": "2026-07-01",
+     "description": "Rote Zwiebel 10kg"
+    },
+    {
+     "supplier": "Ökoring",
+     "price": 2.15,
+     "date": "2026-07-07",
+     "description": "Zwiebeln rot 40/60 IT"
+    }
+   ]
+  },
+  "Kartoffel": {
+   "unit": "kg",
+   "suppliersCount": 2,
+   "priceHistory": [
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-30",
+     "pricePerUnit": 0.54,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE2805"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-02-03",
+     "pricePerUnit": 0.54,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE2863"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-02-15",
+     "pricePerUnit": 0.54,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE2929"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-02-15",
+     "pricePerUnit": 1.15,
+     "unit": "kg",
+     "description": "Kartoffel Mini Sissi 10kg",
+     "invoiceNo": "RE2929"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-08",
+     "pricePerUnit": 0.54,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE3119"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-15",
+     "pricePerUnit": 1.199,
+     "unit": "kg",
+     "description": "Kartoffeln Mini 10kg",
+     "invoiceNo": "RE3190"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-22",
+     "pricePerUnit": 0.54,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE3247"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-27",
+     "pricePerUnit": 0.54,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE3330"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-03",
+     "pricePerUnit": 0.54,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE3377"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-16",
+     "pricePerUnit": 0.5596,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE3486"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-10",
+     "pricePerUnit": 0.5596,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE3664"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-08",
+     "pricePerUnit": 0.5596,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE3975"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-12",
+     "pricePerUnit": 0.58,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE4011"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-15",
+     "pricePerUnit": 0.58,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE4051"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-17",
+     "pricePerUnit": 1.0,
+     "unit": "kg",
+     "description": "Großkartoffel gewaschen versch. Sorten, vfk oder fk",
+     "invoiceNo": "173632"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-18",
+     "pricePerUnit": 0.58,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE4076"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-20",
+     "pricePerUnit": 1.0,
+     "unit": "kg",
+     "description": "Großkartoffel gewaschen versch. Sorten, vfk oder fk",
+     "invoiceNo": "175128"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-25",
+     "pricePerUnit": 1.0,
+     "unit": "kg",
+     "description": "Großkartoffel gewaschen versch. Sorten, vfk oder fk",
+     "invoiceNo": "179842"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-30",
+     "pricePerUnit": 1.0,
+     "unit": "kg",
+     "description": "Großkartoffel gewaschen 12,5kg",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-03",
+     "pricePerUnit": 1.0,
+     "unit": "kg",
+     "description": "Großkartoffel gewaschen 12,5kg",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-05",
+     "pricePerUnit": 1.0,
+     "unit": "kg",
+     "description": "Großkartoffel gewaschen 12,5kg",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-07-06",
+     "pricePerUnit": 0.796,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE4244"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-07",
+     "pricePerUnit": 1.0,
+     "unit": "kg",
+     "description": "Großkartoffel gewaschen BY",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-08",
+     "pricePerUnit": 1.0,
+     "unit": "kg",
+     "description": "Großkartoffel gewaschen BY",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-07-09",
+     "pricePerUnit": 0.7996,
+     "unit": "kg",
+     "description": "Kartoffel 25kg",
+     "invoiceNo": "RE4279"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-10",
+     "pricePerUnit": 1.0,
+     "unit": "kg",
+     "description": "Großkartoffel gewaschen BY",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-15",
+     "pricePerUnit": 1.0,
+     "unit": "kg",
+     "description": "Großkartoffel gewaschen BY",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-16",
+     "pricePerUnit": 1.0,
+     "unit": "kg",
+     "description": "Großkartoffel gewaschen BY",
+     "invoiceNo": null
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "RK Traders",
+     "price": 0.7996,
+     "date": "2026-07-09",
+     "description": "Kartoffel 25kg"
+    },
+    {
+     "supplier": "Ökoring",
+     "price": 1.0,
+     "date": "2026-07-16",
+     "description": "Großkartoffel gewaschen BY"
+    }
+   ]
+  },
+  "Rahmspinat (TK)": {
+   "unit": "kg",
+   "suppliersCount": 2,
+   "priceHistory": [
+    {
+     "supplier": "GFT Group",
+     "date": "2026-01-19",
+     "pricePerUnit": 3.0625,
+     "unit": "kg",
+     "description": "IGLO FROZ. CREAMED SPINACH (RAHM SPINAT) 8x1kg",
+     "invoiceNo": "326100927"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-02-05",
+     "pricePerUnit": 3.0625,
+     "unit": "kg",
+     "description": "IGLO FROZ. CREAMED SPINACH (RAHM SPINAT) 8x1kg",
+     "invoiceNo": "326102247"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-02-18",
+     "pricePerUnit": 3.3333,
+     "unit": "kg",
+     "description": "IGLO FROZ. CREAMED SPINACH (RAHM SPINAT) 8x750g",
+     "invoiceNo": "326102917"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-03-24",
+     "pricePerUnit": 3.125,
+     "unit": "kg",
+     "description": "IGLO FROZ. CREAMED SPINACH (RAHM SPINAT) 8x1kg",
+     "invoiceNo": "326105373"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-09",
+     "pricePerUnit": 3.3333,
+     "unit": "kg",
+     "description": "IGLO FROZ. CREAMED SPINACH (RAHM SPINAT) 8x750g",
+     "invoiceNo": "326106533"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-04-20",
+     "pricePerUnit": 3.5867,
+     "unit": "kg",
+     "description": "IGLO Rahmspinat Potionierbar 8x 750g",
+     "invoiceNo": "INV/2026/01402"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-05-05",
+     "pricePerUnit": 3.32,
+     "unit": "kg",
+     "description": "IGLO Rahmspinat Potionierbar 8x 750g",
+     "invoiceNo": "INV/2026/01659"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-05-13",
+     "pricePerUnit": 3.4533,
+     "unit": "kg",
+     "description": "IGLO Rahmspinat Potionierbar 8x 750g",
+     "invoiceNo": "INV/2026/01887"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-05-22",
+     "pricePerUnit": 3.32,
+     "unit": "kg",
+     "description": "IGLO Rahmspinat Potionierbar 8x 750g",
+     "invoiceNo": "INV/2026/01967"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-05-29",
+     "pricePerUnit": 3.4533,
+     "unit": "kg",
+     "description": "IGLO Rahmspinat Potionierbar 8x 750g",
+     "invoiceNo": "INV/2026/02074"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-06-09",
+     "pricePerUnit": 3.4533,
+     "unit": "kg",
+     "description": "IGLO Rahmspinat Potionierbar 8x 750g",
+     "invoiceNo": "INV/2026/02273"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-06-16",
+     "pricePerUnit": 3.32,
+     "unit": "kg",
+     "description": "IGLO Rahmspinat Potionierbar 8x 750g",
+     "invoiceNo": "INV/2026/02447"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-07-02",
+     "pricePerUnit": 3.32,
+     "unit": "kg",
+     "description": "IGLO Rahmspinat portionierbar 8x750g",
+     "invoiceNo": "INV/2026/02658"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-07-05",
+     "pricePerUnit": 3.32,
+     "unit": "kg",
+     "description": "IGLO Rahmspinat portionierbar 8x750g",
+     "invoiceNo": "INV/2026/02807"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-28",
+     "pricePerUnit": 3.0625,
+     "unit": "kg",
+     "description": "IGLO FROZ. CREAMED SPINACH (RAHM SPINAT) 8x1kg",
+     "invoiceNo": "326114166"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "GFT Group",
+     "price": 3.0625,
+     "date": "2026-07-28",
+     "description": "IGLO FROZ. CREAMED SPINACH (RAHM SPINAT) 8x1kg"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "price": 3.32,
+     "date": "2026-07-05",
+     "description": "IGLO Rahmspinat portionierbar 8x750g"
+    }
+   ]
+  },
+  "Rapsöl": {
+   "unit": "l",
+   "suppliersCount": 1,
+   "priceHistory": [
+    {
+     "supplier": "Kupfer & Sohn",
+     "date": "2026-07-17",
+     "pricePerUnit": 1.399,
+     "unit": "l",
+     "description": "Rapsöl 10L",
+     "invoiceNo": "545429"
+    },
+    {
+     "supplier": "Kupfer & Sohn",
+     "date": "2026-07-21",
+     "pricePerUnit": 1.399,
+     "unit": "l",
+     "description": "Rapsöl 10L",
+     "invoiceNo": "546464"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "Kupfer & Sohn",
+     "price": 1.399,
+     "date": "2026-07-21",
+     "description": "Rapsöl 10L"
+    }
+   ]
+  },
+  "Sahne (Küchensahne)": {
+   "unit": "l",
+   "suppliersCount": 1,
+   "priceHistory": [
+    {
+     "supplier": "Kupfer & Sohn",
+     "date": "2026-07-17",
+     "pricePerUnit": 35.04,
+     "unit": "l",
+     "description": "H-Küchensahne 30% 12×1L (Frischli)",
+     "invoiceNo": "545429"
+    },
+    {
+     "supplier": "Kupfer & Sohn",
+     "date": "2026-07-21",
+     "pricePerUnit": 2.92,
+     "unit": "l",
+     "description": "H-Küchensahne 30% 12x1L (Frischli)",
+     "invoiceNo": "546464"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "Kupfer & Sohn",
+     "price": 2.92,
+     "date": "2026-07-21",
+     "description": "H-Küchensahne 30% 12x1L (Frischli)"
+    }
+   ]
+  },
+  "Ghee/Butter Ghee": {
+   "unit": "kg",
+   "suppliersCount": 2,
+   "priceHistory": [
+    {
+     "supplier": "GFT Group",
+     "date": "2026-03-03",
+     "pricePerUnit": 11.0,
+     "unit": "kg",
+     "description": "KHANUM BUTTER GHEE 1x2kg",
+     "invoiceNo": "326103874"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-05-05",
+     "pricePerUnit": 0.9375,
+     "unit": "kg",
+     "description": "Heera Ghee [12x1kg]",
+     "invoiceNo": "INV/2026/01659"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-05-29",
+     "pricePerUnit": 9.85,
+     "unit": "kg",
+     "description": "KHANUM BUTTER GHEE 1x2kg",
+     "invoiceNo": "326109996"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-28",
+     "pricePerUnit": 9.515,
+     "unit": "kg",
+     "description": "KHANUM BUTTER GHEE 2kg",
+     "invoiceNo": "326114166"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "GFT Group",
+     "price": 9.515,
+     "date": "2026-07-28",
+     "description": "KHANUM BUTTER GHEE 2kg"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "price": 0.9375,
+     "date": "2026-05-05",
+     "description": "Heera Ghee [12x1kg]"
+    }
+   ]
+  },
+  "Toor Dal": {
+   "unit": "kg",
+   "suppliersCount": 1,
+   "priceHistory": [
+    {
+     "supplier": "GFT Group",
+     "date": "2026-02-10",
+     "pricePerUnit": 2.15,
+     "unit": "kg",
+     "description": "SCHANI TOOR DAL PLAIN 10x1kg",
+     "invoiceNo": "326102429"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-03-03",
+     "pricePerUnit": 2.0417,
+     "unit": "kg",
+     "description": "SCHANI TOOR DAL PLAIN CTN. 6x2kg",
+     "invoiceNo": "326103874"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-05-19",
+     "pricePerUnit": 1.8583,
+     "unit": "kg",
+     "description": "SCHANI TOOR DAL PLAIN CTN. 6x2kg",
+     "invoiceNo": "326109240"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-06",
+     "pricePerUnit": 1.72,
+     "unit": "kg",
+     "description": "SCHANI TOOR DAL PLAIN 2kg",
+     "invoiceNo": "326112524"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-21",
+     "pricePerUnit": 1.72,
+     "unit": "kg",
+     "description": "SCHANI TOOR DAL PLAIN 2kg",
+     "invoiceNo": "326113586"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "GFT Group",
+     "price": 1.72,
+     "date": "2026-07-21",
+     "description": "SCHANI TOOR DAL PLAIN 2kg"
+    }
+   ]
+  },
+  "Knoblauch": {
+   "unit": "kg",
+   "suppliersCount": 3,
+   "priceHistory": [
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2025-12-31",
+     "pricePerUnit": 2.89,
+     "unit": "kg",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "invoiceNo": "S05284"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-01-05",
+     "pricePerUnit": 3.5,
+     "unit": "kg",
+     "description": "SCHANI FROZ. GARLIC CHOPPED CTN. 10x1kg",
+     "invoiceNo": "326100048"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-04-13",
+     "pricePerUnit": 2.899,
+     "unit": "kg",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "invoiceNo": "INV/2026/01265"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-04-29",
+     "pricePerUnit": 0.299,
+     "unit": "kg",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "invoiceNo": "INV/2026/01546"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-05-05",
+     "pricePerUnit": 2.899,
+     "unit": "kg",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "invoiceNo": "INV/2026/01659"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-05-13",
+     "pricePerUnit": 2.799,
+     "unit": "kg",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "invoiceNo": "INV/2026/01887"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-05-29",
+     "pricePerUnit": 2.899,
+     "unit": "kg",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "invoiceNo": "INV/2026/02074"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-06-09",
+     "pricePerUnit": 2.899,
+     "unit": "kg",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "invoiceNo": "INV/2026/02273"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-17",
+     "pricePerUnit": 10.89,
+     "unit": "kg",
+     "description": "DFE Knoblauch Würfel TK Blockware 4x4mm",
+     "invoiceNo": "173632"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-05",
+     "pricePerUnit": 10.89,
+     "unit": "kg",
+     "description": "DFE Knoblauch Würfel TK 4x4mm",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "date": "2026-07-22",
+     "pricePerUnit": 2.799,
+     "unit": "kg",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg - [1KgX10]",
+     "invoiceNo": "INV/2026/02988"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-08-03",
+     "pricePerUnit": 3.0,
+     "unit": "kg",
+     "description": "SCHANI FROZ. GARLIC CHOPPED CTN. 10x1kg",
+     "invoiceNo": "326114632"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "GFT Group",
+     "price": 3.0,
+     "date": "2026-08-03",
+     "description": "SCHANI FROZ. GARLIC CHOPPED CTN. 10x1kg"
+    },
+    {
+     "supplier": "Rajesh Global Food",
+     "price": 2.799,
+     "date": "2026-07-22",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg - [1KgX10]"
+    },
+    {
+     "supplier": "Ökoring",
+     "price": 10.89,
+     "date": "2026-07-05",
+     "description": "DFE Knoblauch Würfel TK 4x4mm"
+    }
+   ]
+  },
+  "Ingwer(saft)": {
+   "unit": "l",
+   "suppliersCount": 1,
+   "priceHistory": [
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-16",
+     "pricePerUnit": 17.3,
+     "unit": "l",
+     "description": "VOE Ingwersaft",
+     "invoiceNo": "172604"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-03",
+     "pricePerUnit": 17.3,
+     "unit": "l",
+     "description": "VOE Ingwersaft",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-11",
+     "pricePerUnit": 17.3,
+     "unit": "l",
+     "description": "VOE Ingwersaft 12x0,2l",
+     "invoiceNo": null
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "Ökoring",
+     "price": 17.3,
+     "date": "2026-07-11",
+     "description": "VOE Ingwersaft 12x0,2l"
+    }
+   ]
+  },
+  "Chapati Atta / Mehl": {
+   "unit": "kg",
+   "suppliersCount": 2,
+   "priceHistory": [
+    {
+     "supplier": "GFT Group",
+     "date": "2026-01-19",
+     "pricePerUnit": 0.8,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 1x10kg",
+     "invoiceNo": "326100927"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-02-10",
+     "pricePerUnit": 0.8,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 1x10kg",
+     "invoiceNo": "326102429"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-02-18",
+     "pricePerUnit": 0.8,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 1x10kg",
+     "invoiceNo": "326102917"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-03-03",
+     "pricePerUnit": 0.805,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 1x10kg",
+     "invoiceNo": "326103874"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-03-24",
+     "pricePerUnit": 0.805,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 1x10kg",
+     "invoiceNo": "326105375"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-01",
+     "pricePerUnit": 0.805,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 1x10kg",
+     "invoiceNo": "326106014"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-09",
+     "pricePerUnit": 0.805,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 1x10kg",
+     "invoiceNo": "326106533"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-20",
+     "pricePerUnit": 0.805,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 1x10kg",
+     "invoiceNo": "326107216"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-04-27",
+     "pricePerUnit": 0.714,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 1x10kg",
+     "invoiceNo": "326107744"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-05-12",
+     "pricePerUnit": 0.714,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 1x10kg",
+     "invoiceNo": "326108780"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-05-19",
+     "pricePerUnit": 0.714,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 1x10kg",
+     "invoiceNo": "326109240"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-06-15",
+     "pricePerUnit": 0.689,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 1x10kg",
+     "invoiceNo": "326111102"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-16",
+     "pricePerUnit": 1.15,
+     "unit": "kg",
+     "description": "lkm Weizenmehl Type 550",
+     "invoiceNo": "172604"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-06",
+     "pricePerUnit": 0.689,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 10kg",
+     "invoiceNo": "326112524"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-08",
+     "pricePerUnit": 1.15,
+     "unit": "kg",
+     "description": "lkm Weizenmehl Type 550",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-10",
+     "pricePerUnit": 1.15,
+     "unit": "kg",
+     "description": "lkm Weizenmehl Type 550",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-15",
+     "pricePerUnit": 0.689,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 10kg",
+     "invoiceNo": "326113202"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-15",
+     "pricePerUnit": 1.15,
+     "unit": "kg",
+     "description": "lkm Weizenmehl Type 550",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-07-28",
+     "pricePerUnit": 0.689,
+     "unit": "kg",
+     "description": "SCHANI CHAPATI ATTA 10kg",
+     "invoiceNo": "326114166"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "GFT Group",
+     "price": 0.689,
+     "date": "2026-07-28",
+     "description": "SCHANI CHAPATI ATTA 10kg"
+    },
+    {
+     "supplier": "Ökoring",
+     "price": 1.15,
+     "date": "2026-07-15",
+     "description": "lkm Weizenmehl Type 550"
+    }
+   ]
+  },
+  "Kokosraspeln": {
+   "unit": "kg",
+   "suppliersCount": 2,
+   "priceHistory": [
+    {
+     "supplier": "GFT Group",
+     "date": "2026-01-27",
+     "pricePerUnit": 7.5,
+     "unit": "kg",
+     "description": "FRIT RAVICH/SCHANI COCONUT FLAKES-MEDIUM CTN. 6x1kg",
+     "invoiceNo": "326101529"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-03-24",
+     "pricePerUnit": 7.5,
+     "unit": "kg",
+     "description": "FRIT RAVICH/SCHANI COCONUT FLAKES-MEDIUM CTN. 6x1kg",
+     "invoiceNo": "326105375"
+    },
+    {
+     "supplier": "GFT Group",
+     "date": "2026-06-03",
+     "pricePerUnit": 6.0,
+     "unit": "kg",
+     "description": "FRIT RAVICH/SCHANI COCONUT FLAKES-MEDIUM 1x1kg",
+     "invoiceNo": "326110338"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-16",
+     "pricePerUnit": 11.76,
+     "unit": "kg",
+     "description": "öri Kokosraspeln medium",
+     "invoiceNo": "172604"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-24",
+     "pricePerUnit": 7.05,
+     "unit": "kg",
+     "description": "DAV Kokosraspeln fein",
+     "invoiceNo": "178707"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "GFT Group",
+     "price": 6.0,
+     "date": "2026-06-03",
+     "description": "FRIT RAVICH/SCHANI COCONUT FLAKES-MEDIUM 1x1kg"
+    },
+    {
+     "supplier": "Ökoring",
+     "price": 7.05,
+     "date": "2026-06-24",
+     "description": "DAV Kokosraspeln fein"
+    }
+   ]
+  },
+  "Gurken": {
+   "unit": "kg",
+   "suppliersCount": 1,
+   "priceHistory": [
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-11",
+     "pricePerUnit": 2.74,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE2633"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-25",
+     "pricePerUnit": 3.3,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE2756"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-30",
+     "pricePerUnit": 2.7,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE2805"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-02-20",
+     "pricePerUnit": 3.3,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3001"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-01",
+     "pricePerUnit": 2.96,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3095"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-08",
+     "pricePerUnit": 2.9,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3119"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-15",
+     "pricePerUnit": 2.5,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3190"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-22",
+     "pricePerUnit": 1.798,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3247"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-27",
+     "pricePerUnit": 2.36,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3330"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-03",
+     "pricePerUnit": 2.198,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3377"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-12",
+     "pricePerUnit": 2.198,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3454"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-26",
+     "pricePerUnit": 1.398,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3553"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-03",
+     "pricePerUnit": 1.5,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3621"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-10",
+     "pricePerUnit": 1.798,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3664"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-17",
+     "pricePerUnit": 2.198,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3733"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-18",
+     "pricePerUnit": 2.25,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3785"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-02",
+     "pricePerUnit": 2.1,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3916"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-08",
+     "pricePerUnit": 1.7,
+     "unit": "kg",
+     "description": "Gurken 5kg",
+     "invoiceNo": "RE3975"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "RK Traders",
+     "price": 1.7,
+     "date": "2026-06-08",
+     "description": "Gurken 5kg"
+    }
+   ]
+  },
+  "Paprika (Mix)": {
+   "unit": "kg",
+   "suppliersCount": 1,
+   "priceHistory": [
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-04",
+     "pricePerUnit": 3.598,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE2584"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-11",
+     "pricePerUnit": 4.1,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE2633"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-18",
+     "pricePerUnit": 4.598,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE2709"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-25",
+     "pricePerUnit": 4.5,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE2756"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-30",
+     "pricePerUnit": 4.198,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE2805"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-01",
+     "pricePerUnit": 3.998,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE3095"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-08",
+     "pricePerUnit": 3.998,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE3119"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-15",
+     "pricePerUnit": 3.998,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE3190"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-22",
+     "pricePerUnit": 3.998,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE3247"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-27",
+     "pricePerUnit": 3.9,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE3330"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-03",
+     "pricePerUnit": 3.9,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE3377"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-03",
+     "pricePerUnit": 3.1,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE3621"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-10",
+     "pricePerUnit": 3.198,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE3664"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-17",
+     "pricePerUnit": 3.31,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE3733"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-18",
+     "pricePerUnit": 3.198,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE3785"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-02",
+     "pricePerUnit": 2.998,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE3916"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-08",
+     "pricePerUnit": 2.998,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE3975"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-15",
+     "pricePerUnit": 2.998,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE4051"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-07-01",
+     "pricePerUnit": 3.1,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE4219"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-07-06",
+     "pricePerUnit": 2.998,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE4244"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-07-09",
+     "pricePerUnit": 2.998,
+     "unit": "kg",
+     "description": "Paprika Mix 5kg",
+     "invoiceNo": "RE4279"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "RK Traders",
+     "price": 2.998,
+     "date": "2026-07-09",
+     "description": "Paprika Mix 5kg"
+    }
+   ]
+  },
+  "Coriander (frisch)": {
+   "unit": "kg",
+   "suppliersCount": 1,
+   "priceHistory": [
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-17",
+     "pricePerUnit": 14.9,
+     "unit": "kg",
+     "description": "L Koriander lose Bayern",
+     "invoiceNo": "173632"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-20",
+     "pricePerUnit": 14.98,
+     "unit": "kg",
+     "description": "L Koriander lose Bayern",
+     "invoiceNo": "175128"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-25",
+     "pricePerUnit": 14.98,
+     "unit": "kg",
+     "description": "L Koriander lose Bayern",
+     "invoiceNo": "179842"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-30",
+     "pricePerUnit": 14.98,
+     "unit": "kg",
+     "description": "L Koriander lose Bayern",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-03",
+     "pricePerUnit": 14.98,
+     "unit": "kg",
+     "description": "L Koriander lose Bayern",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-05",
+     "pricePerUnit": 14.98,
+     "unit": "kg",
+     "description": "L Koriander lose Bayern",
+     "invoiceNo": null
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-07-07",
+     "pricePerUnit": 14.98,
+     "unit": "kg",
+     "description": "Koriander lose Bayern",
+     "invoiceNo": null
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "Ökoring",
+     "price": 14.98,
+     "date": "2026-07-07",
+     "description": "Koriander lose Bayern"
+    }
+   ]
+  },
+  "Aubergine": {
+   "unit": "kg",
+   "suppliersCount": 1,
+   "priceHistory": [
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-04",
+     "pricePerUnit": 3.198,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE2584"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-11",
+     "pricePerUnit": 3.198,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE2633"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-18",
+     "pricePerUnit": 3.7,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE2709"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-25",
+     "pricePerUnit": 3.7,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE2756"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-30",
+     "pricePerUnit": 4.198,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE2805"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-02-03",
+     "pricePerUnit": 4.198,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE2863"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-01",
+     "pricePerUnit": 2.598,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE3095"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-08",
+     "pricePerUnit": 2.598,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE3119"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-15",
+     "pricePerUnit": 3.198,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE3190"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-03-27",
+     "pricePerUnit": 3.798,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE3330"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-03",
+     "pricePerUnit": 2.998,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE3377"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-12",
+     "pricePerUnit": 2.76,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE3454"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-26",
+     "pricePerUnit": 2.198,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE3553"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-18",
+     "pricePerUnit": 2.36,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE3785"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-08",
+     "pricePerUnit": 1.998,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE3975"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-15",
+     "pricePerUnit": 1.998,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE4051"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-07-01",
+     "pricePerUnit": 2.5,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE4219"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-07-06",
+     "pricePerUnit": 2.398,
+     "unit": "kg",
+     "description": "Aubergine 5kg",
+     "invoiceNo": "RE4244"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "RK Traders",
+     "price": 2.398,
+     "date": "2026-07-06",
+     "description": "Aubergine 5kg"
+    }
+   ]
+  },
+  "Zucchini": {
+   "unit": "kg",
+   "suppliersCount": 2,
+   "priceHistory": [
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-11",
+     "pricePerUnit": 2.7,
+     "unit": "kg",
+     "description": "Zucchini 5kg",
+     "invoiceNo": "RE2633"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-25",
+     "pricePerUnit": 4.598,
+     "unit": "kg",
+     "description": "Zucchini 5kg",
+     "invoiceNo": "RE2756"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-01-30",
+     "pricePerUnit": 4.598,
+     "unit": "kg",
+     "description": "Zucchini 5kg",
+     "invoiceNo": "RE2805"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-02-20",
+     "pricePerUnit": 3.198,
+     "unit": "kg",
+     "description": "Zucchini 5kg",
+     "invoiceNo": "RE3001"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-03",
+     "pricePerUnit": 2.398,
+     "unit": "kg",
+     "description": "Zucchini 5kg",
+     "invoiceNo": "RE3377"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-04-26",
+     "pricePerUnit": 1.798,
+     "unit": "kg",
+     "description": "Zucchini 5kg",
+     "invoiceNo": "RE3553"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-03",
+     "pricePerUnit": 1.7,
+     "unit": "kg",
+     "description": "Zucchini 5kg",
+     "invoiceNo": "RE3621"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-05-18",
+     "pricePerUnit": 2.1,
+     "unit": "kg",
+     "description": "Zucchini 5kg",
+     "invoiceNo": "RE3785"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-06-02",
+     "pricePerUnit": 1.96,
+     "unit": "kg",
+     "description": "Zucchini 5kg",
+     "invoiceNo": "RE3916"
+    },
+    {
+     "supplier": "Ökoring",
+     "date": "2026-06-20",
+     "pricePerUnit": 2.4,
+     "unit": "kg",
+     "description": "br Zucchini 14-21",
+     "invoiceNo": "175128"
+    },
+    {
+     "supplier": "RK Traders",
+     "date": "2026-07-01",
+     "pricePerUnit": 1.798,
+     "unit": "kg",
+     "description": "Zucchini 5kg",
+     "invoiceNo": "RE4219"
+    }
+   ],
+   "latestBySupplier": [
+    {
+     "supplier": "RK Traders",
+     "price": 1.798,
+     "date": "2026-07-01",
+     "description": "Zucchini 5kg"
+    },
+    {
+     "supplier": "Ökoring",
+     "price": 2.4,
+     "date": "2026-06-20",
+     "description": "br Zucchini 14-21"
+    }
+   ]
+  }
+ }
+}
