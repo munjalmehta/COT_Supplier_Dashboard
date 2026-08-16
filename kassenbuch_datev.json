@@ -134,5 +134,37 @@
     "gesamt": 19785.4
    }
   ]
- }
+ },
+ "restaurantDatevReal": {
+  "note": "Real DATEV Erfassungsberichte for Restaurant (SumUp-Verrechnungskonto, not physical cash) — recovered from past session. Format has NO Kasse account number and NO platform breakdown (Wolt/Uber/Lieferando don't appear here at all) — only daily Tageseinnahmen 7%/19% (Gegenkonto 4300/4400) and occasional SumUp-Gebühr (Gegenkonto 6855) lines. Endbestand chain verified continuous: Jan-end = Feb-start, Feb-end = Mar-start. April-June still have NO real DATEV file — the monthly table above (from SumUp Verkaufsbericht bar/karte split) is the best available approximation for those months, not confirmed against a DATEV export.",
+  "monthly": {
+   "2026-01": {
+    "einnahmen7": 14677.99,
+    "einnahmen19": 2533.8,
+    "sumupFee": null,
+    "pct7": 85.28,
+    "endbestand": 136015.73
+   },
+   "2026-02": {
+    "einnahmen7": 20567.31,
+    "einnahmen19": 3965.24,
+    "sumupFee": 140.34,
+    "pct7": 83.84,
+    "endbestand": 160407.94
+   },
+   "2026-03": {
+    "einnahmen7": 26199.19,
+    "einnahmen19": 4402.08,
+    "sumupFee": 219.55,
+    "pct7": 85.61,
+    "endbestand": 190789.66
+   }
+  },
+  "knownDiscrepancy": "January real DATEV total (17,211.79) exceeds the SumUp Verkaufsbericht-derived 'sumup_restaurant' figure (15,873.63) by 1,338.16 — possibly because the Foodtruck terminal (MCKQLK39) wasn't active until May 2026, so January revenue may have run through a shared account. Not resolved — flagged for Frau Ottensmeyer."
+ },
+ "deliveryPlatformsJanJun": {
+  "status": "NOT AVAILABLE — explicitly investigated in a past session and found insufficient",
+  "note": "Uber Eats: partial gross-revenue figures exist for March/April/May only, no VAT split, no daily breakdown — not usable. Wolt: a monthly total series exists but the month-to-value mapping is ambiguous and untrusted. Lieferando: only net bank payout figures with a commission rate that swung 14-30% month to month — can't back out gross revenue reliably. A past session explicitly declined to fabricate day-level splits from these monthly totals, and this session doesn't either. Real weekly/daily detail only starts late June 2026 (see wolt.json/uber_eats.json/lieferando.json). Closing this gap requires bulk exports (order-level archive or sales-over-time CSV) for Jan-June from each platform, not reconstruction from what's already been checked."
+ },
+ "lastUpdated": "2026-08-16"
 }
