@@ -441,10 +441,13 @@
   <!-- PRICES -->
   <section id="view-prices" class="view">
     <h2 class="section-title">Preisvergleich</h2>
-    <p class="section-sub">Zutatenpreise aus echten Lieferantenrechnungen.</p>
+    <p class="section-sub">Gleiches Produkt, verschiedene Lieferanten — wer ist günstiger, wie entwickelt sich der Preis. Aus Rechnungspositionen berechnet (Preis = Rechnungsbetrag ÷ Gesamtmenge), auf €/kg bzw. €/l normalisiert.</p>
     <div class="filter-bar">
-      <div class="filter-field"><label>Lieferant</label>
-        <select id="priceSupplier"><option value="">Alle</option></select>
+      <div class="filter-field"><label>Produkt</label>
+        <select id="priceProduct"><option value="">Alle</option></select>
+      </div>
+      <div class="filter-field"><label>Nur mit ≥2 Lieferanten</label>
+        <select id="priceMultiOnly"><option value="1">Ja</option><option value="0">Nein</option></select>
       </div>
       <div class="filter-actions">
         <button class="filter-btn apply" id="priceApply">Filtern</button>
@@ -452,7 +455,7 @@
       </div>
     </div>
     <div class="filter-count" id="priceCount"></div>
-    <div id="pricesTableWrap" class="table-wrap"></div>
+    <div id="priceProductList"></div>
   </section>
 
   <!-- RECIPES -->
@@ -525,7 +528,7 @@ const SUPPLIER_FILES = {
 };
 
 // ---- global state (raw data, fetched once) ----
-const STATE = { supplierData: {}, kassenbuch: null, agendaKassenbuch: null, revenueMonthly: null, prices: null, recipes: null, delivery: {} };
+const STATE = { supplierData: {}, kassenbuch: null, agendaKassenbuch: null, revenueMonthly: null, priceComparison: null, recipes: null, delivery: {} };
 
 function kpi(label, value, sub, cls){
   return `<div class="kpi ${cls||''}"><p class="kpi-label">${label}</p><p class="kpi-value">${value}</p>${sub?`<p class="kpi-sub">${sub}</p>`:''}</div>`;
@@ -575,10 +578,10 @@ function renderMonthlyTable(){
   const wrap = document.getElementById('monthlyTableWrap');
   if(!rows.length){ wrap.innerHTML = `<div class="empty-note">Keine Monate im gewählten Zeitraum.</div>`; return; }
   wrap.innerHTML = `<table>
-    <thead><tr><th>Monat</th><th class="num">Umsatz</th><th class="num">UberEats</th><th class="num">Wolt</th><th class="num">Lieferando</th><th class="num">SumUp Rest.</th><th class="num">Tollwood</th><th class="num">Bar</th><th class="num">Karte</th><th class="num">Ausgaben</th><th class="num">Trinkgeld</th></tr></thead>
+    <thead><tr><th>Monat</th><th class="num">Umsatz</th><th class="num">UberEats</th><th class="num">Wolt</th><th class="num">Lieferando</th><th class="num">SumUp Restaurant</th><th class="num">SumUp Foodtruck</th><th class="num">Tollwood</th><th class="num">Bar</th><th class="num">Karte</th><th class="num">Ausgaben</th><th class="num">Trinkgeld</th></tr></thead>
     <tbody>${rows.map(r=>`<tr>
       <td>${r.month}</td><td class="num">${fmtEUR(r.umsatz)}</td><td class="num">${fmtEUR(r.uber)}</td><td class="num">${fmtEUR(r.wolt)}</td>
-      <td class="num">${fmtEUR(r.lieferando)}</td><td class="num">${fmtEUR(r.sumup_restaurant)}</td><td class="num">${fmtEUR(r.tollwood)}</td>
+      <td class="num">${fmtEUR(r.lieferando)}</td><td class="num">${fmtEUR(r.sumup_restaurant)}</td><td class="num">${fmtEUR(r.sumup_foodtruck)}</td><td class="num">${fmtEUR(r.tollwood)}</td>
       <td class="num">${fmtEUR(r.bar)}</td><td class="num">${fmtEUR(r.karte)}</td><td class="num">${fmtEUR(r.ausgaben)}</td>
       <td class="num">${r.trinkgeld!==undefined?fmtEUR(r.trinkgeld):'–'}</td>
     </tr>`).join('')}</tbody>
@@ -764,8 +767,14 @@ function renderDeliveryBlocks(){
   const container = document.getElementById('deliveryBlocks');
   container.innerHTML = "";
 
+  const summaryCards = [];
+
   if(STATE.delivery.wolt && (!platform || platform==='wolt')){
     const rows = STATE.delivery.wolt.periods.filter(p => inRange(periodKeyWolt(p), from, to));
+    const grossTotal = rows.reduce((s,p)=>s+((p.revenue_goods_gross||0)+(p.revenue_delivery_service_gross||0)),0);
+    const feesTotal = rows.reduce((s,p)=>s+(p.invoiceTotal_gross||p.wolt_fee_gross||0),0);
+    const payoutTotal = rows.reduce((s,p)=>s+(p.payoutAmount||0),0);
+    summaryCards.push({name:'Wolt', cls:'wolt', gross:grossTotal, fees:feesTotal, payout:payoutTotal, n:rows.length});
     container.innerHTML += `
       <div class="platform-block">
         <div class="platform-head"><span class="dot wolt"></span><h3 style="margin:0;font-family:'Cinzel',serif;color:var(--navy);">Wolt</h3></div>
@@ -777,6 +786,10 @@ function renderDeliveryBlocks(){
   }
   if(STATE.delivery.uber && (!platform || platform==='uber')){
     const rows = STATE.delivery.uber.weeks.filter(w => inRange(periodKeyUber(w), from, to));
+    const grossTotal = rows.reduce((s,w)=>s+(w.grossOrderValue||0),0);
+    const feesTotal = rows.reduce((s,w)=>s+((w.uberEatsFee_net||0)+(w.uberEatsFee_vat||0))+Math.abs((w.marketing.adsGross||0)+(w.marketing.offerFeeGross||0)),0);
+    const payoutTotal = rows.reduce((s,w)=>s+(w.payoutTotal||0),0);
+    summaryCards.push({name:'Uber Eats', cls:'uber', gross:grossTotal, fees:feesTotal, payout:payoutTotal, n:rows.length});
     container.innerHTML += `
       <div class="platform-block">
         <div class="platform-head"><span class="dot uber"></span><h3 style="margin:0;font-family:'Cinzel',serif;color:var(--navy);">Uber Eats</h3></div>
@@ -788,6 +801,10 @@ function renderDeliveryBlocks(){
   }
   if(STATE.delivery.lief && (!platform || platform==='lief')){
     const rows = STATE.delivery.lief.weeks.filter(w => inRange(periodKeyLief(w), from, to));
+    const grossTotal = rows.reduce((s,w)=>s+(w.revenue_gross||0),0);
+    const feesTotal = rows.reduce((s,w)=>s+(w.invoiceTotal_gross||0),0);
+    const payoutTotal = rows.reduce((s,w)=>s+(w.payoutAmount||0),0);
+    summaryCards.push({name:'Lieferando', cls:'lief', gross:grossTotal, fees:feesTotal, payout:payoutTotal, n:rows.length});
     container.innerHTML += `
       <div class="platform-block">
         <div class="platform-head"><span class="dot lief"></span><h3 style="margin:0;font-family:'Cinzel',serif;color:var(--navy);">Lieferando</h3></div>
@@ -797,7 +814,18 @@ function renderDeliveryBlocks(){
         </table></div>
       </div>`;
   }
-  if(!container.innerHTML) container.innerHTML = `<div class="empty-note">Keine Daten für diesen Filter.</div>`;
+
+  const summaryHtml = summaryCards.map(c=>{
+    const commPct = c.gross>0 ? (c.fees/c.gross*100).toFixed(1) : '–';
+    return kpi(`${c.name} — Gesamtumsatz`, fmtEUR(c.gross), `${c.n} Perioden`, c.cls==='uber'?'gold':(c.cls==='lief'?'coral':'sky'))
+      + kpi(`${c.name} — Gebühren`, fmtEUR(c.fees), `${commPct}% effektive Provision`, 'coral')
+      + kpi(`${c.name} — Netto-Auszahlung`, fmtEUR(c.payout), '', 'sky');
+  }).join('');
+  if(summaryHtml){
+    container.innerHTML = `<div class="kpi-grid">${summaryHtml}</div>` + container.innerHTML;
+  }
+
+  if(!summaryCards.length) container.innerHTML = `<div class="empty-note">Keine Daten für diesen Filter.</div>`;
 }
 async function loadDelivery(){
   try{ STATE.delivery.wolt = await jget('wolt.json'); }catch(e){}
@@ -811,34 +839,56 @@ async function loadDelivery(){
   });
 }
 
-/* ============ PRICES ============ */
-function renderPricesTable(){
-  const pr = STATE.prices;
-  if(!pr) return;
-  const supplierFilter = document.getElementById('priceSupplier').value;
-  const entries = Object.entries(pr.prices).filter(([k,v])=>v && (!supplierFilter || v.latest_supplier===supplierFilter));
-  document.getElementById('priceCount').textContent = `${entries.length} Zutat(en)`;
-  const wrap = document.getElementById('pricesTableWrap');
-  if(!entries.length){ wrap.innerHTML = `<div class="empty-note">Keine Zutaten für diesen Lieferanten.</div>`; return; }
-  wrap.innerHTML = `<table>
-    <thead><tr><th>Zutat</th><th class="num">Letzter Preis</th><th>Einheit</th><th class="num">Ø Preis</th><th class="num">n</th><th>Letzte Quelle</th></tr></thead>
-    <tbody>${entries.map(([name,v])=>`<tr>
-      <td>${name.replace(/_/g,' ')}</td>
-      <td class="num">${v.latest_price!==undefined?v.latest_price.toLocaleString('de-DE',{minimumFractionDigits:2}):'–'}</td>
-      <td>${v.unit||''}</td>
-      <td class="num">${v.avg_price!==undefined?v.avg_price.toLocaleString('de-DE',{minimumFractionDigits:2}):'–'}</td>
-      <td class="num">${v.n||'–'}</td>
-      <td style="white-space:normal;">${v.latest_desc?`${v.latest_desc} (${v.latest_supplier||''})`:(v.note||'')}</td>
-    </tr>`).join('')}</tbody>
-  </table>`;
+/* ============ PRICES: multi-supplier comparison ============ */
+function renderPriceComparison(){
+  const pc = STATE.priceComparison;
+  if(!pc) return;
+  const productFilter = document.getElementById('priceProduct').value;
+  const multiOnly = document.getElementById('priceMultiOnly').value === '1';
+  let entries = Object.entries(pc.products);
+  if(productFilter) entries = entries.filter(([k])=>k===productFilter);
+  if(multiOnly) entries = entries.filter(([k,v])=>v.suppliersCount>1);
+  entries.sort((a,b)=> b[1].suppliersCount - a[1].suppliersCount || a[0].localeCompare(b[0]));
+
+  document.getElementById('priceCount').textContent = `${entries.length} Produkt(e)`;
+  const container = document.getElementById('priceProductList');
+  if(!entries.length){ container.innerHTML = `<div class="empty-note">Keine Produkte für diesen Filter.</div>`; return; }
+
+  container.innerHTML = entries.map(([name, data])=>{
+    const byS = data.latestBySupplier.slice().sort((a,b)=>a.price-b.price);
+    const cheapest = byS[0], priciest = byS[byS.length-1];
+    const spread = byS.length>1 ? Math.round((priciest.price/cheapest.price - 1)*100) : 0;
+    const history = data.priceHistory.slice().reverse().slice(0,30);
+    return `
+      <div class="supplier-card">
+        <div class="supplier-head">
+          <div>
+            <h3>${name}${data.suppliersCount>1?`<span class="badge">${data.suppliersCount} Lieferanten</span>`:''}</h3>
+            <div class="supplier-meta">Einheit: €/${data.unit}${data.suppliersCount>1?` · günstigster: ${cheapest.supplier} (${fmtEUR(cheapest.price)}) · teuerster: ${priciest.supplier} (${fmtEUR(priciest.price)}) · +${spread}% Spanne`:''}</div>
+          </div>
+          <div class="supplier-net">${byS.map(s=>`${s.supplier}: ${fmtEUR(s.price)}`).join(' · ')}</div>
+        </div>
+        <div class="supplier-body">
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Datum</th><th>Lieferant</th><th class="num">Preis / ${data.unit}</th><th>Beschreibung (Rechnung)</th></tr></thead>
+              <tbody>${history.map(h=>`<tr><td>${fmtDate(h.date)}</td><td>${h.supplier}</td><td class="num">${fmtEUR(h.pricePerUnit)}</td><td style="white-space:normal;">${h.description}</td></tr>`).join('')}</tbody>
+            </table>
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+  container.querySelectorAll('.supplier-head').forEach(h=>h.addEventListener('click',()=>h.nextElementSibling.classList.toggle('open')));
 }
 function initPriceFilters(){
-  const suppliers = [...new Set(Object.values(STATE.prices.prices).filter(v=>v&&v.latest_supplier).map(v=>v.latest_supplier))].sort();
-  const sel = document.getElementById('priceSupplier');
-  suppliers.forEach(s=>{ const o=document.createElement('option'); o.value=s; o.textContent=s; sel.appendChild(o); });
-  document.getElementById('priceApply').addEventListener('click', renderPricesTable);
-  document.getElementById('priceReset').addEventListener('click', ()=>{ sel.value=''; renderPricesTable(); });
-  renderPricesTable();
+  const pc = STATE.priceComparison;
+  const sel = document.getElementById('priceProduct');
+  Object.keys(pc.products).sort().forEach(name=>{ const o=document.createElement('option'); o.value=name; o.textContent=name; sel.appendChild(o); });
+  document.getElementById('priceApply').addEventListener('click', renderPriceComparison);
+  document.getElementById('priceReset').addEventListener('click', ()=>{
+    sel.value=''; document.getElementById('priceMultiOnly').value='1'; renderPriceComparison();
+  });
+  renderPriceComparison();
 }
 
 /* ============ RECIPES ============ */
@@ -932,7 +982,7 @@ document.querySelectorAll('.tabbtn').forEach(btn=>{
     try{ const kd = await jget('kassenbuch_datev.json'); renderDatevTables(kd); }catch(e){}
     await loadDelivery();
     try{ STATE.revenueMonthly = await jget('revenue_monthly.json'); renderMonthlyTable(); initMonthlyFilters(); }catch(e){}
-    try{ STATE.prices = await jget('ingredient_prices.json'); initPriceFilters(); }catch(e){}
+    try{ STATE.priceComparison = await jget('price_comparison.json'); initPriceFilters(); }catch(e){}
     try{ STATE.recipes = await jget('recipes.json'); initRecipeFilters(); initBestsellerFilters(); }catch(e){}
   }catch(e){
     document.getElementById('loading').style.display = 'none';
