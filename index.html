@@ -646,18 +646,26 @@ function renderDatevTables(kd){
 
   if(kd.restaurantDatevReal){
     const rr = kd.restaurantDatevReal;
+    const ft = kd.foodtruckDatevReal;
     const allMonths = ["2026-01","2026-02","2026-03","2026-04","2026-05","2026-06"];
     document.getElementById('datevRealWrap').innerHTML = `<table>
-      <thead><tr><th>Monat</th><th>Status</th><th class="num">Einnahmen 7%</th><th class="num">Einnahmen 19%</th><th class="num">SumUp-Gebühr</th><th class="num">% bei 7%</th></tr></thead>
+      <thead><tr><th>Monat</th><th>Kasse</th><th class="num">Einnahmen 7%</th><th class="num">Einnahmen 19%</th><th class="num">Bar</th><th class="num">Karte</th><th class="num">Trinkgeld</th><th class="num">Bestellungen</th></tr></thead>
       <tbody>${allMonths.map(m=>{
-        const real = rr.monthly[m];
-        if(real){
-          return `<tr><td>${m}</td><td><span class="badge">echt (DATEV)</span></td><td class="num">${fmtEUR(real.einnahmen7)}</td><td class="num">${fmtEUR(real.einnahmen19)}</td><td class="num">${real.sumupFee!==null?fmtEUR(real.sumupFee):'–'}</td><td class="num">${real.pct7}%</td></tr>`;
+        const r = rr.monthly[m];
+        const f = ft ? ft.monthly[m] : null;
+        let rows = '';
+        if(r){
+          rows += `<tr><td>${m}</td><td>Restaurant <span class="badge">echt</span></td><td class="num">${fmtEUR(r.einnahmen7)}</td><td class="num">${fmtEUR(r.einnahmen19)}</td><td class="num">${fmtEUR(r.bar)}</td><td class="num">${fmtEUR(r.karte)}</td><td class="num">${fmtEUR(r.trinkgeld)}</td><td class="num">${r.orders}</td></tr>`;
         }
-        return `<tr><td>${m}</td><td style="color:var(--coral);">geschätzt</td><td class="num" colspan="4" style="text-align:left;color:rgba(32,32,33,0.5);">kein echter DATEV-Export vorhanden — siehe Bar-Zuwachs-Tabelle unten (SumUp-Verkaufsbericht-Näherung)</td></tr>`;
+        if(f){
+          rows += `<tr><td>${m}</td><td>Foodtruck <span class="badge">echt</span></td><td class="num">${fmtEUR(f.einnahmen7)}</td><td class="num">${fmtEUR(f.einnahmen19)}</td><td class="num">${fmtEUR(f.bar)}</td><td class="num">${fmtEUR(f.karte)}</td><td class="num">${fmtEUR(f.trinkgeld)}</td><td class="num">${f.orders}</td></tr>`;
+        } else if(m < '2026-05'){
+          rows += `<tr><td>${m}</td><td>Foodtruck</td><td colspan="6" style="text-align:left;color:rgba(32,32,33,0.5);">Terminal (MCKQLK39) noch nicht aktiv — keine Transaktionen vor Mai 2026</td></tr>`;
+        }
+        return rows;
       }).join('')}</tbody>
     </table>`;
-    document.getElementById('datevRealNote').textContent = rr.note + " " + rr.knownDiscrepancy;
+    document.getElementById('datevRealNote').textContent = rr.note;
   }
 
   document.getElementById('datevMonthWrap').innerHTML = `<table>
@@ -672,7 +680,9 @@ function renderDatevTables(kd){
     <thead><tr><th>Monat</th><th class="num">Uber Eats (1467)</th><th class="num">Wolt (1466)</th><th class="num">Lieferando (1465)</th><th class="num">Gesamt (Einnahme = Ausgabe)</th></tr></thead>
     <tbody>${kd.deliveryPassThrough.monthly.map(m=>`<tr><td>${m.month}</td><td class="num">${fmtEUR(m.uberEats)}</td><td class="num">${fmtEUR(m.wolt)}</td><td class="num">${fmtEUR(m.lieferando)}</td><td class="num">${fmtEUR(m.gesamt)}</td></tr>`).join('')}</tbody>
   </table>`;
-  if(kd.deliveryPlatformsJanJun){
+  if(kd.deliveryPlatformsJanJun_stillOpen){
+    document.getElementById('datevDeliveryGapNote').textContent = "⚠ " + kd.deliveryPlatformsJanJun_stillOpen.status;
+  } else if(kd.deliveryPlatformsJanJun){
     document.getElementById('datevDeliveryGapNote').textContent = "⚠ " + kd.deliveryPlatformsJanJun.status + " — " + kd.deliveryPlatformsJanJun.note;
   }
 }
