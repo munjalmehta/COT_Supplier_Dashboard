@@ -136,35 +136,131 @@
   ]
  },
  "restaurantDatevReal": {
-  "note": "Real DATEV Erfassungsberichte for Restaurant (SumUp-Verrechnungskonto, not physical cash) — recovered from past session. Format has NO Kasse account number and NO platform breakdown (Wolt/Uber/Lieferando don't appear here at all) — only daily Tageseinnahmen 7%/19% (Gegenkonto 4300/4400) and occasional SumUp-Gebühr (Gegenkonto 6855) lines. Endbestand chain verified continuous: Jan-end = Feb-start, Feb-end = Mar-start. April-June still have NO real DATEV file — the monthly table above (from SumUp Verkaufsbericht bar/karte split) is the best available approximation for those months, not confirmed against a DATEV export.",
+  "note": "REPLACED 2026-08-16: real day-level SumUp Verkaufsbericht (Restaurant, 01.01-31.07.2026) uploaded directly - ALL DATEV-period months (Jan-Jun) now real, no more estimates. Superseded the earlier partial DATEV-workbook recovery (Jan-Mar only) - kept below for cross-check since the two sources show real discrepancies (different source systems/scope).",
   "monthly": {
    "2026-01": {
+    "einnahmen7": 15561.97,
+    "einnahmen19": 2451.78,
+    "vat7": 1090.61,
+    "vat19": 466.37,
+    "trinkgeld": 751.94,
+    "bar": 5965.8,
+    "karte": 13604.93,
+    "orders": 540,
+    "pct7": 86.39
+   },
+   "2026-02": {
+    "einnahmen7": 19220.38,
+    "einnahmen19": 3331.48,
+    "vat7": 1346.93,
+    "vat19": 633.75,
+    "trinkgeld": 1007.28,
+    "bar": 5741.91,
+    "karte": 18790.64,
+    "orders": 606,
+    "pct7": 85.23
+   },
+   "2026-03": {
+    "einnahmen7": 24483.89,
+    "einnahmen19": 3698.49,
+    "vat7": 1715.3,
+    "vat19": 703.59,
+    "trinkgeld": 1254.43,
+    "bar": 5739.08,
+    "karte": 24862.19,
+    "orders": 958,
+    "pct7": 86.88
+   },
+   "2026-04": {
+    "einnahmen7": 21857.27,
+    "einnahmen19": 2900.83,
+    "vat7": 1531.09,
+    "vat19": 551.93,
+    "trinkgeld": 960.01,
+    "bar": 5138.75,
+    "karte": 21702.37,
+    "orders": 831,
+    "pct7": 88.28
+   },
+   "2026-05": {
+    "einnahmen7": 16757.18,
+    "einnahmen19": 3007.8,
+    "vat7": 1174.12,
+    "vat19": 572.23,
+    "trinkgeld": 1076.82,
+    "bar": 3533.93,
+    "karte": 17977.4,
+    "orders": 466,
+    "pct7": 84.78
+   },
+   "2026-06": {
+    "einnahmen7": 13058.42,
+    "einnahmen19": 2376.59,
+    "vat7": 915.02,
+    "vat19": 452.1,
+    "trinkgeld": 637.76,
+    "bar": 2925.83,
+    "karte": 13876.3,
+    "orders": 356,
+    "pct7": 84.6
+   },
+   "2026-07": {
+    "einnahmen7": 14124.31,
+    "einnahmen19": 2417.62,
+    "vat7": 989.91,
+    "vat19": 460.01,
+    "trinkgeld": 627.97,
+    "bar": 3543.4,
+    "karte": 14448.45,
+    "orders": 464,
+    "pct7": 85.38
+   }
+  },
+  "crossCheckAgainstDatevWorkbook": {
+   "note": "Earlier recovered DATEV Erfassungsbericht (SumUp-Verrechnungskonto) figures for Jan-Mar, kept for comparison - real discrepancies exist (e.g. Jan net7 14677.99 vs Verkaufsbericht 15561.97), not resolved.",
+   "2026-01": {
     "einnahmen7": 14677.99,
-    "einnahmen19": 2533.8,
-    "sumupFee": null,
-    "pct7": 85.28,
-    "endbestand": 136015.73
+    "einnahmen19": 2533.8
    },
    "2026-02": {
     "einnahmen7": 20567.31,
     "einnahmen19": 3965.24,
-    "sumupFee": 140.34,
-    "pct7": 83.84,
-    "endbestand": 160407.94
+    "sumupFee": 140.34
    },
    "2026-03": {
     "einnahmen7": 26199.19,
     "einnahmen19": 4402.08,
-    "sumupFee": 219.55,
-    "pct7": 85.61,
-    "endbestand": 190789.66
+    "sumupFee": 219.55
    }
-  },
-  "knownDiscrepancy": "January real DATEV total (17,211.79) exceeds the SumUp Verkaufsbericht-derived 'sumup_restaurant' figure (15,873.63) by 1,338.16 — possibly because the Foodtruck terminal (MCKQLK39) wasn't active until May 2026, so January revenue may have run through a shared account. Not resolved — flagged for Frau Ottensmeyer."
+  }
  },
- "deliveryPlatformsJanJun": {
-  "status": "NOT AVAILABLE — explicitly investigated in a past session and found insufficient",
-  "note": "Uber Eats: partial gross-revenue figures exist for March/April/May only, no VAT split, no daily breakdown — not usable. Wolt: a monthly total series exists but the month-to-value mapping is ambiguous and untrusted. Lieferando: only net bank payout figures with a commission rate that swung 14-30% month to month — can't back out gross revenue reliably. A past session explicitly declined to fabricate day-level splits from these monthly totals, and this session doesn't either. Real weekly/daily detail only starts late June 2026 (see wolt.json/uber_eats.json/lieferando.json). Closing this gap requires bulk exports (order-level archive or sales-over-time CSV) for Jan-June from each platform, not reconstruction from what's already been checked."
+ "lastUpdated": "2026-08-16",
+ "foodtruckDatevReal": {
+  "note": "Real day-level SumUp Verkaufsbericht (Foodtruck, 01.01-15.08.2026) - Foodtruck terminal (MCKQLK39) shows no transactions before May 2026, confirming it wasn't active earlier.",
+  "monthly": {
+   "2026-05": {
+    "einnahmen7": 7261.82,
+    "einnahmen19": 14.7,
+    "vat7": 508.18,
+    "vat19": 2.8,
+    "trinkgeld": 2.25,
+    "bar": 2612.0,
+    "karte": 5175.5,
+    "orders": 477
+   },
+   "2026-06": {
+    "einnahmen7": 12332.93,
+    "einnahmen19": 65.1,
+    "vat7": 864.57,
+    "vat19": 12.4,
+    "trinkgeld": 2.5,
+    "bar": 2351.5,
+    "karte": 10923.5,
+    "orders": 770
+   }
+  }
  },
- "lastUpdated": "2026-08-16"
+ "deliveryPlatformsJanJun_stillOpen": {
+  "status": "Delivery platforms (Wolt/UberEats/Lieferando) Jan-mid March remain unrecovered - separate from this SumUp update. Wolt/Uber/Lieferando now have real weekly data from ~21.03.2026 onward (see wolt.json/uber_eats.json/lieferando.json)."
+ }
 }
