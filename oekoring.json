@@ -1,7 +1,7 @@
 {
  "supplier": "Ökoring",
- "lastUpdated": "2026-07-27",
- "invoiceCount": 28,
+ "lastUpdated": "2026-08-20",
+ "invoiceCount": 29,
  "note": "Supplier relationship began June 2026; ongoing weekly deliveries to Tollwood stand",
  "invoices": [
   {
@@ -1961,6 +1961,53 @@
      "qty": -2,
      "unitPrice": 3.86,
      "amount": -7.72
+    }
+   ]
+  },
+  {
+   "invoiceNo": "189103",
+   "date": "2026-07-08",
+   "netTotal": 385.06,
+   "vat7": 26.41,
+   "vat19": 1.47,
+   "grossTotal": 412.94,
+   "driveFileId": "1eZsXylrGk9q6ubeALMuNqFIb82mzTX0h",
+   "lineItems": [
+    {
+     "description": "Großkartoffel gewaschen 12,5kg",
+     "qty": 2,
+     "unitPrice": 25.0,
+     "amount": 25.0
+    },
+    {
+     "description": "Strauchtomaten ES 5kg",
+     "qty": 1,
+     "unitPrice": 18.0,
+     "amount": 18.0
+    },
+    {
+     "description": "DAV Basmati Reis weiß Fairtrade 25kg",
+     "qty": 1,
+     "unitPrice": 111.25,
+     "amount": 111.25
+    },
+    {
+     "description": "Weizenmehl Type 550 25kg",
+     "qty": 1,
+     "unitPrice": 28.75,
+     "amount": 28.75
+    },
+    {
+     "description": "Kichererbsen 1x2500g",
+     "qty": 12,
+     "unitPrice": 6.92,
+     "amount": 83.04
+    },
+    {
+     "description": "Sonnenblumenöl 10L",
+     "qty": 2,
+     "unitPrice": 37.2,
+     "amount": 74.4
     }
    ]
   }
