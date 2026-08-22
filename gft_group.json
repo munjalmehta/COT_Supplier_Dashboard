@@ -1,7 +1,7 @@
 {
  "supplier": "GFT Group",
- "lastUpdated": "2026-08-15",
- "invoiceCount": 36,
+ "lastUpdated": "2026-08-20",
+ "invoiceCount": 37,
  "invoices": [
   {
    "invoiceNo": "326111636",
@@ -2145,6 +2145,46 @@
      "qty": 1,
      "unitPrice": 22.0,
      "amount": 22.0
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326115794",
+   "date": "2026-08-18",
+   "orderNo": "3000058939",
+   "deliveryNo": "90650",
+   "netTotal": 850.22,
+   "vat7": 59.52,
+   "grossTotal": 909.74,
+   "driveFileId": "1H0YC_g0AK2ff2XVENWosroI0UVdcU_tB",
+   "lineItems": [
+    {
+     "sku": "10624",
+     "description": "HEER EXTRA LONG BASMATI RICE 20kg",
+     "qty": 10,
+     "unitPrice": 37.0,
+     "amount": 370.0
+    },
+    {
+     "sku": "41111",
+     "description": "FROZ. CHICKEN SAHA SALTED THAILAND 6x2kg",
+     "qty": 4,
+     "unitPrice": 50.0,
+     "amount": 200.0
+    },
+    {
+     "sku": "13001",
+     "description": "MDH DEGGI MIRCH CTN 60x100g",
+     "qty": 1,
+     "unitPrice": 74.76,
+     "amount": 74.76
+    },
+    {
+     "sku": "12963",
+     "description": "MDH CHUNKY CHAT MASALA CTN 60x100g",
+     "qty": 1,
+     "unitPrice": 66.76,
+     "amount": 66.76
     }
    ]
   }
