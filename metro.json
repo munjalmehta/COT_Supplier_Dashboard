@@ -1,7 +1,7 @@
 {
  "supplier": "Metro",
- "lastUpdated": "2026-08-05",
- "invoiceCount": 31,
+ "lastUpdated": "2026-08-20",
+ "invoiceCount": 33,
  "note": "Metro invoices are POS-style receipts (KOLLI/MENGE/GESAMT format). The 09.06.2026 invoice's total was confirmed via the payment terminal slip on page 3 of the source PDF.",
  "invoices": [
   {
@@ -1709,6 +1709,26 @@
    "grossTotal": 68.38,
    "driveFileId": "1mAAdHjlnGV3hNvMFdeejmQm5ds7AFZWW",
    "summary": "Happy Day Mango Saft, ARO Spülmittel, Mr.Muscle Abflussreiniger-Gel, ARO Badreiniger, Domestos Profi-Abflussreiniger, MC Brownie TK, Magnum Mini Mandel"
+  },
+  {
+   "invoiceNo": "08.08.2026/041/0/0/0502/051272",
+   "date": "2026-08-08",
+   "netTotal": 265.63,
+   "vat7": 10.0,
+   "vat19": 23.32,
+   "grossTotal": 298.95,
+   "driveFileId": "1LwEQDv-tjZPt1vLgci9fnQWIoITmvOjR",
+   "summary": "Topfreiniger, Menuemesser, Alpensalz, MC Wraps, Seifenspender, Zewa, AVIKO Crunch, Mango Würfel, Cornetto, Eiscreme"
+  },
+  {
+   "invoiceNo": "17.08.2026/041/0/0/0503/038742",
+   "date": "2026-08-17",
+   "netTotal": 108.85,
+   "vat7": 4.03,
+   "vat19": 9.74,
+   "grossTotal": 122.62,
+   "driveFileId": "1F1y8ftojTEoRvMGwptB63cJJCCSqDTv6",
+   "summary": "Gina Longdrink, Weizenmehl Type 405, Happy Day Mango, Spülmittel, AVIKO Crunch, Eisbergsalat"
   }
  ],
  "totalNetSpend": 3799.3,
