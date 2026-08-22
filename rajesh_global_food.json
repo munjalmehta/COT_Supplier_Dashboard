@@ -1,7 +1,7 @@
 {
  "supplier": "Rajesh Global Food",
- "lastUpdated": "2026-08-05",
- "invoiceCount": 18,
+ "lastUpdated": "2026-08-20",
+ "invoiceCount": 19,
  "invoices": [
   {
    "invoiceNo": "INV/2026/02447",
@@ -1570,6 +1570,45 @@
      "unitPrice": 112.99,
      "vat": 19,
      "amount": 112.99
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/03401",
+   "date": "2026-08-18",
+   "netTotal": 395.27,
+   "vat7": 6.81,
+   "vat19": 56.64,
+   "grossTotal": 458.72,
+   "driveFileId": "1O98yFr1q7s0DAr4d0XEdlp8hoRkTFhsS",
+   "lineItems": [
+    {
+     "sku": "C9",
+     "description": "DEEP Kesar Mango Pulp 850gx6",
+     "qty": 4,
+     "unitPrice": 13.14,
+     "amount": 52.56
+    },
+    {
+     "sku": "RFR-009",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "qty": 1,
+     "unitPrice": 27.99,
+     "amount": 27.99
+    },
+    {
+     "sku": "GP-024",
+     "description": "GP 613 Siegelschale, 600 stk/ktn",
+     "qty": 1,
+     "unitPrice": 96.99,
+     "amount": 96.99
+    },
+    {
+     "sku": "GP-100",
+     "description": "GP Suppenbecher Airpac 350ml, 600 St",
+     "qty": 1,
+     "unitPrice": 65.99,
+     "amount": 65.99
     }
    ]
   }
