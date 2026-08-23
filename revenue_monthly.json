@@ -21,14 +21,17 @@
    "uber": 15571.0,
    "wolt": 1773.7,
    "lieferando": 4155.5,
-   "sumup_restaurant": 15873.63,
-   "sumup_foodtruck": 2017.5,
+   "sumup_restaurant": 19570.73,
+   "sumup_foodtruck": 0,
    "tollwood": 0,
    "bar": 5965.799999999999,
    "karte": 35184.729999999996,
    "ausgaben": 4375.070000000001,
    "trinkgeld": 751.94,
-   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure",
+   "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.01-31.07.2026), delivery pass-through excluded",
+   "sumup_foodtruck_OLD_uncorrected": 2017.5,
+   "sumup_foodtruck_source": "CORRECTED 2026-08-22: real Verkaufsbericht CSV confirms zero Foodtruck transactions before May 2026 (terminal MCKQLK39 not active). Previous value (kept in _OLD field) was from an earlier checkpoint and appears to have been mislabeled."
   },
   {
    "month": "2026-02",
@@ -36,14 +39,17 @@
    "uber": 16593.0,
    "wolt": 3393.7,
    "lieferando": 7650.61,
-   "sumup_restaurant": 22627.15,
-   "sumup_foodtruck": 1687.5,
+   "sumup_restaurant": 24532.55,
+   "sumup_foodtruck": 0,
    "tollwood": 0,
    "bar": 5741.91,
    "karte": 46486.43999999999,
    "ausgaben": 6052.39,
    "trinkgeld": 1007.28,
-   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure",
+   "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.01-31.07.2026), delivery pass-through excluded",
+   "sumup_foodtruck_OLD_uncorrected": 1687.5,
+   "sumup_foodtruck_source": "CORRECTED 2026-08-22: real Verkaufsbericht CSV confirms zero Foodtruck transactions before May 2026 (terminal MCKQLK39 not active). Previous value (kept in _OLD field) was from an earlier checkpoint and appears to have been mislabeled."
   },
   {
    "month": "2026-03",
@@ -51,14 +57,17 @@
    "uber": 19058.8,
    "wolt": 3819.62,
    "lieferando": 8135.1,
-   "sumup_restaurant": 26071.77,
-   "sumup_foodtruck": 4257.5,
+   "sumup_restaurant": 30601.27,
+   "sumup_foodtruck": 0,
    "tollwood": 0,
    "bar": 5739.079999999999,
    "karte": 55971.70999999999,
    "ausgaben": 6064.780000000001,
    "trinkgeld": 1254.43,
-   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure",
+   "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.01-31.07.2026), delivery pass-through excluded",
+   "sumup_foodtruck_OLD_uncorrected": 4257.5,
+   "sumup_foodtruck_source": "CORRECTED 2026-08-22: real Verkaufsbericht CSV confirms zero Foodtruck transactions before May 2026 (terminal MCKQLK39 not active). Previous value (kept in _OLD field) was from an earlier checkpoint and appears to have been mislabeled."
   },
   {
    "month": "2026-04",
@@ -66,14 +75,17 @@
    "uber": 12588.7,
    "wolt": 4568.34,
    "lieferando": 6255.61,
-   "sumup_restaurant": 20481.02,
-   "sumup_foodtruck": 5282.1,
+   "sumup_restaurant": 26841.12,
+   "sumup_foodtruck": 0,
    "tollwood": 0,
    "bar": 5138.75,
    "karte": 45194.30000000001,
    "ausgaben": 8114.63,
    "trinkgeld": 960.01,
-   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure",
+   "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.01-31.07.2026), delivery pass-through excluded",
+   "sumup_foodtruck_OLD_uncorrected": 5282.1,
+   "sumup_foodtruck_source": "CORRECTED 2026-08-22: real Verkaufsbericht CSV confirms zero Foodtruck transactions before May 2026 (terminal MCKQLK39 not active). Previous value (kept in _OLD field) was from an earlier checkpoint and appears to have been mislabeled."
   },
   {
    "month": "2026-05",
@@ -81,14 +93,16 @@
    "uber": 12884.6,
    "wolt": 5965.93,
    "lieferando": 7091.68,
-   "sumup_restaurant": 21497.33,
-   "sumup_foodtruck": 7.5,
+   "sumup_restaurant": 21511.33,
+   "sumup_foodtruck": 7787.5,
    "tollwood": 0,
    "bar": 6145.929999999999,
    "karte": 49084.05999999999,
    "ausgaben": 6308.9,
    "trinkgeld": 1076.82,
-   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure",
+   "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.01-31.07.2026), delivery pass-through excluded",
+   "sumup_foodtruck_source": "Real Verkaufsbericht CSV (01.01-15.08.2026)"
   },
   {
    "month": "2026-06",
@@ -96,14 +110,16 @@
    "uber": 9999.3,
    "wolt": 4918.4,
    "lieferando": 4796.05,
-   "sumup_restaurant": 16715.73,
-   "sumup_foodtruck": 27.5,
+   "sumup_restaurant": 16802.13,
+   "sumup_foodtruck": 13275.0,
    "tollwood": 28832.000000000004,
    "bar": 15111.23,
    "karte": 63583.3,
    "ausgaben": 13275.670000000002,
    "trinkgeld": 637.76,
-   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure",
+   "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.01-31.07.2026), delivery pass-through excluded",
+   "sumup_foodtruck_source": "Real Verkaufsbericht CSV (01.01-15.08.2026)"
   },
   {
    "month": "2026-07",
@@ -111,14 +127,16 @@
    "uber": 17862.8,
    "wolt": 6663.219999999999,
    "lieferando": 6589.15,
-   "sumup_restaurant": 17966.35,
-   "sumup_foodtruck": 25.5,
+   "sumup_restaurant": 17991.85,
+   "sumup_foodtruck": 17333.6,
    "tollwood": 88629.50000000001,
    "bar": 37958.00000000001,
    "karte": 110017.22000000002,
    "ausgaben": 12051.719999999998,
    "trinkgeld": 627.97,
-   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure",
+   "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.01-31.07.2026), delivery pass-through excluded",
+   "sumup_foodtruck_source": "Real Verkaufsbericht CSV (01.01-15.08.2026)"
   },
   {
    "month": "2026-08",
@@ -128,14 +146,15 @@
    "wolt": 0,
    "lieferando": 2289.9,
    "sumup_restaurant": 1982.83,
-   "sumup_foodtruck": 0,
+   "sumup_foodtruck": 2564.0,
    "tollwood": 0,
    "bar": 0,
    "karte": 2529.0,
    "trinkgeld": 114.28,
    "uberOrders": 163,
    "uberSource": "Uber sales-over-time CSV export, month-to-date as of 2026-08-15 (partial month)",
-   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure"
+   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure",
+   "sumup_foodtruck_source": "Real Verkaufsbericht CSV (01.01-15.08.2026) - PARTIAL MONTH (only 1-15)"
   }
  ],
  "live_periods": [
@@ -311,5 +330,5 @@
   ],
   "sumup_source_note": "SumUp-Zahlen (Restaurant, Foodtruck, Trinkgeld) jetzt aus dem echten SumUp-Verkaufsbericht (2026-01-01 bis 2026-08-02), gruppiert nach Kategorie statt Konto (Konto = welches Geraet/Login gebucht hat, nicht der Kanal). Trinkgeld war bisher nirgends im Dashboard erfasst (Gesamt 6.430,49 EUR ueber den Zeitraum) und ist jetzt separat ausgewiesen, aber NICHT im Umsatz mitgezaehlt, da es kein COT-Einkommen ist."
  },
- "lastUpdated": "2026-08-15"
+ "lastUpdated": "2026-08-22"
 }
