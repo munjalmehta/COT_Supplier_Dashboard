@@ -19,7 +19,20 @@
    "adjustments": 0,
    "payoutTotal": 1200.82,
    "source": "Jan_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 894.82,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -237.3,
+    "offerFeeGross": 0
+   },
+   "misc": {
+    "deliveryFeesCollected": 0,
+    "tips": 0,
+    "refunds": 0,
+    "other": 0.04
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-01-05",
@@ -37,7 +50,20 @@
    "adjustments": 0,
    "payoutTotal": 1883.07,
    "source": "Jan_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 828.71,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -210.59,
+    "offerFeeGross": 0
+   },
+   "misc": {
+    "deliveryFeesCollected": 84.0,
+    "tips": 7.95,
+    "refunds": -4.5,
+    "other": 0.02
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-01-12",
@@ -55,7 +81,20 @@
    "adjustments": 0,
    "payoutTotal": 2588.33,
    "source": "Jan_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 1537.34,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -328.0,
+    "offerFeeGross": 0
+   },
+   "misc": {
+    "deliveryFeesCollected": 58.5,
+    "tips": 9.55,
+    "refunds": 0,
+    "other": 0.02
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-01-19",
@@ -73,7 +112,20 @@
    "adjustments": -205.2,
    "payoutTotal": 2194.21,
    "source": "Jan_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 1465.79,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -226.04,
+    "offerFeeGross": -5.49
+   },
+   "misc": {
+    "deliveryFeesCollected": 18.0,
+    "tips": 7.13,
+    "refunds": -4.5,
+    "other": -205.2
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-01-26",
@@ -93,7 +145,20 @@
    "cashCollected": 0,
    "payoutTotal": 1816.07,
    "source": "Feb_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 1272.13,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -346.3,
+    "offerFeeGross": -349.9
+   },
+   "misc": {
+    "deliveryFeesCollected": 24.0,
+    "tips": 3.5,
+    "refunds": -3.9,
+    "other": 0
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-02-02",
@@ -113,7 +178,21 @@
    "cashCollected": 44.41,
    "payoutTotal": 2130.98,
    "source": "Feb_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 1211.28,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -266.15,
+    "offerFeeGross": -363.75
+   },
+   "misc": {
+    "deliveryFeesCollected": 51.0,
+    "tips": 15.64,
+    "refunds": -14.9,
+    "other": -29.39,
+    "cashCollected": -44.41
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-02-09",
@@ -133,7 +212,21 @@
    "cashCollected": 28.77,
    "payoutTotal": 2359.59,
    "source": "Feb_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 757.91,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -259.96,
+    "offerFeeGross": -266.82
+   },
+   "misc": {
+    "deliveryFeesCollected": 141.21,
+    "tips": 32.46,
+    "refunds": -6.9,
+    "other": -28.66,
+    "cashCollected": -28.77
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-02-16",
@@ -153,7 +246,21 @@
    "cashCollected": 58.45,
    "payoutTotal": 2653.06,
    "source": "Feb_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 1118.61,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -431.24,
+    "offerFeeGross": -330.01
+   },
+   "misc": {
+    "deliveryFeesCollected": 125.41,
+    "tips": 29.74,
+    "refunds": -10.0,
+    "other": -58.38,
+    "cashCollected": -58.45
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-02-23",
@@ -173,7 +280,21 @@
    "cashCollected": 71.65,
    "payoutTotal": 2807.59,
    "source": "Mar_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 1259.43,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -355.75,
+    "offerFeeGross": -448.53
+   },
+   "misc": {
+    "deliveryFeesCollected": 155.48,
+    "tips": 27.19,
+    "refunds": -16.4,
+    "other": -71.52,
+    "cashCollected": -71.65
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-03-02",
@@ -193,7 +314,20 @@
    "cashCollected": 0,
    "payoutTotal": 1844.84,
    "source": "Mar_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 1300.82,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -400.61,
+    "offerFeeGross": -334.35
+   },
+   "misc": {
+    "deliveryFeesCollected": 20.93,
+    "tips": 4.92,
+    "refunds": -23.3,
+    "other": 22.27
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-03-09",
@@ -213,7 +347,20 @@
    "cashCollected": 0,
    "payoutTotal": 2164.21,
    "source": "Mar_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 1494.8,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -84.04,
+    "offerFeeGross": -324.63
+   },
+   "misc": {
+    "deliveryFeesCollected": 8.97,
+    "tips": 0,
+    "refunds": 0,
+    "other": -311.49
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-03-16",
@@ -233,7 +380,20 @@
    "cashCollected": 0,
    "payoutTotal": 1906.67,
    "source": "Mar_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 1072.08,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": 0,
+    "offerFeeGross": -284.9
+   },
+   "misc": {
+    "deliveryFeesCollected": 83.72,
+    "tips": 6.32,
+    "refunds": 0,
+    "other": -402.29
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-03-23",
@@ -253,7 +413,20 @@
    "cashCollected": 0,
    "payoutTotal": 3074.49,
    "source": "Mar_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 1357.66,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -342.25,
+    "offerFeeGross": -418.01
+   },
+   "misc": {
+    "deliveryFeesCollected": 142.49,
+    "tips": 18.95,
+    "refunds": -18.8,
+    "other": -67.23
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-03-30",
@@ -273,7 +446,21 @@
    "cashCollected": 43.5,
    "payoutTotal": 2316.95,
    "source": "Apr_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 1014.93,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -396.33,
+    "offerFeeGross": -338.25
+   },
+   "misc": {
+    "deliveryFeesCollected": 134.5,
+    "tips": 8.83,
+    "refunds": -66.6,
+    "other": -86.87,
+    "cashCollected": -43.5
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-04-06",
@@ -293,7 +480,20 @@
    "cashCollected": 0,
    "payoutTotal": 2001.15,
    "source": "Apr_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 777.27,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -405.11,
+    "offerFeeGross": -252.7
+   },
+   "misc": {
+    "deliveryFeesCollected": 166.0,
+    "tips": 5.6,
+    "refunds": 0,
+    "other": 0.13
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-04-13",
@@ -313,7 +513,21 @@
    "cashCollected": 35.88,
    "payoutTotal": 1814.03,
    "source": "Apr_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 719.27,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -404.52,
+    "offerFeeGross": -287.3
+   },
+   "misc": {
+    "deliveryFeesCollected": 179.0,
+    "tips": 9.93,
+    "refunds": 0,
+    "other": -71.67,
+    "cashCollected": -35.88
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-04-20",
@@ -333,7 +547,21 @@
    "cashCollected": 29.53,
    "payoutTotal": 1513.51,
    "source": "Apr_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 463.83,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -405.35,
+    "offerFeeGross": -256.7
+   },
+   "misc": {
+    "deliveryFeesCollected": 168.0,
+    "tips": 23.77,
+    "refunds": 0,
+    "other": -58.94,
+    "cashCollected": -29.53
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-04-27",
@@ -353,7 +581,20 @@
    "cashCollected": 0,
    "payoutTotal": 1289.86,
    "schema": "official_monthly_report",
-   "source": "May_2026_Chutney_On_Top.pdf"
+   "source": "May_2026_Chutney_On_Top.pdf",
+   "uberEatsFee_net": 425.82,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -395.98,
+    "offerFeeGross": -131.27
+   },
+   "misc": {
+    "deliveryFeesCollected": 130.0,
+    "tips": 13.66,
+    "refunds": 0,
+    "other": 0.07
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-05-04",
@@ -374,7 +615,22 @@
    "cashCollected": 57.8,
    "payoutTotal": 1801.31,
    "schema": "official_monthly_report",
-   "source": "May_2026_Chutney_On_Top.pdf"
+   "source": "May_2026_Chutney_On_Top.pdf",
+   "uberEatsFee_net": 552.02,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -392.63,
+    "offerFeeGross": -384.3,
+    "marketingAdjustmentGross": 31.92
+   },
+   "misc": {
+    "deliveryFeesCollected": 182.0,
+    "tips": 25.69,
+    "refunds": 0,
+    "other": -115.55,
+    "cashCollected": -57.8
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-05-11",
@@ -395,7 +651,21 @@
    "cashCollected": 0,
    "payoutTotal": 2751.79,
    "schema": "official_monthly_report",
-   "source": "May_2026_Chutney_On_Top.pdf"
+   "source": "May_2026_Chutney_On_Top.pdf",
+   "uberEatsFee_net": 721.97,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -149.75,
+    "offerFeeGross": -464.79,
+    "marketingAdjustmentGross": 51.58
+   },
+   "misc": {
+    "deliveryFeesCollected": 238.0,
+    "tips": 27.96,
+    "refunds": -37.4,
+    "other": 30.66
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-05-18",
@@ -415,7 +685,21 @@
    "cashCollected": 30.59,
    "payoutTotal": 2027.3,
    "schema": "official_monthly_report",
-   "source": "May_2026_Chutney_On_Top.pdf"
+   "source": "May_2026_Chutney_On_Top.pdf",
+   "uberEatsFee_net": 533.94,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -234.88,
+    "offerFeeGross": -214.29
+   },
+   "misc": {
+    "deliveryFeesCollected": 186.0,
+    "tips": 19.48,
+    "refunds": 33.2,
+    "other": -61.05,
+    "cashCollected": -30.59
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-05-25",
@@ -435,7 +719,21 @@
    "cashCollected": 26.91,
    "payoutTotal": 1661.31,
    "source": "Jun_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 515.87,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -175.68,
+    "offerFeeGross": -262.04
+   },
+   "misc": {
+    "deliveryFeesCollected": 142.5,
+    "tips": 11.1,
+    "refunds": -35.67,
+    "other": -53.75,
+    "cashCollected": -26.91
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-06-01",
@@ -455,7 +753,21 @@
    "cashCollected": 17.54,
    "payoutTotal": 1741.72,
    "source": "Jun_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 537.95,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -108.16,
+    "offerFeeGross": -225.65
+   },
+   "misc": {
+    "deliveryFeesCollected": 136.0,
+    "tips": 10.8,
+    "refunds": -15.0,
+    "other": -35.0,
+    "cashCollected": -17.54
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-06-08",
@@ -475,7 +787,20 @@
    "cashCollected": 0,
    "payoutTotal": 1899.55,
    "source": "Jun_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 680.03,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -242.97,
+    "offerFeeGross": -173.33
+   },
+   "misc": {
+    "deliveryFeesCollected": 137.0,
+    "tips": 15.4,
+    "refunds": -4.2,
+    "other": 0.08
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-06-15",
@@ -495,7 +820,20 @@
    "cashCollected": 0,
    "payoutTotal": 1114.73,
    "source": "Jun_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 741.0,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -246.59,
+    "offerFeeGross": -141.78
+   },
+   "misc": {
+    "deliveryFeesCollected": 39.0,
+    "tips": 7.54,
+    "refunds": -45.5,
+    "other": 0.06
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-06-22",
@@ -515,7 +853,20 @@
    "cashCollected": 0,
    "payoutTotal": 1007.88,
    "source": "Jun_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 744.11,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -240.24,
+    "offerFeeGross": -139.18
+   },
+   "misc": {
+    "deliveryFeesCollected": 10.0,
+    "tips": 0,
+    "refunds": -5.0,
+    "other": 0.01
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-06-29",
@@ -535,7 +886,20 @@
    "cashCollected": 0,
    "payoutTotal": 1147.94,
    "source": "Jul_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 762.93,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -245.04,
+    "offerFeeGross": -156.83
+   },
+   "misc": {
+    "deliveryFeesCollected": 24.0,
+    "tips": 0,
+    "refunds": -30.4,
+    "other": 0.04
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-07-06",
@@ -555,7 +919,20 @@
    "cashCollected": 0,
    "payoutTotal": 1780.06,
    "source": "Jul_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 1010.55,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -185.08,
+    "offerFeeGross": -643.12
+   },
+   "misc": {
+    "deliveryFeesCollected": 48.0,
+    "tips": 6.65,
+    "refunds": 15.85,
+    "other": 0.11
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-07-13",
@@ -575,7 +952,20 @@
    "cashCollected": 0,
    "payoutTotal": 1650.47,
    "source": "Jul_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 1185.34,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -167.4,
+    "offerFeeGross": -1626.24
+   },
+   "misc": {
+    "deliveryFeesCollected": 0,
+    "tips": 0,
+    "refunds": 0,
+    "other": 0.15
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-07-20",
@@ -595,7 +985,21 @@
    "cashCollected": 96.2,
    "payoutTotal": 2401.09,
    "source": "Jul_2026_Chutney_On_Top.pdf",
-   "schema": "official_monthly_report"
+   "schema": "official_monthly_report",
+   "uberEatsFee_net": 774.83,
+   "uberEatsFee_vat": 0,
+   "marketing": {
+    "adsGross": -161.28,
+    "offerFeeGross": -1703.45
+   },
+   "misc": {
+    "deliveryFeesCollected": 223.0,
+    "tips": 16.06,
+    "refunds": -6.9,
+    "other": -192.21,
+    "cashCollected": -96.2
+   },
+   "commissions": {}
   },
   {
    "periodStart": "2026-07-27",
