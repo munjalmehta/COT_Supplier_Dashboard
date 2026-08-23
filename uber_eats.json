@@ -338,138 +338,84 @@
   {
    "periodStart": "2026-04-27",
    "periodEnd": "2026-05-03",
-   "reportDate": "2026-05-04",
    "orders": 53,
    "grossOrderValue": 2099.2,
-   "discounts": -108.5,
-   "netAfterDiscounts": 1990.7,
-   "commissions": {
-    "uberDelivery30pct_orders": 3,
-    "uberDelivery30pct_amt": 34.47,
-    "uberDelivery33pct_orders": 10,
-    "uberDelivery33pct_amt": 103.29,
-    "ownDelivery13pct_orders": 39,
-    "ownDelivery13pct_amt": 214.79,
-    "pickup13pct_orders": 1,
-    "pickup13pct_amt": 5.29
-   },
-   "uberEatsFee_net": 357.84,
-   "uberEatsFee_vat": 67.98,
-   "marketing": {
-    "adsGross": -395.98,
-    "offerFeeGross": -22.77
-   },
-   "misc": {
-    "deliveryFeesCollected": 130.0,
-    "tips": 13.66,
-    "other": 0.07
-   },
+   "tips": 13.66,
+   "otherRevenue": 130.0,
+   "marketplaceFee": -425.82,
+   "otherUberFees": 0,
+   "offerDiscounts": -108.5,
+   "otherOfferFees": -22.77,
+   "adSpend": -395.98,
+   "chargebacks": 0,
+   "adjustments": 0.07,
+   "bankPayout": 1289.86,
+   "cashCollected": 0,
    "payoutTotal": 1289.86,
-   "driveFileId": "17mGcOMUQON4Pgf6Q4347kZNn4EkL_Fex",
-   "schema": "aktivitaetsuebersicht_estimate"
+   "schema": "official_monthly_report",
+   "source": "May_2026_Chutney_On_Top.pdf"
   },
   {
    "periodStart": "2026-05-04",
    "periodEnd": "2026-05-10",
-   "reportDate": "2026-05-11",
    "orders": 74,
    "grossOrderValue": 2890.6,
-   "discounts": -334.8,
+   "tips": 25.69,
+   "otherRevenue": 182.0,
+   "marketplaceFee": -552.02,
+   "otherUberFees": 0,
+   "offerDiscounts": -334.8,
+   "otherOfferFees": -49.5,
+   "adSpend": -392.63,
    "marketingAdjustment": 31.92,
-   "netAfterDiscounts": 2587.72,
-   "commissions": {
-    "uberDelivery33pct_orders": 13,
-    "uberDelivery33pct_amt": 126.93,
-    "uberDelivery30pct_orders": 5,
-    "uberDelivery30pct_amt": 47.43,
-    "ownDelivery13pct_orders": 53,
-    "ownDelivery13pct_amt": 279.78,
-    "pickup13pct_orders": 3,
-    "pickup13pct_amt": 9.73
-   },
-   "uberEatsFee_net": 463.87,
-   "uberEatsFee_vat": 88.15,
-   "marketing": {
-    "adsGross": -392.63,
-    "offerFeeGross": -49.5
-   },
-   "misc": {
-    "deliveryFeesCollected": 182.0,
-    "tips": 25.69,
-    "other": 0.05,
-    "cashCollected": -57.8
-   },
-   "payoutTotal": 1743.51,
-   "driveFileId": "1JUZVDDg9vf_NL7m7HaOkkPJeNe5Cq_m8",
-   "schema": "aktivitaetsuebersicht_estimate"
+   "chargebacks": 0,
+   "adjustments": -115.55,
+   "bankPayout": 1743.51,
+   "cashCollected": 57.8,
+   "payoutTotal": 1801.31,
+   "schema": "official_monthly_report",
+   "source": "May_2026_Chutney_On_Top.pdf"
   },
   {
    "periodStart": "2026-05-11",
    "periodEnd": "2026-05-17",
-   "reportDate": "2026-05-18",
    "orders": 86,
    "grossOrderValue": 3777.5,
-   "discounts": -408.36,
+   "tips": 27.96,
+   "otherRevenue": 238.0,
+   "marketplaceFee": -721.97,
+   "otherUberFees": 0,
+   "offerDiscounts": -408.36,
+   "otherOfferFees": -56.43,
+   "adSpend": -149.75,
    "marketingAdjustment": 51.58,
-   "netAfterDiscounts": 3420.72,
-   "commissions": {
-    "uberDelivery33pct_orders": 14,
-    "uberDelivery33pct_amt": 150.53,
-    "uberDelivery30pct_orders": 4,
-    "uberDelivery30pct_amt": 70.27,
-    "ownDelivery13pct_orders": 68,
-    "ownDelivery13pct_amt": 385.91
-   },
-   "uberEatsFee_net": 606.71,
-   "uberEatsFee_vat": 115.26,
-   "marketing": {
-    "adsGross": -149.75,
-    "offerFeeGross": -56.43
-   },
-   "misc": {
-    "deliveryFeesCollected": 238.0,
-    "tips": 27.96,
-    "refunds": -37.4,
-    "other": 30.66
-   },
+   "chargebacks": -37.4,
+   "adjustments": 30.66,
+   "bankPayout": 2751.79,
+   "cashCollected": 0,
    "payoutTotal": 2751.79,
-   "driveFileId": "1E94B8Kc01PZ-DFlHXUdW1LWAjfMnAaro",
-   "schema": "aktivitaetsuebersicht_estimate"
+   "schema": "official_monthly_report",
+   "source": "May_2026_Chutney_On_Top.pdf"
   },
   {
    "periodStart": "2026-05-18",
    "periodEnd": "2026-05-24",
-   "reportDate": "2026-05-25",
-   "orders": 71,
+   "orders": 70,
    "grossOrderValue": 2771.6,
-   "discounts": -183.6,
-   "netAfterDiscounts": 2588.0,
-   "commissions": {
-    "uberDelivery33pct_orders": 10,
-    "uberDelivery33pct_amt": 109.67,
-    "uberDelivery30pct_orders": 3,
-    "uberDelivery30pct_amt": 38.04,
-    "ownDelivery13pct_orders": 54,
-    "ownDelivery13pct_amt": 284.6,
-    "pickup13pct_orders": 4,
-    "pickup13pct_amt": 20.07
-   },
-   "uberEatsFee_net": 452.38,
-   "uberEatsFee_vat": 85.94,
-   "marketing": {
-    "adsGross": -234.88,
-    "offerFeeGross": -30.69
-   },
-   "misc": {
-    "deliveryFeesCollected": 186.0,
-    "tips": 19.48,
-    "refunds": 33.2,
-    "other": 0.13,
-    "cashCollected": -30.59
-   },
-   "payoutTotal": 1996.71,
-   "driveFileId": "1AqjUllhWn336LJ-uxTq1BCQozBAzhulW",
-   "schema": "aktivitaetsuebersicht_estimate"
+   "tips": 19.48,
+   "otherRevenue": 186.0,
+   "marketplaceFee": -533.94,
+   "otherUberFees": 0,
+   "offerDiscounts": -183.6,
+   "otherOfferFees": -30.69,
+   "adSpend": -234.88,
+   "chargebacks": 33.2,
+   "adjustments": -61.05,
+   "bankPayout": 1996.71,
+   "cashCollected": 30.59,
+   "payoutTotal": 2027.3,
+   "schema": "official_monthly_report",
+   "source": "May_2026_Chutney_On_Top.pdf"
   },
   {
    "periodStart": "2026-05-25",
