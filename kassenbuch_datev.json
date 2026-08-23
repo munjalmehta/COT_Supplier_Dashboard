@@ -136,83 +136,83 @@
   ]
  },
  "restaurantDatevReal": {
-  "note": "REPLACED 2026-08-16: real day-level SumUp Verkaufsbericht (Restaurant, 01.01-31.07.2026) uploaded directly - ALL DATEV-period months (Jan-Jun) now real, no more estimates. Superseded the earlier partial DATEV-workbook recovery (Jan-Mar only) - kept below for cross-check since the two sources show real discrepancies (different source systems/scope).",
+  "note": "BUGFIX 2026-08-23: corrected Kategorie filtering (excluded Foodtruck rows that were wrongly counted before). Source: Verkaufsbericht-2026-01-01_2026-08-14.csv (combined account export, properly filtered by Kategorie column).",
   "monthly": {
    "2026-01": {
-    "einnahmen7": 15561.97,
-    "einnahmen19": 2451.78,
-    "vat7": 1090.61,
-    "vat19": 466.37,
+    "einnahmen7": 13664.7,
+    "einnahmen19": 2443.46,
+    "vat7": 957.88,
+    "vat19": 464.79,
     "trinkgeld": 751.94,
-    "bar": 5965.8,
-    "karte": 13604.93,
-    "orders": 540,
-    "pct7": 86.39
+    "bar": 5674.8,
+    "karte": 11856.03,
+    "orders": 381,
+    "pct7": 84.83
    },
    "2026-02": {
-    "einnahmen7": 19220.38,
+    "einnahmen7": 17643.28,
     "einnahmen19": 3331.48,
-    "vat7": 1346.93,
+    "vat7": 1236.53,
     "vat19": 633.75,
     "trinkgeld": 1007.28,
-    "bar": 5741.91,
-    "karte": 18790.64,
-    "orders": 606,
-    "pct7": 85.23
+    "bar": 5641.91,
+    "karte": 17203.14,
+    "orders": 464,
+    "pct7": 84.12
    },
    "2026-03": {
-    "einnahmen7": 24483.89,
+    "einnahmen7": 20505.09,
     "einnahmen19": 3698.49,
-    "vat7": 1715.3,
+    "vat7": 1436.6,
     "vat19": 703.59,
     "trinkgeld": 1254.43,
-    "bar": 5739.08,
-    "karte": 24862.19,
-    "orders": 958,
-    "pct7": 86.88
+    "bar": 5520.08,
+    "karte": 20823.69,
+    "orders": 563,
+    "pct7": 84.72
    },
    "2026-04": {
-    "einnahmen7": 21857.27,
+    "einnahmen7": 16920.69,
     "einnahmen19": 2900.83,
-    "vat7": 1531.09,
+    "vat7": 1185.57,
     "vat19": 551.93,
     "trinkgeld": 960.01,
-    "bar": 5138.75,
-    "karte": 21702.37,
-    "orders": 831,
-    "pct7": 88.28
+    "bar": 4136.75,
+    "karte": 17422.27,
+    "orders": 468,
+    "pct7": 85.37
    },
    "2026-05": {
-    "einnahmen7": 16757.18,
+    "einnahmen7": 16750.17,
     "einnahmen19": 3007.8,
-    "vat7": 1174.12,
+    "vat7": 1173.63,
     "vat19": 572.23,
     "trinkgeld": 1076.82,
     "bar": 3533.93,
-    "karte": 17977.4,
+    "karte": 17969.9,
     "orders": 466,
     "pct7": 84.78
    },
    "2026-06": {
-    "einnahmen7": 13058.42,
-    "einnahmen19": 2376.59,
-    "vat7": 915.02,
-    "vat19": 452.1,
+    "einnahmen7": 13035.98,
+    "einnahmen19": 2373.65,
+    "vat7": 913.46,
+    "vat19": 451.54,
     "trinkgeld": 637.76,
     "bar": 2925.83,
-    "karte": 13876.3,
-    "orders": 356,
+    "karte": 13848.8,
+    "orders": 353,
     "pct7": 84.6
    },
    "2026-07": {
-    "einnahmen7": 14124.31,
-    "einnahmen19": 2417.62,
-    "vat7": 989.91,
-    "vat19": 460.01,
+    "einnahmen7": 14103.75,
+    "einnahmen19": 2414.68,
+    "vat7": 988.47,
+    "vat19": 459.45,
     "trinkgeld": 627.97,
-    "bar": 3543.4,
-    "karte": 14448.45,
-    "orders": 464,
+    "bar": 3531.9,
+    "karte": 14434.45,
+    "orders": 462,
     "pct7": 85.38
    }
   },
@@ -234,7 +234,7 @@
    }
   }
  },
- "lastUpdated": "2026-08-16",
+ "lastUpdated": "2026-08-23",
  "foodtruckDatevReal": {
   "note": "Real day-level SumUp Verkaufsbericht (Foodtruck, 01.01-15.08.2026) - Foodtruck terminal (MCKQLK39) shows no transactions before May 2026, confirming it wasn't active earlier.",
   "monthly": {
