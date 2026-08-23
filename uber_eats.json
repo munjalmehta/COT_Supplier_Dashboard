@@ -1,6 +1,6 @@
 {
  "platform": "Uber Eats",
- "lastUpdated": "2026-08-22",
+ "lastUpdated": "2026-08-23",
  "note": "Weekly 'Aktivitätsübersicht' (activity overview) summaries. Official platform-fee tax invoices (net Uber Eats Gebühr + marketing) linked separately where captured.",
  "weeks": [
   {
@@ -352,8 +352,10 @@
    "uberEatsFee_net": 452.06,
    "uberEatsFee_vat": 85.89,
    "marketing": {
-    "adsGross": -108.16,
-    "offerFeeGross": -34.65
+    "adsGross": -90.88,
+    "offerFeeGross": -29.05,
+    "sourceInvoice": "UBER_DEU-GECFHAHI-01-2026-0000023",
+    "correctedFromEstimate": true
    },
    "misc": {
     "deliveryFeesCollected": 136.0,
@@ -417,8 +419,10 @@
    "uberEatsFee_net": 622.72,
    "uberEatsFee_vat": 118.28,
    "marketing": {
-    "adsGross": -246.59,
-    "offerFeeGross": -21.78
+    "adsGross": -207.22,
+    "offerFeeGross": -18.26,
+    "sourceInvoice": "UBER_DEU-GECFHAHI-01-2026-0000025",
+    "correctedFromEstimate": true
    },
    "misc": {
     "deliveryFeesCollected": 39.0,
@@ -517,8 +521,10 @@
    "uberEatsFee_net": 849.17,
    "uberEatsFee_vat": 161.38,
    "marketing": {
-    "adsGross": -185.08,
-    "offerFeeGross": -47.52
+    "adsGross": -155.53,
+    "offerFeeGross": -39.84,
+    "sourceInvoice": "UBER_DEU-GECFHAHI-01-2026-0000030",
+    "correctedFromEstimate": true
    },
    "misc": {
     "deliveryFeesCollected": 48.0,
@@ -550,8 +556,10 @@
    "uberEatsFee_net": 996.07,
    "uberEatsFee_vat": 189.27,
    "marketing": {
-    "adsGross": -167.4,
-    "offerFeeGross": -75.24
+    "adsGross": -140.67,
+    "offerFeeGross": -63.08,
+    "sourceInvoice": "UBER_DEU-GECFHAHI-01-2026-0000031",
+    "correctedFromEstimate": true
    },
    "misc": {
     "vatRounding": 0.04,
@@ -583,8 +591,10 @@
    "uberEatsFee_net": 651.15,
    "uberEatsFee_vat": 123.68,
    "marketing": {
-    "adsGross": -161.28,
-    "offerFeeGross": -74.25
+    "adsGross": -135.52,
+    "offerFeeGross": -62.25,
+    "sourceInvoice": "UBER_DEU-GECFHAHI-01-2026-0000032",
+    "correctedFromEstimate": true
    },
    "misc": {
     "deliveryFeesCollected": 223.0,
@@ -620,8 +630,10 @@
    "uberEatsFee_net": 625.29,
    "uberEatsFee_vat": 118.75,
    "marketing": {
-    "adsGross": -171.85,
-    "offerFeeGross": -77.22
+    "adsGross": -144.42,
+    "offerFeeGross": -64.74,
+    "sourceInvoice": "UBER_DEU-GECFHAHI-01-2026-0000033",
+    "correctedFromEstimate": true
    },
    "misc": {
     "deliveryFeesCollected": 265.0,
@@ -688,8 +700,10 @@
    "uberEatsFee_net": 528.62,
    "uberEatsFee_vat": 100.4,
    "marketing": {
-    "adsGross": -170.7,
-    "offerFeeGross": -65.34
+    "adsGross": -143.45,
+    "offerFeeGross": -54.78,
+    "sourceInvoice": "UBER_DEU-GECFHAHI-01-2026-0000035",
+    "correctedFromEstimate": true
    },
    "misc": {
     "deliveryFeesCollected": 194.0,
@@ -701,5 +715,9 @@
    "driveFileId": "1oSB6hEGMbQf_AlZiBuJvKQd9GeWeP0af"
   }
  ],
- "coverageNote": "Recovered 10 weeks (16.03-24.05.2026) from Drive backfill batch. Earliest Aktivitaetsuebersicht found starts 16.03.2026 (report dated 23.03.2026) - nothing found before that in Drive."
+ "coverageNote": "Recovered 10 weeks (16.03-24.05.2026) from Drive backfill batch. Earliest Aktivitaetsuebersicht found starts 16.03.2026 (report dated 23.03.2026) - nothing found before that in Drive.",
+ "knownIssues": {
+  "2026-06-27": "Official Uber invoice #0000026 for this period was reversed by credit note #0000027 (Grund: fehlerhafte Rechnung / erroneous invoice) - no replacement invoice found. Existing marketing figures for this week are unverified estimates.",
+  "2026-07-05": "No official Uber fee invoice found for period 28.06-05.07.2026 - gap between voided #26/#27 and next invoice #30 (06.07-12.07). Existing marketing figures are unverified estimates."
+ }
 }
