@@ -707,8 +707,10 @@
    "uberEatsFee_net": 748.29,
    "uberEatsFee_vat": 142.17,
    "marketing": {
-    "adsGross": -161.22,
-    "offerFeeGross": -46.53
+    "adsGross": -135.48,
+    "offerFeeGross": -39.01,
+    "sourceInvoice": "UBER_DEU-GECFHAHI-01-2026-0000034",
+    "correctedFromEstimate": true
    },
    "misc": {
     "deliveryFeesCollected": 37.0,
