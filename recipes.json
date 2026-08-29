@@ -2863,7 +2863,7 @@
  "cateringBatches": {
   "115 Wraps Event Batch": {
    "verified": false,
-   "note": "Corrected 24.08.2026: 'small balti' capacity confirmed at 5kg (was wrongly assumed 3kg for the gravy item). Small Balti Chicken confirmed as tandoori-grilled chicken pieces ONLY (no onion-tomato gravy base) - recalculated as pure chicken cost + tandoori marinade, not a curry. Remaining assumptions still unverified: wrap portion weights (100g chicken/chana, 80g pakora filling, 70g bread), foot pan chana masala total weight (~7kg), rice cooker capacity (~5kg dry at full). Pakora besan (chickpea flour) still has no tracked supplier price - wheat flour used as rough stand-in. Chana masala changed from 'foot pan' (~7kg estimate) to 'small balti' (5kg confirmed capacity), 24.08.2026.",
+   "note": "Corrected 24.08.2026: 'small balti' capacity confirmed at 5kg (was wrongly assumed 3kg for the gravy item). Small Balti Chicken confirmed as tandoori-grilled chicken pieces ONLY (no onion-tomato gravy base) - recalculated as pure chicken cost + tandoori marinade, not a curry. Remaining assumptions still unverified: wrap portion weights (100g chicken/chana, 80g pakora filling, 70g bread), foot pan chana masala total weight (~7kg), rice cooker capacity (~5kg dry at full). Pakora besan (chickpea flour) still has no tracked supplier price - wheat flour used as rough stand-in. Chana masala changed from 'foot pan' (~7kg estimate) to 'small balti' (5kg confirmed capacity), 24.08.2026. Pakora wrap filling detailed with potato/onion/spinach quantities, 24.08.2026. Chicken price sourced from GFT Group (not Metro) - all ingredient prices pulled from cheapest confirmed supplier in Preisvergleich data.",
    "originalOrder": {
     "wraps": {
      "total": 115,
@@ -2896,8 +2896,14 @@
     },
     "pakoraWrap": {
      "qty": 20,
-     "cost": 2.78,
-     "note": "besan cost approximated via wheat flour price"
+     "potatoKg": 0.6,
+     "onionKg": 0.4,
+     "spinachKg": 0.3,
+     "besanKg": 0.3,
+     "oilL": 0.3,
+     "breadFlourKg": 1.4,
+     "note": "Besan (chickpea flour) cost approximated via wheat flour price - no tracked supplier price for besan specifically",
+     "cost": 3.2
     },
     "raita5kg": {
      "yogurtKg": 4.0,
@@ -2940,7 +2946,7 @@
      "cost": 7.87
     }
    },
-   "totalCost": 122.42,
+   "totalCost": 122.84,
    "ingredientPricesUsed": {
     "chicken_TK_bulkware_per_kg": 4.17,
     "chickpeas_boiled_per_kg": 1.23,
