@@ -2863,7 +2863,7 @@
  "cateringBatches": {
   "115 Wraps Event Batch": {
    "verified": false,
-   "note": "AI-estimated batch template from a dictated prep list (23.08.2026). Portion weights (100g chicken/chana filling, 80g pakora filling, 70g bread per wrap), pan sizes ('foot pan' ~7kg, 'small balti' ~3-5kg), and rice cooker capacity (~5kg dry at full) are standard-catering assumptions, NOT confirmed against Anar's actual recipe cards. Pakora besan (chickpea flour) has no tracked supplier price - wheat flour price used as a rough stand-in, likely undercounts real cost slightly.",
+   "note": "Corrected 24.08.2026: 'small balti' capacity confirmed at 5kg (was wrongly assumed 3kg for the gravy item). Small Balti Chicken confirmed as tandoori-grilled chicken pieces ONLY (no onion-tomato gravy base) - recalculated as pure chicken cost + tandoori marinade, not a curry. Remaining assumptions still unverified: wrap portion weights (100g chicken/chana, 80g pakora filling, 70g bread), foot pan chana masala total weight (~7kg), rice cooker capacity (~5kg dry at full). Pakora besan (chickpea flour) still has no tracked supplier price - wheat flour used as rough stand-in.",
    "originalOrder": {
     "wraps": {
      "total": 115,
@@ -2908,8 +2908,12 @@
      "cost": 6.0
     },
     "smallBaltiChicken5kg": {
-     "rawChickenKg": 2.0,
-     "cost": 12.28
+     "confirmed": true,
+     "description": "Tandoori-grilled chicken pieces ONLY, no gravy/onion-tomato base - confirmed by Munjal",
+     "cookedChickenKg": 5.0,
+     "rawChickenKg": 7.143,
+     "yogurtMarinadeKg": 0.714,
+     "cost": 33.48
     },
     "footPanChanaMasala": {
      "chickpeasKg": 4.2,
@@ -2917,15 +2921,20 @@
      "cost": 11.01
     },
     "smallBaltiGravy": {
-     "estimatedTotalKg": 3.0,
-     "cost": 3.94
+     "confirmed": true,
+     "description": "Small balti capacity confirmed as 5kg (standard size) - onion/tomato/oil/spice gravy base",
+     "totalKg": 5.0,
+     "onionKg": 1.667,
+     "tomatoKg": 1.667,
+     "oilL": 0.5,
+     "cost": 6.58
     },
     "rice60pctCooker": {
      "driedRiceKg": 3.0,
      "cost": 5.37
     }
    },
-   "totalCost": 101.72,
+   "totalCost": 125.56,
    "ingredientPricesUsed": {
     "chicken_TK_bulkware_per_kg": 4.17,
     "chickpeas_boiled_per_kg": 1.23,
