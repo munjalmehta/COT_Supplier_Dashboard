@@ -2863,7 +2863,7 @@
  "cateringBatches": {
   "115 Wraps Event Batch": {
    "verified": false,
-   "note": "Corrected 24.08.2026: 'small balti' capacity confirmed at 5kg (was wrongly assumed 3kg for the gravy item). Small Balti Chicken confirmed as tandoori-grilled chicken pieces ONLY (no onion-tomato gravy base) - recalculated as pure chicken cost + tandoori marinade, not a curry. Remaining assumptions still unverified: wrap portion weights (100g chicken/chana, 80g pakora filling, 70g bread), foot pan chana masala total weight (~7kg), rice cooker capacity (~5kg dry at full). Pakora besan (chickpea flour) still has no tracked supplier price - wheat flour used as rough stand-in. Chana masala changed from 'foot pan' (~7kg estimate) to 'small balti' (5kg confirmed capacity), 24.08.2026. Pakora wrap filling detailed with potato/onion/spinach quantities, 24.08.2026. Chicken price sourced from GFT Group (not Metro) - all ingredient prices pulled from cheapest confirmed supplier in Preisvergleich data. CORRECTED 24.08.2026: wrap bread confirmed as bought-in from Metro ('25cmX12STK MC WRAPS'), not house-made from flour. Real Metro price €1.79/pack of 12 (net, after volume discount) = €0.1492/wrap, confirmed across 5+ invoices May-Aug 2026. This replaced the earlier flour-based DIY bread cost estimate, which understated the wrap cost significantly. CORRECTED 24.08.2026: besan (gram flour) now uses REAL confirmed price €2.00/kg from GFT Group invoices, replacing the wheat flour stand-in. No more unverified ingredient prices remain in this batch template.",
+   "note": "Corrected 24.08.2026: 'small balti' capacity confirmed at 5kg (was wrongly assumed 3kg for the gravy item). Small Balti Chicken confirmed as tandoori-grilled chicken pieces ONLY (no onion-tomato gravy base) - recalculated as pure chicken cost + tandoori marinade, not a curry. Remaining assumptions still unverified: wrap portion weights (100g chicken/chana, 80g pakora filling, 70g bread), foot pan chana masala total weight (~7kg), rice cooker capacity (~5kg dry at full). Pakora besan (chickpea flour) still has no tracked supplier price - wheat flour used as rough stand-in. Chana masala changed from 'foot pan' (~7kg estimate) to 'small balti' (5kg confirmed capacity), 24.08.2026. Pakora wrap filling detailed with potato/onion/spinach quantities, 24.08.2026. Chicken price sourced from GFT Group (not Metro) - all ingredient prices pulled from cheapest confirmed supplier in Preisvergleich data. CORRECTED 24.08.2026: wrap bread confirmed as bought-in from Metro ('25cmX12STK MC WRAPS'), not house-made from flour. Real Metro price €1.79/pack of 12 (net, after volume discount) = €0.1492/wrap, confirmed across 5+ invoices May-Aug 2026. This replaced the earlier flour-based DIY bread cost estimate, which understated the wrap cost significantly. CORRECTED 24.08.2026: besan (gram flour) now uses REAL confirmed price €2.00/kg from GFT Group invoices, replacing the wheat flour stand-in. No more unverified ingredient prices remain in this batch template. CORRECTED 24.08.2026: salad composition confirmed as Eisberg/capsicum/carrots (was generic onion-cucumber-tomato placeholder), real RK Traders prices applied.",
    "originalOrder": {
     "wraps": {
      "total": 115,
@@ -2913,8 +2913,18 @@
      "cost": 6.56
     },
     "salad2Pans": {
-     "mixedVegKg": 6.0,
-     "cost": 6.0
+     "confirmed": true,
+     "description": "Eisberg (iceberg lettuce), capsicum (Paprika Mix), carrots - per Munjal, 24.08.2026",
+     "totalKg": 6.0,
+     "eisbergKg": 3.6,
+     "paprikaKg": 1.5,
+     "karottenKg": 0.9,
+     "pricesUsed": {
+      "eisberg_per_kg": 1.4988,
+      "paprika_per_kg": 2.998,
+      "karotten_per_kg": 0.899
+     },
+     "cost": 10.71
     },
     "smallBaltiChicken5kg": {
      "confirmed": true,
@@ -2949,7 +2959,7 @@
      "cost": 7.87
     }
    },
-   "totalCost": 134.84,
+   "totalCost": 139.55,
    "ingredientPricesUsed": {
     "chicken_TK_bulkware_per_kg": 4.17,
     "chickpeas_boiled_per_kg": 1.23,
@@ -2988,6 +2998,27 @@
     "2026-07-06",
     "2026-08-27"
    ]
+  },
+  "eisberg_lettuce": {
+   "latest_price": 1.4988,
+   "unit": "kg",
+   "latest_desc": "Eisberg 10er (Kiste), ~800g/head assumed",
+   "latest_supplier": "RK Traders"
+  },
+  "paprika_mix": {
+   "latest_price": 2.998,
+   "unit": "kg",
+   "latest_desc": "Paprika Mix 5kg Karton",
+   "latest_supplier": "RK Traders",
+   "latest_date": "2026-07-09"
+  },
+  "karotten": {
+   "latest_price": 0.899,
+   "unit": "kg",
+   "latest_desc": "Karotten 10kg Sack",
+   "latest_supplier": "RK Traders",
+   "latest_date": "2026-02-20",
+   "note": "No more recent Karotten invoice found - price may be stale"
   }
  }
 }
