@@ -2863,7 +2863,7 @@
  "cateringBatches": {
   "115 Wraps Event Batch": {
    "verified": false,
-   "note": "Corrected 24.08.2026: 'small balti' capacity confirmed at 5kg (was wrongly assumed 3kg for the gravy item). Small Balti Chicken confirmed as tandoori-grilled chicken pieces ONLY (no onion-tomato gravy base) - recalculated as pure chicken cost + tandoori marinade, not a curry. Remaining assumptions still unverified: wrap portion weights (100g chicken/chana, 80g pakora filling, 70g bread), foot pan chana masala total weight (~7kg), rice cooker capacity (~5kg dry at full). Pakora besan (chickpea flour) still has no tracked supplier price - wheat flour used as rough stand-in. Chana masala changed from 'foot pan' (~7kg estimate) to 'small balti' (5kg confirmed capacity), 24.08.2026. Pakora wrap filling detailed with potato/onion/spinach quantities, 24.08.2026. Chicken price sourced from GFT Group (not Metro) - all ingredient prices pulled from cheapest confirmed supplier in Preisvergleich data. CORRECTED 24.08.2026: wrap bread confirmed as bought-in from Metro ('25cmX12STK MC WRAPS'), not house-made from flour. Real Metro price €1.79/pack of 12 (net, after volume discount) = €0.1492/wrap, confirmed across 5+ invoices May-Aug 2026. This replaced the earlier flour-based DIY bread cost estimate, which understated the wrap cost significantly. CORRECTED 24.08.2026: besan (gram flour) now uses REAL confirmed price €2.00/kg from GFT Group invoices, replacing the wheat flour stand-in. No more unverified ingredient prices remain in this batch template. CORRECTED 24.08.2026: salad composition confirmed as Eisberg/capsicum/carrots (was generic onion-cucumber-tomato placeholder), real RK Traders prices applied.",
+   "note": "Corrected 24.08.2026: 'small balti' capacity confirmed at 5kg (was wrongly assumed 3kg for the gravy item). Small Balti Chicken confirmed as tandoori-grilled chicken pieces ONLY (no onion-tomato gravy base) - recalculated as pure chicken cost + tandoori marinade, not a curry. Remaining assumptions still unverified: wrap portion weights (100g chicken/chana, 80g pakora filling, 70g bread), foot pan chana masala total weight (~7kg), rice cooker capacity (~5kg dry at full). Pakora besan (chickpea flour) still has no tracked supplier price - wheat flour used as rough stand-in. Chana masala changed from 'foot pan' (~7kg estimate) to 'small balti' (5kg confirmed capacity), 24.08.2026. Pakora wrap filling detailed with potato/onion/spinach quantities, 24.08.2026. Chicken price sourced from GFT Group (not Metro) - all ingredient prices pulled from cheapest confirmed supplier in Preisvergleich data. CORRECTED 24.08.2026: wrap bread confirmed as bought-in from Metro ('25cmX12STK MC WRAPS'), not house-made from flour. Real Metro price €1.79/pack of 12 (net, after volume discount) = €0.1492/wrap, confirmed across 5+ invoices May-Aug 2026. This replaced the earlier flour-based DIY bread cost estimate, which understated the wrap cost significantly. CORRECTED 24.08.2026: besan (gram flour) now uses REAL confirmed price €2.00/kg from GFT Group invoices, replacing the wheat flour stand-in. No more unverified ingredient prices remain in this batch template. CORRECTED 24.08.2026: salad composition confirmed as Eisberg/capsicum/carrots (was generic onion-cucumber-tomato placeholder), real RK Traders prices applied. Selling price confirmed: €12.0/wrap covers the whole batch (115 units) = €1380.0 revenue, €1240.45 gross profit, 10.1% food cost, 89.9% margin.",
    "originalOrder": {
     "wraps": {
      "total": 115,
@@ -2970,7 +2970,18 @@
     "tomato_per_kg": 1.2,
     "oil_per_L": 1.4
    },
-   "yieldRuleApplied": "1kg raw chicken -> ~700g cooked/usable (70% yield)"
+   "yieldRuleApplied": "1kg raw chicken -> ~700g cooked/usable (70% yield)",
+   "pricing": {
+    "confirmed": true,
+    "pricePerWrap": 12.0,
+    "units": 115,
+    "revenue": 1380.0,
+    "basis": "Whole batch (wraps + sides + mains) covered by €12/wrap - confirmed by Munjal, 24.08.2026",
+    "totalCost": 139.55,
+    "grossProfit": 1240.45,
+    "foodCostPct": 10.1,
+    "marginPct": 89.9
+   }
   }
  },
  "lastUpdated": "2026-08-24",
