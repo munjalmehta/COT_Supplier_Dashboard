@@ -2859,5 +2859,85 @@
    "orders": 2
   }
  ],
- "foodtruck_items_note": "Aus dem SumUp-Verkaufsbericht (2026-01-01 bis 2026-08-03), gefiltert auf Kategorie 00_Foodtruck/01_Foodtruck_Event, 1323 Positionen. Namen wie 'M2- Fleisch curry' und 'M2- Fleisch curry (3€ Rabatt)' wurden zusammengefasst; leicht abweichende Schreibweisen (z.B. 'M1-Veggie/Vegan Curry' vs. 'M1- vegan / vegetarian curry') wurden NICHT automatisch zusammengeführt, um keine falschen Annahmen zu treffen — beide Zeilen bleiben sichtbar, du erkennst sofort ob es dieselbe Position ist."
+ "foodtruck_items_note": "Aus dem SumUp-Verkaufsbericht (2026-01-01 bis 2026-08-03), gefiltert auf Kategorie 00_Foodtruck/01_Foodtruck_Event, 1323 Positionen. Namen wie 'M2- Fleisch curry' und 'M2- Fleisch curry (3€ Rabatt)' wurden zusammengefasst; leicht abweichende Schreibweisen (z.B. 'M1-Veggie/Vegan Curry' vs. 'M1- vegan / vegetarian curry') wurden NICHT automatisch zusammengeführt, um keine falschen Annahmen zu treffen — beide Zeilen bleiben sichtbar, du erkennst sofort ob es dieselbe Position ist.",
+ "cateringBatches": {
+  "115 Wraps Event Batch": {
+   "verified": false,
+   "note": "AI-estimated batch template from a dictated prep list (23.08.2026). Portion weights (100g chicken/chana filling, 80g pakora filling, 70g bread per wrap), pan sizes ('foot pan' ~7kg, 'small balti' ~3-5kg), and rice cooker capacity (~5kg dry at full) are standard-catering assumptions, NOT confirmed against Anar's actual recipe cards. Pakora besan (chickpea flour) has no tracked supplier price - wheat flour price used as a rough stand-in, likely undercounts real cost slightly.",
+   "originalOrder": {
+    "wraps": {
+     "total": 115,
+     "chickenWrap": 60,
+     "chanaWrap": 35,
+     "pakoraWrap": 20
+    },
+    "sides": {
+     "raitaKg": 5,
+     "saladPans": 2
+    },
+    "mains": {
+     "smallBaltiChickenKg": 5,
+     "footPanChanaMasala": 1,
+     "smallBaltiGravy": 1,
+     "riceCookerPct": 60
+    }
+   },
+   "costBreakdown": {
+    "chickenWrap": {
+     "qty": 60,
+     "rawChickenKg": 8.57,
+     "cookedChickenKg": 6.0,
+     "cost": 35.74
+    },
+    "chanaWrap": {
+     "qty": 35,
+     "chickpeasKg": 3.5,
+     "cost": 9.37
+    },
+    "pakoraWrap": {
+     "qty": 20,
+     "cost": 2.78,
+     "note": "besan cost approximated via wheat flour price"
+    },
+    "raita5kg": {
+     "yogurtKg": 4.0,
+     "cost": 6.56
+    },
+    "salad2Pans": {
+     "mixedVegKg": 6.0,
+     "cost": 6.0
+    },
+    "smallBaltiChicken5kg": {
+     "rawChickenKg": 2.0,
+     "cost": 12.28
+    },
+    "footPanChanaMasala": {
+     "chickpeasKg": 4.2,
+     "estimatedTotalKg": 7.0,
+     "cost": 11.01
+    },
+    "smallBaltiGravy": {
+     "estimatedTotalKg": 3.0,
+     "cost": 3.94
+    },
+    "rice60pctCooker": {
+     "driedRiceKg": 3.0,
+     "cost": 5.37
+    }
+   },
+   "totalCost": 101.72,
+   "ingredientPricesUsed": {
+    "chicken_TK_bulkware_per_kg": 4.17,
+    "chickpeas_boiled_per_kg": 1.23,
+    "yogurt_per_kg": 1.39,
+    "basmati_per_kg": 1.79,
+    "flour_per_kg": 0.689,
+    "onion_per_kg": 0.52,
+    "tomato_per_kg": 1.2,
+    "oil_per_L": 1.4
+   },
+   "yieldRuleApplied": "1kg raw chicken -> ~700g cooked/usable (70% yield)"
+  }
+ },
+ "lastUpdated": "2026-08-24"
 }
