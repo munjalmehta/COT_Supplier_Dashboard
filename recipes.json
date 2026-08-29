@@ -2863,7 +2863,7 @@
  "cateringBatches": {
   "115 Wraps Event Batch": {
    "verified": false,
-   "note": "Corrected 24.08.2026: 'small balti' capacity confirmed at 5kg (was wrongly assumed 3kg for the gravy item). Small Balti Chicken confirmed as tandoori-grilled chicken pieces ONLY (no onion-tomato gravy base) - recalculated as pure chicken cost + tandoori marinade, not a curry. Remaining assumptions still unverified: wrap portion weights (100g chicken/chana, 80g pakora filling, 70g bread), foot pan chana masala total weight (~7kg), rice cooker capacity (~5kg dry at full). Pakora besan (chickpea flour) still has no tracked supplier price - wheat flour used as rough stand-in.",
+   "note": "Corrected 24.08.2026: 'small balti' capacity confirmed at 5kg (was wrongly assumed 3kg for the gravy item). Small Balti Chicken confirmed as tandoori-grilled chicken pieces ONLY (no onion-tomato gravy base) - recalculated as pure chicken cost + tandoori marinade, not a curry. Remaining assumptions still unverified: wrap portion weights (100g chicken/chana, 80g pakora filling, 70g bread), foot pan chana masala total weight (~7kg), rice cooker capacity (~5kg dry at full). Pakora besan (chickpea flour) still has no tracked supplier price - wheat flour used as rough stand-in. Chana masala changed from 'foot pan' (~7kg estimate) to 'small balti' (5kg confirmed capacity), 24.08.2026.",
    "originalOrder": {
     "wraps": {
      "total": 115,
@@ -2877,9 +2877,9 @@
     },
     "mains": {
      "smallBaltiChickenKg": 5,
-     "footPanChanaMasala": 1,
      "smallBaltiGravy": 1,
-     "riceCookerPct": 60
+     "riceCookerPct": 60,
+     "smallBaltiChanaMasalaKg": 5
     }
    },
    "costBreakdown": {
@@ -2915,11 +2915,6 @@
      "yogurtMarinadeKg": 0.714,
      "cost": 33.48
     },
-    "footPanChanaMasala": {
-     "chickpeasKg": 4.2,
-     "estimatedTotalKg": 7.0,
-     "cost": 11.01
-    },
     "smallBaltiGravy": {
      "confirmed": true,
      "description": "Small balti capacity confirmed as 5kg (standard size) - onion/tomato/oil/spice gravy base",
@@ -2932,9 +2927,20 @@
     "rice60pctCooker": {
      "driedRiceKg": 3.0,
      "cost": 5.37
+    },
+    "smallBaltiChanaMasala5kg": {
+     "confirmed": true,
+     "description": "Replaced 'foot pan' with 'small balti' (5kg confirmed capacity) per Munjal, 24.08.2026",
+     "totalKg": 5.0,
+     "chickpeasKg": 3.0,
+     "onionKg": 1.071,
+     "tomatoKg": 1.071,
+     "oilL": 0.286,
+     "spiceKg": 0.107,
+     "cost": 7.87
     }
    },
-   "totalCost": 125.56,
+   "totalCost": 122.42,
    "ingredientPricesUsed": {
     "chicken_TK_bulkware_per_kg": 4.17,
     "chickpeas_boiled_per_kg": 1.23,
