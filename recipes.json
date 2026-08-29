@@ -2863,7 +2863,7 @@
  "cateringBatches": {
   "115 Wraps Event Batch": {
    "verified": false,
-   "note": "Corrected 24.08.2026: 'small balti' capacity confirmed at 5kg (was wrongly assumed 3kg for the gravy item). Small Balti Chicken confirmed as tandoori-grilled chicken pieces ONLY (no onion-tomato gravy base) - recalculated as pure chicken cost + tandoori marinade, not a curry. Remaining assumptions still unverified: wrap portion weights (100g chicken/chana, 80g pakora filling, 70g bread), foot pan chana masala total weight (~7kg), rice cooker capacity (~5kg dry at full). Pakora besan (chickpea flour) still has no tracked supplier price - wheat flour used as rough stand-in. Chana masala changed from 'foot pan' (~7kg estimate) to 'small balti' (5kg confirmed capacity), 24.08.2026. Pakora wrap filling detailed with potato/onion/spinach quantities, 24.08.2026. Chicken price sourced from GFT Group (not Metro) - all ingredient prices pulled from cheapest confirmed supplier in Preisvergleich data.",
+   "note": "Corrected 24.08.2026: 'small balti' capacity confirmed at 5kg (was wrongly assumed 3kg for the gravy item). Small Balti Chicken confirmed as tandoori-grilled chicken pieces ONLY (no onion-tomato gravy base) - recalculated as pure chicken cost + tandoori marinade, not a curry. Remaining assumptions still unverified: wrap portion weights (100g chicken/chana, 80g pakora filling, 70g bread), foot pan chana masala total weight (~7kg), rice cooker capacity (~5kg dry at full). Pakora besan (chickpea flour) still has no tracked supplier price - wheat flour used as rough stand-in. Chana masala changed from 'foot pan' (~7kg estimate) to 'small balti' (5kg confirmed capacity), 24.08.2026. Pakora wrap filling detailed with potato/onion/spinach quantities, 24.08.2026. Chicken price sourced from GFT Group (not Metro) - all ingredient prices pulled from cheapest confirmed supplier in Preisvergleich data. CORRECTED 24.08.2026: wrap bread confirmed as bought-in from Metro ('25cmX12STK MC WRAPS'), not house-made from flour. Real Metro price €1.79/pack of 12 (net, after volume discount) = €0.1492/wrap, confirmed across 5+ invoices May-Aug 2026. This replaced the earlier flour-based DIY bread cost estimate, which understated the wrap cost significantly.",
    "originalOrder": {
     "wraps": {
      "total": 115,
@@ -2887,12 +2887,14 @@
      "qty": 60,
      "rawChickenKg": 8.57,
      "cookedChickenKg": 6.0,
-     "cost": 35.74
+     "cost": 50.47,
+     "breadCost": 8.95
     },
     "chanaWrap": {
      "qty": 35,
      "chickpeasKg": 3.5,
-     "cost": 9.37
+     "cost": 12.9,
+     "breadCost": 5.22
     },
     "pakoraWrap": {
      "qty": 20,
@@ -2901,9 +2903,10 @@
      "spinachKg": 0.3,
      "besanKg": 0.3,
      "oilL": 0.3,
-     "breadFlourKg": 1.4,
+     "breadFlourKg": null,
      "note": "Besan (chickpea flour) cost approximated via wheat flour price - no tracked supplier price for besan specifically",
-     "cost": 3.2
+     "cost": 5.22,
+     "breadCost": 2.98
     },
     "raita5kg": {
      "yogurtKg": 4.0,
@@ -2946,7 +2949,7 @@
      "cost": 7.87
     }
    },
-   "totalCost": 122.84,
+   "totalCost": 134.45,
    "ingredientPricesUsed": {
     "chicken_TK_bulkware_per_kg": 4.17,
     "chickpeas_boiled_per_kg": 1.23,
@@ -2960,5 +2963,21 @@
    "yieldRuleApplied": "1kg raw chicken -> ~700g cooked/usable (70% yield)"
   }
  },
- "lastUpdated": "2026-08-24"
+ "lastUpdated": "2026-08-24",
+ "ingredient_price_lookup_additions": {
+  "wrap_bread_25cm": {
+   "latest_price": 1.79,
+   "unit": "pack of 12 (per pack)",
+   "per_piece": 0.1492,
+   "latest_desc": "25cmX12STK MC WRAPS (Metro), net price after volume discount",
+   "latest_supplier": "Metro",
+   "confirmed_dates": [
+    "2026-05-22",
+    "2026-06-09",
+    "2026-06-18",
+    "2026-07-09",
+    "2026-08-08"
+   ]
+  }
+ }
 }
