@@ -1,6 +1,6 @@
 {
  "platform": "Wolt",
- "lastUpdated": "2026-08-22",
+ "lastUpdated": "2026-09-01",
  "note": "Weekly Hexa invoicing cycle. Each period = merchant invoice (platform fees), payout report (revenue detail + payout), sales report (order-level detail). Figures below are period-level summaries, not order-line detail.",
  "periods": [
   {
@@ -364,6 +364,54 @@
    "trinkgeld": 4.0,
    "payoutAmount": 538.72,
    "driveFileId": "1MX7OW8N8TucUsW7dtw-XNebdOsJN5L98"
+  },
+  {
+   "periodEnd": "2026-08-25",
+   "period": "2026-08-21 to 2026-08-25",
+   "invoiceNo": "DEU/26/HRB217122B/1/556013",
+   "invoiceDate": "2026-08-25",
+   "wolt_fee_net": 153.18,
+   "wolt_fee_vat": 29.11,
+   "wolt_fee_gross": 182.29,
+   "orderFees_net": 9.8,
+   "orderFees_gross": 11.66,
+   "deliveryServiceFees_net": 70.61,
+   "deliveryServiceFees_gross": 84.02,
+   "lateFees_gross": 27.85,
+   "adSpend_net": 47.28,
+   "adSpend_gross": 56.26,
+   "revenue_goods_net": 718.13,
+   "revenue_goods_gross": 768.44,
+   "revenue_delivery_service_net": 96.06,
+   "revenue_delivery_service_gross": 102.02,
+   "discounts_gross": -42.16,
+   "payoutCorrections": -7.48,
+   "payoutAmount": 500.9,
+   "driveFileId": "1R3PnDTEJOGXwf0wXKVvehELzTOGTtgOz"
+  },
+  {
+   "periodEnd": "2026-09-01",
+   "period": "2026-08-26 to 2026-09-01",
+   "invoiceNo": "DEU/26/HRB217122B/1/573464",
+   "invoiceDate": "2026-08-31",
+   "wolt_fee_net": 310.12,
+   "wolt_fee_vat": 58.92,
+   "wolt_fee_gross": 369.04,
+   "orderFees_net": 18.13,
+   "orderFees_gross": 21.57,
+   "deliveryServiceFees_net": 113.0,
+   "deliveryServiceFees_gross": 134.47,
+   "adSpend_net": 133.38,
+   "adSpend_gross": 158.72,
+   "revenue_goods_net": 1028.87,
+   "revenue_goods_gross": 1101.0,
+   "revenue_delivery_service_net": 140.7,
+   "revenue_delivery_service_gross": 150.06,
+   "discounts_gross": -47.6,
+   "payoutCorrections": 7.48,
+   "cashCollected_gross": -41.8,
+   "payoutAmount": 532.94,
+   "driveFileId": "1ZU0kXMMOXFT1tYVf2nGFBNGEu9MyouQj"
   }
  ],
  "coverageNote": "Weeks 17, 19-27 (21.03-15.05.2026) recovered from Sales Reports only - Payout/fee-level Merchant Invoice documents for these dates were not found in Drive, so platformFees/commission cannot be computed for this window; revenue_goods figures are real. Week 18 (26-31.03) not found - genuine gap. Weeks 28-35 (16.05-25.06) not yet recovered - still open. From week 36 (26.06) onward, full fee/payout detail is available."
