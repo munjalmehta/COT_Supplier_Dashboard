@@ -1,7 +1,7 @@
 {
  "supplier": "GFT Group",
- "lastUpdated": "2026-08-20",
- "invoiceCount": 37,
+ "lastUpdated": "2026-08-30",
+ "invoiceCount": 38,
  "invoices": [
   {
    "invoiceNo": "326111636",
@@ -2185,6 +2185,81 @@
      "qty": 1,
      "unitPrice": 66.76,
      "amount": 66.76
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326116611",
+   "date": "2026-08-27",
+   "orderNo": "3000059965",
+   "deliveryNo": "92316",
+   "netTotal": 818.94,
+   "vat7": 57.33,
+   "grossTotal": 876.27,
+   "driveFileId": "1nGlQU1zi6ay-SFmxbZrm6xG2lyWZW4xk",
+   "lineItems": [
+    {
+     "sku": "21202",
+     "description": "SCHANI ATTA CHAPATI 1x10kg",
+     "qty": 1,
+     "unitPrice": 6.89,
+     "amount": 6.89
+    },
+    {
+     "sku": "19105",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "qty": 10,
+     "unitPrice": 18.0,
+     "amount": 180.0
+    },
+    {
+     "sku": "19103",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+     "qty": 5,
+     "unitPrice": 18.5,
+     "amount": 92.5
+    },
+    {
+     "sku": "41111",
+     "description": "FROZ. CHICKEN SAHA SALTED THAILAND 6x2kg",
+     "qty": 5,
+     "unitPrice": 50.0,
+     "amount": 250.0
+    },
+    {
+     "sku": "21255",
+     "description": "LIJJAT PAPAD JEERA 7\" CTN. 80x200g",
+     "qty": 1,
+     "unitPrice": 77.11,
+     "amount": 77.11
+    },
+    {
+     "sku": "21181",
+     "description": "TRS GRAM FLOUR CTN. 6x2kg",
+     "qty": 2,
+     "unitPrice": 24.0,
+     "amount": 48.0
+    },
+    {
+     "sku": "19392",
+     "description": "WEIKFIELD CORNFLOUR CTN. 4x3kg",
+     "qty": 1,
+     "unitPrice": 24.44,
+     "amount": 24.44
+    },
+    {
+     "sku": "16157",
+     "description": "SCHANI CASHEW KERNELS - LP CTN. 1x50lbs",
+     "qty": 1,
+     "unitPrice": 115.0,
+     "amount": 115.0
+    },
+    {
+     "sku": "16007",
+     "description": "FRIT RAVICH/SCHANI ALMONDS SLICED 1x1kg",
+     "qty": 2,
+     "unitPrice": 12.5,
+     "amount": 25.0
     }
    ]
   }
