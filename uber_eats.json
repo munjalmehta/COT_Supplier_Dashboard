@@ -1,6 +1,6 @@
 {
  "platform": "Uber Eats",
- "lastUpdated": "2026-08-23",
+ "lastUpdated": "2026-09-01",
  "note": "Weekly 'Aktivitätsübersicht' (activity overview) summaries. Official platform-fee tax invoices (net Uber Eats Gebühr + marketing) linked separately where captured.",
  "weeks": [
   {
@@ -1106,6 +1106,45 @@
    "payoutTotal": 2098.67,
    "driveFileId": "1oSB6hEGMbQf_AlZiBuJvKQd9GeWeP0af",
    "schema": "aktivitaetsuebersicht_estimate"
+  },
+  {
+   "periodStart": "2026-08-17",
+   "periodEnd": "2026-08-23",
+   "reportDate": "2026-08-24",
+   "orders": 70,
+   "grossOrderValue": 3496.8,
+   "discounts": -973.52,
+   "marketingAdjustment": 18.14,
+   "netAfterDiscounts": 2541.42,
+   "commissions": {
+    "uberDelivery33pct_orders": 23,
+    "uberDelivery33pct_amt": 256.1,
+    "uberDelivery30pct_orders": 7,
+    "uberDelivery30pct_amt": 72.0,
+    "ownDelivery13pct_orders": 38,
+    "ownDelivery13pct_amt": 200.14,
+    "pickup13pct_orders": 2,
+    "pickup13pct_amt": 14.81
+   },
+   "uberEatsFee_net": 543.05,
+   "uberEatsFee_vat": 103.18,
+   "marketing": {
+    "adsGross": -164.17,
+    "offerFeeGross": -48.4,
+    "sourceInvoice": "UBER_DEU-GECFHAHI-01-2026-0000036",
+    "correctedFromEstimate": false
+   },
+   "misc": {
+    "deliveryFeesCollected": 128.0,
+    "tips": 23.36,
+    "refunds": -5.0,
+    "vatRounding": -0.04,
+    "other": 0.15,
+    "cashCollected": -48.27
+   },
+   "payoutTotal": 1780.75,
+   "driveFileId": "18Px_gUydyMXDJT7890x33fj232IK3EyO",
+   "schema": "official_monthly_report"
   }
  ],
  "coverageNote": "Recovered 10 weeks (16.03-24.05.2026) from Drive backfill batch. Earliest Aktivitaetsuebersicht found starts 16.03.2026 (report dated 23.03.2026) - nothing found before that in Drive.",
