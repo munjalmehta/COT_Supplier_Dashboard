@@ -1,6 +1,6 @@
 {
  "platform": "Lieferando (Takeaway.com)",
- "lastUpdated": "2026-08-16",
+ "lastUpdated": "2026-09-01",
  "weeks": [
   {
    "periodStart": "2026-03-22",
@@ -334,6 +334,58 @@
    "invoiceTotal_gross": 574.16,
    "payoutAmount": 563.04,
    "driveFileId": "1djFH_PlWxTm9z7aAYWeGGK1XJ19ALg6l"
+  },
+  {
+   "periodStart": "2026-08-09",
+   "periodEnd": "2026-08-15",
+   "invoiceDate": "2026-08-16",
+   "invoiceNo": "354309112",
+   "orders": 34,
+   "revenue_gross": 1172.4,
+   "serviceFee30pct": 273.9,
+   "topRankFee": 97.5,
+   "onlinePaymentAdminFee": 21.76,
+   "pickupFee14pct": 36.32,
+   "subtotal_net": 429.48,
+   "vat19": 81.6,
+   "invoiceTotal_gross": 511.08,
+   "payoutAmount": 661.32,
+   "driveFileId": "13MnGcC_J_4Uawz-zIZMqzIaPsU0dEb1C"
+  },
+  {
+   "periodStart": "2026-08-16",
+   "periodEnd": "2026-08-22",
+   "invoiceDate": "2026-08-23",
+   "invoiceNo": "355175922",
+   "orders": 47,
+   "revenue_gross": 1521.6,
+   "serviceFee30pct": 407.91,
+   "topRankFee": 153.75,
+   "onlinePaymentAdminFee": 30.08,
+   "pickupFee14pct": 22.67,
+   "subtotal_net": 614.41,
+   "vat19": 116.74,
+   "invoiceTotal_gross": 731.15,
+   "payoutAmount": 790.45,
+   "driveFileId": "18SJTspkw2pSbYxSmbqwSA6CJA7_wfFQV"
+  },
+  {
+   "periodStart": "2026-08-23",
+   "periodEnd": "2026-08-29",
+   "invoiceDate": "2026-08-30",
+   "invoiceNo": "356052502",
+   "orders": 60,
+   "revenue_gross": 2066.2,
+   "serviceFee30pct": 564.44,
+   "topRankFee": 210.0,
+   "onlinePaymentAdminFee": 38.4,
+   "pickupFee14pct": 25.86,
+   "topRankRefundJuly": -56.25,
+   "subtotal_net": 782.45,
+   "vat19": 148.67,
+   "invoiceTotal_gross": 931.12,
+   "payoutAmount": 1114.59,
+   "driveFileId": "14CuFZyt-4vPWa-87FppL6T_o06vxzrDS"
   }
  ],
  "coverageNote": "Recovered 13 weeks (22.03-20.06.2026) from Drive backfill batch uploaded 29.05.2026. No files found before that batch upload date - earliest real invoice is week of 22.03.2026 (TAKEAWAY_EXPORT invoice #336217672). Weeks before that (Jan-mid March) not found in Drive."
