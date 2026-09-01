@@ -1,7 +1,7 @@
 {
  "supplier": "Kupfer & Sohn",
- "lastUpdated": "2026-08-20",
- "invoiceCount": 67,
+ "lastUpdated": "2026-08-30",
+ "invoiceCount": 71,
  "note": "Document types include Rechnung (invoice) and Gutschrift (credit note/Stornorechng). Pfand/Leergut and packaging deposit line items (BGK, CF markers) excluded from lineItems below to focus on goods - see netTotal/grossTotal for full invoice value including deposits.",
  "invoices": [
   {
@@ -853,6 +853,86 @@
    "grossTotal": 86.14,
    "driveFileId": "18sdcNkNx5bSpzNSSqZnDjC3GjgdkkiXc",
    "summary": "Frischmilch 3,5% 10l Eimer, Jodsalz 10kg, Zucker fein 25kg"
+  },
+  {
+   "invoiceNo": "550506",
+   "date": "2026-08-07",
+   "netTotal": 194.96,
+   "vat7": 13.65,
+   "grossTotal": 208.61,
+   "driveFileId": "167HlUmsRZ3plmclvs5mtZDZqYYL-bCwi",
+   "summary": "Frischmilch 3,5% 10l Eimer, TK Suppengemüse Julienne, Zucker fein 25kg"
+  },
+  {
+   "invoiceNo": "553079",
+   "date": "2026-08-21",
+   "netTotal": 176.25,
+   "vat7": 12.34,
+   "grossTotal": 188.59,
+   "driveFileId": "1iOi6bQfWo0d9xfoFLu2DE9ECGFLJCZ4U",
+   "summary": "Frischmilch 3,5% 10l Eimer, Weizenmehl Type 405 25kg"
+  },
+  {
+   "invoiceNo": "554052",
+   "date": "2026-08-26",
+   "netTotal": 201.33,
+   "vat7": 14.09,
+   "grossTotal": 215.42,
+   "driveFileId": "19tNXPctwSy-MI0GCJmVRXyxgzgoiGJAM",
+   "summary": "H-Fettarme Milch 1,5%, Naturjoghurt mild 3,5%, H-Küchensahne 30%, Gouda 48% gerieben, Eier 90er M, Rapsöl 10L"
+  },
+  {
+   "invoiceNo": "554432",
+   "date": "2026-08-28",
+   "netTotal": 402.72,
+   "vat7": 28.19,
+   "grossTotal": 430.91,
+   "driveFileId": "1aJT_TEUrXJbTQJATuhr69Z3LWui11o4a",
+   "summary": "Frischmilch 3,5% 10l Eimer, TK Erbsen fein, Weizenmehl Type 405 25kg, H-Griechischer Joghurt 10%, Gurken 12er, Eissalat 10er, Paprika tricolor 10x500g",
+   "lineItems": [
+    {
+     "description": "Frischmilch 3,5% 10l Eimer",
+     "qty": 8,
+     "unitPrice": 1.05,
+     "amount": 84.0
+    },
+    {
+     "description": "TK Erbsen fein 4x2,5kg",
+     "qty": 1,
+     "unitPrice": 5.19,
+     "amount": 20.76
+    },
+    {
+     "description": "Weizenmehl Type 405 25kg",
+     "qty": 2,
+     "unitPrice": 0.95,
+     "amount": 47.5
+    },
+    {
+     "description": "H-Griechischer Joghurt 10% 5kg",
+     "qty": 10,
+     "unitPrice": 2.95,
+     "amount": 147.5
+    },
+    {
+     "description": "Gurken 12er IFCO",
+     "qty": 1,
+     "unitPrice": 1.08,
+     "amount": 12.96
+    },
+    {
+     "description": "Eissalat 10er",
+     "qty": 4,
+     "unitPrice": 1.29,
+     "amount": 51.6
+    },
+    {
+     "description": "Paprika tricolor 10x500g",
+     "qty": 2,
+     "unitPrice": 3.84,
+     "amount": 38.4
+    }
+   ]
   }
  ],
  "totalNetSpend": 11245.12,
