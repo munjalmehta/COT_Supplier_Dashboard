@@ -1,7 +1,7 @@
 {
  "supplier": "Kupfer & Sohn",
- "lastUpdated": "2026-08-30",
- "invoiceCount": 71,
+ "lastUpdated": "2026-09-04",
+ "invoiceCount": 73,
  "note": "Document types include Rechnung (invoice) and Gutschrift (credit note/Stornorechng). Pfand/Leergut and packaging deposit line items (BGK, CF markers) excluded from lineItems below to focus on goods - see netTotal/grossTotal for full invoice value including deposits.",
  "invoices": [
   {
@@ -933,6 +933,24 @@
      "amount": 38.4
     }
    ]
+  },
+  {
+   "invoiceNo": "555889",
+   "date": "2026-09-02",
+   "netTotal": 171.93,
+   "vat7": 12.04,
+   "grossTotal": 183.97,
+   "driveFileId": "1JF332hFPV_cbBAXXyNF_VKEiKLf_H6kz",
+   "summary": "H-Griechischer Joghurt 10%, Naturjoghurt mild 3,5%, H-Küchensahne 30%, Butter mild gesäuert, Gouda 48% gerieben, TK Brechbohnen, Tafelessig hell 5%"
+  },
+  {
+   "invoiceNo": "556194",
+   "date": "2026-09-04",
+   "netTotal": 145.95,
+   "vat7": 10.22,
+   "grossTotal": 156.17,
+   "driveFileId": "1GkNwtuEJnxzJ2g4Z27YGtuLXLNkpLgeq",
+   "summary": "Frischmilch 3,5% 10l Eimer, Salat-Mayonnaise 50% 10kg, Rapsöl 10 Liter"
   }
  ],
  "totalNetSpend": 11245.12,
