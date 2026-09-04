@@ -1,7 +1,7 @@
 {
  "supplier": "Rajesh Global Food",
- "lastUpdated": "2026-08-20",
- "invoiceCount": 19,
+ "lastUpdated": "2026-09-04",
+ "invoiceCount": 22,
  "invoices": [
   {
    "invoiceNo": "INV/2026/02447",
@@ -1609,6 +1609,200 @@
      "qty": 1,
      "unitPrice": 65.99,
      "amount": 65.99
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/03168",
+   "date": "2026-08-03",
+   "netTotal": 331.84,
+   "vat7": 5.95,
+   "vat19": 46.92,
+   "grossTotal": 384.71,
+   "driveFileId": "1WoubJfMdxprirN1cm9smQ21O2qqFf_ds",
+   "lineItems": [
+    {
+     "sku": "GP-024",
+     "description": "GP 613 Siegelschale, 600 stk/ktn",
+     "qty": 1,
+     "unitPrice": 96.99,
+     "amount": 96.99
+    },
+    {
+     "sku": "GP-053",
+     "description": "GP 603 Siegelschale 200 stk/ktn",
+     "qty": 1,
+     "unitPrice": 57.5,
+     "amount": 57.5
+    },
+    {
+     "sku": "GP-103",
+     "description": "GP Frischhaltefolie 45x33cm, 4pcs",
+     "qty": 1,
+     "unitPrice": 22.5,
+     "amount": 22.5
+    },
+    {
+     "sku": "GP-034",
+     "description": "GP 30ml Rund Verpackungsbecher incl. Deckel, 500stk",
+     "qty": 1,
+     "unitPrice": 14.87,
+     "amount": 14.87
+    },
+    {
+     "sku": "RFR-009",
+     "description": "Frozen Chopped Garlic/Knoblauch 1kg [1KgX10]",
+     "qty": 1,
+     "unitPrice": 27.99,
+     "amount": 27.99
+    },
+    {
+     "sku": "GR-006",
+     "description": "Jeeva Fried Onion 1kg [1kgX10]",
+     "qty": 1,
+     "unitPrice": 56.99,
+     "amount": 56.99
+    },
+    {
+     "sku": "GP-028",
+     "description": "GP 245cmx250cm Siegelfolie, 1 Rolle",
+     "qty": 1,
+     "unitPrice": 55.0,
+     "amount": 55.0
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/03285",
+   "date": "2026-08-12",
+   "netTotal": 399.45,
+   "vat7": 24.55,
+   "vat19": 9.31,
+   "grossTotal": 433.31,
+   "driveFileId": "1TaumkCfYhf5Gu82dZUbQ0zCLkRIvsmJU",
+   "lineItems": [
+    {
+     "sku": "RG-475",
+     "description": "Daawat Original Atta 10kg [2x10kg]",
+     "qty": 1,
+     "unitPrice": 13.8,
+     "amount": 13.8
+    },
+    {
+     "sku": "06012",
+     "description": "Heera Ground Almond 300g [10x300g]",
+     "qty": 1,
+     "unitPrice": 32.99,
+     "amount": 32.99
+    },
+    {
+     "sku": "HEERA-016",
+     "description": "Heera Almond Flakes 700g [6x700g]",
+     "qty": 3,
+     "unitPrice": 11.5,
+     "amount": 34.5
+    },
+    {
+     "sku": "HEERA-007",
+     "description": "Heera Cumin Powder 1kg [6x1kg]",
+     "qty": 1,
+     "unitPrice": 62.99,
+     "amount": 62.99
+    },
+    {
+     "sku": "MDH-021",
+     "description": "MDH Kitchen King 100g [100gx10]",
+     "qty": 6,
+     "unitPrice": 13.49,
+     "amount": 80.94
+    },
+    {
+     "sku": "RFR-016",
+     "description": "IGLO Rahmspinat portionierbar 8x750g",
+     "qty": 3,
+     "unitPrice": 19.92,
+     "amount": 59.76
+    },
+    {
+     "sku": "RFR-003",
+     "description": "RG Ladi Paav 62gx60",
+     "qty": 1,
+     "unitPrice": 25.99,
+     "amount": 25.99
+    },
+    {
+     "sku": "GP-055",
+     "description": "GP 45cmx100m Alufolie, 4 Stk/krn",
+     "qty": 1,
+     "unitPrice": 49.0,
+     "amount": 49.0
+    },
+    {
+     "sku": "03012",
+     "description": "Heera Ghee [6x2kg]",
+     "qty": 1,
+     "unitPrice": 21.5,
+     "amount": 21.5
+    },
+    {
+     "sku": "G188",
+     "description": "DEEP Roasted Dalia Split 907gx20",
+     "qty": 2,
+     "unitPrice": 8.99,
+     "amount": 17.98
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/03555",
+   "date": "2026-08-27",
+   "netTotal": 433.87,
+   "vat7": 15.82,
+   "vat19": 39.52,
+   "grossTotal": 489.21,
+   "driveFileId": "1A1LyU4nnO58PK8G8BK8uHX6cYwhyA3aN",
+   "lineItems": [
+    {
+     "sku": "GP-024",
+     "description": "GP 613 Siegelschale, 600 stk/ktn",
+     "qty": 1,
+     "unitPrice": 96.99,
+     "amount": 96.99
+    },
+    {
+     "sku": "GP-053",
+     "description": "GP 603 Siegelschale 200 stk/ktn",
+     "qty": 1,
+     "unitPrice": 55.99,
+     "amount": 55.99
+    },
+    {
+     "sku": "GP-028",
+     "description": "GP 245cmx250cm Siegelfolie, 1 Rolle",
+     "qty": 1,
+     "unitPrice": 55.0,
+     "amount": 55.0
+    },
+    {
+     "sku": "RG-638",
+     "description": "Lucullus Crispy Fried Onion 2.5kg [4x2.5kg]",
+     "qty": 1,
+     "unitPrice": 56.99,
+     "amount": 56.99
+    },
+    {
+     "sku": "C9",
+     "description": "DEEP Kesar Mango Pulp 850gx6",
+     "qty": 10,
+     "unitPrice": 13.14,
+     "amount": 131.4
+    },
+    {
+     "sku": "RG-165",
+     "description": "Aashirvaad Atta Multigrain 2kg [10x2kg]",
+     "qty": 1,
+     "unitPrice": 37.5,
+     "amount": 37.5
     }
    ]
   }
