@@ -1,7 +1,7 @@
 {
  "supplier": "Metro",
- "lastUpdated": "2026-08-20",
- "invoiceCount": 33,
+ "lastUpdated": "2026-09-04",
+ "invoiceCount": 34,
  "note": "Metro invoices are POS-style receipts (KOLLI/MENGE/GESAMT format). The 09.06.2026 invoice's total was confirmed via the payment terminal slip on page 3 of the source PDF.",
  "invoices": [
   {
@@ -1729,6 +1729,16 @@
    "grossTotal": 122.62,
    "driveFileId": "1F1y8ftojTEoRvMGwptB63cJJCCSqDTv6",
    "summary": "Gina Longdrink, Weizenmehl Type 405, Happy Day Mango, Spülmittel, AVIKO Crunch, Eisbergsalat"
+  },
+  {
+   "invoiceNo": "01.09.2026/041/0/0/0501/057392",
+   "date": "2026-09-01",
+   "netTotal": 236.75,
+   "vat7": 3.49,
+   "vat19": 35.51,
+   "grossTotal": 275.75,
+   "driveFileId": "1hTS-0RrRka40A0M9HGYG_5YnHgfkcf6r",
+   "summary": "ARO Servietten, MPRO Teelichte, MPRO Vilagio Schale, ARO Mayonnaise, MC Wraps 25cm, ARO Spülmittel, Fettlöser, Hygieneuniversal, MC Brownie"
   }
  ],
  "totalNetSpend": 3799.3,
