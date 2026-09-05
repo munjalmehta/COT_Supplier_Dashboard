@@ -146,7 +146,7 @@
    "wolt": 0,
    "lieferando": 7058.26,
    "sumup_restaurant": 1982.83,
-   "sumup_foodtruck": 2564.0,
+   "sumup_foodtruck": 10069.5,
    "tollwood": 0,
    "bar": 0,
    "karte": 2529.0,
@@ -154,7 +154,7 @@
    "uberOrders": 344,
    "uberSource": "Uber sales-over-time CSV (weekly buckets summed, 01.08-31.08.2026), matches Uber's own dashboard total exactly (verified against Uber Merchant Manager screenshot, 05.09.2026)",
    "lieferandoSource": "Lieferando order_archive_report (calendar-month, order-level, 213 orders, all paid online) - now a COMPLETE month, replacing earlier partial figure (was only through ~15.08)",
-   "sumup_foodtruck_source": "Real Verkaufsbericht CSV (01.01-15.08.2026) - PARTIAL MONTH (only 1-15)"
+   "sumup_foodtruck_source": "Real Verkaufsbericht CSV (03.08-31.08.2026, Foodtruck-only, clean category filter), FULL MONTH - replaces earlier partial (through 15.08)"
   }
  ],
  "live_periods": [
