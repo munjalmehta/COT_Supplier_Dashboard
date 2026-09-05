@@ -17,7 +17,7 @@
   },
   {
    "month": "2026-01",
-   "umsatz": 39470.93,
+   "umsatz": 41070.93,
    "uber": 15571.0,
    "wolt": 1773.7,
    "lieferando": 4155.5,
@@ -35,7 +35,7 @@
   },
   {
    "month": "2026-02",
-   "umsatz": 52010.45,
+   "umsatz": 52169.86,
    "uber": 16593.0,
    "wolt": 3393.7,
    "lieferando": 7650.61,
@@ -53,7 +53,7 @@
   },
   {
    "month": "2026-03",
-   "umsatz": 61438.79,
+   "umsatz": 61614.79,
    "uber": 19058.8,
    "wolt": 3819.62,
    "lieferando": 8135.1,
@@ -71,7 +71,7 @@
   },
   {
    "month": "2026-04",
-   "umsatz": 49255.05,
+   "umsatz": 50253.77,
    "uber": 12588.7,
    "wolt": 4568.34,
    "lieferando": 6255.61,
@@ -89,7 +89,7 @@
   },
   {
    "month": "2026-05",
-   "umsatz": 47435.99,
+   "umsatz": 55241.04,
    "uber": 12884.6,
    "wolt": 5965.93,
    "lieferando": 7091.68,
@@ -106,7 +106,7 @@
   },
   {
    "month": "2026-06",
-   "umsatz": 65360.63,
+   "umsatz": 78622.88,
    "uber": 9999.3,
    "wolt": 4918.4,
    "lieferando": 4796.05,
@@ -123,7 +123,7 @@
   },
   {
    "month": "2026-07",
-   "umsatz": 137782.32,
+   "umsatz": 155115.92,
    "uber": 17862.8,
    "wolt": 6663.219999999999,
    "lieferando": 6634.95,
@@ -140,10 +140,10 @@
   },
   {
    "month": "2026-08",
-   "umsatz": 4511.83,
+   "umsatz": 61108.0,
    "ausgaben": 0,
    "uber": 17372.0,
-   "wolt": 0,
+   "wolt": 5729.06,
    "lieferando": 7058.26,
    "sumup_restaurant": 20879.18,
    "sumup_foodtruck": 10069.5,
@@ -155,7 +155,9 @@
    "uberSource": "Uber sales-over-time CSV (weekly buckets summed, 01.08-31.08.2026), matches Uber's own dashboard total exactly (verified against Uber Merchant Manager screenshot, 05.09.2026)",
    "lieferandoSource": "Lieferando order_archive_report (calendar-month, order-level, 213 orders, all paid online) - now a COMPLETE month, replacing earlier partial figure (was only through ~15.08)",
    "sumup_foodtruck_source": "Real Verkaufsbericht CSV (03.08-31.08.2026, Foodtruck-only, clean category filter), FULL MONTH - replaces earlier partial (through 15.08)",
-   "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.08-31.08.2026), Kategorie-filtered (00_Restaurant only, no Foodtruck contamination confirmed), FULL MONTH - replaces earlier partial (through 14.08)"
+   "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.08-31.08.2026), Kategorie-filtered (00_Restaurant only, no Foodtruck contamination confirmed), FULL MONTH - replaces earlier partial (through 14.08)",
+   "woltSource": "Sum of Wolt weekly periods touching August (from wolt.json Belege live data) - same convention as Uber's own weekly-bucket monthly total",
+   "umsatzNote": "RECALCULATED 2026-09-06: 'umsatz' was a stale stored value (4511.83) that never updated as individual channel figures were corrected throughout this session. Now = sum of uber+wolt+lieferando+sumup_restaurant+sumup_foodtruck+tollwood. Does NOT include 'bar'/'karte' (those are a payment-method split of SumUp only, not separate revenue) or 'ausgaben' (expenses, not revenue)."
   }
  ],
  "live_periods": [
@@ -331,5 +333,6 @@
   ],
   "sumup_source_note": "SumUp-Zahlen (Restaurant, Foodtruck, Trinkgeld) jetzt aus dem echten SumUp-Verkaufsbericht (2026-01-01 bis 2026-08-02), gruppiert nach Kategorie statt Konto (Konto = welches Geraet/Login gebucht hat, nicht der Kanal). Trinkgeld war bisher nirgends im Dashboard erfasst (Gesamt 6.430,49 EUR ueber den Zeitraum) und ist jetzt separat ausgewiesen, aber NICHT im Umsatz mitgezaehlt, da es kein COT-Einkommen ist."
  },
- "lastUpdated": "2026-09-06"
+ "lastUpdated": "2026-09-06",
+ "umsatzMethodologyNote": "'umsatz' (total) = sum of uber + wolt + lieferando + sumup_restaurant + sumup_foodtruck + tollwood for that month. Recalculated 2026-09-06 after discovering this field was a stale stored value that hadn't updated as individual channel corrections were made throughout the session (some months were off by 13,000-17,000 EUR)."
 }
