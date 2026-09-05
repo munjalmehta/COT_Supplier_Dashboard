@@ -142,7 +142,7 @@
    "month": "2026-08",
    "umsatz": 4511.83,
    "ausgaben": 0,
-   "uber": 13052.7,
+   "uber": 17372.0,
    "wolt": 0,
    "lieferando": 2289.9,
    "sumup_restaurant": 1982.83,
@@ -151,8 +151,8 @@
    "bar": 0,
    "karte": 2529.0,
    "trinkgeld": 114.28,
-   "uberOrders": 259,
-   "uberSource": "Uber sales-over-time CSV export, month-to-date as of 2026-08-23 (partial month)",
+   "uberOrders": 344,
+   "uberSource": "Uber sales-over-time CSV (weekly buckets summed, 01.08-31.08.2026), matches Uber's own dashboard total exactly (verified against Uber Merchant Manager screenshot, 05.09.2026)",
    "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure",
    "sumup_foodtruck_source": "Real Verkaufsbericht CSV (01.01-15.08.2026) - PARTIAL MONTH (only 1-15)"
   }
@@ -330,5 +330,5 @@
   ],
   "sumup_source_note": "SumUp-Zahlen (Restaurant, Foodtruck, Trinkgeld) jetzt aus dem echten SumUp-Verkaufsbericht (2026-01-01 bis 2026-08-02), gruppiert nach Kategorie statt Konto (Konto = welches Geraet/Login gebucht hat, nicht der Kanal). Trinkgeld war bisher nirgends im Dashboard erfasst (Gesamt 6.430,49 EUR ueber den Zeitraum) und ist jetzt separat ausgewiesen, aber NICHT im Umsatz mitgezaehlt, da es kein COT-Einkommen ist."
  },
- "lastUpdated": "2026-08-23"
+ "lastUpdated": "2026-09-06"
 }
