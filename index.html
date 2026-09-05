@@ -319,10 +319,21 @@
   <section id="view-overview" class="view active">
     <h2 class="section-title">Übersicht</h2>
     <p class="section-sub">Gesamtzahlen seit Geschäftsbeginn (Umsatz) und aus dem laufenden Lieferanten-Scan.</p>
+
+    <div class="filter-bar">
+      <div class="filter-field"><label>Von Monat</label><input type="month" id="ovFrom"></div>
+      <div class="filter-field"><label>Bis Monat</label><input type="month" id="ovTo"></div>
+      <div class="filter-actions">
+        <button class="filter-btn apply" id="ovApply">Filtern</button>
+        <button class="filter-btn reset" id="ovReset">Zurücksetzen (gesamter Zeitraum)</button>
+      </div>
+    </div>
+    <div class="filter-count" id="ovCount"></div>
+
     <div id="kpiGrid" class="kpi-grid"></div>
 
     <h2 class="section-title" style="margin-top:8px;">Umsatz nach Kanal</h2>
-    <p class="section-sub">Brutto, Auszahlung und Plattformgebühren je Vertriebskanal, seit Beginn bis 27.07.2026.</p>
+    <p class="section-sub" id="ovChannelSub">Brutto je Vertriebskanal.</p>
     <div id="channelList" class="channel-list"></div>
   </section>
 
@@ -588,6 +599,11 @@ function inRange(dateStr, from, to){
 
 /* ============ OVERVIEW ============ */
 function renderOverview(manifest){
+  STATE.manifest = manifest;
+  renderOverviewUnfiltered();
+}
+function renderOverviewUnfiltered(){
+  const manifest = STATE.manifest;
   const rbp = manifest.revenueByPlatform;
   const gt = manifest.grandTotal;
   const grid = document.getElementById('kpiGrid');
@@ -610,6 +626,65 @@ function renderOverview(manifest){
         <div class="bar-legend">${fmtNum(p.orderCount)} Bestellungen · Gebühren ${fmtEUR(p.platformFees)}</div>
       </div>
     `).join("");
+  document.getElementById('ovChannelSub').textContent = "Brutto, Auszahlung und Plattformgebühren je Vertriebskanal, seit Beginn.";
+  document.getElementById('ovCount').textContent = "";
+}
+function renderOverviewFiltered(from, to){
+  const rm = STATE.revenueMonthly;
+  if(!rm){ renderOverviewUnfiltered(); return; }
+  const rows = rm.monthly.filter(r => (!from || r.month >= from) && (!to || r.month <= to));
+  if(!rows.length){
+    document.getElementById('kpiGrid').innerHTML = `<div class="empty-note">Keine Daten für diesen Zeitraum.</div>`;
+    document.getElementById('channelList').innerHTML = '';
+    document.getElementById('ovCount').textContent = '0 Monate im Zeitraum';
+    return;
+  }
+  const CHANNEL_LABELS = {uber:'UberEats', wolt:'Wolt', lieferando:'Lieferando', sumup_restaurant:'SumUp Restaurant', sumup_foodtruck:'SumUp Foodtruck', tollwood:'Tollwood'};
+  const sums = {};
+  for(const key of Object.keys(CHANNEL_LABELS)) sums[key] = rows.reduce((s,r)=>s+(r[key]||0),0);
+  const grossTotal = Object.values(sums).reduce((a,b)=>a+b,0);
+
+  // supplier invoices within the same date range (using month boundaries)
+  const fromDate = from ? from+'-01' : null;
+  const toDate = to ? to+'-31' : null;
+  let supplierCount = 0, supplierNet = 0;
+  for(const data of Object.values(STATE.supplierData || {})){
+    for(const inv of (data.invoices||[])){
+      if(inRange(inv.date, fromDate, toDate)){ supplierCount++; supplierNet += (inv.netTotal||0); }
+    }
+  }
+
+  document.getElementById('kpiGrid').innerHTML = [
+    kpi("Bruttoumsatz (Zeitraum)", fmtEUR(grossTotal), `${rows.length} Monat(e)`, "gold"),
+    kpi("Auszahlung (näherungsweise)", fmtEUR(grossTotal), "Gebühren nicht monatsgenau verfügbar, siehe Hinweis", "sky"),
+    kpi("Bestellungen", "–", "nicht monatsgenau in Umsatz-Daten erfasst", "coral"),
+    kpi("Lieferantenrechnungen (Zeitraum)", fmtNum(supplierCount) + " Rechnungen", fmtEUR(supplierNet) + " Netto-Wareneinkauf", ""),
+  ].join("");
+
+  const maxGross = Math.max(...Object.values(sums), 1);
+  document.getElementById('channelList').innerHTML = Object.entries(sums).sort((a,b)=>b[1]-a[1]).map(([key,gross]) => `
+      <div class="channel-row">
+        <div class="channel-top">
+          <span class="channel-name">${CHANNEL_LABELS[key]}</span>
+          <span class="channel-figs">${fmtEUR(gross)} brutto</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" style="width:${(gross/maxGross*100).toFixed(1)}%"></div></div>
+      </div>
+    `).join("");
+  document.getElementById('ovChannelSub').textContent = `Brutto je Vertriebskanal, ${from||'Beginn'} bis ${to||'heute'}. Plattformgebühren/Bestellzahlen sind hier nicht monatsgenau hinterlegt (nur in "Belege live" nach Woche) — daher als Näherung ausgeblendet.`;
+  document.getElementById('ovCount').textContent = `${rows.length} von ${rm.monthly.length} Monaten`;
+}
+function initOverviewFilters(){
+  document.getElementById('ovApply').addEventListener('click', ()=>{
+    const from = document.getElementById('ovFrom').value;
+    const to = document.getElementById('ovTo').value;
+    if(!from && !to){ renderOverviewUnfiltered(); return; }
+    renderOverviewFiltered(from, to);
+  });
+  document.getElementById('ovReset').addEventListener('click', ()=>{
+    document.getElementById('ovFrom').value=''; document.getElementById('ovTo').value='';
+    renderOverviewUnfiltered();
+  });
 }
 
 /* ============ UMSATZ (monthly) ============ */
@@ -1109,7 +1184,7 @@ document.querySelectorAll('.tabbtn').forEach(btn=>{
     try{ STATE.agendaKassenbuch = await jget('agenda_kassenbuch.json'); renderAgendaKbTables(); initAgendaKbFilters(); }catch(e){}
     try{ const kd = await jget('kassenbuch_datev.json'); renderDatevTables(kd); }catch(e){}
     await loadDelivery();
-    try{ STATE.revenueMonthly = await jget('revenue_monthly.json'); renderMonthlyTable(); initMonthlyFilters(); }catch(e){}
+    try{ STATE.revenueMonthly = await jget('revenue_monthly.json'); renderMonthlyTable(); initMonthlyFilters(); initOverviewFilters(); }catch(e){}
     try{ STATE.priceComparison = await jget('price_comparison.json'); initPriceFilters(); }catch(e){}
     try{ STATE.recipes = await jget('recipes.json'); initRecipeFilters(); initBestsellerFilters(); }catch(e){}
     try{ STATE.bankReconciliation = await jget('bank_reconciliation.json'); renderBankTables(); initBankFilters(); }catch(e){}
