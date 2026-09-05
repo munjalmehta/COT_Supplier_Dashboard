@@ -892,7 +892,7 @@ function renderDeliveryBlocks(){
 
   const summaryHtml = summaryCards.map(c=>{
     const commPct = c.gross>0 ? (c.fees/c.gross*100).toFixed(1) : '–';
-    return kpi(`${c.name} — Gesamtumsatz`, fmtEUR(c.gross), `${c.n} Perioden`, c.cls==='uber'?'gold':(c.cls==='lief'?'coral':'sky'))
+    return kpi(`${c.name} — Gesamtumsatz`, fmtEUR(c.gross), `${c.n} Perioden`, 'gold')
       + kpi(`${c.name} — Gebühren`, fmtEUR(c.fees), `${commPct}% effektive Provision`, 'coral')
       + kpi(`${c.name} — Netto-Auszahlung`, fmtEUR(c.payout), '', 'sky');
   }).join('');
