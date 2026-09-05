@@ -361,16 +361,27 @@
 
     <h2 class="section-title" style="margin-top:8px;">DATEV-Periode (bis 30.06.2026) — Restaurant, echte vs. geschätzte Monate</h2>
     <p class="section-sub">Echte DATEV-Erfassungsberichte (SumUp-Verrechnungskonto, kein physisches Kassenbuch) für Jan–März; April–Juni weiterhin geschätzt aus dem Juli-Verhältnis.</p>
+
+    <div class="filter-bar">
+      <div class="filter-field"><label>Von Monat</label><input type="month" id="datevFrom"></div>
+      <div class="filter-field"><label>Bis Monat</label><input type="month" id="datevTo"></div>
+      <div class="filter-actions">
+        <button class="filter-btn apply" id="datevApply">Filtern</button>
+        <button class="filter-btn reset" id="datevReset">Zurücksetzen</button>
+      </div>
+    </div>
+    <div class="filter-count" id="datevCount"></div>
+
     <div id="datevRealWrap" class="table-wrap" style="margin-bottom:12px;"></div>
     <p class="section-sub" id="datevRealNote" style="font-style:italic;"></p>
 
     <h2 class="section-title" style="margin-top:20px;">DATEV-Periode (bis 30.06.2026) — Bar-Zuwachs je Monat (alle Kassen)</h2>
-    <p class="section-sub">Bar-Zuwachs = Bar-Einnahmen − Ausgaben (SumUp-Verkaufsbericht, monatlich reconciled). Karte läuft separat über Sumup/EC-Ausgabe-Gegenbuchung, siehe Methodik.</p>
+    <p class="section-sub">Bar-Zuwachs = Bar-Einnahmen − Ausgaben (SumUp-Verkaufsbericht, monatlich reconciled). Karte läuft separat über Sumup/EC-Ausgabe-Gegenbuchung, siehe Methodik. (Filter oben gilt auch für diese Tabelle.)</p>
     <div id="datevMonthWrap" class="table-wrap" style="margin-bottom:12px;"></div>
     <p class="section-sub" id="datevMethodNote" style="font-style:italic;"></p>
 
     <h2 class="section-title" style="margin-top:20px;">Lieferdienst-Sichtbarmachung (DATEV-Periode)</h2>
-    <p class="section-sub">Lieferdienst-Umsatz wird als Tageseinnahme UND gleich hohe Ausgabe gebucht (Gegenkonto 1465/1466/1467) — Netto-Effekt auf Bar-Bestand = 0. <strong>Für Jan–Juni liegen keine belastbaren Plattform-Daten vor</strong> (siehe Hinweis unten) — nur ab Ende Juni tagesgenau erfasst, siehe "Belege live".</p>
+    <p class="section-sub">Lieferdienst-Umsatz wird als Tageseinnahme UND gleich hohe Ausgabe gebucht (Gegenkonto 1465/1466/1467) — Netto-Effekt auf Bar-Bestand = 0. <strong>Für Jan–Juni liegen keine belastbaren Plattform-Daten vor</strong> (siehe Hinweis unten) — nur ab Ende Juni tagesgenau erfasst, siehe "Belege live". (Filter oben gilt auch für diese Tabelle.)</p>
     <div id="datevDeliveryWrap" class="table-wrap" style="margin-bottom:12px;"></div>
     <p class="section-sub" id="datevDeliveryGapNote" style="font-style:italic;color:var(--coral);"></p>
 
@@ -716,16 +727,18 @@ function initMonthlyFilters(){
 }
 
 /* ============ KASSENBUCH: DATEV period ============ */
-function renderDatevTables(kd){
+function renderDatevTables(kd, from, to){
+  STATE.kassenbuchDatev = kd;
+  from = from || ''; to = to || '';
   document.getElementById('datevMethodNote').textContent = kd.methodology;
 
   if(kd.restaurantDatevReal){
     const rr = kd.restaurantDatevReal;
     const ft = kd.foodtruckDatevReal;
-    const allMonths = ["2026-01","2026-02","2026-03","2026-04","2026-05","2026-06"];
+    const allMonths = ["2026-01","2026-02","2026-03","2026-04","2026-05","2026-06"].filter(m => (!from || m>=from) && (!to || m<=to));
     document.getElementById('datevRealWrap').innerHTML = `<table>
       <thead><tr><th>Monat</th><th>Kasse</th><th class="num">Einnahmen 7%</th><th class="num">Einnahmen 19%</th><th class="num">Bar</th><th class="num">Karte</th><th class="num">Trinkgeld</th><th class="num">Bestellungen</th></tr></thead>
-      <tbody>${allMonths.map(m=>{
+      <tbody>${allMonths.length?allMonths.map(m=>{
         const r = rr.monthly[m];
         const f = ft ? ft.monthly[m] : null;
         let rows = '';
@@ -738,28 +751,42 @@ function renderDatevTables(kd){
           rows += `<tr><td>${m}</td><td>Foodtruck</td><td colspan="6" style="text-align:left;color:rgba(32,32,33,0.5);">Terminal (MCKQLK39) noch nicht aktiv — keine Transaktionen vor Mai 2026</td></tr>`;
         }
         return rows;
-      }).join('')}</tbody>
+      }).join(''):emptyRow(8)}</tbody>
     </table>`;
     document.getElementById('datevRealNote').textContent = rr.note;
   }
 
+  const monthRows = kd.monthly.filter(m => (!from || m.month>=from) && (!to || m.month<=to));
   document.getElementById('datevMonthWrap').innerHTML = `<table>
     <thead><tr><th>Monat</th><th class="num">Umsatz gesamt</th><th class="num">Bar</th><th class="num">Karte</th><th class="num">Ausgaben</th><th class="num">Trinkgeld</th><th class="num">Netto Bar-Bewegung</th></tr></thead>
-    <tbody>${kd.monthly.map(m=>`<tr>
+    <tbody>${monthRows.length?monthRows.map(m=>`<tr>
       <td>${m.month}</td><td class="num">${fmtEUR(m.umsatzGesamt)}</td><td class="num">${fmtEUR(m.bar)}</td><td class="num">${fmtEUR(m.karte)}</td>
       <td class="num">${fmtEUR(m.ausgaben)}</td><td class="num">${fmtEUR(m.trinkgeld)}</td>
       <td class="num" style="color:${m.nettoBarBewegung<0?'var(--coral)':'var(--midblue)'};font-weight:600;">${fmtEUR(m.nettoBarBewegung)}</td>
-    </tr>`).join('')}</tbody>
+    </tr>`).join(''):emptyRow(7)}</tbody>
   </table>`;
+  const deliveryRows = kd.deliveryPassThrough.monthly.filter(m => (!from || m.month>=from) && (!to || m.month<=to));
   document.getElementById('datevDeliveryWrap').innerHTML = `<table>
     <thead><tr><th>Monat</th><th class="num">Uber Eats (1467)</th><th class="num">Wolt (1466)</th><th class="num">Lieferando (1465)</th><th class="num">Gesamt (Einnahme = Ausgabe)</th></tr></thead>
-    <tbody>${kd.deliveryPassThrough.monthly.map(m=>`<tr><td>${m.month}</td><td class="num">${fmtEUR(m.uberEats)}</td><td class="num">${fmtEUR(m.wolt)}</td><td class="num">${fmtEUR(m.lieferando)}</td><td class="num">${fmtEUR(m.gesamt)}</td></tr>`).join('')}</tbody>
+    <tbody>${deliveryRows.length?deliveryRows.map(m=>`<tr><td>${m.month}</td><td class="num">${fmtEUR(m.uberEats)}</td><td class="num">${fmtEUR(m.wolt)}</td><td class="num">${fmtEUR(m.lieferando)}</td><td class="num">${fmtEUR(m.gesamt)}</td></tr>`).join(''):emptyRow(5)}</tbody>
   </table>`;
   if(kd.deliveryPlatformsJanJun_stillOpen){
     document.getElementById('datevDeliveryGapNote').textContent = "⚠ " + kd.deliveryPlatformsJanJun_stillOpen.status;
   } else if(kd.deliveryPlatformsJanJun){
     document.getElementById('datevDeliveryGapNote').textContent = "⚠ " + kd.deliveryPlatformsJanJun.status + " — " + kd.deliveryPlatformsJanJun.note;
   }
+  document.getElementById('datevCount').textContent = `${monthRows.length} von ${kd.monthly.length} Monaten`;
+}
+function initDatevFilters(){
+  document.getElementById('datevApply').addEventListener('click', ()=>{
+    const from = document.getElementById('datevFrom').value;
+    const to = document.getElementById('datevTo').value;
+    renderDatevTables(STATE.kassenbuchDatev, from, to);
+  });
+  document.getElementById('datevReset').addEventListener('click', ()=>{
+    document.getElementById('datevFrom').value=''; document.getElementById('datevTo').value='';
+    renderDatevTables(STATE.kassenbuchDatev, '', '');
+  });
 }
 
 /* ============ KASSENBUCH: real AGENDA data (Tollwood + Foodtruck) ============ */
@@ -1182,7 +1209,7 @@ document.querySelectorAll('.tabbtn').forEach(btn=>{
 
     try{ STATE.kassenbuch = await jget('kassenbuch.json'); renderKassenbuchTables(); initKassenbuchFilters(); }catch(e){}
     try{ STATE.agendaKassenbuch = await jget('agenda_kassenbuch.json'); renderAgendaKbTables(); initAgendaKbFilters(); }catch(e){}
-    try{ const kd = await jget('kassenbuch_datev.json'); renderDatevTables(kd); }catch(e){}
+    try{ const kd = await jget('kassenbuch_datev.json'); renderDatevTables(kd); initDatevFilters(); }catch(e){}
     await loadDelivery();
     try{ STATE.revenueMonthly = await jget('revenue_monthly.json'); renderMonthlyTable(); initMonthlyFilters(); initOverviewFilters(); }catch(e){}
     try{ STATE.priceComparison = await jget('price_comparison.json'); initPriceFilters(); }catch(e){}
