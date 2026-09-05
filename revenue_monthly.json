@@ -126,7 +126,7 @@
    "umsatz": 137782.32,
    "uber": 17862.8,
    "wolt": 6663.219999999999,
-   "lieferando": 6589.15,
+   "lieferando": 6634.95,
    "sumup_restaurant": 17991.85,
    "sumup_foodtruck": 17333.6,
    "tollwood": 88629.50000000001,
@@ -134,7 +134,7 @@
    "karte": 110017.22000000002,
    "ausgaben": 12051.719999999998,
    "trinkgeld": 627.97,
-   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure",
+   "lieferandoSource": "Lieferando order_archive_report (calendar-month, order-level, 222 orders, all paid online) - supersedes online_payments_report figure (small +45.80 diff, likely date-boundary convention)",
    "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.01-31.07.2026), delivery pass-through excluded",
    "sumup_foodtruck_source": "Real Verkaufsbericht CSV (01.01-15.08.2026)"
   },
@@ -144,7 +144,7 @@
    "ausgaben": 0,
    "uber": 17372.0,
    "wolt": 0,
-   "lieferando": 2289.9,
+   "lieferando": 7058.26,
    "sumup_restaurant": 1982.83,
    "sumup_foodtruck": 2564.0,
    "tollwood": 0,
@@ -153,7 +153,7 @@
    "trinkgeld": 114.28,
    "uberOrders": 344,
    "uberSource": "Uber sales-over-time CSV (weekly buckets summed, 01.08-31.08.2026), matches Uber's own dashboard total exactly (verified against Uber Merchant Manager screenshot, 05.09.2026)",
-   "lieferandoSource": "Lieferando online_payments_report (calendar-month, per-order), replacing weekly-invoice-period-derived figure",
+   "lieferandoSource": "Lieferando order_archive_report (calendar-month, order-level, 213 orders, all paid online) - now a COMPLETE month, replacing earlier partial figure (was only through ~15.08)",
    "sumup_foodtruck_source": "Real Verkaufsbericht CSV (01.01-15.08.2026) - PARTIAL MONTH (only 1-15)"
   }
  ],
