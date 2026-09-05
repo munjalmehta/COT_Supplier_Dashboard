@@ -96,7 +96,7 @@
  "revenueByPlatform": {
   "source": "claude-dashboard-checkpoint/checkpoint-part1-overview.json (Google Drive, saved 2026-08-03)",
   "period": "inception through 2026-08-14 (SumUp Restaurant/Foodtruck, day-level) / through latest scanned weekly period (UberEats to 09.08, Lieferando to 08.08, Wolt to 10.08) / Tollwood and remaining detail through 27.07.2026 (no newer seasonal data)",
-  "note": "Full refresh 2026-08-15. UberEats/Lieferando/Wolt cumulative totals rolled forward using the weekly periods already added to uber_eats.json/lieferando.json/wolt.json since the 27.07 baseline (no date overlap, so simple addition). APPROXIMATION FLAGGED: gross/net/vat7 deltas for these three platforms were derived from each period's netAfterDiscounts or revenue_gross figure grossed up at 7% VAT, matching the pattern in the original baseline (gross ≈ net × 1.07) — not a line-by-line reconciliation like the SumUp refresh. platformFees deltas sum each period's total fee/commission line. Wolt order counts are not tracked at the weekly level, so Wolt orderCount is unchanged (understated for this period) — flagged, not corrected. Tollwood has no newer data — the tracked event (summer 2026) has concluded; next data expected for winter Tollwood. SumUp Restaurant/Foodtruck are the only channels refreshed with full day-level fidelity (01.07-14.08.2026, no gaps). SumUp Restaurant/Foodtruck fully rebuilt 2026-08-22 from complete real Verkaufsbericht CSVs (Restaurant 01.01-31.07, Foodtruck 01.05-15.08) - all prior patchwork estimates replaced. Restaurant August and Foodtruck 16.08+ not yet in this cumulative figure. BUGFIX 2026-08-23: SumUp Restaurant total was wrongly including Foodtruck transactions (the 'Restaurant_Verkaufsbericht' export is actually account-wide, not venue-filtered - filtering must be done by Kategorie column). Corrected using proper Kategorie-based exclusion, now extended through 14.08.2026.",
+  "note": "Full refresh 2026-08-15. UberEats/Lieferando/Wolt cumulative totals rolled forward using the weekly periods already added to uber_eats.json/lieferando.json/wolt.json since the 27.07 baseline (no date overlap, so simple addition). APPROXIMATION FLAGGED: gross/net/vat7 deltas for these three platforms were derived from each period's netAfterDiscounts or revenue_gross figure grossed up at 7% VAT, matching the pattern in the original baseline (gross ≈ net × 1.07) — not a line-by-line reconciliation like the SumUp refresh. platformFees deltas sum each period's total fee/commission line. Wolt order counts are not tracked at the weekly level, so Wolt orderCount is unchanged (understated for this period) — flagged, not corrected. Tollwood has no newer data — the tracked event (summer 2026) has concluded; next data expected for winter Tollwood. SumUp Restaurant/Foodtruck are the only channels refreshed with full day-level fidelity (01.07-14.08.2026, no gaps). SumUp Restaurant/Foodtruck fully rebuilt 2026-08-22 from complete real Verkaufsbericht CSVs (Restaurant 01.01-31.07, Foodtruck 01.05-15.08) - all prior patchwork estimates replaced. Restaurant August and Foodtruck 16.08+ not yet in this cumulative figure. BUGFIX 2026-08-23: SumUp Restaurant total was wrongly including Foodtruck transactions (the 'Restaurant_Verkaufsbericht' export is actually account-wide, not venue-filtered - filtering must be done by Kategorie column). Corrected using proper Kategorie-based exclusion, now extended through 14.08.2026. SumUp Foodtruck extended 2026-09-06 through 31.08.2026 (was through 15.08).",
   "byPlatform": [
    {
     "platform": "UberEats",
@@ -145,15 +145,15 @@
    },
    {
     "platform": "SumUp Foodtruck",
-    "orderCount": 2579,
-    "gross": 40960.1,
-    "net": 38260.95,
-    "vat7": 2670.11,
+    "orderCount": 3135,
+    "gross": 48465.6,
+    "net": 45273.54,
+    "vat7": 3163.02,
     "vat19": 29.04,
     "platformFees": 0.0,
-    "payout": 40960.1,
+    "payout": 48465.6,
     "commissionPct": 0.0,
-    "periodCoverage": "01.05.2026-15.08.2026 (real, complete) - no transactions before May 2026 (terminal not active)"
+    "periodCoverage": "01.05.2026-31.08.2026 (real, complete)"
    },
    {
     "platform": "Wolt",
@@ -168,15 +168,15 @@
    }
   ],
   "totals": {
-   "bruttoumsatz": 500214.98,
-   "nettoumsatz": 464413.4,
-   "ust7": 30610.38,
+   "bruttoumsatz": 507720.48,
+   "nettoumsatz": 471425.99,
+   "ust7": 31103.29,
    "ust19": 5191.19,
    "plattformGebuehren": 76448.51,
-   "auszahlungGesamt": 500214.98,
+   "auszahlungGesamt": 507720.48,
    "bargeldKasse": 51620.53,
    "ustZahllastGesamt": 30087.84,
-   "anzahlVerkaeufe": 10009
+   "anzahlVerkaeufe": 10565
   }
  },
  "historicalCheckpoints": {
