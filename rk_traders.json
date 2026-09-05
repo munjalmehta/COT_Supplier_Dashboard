@@ -1,7 +1,7 @@
 {
  "supplier": "RK Traders",
- "lastUpdated": "2026-08-30",
- "invoiceCount": 44,
+ "lastUpdated": "2026-09-06",
+ "invoiceCount": 45,
  "contact": "Rohit Kumar",
  "invoices": [
   {
@@ -3486,6 +3486,115 @@
      "unit": "Kiste",
      "unitPrice": 14.75,
      "amount": 29.5
+    }
+   ]
+  },
+  {
+   "invoiceNo": "RE4790",
+   "date": "2026-09-01",
+   "deliveryDate": "2026-09-01",
+   "netTotal": 237.45,
+   "vat7": 16.62,
+   "grossTotal": 254.07,
+   "driveFileId": "12MhZ4RGyCol96ko3aF4vtxQ43IDLBqxu",
+   "lineItems": [
+    {
+     "desc": "Zwiebel 25kg",
+     "qty": 3,
+     "unit": "Sack",
+     "unitPrice": 15.99,
+     "amount": 47.97
+    },
+    {
+     "desc": "Rote Zwiebel 10kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 12.99,
+     "amount": 12.99
+    },
+    {
+     "desc": "Minze 10 bund",
+     "qty": 1,
+     "unit": "Kiste",
+     "unitPrice": 8.99,
+     "amount": 8.99
+    },
+    {
+     "desc": "Weißkraut 15kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 11.99,
+     "amount": 11.99
+    },
+    {
+     "desc": "Paprika Mix 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 14.99,
+     "amount": 14.99
+    },
+    {
+     "desc": "Coriander 10 bund",
+     "qty": 2,
+     "unit": "Kiste",
+     "unitPrice": 8.99,
+     "amount": 17.98
+    },
+    {
+     "desc": "Lauchzwiebeln",
+     "qty": 14,
+     "unit": "Stück",
+     "unitPrice": 0.99,
+     "amount": 13.86
+    },
+    {
+     "desc": "Spinat/Palak",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 23.99,
+     "amount": 23.99
+    },
+    {
+     "desc": "Zitronen 4kg",
+     "qty": 4,
+     "unit": "Kilograms",
+     "unitPrice": 1.99,
+     "amount": 7.96
+    },
+    {
+     "desc": "Zucchini 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 9.3,
+     "amount": 9.3
+    },
+    {
+     "desc": "Eisberg 10er",
+     "qty": 1,
+     "unit": "Kiste",
+     "unitPrice": 14.49,
+     "amount": 14.49
+    },
+    {
+     "desc": "Gurken 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 13.95,
+     "amount": 13.95
+    },
+    {
+     "desc": "Okra/Bindi 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 26.99,
+     "amount": 26.99
+    },
+    {
+     "desc": "Karela 3kg",
+     "qty": 3,
+     "unit": "Kilograms",
+     "unitPrice": 4.0,
+     "amount": 12.0
     }
    ]
   }
