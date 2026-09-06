@@ -1,16 +1,16 @@
 {
- "source": "Sparkasse bank statement exports (merged), account DE12700510030025862558",
- "period": "2026-01-02 to 2026-08-24",
- "transactionCount": 749,
- "netMovement": -5733.12,
+ "source": "Sparkasse bank statement exports (merged), account DE12700510030025862558 + full PDF statements Kontoauszug 6/2026, 7/2026, 8/2026 used to extend to 31.08.2026 and fix categorization",
+ "period": "2026-01-02 to 2026-08-31",
+ "transactionCount": 767,
+ "netMovement": -6388.12,
  "summaryByCategory": [
   {
    "category": "platform_payout",
    "label": "SumUp",
-   "count": 48,
-   "total": 172849.25,
+   "count": 51,
+   "total": 178603.91,
    "min_date": "2026-01-07",
-   "max_date": "2026-08-18"
+   "max_date": "2026-08-25"
   },
   {
    "category": "platform_payout",
@@ -21,36 +21,28 @@
    "max_date": "2026-08-10"
   },
   {
-   "category": "platform_payout",
-   "label": "UberEats",
-   "count": 33,
-   "total": 64449.71,
-   "min_date": "2026-01-05",
-   "max_date": "2026-08-17"
-  },
-  {
-   "category": "other",
-   "label": "Finanzamt/Steuern",
-   "count": 7,
-   "total": -59924.44,
-   "min_date": "2026-01-15",
-   "max_date": "2026-04-16"
-  },
-  {
    "category": "other",
    "label": "Personal/Sozialversicherung",
-   "count": 39,
-   "total": -58825.82,
+   "count": 44,
+   "total": -67497.85,
    "min_date": "2026-01-08",
-   "max_date": "2026-08-20"
+   "max_date": "2026-08-27"
   },
   {
-   "category": "uncategorized",
-   "label": "Alan Malih & Rani Yakoub Gerges",
-   "count": 9,
-   "total": -43468.43,
+   "category": "other",
+   "label": "Miete/Nebenkosten",
+   "count": 40,
+   "total": -66464.69,
    "min_date": "2026-01-02",
-   "max_date": "2026-08-03"
+   "max_date": "2026-08-14"
+  },
+  {
+   "category": "platform_payout",
+   "label": "UberEats",
+   "count": 34,
+   "total": 66153.55,
+   "min_date": "2026-01-05",
+   "max_date": "2026-08-31"
   },
   {
    "category": "other",
@@ -61,20 +53,28 @@
    "max_date": "2026-07-20"
   },
   {
-   "category": "uncategorized",
-   "label": "Anar Mehta",
-   "count": 9,
-   "total": -39213.19,
-   "min_date": "2026-01-02",
-   "max_date": "2026-08-07"
+   "category": "other",
+   "label": "Finanzamt/Steuern",
+   "count": 29,
+   "total": -40855.59,
+   "min_date": "2026-01-15",
+   "max_date": "2026-08-20"
   },
   {
-   "category": "uncategorized",
-   "label": "FK FREISING",
-   "count": 6,
-   "total": 38183.27,
-   "min_date": "2026-04-22",
-   "max_date": "2026-07-07"
+   "category": "other",
+   "label": "Gehalt",
+   "count": 13,
+   "total": -31490.7,
+   "min_date": "2026-01-02",
+   "max_date": "2026-08-03"
+  },
+  {
+   "category": "platform_payout",
+   "label": "Lieferando",
+   "count": 36,
+   "total": 30032.42,
+   "min_date": "2026-01-05",
+   "max_date": "2026-08-25"
   },
   {
    "category": "uncategorized",
@@ -95,18 +95,10 @@
   {
    "category": "uncategorized",
    "label": "(ohne Angabe)",
-   "count": 17,
-   "total": 29703.14,
+   "count": 14,
+   "total": 29745.98,
    "min_date": "2026-01-08",
    "max_date": "2026-08-04"
-  },
-  {
-   "category": "platform_payout",
-   "label": "Lieferando",
-   "count": 35,
-   "total": 29241.97,
-   "min_date": "2026-01-05",
-   "max_date": "2026-08-21"
   },
   {
    "category": "supplier_payment",
@@ -119,34 +111,26 @@
   {
    "category": "platform_payout",
    "label": "Wolt",
-   "count": 48,
-   "total": 20930.58,
+   "count": 49,
+   "total": 21431.48,
    "min_date": "2026-01-02",
-   "max_date": "2026-08-21"
-  },
-  {
-   "category": "uncategorized",
-   "label": "FK Freising",
-   "count": 7,
-   "total": -17742.42,
-   "min_date": "2026-05-15",
-   "max_date": "2026-08-20"
+   "max_date": "2026-08-26"
   },
   {
    "category": "other",
    "label": "Bank/Kontoführung",
-   "count": 7,
-   "total": -16758.16,
+   "count": 11,
+   "total": -16851.19,
    "min_date": "2026-01-23",
-   "max_date": "2026-07-22"
+   "max_date": "2026-08-31"
   },
   {
-   "category": "other",
-   "label": "Miete/Nebenkosten",
-   "count": 22,
-   "total": -16546.26,
+   "category": "supplier_payment",
+   "label": "Kupfer & Sohn",
+   "count": 34,
+   "total": -15784.26,
    "min_date": "2026-01-07",
-   "max_date": "2026-08-14"
+   "max_date": "2026-08-31"
   },
   {
    "category": "supplier_payment",
@@ -158,14 +142,6 @@
   },
   {
    "category": "supplier_payment",
-   "label": "Kupfer & Sohn",
-   "count": 33,
-   "total": -15444.5,
-   "min_date": "2026-01-07",
-   "max_date": "2026-08-20"
-  },
-  {
-   "category": "supplier_payment",
    "label": "Ökoring",
    "count": 14,
    "total": -12056.49,
@@ -174,11 +150,11 @@
   },
   {
    "category": "uncategorized",
-   "label": "Andreas Engl",
-   "count": 8,
-   "total": -8400.0,
-   "min_date": "2026-01-02",
-   "max_date": "2026-08-03"
+   "label": "Anar Mehta",
+   "count": 1,
+   "total": -10000.0,
+   "min_date": "2026-08-07",
+   "max_date": "2026-08-07"
   },
   {
    "category": "uncategorized",
@@ -191,10 +167,10 @@
   {
    "category": "supplier_payment",
    "label": "RK Traders",
-   "count": 36,
-   "total": -7541.82,
+   "count": 38,
+   "total": -7916.25,
    "min_date": "2026-01-12",
-   "max_date": "2026-08-10"
+   "max_date": "2026-08-31"
   },
   {
    "category": "other",
@@ -221,20 +197,20 @@
    "max_date": "2026-07-29"
   },
   {
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH",
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing",
    "count": 15,
    "total": -4703.65,
    "min_date": "2026-01-02",
    "max_date": "2026-08-17"
   },
   {
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG",
-   "count": 18,
-   "total": -3867.95,
+   "category": "other",
+   "label": "Getränkelieferant",
+   "count": 19,
+   "total": -4004.37,
    "min_date": "2026-01-07",
-   "max_date": "2026-08-21"
+   "max_date": "2026-08-25"
   },
   {
    "category": "uncategorized",
@@ -253,6 +229,14 @@
    "max_date": "2026-07-28"
   },
   {
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer",
+   "count": 18,
+   "total": -3536.73,
+   "min_date": "2026-01-02",
+   "max_date": "2026-08-21"
+  },
+  {
    "category": "uncategorized",
    "label": "GA NR00002022 BLZ70051003 5",
    "count": 7,
@@ -261,8 +245,8 @@
    "max_date": "2026-07-20"
   },
   {
-   "category": "uncategorized",
-   "label": "Nicole Ottensmeyer",
+   "category": "other",
+   "label": "Bilanzbuchhalterin",
    "count": 9,
    "total": -2473.71,
    "min_date": "2026-01-02",
@@ -302,14 +286,6 @@
   },
   {
    "category": "uncategorized",
-   "label": "Syed Omer Farooq Muqtar",
-   "count": 5,
-   "total": -2277.51,
-   "min_date": "2026-05-04",
-   "max_date": "2026-08-03"
-  },
-  {
-   "category": "uncategorized",
    "label": "Gut Waltersteig eGbR",
    "count": 1,
    "total": 2268.48,
@@ -323,22 +299,6 @@
    "total": -2261.0,
    "min_date": "2026-06-08",
    "max_date": "2026-06-08"
-  },
-  {
-   "category": "uncategorized",
-   "label": "SIGNAL IDUNA Gruppe",
-   "count": 8,
-   "total": -1953.52,
-   "min_date": "2026-01-02",
-   "max_date": "2026-08-03"
-  },
-  {
-   "category": "uncategorized",
-   "label": "Rani Yakoub Gerges, Alan Malih",
-   "count": 1,
-   "total": 1950.0,
-   "min_date": "2026-06-05",
-   "max_date": "2026-06-05"
   },
   {
    "category": "uncategorized",
@@ -390,14 +350,6 @@
   },
   {
    "category": "uncategorized",
-   "label": "Stadt Freising",
-   "count": 5,
-   "total": -1010.0,
-   "min_date": "2026-02-16",
-   "max_date": "2026-08-17"
-  },
-  {
-   "category": "uncategorized",
    "label": "Kloh GmbH",
    "count": 7,
    "total": -899.4,
@@ -422,27 +374,11 @@
   },
   {
    "category": "uncategorized",
-   "label": "KRAVAG-ALLGEMEINE Versicherungs- Aktiengesellschaft",
-   "count": 3,
-   "total": -775.35,
-   "min_date": "2026-07-01",
-   "max_date": "2026-08-21"
-  },
-  {
-   "category": "uncategorized",
    "label": "Tollwood -Gesellschaft fuer Kulturveranstaltungen und UmweltaktivitaetenFrei-Otto-Strasse 20",
    "count": 2,
    "total": 770.13,
    "min_date": "2026-01-08",
    "max_date": "2026-02-09"
-  },
-  {
-   "category": "uncategorized",
-   "label": "Chutney On Top                                                        Emil-Berg Str 20, Freising",
-   "count": 1,
-   "total": 753.5,
-   "min_date": "2026-03-25",
-   "max_date": "2026-03-25"
   },
   {
    "category": "uncategorized",
@@ -483,14 +419,6 @@
    "total": -614.09,
    "min_date": "2026-02-18",
    "max_date": "2026-02-18"
-  },
-  {
-   "category": "uncategorized",
-   "label": "KRAVAG-ALLGEMEINE Versicherungs-AG",
-   "count": 3,
-   "total": -606.08,
-   "min_date": "2026-05-18",
-   "max_date": "2026-06-01"
   },
   {
    "category": "uncategorized",
@@ -558,11 +486,11 @@
   },
   {
    "category": "uncategorized",
-   "label": "DAK-Gesundheit",
-   "count": 1,
-   "total": -455.98,
-   "min_date": "2026-07-29",
-   "max_date": "2026-07-29"
+   "label": "Arnulfbogen Real Estate GmbH & Co. KG",
+   "count": 2,
+   "total": 463.85,
+   "min_date": "2026-06-05",
+   "max_date": "2026-08-27"
   },
   {
    "category": "uncategorized",
@@ -582,14 +510,6 @@
   },
   {
    "category": "uncategorized",
-   "label": "Bundeskasse",
-   "count": 3,
-   "total": -411.0,
-   "min_date": "2026-03-09",
-   "max_date": "2026-08-13"
-  },
-  {
-   "category": "uncategorized",
    "label": "Chutney On Top                                                        Emil-Berg Str 20 Freising",
    "count": 1,
    "total": 390.0,
@@ -606,6 +526,14 @@
   },
   {
    "category": "uncategorized",
+   "label": "Roland Berger Holding",
+   "count": 1,
+   "total": 340.0,
+   "min_date": "2026-08-28",
+   "max_date": "2026-08-28"
+  },
+  {
+   "category": "uncategorized",
    "label": "Klarna Bank AB                                                        Sveavagen 46",
    "count": 15,
    "total": -337.23,
@@ -619,6 +547,14 @@
    "total": -310.59,
    "min_date": "2026-01-05",
    "max_date": "2026-01-05"
+  },
+  {
+   "category": "uncategorized",
+   "label": "CYCLE MOBILITY SERVICE GMBH",
+   "count": 2,
+   "total": -278.0,
+   "min_date": "2026-07-08",
+   "max_date": "2026-08-31"
   },
   {
    "category": "uncategorized",
@@ -686,27 +622,11 @@
   },
   {
    "category": "uncategorized",
-   "label": "Arnulfbogen Real Estate GmbH & Co. KG",
-   "count": 1,
-   "total": 163.71,
-   "min_date": "2026-06-05",
-   "max_date": "2026-06-05"
-  },
-  {
-   "category": "uncategorized",
-   "label": "DMB Rechtsschutz-Versicherung Aktiengesellschaft",
+   "label": "Telekom Deutschland GmbH",
    "count": 3,
-   "total": -159.03,
-   "min_date": "2026-06-23",
-   "max_date": "2026-08-03"
-  },
-  {
-   "category": "uncategorized",
-   "label": "CYCLE MOBILITY SERVICE GMBH",
-   "count": 1,
-   "total": -139.0,
-   "min_date": "2026-07-08",
-   "max_date": "2026-07-08"
+   "total": -106.92,
+   "min_date": "2026-06-25",
+   "max_date": "2026-08-26"
   },
   {
    "category": "uncategorized",
@@ -774,14 +694,6 @@
   },
   {
    "category": "uncategorized",
-   "label": "Telekom Deutschland GmbH",
-   "count": 2,
-   "total": -71.28,
-   "min_date": "2026-06-25",
-   "max_date": "2026-07-24"
-  },
-  {
-   "category": "uncategorized",
    "label": "GC RE QUANDOO GMBH",
    "count": 3,
    "total": -69.97,
@@ -822,14 +734,6 @@
   },
   {
    "category": "uncategorized",
-   "label": "Bundeskasse - Dienstort Weiden -",
-   "count": 1,
-   "total": 49.0,
-   "min_date": "2026-07-27",
-   "max_date": "2026-07-27"
-  },
-  {
-   "category": "uncategorized",
    "label": "LANDRATSAMT FREISING/Landshuter Strasse 31/Freising/DE",
    "count": 1,
    "total": -48.25,
@@ -859,14 +763,6 @@
    "total": -44.0,
    "min_date": "2026-06-29",
    "max_date": "2026-06-29"
-  },
-  {
-   "category": "uncategorized",
-   "label": "SIGNAL IDUNA VERSICH",
-   "count": 1,
-   "total": -42.75,
-   "min_date": "2026-07-24",
-   "max_date": "2026-07-24"
   },
   {
    "category": "uncategorized",
@@ -955,16 +851,16 @@
    "beguenstigter": "Nicole Ottensmeyer",
    "amount": -261.8,
    "zweck": "ReNr 1194, KdNr 10240 DATUM 02.01.2026, 13.02 UHR",
-   "category": "uncategorized",
-   "label": "Nicole Ottensmeyer"
+   "category": "other",
+   "label": "Bilanzbuchhalterin"
   },
   {
    "date": "2026-01-02",
    "beguenstigter": "Anar Mehta",
    "amount": -3644.57,
    "zweck": "Gehalt Dec 2025 DATUM 02.01.2026, 11.55 UHR",
-   "category": "uncategorized",
-   "label": "Anar Mehta"
+   "category": "other",
+   "label": "Gehalt"
   },
   {
    "date": "2026-01-02",
@@ -995,32 +891,32 @@
    "beguenstigter": "SIGNAL IDUNA Gruppe",
    "amount": -244.19,
    "zweck": "11155417 SIGNAL IDUNA Kraftfahrtversicherung 01001 FS CT33 BIS 0126",
-   "category": "uncategorized",
-   "label": "SIGNAL IDUNA Gruppe"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-01-02",
    "beguenstigter": "Andreas Engl",
    "amount": -1050.0,
    "zweck": "Miete für - Mitarbeiterwohnung für Chutney on Top",
-   "category": "uncategorized",
-   "label": "Andreas Engl"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-01-02",
    "beguenstigter": "Alan Malih & Rani Yakoub Gerges",
    "amount": -5100.0,
    "zweck": "monatliche miete für lokal am landsberger str 437",
-   "category": "uncategorized",
-   "label": "Alan Malih & Rani Yakoub Gerges"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-01-02",
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -773.5,
    "zweck": "RE6148, RE6277",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-01-02",
@@ -1107,8 +1003,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -366.22,
    "zweck": "1500119863 366,22",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-01-07",
@@ -1267,8 +1163,8 @@
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -50.0,
    "zweck": "Mitgliedsbeitrag FTU Durchstarter 10033 Chutney on Top",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-01-15",
@@ -1539,8 +1435,8 @@
    "beguenstigter": "Nicole Ottensmeyer",
    "amount": -142.8,
    "zweck": "ReNr 1271, KdNr 10240 DATUM 29.01.2026, 21.17 UHR",
-   "category": "uncategorized",
-   "label": "Nicole Ottensmeyer"
+   "category": "other",
+   "label": "Bilanzbuchhalterin"
   },
   {
    "date": "2026-02-02",
@@ -1571,24 +1467,24 @@
    "beguenstigter": "SIGNAL IDUNA Gruppe",
    "amount": -244.19,
    "zweck": "11155417 SIGNAL IDUNA Kraftfahrtversicherung 01001 FS CT33 BIS 0226",
-   "category": "uncategorized",
-   "label": "SIGNAL IDUNA Gruppe"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-02-02",
    "beguenstigter": "Andreas Engl",
    "amount": -1050.0,
    "zweck": "Miete für - Mitarbeiterwohnung für Chutney on Top",
-   "category": "uncategorized",
-   "label": "Andreas Engl"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-02-02",
    "beguenstigter": "Alan Malih & Rani Yakoub Gerges",
    "amount": -5100.0,
    "zweck": "monatliche miete für lokal am landsberger str 437",
-   "category": "uncategorized",
-   "label": "Alan Malih & Rani Yakoub Gerges"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-02-02",
@@ -1635,24 +1531,24 @@
    "beguenstigter": "",
    "amount": -14.28,
    "zweck": "Rechnung SPARKASSE FREISING MOOSBURG Entgelt Ausgabe Debitkarte für 2026/KartNr.******4401 20260203-BY048-00012225978 siehe Anlage",
-   "category": "uncategorized",
-   "label": "(ohne Angabe)"
+   "category": "other",
+   "label": "Bank/Kontoführung"
   },
   {
    "date": "2026-02-03",
    "beguenstigter": "",
    "amount": -14.28,
    "zweck": "Rechnung SPARKASSE FREISING MOOSBURG Entgelt Ausgabe Debitkarte für 2026/KartNr.******4400 20260203-BY048-00012225977 siehe Anlage",
-   "category": "uncategorized",
-   "label": "(ohne Angabe)"
+   "category": "other",
+   "label": "Bank/Kontoführung"
   },
   {
    "date": "2026-02-03",
    "beguenstigter": "",
    "amount": -14.28,
    "zweck": "Rechnung SPARKASSE FREISING MOOSBURG Entgelt Ausgabe Debitkarte für 2026/KartNr.******4402 20260203-BY048-00012225976 siehe Anlage",
-   "category": "uncategorized",
-   "label": "(ohne Angabe)"
+   "category": "other",
+   "label": "Bank/Kontoführung"
   },
   {
    "date": "2026-02-04",
@@ -1699,8 +1595,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -116.61,
    "zweck": "1500121040 116,61",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-02-05",
@@ -1747,8 +1643,8 @@
    "beguenstigter": "Anar Mehta",
    "amount": -3652.66,
    "zweck": "Gehalt : Januar 2026 DATUM 06.02.2026, 11.33 UHR",
-   "category": "uncategorized",
-   "label": "Anar Mehta"
+   "category": "other",
+   "label": "Gehalt"
   },
   {
    "date": "2026-02-06",
@@ -1883,8 +1779,8 @@
    "beguenstigter": "Stadt Freising",
    "amount": -635.0,
    "zweck": "88116/FAD 88116 Gewerbesteuer 2026",
-   "category": "uncategorized",
-   "label": "Stadt Freising"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-02-16",
@@ -1899,8 +1795,8 @@
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -50.0,
    "zweck": "Mitgliedsbeitrag FTU Durchstarter 10033 Chutney on Top",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-02-16",
@@ -2027,8 +1923,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -330.53,
    "zweck": "1500121753 330,53",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-02-23",
@@ -2171,32 +2067,32 @@
    "beguenstigter": "SIGNAL IDUNA Gruppe",
    "amount": -244.19,
    "zweck": "11155417 SIGNAL IDUNA Kraftfahrtversicherung 01001 FS CT33 BIS 0326",
-   "category": "uncategorized",
-   "label": "SIGNAL IDUNA Gruppe"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-03-02",
    "beguenstigter": "Alan Malih & Rani Yakoub Gerges",
    "amount": -5100.0,
    "zweck": "monatliche miete für lokal am landsberger str 437",
-   "category": "uncategorized",
-   "label": "Alan Malih & Rani Yakoub Gerges"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-03-02",
    "beguenstigter": "Andreas Engl",
    "amount": -1050.0,
    "zweck": "Miete für - Mitarbeiterwohnung für Chutney on Top",
-   "category": "uncategorized",
-   "label": "Andreas Engl"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-03-02",
    "beguenstigter": "Nicole Ottensmeyer",
    "amount": -190.4,
    "zweck": "ReNr 1344, KdNr 10240 DATUM 01.03.2026, 18.47 UHR",
-   "category": "uncategorized",
-   "label": "Nicole Ottensmeyer"
+   "category": "other",
+   "label": "Bilanzbuchhalterin"
   },
   {
    "date": "2026-03-03",
@@ -2267,8 +2163,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -128.0,
    "zweck": "1500122420 128,00",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-03-06",
@@ -2315,8 +2211,8 @@
    "beguenstigter": "Bundeskasse",
    "amount": -87.0,
    "zweck": "Kfz-Steuer fuer FS CT 525 fuer die Zeit vom 28.01.2026 bis zum 27.01.2027 Kassenzeichen K12584150901",
-   "category": "uncategorized",
-   "label": "Bundeskasse"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-03-10",
@@ -2387,8 +2283,8 @@
    "beguenstigter": "Anar Mehta",
    "amount": -3652.66,
    "zweck": "Gehalt : Feb 2026 DATUM 13.03.2026, 14.03 UHR",
-   "category": "uncategorized",
-   "label": "Anar Mehta"
+   "category": "other",
+   "label": "Gehalt"
   },
   {
    "date": "2026-03-16",
@@ -2451,8 +2347,8 @@
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -50.0,
    "zweck": "Mitgliedsbeitrag FTU Durchstarter 10033 Chutney on Top",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-03-16",
@@ -2499,8 +2395,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -249.89,
    "zweck": "1500123221 206,66:1500123222 43,23",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-03-20",
@@ -2571,8 +2467,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -246.33,
    "zweck": "1500123589 246,33",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-03-25",
@@ -2587,8 +2483,8 @@
    "beguenstigter": "Chutney On Top                                                        Emil-Berg Str 20, Freising",
    "amount": 753.5,
    "zweck": "Sent from SumUp",
-   "category": "uncategorized",
-   "label": "Chutney On Top                                                        Emil-Berg Str 20, Freising"
+   "category": "platform_payout",
+   "label": "SumUp"
   },
   {
    "date": "2026-03-26",
@@ -2691,8 +2587,8 @@
    "beguenstigter": "Nicole Ottensmeyer",
    "amount": -166.6,
    "zweck": "ReNr 1421, KdNr 10240 DATUM 31.03.2026, 16.31 UHR",
-   "category": "uncategorized",
-   "label": "Nicole Ottensmeyer"
+   "category": "other",
+   "label": "Bilanzbuchhalterin"
   },
   {
    "date": "2026-03-31",
@@ -2739,24 +2635,24 @@
    "beguenstigter": "SIGNAL IDUNA Gruppe",
    "amount": -244.19,
    "zweck": "11155417 SIGNAL IDUNA Kraftfahrtversicherung 01001 FS CT33 BIS 0426",
-   "category": "uncategorized",
-   "label": "SIGNAL IDUNA Gruppe"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-04-02",
    "beguenstigter": "Alan Malih & Rani Yakoub Gerges",
    "amount": -5100.0,
    "zweck": "monatliche miete für lokal am landsberger str 437",
-   "category": "uncategorized",
-   "label": "Alan Malih & Rani Yakoub Gerges"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-04-02",
    "beguenstigter": "Andreas Engl",
    "amount": -1050.0,
    "zweck": "Miete für - Mitarbeiterwohnung für Chutney on Top",
-   "category": "uncategorized",
-   "label": "Andreas Engl"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-04-07",
@@ -2987,8 +2883,8 @@
    "beguenstigter": "Alan Malih & Rani Yakoub Gerges",
    "amount": -1868.43,
    "zweck": "Nebenkosten Nachzahlung 2025 DATUM 15.04.2026, 01.21 UHR",
-   "category": "uncategorized",
-   "label": "Alan Malih & Rani Yakoub Gerges"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-04-15",
@@ -3003,16 +2899,16 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -375.09,
    "zweck": "1500124645 375,09",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-04-15",
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -50.0,
    "zweck": "Mitgliedsbeitrag FTU Durchstarter 10033 Chutney on Top",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-04-15",
@@ -3139,8 +3035,8 @@
    "beguenstigter": "Anar Mehta",
    "amount": -3652.66,
    "zweck": "Gehalt : March 2026 DATUM 22.04.2026, 17.36 UHR",
-   "category": "uncategorized",
-   "label": "Anar Mehta"
+   "category": "other",
+   "label": "Gehalt"
   },
   {
    "date": "2026-04-22",
@@ -3155,8 +3051,8 @@
    "beguenstigter": "FK FREISING",
    "amount": 4618.44,
    "zweck": "ERSTATT.115/123/30853 UMS.ST 3VJ.25 4.588,44 EUR, UMS.ST 3VJ.25 VERSP.Z 30,00 EUR",
-   "category": "uncategorized",
-   "label": "FK FREISING"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-04-24",
@@ -3179,8 +3075,8 @@
    "beguenstigter": "FK FREISING",
    "amount": 57.2,
    "zweck": "ERSTATT.115/123/30853 UMS.ST 3VJ.25 57,20 EUR",
-   "category": "uncategorized",
-   "label": "FK FREISING"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-04-24",
@@ -3283,8 +3179,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -111.94,
    "zweck": "1500125482 111,94",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-04-30",
@@ -3347,8 +3243,8 @@
    "beguenstigter": "SIGNAL IDUNA Gruppe",
    "amount": -244.19,
    "zweck": "11155417 SIGNAL IDUNA Kraftfahrtversicherung 01001 FS CT33 BIS 0526",
-   "category": "uncategorized",
-   "label": "SIGNAL IDUNA Gruppe"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-05-04",
@@ -3363,16 +3259,16 @@
    "beguenstigter": "Alan Malih & Rani Yakoub Gerges",
    "amount": -5300.0,
    "zweck": "monatliche miete für lokal am landsberger str 437",
-   "category": "uncategorized",
-   "label": "Alan Malih & Rani Yakoub Gerges"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-05-04",
    "beguenstigter": "Andreas Engl",
    "amount": -1050.0,
    "zweck": "Miete für - Mitarbeiterwohnung für Chutney on Top",
-   "category": "uncategorized",
-   "label": "Andreas Engl"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-05-04",
@@ -3395,8 +3291,8 @@
    "beguenstigter": "Syed Omer Farooq Muqtar",
    "amount": -603.12,
    "zweck": "Gehalt April 2026 DATUM 01.05.2026, 09.29 UHR",
-   "category": "uncategorized",
-   "label": "Syed Omer Farooq Muqtar"
+   "category": "other",
+   "label": "Gehalt"
   },
   {
    "date": "2026-05-04",
@@ -3459,8 +3355,8 @@
    "beguenstigter": "Nicole Ottensmeyer",
    "amount": -190.4,
    "zweck": "ReNr 1520, KdNr 10240 DATUM 07.05.2026, 10.39 UHR",
-   "category": "uncategorized",
-   "label": "Nicole Ottensmeyer"
+   "category": "other",
+   "label": "Bilanzbuchhalterin"
   },
   {
    "date": "2026-05-07",
@@ -3539,8 +3435,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -75.66,
    "zweck": "1500126358 75,66",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-05-12",
@@ -3603,8 +3499,8 @@
    "beguenstigter": "Stadt Freising",
    "amount": -635.0,
    "zweck": "88116/FAD 88116 Gewerbesteuer 2026",
-   "category": "uncategorized",
-   "label": "Stadt Freising"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-05-15",
@@ -3627,16 +3523,16 @@
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -1933.15,
    "zweck": "RE6399, RE6574, RE6579, RE6723, RE6724, RE6765, RE6802",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-05-15",
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -50.0,
    "zweck": "Mitgliedsbeitrag FTU Durchstarter 10033 Chutney on Top",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-05-15",
@@ -3659,8 +3555,8 @@
    "beguenstigter": "FK Freising",
    "amount": -5084.0,
    "zweck": "STEUERNR 115/123/30853 LOHNST APR.26 1.858,15EUR UMS.ST 2024 3.225,85EUR",
-   "category": "uncategorized",
-   "label": "FK Freising"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-05-18",
@@ -3699,16 +3595,16 @@
    "beguenstigter": "KRAVAG-ALLGEMEINE Versicherungs-AG",
    "amount": -475.36,
    "zweck": "32439751878 Kfz FS-CT525 / 118.84 MitFol. 18.05 / 356.52 MitFol. 18.05",
-   "category": "uncategorized",
-   "label": "KRAVAG-ALLGEMEINE Versicherungs-AG"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-05-18",
    "beguenstigter": "KRAVAG-ALLGEMEINE Versicherungs-AG",
    "amount": -11.88,
    "zweck": "32439751878 Kfz FS-CT525 / 11.88 ErsFol. 18.05",
-   "category": "uncategorized",
-   "label": "KRAVAG-ALLGEMEINE Versicherungs-AG"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-05-18",
@@ -3843,8 +3739,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -365.91,
    "zweck": "1500127092 365,91",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-05-26",
@@ -3859,8 +3755,8 @@
    "beguenstigter": "FK FREISING",
    "amount": 18553.04,
    "zweck": "ERSTATT.115/123/30853 UMS.ST 4VJ.25 18.553,04 EUR",
-   "category": "uncategorized",
-   "label": "FK FREISING"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-05-27",
@@ -3931,24 +3827,24 @@
    "beguenstigter": "Syed Omer Farooq Muqtar",
    "amount": -588.0,
    "zweck": "Gehalt : Mai 2026 DATUM 31.05.2026, 07.58 UHR",
-   "category": "uncategorized",
-   "label": "Syed Omer Farooq Muqtar"
+   "category": "other",
+   "label": "Gehalt"
   },
   {
    "date": "2026-06-01",
    "beguenstigter": "SIGNAL IDUNA Gruppe",
    "amount": -244.19,
    "zweck": "11155417 SIGNAL IDUNA Kraftfahrtversicherung 01001 FS CT33 BIS 0626",
-   "category": "uncategorized",
-   "label": "SIGNAL IDUNA Gruppe"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-06-01",
    "beguenstigter": "KRAVAG-ALLGEMEINE Versicherungs-AG",
    "amount": -118.84,
    "zweck": "32439751878 Kfz FS-CT525 / 118.84 Folgeb. 01.06",
-   "category": "uncategorized",
-   "label": "KRAVAG-ALLGEMEINE Versicherungs-AG"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-06-01",
@@ -3963,8 +3859,8 @@
    "beguenstigter": "Nicole Ottensmeyer",
    "amount": -190.4,
    "zweck": "ReNr 1581, KdNr 10240 DATUM 30.05.2026, 14.50 UHR",
-   "category": "uncategorized",
-   "label": "Nicole Ottensmeyer"
+   "category": "other",
+   "label": "Bilanzbuchhalterin"
   },
   {
    "date": "2026-06-01",
@@ -3979,8 +3875,8 @@
    "beguenstigter": "Anar Mehta",
    "amount": -3652.66,
    "zweck": "Gehalt : April 2026 DATUM 29.05.2026, 22.02 UHR",
-   "category": "uncategorized",
-   "label": "Anar Mehta"
+   "category": "other",
+   "label": "Gehalt"
   },
   {
    "date": "2026-06-01",
@@ -4107,24 +4003,24 @@
    "beguenstigter": "Andreas Engl",
    "amount": -1050.0,
    "zweck": "Miete für - Mitarbeiterwohnung für Chutney on Top",
-   "category": "uncategorized",
-   "label": "Andreas Engl"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-06-02",
    "beguenstigter": "Alan Malih & Rani Yakoub Gerges",
    "amount": -5300.0,
    "zweck": "monatliche miete für lokal am landsberger str 437",
-   "category": "uncategorized",
-   "label": "Alan Malih & Rani Yakoub Gerges"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-06-02",
    "beguenstigter": "FK Freising",
    "amount": -125.0,
    "zweck": "STEUERNR 115/123/30853 UMS.ST 2024 125,00EUR",
-   "category": "uncategorized",
-   "label": "FK Freising"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-06-03",
@@ -4163,8 +4059,8 @@
    "beguenstigter": "Rani Yakoub Gerges, Alan Malih",
    "amount": 1950.0,
    "zweck": "Lüftung",
-   "category": "uncategorized",
-   "label": "Rani Yakoub Gerges, Alan Malih"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-06-08",
@@ -4331,8 +4227,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -243.74,
    "zweck": "1500128308 243,74",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-06-15",
@@ -4355,8 +4251,8 @@
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -50.0,
    "zweck": "Mitgliedsbeitrag FTU Durchstarter 10033 Chutney on Top",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-06-16",
@@ -4387,8 +4283,8 @@
    "beguenstigter": "FK Freising",
    "amount": -2253.77,
    "zweck": "STEUERNR 115/123/30853 LOHNST MAI 26 1.858,15EUR KOERPST 2VJ.26 395,62EUR",
-   "category": "uncategorized",
-   "label": "FK Freising"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-06-16",
@@ -4579,8 +4475,8 @@
    "beguenstigter": "DMB Rechtsschutz-Versicherung Aktiengesellschaft",
    "amount": -38.25,
    "zweck": "00000640662-Faelligkeit-12.06.2026",
-   "category": "uncategorized",
-   "label": "DMB Rechtsschutz-Versicherung Aktiengesellschaft"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-06-23",
@@ -4715,8 +4611,8 @@
    "beguenstigter": "FK FREISING",
    "amount": 2523.65,
    "zweck": "ERSTATT.115/123/30853 UMS.ST 1VJ.26 2.523,65 EUR",
-   "category": "uncategorized",
-   "label": "FK FREISING"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-06-25",
@@ -4867,8 +4763,8 @@
    "beguenstigter": "Syed Omer Farooq Muqtar",
    "amount": 14.15,
    "zweck": "food",
-   "category": "uncategorized",
-   "label": "Syed Omer Farooq Muqtar"
+   "category": "other",
+   "label": "Gehalt"
   },
   {
    "date": "2026-06-29",
@@ -4939,8 +4835,8 @@
    "beguenstigter": "Anar Mehta",
    "amount": -3652.66,
    "zweck": "Gehalt : May 2026 DATUM 30.06.2026, 09.45 UHR",
-   "category": "uncategorized",
-   "label": "Anar Mehta"
+   "category": "other",
+   "label": "Gehalt"
   },
   {
    "date": "2026-06-30",
@@ -4979,8 +4875,8 @@
    "beguenstigter": "Syed Omer Farooq Muqtar",
    "amount": -588.0,
    "zweck": "Gehalt Juni 2026 DATUM 01.07.2026, 13.13 UHR",
-   "category": "uncategorized",
-   "label": "Syed Omer Farooq Muqtar"
+   "category": "other",
+   "label": "Gehalt"
   },
   {
    "date": "2026-07-01",
@@ -5003,8 +4899,8 @@
    "beguenstigter": "KRAVAG-ALLGEMEINE Versicherungs- Aktiengesellschaft",
    "amount": -118.84,
    "zweck": "32439751878 Kfz FS-CT525 / 118.84 Folgeb. 01.07",
-   "category": "uncategorized",
-   "label": "KRAVAG-ALLGEMEINE Versicherungs- Aktiengesellschaft"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-07-01",
@@ -5019,16 +4915,16 @@
    "beguenstigter": "DMB Rechtsschutz-Versicherung Aktiengesellschaft",
    "amount": -60.39,
    "zweck": "00000640662-Faelligkeit-01.07.2026",
-   "category": "uncategorized",
-   "label": "DMB Rechtsschutz-Versicherung Aktiengesellschaft"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-07-01",
    "beguenstigter": "SIGNAL IDUNA Gruppe",
    "amount": -244.19,
    "zweck": "11155417 SIGNAL IDUNA Kraftfahrtversicherung 01001 FS CT33 BIS 0726",
-   "category": "uncategorized",
-   "label": "SIGNAL IDUNA Gruppe"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-07-02",
@@ -5051,24 +4947,24 @@
    "beguenstigter": "Nicole Ottensmeyer",
    "amount": -309.4,
    "zweck": "ReNr 1663, KdNr 10240 DATUM 02.07.2026, 06.53 UHR",
-   "category": "uncategorized",
-   "label": "Nicole Ottensmeyer"
+   "category": "other",
+   "label": "Bilanzbuchhalterin"
   },
   {
    "date": "2026-07-02",
    "beguenstigter": "Alan Malih & Rani Yakoub Gerges",
    "amount": -5300.0,
    "zweck": "monatliche miete für lokal am landsberger str 437",
-   "category": "uncategorized",
-   "label": "Alan Malih & Rani Yakoub Gerges"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-07-02",
    "beguenstigter": "Andreas Engl",
    "amount": -1050.0,
    "zweck": "Miete für - Mitarbeiterwohnung für Chutney on Top",
-   "category": "uncategorized",
-   "label": "Andreas Engl"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-07-02",
@@ -5107,8 +5003,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -230.47,
    "zweck": "1500129185 230,47",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-07-03",
@@ -5147,8 +5043,8 @@
    "beguenstigter": "FK FREISING",
    "amount": 10848.46,
    "zweck": "ERSTATT.115/123/30853 DIE AUFLISTUNG DER EINZELNEN ERSTATTUNGSPOSTEN IST AUS DER ERSTATTUNGSMITTEILUNG ZU ENTNEHMEN.",
-   "category": "uncategorized",
-   "label": "FK FREISING"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-07-06",
@@ -5235,8 +5131,8 @@
    "beguenstigter": "FK FREISING",
    "amount": 1582.48,
    "zweck": "ERSTATT.115/123/30853 KOERPST 2024 1.500,00 EUR, SOL.KST 2024 82,48 EUR",
-   "category": "uncategorized",
-   "label": "FK FREISING"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-07-07",
@@ -5323,8 +5219,8 @@
    "beguenstigter": "Anar Mehta",
    "amount": -3652.66,
    "zweck": "Gehalt : June 2026 DATUM 09.07.2026, 09.39 UHR",
-   "category": "uncategorized",
-   "label": "Anar Mehta"
+   "category": "other",
+   "label": "Gehalt"
   },
   {
    "date": "2026-07-09",
@@ -5659,8 +5555,8 @@
    "beguenstigter": "KRAVAG-ALLGEMEINE Versicherungs- Aktiengesellschaft",
    "amount": 91.1,
    "zweck": "32439751878 Kfz FS-CT525 / 91.10- Nachtr. 15.07",
-   "category": "uncategorized",
-   "label": "KRAVAG-ALLGEMEINE Versicherungs- Aktiengesellschaft"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-07-15",
@@ -5683,8 +5579,8 @@
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -50.0,
    "zweck": "Mitgliedsbeitrag FTU Durchstarter 10033 Chutney on Top",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-07-16",
@@ -5715,8 +5611,8 @@
    "beguenstigter": "FK Freising",
    "amount": -1858.15,
    "zweck": "STEUERNR 115/123/30853 LOHNST JUN.26 1.858,15EUR",
-   "category": "uncategorized",
-   "label": "FK Freising"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-07-16",
@@ -5731,8 +5627,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -217.45,
    "zweck": "1500130140 217,45",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-07-17",
@@ -5875,8 +5771,8 @@
    "beguenstigter": "FK Freising",
    "amount": -783.35,
    "zweck": "STEUERNR 115/123/30853 UMS.ST APR.26 783,35EUR",
-   "category": "uncategorized",
-   "label": "FK Freising"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-07-22",
@@ -5931,8 +5827,8 @@
    "beguenstigter": "Bundeskasse",
    "amount": -210.0,
    "zweck": "Kfz-Steuer fuer FS CT 33 fuer die Zeit vom 23.07.2026 bis zum 22.07.2027 Kassenzeichen K12035945203",
-   "category": "uncategorized",
-   "label": "Bundeskasse"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-07-24",
@@ -6019,8 +5915,8 @@
    "beguenstigter": "SIGNAL IDUNA VERSICH",
    "amount": -42.75,
    "zweck": "Schadennummer 11.155.417/SB26/1 DATUM 24.07.2026, 09.00 UHR",
-   "category": "uncategorized",
-   "label": "SIGNAL IDUNA VERSICH"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-07-24",
@@ -6059,8 +5955,8 @@
    "beguenstigter": "Bundeskasse - Dienstort Weiden -",
    "amount": 49.0,
    "zweck": "FS CT 525 KFZ-Steuer Erstattung",
-   "category": "uncategorized",
-   "label": "Bundeskasse - Dienstort Weiden -"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-07-28",
@@ -6091,8 +5987,8 @@
    "beguenstigter": "Stadt Freising",
    "amount": 1352.0,
    "zweck": "88116 .FAD 88116 Erstattungszinsen GewSt 2023 / 24,00FAD 88116 Gewerbesteuer 2023 .",
-   "category": "uncategorized",
-   "label": "Stadt Freising"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-07-28",
@@ -6163,8 +6059,8 @@
    "beguenstigter": "DAK-Gesundheit",
    "amount": -455.98,
    "zweck": "Beitraege 01.07.2026 - 31.07.2026 82995711 455.98",
-   "category": "uncategorized",
-   "label": "DAK-Gesundheit"
+   "category": "other",
+   "label": "Personal/Sozialversicherung"
   },
   {
    "date": "2026-07-29",
@@ -6179,8 +6075,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -335.32,
    "zweck": "1500131060 335,32",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-07-29",
@@ -6211,8 +6107,8 @@
    "beguenstigter": "Nicole Ottensmeyer",
    "amount": -309.4,
    "zweck": "ReNr 1746, KdNr 10240 DATUM 31.07.2026, 17.54 UHR",
-   "category": "uncategorized",
-   "label": "Nicole Ottensmeyer"
+   "category": "other",
+   "label": "Bilanzbuchhalterin"
   },
   {
    "date": "2026-07-31",
@@ -6275,8 +6171,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -120.75,
    "zweck": "1500131479 120,75",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-08-03",
@@ -6291,40 +6187,40 @@
    "beguenstigter": "SIGNAL IDUNA Gruppe",
    "amount": -244.19,
    "zweck": "11155417 SIGNAL IDUNAKraftfahrtversicherung 01001FS CT33 BIS 0826",
-   "category": "uncategorized",
-   "label": "SIGNAL IDUNA Gruppe"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-08-03",
    "beguenstigter": "DMB Rechtsschutz-Versicherung Aktiengesellschaft",
    "amount": -60.39,
    "zweck": "00000640662-Faelligkeit-01.08.2026",
-   "category": "uncategorized",
-   "label": "DMB Rechtsschutz-Versicherung Aktiengesellschaft"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-08-03",
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -386.75,
    "zweck": "RE6993",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-08-03",
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -386.75,
    "zweck": "RE7187",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-08-03",
    "beguenstigter": "Anar Mehta",
    "amount": -3652.66,
    "zweck": "Gehalt : July 2026 DATUM 02.08.2026, 13.22 UHR",
-   "category": "uncategorized",
-   "label": "Anar Mehta"
+   "category": "other",
+   "label": "Gehalt"
   },
   {
    "date": "2026-08-03",
@@ -6355,24 +6251,24 @@
    "beguenstigter": "Alan Malih & Rani Yakoub Gerges",
    "amount": -5300.0,
    "zweck": "monatliche miete für lokal am landsberger str 437",
-   "category": "uncategorized",
-   "label": "Alan Malih & Rani Yakoub Gerges"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-08-03",
    "beguenstigter": "Andreas Engl",
    "amount": -1050.0,
    "zweck": "Miete für - Mitarbeiterwohnung für Chutney on Top",
-   "category": "uncategorized",
-   "label": "Andreas Engl"
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-08-03",
    "beguenstigter": "Syed Omer Farooq Muqtar",
    "amount": -512.54,
    "zweck": "Gehalt July 2026 DATUM 01.08.2026, 09.56 UHR",
-   "category": "uncategorized",
-   "label": "Syed Omer Farooq Muqtar"
+   "category": "other",
+   "label": "Gehalt"
   },
   {
    "date": "2026-08-04",
@@ -6675,8 +6571,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -141.89,
    "zweck": "1500131687 -26,80:1500131986 168,69",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-08-12",
@@ -6691,24 +6587,24 @@
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -50.0,
    "zweck": "Mitgliedsbeitrag FTU Durchstarter 10033 Chutney on Top",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-08-13",
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -386.75,
    "zweck": "Social Media Management",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-08-13",
    "beguenstigter": "Stadt Freising",
    "amount": -546.0,
    "zweck": "88116/FAD 88116 Gewerbesteuer 2026",
-   "category": "uncategorized",
-   "label": "Stadt Freising"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-08-13",
@@ -6723,8 +6619,8 @@
    "beguenstigter": "Bundeskasse",
    "amount": -114.0,
    "zweck": "Kfz-Steuer fuer FS CT 34 fuer die Zeit vom 25.06.2026 bis zum 24.06.2027 Kassenzeichen K12638455002",
-   "category": "uncategorized",
-   "label": "Bundeskasse"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-08-13",
@@ -6747,8 +6643,8 @@
    "beguenstigter": "FK Freising",
    "amount": -1858.15,
    "zweck": "STEUERNR 115/123/30853 LOHNST JUL.26 1.858,15EUR",
-   "category": "uncategorized",
-   "label": "FK Freising"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-08-14",
@@ -6771,8 +6667,8 @@
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -75.73,
    "zweck": "1500132369 75,73",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-08-14",
@@ -6827,24 +6723,24 @@
    "beguenstigter": "Stadt Freising",
    "amount": -546.0,
    "zweck": "88116/FAD 88116 Gewerbesteuer 2026",
-   "category": "uncategorized",
-   "label": "Stadt Freising"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-08-17",
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -50.0,
    "zweck": "Mitgliedsbeitrag FTU Durchstarter 10033 Chutney on Top",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-08-17",
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -386.75,
    "zweck": "Social Media Management",
-   "category": "uncategorized",
-   "label": "Die Weidners-Gastronomie GmbH"
+   "category": "other",
+   "label": "Mitgliedsbeitrag/Marketing"
   },
   {
    "date": "2026-08-18",
@@ -6891,16 +6787,16 @@
    "beguenstigter": "FK Freising",
    "amount": -5780.0,
    "zweck": "STEUERNR 115/123/30853 UMS.ST MAI 26 5.780,00EUR",
-   "category": "uncategorized",
-   "label": "FK Freising"
+   "category": "other",
+   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-08-21",
    "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
    "amount": -136.42,
    "zweck": "1500132731 136,42",
-   "category": "uncategorized",
-   "label": "Brauerei Aying Franz Inselkammer KG"
+   "category": "other",
+   "label": "Getränkelieferant"
   },
   {
    "date": "2026-08-21",
@@ -6931,16 +6827,160 @@
    "beguenstigter": "KRAVAG-ALLGEMEINE Versicherungs- Aktiengesellschaft",
    "amount": -747.61,
    "zweck": "32442682623 Kfz FS-CT34 / 747.61 Erstbe. 21.08",
-   "category": "uncategorized",
-   "label": "KRAVAG-ALLGEMEINE Versicherungs- Aktiengesellschaft"
+   "category": "other",
+   "label": "Kfz-Versicherung/Steuer"
   },
   {
    "date": "2026-08-24",
    "beguenstigter": "Nicole Ottensmeyer",
    "amount": -712.51,
    "zweck": "ReNr 1806, KdNr 10240 DATUM 21.08.2026, 21.32 UHR",
+   "category": "other",
+   "label": "Bilanzbuchhalterin"
+  },
+  {
+   "date": "2026-08-25",
+   "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
+   "amount": -136.42,
+   "zweck": "1500132731 136,42 1011492001",
+   "category": "other",
+   "label": "Getränkelieferant"
+  },
+  {
+   "date": "2026-08-25",
+   "beguenstigter": "SUMUP LIMITED",
+   "amount": 550.55,
+   "zweck": "SUMUP PID1340709 PAYOUT 250826 GP-512430696",
+   "category": "platform_payout",
+   "label": "SumUp"
+  },
+  {
+   "date": "2026-08-25",
+   "beguenstigter": "DERDENGELDEN TAKEAWAYCOM",
+   "amount": 790.45,
+   "zweck": "AUSZAHLUNG PO-21344389422 23-08-2026 LIEFERANDO.DE",
+   "category": "platform_payout",
+   "label": "Lieferando"
+  },
+  {
+   "date": "2026-08-25",
+   "beguenstigter": "SUMUP LIMITED",
+   "amount": 4450.61,
+   "zweck": "SUMUP PID1340709 PAYOUT 250826 GP-512478925",
+   "category": "platform_payout",
+   "label": "SumUp"
+  },
+  {
+   "date": "2026-08-26",
+   "beguenstigter": "Telekom Deutschland GmbH",
+   "amount": -35.64,
+   "zweck": "Festnetz Vertragskonto 5632773496",
    "category": "uncategorized",
-   "label": "Nicole Ottensmeyer"
+   "label": "Telekom Deutschland GmbH"
+  },
+  {
+   "date": "2026-08-26",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
+   "amount": 500.9,
+   "zweck": "Wolt Auszahlung 251686791-fk-vp-default",
+   "category": "platform_payout",
+   "label": "Wolt"
+  },
+  {
+   "date": "2026-08-27",
+   "beguenstigter": "Knappschaft-Bahn-See Deutsche Rentenversicherung",
+   "amount": -70.21,
+   "zweck": "BEITRAG 0826",
+   "category": "other",
+   "label": "Personal/Sozialversicherung"
+  },
+  {
+   "date": "2026-08-27",
+   "beguenstigter": "AOK Bayern - Die Gesundheitskasse",
+   "amount": -5403.0,
+   "zweck": "BEITRAG 0826",
+   "category": "other",
+   "label": "Personal/Sozialversicherung"
+  },
+  {
+   "date": "2026-08-27",
+   "beguenstigter": "Techniker Krankenkasse",
+   "amount": -2328.56,
+   "zweck": "Beitraege 08/26",
+   "category": "other",
+   "label": "Personal/Sozialversicherung"
+  },
+  {
+   "date": "2026-08-27",
+   "beguenstigter": "DAK-Gesundheit",
+   "amount": -414.28,
+   "zweck": "Beitraege 01.08.2026-31.08.2026",
+   "category": "other",
+   "label": "Personal/Sozialversicherung"
+  },
+  {
+   "date": "2026-08-27",
+   "beguenstigter": "Arnulfbogen Real Estate GmbH & Co. KG",
+   "amount": 300.14,
+   "zweck": "RNr. 2026-049",
+   "category": "uncategorized",
+   "label": "Arnulfbogen Real Estate GmbH & Co. KG"
+  },
+  {
+   "date": "2026-08-28",
+   "beguenstigter": "Roland Berger Holding",
+   "amount": 340.0,
+   "zweck": "Rg. 2026-058 + Rg. 2026-065",
+   "category": "uncategorized",
+   "label": "Roland Berger Holding"
+  },
+  {
+   "date": "2026-08-31",
+   "beguenstigter": "CYCLE MOBILITY SERVICE GMBH",
+   "amount": -139.0,
+   "zweck": "ReNr INV/2026/08/2539",
+   "category": "uncategorized",
+   "label": "CYCLE MOBILITY SERVICE GMBH"
+  },
+  {
+   "date": "2026-08-31",
+   "beguenstigter": "Andreas Kupfer & Sohn GmbH",
+   "amount": -339.76,
+   "zweck": "RG:551858 67,41/RG:551500 272,35",
+   "category": "supplier_payment",
+   "label": "Kupfer & Sohn"
+  },
+  {
+   "date": "2026-08-31",
+   "beguenstigter": "RK Traders",
+   "amount": -144.5,
+   "zweck": "ReNr RE4758, KdNr 10047",
+   "category": "supplier_payment",
+   "label": "RK Traders"
+  },
+  {
+   "date": "2026-08-31",
+   "beguenstigter": "RK Traders",
+   "amount": -229.93,
+   "zweck": "ReNr RE4710, KdNr 10047",
+   "category": "supplier_payment",
+   "label": "RK Traders"
+  },
+  {
+   "date": "2026-08-31",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
+   "amount": 1703.84,
+   "zweck": "POP SVCS, DOB 20260824-20260830",
+   "category": "platform_payout",
+   "label": "UberEats"
+  },
+  {
+   "date": "2026-08-31",
+   "beguenstigter": "Sparkasse Freising Moosburg",
+   "amount": -50.19,
+   "zweck": "Abrechnung 31.08.2026",
+   "category": "other",
+   "label": "Bank/Kontoführung"
   }
  ]
 }
