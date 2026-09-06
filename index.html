@@ -650,14 +650,52 @@ function renderOverviewFiltered(from, to){
     document.getElementById('ovCount').textContent = '0 Monate im Zeitraum';
     return;
   }
-  const CHANNEL_LABELS = {uber:'UberEats', wolt:'Wolt', lieferando:'Lieferando', sumup_restaurant:'SumUp Restaurant', sumup_foodtruck:'SumUp Foodtruck', tollwood:'Tollwood'};
+  const CHANNEL_ORDER = ['sumup_restaurant','sumup_foodtruck','uber','wolt','lieferando','tollwood'];
+  const CHANNEL_LABELS = {sumup_restaurant:'SumUp Restaurant', sumup_foodtruck:'SumUp Foodtruck', uber:'UberEats', wolt:'Wolt', lieferando:'Lieferando', tollwood:'Tollwood'};
   const sums = {};
-  for(const key of Object.keys(CHANNEL_LABELS)) sums[key] = rows.reduce((s,r)=>s+(r[key]||0),0);
+  for(const key of CHANNEL_ORDER) sums[key] = rows.reduce((s,r)=>s+(r[key]||0),0);
   const grossTotal = Object.values(sums).reduce((a,b)=>a+b,0);
 
-  // supplier invoices within the same date range (using month boundaries)
+  // Real payout/fees/orders from the actual weekly delivery data (Belege live), filtered to periods
+  // overlapping the selected month range - same convention as Belege live itself.
   const fromDate = from ? from+'-01' : null;
   const toDate = to ? to+'-31' : null;
+  let deliveryPayout = 0, deliveryFees = 0, deliveryOrders = 0, deliveryGross = 0;
+  if(STATE.delivery.wolt){
+    for(const p of STATE.delivery.wolt.periods){
+      if(inRange(p.periodEnd, fromDate, toDate)){
+        deliveryPayout += (p.payoutAmount||0);
+        deliveryFees += (p.wolt_fee_gross||0)+(p.orderFees_gross||0)+(p.deliveryServiceFees_gross||0)+(p.lateFees_gross||0);
+        deliveryGross += (p.revenue_goods_gross||0)+(p.revenue_delivery_service_gross||0);
+      }
+    }
+  }
+  if(STATE.delivery.uber){
+    for(const w of STATE.delivery.uber.weeks){
+      if(inRange(w.periodEnd, fromDate, toDate)){
+        deliveryPayout += (w.payoutTotal||0);
+        deliveryFees += (w.uberEatsFee_net||0)+(w.uberEatsFee_vat||0)+Math.abs((w.marketing?.adsGross||0))+Math.abs((w.marketing?.offerFeeGross||0));
+        deliveryOrders += (w.orders||0);
+        deliveryGross += (w.grossOrderValue||0);
+      }
+    }
+  }
+  if(STATE.delivery.lief){
+    for(const w of STATE.delivery.lief.weeks){
+      if(inRange(w.periodEnd, fromDate, toDate)){
+        deliveryPayout += (w.payoutAmount||0);
+        deliveryFees += (w.invoiceTotal_gross||0);
+        deliveryOrders += (w.orders||0);
+        deliveryGross += (w.revenue_gross||0);
+      }
+    }
+  }
+  // SumUp Restaurant/Foodtruck + Tollwood: 0% platform fees, payout = gross
+  const zeroFeePayout = sums.sumup_restaurant + sums.sumup_foodtruck + sums.tollwood;
+  const totalPayout = zeroFeePayout + deliveryPayout;
+  const totalFees = deliveryFees;
+
+  // supplier invoices within the same date range (using month boundaries)
   let supplierCount = 0, supplierNet = 0;
   for(const data of Object.values(STATE.supplierData || {})){
     for(const inv of (data.invoices||[])){
@@ -665,24 +703,25 @@ function renderOverviewFiltered(from, to){
     }
   }
 
+  const hasDeliveryWeekData = (STATE.delivery.wolt||STATE.delivery.uber||STATE.delivery.lief);
   document.getElementById('kpiGrid').innerHTML = [
     kpi("Bruttoumsatz (Zeitraum)", fmtEUR(grossTotal), `${rows.length} Monat(e)`, "gold"),
-    kpi("Auszahlung (näherungsweise)", fmtEUR(grossTotal), "Gebühren nicht monatsgenau verfügbar, siehe Hinweis", "sky"),
-    kpi("Bestellungen", "–", "nicht monatsgenau in Umsatz-Daten erfasst", "coral"),
+    kpi("Auszahlung (Zeitraum)", fmtEUR(totalPayout), hasDeliveryWeekData ? `nach Plattformgebühren (${fmtEUR(totalFees)})` : "Gebühren nicht verfügbar", "sky"),
+    kpi("Bestellungen (Lieferplattformen)", fmtNum(deliveryOrders), "SumUp/Tollwood-Bestellungen hier nicht enthalten (siehe Kassenbuch)", "coral"),
     kpi("Lieferantenrechnungen (Zeitraum)", fmtNum(supplierCount) + " Rechnungen", fmtEUR(supplierNet) + " Netto-Wareneinkauf", ""),
   ].join("");
 
   const maxGross = Math.max(...Object.values(sums), 1);
-  document.getElementById('channelList').innerHTML = Object.entries(sums).sort((a,b)=>b[1]-a[1]).map(([key,gross]) => `
+  document.getElementById('channelList').innerHTML = CHANNEL_ORDER.map(key => `
       <div class="channel-row">
         <div class="channel-top">
           <span class="channel-name">${CHANNEL_LABELS[key]}</span>
-          <span class="channel-figs">${fmtEUR(gross)} brutto</span>
+          <span class="channel-figs">${fmtEUR(sums[key])} brutto</span>
         </div>
-        <div class="bar-track"><div class="bar-fill" style="width:${(gross/maxGross*100).toFixed(1)}%"></div></div>
+        <div class="bar-track"><div class="bar-fill" style="width:${(sums[key]/maxGross*100).toFixed(1)}%"></div></div>
       </div>
     `).join("");
-  document.getElementById('ovChannelSub').textContent = `Brutto je Vertriebskanal, ${from||'Beginn'} bis ${to||'heute'}. Plattformgebühren/Bestellzahlen sind hier nicht monatsgenau hinterlegt (nur in "Belege live" nach Woche) — daher als Näherung ausgeblendet.`;
+  document.getElementById('ovChannelSub').textContent = `Brutto je Vertriebskanal, ${from||'Beginn'} bis ${to||'heute'}. Auszahlung/Gebühren für Lieferplattformen aus den echten Wochendaten ("Belege live") berechnet, für überlappende Wochen anteilig wie dort.`;
   document.getElementById('ovCount').textContent = `${rows.length} von ${rm.monthly.length} Monaten`;
 }
 function initOverviewFilters(){
