@@ -164,7 +164,8 @@
     "vat19": 0.0,
     "platformFees": 14639.67,
     "payout": 18478.82,
-    "commissionPct": 44.19
+    "commissionPct": 44.19,
+    "payoutDataQualityNote": "This cumulative payout figure was built through several approximation passes earlier in the project and may not cleanly reflect the bank-verified correction found 06.09.2026 (real Wolt payouts of 6191.12 EUR for 26.03-26.05.2026, see wolt.json bankVerifiedGap). Recommend treating this cumulative 'payout' number as approximate until a full recount is done; the per-period data in wolt.json (Belege live) is the more reliable source for Wolt payout figures."
    }
   ],
   "totals": {
