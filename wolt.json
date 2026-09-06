@@ -1,6 +1,6 @@
 {
  "platform": "Wolt",
- "lastUpdated": "2026-09-01",
+ "lastUpdated": "2026-09-06",
  "note": "Weekly Hexa invoicing cycle. Each period = merchant invoice (platform fees), payout report (revenue detail + payout), sales report (order-level detail). Figures below are period-level summaries, not order-line detail.",
  "periods": [
   {
@@ -414,5 +414,75 @@
    "driveFileId": "1ZU0kXMMOXFT1tYVf2nGFBNGEu9MyouQj"
   }
  ],
- "coverageNote": "Weeks 17, 19-27 (21.03-15.05.2026) recovered from Sales Reports only - Payout/fee-level Merchant Invoice documents for these dates were not found in Drive, so platformFees/commission cannot be computed for this window; revenue_goods figures are real. Week 18 (26-31.03) not found - genuine gap. Weeks 28-35 (16.05-25.06) not yet recovered - still open. From week 36 (26.06) onward, full fee/payout detail is available."
+ "coverageNote": "Weeks 17, 19-27 (21.03-15.05.2026) recovered from Sales Reports only - Payout/fee-level Merchant Invoice documents for these dates were not found in Drive, so platformFees/commission cannot be computed for this window; revenue_goods figures are real. Week 18 (26-31.03) not found - genuine gap. Weeks 28-35 (16.05-25.06) not yet recovered - still open. From week 36 (26.06) onward, full fee/payout detail is available.",
+ "bankVerifiedGap": {
+  "period": "26.03.2026 - 26.05.2026",
+  "note": "The 10 revenue-only periods in this window (periodEnd 2026-03-25 through 2026-05-15) have NO payoutAmount tracked (only Sales Reports were found, not matching Payout Reports/invoices). Cross-checked against the Sparkasse bank statement: 14 real Wolt payments totaling 6191.12 EUR landed in this window. This CONFIRMS money was received and gives a verified aggregate, but the 14 bank payments don't map cleanly 1:1 onto the 10 tracked periods (Wolt appears to have paid out more frequently than the 5-day Sales Report periods suggest, e.g. adjustment payments) - so this is recorded as a verified total, not distributed into individual period payoutAmount fields to avoid guessing.",
+  "verifiedTotalPayout": 6191.12,
+  "bankPaymentCount": 14,
+  "bankPayments": [
+   {
+    "date": "2026-03-26",
+    "amount": 336.1
+   },
+   {
+    "date": "2026-03-30",
+    "amount": 47.85
+   },
+   {
+    "date": "2026-04-01",
+    "amount": 260.2
+   },
+   {
+    "date": "2026-04-07",
+    "amount": 261.4
+   },
+   {
+    "date": "2026-04-13",
+    "amount": 495.73
+   },
+   {
+    "date": "2026-04-17",
+    "amount": 347.63
+   },
+   {
+    "date": "2026-04-21",
+    "amount": 510.14
+   },
+   {
+    "date": "2026-04-27",
+    "amount": 500.26
+   },
+   {
+    "date": "2026-05-04",
+    "amount": 446.93
+   },
+   {
+    "date": "2026-05-06",
+    "amount": 541.99
+   },
+   {
+    "date": "2026-05-11",
+    "amount": 814.75
+   },
+   {
+    "date": "2026-05-18",
+    "amount": 476.16
+   },
+   {
+    "date": "2026-05-21",
+    "amount": 705.73
+   },
+   {
+    "date": "2026-05-26",
+    "amount": 446.25
+   }
+  ]
+ },
+ "bankCrossCheckSummary": {
+  "note": "Full Jan-Aug 2026 bank statement cross-check performed 06.09.2026 across Wolt, UberEats, Lieferando.",
+  "wolt": "Gap found and filled (see bankVerifiedGap) for Mar-May; Jun-Sep periods match bank exactly (1-3 day payout lag, as expected).",
+  "uberEats": "Fully validated - every apparent difference traces exactly to the cashCollected field already tracked per week (bank shows wire portion only, cash doesn't hit bank).",
+  "lieferando": "Fully validated - matches bank almost exactly line-for-line across the whole tracked period."
+ }
 }
