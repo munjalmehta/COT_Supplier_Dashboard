@@ -96,10 +96,57 @@
   {
    "dish": "Chicken Tikka Masala",
    "price": 16.9,
-   "cost": 1.57,
+   "cost": 2.41,
    "verified": true,
-   "note": "250g rohes Haehnchen zu 60% Tandoor-Ausbeute zu 150g gegrillt pro Portion.",
-   "source": "Chat 27.07.2026 - Uber Eats BOGO-Analyse"
+   "note": "UPDATED 06.09.2026: full recipe sourced from ministryofcurry.com (Authentic Chicken Tikka Masala), scaled to our 150g cooked / 214g raw chicken portion (70% tandoor yield rule), priced at premium breast cut (8.80 EUR/kg, same as Butter Chicken) per Munjal's confirmation. Ingredients: chicken 214g, yogurt-lemon marinade, ginger-garlic paste, turmeric/Kashmiri chili/garam masala/kasoori methi (marinade+curry), sauteed onion 95g, tomato 95g, cream 38ml, curry oil. Previous cost (1.57) appears to have been under-costed - this replaces it.",
+   "source": "ministryofcurry.com/chicken-tikka-masala/ (scaled + priced 06.09.2026)",
+   "ingredients": [
+    {
+     "name": "Haehnchenbrust (roh)",
+     "g": 214,
+     "eur_kg": 8.8
+    },
+    {
+     "name": "Naturjoghurt (Marinade)",
+     "g": 19,
+     "eur_kg": 2.2
+    },
+    {
+     "name": "Ingwer-Knoblauch-Paste",
+     "g": 6,
+     "eur_kg": 3.5
+    },
+    {
+     "name": "Gewuerze Marinade (Kurkuma/Chili/Garam Masala/Kasoori Methi)",
+     "g": 5.7,
+     "eur_kg": 15.0
+    },
+    {
+     "name": "Zwiebel",
+     "g": 95,
+     "eur_kg": 0.52
+    },
+    {
+     "name": "Tomate",
+     "g": 95,
+     "eur_kg": 1.2
+    },
+    {
+     "name": "Sahne",
+     "g": 38,
+     "eur_kg": 3.5
+    },
+    {
+     "name": "Gewuerze Curry",
+     "g": 3.8,
+     "eur_kg": 15.0
+    },
+    {
+     "name": "Oel",
+     "g": 19,
+     "eur_kg": 1.4
+    }
+   ]
   },
   {
    "dish": "Paneer Butter Masala",
@@ -156,6 +203,76 @@
    "verified": false,
    "note": "Annahme: 70g trockener Urad Dal. Ausdruecklich als unbestaetigt markiert.",
    "source": "Chat 27.07.2026 - Uber Eats BOGO-Analyse"
+  },
+  {
+   "dish": "Palak Paneer",
+   "price": null,
+   "cost": 5.93,
+   "verified": false,
+   "note": "UNVERIFIED PLACEHOLDER, 06.09.2026. Scaled from ministryofcurry.com (Better Than Restaurant Palak Paneer) to our standard 150g paneer portion. This cost is notably HIGHER than comparable dishes (e.g. Paneer Butter Masala at 2.11 EUR with the same 150g paneer) and is likely NOT representative of actual restaurant batch-cooking ratios - a home recipe's ghee/cream proportions don't scale cleanly. Do NOT use this figure for menu pricing until Anar confirms the real recipe. Spinach price is also an estimate (4.80 EUR/kg from a single RK Traders 'Spinat/Palak' invoice, pack size assumed).",
+   "source": "ministryofcurry.com/palak-paneer/ (scaled + priced 06.09.2026, UNVERIFIED)",
+   "ingredients": [
+    {
+     "name": "Spinat (frisch/TK)",
+     "g": 201,
+     "eur_kg": 4.8
+    },
+    {
+     "name": "Paneer (hausgemacht)",
+     "g": 150,
+     "eur_kg": 10.5
+    },
+    {
+     "name": "Ghee (Braten + Kochen)",
+     "g": 71,
+     "eur_kg": 9.38
+    },
+    {
+     "name": "Kreuzkuemmel",
+     "g": 7,
+     "eur_kg": 18.0
+    },
+    {
+     "name": "Zwiebel",
+     "g": 247,
+     "eur_kg": 0.52
+    },
+    {
+     "name": "Knoblauch",
+     "g": 42,
+     "eur_kg": 2.8
+    },
+    {
+     "name": "Ingwer",
+     "g": 35,
+     "eur_kg": 3.5
+    },
+    {
+     "name": "Gruene Chili",
+     "g": 18,
+     "eur_kg": 4.0
+    },
+    {
+     "name": "Tomate",
+     "g": 212,
+     "eur_kg": 1.2
+    },
+    {
+     "name": "Gewuerze (Kurkuma/Koriander/Garam Masala)",
+     "g": 14,
+     "eur_kg": 15.0
+    },
+    {
+     "name": "Sahne (statt Cashewcreme)",
+     "g": 423,
+     "eur_kg": 3.5
+    },
+    {
+     "name": "Kasoori Methi",
+     "g": 11,
+     "eur_kg": 20.0
+    }
+   ]
   }
  ],
  "percent_only_recipes": [
@@ -2984,7 +3101,7 @@
    }
   }
  },
- "lastUpdated": "2026-08-24",
+ "lastUpdated": "2026-09-06",
  "ingredient_price_lookup_additions": {
   "wrap_bread_25cm": {
    "latest_price": 1.79,
