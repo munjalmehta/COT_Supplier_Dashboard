@@ -284,6 +284,7 @@
     main{padding:26px 5vw 60px;}
     thead th, tbody td{padding:8px;}
     .filter-actions{margin-left:0;width:100%;}
+    #expGridCols{grid-template-columns:1fr !important;}
   }
 </style>
 </head>
@@ -309,6 +310,7 @@
   <button class="tabbtn" data-view="recipes">Rezept-Kosten</button>
   <button class="tabbtn" data-view="bestsellers">Meistverkauft</button>
   <button class="tabbtn" data-view="bank">Bankabgleich</button>
+  <button class="tabbtn" data-view="expenses">Ausgaben</button>
 </div>
 
 <main>
@@ -566,6 +568,38 @@
     <h3 style="font-family:'Cinzel',serif;color:var(--navy);font-size:15px;">Alle Buchungen</h3>
     <div id="bankTxWrap" class="table-wrap"></div>
   </section>
+
+  <!-- EXPENSES / WHAT'S LEFT -->
+  <section id="view-expenses" class="view">
+    <h2 class="section-title">Ausgaben — was bleibt übrig?</h2>
+    <p class="section-sub">Basis: Bankauszug (Ausgänge/Eingänge), AGENDA-Kassenbuch (Bargeld). Einzelne Ausgaben können links aus der Berechnung ein-/ausgeschaltet werden — z.B. Mitarbeiterwohnung (Koch) deaktivieren, um zu sehen wie sich das Ergebnis ändert.</p>
+
+    <div class="filter-bar">
+      <div class="filter-field"><label>Monat</label>
+        <select id="expMonth"></select>
+      </div>
+      <div class="filter-actions">
+        <button class="filter-btn reset" id="expResetToggles">Alle Ausgaben wieder aktivieren</button>
+      </div>
+    </div>
+
+    <div id="expNetBanner" class="kpi-grid" style="margin-top:8px;"></div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:16px;" id="expGridCols">
+      <div>
+        <h3 style="font-family:'Cinzel',serif;color:var(--navy);font-size:15px;">Ausgaben (anklicken zum Ein-/Ausschalten)</h3>
+        <div id="expExpenseList" class="channel-list"></div>
+      </div>
+      <div>
+        <h3 style="font-family:'Cinzel',serif;color:var(--navy);font-size:15px;">Einnahmen</h3>
+        <div id="expIncomeList" class="channel-list"></div>
+      </div>
+    </div>
+
+    <h3 style="font-family:'Cinzel',serif;color:var(--navy);font-size:15px;margin-top:28px;">Monatsvergleich</h3>
+    <div id="expMonthlyCompareWrap" class="table-wrap"></div>
+  </section>
+
 </main>
 
 <footer>
@@ -1227,6 +1261,151 @@ function initBankFilters(){
   });
 }
 
+/* ============ EXPENSES / WHAT'S LEFT ============ */
+const EXP_CATEGORY_RULES = [
+  // [category label, expense(true)/income(false)N/A determined by sign, matcher fn on (payee,zweck)]
+  {label:"Miete Restaurant", match:(p,z)=>/ALAN MALIH|RANI YAKOUB GERGES/i.test(p+z), toggle:true},
+  {label:"Miete Mitarbeiterwohnung (Koch)", match:(p,z)=>/ANDREAS ENGL/i.test(p+z), toggle:true},
+  {label:"Nebenkosten (Gas/Strom)", match:(p,z)=>/SWM VERSORGUNG|SWM SERVICES/i.test(p+z), toggle:true},
+  {label:"Gehalt", match:(p,z)=>/GEHALT/i.test(p+z), toggle:true},
+  {label:"Lieferanten", match:(p,z,cat)=>cat==='supplier_payment', toggle:true},
+  {label:"Sozialversicherung", match:(p,z)=>/AOK|TECHNIKER KRANKEN|KNAPPSCHAFT|BERUFSGENOSSENSCHAFT|DAK-GESUNDHEIT/i.test(p+z), toggle:true},
+  {label:"Finanzamt/Steuern", match:(p,z)=>/FK FREISING|BUNDESKASSE|STEUERNR|GEWERBESTEUER/i.test(p+z), toggle:true},
+  {label:"Versicherung", match:(p,z)=>/KRAVAG|SIGNAL IDUNA|DMB RECHTSSCHUTZ|RHION VERSICHERUNG|BGV AG/i.test(p+z), toggle:true},
+  {label:"Steuerberater/Buchhaltung", match:(p,z)=>/RALF STEUER|NICOLE OTTENSMEYER/i.test(p+z), toggle:true},
+  {label:"Bank/Kontoführung", match:(p,z)=>/SPARKASSE FREISING/i.test(p+z), toggle:true},
+  {label:"Getränkelieferant", match:(p,z)=>/BRAUEREI AYING/i.test(p+z), toggle:true},
+  {label:"Mitgliedsbeitrag/Marketing", match:(p,z)=>/DIE WEIDNERS-GASTRONOMIE/i.test(p+z), toggle:true},
+  {label:"Bargeldauszahlung (ATM)", match:(p,z)=>/BARGELDAUSZ|BARGELDAUSZAHLUNG/i.test(p+z), toggle:true},
+];
+const EXP_INCOME_RULES = [
+  {label:"SumUp (Restaurant/Foodtruck)", match:(p,z,cat,lbl)=>lbl==='SumUp'},
+  {label:"UberEats", match:(p,z,cat,lbl)=>lbl==='UberEats'},
+  {label:"Wolt", match:(p,z,cat,lbl)=>lbl==='Wolt'},
+  {label:"Lieferando", match:(p,z,cat,lbl)=>lbl==='Lieferando'},
+  {label:"Tollwood (Secupay)", match:(p,z,cat,lbl)=>lbl==='Tollwood (Secupay)'},
+];
+
+const EXP_TOGGLES_OFF = new Set(); // category labels currently switched OFF
+
+function classifyExpenseTxn(t){
+  const payee=(t.beguenstigter||'').toUpperCase(), zweck=(t.zweck||'').toUpperCase();
+  if(t.amount >= 0){
+    for(const r of EXP_INCOME_RULES){ if(r.match(payee,zweck,t.category,t.label)) return {side:'income', bucket:r.label}; }
+    return {side:'income', bucket:'Sonstige Einnahmen'};
+  } else {
+    for(const r of EXP_CATEGORY_RULES){ if(r.match(payee,zweck,t.category)) return {side:'expense', bucket:r.label}; }
+    return {side:'expense', bucket:'Sonstige Ausgaben'};
+  }
+}
+
+function getExpenseMonths(){
+  const bk = STATE.bankReconciliation;
+  if(!bk) return [];
+  const months = new Set(bk.transactions.map(t=>t.date.slice(0,7)));
+  return Array.from(months).sort();
+}
+
+function computeExpenseMonth(month){
+  const bk = STATE.bankReconciliation;
+  const txns = bk.transactions.filter(t=>t.date.startsWith(month));
+  const expenseBuckets = {}, incomeBuckets = {};
+  for(const t of txns){
+    const {side,bucket} = classifyExpenseTxn(t);
+    const target = side==='expense' ? expenseBuckets : incomeBuckets;
+    if(!target[bucket]) target[bucket] = {total:0,count:0};
+    target[bucket].total += Math.abs(t.amount);
+    target[bucket].count += 1;
+  }
+  return {expenseBuckets, incomeBuckets};
+}
+
+function renderExpensesTab(){
+  const months = getExpenseMonths();
+  const sel = document.getElementById('expMonth');
+  if(!sel.dataset.filled){
+    sel.innerHTML = months.map(m=>`<option value="${m}">${m}</option>`).join('');
+    sel.value = months[months.length-1];
+    sel.dataset.filled = '1';
+  }
+  renderExpenseMonth(sel.value);
+  renderExpenseMonthlyCompare();
+}
+
+function renderExpenseMonth(month){
+  const {expenseBuckets, incomeBuckets} = computeExpenseMonth(month);
+
+  const expEntries = Object.entries(expenseBuckets).sort((a,b)=>b[1].total-a[1].total);
+  const incEntries = Object.entries(incomeBuckets).sort((a,b)=>b[1].total-a[1].total);
+
+  const totalIncome = incEntries.reduce((s,[,v])=>s+v.total,0);
+  const totalExpenseActive = expEntries.reduce((s,[k,v])=>s+(EXP_TOGGLES_OFF.has(k)?0:v.total),0);
+  const totalExpenseAll = expEntries.reduce((s,[,v])=>s+v.total,0);
+  const netLeft = totalIncome - totalExpenseActive;
+
+  document.getElementById('expNetBanner').innerHTML = [
+    kpi("Einnahmen", fmtEUR(totalIncome), month, "gold"),
+    kpi("Ausgaben (aktiv)", fmtEUR(totalExpenseActive), EXP_TOGGLES_OFF.size ? `${EXP_TOGGLES_OFF.size} Kategorie(n) deaktiviert (von ${fmtEUR(totalExpenseAll)} gesamt)` : "alle Kategorien aktiv", "coral"),
+    kpi("Bleibt übrig", fmtEUR(netLeft), "Einnahmen − aktive Ausgaben", netLeft>=0?"sky":"coral"),
+  ].join("");
+
+  const maxExp = Math.max(...expEntries.map(([,v])=>v.total), 1);
+  document.getElementById('expExpenseList').innerHTML = expEntries.map(([label,v])=>{
+    const off = EXP_TOGGLES_OFF.has(label);
+    return `<div class="channel-row" style="cursor:pointer;opacity:${off?0.4:1};" data-toggle-label="${label}">
+      <div class="channel-top">
+        <span class="channel-name"><input type="checkbox" ${off?'':'checked'} style="margin-right:8px;pointer-events:none;">${label}</span>
+        <span class="channel-figs">${fmtEUR(v.total)} · ${v.count} Buchung(en)</span>
+      </div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(v.total/maxExp*100).toFixed(1)}%;background:${off?'rgba(223,95,87,0.3)':'var(--coral)'};"></div></div>
+    </div>`;
+  }).join("") || `<div class="empty-note">Keine Ausgaben in diesem Monat.</div>`;
+
+  const maxInc = Math.max(...incEntries.map(([,v])=>v.total), 1);
+  document.getElementById('expIncomeList').innerHTML = incEntries.map(([label,v])=>`
+    <div class="channel-row">
+      <div class="channel-top">
+        <span class="channel-name">${label}</span>
+        <span class="channel-figs">${fmtEUR(v.total)} · ${v.count} Buchung(en)</span>
+      </div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(v.total/maxInc*100).toFixed(1)}%;background:var(--sky);"></div></div>
+    </div>`).join("") || `<div class="empty-note">Keine Einnahmen in diesem Monat.</div>`;
+
+  document.querySelectorAll('#expExpenseList [data-toggle-label]').forEach(el=>{
+    el.addEventListener('click', ()=>{
+      const label = el.dataset.toggleLabel;
+      if(EXP_TOGGLES_OFF.has(label)) EXP_TOGGLES_OFF.delete(label); else EXP_TOGGLES_OFF.add(label);
+      renderExpenseMonth(document.getElementById('expMonth').value);
+    });
+  });
+}
+
+function renderExpenseMonthlyCompare(){
+  const months = getExpenseMonths();
+  const rows = months.map(m=>{
+    const {expenseBuckets, incomeBuckets} = computeExpenseMonth(m);
+    const income = Object.values(incomeBuckets).reduce((s,v)=>s+v.total,0);
+    const expenseActive = Object.entries(expenseBuckets).reduce((s,[k,v])=>s+(EXP_TOGGLES_OFF.has(k)?0:v.total),0);
+    return {month:m, income, expense:expenseActive, net:income-expenseActive};
+  });
+  document.getElementById('expMonthlyCompareWrap').innerHTML = `<table>
+    <thead><tr><th>Monat</th><th class="num">Einnahmen</th><th class="num">Ausgaben (aktiv)</th><th class="num">Bleibt übrig</th></tr></thead>
+    <tbody>${rows.map(r=>`<tr>
+      <td>${r.month}</td><td class="num">${fmtEUR(r.income)}</td><td class="num">${fmtEUR(r.expense)}</td>
+      <td class="num" style="color:${r.net<0?'var(--coral)':'var(--midblue)'};font-weight:600;">${fmtEUR(r.net)}</td>
+    </tr>`).join('')}</tbody>
+  </table>`;
+}
+
+function initExpenseFilters(){
+  document.getElementById('expMonth').addEventListener('change', e=>renderExpenseMonth(e.target.value));
+  document.getElementById('expResetToggles').addEventListener('click', ()=>{
+    EXP_TOGGLES_OFF.clear();
+    renderExpenseMonth(document.getElementById('expMonth').value);
+    renderExpenseMonthlyCompare();
+  });
+}
+
 // tab switching
 document.querySelectorAll('.tabbtn').forEach(btn=>{
   btn.addEventListener('click', ()=>{
@@ -1253,7 +1432,7 @@ document.querySelectorAll('.tabbtn').forEach(btn=>{
     try{ STATE.revenueMonthly = await jget('revenue_monthly.json'); renderMonthlyTable(); initMonthlyFilters(); initOverviewFilters(); }catch(e){}
     try{ STATE.priceComparison = await jget('price_comparison.json'); initPriceFilters(); }catch(e){}
     try{ STATE.recipes = await jget('recipes.json'); initRecipeFilters(); initBestsellerFilters(); }catch(e){}
-    try{ STATE.bankReconciliation = await jget('bank_reconciliation.json'); renderBankTables(); initBankFilters(); }catch(e){}
+    try{ STATE.bankReconciliation = await jget('bank_reconciliation.json'); renderBankTables(); initBankFilters(); renderExpensesTab(); initExpenseFilters(); }catch(e){}
   }catch(e){
     document.getElementById('loading').style.display = 'none';
     const err = document.getElementById('err');
