@@ -1284,7 +1284,11 @@ const EXP_CATEGORY_RULES = [
   {label:"Bank/Kontoführung", match:(p,z)=>/SPARKASSE FREISING/i.test(p+z), toggle:true},
   {label:"Getränkelieferant", match:(p,z)=>/BRAUEREI AYING/i.test(p+z), toggle:true},
   {label:"Mitgliedsbeitrag/Marketing", match:(p,z)=>/DIE WEIDNERS-GASTRONOMIE/i.test(p+z), toggle:true},
-  {label:"Bargeldauszahlung (ATM, sonstige Verwendung)", match:(p,z)=>/BARGELDAUSZ|BARGELDAUSZAHLUNG/i.test(p+z), toggle:true},
+  {label:"Bargeldauszahlung (ATM, sonstige Verwendung)", match:(p,z)=>/BARGELDAUSZ|BARGELDAUSZAHLUNG|^GA NR\d+/i.test(p+z), toggle:true},
+  {label:"Darlehen/Rückzahlungen (Gesellschafter)", match:(p,z)=>(/^MUNJAL MEHTA$|^ANAR MEHTA$/i.test(p.trim())) && !/GEHALT/i.test(z), toggle:true},
+  {label:"Catering-Partner (DO&CO, Käfer)", match:(p,z)=>/DO & CO|DO&CO|KAFER SERVICE|KÄFER SERVICE|OLYMPIA PARK/i.test(p+z), toggle:true},
+  {label:"Sicherheitsdienst", match:(p,z)=>/D & T SICHERHEIT|D&T SICHERHEIT/i.test(p+z), toggle:true},
+  {label:"Elektriker/Handwerker", match:(p,z)=>/WESTEND.?ELEKTRO|AUFZUGSSERVICE|GASPR[UÜ]FUNG BAYERN/i.test(p+z), toggle:true},
 ];
 const EXP_INCOME_RULES = [
   {label:"SumUp (Restaurant/Foodtruck)", match:(p,z,cat,lbl)=>lbl==='SumUp'},
