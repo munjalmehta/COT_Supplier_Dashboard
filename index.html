@@ -1262,12 +1262,20 @@ function initBankFilters(){
 }
 
 /* ============ EXPENSES / WHAT'S LEFT ============ */
+// Real cash payroll data (Jan-Aug 2026), sourced from AGENDA Lohn Zahlungslisten - NOT derivable from
+// bank statement since cash salaries don't appear as named bank transactions (paid from cash-in-hand,
+// Gegenkonto 3720 "Lohnzahlungen bar" per Frau Ottensmeyer's Buchungsvorlagen).
+const PAYROLL_CASH_MONTHLY = {
+  '2026-01': 6190.45, '2026-02': 6190.45, '2026-03': 6190.45, '2026-04': 6190.45,
+  '2026-05': 6862.90, '2026-06': 7121.20, '2026-07': 7262.15, '2026-08': 7596.54,
+};
+
 const EXP_CATEGORY_RULES = [
   // [category label, expense(true)/income(false)N/A determined by sign, matcher fn on (payee,zweck)]
   {label:"Miete Restaurant", match:(p,z)=>/ALAN MALIH|RANI YAKOUB GERGES/i.test(p+z), toggle:true},
   {label:"Miete Mitarbeiterwohnung (Koch)", match:(p,z)=>/ANDREAS ENGL/i.test(p+z), toggle:true},
   {label:"Nebenkosten (Gas/Strom)", match:(p,z)=>/SWM VERSORGUNG|SWM SERVICES/i.test(p+z), toggle:true},
-  {label:"Gehalt", match:(p,z)=>/GEHALT/i.test(p+z), toggle:true},
+  {label:"Gehalt (Überweisung)", match:(p,z)=>/GEHALT/i.test(p+z), toggle:true},
   {label:"Lieferanten", match:(p,z,cat)=>cat==='supplier_payment', toggle:true},
   {label:"Sozialversicherung", match:(p,z)=>/AOK|TECHNIKER KRANKEN|KNAPPSCHAFT|BERUFSGENOSSENSCHAFT|DAK-GESUNDHEIT/i.test(p+z), toggle:true},
   {label:"Finanzamt/Steuern", match:(p,z)=>/FK FREISING|BUNDESKASSE|STEUERNR|GEWERBESTEUER/i.test(p+z), toggle:true},
@@ -1276,7 +1284,7 @@ const EXP_CATEGORY_RULES = [
   {label:"Bank/Kontoführung", match:(p,z)=>/SPARKASSE FREISING/i.test(p+z), toggle:true},
   {label:"Getränkelieferant", match:(p,z)=>/BRAUEREI AYING/i.test(p+z), toggle:true},
   {label:"Mitgliedsbeitrag/Marketing", match:(p,z)=>/DIE WEIDNERS-GASTRONOMIE/i.test(p+z), toggle:true},
-  {label:"Bargeldauszahlung (ATM)", match:(p,z)=>/BARGELDAUSZ|BARGELDAUSZAHLUNG/i.test(p+z), toggle:true},
+  {label:"Bargeldauszahlung (ATM, sonstige Verwendung)", match:(p,z)=>/BARGELDAUSZ|BARGELDAUSZAHLUNG/i.test(p+z), toggle:true},
 ];
 const EXP_INCOME_RULES = [
   {label:"SumUp (Restaurant/Foodtruck)", match:(p,z,cat,lbl)=>lbl==='SumUp'},
@@ -1303,12 +1311,13 @@ function getExpenseMonths(){
   const bk = STATE.bankReconciliation;
   if(!bk) return [];
   const months = new Set(bk.transactions.map(t=>t.date.slice(0,7)));
+  for(const m of Object.keys(PAYROLL_CASH_MONTHLY)) months.add(m);
   return Array.from(months).sort();
 }
 
 function computeExpenseMonth(month){
   const bk = STATE.bankReconciliation;
-  const txns = bk.transactions.filter(t=>t.date.startsWith(month));
+  const txns = bk ? bk.transactions.filter(t=>t.date.startsWith(month)) : [];
   const expenseBuckets = {}, incomeBuckets = {};
   for(const t of txns){
     const {side,bucket} = classifyExpenseTxn(t);
@@ -1316,6 +1325,18 @@ function computeExpenseMonth(month){
     if(!target[bucket]) target[bucket] = {total:0,count:0};
     target[bucket].total += Math.abs(t.amount);
     target[bucket].count += 1;
+  }
+  // Inject real cash payroll, and reduce the generic ATM bucket by the same amount to avoid double-counting
+  // (cash salary IS a use of cash withdrawn from the bank - counting both separately would double it).
+  const cashSalary = PAYROLL_CASH_MONTHLY[month];
+  if(cashSalary){
+    expenseBuckets['Gehalt (Bar/Kassenbuch)'] = {total: cashSalary, count: 1, injected: true};
+    const atmKey = 'Bargeldauszahlung (ATM, sonstige Verwendung)';
+    if(expenseBuckets[atmKey]){
+      const remaining = expenseBuckets[atmKey].total - cashSalary;
+      if(remaining > 0.5){ expenseBuckets[atmKey].total = remaining; }
+      else { delete expenseBuckets[atmKey]; }
+    }
   }
   return {expenseBuckets, incomeBuckets};
 }
@@ -1355,11 +1376,19 @@ function renderExpenseMonth(month){
     return `<div class="channel-row" style="cursor:pointer;opacity:${off?0.4:1};" data-toggle-label="${label}">
       <div class="channel-top">
         <span class="channel-name"><input type="checkbox" ${off?'':'checked'} style="margin-right:8px;pointer-events:none;">${label}</span>
-        <span class="channel-figs">${fmtEUR(v.total)} · ${v.count} Buchung(en)</span>
+        <span class="channel-figs">${fmtEUR(v.total)} · ${v.injected ? 'aus Lohnabrechnung (5 Barzahler)' : v.count+' Buchung(en)'}</span>
       </div>
       <div class="bar-track"><div class="bar-fill" style="width:${(v.total/maxExp*100).toFixed(1)}%;background:${off?'rgba(223,95,87,0.3)':'var(--coral)'};"></div></div>
     </div>`;
   }).join("") || `<div class="empty-note">Keine Ausgaben in diesem Monat.</div>`;
+
+  document.querySelectorAll('#expExpenseList [data-toggle-label]').forEach(el=>{
+    el.addEventListener('click', ()=>{
+      const label = el.dataset.toggleLabel;
+      if(EXP_TOGGLES_OFF.has(label)) EXP_TOGGLES_OFF.delete(label); else EXP_TOGGLES_OFF.add(label);
+      renderExpenseMonth(document.getElementById('expMonth').value);
+    });
+  });
 
   const maxInc = Math.max(...incEntries.map(([,v])=>v.total), 1);
   document.getElementById('expIncomeList').innerHTML = incEntries.map(([label,v])=>`
@@ -1370,14 +1399,6 @@ function renderExpenseMonth(month){
       </div>
       <div class="bar-track"><div class="bar-fill" style="width:${(v.total/maxInc*100).toFixed(1)}%;background:var(--sky);"></div></div>
     </div>`).join("") || `<div class="empty-note">Keine Einnahmen in diesem Monat.</div>`;
-
-  document.querySelectorAll('#expExpenseList [data-toggle-label]').forEach(el=>{
-    el.addEventListener('click', ()=>{
-      const label = el.dataset.toggleLabel;
-      if(EXP_TOGGLES_OFF.has(label)) EXP_TOGGLES_OFF.delete(label); else EXP_TOGGLES_OFF.add(label);
-      renderExpenseMonth(document.getElementById('expMonth').value);
-    });
-  });
 }
 
 function renderExpenseMonthlyCompare(){
