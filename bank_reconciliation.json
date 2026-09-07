@@ -1,24 +1,16 @@
 {
  "source": "Sparkasse bank statement exports (merged), account DE12700510030025862558 + full PDF statements Kontoauszug 6/2026, 7/2026, 8/2026 used to extend to 31.08.2026 and fix categorization + full-year CSV export (2025-09-08 to 2026-09-07), closes pre-March 2026 gap",
  "period": "2025-09-08 to 2026-09-07",
- "transactionCount": 1366,
- "netMovement": 58032.49,
+ "transactionCount": 1146,
+ "netMovement": -9673.58,
  "summaryByCategory": [
   {
    "category": "platform_payout",
    "label": "SumUp",
-   "count": 99,
-   "total": 376693.99,
+   "count": 71,
+   "total": 267925.99,
    "min_date": "2025-09-09",
    "max_date": "2026-09-01"
-  },
-  {
-   "category": "platform_payout",
-   "label": "UberEats",
-   "count": 76,
-   "total": 132110.0,
-   "min_date": "2025-09-08",
-   "max_date": "2026-08-31"
   },
   {
    "category": "platform_payout",
@@ -31,34 +23,18 @@
   {
    "category": "other",
    "label": "Miete/Nebenkosten",
-   "count": 82,
-   "total": -118124.68,
+   "count": 59,
+   "total": -99709.99,
    "min_date": "2025-09-08",
    "max_date": "2026-09-07"
   },
   {
-   "category": "uncategorized",
-   "label": "Munjal Mehta",
-   "count": 9,
-   "total": -109000.0,
-   "min_date": "2025-09-19",
-   "max_date": "2026-08-05"
-  },
-  {
    "category": "other",
    "label": "Personal/Sozialversicherung",
-   "count": 69,
-   "total": -106853.0,
+   "count": 59,
+   "total": -99328.95,
    "min_date": "2025-09-26",
    "max_date": "2026-08-27"
-  },
-  {
-   "category": "other",
-   "label": "Gehalt",
-   "count": 41,
-   "total": -92742.53,
-   "min_date": "2025-09-30",
-   "max_date": "2026-09-01"
   },
   {
    "category": "uncategorized",
@@ -66,6 +42,14 @@
    "count": 37,
    "total": 88345.58,
    "min_date": "2025-09-18",
+   "max_date": "2026-08-31"
+  },
+  {
+   "category": "platform_payout",
+   "label": "UberEats",
+   "count": 52,
+   "total": 83112.62,
+   "min_date": "2025-09-08",
    "max_date": "2026-08-31"
   },
   {
@@ -77,20 +61,28 @@
    "max_date": "2026-08-05"
   },
   {
-   "category": "other",
-   "label": "Finanzamt/Steuern",
-   "count": 34,
-   "total": -49892.84,
-   "min_date": "2025-09-16",
-   "max_date": "2026-08-20"
+   "category": "uncategorized",
+   "label": "Munjal Mehta",
+   "count": 6,
+   "total": -67000.0,
+   "min_date": "2025-09-19",
+   "max_date": "2026-08-05"
   },
   {
-   "category": "platform_payout",
-   "label": "Wolt",
-   "count": 122,
-   "total": 47235.25,
-   "min_date": "2025-09-08",
-   "max_date": "2026-09-07"
+   "category": "other",
+   "label": "Gehalt",
+   "count": 29,
+   "total": -61854.95,
+   "min_date": "2025-09-30",
+   "max_date": "2026-09-01"
+  },
+  {
+   "category": "other",
+   "label": "Finanzamt/Steuern",
+   "count": 33,
+   "total": -49941.84,
+   "min_date": "2025-09-16",
+   "max_date": "2026-08-20"
   },
   {
    "category": "uncategorized",
@@ -125,6 +117,14 @@
    "max_date": "2026-08-18"
   },
   {
+   "category": "platform_payout",
+   "label": "Wolt",
+   "count": 74,
+   "total": 26304.67,
+   "min_date": "2025-09-08",
+   "max_date": "2026-09-07"
+  },
+  {
    "category": "supplier_payment",
    "label": "Rajesh Global Food",
    "count": 59,
@@ -157,14 +157,6 @@
    "max_date": "2026-09-07"
   },
   {
-   "category": "other",
-   "label": "Steuerberater",
-   "count": 4,
-   "total": -14846.92,
-   "min_date": "2026-06-25",
-   "max_date": "2026-06-25"
-  },
-  {
    "category": "supplier_payment",
    "label": "RK Traders",
    "count": 52,
@@ -173,18 +165,18 @@
    "max_date": "2026-08-31"
   },
   {
-   "category": "uncategorized",
-   "label": "DO & CO",
-   "count": 15,
-   "total": -8939.72,
-   "min_date": "2026-07-14",
-   "max_date": "2026-07-29"
+   "category": "other",
+   "label": "Steuerberater",
+   "count": 2,
+   "total": -7423.46,
+   "min_date": "2026-06-25",
+   "max_date": "2026-06-25"
   },
   {
    "category": "other",
    "label": "Mitgliedsbeitrag/Marketing",
-   "count": 24,
-   "total": -6443.13,
+   "count": 23,
+   "total": -6056.38,
    "min_date": "2025-09-15",
    "max_date": "2026-08-17"
   },
@@ -222,33 +214,17 @@
   },
   {
    "category": "uncategorized",
-   "label": "Sacid Celik",
-   "count": 2,
-   "total": 4833.5,
-   "min_date": "2026-08-17",
-   "max_date": "2026-08-17"
-  },
-  {
-   "category": "uncategorized",
-   "label": "CUTNEY ON TOP GMBH",
-   "count": 2,
-   "total": -4732.86,
-   "min_date": "2026-05-07",
-   "max_date": "2026-05-07"
-  },
-  {
-   "category": "uncategorized",
-   "label": "D & T SICHERHEIT UND SERVICE GMBH",
-   "count": 2,
-   "total": -4569.6,
-   "min_date": "2026-02-20",
-   "max_date": "2026-02-20"
+   "label": "DO & CO",
+   "count": 8,
+   "total": -4709.52,
+   "min_date": "2026-07-14",
+   "max_date": "2026-07-29"
   },
   {
    "category": "other",
    "label": "Kfz-Versicherung/Steuer",
-   "count": 24,
-   "total": -4427.81,
+   "count": 23,
+   "total": -4385.06,
    "min_date": "2025-10-01",
    "max_date": "2026-09-01"
   },
@@ -267,14 +243,6 @@
    "total": -3570.0,
    "min_date": "2026-04-15",
    "max_date": "2026-06-18"
-  },
-  {
-   "category": "uncategorized",
-   "label": "Daniel Rotaermel",
-   "count": 1,
-   "total": 3553.55,
-   "min_date": "2026-07-28",
-   "max_date": "2026-07-28"
   },
   {
    "category": "uncategorized",
@@ -310,35 +278,11 @@
   },
   {
    "category": "uncategorized",
-   "label": "Roland Berger Holdin",
-   "count": 18,
-   "total": 3015.0,
-   "min_date": "2025-09-12",
-   "max_date": "2026-08-28"
-  },
-  {
-   "category": "uncategorized",
    "label": "Josef A. Korn GmbH & Co. Weinhandels KG",
    "count": 1,
    "total": 2834.0,
    "min_date": "2025-10-31",
    "max_date": "2025-10-31"
-  },
-  {
-   "category": "uncategorized",
-   "label": "Rudolf-Kaiser-Stiftung",
-   "count": 2,
-   "total": 2616.0,
-   "min_date": "2026-04-17",
-   "max_date": "2026-04-17"
-  },
-  {
-   "category": "uncategorized",
-   "label": "REALIZE GmbH",
-   "count": 2,
-   "total": 2581.0,
-   "min_date": "2026-04-30",
-   "max_date": "2026-04-30"
   },
   {
    "category": "uncategorized",
@@ -355,6 +299,38 @@
    "total": -2449.98,
    "min_date": "2025-10-28",
    "max_date": "2026-07-14"
+  },
+  {
+   "category": "uncategorized",
+   "label": "Sacid Celik",
+   "count": 1,
+   "total": 2416.75,
+   "min_date": "2026-08-17",
+   "max_date": "2026-08-17"
+  },
+  {
+   "category": "uncategorized",
+   "label": "CUTNEY ON TOP GMBH",
+   "count": 1,
+   "total": -2366.43,
+   "min_date": "2026-05-07",
+   "max_date": "2026-05-07"
+  },
+  {
+   "category": "uncategorized",
+   "label": "D & T SICHERHEIT UND SERVICE GMBH",
+   "count": 1,
+   "total": -2284.8,
+   "min_date": "2026-02-20",
+   "max_date": "2026-02-20"
+  },
+  {
+   "category": "uncategorized",
+   "label": "Roland Berger Holdin",
+   "count": 14,
+   "total": 2277.5,
+   "min_date": "2025-09-12",
+   "max_date": "2026-08-28"
   },
   {
    "category": "uncategorized",
@@ -382,27 +358,19 @@
   },
   {
    "category": "uncategorized",
+   "label": "DO & CO Gastronomie GmbH",
+   "count": 16,
+   "total": -1842.59,
+   "min_date": "2025-10-27",
+   "max_date": "2026-08-14"
+  },
+  {
+   "category": "uncategorized",
    "label": "Gasprüfung Bayern GmbH",
    "count": 2,
    "total": -1795.51,
    "min_date": "2025-11-26",
    "max_date": "2025-12-09"
-  },
-  {
-   "category": "uncategorized",
-   "label": "OTTO Payments GmbH",
-   "count": 6,
-   "total": -1671.96,
-   "min_date": "2026-07-22",
-   "max_date": "2026-08-10"
-  },
-  {
-   "category": "uncategorized",
-   "label": "DO & CO Gastronomie GmbH",
-   "count": 17,
-   "total": -1617.45,
-   "min_date": "2025-10-27",
-   "max_date": "2026-08-14"
   },
   {
    "category": "uncategorized",
@@ -430,19 +398,27 @@
   },
   {
    "category": "uncategorized",
+   "label": "Rudolf-Kaiser-Stiftung",
+   "count": 1,
+   "total": 1308.0,
+   "min_date": "2026-04-17",
+   "max_date": "2026-04-17"
+  },
+  {
+   "category": "uncategorized",
+   "label": "REALIZE GmbH",
+   "count": 1,
+   "total": 1290.5,
+   "min_date": "2026-04-30",
+   "max_date": "2026-04-30"
+  },
+  {
+   "category": "uncategorized",
    "label": "Kloh GmbH",
    "count": 10,
    "total": -1270.68,
    "min_date": "2025-11-26",
    "max_date": "2026-07-10"
-  },
-  {
-   "category": "supplier_payment",
-   "label": "Metro",
-   "count": 2,
-   "total": -1268.6,
-   "min_date": "2026-06-19",
-   "max_date": "2026-06-19"
   },
   {
    "category": "uncategorized",
@@ -451,22 +427,6 @@
    "total": -1250.0,
    "min_date": "2025-12-15",
    "max_date": "2025-12-19"
-  },
-  {
-   "category": "uncategorized",
-   "label": "Danish Khan",
-   "count": 1,
-   "total": -1175.46,
-   "min_date": "2026-04-01",
-   "max_date": "2026-04-01"
-  },
-  {
-   "category": "uncategorized",
-   "label": "THE GOURMET ENTERTAINTMENT COMPANY",
-   "count": 2,
-   "total": -1116.89,
-   "min_date": "2026-04-22",
-   "max_date": "2026-07-13"
   },
   {
    "category": "uncategorized",
@@ -494,14 +454,6 @@
   },
   {
    "category": "uncategorized",
-   "label": "Arnulfbogen Real Estate GmbH & Co. KG",
-   "count": 4,
-   "total": 927.7,
-   "min_date": "2026-06-05",
-   "max_date": "2026-08-27"
-  },
-  {
-   "category": "uncategorized",
    "label": "GA NR00002010 BLZ70051003 5",
    "count": 1,
    "total": -900.0,
@@ -515,6 +467,14 @@
    "total": -850.0,
    "min_date": "2025-12-30",
    "max_date": "2025-12-30"
+  },
+  {
+   "category": "uncategorized",
+   "label": "OTTO Payments GmbH",
+   "count": 3,
+   "total": -835.98,
+   "min_date": "2026-07-22",
+   "max_date": "2026-08-10"
   },
   {
    "category": "uncategorized",
@@ -557,12 +517,12 @@
    "max_date": "2025-11-13"
   },
   {
-   "category": "uncategorized",
-   "label": "Werner Meier",
-   "count": 2,
-   "total": -621.18,
-   "min_date": "2026-01-05",
-   "max_date": "2026-01-05"
+   "category": "supplier_payment",
+   "label": "Metro",
+   "count": 1,
+   "total": -634.3,
+   "min_date": "2026-06-19",
+   "max_date": "2026-06-19"
   },
   {
    "category": "uncategorized",
@@ -606,35 +566,11 @@
   },
   {
    "category": "uncategorized",
-   "label": "AUTO SCHMID GMBH//MUENCHEN/DE",
-   "count": 1,
-   "total": -546.21,
-   "min_date": "2026-08-07",
-   "max_date": "2026-08-07"
-  },
-  {
-   "category": "uncategorized",
    "label": "AUTO SCHMID GMBH",
    "count": 1,
    "total": -546.21,
    "min_date": "2026-08-07",
    "max_date": "2026-08-07"
-  },
-  {
-   "category": "uncategorized",
-   "label": "WUERTH ELEKTRONIK EI",
-   "count": 2,
-   "total": 520.0,
-   "min_date": "2026-07-07",
-   "max_date": "2026-07-07"
-  },
-  {
-   "category": "uncategorized",
-   "label": "OLYMPIA PARK DO+CO/Spiridon-Louis-Ring 7/M.nchen/DE",
-   "count": 1,
-   "total": -499.9,
-   "min_date": "2026-07-13",
-   "max_date": "2026-07-13"
   },
   {
    "category": "uncategorized",
@@ -670,6 +606,14 @@
   },
   {
    "category": "uncategorized",
+   "label": "Arnulfbogen Real Estate GmbH & Co. KG",
+   "count": 2,
+   "total": 463.85,
+   "min_date": "2026-06-05",
+   "max_date": "2026-08-27"
+  },
+  {
+   "category": "uncategorized",
    "label": "Telekom Deutschland GmbH",
    "count": 12,
    "total": -440.09,
@@ -683,14 +627,6 @@
    "total": -431.31,
    "min_date": "2025-10-06",
    "max_date": "2026-05-04"
-  },
-  {
-   "category": "uncategorized",
-   "label": "HAMBERGER GROSSMARKT GMBH//MUENCHEN/DE",
-   "count": 2,
-   "total": -424.69,
-   "min_date": "2026-04-14",
-   "max_date": "2026-07-29"
   },
   {
    "category": "uncategorized",
@@ -726,14 +662,6 @@
   },
   {
    "category": "uncategorized",
-   "label": "Chutney On Top                                                        Emil-Berg Str 20 Freising",
-   "count": 1,
-   "total": 390.0,
-   "min_date": "2026-03-31",
-   "max_date": "2026-03-31"
-  },
-  {
-   "category": "uncategorized",
    "label": "Chutney On Top",
    "count": 1,
    "total": 390.0,
@@ -758,19 +686,11 @@
   },
   {
    "category": "uncategorized",
-   "label": "Roland Berger Holding",
+   "label": "Werner Meier",
    "count": 1,
-   "total": 340.0,
-   "min_date": "2026-08-28",
-   "max_date": "2026-08-28"
-  },
-  {
-   "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46",
-   "count": 15,
-   "total": -337.23,
-   "min_date": "2026-01-08",
-   "max_date": "2026-05-26"
+   "total": -310.59,
+   "min_date": "2026-01-05",
+   "max_date": "2026-01-05"
   },
   {
    "category": "uncategorized",
@@ -779,6 +699,14 @@
    "total": -275.0,
    "min_date": "2025-11-03",
    "max_date": "2026-09-07"
+  },
+  {
+   "category": "uncategorized",
+   "label": "WUERTH ELEKTRONIK EI",
+   "count": 1,
+   "total": 260.0,
+   "min_date": "2026-07-07",
+   "max_date": "2026-07-07"
   },
   {
    "category": "uncategorized",
@@ -822,30 +750,6 @@
   },
   {
    "category": "uncategorized",
-   "label": "Telekom Deutschland GmbH                                              Landgrabenweg 149",
-   "count": 5,
-   "total": -179.62,
-   "min_date": "2026-01-27",
-   "max_date": "2026-05-27"
-  },
-  {
-   "category": "uncategorized",
-   "label": "Kushal Krishna Rao Bharadwaj",
-   "count": 2,
-   "total": 174.0,
-   "min_date": "2026-07-06",
-   "max_date": "2026-07-06"
-  },
-  {
-   "category": "uncategorized",
-   "label": "Industrie- und Handelskammer fur Munchen und Oberbayern",
-   "count": 1,
-   "total": -171.53,
-   "min_date": "2026-04-13",
-   "max_date": "2026-04-13"
-  },
-  {
-   "category": "uncategorized",
    "label": "GC RE QUANDOO GMBH",
    "count": 7,
    "total": -155.66,
@@ -870,27 +774,11 @@
   },
   {
    "category": "uncategorized",
-   "label": "Felipe Santiago Lara Estrella",
-   "count": 2,
-   "total": 120.0,
-   "min_date": "2026-06-26",
-   "max_date": "2026-06-26"
-  },
-  {
-   "category": "uncategorized",
    "label": "Klarna Bank AB (publ)",
    "count": 1,
    "total": -106.58,
    "min_date": "2026-08-10",
    "max_date": "2026-08-10"
-  },
-  {
-   "category": "uncategorized",
-   "label": "KREISVERWALTUNGSREFERAT GL/222//M.nchen/DE",
-   "count": 1,
-   "total": -106.0,
-   "min_date": "2026-04-15",
-   "max_date": "2026-04-15"
   },
   {
    "category": "uncategorized",
@@ -902,14 +790,6 @@
   },
   {
    "category": "uncategorized",
-   "label": "JET DANKT FUER IHREN KAUF./Landshuter Str. 47/Freising/DE",
-   "count": 1,
-   "total": -96.04,
-   "min_date": "2026-06-25",
-   "max_date": "2026-06-25"
-  },
-  {
-   "category": "uncategorized",
    "label": "JET DANKT FUER IHREN KAUF.",
    "count": 1,
    "total": -96.04,
@@ -918,27 +798,19 @@
   },
   {
    "category": "uncategorized",
-   "label": "Minu Sharan",
-   "count": 2,
-   "total": 96.0,
-   "min_date": "2026-06-29",
-   "max_date": "2026-06-29"
-  },
-  {
-   "category": "uncategorized",
-   "label": "AVIA Rodl T50 Freising//Freising/DE",
-   "count": 1,
-   "total": -94.38,
-   "min_date": "2026-06-22",
-   "max_date": "2026-06-22"
-  },
-  {
-   "category": "uncategorized",
    "label": "Tankstelle",
    "count": 1,
    "total": -94.38,
    "min_date": "2026-06-22",
    "max_date": "2026-06-22"
+  },
+  {
+   "category": "uncategorized",
+   "label": "Kushal Krishna Rao Bharadwaj",
+   "count": 1,
+   "total": 87.0,
+   "min_date": "2026-07-06",
+   "max_date": "2026-07-06"
   },
   {
    "category": "uncategorized",
@@ -974,6 +846,14 @@
   },
   {
    "category": "uncategorized",
+   "label": "Felipe Santiago Lara Estrella",
+   "count": 1,
+   "total": 60.0,
+   "min_date": "2026-06-26",
+   "max_date": "2026-06-26"
+  },
+  {
+   "category": "uncategorized",
    "label": "Pratik Sanjay Chaudhari",
    "count": 1,
    "total": 50.0,
@@ -1006,7 +886,7 @@
   },
   {
    "category": "uncategorized",
-   "label": "LANDRATSAMT FREISING/Landshuter Strasse 31/Freising/DE",
+   "label": "LANDRATSAMT FREISING",
    "count": 1,
    "total": -48.25,
    "min_date": "2026-06-26",
@@ -1014,11 +894,11 @@
   },
   {
    "category": "uncategorized",
-   "label": "LANDRATSAMT FREISING",
+   "label": "Minu Sharan",
    "count": 1,
-   "total": -48.25,
-   "min_date": "2026-06-26",
-   "max_date": "2026-06-26"
+   "total": 48.0,
+   "min_date": "2026-06-29",
+   "max_date": "2026-06-29"
   },
   {
    "category": "uncategorized",
@@ -1054,27 +934,11 @@
   },
   {
    "category": "uncategorized",
-   "label": "Kohinoor GIR 69201452//MUNCHEN/DE",
-   "count": 1,
-   "total": -31.4,
-   "min_date": "2026-01-02",
-   "max_date": "2026-01-02"
-  },
-  {
-   "category": "uncategorized",
    "label": "Kohinoor",
    "count": 1,
    "total": -31.4,
    "min_date": "2026-01-02",
    "max_date": "2026-01-02"
-  },
-  {
-   "category": "uncategorized",
-   "label": "Zweckverband kommunale Verkehrsueberwachung Suedostbayern",
-   "count": 1,
-   "total": -30.0,
-   "min_date": "2026-07-06",
-   "max_date": "2026-07-06"
   },
   {
    "category": "uncategorized",
@@ -1110,14 +974,6 @@
   },
   {
    "category": "uncategorized",
-   "label": "Grafik-Eck/Landsberger Str 8/Munchen/DE/0",
-   "count": 1,
-   "total": -17.5,
-   "min_date": "2026-06-22",
-   "max_date": "2026-06-22"
-  },
-  {
-   "category": "uncategorized",
    "label": "Landesbank Hessen-Thuringen",
    "count": 1,
    "total": -17.5,
@@ -1131,14 +987,6 @@
    "total": -15.97,
    "min_date": "2026-07-16",
    "max_date": "2026-09-04"
-  },
-  {
-   "category": "uncategorized",
-   "label": "PARKEN TG KVR RUPPERTSTR. 19//M.nchen/DE",
-   "count": 1,
-   "total": -2.5,
-   "min_date": "2026-01-02",
-   "max_date": "2026-01-02"
   },
   {
    "category": "uncategorized",
@@ -3890,33 +3738,25 @@
    "date": "2026-01-02",
    "beguenstigter": "Anar Mehta",
    "amount": -3644.57,
-   "zweck": "Gehalt Dec 2025 DATUM 02.01.2026, 11.55 UHR",
-   "category": "other",
-   "label": "Gehalt"
-  },
-  {
-   "date": "2026-01-02",
-   "beguenstigter": "Anar Mehta",
-   "amount": -3644.57,
    "zweck": "KREF+581654424-20260102115458SVWZ+Gehalt Dec 2025DATUM 02.01.2026, 11.55 UHR",
    "category": "other",
    "label": "Gehalt"
   },
   {
    "date": "2026-01-02",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 197.11,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251137378-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
   {
    "date": "2026-01-02",
-   "beguenstigter": "Kohinoor GIR 69201452//MUNCHEN/DE",
+   "beguenstigter": "Kohinoor",
    "amount": -31.4,
-   "zweck": "2025-12-30T09:31 Debitk.0 2025-12",
+   "zweck": "SVWZ+2025-12-30T09.31Debitk.0 2025-12ABWA+Kohinoor GIR 69201452//MUNCHEN/DE",
    "category": "uncategorized",
-   "label": "Kohinoor GIR 69201452//MUNCHEN/DE"
+   "label": "Kohinoor"
   },
   {
    "date": "2026-01-02",
@@ -3960,11 +3800,11 @@
   },
   {
    "date": "2026-01-02",
-   "beguenstigter": "PARKEN TG KVR RUPPERTSTR. 19//M.nchen/DE",
+   "beguenstigter": "PARKEN TG KVR RUPPERTSTR. 19",
    "amount": -2.5,
-   "zweck": "2025-12-30T09:08 Debitk.0 2025-12",
+   "zweck": "SVWZ+2025-12-30T09.08Debitk.0 2025-12ABWA+PARKEN TG KVR RUPPERTSTR. 19//M.nchen/DE",
    "category": "uncategorized",
-   "label": "PARKEN TG KVR RUPPERTSTR. 19//M.nchen/DE"
+   "label": "PARKEN TG KVR RUPPERTSTR. 19"
   },
   {
    "date": "2026-01-02",
@@ -3991,34 +3831,10 @@
    "label": "Rajesh Global Food"
   },
   {
-   "date": "2026-01-02",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 197.11,
-   "zweck": "EREF+251137378-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-01-02",
-   "beguenstigter": "Kohinoor",
-   "amount": -31.4,
-   "zweck": "SVWZ+2025-12-30T09.31Debitk.0 2025-12ABWA+Kohinoor GIR 69201452//MUNCHEN/DE",
-   "category": "uncategorized",
-   "label": "Kohinoor"
-  },
-  {
-   "date": "2026-01-02",
-   "beguenstigter": "PARKEN TG KVR RUPPERTSTR. 19",
-   "amount": -2.5,
-   "zweck": "SVWZ+2025-12-30T09.08Debitk.0 2025-12ABWA+PARKEN TG KVR RUPPERTSTR. 19//M.nchen/DE",
-   "category": "uncategorized",
-   "label": "PARKEN TG KVR RUPPERTSTR. 19"
-  },
-  {
    "date": "2026-01-05",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 1200.82,
-   "zweck": "POP SVCS, DOB , 20251229 - 20260104",
+   "zweck": "EREF+1RGX2TORMSZISVWZ+POP SVCS, DOB , 20251229 - 20260104",
    "category": "platform_payout",
    "label": "UberEats"
   },
@@ -4034,39 +3850,23 @@
    "date": "2026-01-05",
    "beguenstigter": "Werner Meier",
    "amount": -310.59,
-   "zweck": "Re-Nr 859 DATUM 03.01.2026, 09.48 UHR",
-   "category": "uncategorized",
-   "label": "Werner Meier"
-  },
-  {
-   "date": "2026-01-05",
-   "beguenstigter": "Werner Meier",
-   "amount": -310.59,
    "zweck": "KREF+-1256354042-20260103094808SVWZ+Re-Nr 859DATUM 03.01.2026, 09.48 UHR",
    "category": "uncategorized",
    "label": "Werner Meier"
   },
   {
-   "date": "2026-01-05",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 1200.82,
-   "zweck": "EREF+1RGX2TORMSZISVWZ+POP SVCS, DOB , 20251229 - 20260104",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
    "date": "2026-01-07",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 320.72,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251142360-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
   {
    "date": "2026-01-07",
-   "beguenstigter": "SWM Versorgungs GmbH                                                  Emmy-Noether-Str. 2",
+   "beguenstigter": "SWM Versorgungs GmbH",
    "amount": -25.0,
-   "zweck": "Fritz-Berne-Str. 54 .1. WHG.11, Abschlag Strom 01/2026 Betrag 25,00 Eur",
+   "zweck": "EREF+3937220513232 -VK-  002113492934MREF+M00211349293400001CRED+DE3711000000030246SVWZ+Fritz-Berne-Str. 54 .1. WHG.11, Abschlag Strom 01/2026 Betrag 25,00 Eur",
    "category": "other",
    "label": "Miete/Nebenkosten"
   },
@@ -4096,30 +3896,6 @@
   },
   {
    "date": "2026-01-07",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
-   "amount": 3124.43,
-   "zweck": "SUMUP PID1066911 PAYOUT 060126",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-01-07",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 320.72,
-   "zweck": "EREF+251142360-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-01-07",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -25.0,
-   "zweck": "EREF+3937220513232 -VK-  002113492934MREF+M00211349293400001CRED+DE3711000000030246SVWZ+Fritz-Berne-Str. 54 .1. WHG.11, Abschlag Strom 01/2026 Betrag 25,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-01-07",
    "beguenstigter": "SUMUP LIMITED",
    "amount": 3124.43,
    "zweck": "EREF+GP-283425615SVWZ+SUMUP PID1066911 PAYOUT 060126",
@@ -4133,6 +3909,14 @@
    "zweck": "Rg 2025-095 Datum 28.12.2025",
    "category": "uncategorized",
    "label": "Tollwood -Gesellschaft fuer Kulturveranstaltungen und UmweltaktivitaetenFrei-Otto-Strasse 20"
+  },
+  {
+   "date": "2026-01-08",
+   "beguenstigter": "Tollwood -Gesellschaft fürKulturveranstaltungen und U",
+   "amount": 224.7,
+   "zweck": "EREF+2601081420-0000010SVWZ+Rg  2025-095 Datum 28.12.2025ABWA+Tollwood GmbH",
+   "category": "other",
+   "label": "Tollwood (Standgebühren etc)"
   },
   {
    "date": "2026-01-08",
@@ -4176,11 +3960,11 @@
   },
   {
    "date": "2026-01-08",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
+   "beguenstigter": "Klarna Bank AB",
    "amount": -49.95,
-   "zweck": "Purchase at Temu.com",
+   "zweck": "EREF+019b97afc25875d3bf028f734c811f93MREF+87e2d49745dc4ad983daec1e034019c4CRED+SE71ZZZ5567370431SVWZ+Purchase at Temu.com",
    "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
+   "label": "Klarna Bank AB"
   },
   {
    "date": "2026-01-08",
@@ -4191,26 +3975,10 @@
    "label": "GC RE QUANDOO GMBH"
   },
   {
-   "date": "2026-01-08",
-   "beguenstigter": "Tollwood -Gesellschaft fürKulturveranstaltungen und U",
-   "amount": 224.7,
-   "zweck": "EREF+2601081420-0000010SVWZ+Rg  2025-095 Datum 28.12.2025ABWA+Tollwood GmbH",
-   "category": "other",
-   "label": "Tollwood (Standgebühren etc)"
-  },
-  {
-   "date": "2026-01-08",
-   "beguenstigter": "Klarna Bank AB",
-   "amount": -49.95,
-   "zweck": "EREF+019b97afc25875d3bf028f734c811f93MREF+87e2d49745dc4ad983daec1e034019c4CRED+SE71ZZZ5567370431SVWZ+Purchase at Temu.com",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB"
-  },
-  {
    "date": "2026-01-12",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 1883.07,
-   "zweck": "POP SVCS, DOB , 20260105 - 20260111",
+   "zweck": "EREF+JVNFDCZ84LQ6SVWZ+POP SVCS, DOB , 20260105 - 20260111",
    "category": "platform_payout",
    "label": "UberEats"
   },
@@ -4224,43 +3992,11 @@
   },
   {
    "date": "2026-01-12",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
-   "amount": 118.83,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-01-12",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 1883.07,
-   "zweck": "EREF+JVNFDCZ84LQ6SVWZ+POP SVCS, DOB , 20260105 - 20260111",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-01-12",
    "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 118.83,
    "zweck": "EREF+251154763-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
-  },
-  {
-   "date": "2026-01-13",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
-   "amount": 2728.24,
-   "zweck": "SUMUP PID1075304 PAYOUT 130126",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-01-13",
-   "beguenstigter": "DERDENGELDEN TAKEAWAYCOM",
-   "amount": 592.37,
-   "zweck": "EREF+19312991272SVWZ+AUSZAHLUNG PO-19312991272 11-01-2026 LIEFERANDO.DE (10593163)",
-   "category": "platform_payout",
-   "label": "Lieferando"
   },
   {
    "date": "2026-01-13",
@@ -4271,12 +4007,12 @@
    "label": "SumUp"
   },
   {
-   "date": "2026-01-14",
-   "beguenstigter": "verwaltungs-berufsgenossenschaft",
-   "amount": -281.0,
-   "zweck": "Rücküberweisung- chutney on top DATUM 14.01.2026, 17.56 UHR",
-   "category": "other",
-   "label": "Personal/Sozialversicherung"
+   "date": "2026-01-13",
+   "beguenstigter": "DERDENGELDEN TAKEAWAYCOM",
+   "amount": 592.37,
+   "zweck": "EREF+19312991272SVWZ+AUSZAHLUNG PO-19312991272 11-01-2026 LIEFERANDO.DE (10593163)",
+   "category": "platform_payout",
+   "label": "Lieferando"
   },
   {
    "date": "2026-01-14",
@@ -4293,14 +4029,6 @@
    "zweck": "KREF+-937470742-20260114164940SVWZ+RE202515801 lxoQRDATUM 14.01.2026, 16.49 UHR",
    "category": "uncategorized",
    "label": "Aufzugsservice Bayern GmbH"
-  },
-  {
-   "date": "2026-01-14",
-   "beguenstigter": "SWM Versorgungs GmbH                                                  Emmy-Noether-Str. 2",
-   "amount": -808.0,
-   "zweck": "Landsberger Str. 437 .0, Abschlag Strom 01/2026 Betrag 808,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-01-14",
@@ -4336,14 +4064,6 @@
   },
   {
    "date": "2026-01-16",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
-   "amount": 139.1,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-01-16",
    "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 139.1,
    "zweck": "EREF+251167209-fk-vp-defaultSVWZ+Wolt Auszahlung",
@@ -4352,9 +4072,9 @@
   },
   {
    "date": "2026-01-19",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 2588.33,
-   "zweck": "POP SVCS, DOB , 20260112 - 20260118",
+   "zweck": "EREF+WSGB6MOUGWIYSVWZ+POP SVCS, DOB , 20260112 - 20260118",
    "category": "platform_payout",
    "label": "UberEats"
   },
@@ -4399,18 +4119,10 @@
    "label": "Kupfer & Sohn"
   },
   {
-   "date": "2026-01-19",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 2588.33,
-   "zweck": "EREF+WSGB6MOUGWIYSVWZ+POP SVCS, DOB , 20260112 - 20260118",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
    "date": "2026-01-20",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 3469.32,
-   "zweck": "SUMUP PID1083505 PAYOUT 200126",
+   "zweck": "EREF+GP-293459995SVWZ+SUMUP PID1083505 PAYOUT 200126",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -4431,18 +4143,10 @@
    "label": "Lieferando"
   },
   {
-   "date": "2026-01-20",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 3469.32,
-   "zweck": "EREF+GP-293459995SVWZ+SUMUP PID1083505 PAYOUT 200126",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
    "date": "2026-01-21",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 414.08,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251172584-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
@@ -4463,14 +4167,6 @@
    "label": "Finanzamt/Steuern"
   },
   {
-   "date": "2026-01-21",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 414.08,
-   "zweck": "EREF+251172584-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
    "date": "2026-01-23",
    "beguenstigter": "Sparkasse Freising Moosburg",
    "amount": -2064.95,
@@ -4480,17 +4176,17 @@
   },
   {
    "date": "2026-01-26",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 262.03,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251180758-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
   {
    "date": "2026-01-26",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 2194.21,
-   "zweck": "POP SVCS, DOB , 20260119 - 20260125",
+   "zweck": "EREF+K272CPRQHU2ESVWZ+POP SVCS, DOB , 20260119 - 20260125",
    "category": "platform_payout",
    "label": "UberEats"
   },
@@ -4511,26 +4207,10 @@
    "label": "SWM Services GmbH"
   },
   {
-   "date": "2026-01-26",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 262.03,
-   "zweck": "EREF+251180758-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-01-26",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 2194.21,
-   "zweck": "EREF+K272CPRQHU2ESVWZ+POP SVCS, DOB , 20260119 - 20260125",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
    "date": "2026-01-27",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 3583.13,
-   "zweck": "SUMUP PID1091652 PAYOUT 270126",
+   "zweck": "EREF+GP-298489667SVWZ+SUMUP PID1091652 PAYOUT 270126",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -4552,11 +4232,11 @@
   },
   {
    "date": "2026-01-27",
-   "beguenstigter": "Telekom Deutschland GmbH                                              Landgrabenweg 149",
+   "beguenstigter": "Telekom Deutschland GmbH",
    "amount": -36.3,
-   "zweck": "Festnetz Vertragskonto 5632773496 RG 7219305719/16.01.2026",
+   "zweck": "EREF+Zahlbeleg 353181661694MREF+DE000201000200000000000000017508905CRED+DE93ZZZ00000078611SVWZ+Festnetz Vertragskonto 5632773496 RG 7219305719/16.01.2026",
    "category": "uncategorized",
-   "label": "Telekom Deutschland GmbH                                              Landgrabenweg 149"
+   "label": "Telekom Deutschland GmbH"
   },
   {
    "date": "2026-01-27",
@@ -4581,22 +4261,6 @@
    "zweck": "KREF+1714036946-20260126200636SVWZ+INV/2026/00190DATUM 26.01.2026, 20.06 UHR",
    "category": "supplier_payment",
    "label": "Rajesh Global Food"
-  },
-  {
-   "date": "2026-01-27",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 3583.13,
-   "zweck": "EREF+GP-298489667SVWZ+SUMUP PID1091652 PAYOUT 270126",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-01-27",
-   "beguenstigter": "Telekom Deutschland GmbH",
-   "amount": -36.3,
-   "zweck": "EREF+Zahlbeleg 353181661694MREF+DE000201000200000000000000017508905CRED+DE93ZZZ00000078611SVWZ+Festnetz Vertragskonto 5632773496 RG 7219305719/16.01.2026",
-   "category": "uncategorized",
-   "label": "Telekom Deutschland GmbH"
   },
   {
    "date": "2026-01-28",
@@ -4640,30 +4304,6 @@
   },
   {
    "date": "2026-01-30",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
-   "amount": -9.51,
-   "zweck": "Purchase at Temu.com",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
-  },
-  {
-   "date": "2026-01-30",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
-   "amount": -36.9,
-   "zweck": "Purchase at Temu.com",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
-  },
-  {
-   "date": "2026-01-30",
-   "beguenstigter": "Nicole Ottensmeyer",
-   "amount": -142.8,
-   "zweck": "KREF+-590193528-20260129211719SVWZ+ReNr 1271, KdNr 10240DATUM 29.01.2026, 21.17 UHR",
-   "category": "other",
-   "label": "Bilanzbuchhalterin"
-  },
-  {
-   "date": "2026-01-30",
    "beguenstigter": "Klarna Bank AB",
    "amount": -9.51,
    "zweck": "EREF+019c08b0ea8c7d209195478f315f76d1MREF+87e2d49745dc4ad983daec1e034019c4CRED+SE71ZZZ5567370431SVWZ+Purchase at Temu.com",
@@ -4679,18 +4319,26 @@
    "label": "Klarna Bank AB"
   },
   {
+   "date": "2026-01-30",
+   "beguenstigter": "Nicole Ottensmeyer",
+   "amount": -142.8,
+   "zweck": "KREF+-590193528-20260129211719SVWZ+ReNr 1271, KdNr 10240DATUM 29.01.2026, 21.17 UHR",
+   "category": "other",
+   "label": "Bilanzbuchhalterin"
+  },
+  {
    "date": "2026-02-02",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 1816.07,
-   "zweck": "POP SVCS, DOB , 20260126 - 20260201",
+   "zweck": "EREF+IIZ3LZV9TFZ9SVWZ+POP SVCS, DOB , 20260126 - 20260201",
    "category": "platform_payout",
    "label": "UberEats"
   },
   {
    "date": "2026-02-02",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 228.75,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251194984-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
@@ -4759,26 +4407,10 @@
    "label": "Gehalt"
   },
   {
-   "date": "2026-02-02",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 1816.07,
-   "zweck": "EREF+IIZ3LZV9TFZ9SVWZ+POP SVCS, DOB , 20260126 - 20260201",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-02-02",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 228.75,
-   "zweck": "EREF+251194984-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
    "date": "2026-02-03",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 3489.24,
-   "zweck": "SUMUP PID1099714 PAYOUT 030226",
+   "zweck": "EREF+GP-303509565SVWZ+SUMUP PID1099714 PAYOUT 030226",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -4805,14 +4437,6 @@
    "zweck": "RechnungSPARKASSE FREISING MOOSBURGEntgelt Ausgabe Debitkartefür 2026/KartNr.******440220260203-BY048-00012225976siehe Anlage",
    "category": "other",
    "label": "Bank/Kontoführung"
-  },
-  {
-   "date": "2026-02-03",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 3489.24,
-   "zweck": "EREF+GP-303509565SVWZ+SUMUP PID1099714 PAYOUT 030226",
-   "category": "platform_payout",
-   "label": "SumUp"
   },
   {
    "date": "2026-02-04",
@@ -4864,30 +4488,6 @@
   },
   {
    "date": "2026-02-05",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
-   "amount": -7.75,
-   "zweck": "Purchase at Temu.com",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
-  },
-  {
-   "date": "2026-02-05",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
-   "amount": -19.71,
-   "zweck": "Purchase at Temu.com",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
-  },
-  {
-   "date": "2026-02-05",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
-   "amount": -33.26,
-   "zweck": "Purchase at Temu.com",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
-  },
-  {
-   "date": "2026-02-05",
    "beguenstigter": "Klarna Bank AB",
    "amount": -7.75,
    "zweck": "EREF+019c258d2572713d95fb719f7fdd0e6fMREF+87e2d49745dc4ad983daec1e034019c4CRED+SE71ZZZ5567370431SVWZ+Purchase at Temu.com",
@@ -4912,9 +4512,9 @@
   },
   {
    "date": "2026-02-06",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 202.52,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251210125-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
@@ -4930,41 +4530,9 @@
    "date": "2026-02-06",
    "beguenstigter": "Anar Mehta",
    "amount": -3652.66,
-   "zweck": "Gehalt : Januar 2026 DATUM 06.02.2026, 11.33 UHR",
-   "category": "other",
-   "label": "Gehalt"
-  },
-  {
-   "date": "2026-02-06",
-   "beguenstigter": "Anar Mehta",
-   "amount": -3652.66,
    "zweck": "KREF+686236453-20260206113331SVWZ+Gehalt . Januar 2026DATUM 06.02.2026, 11.33 UHR",
    "category": "other",
    "label": "Gehalt"
-  },
-  {
-   "date": "2026-02-06",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
-   "amount": -27.62,
-   "zweck": "Purchase at Temu.com",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
-  },
-  {
-   "date": "2026-02-06",
-   "beguenstigter": "GC RE QUANDOO GMBH",
-   "amount": -11.9,
-   "zweck": "EREF+D-004Y1TSEX9XFMREF+8SWBJZWCRED+GB78ZZZSDDBARC0000007495895676SVWZ+Quandoo GmbH P1114676DE260100863",
-   "category": "uncategorized",
-   "label": "GC RE QUANDOO GMBH"
-  },
-  {
-   "date": "2026-02-06",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 202.52,
-   "zweck": "EREF+251210125-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
   },
   {
    "date": "2026-02-06",
@@ -4975,68 +4543,20 @@
    "label": "Klarna Bank AB"
   },
   {
+   "date": "2026-02-06",
+   "beguenstigter": "GC RE QUANDOO GMBH",
+   "amount": -11.9,
+   "zweck": "EREF+D-004Y1TSEX9XFMREF+8SWBJZWCRED+GB78ZZZSDDBARC0000007495895676SVWZ+Quandoo GmbH P1114676DE260100863",
+   "category": "uncategorized",
+   "label": "GC RE QUANDOO GMBH"
+  },
+  {
    "date": "2026-02-09",
    "beguenstigter": "Tollwood -Gesellschaft fuer Kulturveranstaltungen und UmweltaktivitaetenFrei-Otto-Strasse 20",
    "amount": 545.43,
    "zweck": "Rg 2025-096 Datum 28.12.2025",
    "category": "uncategorized",
    "label": "Tollwood -Gesellschaft fuer Kulturveranstaltungen und UmweltaktivitaetenFrei-Otto-Strasse 20"
-  },
-  {
-   "date": "2026-02-09",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
-   "amount": 2086.57,
-   "zweck": "POP SVCS, DOB , 20260202 - 20260208",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-02-09",
-   "beguenstigter": "Andreas Kupfer & Sohn GmbH",
-   "amount": -383.01,
-   "zweck": "EREF+0000001575MREF+60932-01CRED+DE16ZZZ00000683919SVWZ+RG.508959 169,47/RG.508779 213,54ABWA+Andreas Kupfer und Sohn",
-   "category": "supplier_payment",
-   "label": "Kupfer & Sohn"
-  },
-  {
-   "date": "2026-02-09",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -25.0,
-   "zweck": "Fritz-Berne-Str. 54 .1. WHG.11, Abschlag Strom 02/2026 Betrag 25,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-02-09",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -25.0,
-   "zweck": "EREF+3937221454940 -VK-  002113492934MREF+M00211349293400001CRED+DE3711000000030246SVWZ+Fritz-Berne-Str. 54 .1. WHG.11, Abschlag Strom 02/2026 Betrag 25,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-02-09",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
-   "amount": -36.93,
-   "zweck": "Purchase at Temu.com",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
-  },
-  {
-   "date": "2026-02-09",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
-   "amount": -7.09,
-   "zweck": "Purchase at Temu.com",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
-  },
-  {
-   "date": "2026-02-09",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
-   "amount": -25.75,
-   "zweck": "Purchase at Temu.com",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
   },
   {
    "date": "2026-02-09",
@@ -5053,6 +4573,22 @@
    "zweck": "EREF+1S6O8K97R46LSVWZ+POP SVCS, DOB , 20260202 - 20260208",
    "category": "platform_payout",
    "label": "UberEats"
+  },
+  {
+   "date": "2026-02-09",
+   "beguenstigter": "Andreas Kupfer & Sohn GmbH",
+   "amount": -383.01,
+   "zweck": "EREF+0000001575MREF+60932-01CRED+DE16ZZZ00000683919SVWZ+RG.508959 169,47/RG.508779 213,54ABWA+Andreas Kupfer und Sohn",
+   "category": "supplier_payment",
+   "label": "Kupfer & Sohn"
+  },
+  {
+   "date": "2026-02-09",
+   "beguenstigter": "SWM Versorgungs GmbH",
+   "amount": -25.0,
+   "zweck": "EREF+3937221454940 -VK-  002113492934MREF+M00211349293400001CRED+DE3711000000030246SVWZ+Fritz-Berne-Str. 54 .1. WHG.11, Abschlag Strom 02/2026 Betrag 25,00 Eur",
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-02-09",
@@ -5080,9 +4616,9 @@
   },
   {
    "date": "2026-02-10",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 4415.83,
-   "zweck": "SUMUP PID1107939 PAYOUT 100226",
+   "zweck": "EREF+GP-308928949SVWZ+SUMUP PID1107939 PAYOUT 100226",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -5103,22 +4639,6 @@
    "label": "Lieferando"
   },
   {
-   "date": "2026-02-10",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 4415.83,
-   "zweck": "EREF+GP-308928949SVWZ+SUMUP PID1107939 PAYOUT 100226",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-02-11",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
-   "amount": 307.49,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
    "date": "2026-02-11",
    "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 307.49,
@@ -5136,17 +4656,17 @@
   },
   {
    "date": "2026-02-16",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 385.47,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251230507-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
   {
    "date": "2026-02-16",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 2330.82,
-   "zweck": "POP SVCS, DOB , 20260209 - 20260215",
+   "zweck": "EREF+ZEEMUX5586QRSVWZ+POP SVCS, DOB , 20260209 - 20260215",
    "category": "platform_payout",
    "label": "UberEats"
   },
@@ -5173,14 +4693,6 @@
    "zweck": "MREF+10033 Chutney on TopCRED+DE05ZZZ00002640704SVWZ+Mitgliedsbeitrag FTU Durchstarter 10033 Chutney on Top",
    "category": "other",
    "label": "Mitgliedsbeitrag/Marketing"
-  },
-  {
-   "date": "2026-02-16",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -808.0,
-   "zweck": "Landsberger Str. 437 .0, Abschlag Strom 02/2026 Betrag 808,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-02-16",
@@ -5213,30 +4725,6 @@
    "zweck": "KREF+1320440088-20260215183559SVWZ+ReNr RE2929, KdNr 10047DATUM 15.02.2026, 18.36 UHR",
    "category": "supplier_payment",
    "label": "RK Traders"
-  },
-  {
-   "date": "2026-02-16",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 385.47,
-   "zweck": "EREF+251230507-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-02-16",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 2330.82,
-   "zweck": "EREF+ZEEMUX5586QRSVWZ+POP SVCS, DOB , 20260209 - 20260215",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-02-17",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
-   "amount": 6185.22,
-   "zweck": "SUMUP PID1115731 PAYOUT 170226",
-   "category": "platform_payout",
-   "label": "SumUp"
   },
   {
    "date": "2026-02-17",
@@ -5282,47 +4770,39 @@
    "date": "2026-02-20",
    "beguenstigter": "D & T SICHERHEIT UND SERVICE GMBH",
    "amount": -2284.8,
-   "zweck": "ReNr 956-01-VED-11-25 DATUM 19.02.2026, 20.38 UHR",
-   "category": "uncategorized",
-   "label": "D & T SICHERHEIT UND SERVICE GMBH"
-  },
-  {
-   "date": "2026-02-20",
-   "beguenstigter": "D & T SICHERHEIT UND SERVICE GMBH",
-   "amount": -2284.8,
    "zweck": "KREF+-1048279968-20260219203826SVWZ+ReNr 956-01-VED-11-25DATUM 19.02.2026, 20.38 UHR",
    "category": "uncategorized",
    "label": "D & T SICHERHEIT UND SERVICE GMBH"
   },
   {
    "date": "2026-02-23",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 2594.61,
-   "zweck": "POP SVCS, DOB , 20260216 - 20260222",
+   "zweck": "EREF+Y4D9UV5ML4CSSVWZ+POP SVCS, DOB , 20260216 - 20260222",
    "category": "platform_payout",
    "label": "UberEats"
   },
   {
    "date": "2026-02-23",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
+   "beguenstigter": "Klarna Bank AB",
    "amount": 4.75,
-   "zweck": "Klarna Refund",
+   "zweck": "EREF+RTE-168211573SVWZ+Klarna Refund",
    "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
+   "label": "Klarna Bank AB"
   },
   {
    "date": "2026-02-23",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
+   "beguenstigter": "Klarna Bank AB",
    "amount": 26.85,
-   "zweck": "Klarna Refund",
+   "zweck": "EREF+RTE-168211571SVWZ+Klarna Refund",
    "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
+   "label": "Klarna Bank AB"
   },
   {
    "date": "2026-02-23",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 385.4,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251237044-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
@@ -5367,42 +4847,10 @@
    "label": "RK Traders"
   },
   {
-   "date": "2026-02-23",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 2594.61,
-   "zweck": "EREF+Y4D9UV5ML4CSSVWZ+POP SVCS, DOB , 20260216 - 20260222",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-02-23",
-   "beguenstigter": "Klarna Bank AB",
-   "amount": 4.75,
-   "zweck": "EREF+RTE-168211573SVWZ+Klarna Refund",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB"
-  },
-  {
-   "date": "2026-02-23",
-   "beguenstigter": "Klarna Bank AB",
-   "amount": 26.85,
-   "zweck": "EREF+RTE-168211571SVWZ+Klarna Refund",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB"
-  },
-  {
-   "date": "2026-02-23",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 385.4,
-   "zweck": "EREF+251237044-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
    "date": "2026-02-24",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 4283.79,
-   "zweck": "SUMUP PID1123080 PAYOUT 240226",
+   "zweck": "EREF+GP-319126338SVWZ+SUMUP PID1123080 PAYOUT 240226",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -5413,22 +4861,6 @@
    "zweck": "EREF+19698606322SVWZ+AUSZAHLUNG PO-19698606322 22-02-2026 LIEFERANDO.DE (10593163)",
    "category": "platform_payout",
    "label": "Lieferando"
-  },
-  {
-   "date": "2026-02-24",
-   "beguenstigter": "Telekom Deutschland GmbH                                              Landgrabenweg 149",
-   "amount": -36.4,
-   "zweck": "Festnetz Vertragskonto 5632773496 RG 7235680604/13.02.2026",
-   "category": "uncategorized",
-   "label": "Telekom Deutschland GmbH                                              Landgrabenweg 149"
-  },
-  {
-   "date": "2026-02-24",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 4283.79,
-   "zweck": "EREF+GP-319126338SVWZ+SUMUP PID1123080 PAYOUT 240226",
-   "category": "platform_payout",
-   "label": "SumUp"
   },
   {
    "date": "2026-02-24",
@@ -5464,9 +4896,9 @@
   },
   {
    "date": "2026-02-26",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 257.66,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251250440-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
@@ -5477,14 +4909,6 @@
    "zweck": "EREF+MD0010157MREF+MD0010157CRED+DE57ZZZ00002495238SVWZ+MD0010157 - 02.2026 Sivaalayam Donation",
    "category": "uncategorized",
    "label": "SIVAALAYAM E.V."
-  },
-  {
-   "date": "2026-02-26",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 257.66,
-   "zweck": "EREF+251250440-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
   },
   {
    "date": "2026-02-27",
@@ -5504,17 +4928,17 @@
   },
   {
    "date": "2026-03-02",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 2735.94,
-   "zweck": "POP SVCS, DOB , 20260223 - 20260301",
+   "zweck": "EREF+0OY7812PZ6B3SVWZ+POP SVCS, DOB , 20260223 - 20260301",
    "category": "platform_payout",
    "label": "UberEats"
   },
   {
    "date": "2026-03-02",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 257.25,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251261932-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
@@ -5567,26 +4991,10 @@
    "label": "Bilanzbuchhalterin"
   },
   {
-   "date": "2026-03-02",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 2735.94,
-   "zweck": "EREF+0OY7812PZ6B3SVWZ+POP SVCS, DOB , 20260223 - 20260301",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-03-02",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 257.25,
-   "zweck": "EREF+251261932-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
    "date": "2026-03-03",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 5398.79,
-   "zweck": "SUMUP PID1130771 PAYOUT 030326",
+   "zweck": "EREF+GP-324446761SVWZ+SUMUP PID1130771 PAYOUT 030326",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -5597,14 +5005,6 @@
    "zweck": "EREF+19762394522SVWZ+AUSZAHLUNG PO-19762394522 01-03-2026 LIEFERANDO.DE (10593163)",
    "category": "platform_payout",
    "label": "Lieferando"
-  },
-  {
-   "date": "2026-03-03",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 5398.79,
-   "zweck": "EREF+GP-324446761SVWZ+SUMUP PID1130771 PAYOUT 030326",
-   "category": "platform_payout",
-   "label": "SumUp"
   },
   {
    "date": "2026-03-04",
@@ -5664,9 +5064,9 @@
   },
   {
    "date": "2026-03-06",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 344.73,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251270140-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
@@ -5679,28 +5079,12 @@
    "label": "GC RE QUANDOO GMBH"
   },
   {
-   "date": "2026-03-06",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 344.73,
-   "zweck": "EREF+251270140-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
    "date": "2026-03-09",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 1844.84,
-   "zweck": "POP SVCS, DOB , 20260302 - 20260308",
+   "zweck": "EREF+KBX0OXXT2SMBSVWZ+POP SVCS, DOB , 20260302 - 20260308",
    "category": "platform_payout",
    "label": "UberEats"
-  },
-  {
-   "date": "2026-03-09",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -25.0,
-   "zweck": "Fritz-Berne-Str. 54 .1. WHG.11, Abschlag Strom 03/2026 Betrag 25,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-03-09",
@@ -5727,22 +5111,6 @@
    "label": "Finanzamt/Steuern"
   },
   {
-   "date": "2026-03-09",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 1844.84,
-   "zweck": "EREF+KBX0OXXT2SMBSVWZ+POP SVCS, DOB , 20260302 - 20260308",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-03-10",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
-   "amount": 6233.25,
-   "zweck": "SUMUP PID1138918 PAYOUT 100326",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
    "date": "2026-03-10",
    "beguenstigter": "SUMUP LIMITED",
    "amount": 6233.25,
@@ -5752,9 +5120,9 @@
   },
   {
    "date": "2026-03-11",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 347.12,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251279180-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
@@ -5807,22 +5175,6 @@
    "label": "GFT Group"
   },
   {
-   "date": "2026-03-11",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 347.12,
-   "zweck": "EREF+251279180-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-03-13",
-   "beguenstigter": "Anar Mehta",
-   "amount": -3652.66,
-   "zweck": "Gehalt : Feb 2026 DATUM 13.03.2026, 14.03 UHR",
-   "category": "other",
-   "label": "Gehalt"
-  },
-  {
    "date": "2026-03-13",
    "beguenstigter": "Anar Mehta",
    "amount": -3652.66,
@@ -5832,17 +5184,17 @@
   },
   {
    "date": "2026-03-16",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 267.92,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251288961-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
   {
    "date": "2026-03-16",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 2164.21,
-   "zweck": "POP SVCS, DOB , 20260309 - 20260315",
+   "zweck": "EREF+FSMGST8LPWKYSVWZ+POP SVCS, DOB , 20260309 - 20260315",
    "category": "platform_payout",
    "label": "UberEats"
   },
@@ -5858,23 +5210,7 @@
    "date": "2026-03-16",
    "beguenstigter": "SWM Versorgungs GmbH",
    "amount": -808.0,
-   "zweck": "Landsberger Str. 437 .0, Abschlag Strom 03/2026 Betrag 808,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-03-16",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -808.0,
    "zweck": "EREF+3931267144972 -VK-  002113138578MREF+M00211313857800001CRED+DE3711000000030246SVWZ+Landsberger Str. 437 .0, Abschlag Strom 03/2026 Betrag 808,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-03-16",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -6822.26,
-   "zweck": "Landsberger Str. 437 .0., Rechnung faellig am 16.03.2026 Betrag 6.822,26 Eur",
    "category": "other",
    "label": "Miete/Nebenkosten"
   },
@@ -5935,26 +5271,10 @@
    "label": "Rajesh Global Food"
   },
   {
-   "date": "2026-03-16",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 267.92,
-   "zweck": "EREF+251288961-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-03-16",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 2164.21,
-   "zweck": "EREF+FSMGST8LPWKYSVWZ+POP SVCS, DOB , 20260309 - 20260315",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
    "date": "2026-03-17",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 6748.0,
-   "zweck": "SUMUP PID1146742 PAYOUT 170326",
+   "zweck": "EREF+GP-335562774SVWZ+SUMUP PID1146742 PAYOUT 170326",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -5965,14 +5285,6 @@
    "zweck": "EREF+19886524642SVWZ+AUSZAHLUNG PO-19886524642 15-03-2026 LIEFERANDO.DE (10593163)",
    "category": "platform_payout",
    "label": "Lieferando"
-  },
-  {
-   "date": "2026-03-17",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 6748.0,
-   "zweck": "EREF+GP-335562774SVWZ+SUMUP PID1146742 PAYOUT 170326",
-   "category": "platform_payout",
-   "label": "SumUp"
   },
   {
    "date": "2026-03-19",
@@ -5992,17 +5304,17 @@
   },
   {
    "date": "2026-03-23",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 1906.67,
-   "zweck": "POP SVCS, DOB , 20260316 - 20260322",
+   "zweck": "EREF+R1YIY0ZQND2KSVWZ+POP SVCS, DOB , 20260316 - 20260322",
    "category": "platform_payout",
    "label": "UberEats"
   },
   {
    "date": "2026-03-23",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 351.29,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251303564-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
@@ -6023,26 +5335,10 @@
    "label": "Kupfer & Sohn"
   },
   {
-   "date": "2026-03-23",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 1906.67,
-   "zweck": "EREF+R1YIY0ZQND2KSVWZ+POP SVCS, DOB , 20260316 - 20260322",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-03-23",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 351.29,
-   "zweck": "EREF+251303564-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
    "date": "2026-03-24",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 3636.55,
-   "zweck": "SUMUP PID1181135 PAYOUT 240326",
+   "zweck": "EREF+GP-341160278SVWZ+SUMUP PID1181135 PAYOUT 240326",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -6071,30 +5367,6 @@
    "label": "Getränkelieferant"
   },
   {
-   "date": "2026-03-24",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 3636.55,
-   "zweck": "EREF+GP-341160278SVWZ+SUMUP PID1181135 PAYOUT 240326",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-03-25",
-   "beguenstigter": "Telekom Deutschland GmbH                                              Landgrabenweg 149",
-   "amount": -35.64,
-   "zweck": "Festnetz Vertragskonto 5632773496 RG 7251952759/16.03.2026",
-   "category": "uncategorized",
-   "label": "Telekom Deutschland GmbH                                              Landgrabenweg 149"
-  },
-  {
-   "date": "2026-03-25",
-   "beguenstigter": "Chutney On Top                                                        Emil-Berg Str 20, Freising",
-   "amount": 753.5,
-   "zweck": "Sent from SumUp",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
    "date": "2026-03-25",
    "beguenstigter": "Telekom Deutschland GmbH",
    "amount": -35.64,
@@ -6109,14 +5381,6 @@
    "zweck": "EREF+1bdc430d74f6492ea776deaa1080a50bSVWZ+Sent from SumUp",
    "category": "platform_payout",
    "label": "SumUp"
-  },
-  {
-   "date": "2026-03-26",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
-   "amount": 336.1,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
   },
   {
    "date": "2026-03-26",
@@ -6160,30 +5424,6 @@
   },
   {
    "date": "2026-03-30",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
-   "amount": 3074.49,
-   "zweck": "POP SVCS, DOB , 20260323 - 20260329",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-03-30",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
-   "amount": 47.85,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-03-30",
-   "beguenstigter": "Andreas Kupfer & Sohn GmbH",
-   "amount": -520.97,
-   "zweck": "EREF+0000001591MREF+60932-01CRED+DE16ZZZ00000683919SVWZ+RG.519203 23,81/RG.518626 242,77/RG.519053 254,39ABWA+Andreas Kupfer und Sohn",
-   "category": "supplier_payment",
-   "label": "Kupfer & Sohn"
-  },
-  {
-   "date": "2026-03-30",
    "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 3074.49,
    "zweck": "EREF+2I98CJRX8RIYSVWZ+POP SVCS, DOB , 20260323 - 20260329",
@@ -6197,6 +5437,14 @@
    "zweck": "EREF+251319294-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
+  },
+  {
+   "date": "2026-03-30",
+   "beguenstigter": "Andreas Kupfer & Sohn GmbH",
+   "amount": -520.97,
+   "zweck": "EREF+0000001591MREF+60932-01CRED+DE16ZZZ00000683919SVWZ+RG.519203 23,81/RG.518626 242,77/RG.519053 254,39ABWA+Andreas Kupfer und Sohn",
+   "category": "supplier_payment",
+   "label": "Kupfer & Sohn"
   },
   {
    "date": "2026-03-31",
@@ -6216,9 +5464,9 @@
   },
   {
    "date": "2026-03-31",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 6382.07,
-   "zweck": "SUMUP PID1189053 PAYOUT 310326",
+   "zweck": "EREF+GP-346756766SVWZ+SUMUP PID1189053 PAYOUT 310326",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -6248,11 +5496,11 @@
   },
   {
    "date": "2026-03-31",
-   "beguenstigter": "Chutney On Top                                                        Emil-Berg Str 20 Freising",
+   "beguenstigter": "Chutney On Top",
    "amount": 390.0,
-   "zweck": "Quantum system",
+   "zweck": "EREF+b41def717f10467cbb01ead71f9d4588SVWZ+Quantum system",
    "category": "uncategorized",
-   "label": "Chutney On Top                                                        Emil-Berg Str 20 Freising"
+   "label": "Chutney On Top"
   },
   {
    "date": "2026-03-31",
@@ -6263,36 +5511,12 @@
    "label": "SIVAALAYAM E.V."
   },
   {
-   "date": "2026-03-31",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 6382.07,
-   "zweck": "EREF+GP-346756766SVWZ+SUMUP PID1189053 PAYOUT 310326",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-03-31",
-   "beguenstigter": "Chutney On Top",
-   "amount": 390.0,
-   "zweck": "EREF+b41def717f10467cbb01ead71f9d4588SVWZ+Quantum system",
-   "category": "uncategorized",
-   "label": "Chutney On Top"
-  },
-  {
    "date": "2026-04-01",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 260.2,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251330418-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
-  },
-  {
-   "date": "2026-04-01",
-   "beguenstigter": "Danish Khan",
-   "amount": -1175.46,
-   "zweck": "Gehalt: 2026 März DATUM 01.04.2026, 09.20 UHR",
-   "category": "uncategorized",
-   "label": "Danish Khan"
   },
   {
    "date": "2026-04-01",
@@ -6309,14 +5533,6 @@
    "zweck": "EREF+232005726618MREF+11155417SI00001CRED+DE81ZZZ00000103174SVWZ+11155417 SIGNAL IDUNAKraftfahrtversicherung 01001 FS CT33 BIS 0426",
    "category": "other",
    "label": "Kfz-Versicherung/Steuer"
-  },
-  {
-   "date": "2026-04-01",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 260.2,
-   "zweck": "EREF+251330418-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
   },
   {
    "date": "2026-04-02",
@@ -6336,9 +5552,9 @@
   },
   {
    "date": "2026-04-07",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 5589.51,
-   "zweck": "SUMUP PID1197121 PAYOUT 070426",
+   "zweck": "EREF+GP-352222829SVWZ+SUMUP PID1197121 PAYOUT 070426",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -6360,17 +5576,17 @@
   },
   {
    "date": "2026-04-07",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 261.4,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251341843-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
   {
    "date": "2026-04-07",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 2273.45,
-   "zweck": "POP SVCS, DOB , 20260330 - 20260405",
+   "zweck": "EREF+1PY8W2MZSTUNSVWZ+POP SVCS, DOB , 20260330 - 20260405",
    "category": "platform_payout",
    "label": "UberEats"
   },
@@ -6381,14 +5597,6 @@
    "zweck": "EREF+0000001593MREF+60932-01CRED+DE16ZZZ00000683919SVWZ+RG.520587 -10,34/RG.520410 284,90ABWA+Andreas Kupfer und Sohn",
    "category": "supplier_payment",
    "label": "Kupfer & Sohn"
-  },
-  {
-   "date": "2026-04-07",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -25.0,
-   "zweck": "Fritz-Berne-Str. 54 .1. WHG.11, Abschlag Strom 04/2026 Betrag 25,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-04-07",
@@ -6407,30 +5615,6 @@
    "label": "RK Traders"
   },
   {
-   "date": "2026-04-07",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 5589.51,
-   "zweck": "EREF+GP-352222829SVWZ+SUMUP PID1197121 PAYOUT 070426",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-04-07",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 261.4,
-   "zweck": "EREF+251341843-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-04-07",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 2273.45,
-   "zweck": "EREF+1PY8W2MZSTUNSVWZ+POP SVCS, DOB , 20260330 - 20260405",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
    "date": "2026-04-09",
    "beguenstigter": "Finanzamt Freising",
    "amount": -57.2,
@@ -6440,17 +5624,17 @@
   },
   {
    "date": "2026-04-13",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 2001.15,
-   "zweck": "POP SVCS, DOB , 20260406 - 20260412",
+   "zweck": "EREF+LTW6HRXG0C0WSVWZ+POP SVCS, DOB , 20260406 - 20260412",
    "category": "platform_payout",
    "label": "UberEats"
   },
   {
    "date": "2026-04-13",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 495.73,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251356161-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
@@ -6464,11 +5648,11 @@
   },
   {
    "date": "2026-04-13",
-   "beguenstigter": "Industrie- und Handelskammer fur Munchen und Oberbayern",
+   "beguenstigter": "Industrie- und Handelskammer fur Munchen und Oberbayer",
    "amount": -171.53,
-   "zweck": "13.03.2026 171.53 85642517",
+   "zweck": "EREF+KD10003413818 RG85642517 541MREF+100034138181CRED+DE78ZZZ00000120979SVWZ+13.03.2026 171.53 85642517",
    "category": "uncategorized",
-   "label": "Industrie- und Handelskammer fur Munchen und Oberbayern"
+   "label": "Industrie- und Handelskammer fur Munchen und Oberbayer"
   },
   {
    "date": "2026-04-13",
@@ -6503,34 +5687,10 @@
    "label": "Rajesh Global Food"
   },
   {
-   "date": "2026-04-13",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 2001.15,
-   "zweck": "EREF+LTW6HRXG0C0WSVWZ+POP SVCS, DOB , 20260406 - 20260412",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-04-13",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 495.73,
-   "zweck": "EREF+251356161-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-04-13",
-   "beguenstigter": "Industrie- und Handelskammer fur Munchen und Oberbayer",
-   "amount": -171.53,
-   "zweck": "EREF+KD10003413818 RG85642517 541MREF+100034138181CRED+DE78ZZZ00000120979SVWZ+13.03.2026 171.53 85642517",
-   "category": "uncategorized",
-   "label": "Industrie- und Handelskammer fur Munchen und Oberbayer"
-  },
-  {
    "date": "2026-04-14",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 4552.59,
-   "zweck": "SUMUP PID1205689 PAYOUT 140426",
+   "zweck": "EREF+GP-358112301SVWZ+SUMUP PID1205689 PAYOUT 140426",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -6541,62 +5701,6 @@
    "zweck": "EREF+20138375422SVWZ+AUSZAHLUNG PO-20138375422 12-04-2026 LIEFERANDO.DE (10593163)",
    "category": "platform_payout",
    "label": "Lieferando"
-  },
-  {
-   "date": "2026-04-14",
-   "beguenstigter": "HAMBERGER GROSSMARKT GMBH//MUENCHEN/DE",
-   "amount": -127.42,
-   "zweck": "2026-04-13T15:23 Debitk.5 2030-12",
-   "category": "uncategorized",
-   "label": "HAMBERGER GROSSMARKT GMBH//MUENCHEN/DE"
-  },
-  {
-   "date": "2026-04-14",
-   "beguenstigter": "SumUp Payments Limited                                                16-20 Shorts Gardens",
-   "amount": -48.0,
-   "zweck": "SUMUP LIMITED 10.04.2026",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-04-14",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -808.0,
-   "zweck": "Landsberger Str. 437 .0, Abschlag Strom 04/2026 Betrag 808,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-04-14",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -808.0,
-   "zweck": "EREF+3938224329248 -VK-  002113138578MREF+M00211313857800001CRED+DE3711000000030246SVWZ+Landsberger Str. 437 .0, Abschlag Strom 04/2026 Betrag 808,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-04-14",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -612.0,
-   "zweck": "Landsberger Str. 437 .0., Abschlag Gas 04/2026 Betrag 612,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-04-14",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -612.0,
-   "zweck": "EREF+3938224329230 -VK-  002113138537MREF+M00211313853700001CRED+DE3711000000030246SVWZ+Landsberger Str. 437 .0., Abschlag Gas 04/2026 Betrag 612,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-04-14",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 4552.59,
-   "zweck": "EREF+GP-358112301SVWZ+SUMUP PID1205689 PAYOUT 140426",
-   "category": "platform_payout",
-   "label": "SumUp"
   },
   {
    "date": "2026-04-14",
@@ -6615,6 +5719,22 @@
    "label": "SumUp"
   },
   {
+   "date": "2026-04-14",
+   "beguenstigter": "SWM Versorgungs GmbH",
+   "amount": -808.0,
+   "zweck": "EREF+3938224329248 -VK-  002113138578MREF+M00211313857800001CRED+DE3711000000030246SVWZ+Landsberger Str. 437 .0, Abschlag Strom 04/2026 Betrag 808,00 Eur",
+   "category": "other",
+   "label": "Miete/Nebenkosten"
+  },
+  {
+   "date": "2026-04-14",
+   "beguenstigter": "SWM Versorgungs GmbH",
+   "amount": -612.0,
+   "zweck": "EREF+3938224329230 -VK-  002113138537MREF+M00211313853700001CRED+DE3711000000030246SVWZ+Landsberger Str. 437 .0., Abschlag Gas 04/2026 Betrag 612,00 Eur",
+   "category": "other",
+   "label": "Miete/Nebenkosten"
+  },
+  {
    "date": "2026-04-15",
    "beguenstigter": "Kloh GmbH",
    "amount": -119.0,
@@ -6624,11 +5744,11 @@
   },
   {
    "date": "2026-04-15",
-   "beguenstigter": "KREISVERWALTUNGSREFERAT GL/222//M.nchen/DE",
+   "beguenstigter": "KREISVERWALTUNGSREFERAT GL/222",
    "amount": -106.0,
-   "zweck": "2026-04-14T11:14 Debitk.5 2030-12",
+   "zweck": "SVWZ+2026-04-14T11.14Debitk.5 2030-12ABWA+KREISVERWALTUNGSREFERAT GL/222//M.nchen/DE",
    "category": "uncategorized",
-   "label": "KREISVERWALTUNGSREFERAT GL/222//M.nchen/DE"
+   "label": "KREISVERWALTUNGSREFERAT GL/222"
   },
   {
    "date": "2026-04-15",
@@ -6653,14 +5773,6 @@
    "zweck": "KREF+1582359380-20260415012723SVWZ+ReNr 326105373, KdNr 23698DATUM 15.04.2026, 01.27 UHR",
    "category": "supplier_payment",
    "label": "GFT Group"
-  },
-  {
-   "date": "2026-04-15",
-   "beguenstigter": "Alan Malih & Rani Yakoub Gerges",
-   "amount": -1868.43,
-   "zweck": "Nebenkosten Nachzahlung 2025 DATUM 15.04.2026, 01.21 UHR",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-04-15",
@@ -6703,14 +5815,6 @@
    "label": "S-Markt & Mehrwert GmbH & Co. KG"
   },
   {
-   "date": "2026-04-15",
-   "beguenstigter": "KREISVERWALTUNGSREFERAT GL/222",
-   "amount": -106.0,
-   "zweck": "SVWZ+2026-04-14T11.14Debitk.5 2030-12ABWA+KREISVERWALTUNGSREFERAT GL/222//M.nchen/DE",
-   "category": "uncategorized",
-   "label": "KREISVERWALTUNGSREFERAT GL/222"
-  },
-  {
    "date": "2026-04-16",
    "beguenstigter": "Finanzamt Freising Finanzkasse",
    "amount": -2064.4,
@@ -6722,25 +5826,9 @@
    "date": "2026-04-17",
    "beguenstigter": "Rudolf-Kaiser-Stiftung",
    "amount": 1308.0,
-   "zweck": "Rechnung 2026-029 vom 13.04.2026",
-   "category": "uncategorized",
-   "label": "Rudolf-Kaiser-Stiftung"
-  },
-  {
-   "date": "2026-04-17",
-   "beguenstigter": "Rudolf-Kaiser-Stiftung",
-   "amount": 1308.0,
    "zweck": "EREF+SV1326041612SVWZ+Rechnung 2026-029 vom13.04.2026",
    "category": "uncategorized",
    "label": "Rudolf-Kaiser-Stiftung"
-  },
-  {
-   "date": "2026-04-17",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
-   "amount": 347.63,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
   },
   {
    "date": "2026-04-17",
@@ -6752,9 +5840,9 @@
   },
   {
    "date": "2026-04-20",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 1778.15,
-   "zweck": "POP SVCS, DOB , 20260413 - 20260419",
+   "zweck": "EREF+7O7S6DX1WMEBSVWZ+POP SVCS, DOB , 20260413 - 20260419",
    "category": "platform_payout",
    "label": "UberEats"
   },
@@ -6775,38 +5863,6 @@
    "label": "Polizeiverwaltungsamt"
   },
   {
-   "date": "2026-04-20",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 1778.15,
-   "zweck": "EREF+7O7S6DX1WMEBSVWZ+POP SVCS, DOB , 20260413 - 20260419",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-04-21",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
-   "amount": 5846.11,
-   "zweck": "SUMUP PID1213313 PAYOUT 210426",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-04-21",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
-   "amount": 510.14,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-04-21",
-   "beguenstigter": "DERDENGELDEN TAKEAWAYCOM",
-   "amount": 774.37,
-   "zweck": "EREF+20199082202SVWZ+AUSZAHLUNG PO-20199082202 19-04-2026 LIEFERANDO.DE (10593163)",
-   "category": "platform_payout",
-   "label": "Lieferando"
-  },
-  {
    "date": "2026-04-21",
    "beguenstigter": "SUMUP LIMITED",
    "amount": 5846.11,
@@ -6821,6 +5877,14 @@
    "zweck": "EREF+251378510-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
+  },
+  {
+   "date": "2026-04-21",
+   "beguenstigter": "DERDENGELDEN TAKEAWAYCOM",
+   "amount": 774.37,
+   "zweck": "EREF+20199082202SVWZ+AUSZAHLUNG PO-20199082202 19-04-2026 LIEFERANDO.DE (10593163)",
+   "category": "platform_payout",
+   "label": "Lieferando"
   },
   {
    "date": "2026-04-22",
@@ -6866,33 +5930,9 @@
    "date": "2026-04-22",
    "beguenstigter": "Anar Mehta",
    "amount": -3652.66,
-   "zweck": "Gehalt : March 2026 DATUM 22.04.2026, 17.36 UHR",
-   "category": "other",
-   "label": "Gehalt"
-  },
-  {
-   "date": "2026-04-22",
-   "beguenstigter": "Anar Mehta",
-   "amount": -3652.66,
    "zweck": "KREF+-2034513793-20260422173624SVWZ+Gehalt . March 2026DATUM 22.04.2026, 17.36 UHR",
    "category": "other",
    "label": "Gehalt"
-  },
-  {
-   "date": "2026-04-22",
-   "beguenstigter": "THE GOURMET ENTERTAINTMENT COMPANY",
-   "amount": -199.21,
-   "zweck": "20260415FCB VS. REAL MADRI, rechnung nr VR32627/0016 DATUM 22.04.2026, 17.27 UHR",
-   "category": "uncategorized",
-   "label": "THE GOURMET ENTERTAINTMENT COMPANY"
-  },
-  {
-   "date": "2026-04-22",
-   "beguenstigter": "FK FREISING",
-   "amount": 4618.44,
-   "zweck": "EREF+115/123/30853 UMS.G2004202608180001SVWZ+ERSTATT.115/123/30853UMS.ST 3VJ.25 4.588,44 EUR, UMS.ST 3VJ.25 VERSP.Z 30,00 EURABWA+FK FREISING",
-   "category": "other",
-   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-04-22",
@@ -6903,18 +5943,26 @@
    "label": "THE GOURMET ENTERTAINTMENTCOMPANY"
   },
   {
+   "date": "2026-04-22",
+   "beguenstigter": "FK FREISING",
+   "amount": 4618.44,
+   "zweck": "EREF+115/123/30853 UMS.G2004202608180001SVWZ+ERSTATT.115/123/30853UMS.ST 3VJ.25 4.588,44 EUR, UMS.ST 3VJ.25 VERSP.Z 30,00 EURABWA+FK FREISING",
+   "category": "other",
+   "label": "Finanzamt/Steuern"
+  },
+  {
    "date": "2026-04-24",
-   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG                                  22305 Hamburg",
+   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG",
    "amount": 174.0,
-   "zweck": "Kto: 0003000000 / Rg. Nr. 2026-025 / Rg. Datum 26.3.2026 /",
+   "zweck": "SVWZ+Kto. 0003000000 / Rg.Nr. 2026-025 / Rg. Datum 26.3.2026 /",
    "category": "other",
    "label": "Personal/Sozialversicherung"
   },
   {
    "date": "2026-04-24",
-   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG                                  22305 Hamburg",
+   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG",
    "amount": 141.5,
-   "zweck": "Kto: 0003000000 / Rg. Nr. 2026-024 / Rg. Datum 26.3.2026 /",
+   "zweck": "SVWZ+Kto. 0003000000 / Rg.Nr. 2026-024 / Rg. Datum 26.3.2026 /",
    "category": "other",
    "label": "Personal/Sozialversicherung"
   },
@@ -6936,38 +5984,6 @@
   },
   {
    "date": "2026-04-24",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
-   "amount": -47.09,
-   "zweck": "Purchase at Temu.com",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
-  },
-  {
-   "date": "2026-04-24",
-   "beguenstigter": "Telekom Deutschland GmbH                                              Landgrabenweg 149",
-   "amount": -35.64,
-   "zweck": "Festnetz Vertragskonto 5632773496 RG 7268215960/15.04.2026",
-   "category": "uncategorized",
-   "label": "Telekom Deutschland GmbH                                              Landgrabenweg 149"
-  },
-  {
-   "date": "2026-04-24",
-   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG",
-   "amount": 174.0,
-   "zweck": "SVWZ+Kto. 0003000000 / Rg.Nr. 2026-025 / Rg. Datum 26.3.2026 /",
-   "category": "other",
-   "label": "Personal/Sozialversicherung"
-  },
-  {
-   "date": "2026-04-24",
-   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG",
-   "amount": 141.5,
-   "zweck": "SVWZ+Kto. 0003000000 / Rg.Nr. 2026-024 / Rg. Datum 26.3.2026 /",
-   "category": "other",
-   "label": "Personal/Sozialversicherung"
-  },
-  {
-   "date": "2026-04-24",
    "beguenstigter": "Klarna Bank AB",
    "amount": -47.09,
    "zweck": "EREF+019db6ba3d88777aae933abe18d6857dMREF+87e2d49745dc4ad983daec1e034019c4CRED+SE71ZZZ5567370431SVWZ+Purchase at Temu.com",
@@ -6981,30 +5997,6 @@
    "zweck": "EREF+Zahlbeleg 344602074859MREF+DE000201000200000000000000017508905CRED+DE93ZZZ00000078611SVWZ+Festnetz Vertragskonto 5632773496 RG 7268215960/15.04.2026",
    "category": "uncategorized",
    "label": "Telekom Deutschland GmbH"
-  },
-  {
-   "date": "2026-04-27",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
-   "amount": 1483.98,
-   "zweck": "POP SVCS, DOB , 20260420 - 20260426",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-04-27",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
-   "amount": 500.26,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-04-27",
-   "beguenstigter": "Andreas Kupfer & Sohn GmbH",
-   "amount": -873.98,
-   "zweck": "EREF+0000001601MREF+60932-01CRED+DE16ZZZ00000683919SVWZ+RG.524547 252,73/RG.523632 278,69/RG.524033 342,56ABWA+Andreas Kupfer und Sohn",
-   "category": "supplier_payment",
-   "label": "Kupfer & Sohn"
   },
   {
    "date": "2026-04-27",
@@ -7023,10 +6015,18 @@
    "label": "Wolt"
   },
   {
+   "date": "2026-04-27",
+   "beguenstigter": "Andreas Kupfer & Sohn GmbH",
+   "amount": -873.98,
+   "zweck": "EREF+0000001601MREF+60932-01CRED+DE16ZZZ00000683919SVWZ+RG.524547 252,73/RG.523632 278,69/RG.524033 342,56ABWA+Andreas Kupfer und Sohn",
+   "category": "supplier_payment",
+   "label": "Kupfer & Sohn"
+  },
+  {
    "date": "2026-04-28",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 6396.6,
-   "zweck": "SUMUP PID1219760 PAYOUT 280426",
+   "zweck": "EREF+GP-370105597SVWZ+SUMUP PID1219760 PAYOUT 280426",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -7063,18 +6063,10 @@
    "label": "Personal/Sozialversicherung"
   },
   {
-   "date": "2026-04-28",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 6396.6,
-   "zweck": "EREF+GP-370105597SVWZ+SUMUP PID1219760 PAYOUT 280426",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
    "date": "2026-04-29",
-   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG                                  22305 Hamburg",
+   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG",
    "amount": 196.5,
-   "zweck": "Kto: 0003000000 / Rg. Nr. 2026-030 / Rg. Datum 13.4.2026 /",
+   "zweck": "SVWZ+Kto. 0003000000 / Rg.Nr. 2026-030 / Rg. Datum 13.4.2026 /",
    "category": "other",
    "label": "Personal/Sozialversicherung"
   },
@@ -7087,28 +6079,12 @@
    "label": "Getränkelieferant"
   },
   {
-   "date": "2026-04-29",
-   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG",
-   "amount": 196.5,
-   "zweck": "SVWZ+Kto. 0003000000 / Rg.Nr. 2026-030 / Rg. Datum 13.4.2026 /",
-   "category": "other",
-   "label": "Personal/Sozialversicherung"
-  },
-  {
    "date": "2026-04-30",
    "beguenstigter": "",
    "amount": -38.7,
    "zweck": "Abrechnung 30.04.2026 siehe Anlage",
    "category": "uncategorized",
    "label": "(ohne Angabe)"
-  },
-  {
-   "date": "2026-04-30",
-   "beguenstigter": "REALIZE GmbH",
-   "amount": 1290.5,
-   "zweck": "Rechnung: 2026-031 vom 15.04.2026",
-   "category": "uncategorized",
-   "label": "REALIZE GmbH"
   },
   {
    "date": "2026-04-30",
@@ -7144,17 +6120,17 @@
   },
   {
    "date": "2026-05-04",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 1289.86,
-   "zweck": "POP SVCS, DOB , 20260427 - 20260503",
+   "zweck": "EREF+RIR2IYZLG9D2SVWZ+POP SVCS, DOB , 20260427 - 20260503",
    "category": "platform_payout",
    "label": "UberEats"
   },
   {
    "date": "2026-05-04",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 446.93,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251403847-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
@@ -7223,26 +6199,10 @@
    "label": "BOWEN INTERNATIONAL GMBH"
   },
   {
-   "date": "2026-05-04",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 1289.86,
-   "zweck": "EREF+RIR2IYZLG9D2SVWZ+POP SVCS, DOB , 20260427 - 20260503",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-05-04",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 446.93,
-   "zweck": "EREF+251403847-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
    "date": "2026-05-05",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 4479.99,
-   "zweck": "SUMUP PID1226449 PAYOUT 050526",
+   "zweck": "EREF+GP-376201763SVWZ+SUMUP PID1226449 PAYOUT 050526",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -7271,36 +6231,12 @@
    "label": "Kupfer & Sohn"
   },
   {
-   "date": "2026-05-05",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 4479.99,
-   "zweck": "EREF+GP-376201763SVWZ+SUMUP PID1226449 PAYOUT 050526",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-05-06",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
-   "amount": 541.99,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
    "date": "2026-05-06",
    "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 541.99,
    "zweck": "EREF+251417724-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
-  },
-  {
-   "date": "2026-05-07",
-   "beguenstigter": "CUTNEY ON TOP GMBH",
-   "amount": -2366.43,
-   "zweck": "ReNr 2026/72 DATUM 07.05.2026, 11.53 UHR",
-   "category": "uncategorized",
-   "label": "CUTNEY ON TOP GMBH"
   },
   {
    "date": "2026-05-07",
@@ -7322,14 +6258,6 @@
    "date": "2026-05-07",
    "beguenstigter": "SWM Versorgungs GmbH",
    "amount": -25.0,
-   "zweck": "Fritz-Berne-Str. 54 .1. WHG.11, Abschlag Strom 05/2026 Betrag 25,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-05-07",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -25.0,
    "zweck": "EREF+3933268642074 -VK-  002113492934MREF+M00211349293400001CRED+DE3711000000030246SVWZ+Fritz-Berne-Str. 54 .1. WHG.11, Abschlag Strom 05/2026 Betrag 25,00 Eur",
    "category": "other",
    "label": "Miete/Nebenkosten"
@@ -7344,17 +6272,17 @@
   },
   {
    "date": "2026-05-11",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 814.75,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251424158-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
   {
    "date": "2026-05-11",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 1743.51,
-   "zweck": "POP SVCS, DOB , 20260504 - 20260510",
+   "zweck": "EREF+U6JA6QBG8VH0SVWZ+POP SVCS, DOB , 20260504 - 20260510",
    "category": "platform_payout",
    "label": "UberEats"
   },
@@ -7407,34 +6335,18 @@
    "label": "Getränkelieferant"
   },
   {
-   "date": "2026-05-11",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 814.75,
-   "zweck": "EREF+251424158-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-05-11",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 1743.51,
-   "zweck": "EREF+U6JA6QBG8VH0SVWZ+POP SVCS, DOB , 20260504 - 20260510",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
    "date": "2026-05-12",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 5268.92,
-   "zweck": "SUMUP PID1233585 PAYOUT 120526",
+   "zweck": "EREF+GP-382928163SVWZ+SUMUP PID1233585 PAYOUT 120526",
    "category": "platform_payout",
    "label": "SumUp"
   },
   {
    "date": "2026-05-12",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 1144.41,
-   "zweck": "SUMUP PID1233585 PAYOUT 120526",
+   "zweck": "EREF+GP-382878174SVWZ+SUMUP PID1233585 PAYOUT 120526",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -7453,22 +6365,6 @@
    "zweck": "EREF+26460125860MREF+P34222-1CRED+DE86ZZZ00000071171SVWZ+S-Cashback-Zahlungen Belegnummer 26460125860",
    "category": "uncategorized",
    "label": "S-Markt & Mehrwert GmbH & Co. KG"
-  },
-  {
-   "date": "2026-05-12",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 5268.92,
-   "zweck": "EREF+GP-382928163SVWZ+SUMUP PID1233585 PAYOUT 120526",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-05-12",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 1144.41,
-   "zweck": "EREF+GP-382878174SVWZ+SUMUP PID1233585 PAYOUT 120526",
-   "category": "platform_payout",
-   "label": "SumUp"
   },
   {
    "date": "2026-05-13",
@@ -7506,23 +6402,7 @@
    "date": "2026-05-15",
    "beguenstigter": "SWM Versorgungs GmbH",
    "amount": -808.0,
-   "zweck": "Landsberger Str. 437 .0, Abschlag Strom 05/2026 Betrag 808,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-05-15",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -808.0,
    "zweck": "EREF+3933268894558 -VK-  002113138578MREF+M00211313857800001CRED+DE3711000000030246SVWZ+Landsberger Str. 437 .0, Abschlag Strom 05/2026 Betrag 808,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-05-15",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -612.0,
-   "zweck": "Landsberger Str. 437 .0., Abschlag Gas 05/2026 Betrag 612,00 Eur",
    "category": "other",
    "label": "Miete/Nebenkosten"
   },
@@ -7576,17 +6456,17 @@
   },
   {
    "date": "2026-05-18",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 2751.79,
-   "zweck": "POP SVCS, DOB , 20260511 - 20260517",
+   "zweck": "EREF+OE5UC74AXS4PSVWZ+POP SVCS, DOB , 20260511 - 20260517",
    "category": "platform_payout",
    "label": "UberEats"
   },
   {
    "date": "2026-05-18",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 476.16,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251437829-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
@@ -7600,11 +6480,11 @@
   },
   {
    "date": "2026-05-18",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
+   "beguenstigter": "Klarna Bank AB",
    "amount": -11.19,
-   "zweck": "Purchase at Temu.com",
+   "zweck": "EREF+019e2afd582b769a82a5cf2bb802b25fMREF+87e2d49745dc4ad983daec1e034019c4CRED+SE71ZZZ5567370431SVWZ+Purchase at Temu.com",
    "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
+   "label": "Klarna Bank AB"
   },
   {
    "date": "2026-05-18",
@@ -7631,30 +6511,6 @@
    "label": "Personal/Sozialversicherung"
   },
   {
-   "date": "2026-05-18",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 2751.79,
-   "zweck": "EREF+OE5UC74AXS4PSVWZ+POP SVCS, DOB , 20260511 - 20260517",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-05-18",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 476.16,
-   "zweck": "EREF+251437829-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-05-18",
-   "beguenstigter": "Klarna Bank AB",
-   "amount": -11.19,
-   "zweck": "EREF+019e2afd582b769a82a5cf2bb802b25fMREF+87e2d49745dc4ad983daec1e034019c4CRED+SE71ZZZ5567370431SVWZ+Purchase at Temu.com",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB"
-  },
-  {
    "date": "2026-05-19",
    "beguenstigter": "Rajesh Global Food GmbH",
    "amount": -456.1,
@@ -7669,22 +6525,6 @@
    "zweck": "EREF+20454598992SVWZ+AUSZAHLUNG PO-20454598992 17-05-2026 LIEFERANDO.DE (10593163)",
    "category": "platform_payout",
    "label": "Lieferando"
-  },
-  {
-   "date": "2026-05-20",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
-   "amount": 4172.95,
-   "zweck": "SUMUP PID1240594 PAYOUT 190526",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-05-20",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
-   "amount": 253.75,
-   "zweck": "SUMUP PID1240594 PAYOUT 190526",
-   "category": "platform_payout",
-   "label": "SumUp"
   },
   {
    "date": "2026-05-20",
@@ -7704,17 +6544,17 @@
   },
   {
    "date": "2026-05-21",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 705.73,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251450529-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
   {
    "date": "2026-05-21",
-   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG                                  22305 Hamburg",
+   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG",
    "amount": 210.0,
-   "zweck": "Kto: 0001008362 / Rg. Nr. 2026-034 / Rg. Datum 8.5.2026 /",
+   "zweck": "SVWZ+Kto. 0001008362 / Rg.Nr. 2026-034 / Rg. Datum 8.5.2026 /",
    "category": "other",
    "label": "Personal/Sozialversicherung"
   },
@@ -7735,92 +6575,12 @@
    "label": "Munjal Mehta"
   },
   {
-   "date": "2026-05-21",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 705.73,
-   "zweck": "EREF+251450529-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-05-21",
-   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG",
-   "amount": 210.0,
-   "zweck": "SVWZ+Kto. 0001008362 / Rg.Nr. 2026-034 / Rg. Datum 8.5.2026 /",
-   "category": "other",
-   "label": "Personal/Sozialversicherung"
-  },
-  {
    "date": "2026-05-26",
    "beguenstigter": "DERDENGELDEN TAKEAWAYCOM",
    "amount": 1051.29,
    "zweck": "EREF+20513289292SVWZ+AUSZAHLUNG PO-20513289292 24-05-2026 LIEFERANDO.DE (10593163)",
    "category": "platform_payout",
    "label": "Lieferando"
-  },
-  {
-   "date": "2026-05-26",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
-   "amount": 446.25,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-05-26",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
-   "amount": 3123.77,
-   "zweck": "SUMUP PID1247423 PAYOUT 260526",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-05-26",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
-   "amount": 2757.0,
-   "zweck": "SUMUP PID1247423 PAYOUT 260526",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-05-26",
-   "beguenstigter": "Josef A. Korn GmbH & Co.",
-   "amount": -624.39,
-   "zweck": "KREF+90648359-20260526125130SVWZ+ReNr 6283021, KdNr 4002868DATUM 26.05.2026, 12.51 UHR",
-   "category": "uncategorized",
-   "label": "Josef A. Korn GmbH & Co."
-  },
-  {
-   "date": "2026-05-26",
-   "beguenstigter": "Klarna Bank AB                                                        Sveavagen 46",
-   "amount": -56.08,
-   "zweck": "Purchase at Temu.com",
-   "category": "uncategorized",
-   "label": "Klarna Bank AB                                                        Sveavagen 46"
-  },
-  {
-   "date": "2026-05-26",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
-   "amount": 1996.71,
-   "zweck": "POP SVCS, DOB , 20260518 - 20260524",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-05-26",
-   "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
-   "amount": -365.91,
-   "zweck": "MREF+1011492001CRED+DE44ZZZ00000011496SVWZ+1500127092 365,91",
-   "category": "other",
-   "label": "Getränkelieferant"
-  },
-  {
-   "date": "2026-05-26",
-   "beguenstigter": "Andreas Kupfer & Sohn GmbH",
-   "amount": -375.36,
-   "zweck": "EREF+0000001612MREF+60932-01CRED+DE16ZZZ00000683919SVWZ+RG.530300 121,98/RG.529896 253,38ABWA+Andreas Kupfer und Sohn",
-   "category": "supplier_payment",
-   "label": "Kupfer & Sohn"
   },
   {
    "date": "2026-05-26",
@@ -7848,6 +6608,14 @@
   },
   {
    "date": "2026-05-26",
+   "beguenstigter": "Josef A. Korn GmbH & Co.",
+   "amount": -624.39,
+   "zweck": "KREF+90648359-20260526125130SVWZ+ReNr 6283021, KdNr 4002868DATUM 26.05.2026, 12.51 UHR",
+   "category": "uncategorized",
+   "label": "Josef A. Korn GmbH & Co."
+  },
+  {
+   "date": "2026-05-26",
    "beguenstigter": "Klarna Bank AB",
    "amount": -56.08,
    "zweck": "EREF+019e598508b87f53bbcfc90867503d97MREF+87e2d49745dc4ad983daec1e034019c4CRED+SE71ZZZ5567370431SVWZ+Purchase at Temu.com",
@@ -7861,6 +6629,22 @@
    "zweck": "EREF+1FM6U3TDL0IWSVWZ+POP SVCS, DOB , 20260518 - 20260524",
    "category": "platform_payout",
    "label": "UberEats"
+  },
+  {
+   "date": "2026-05-26",
+   "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
+   "amount": -365.91,
+   "zweck": "MREF+1011492001CRED+DE44ZZZ00000011496SVWZ+1500127092 365,91",
+   "category": "other",
+   "label": "Getränkelieferant"
+  },
+  {
+   "date": "2026-05-26",
+   "beguenstigter": "Andreas Kupfer & Sohn GmbH",
+   "amount": -375.36,
+   "zweck": "EREF+0000001612MREF+60932-01CRED+DE16ZZZ00000683919SVWZ+RG.530300 121,98/RG.529896 253,38ABWA+Andreas Kupfer und Sohn",
+   "category": "supplier_payment",
+   "label": "Kupfer & Sohn"
   },
   {
    "date": "2026-05-27",
@@ -7888,11 +6672,11 @@
   },
   {
    "date": "2026-05-27",
-   "beguenstigter": "Telekom Deutschland GmbH                                              Landgrabenweg 149",
+   "beguenstigter": "Telekom Deutschland GmbH",
    "amount": -35.64,
-   "zweck": "Festnetz Vertragskonto 5632773496 RG 7284467391/15.05.2026",
+   "zweck": "EREF+Zahlbeleg 349882326586MREF+DE000201000200000000000000017508905CRED+DE93ZZZ00000078611SVWZ+Festnetz Vertragskonto 5632773496 RG 7284467391/15.05.2026",
    "category": "uncategorized",
-   "label": "Telekom Deutschland GmbH                                              Landgrabenweg 149"
+   "label": "Telekom Deutschland GmbH"
   },
   {
    "date": "2026-05-27",
@@ -7911,14 +6695,6 @@
    "label": "Personal/Sozialversicherung"
   },
   {
-   "date": "2026-05-27",
-   "beguenstigter": "Telekom Deutschland GmbH",
-   "amount": -35.64,
-   "zweck": "EREF+Zahlbeleg 349882326586MREF+DE000201000200000000000000017508905CRED+DE93ZZZ00000078611SVWZ+Festnetz Vertragskonto 5632773496 RG 7284467391/15.05.2026",
-   "category": "uncategorized",
-   "label": "Telekom Deutschland GmbH"
-  },
-  {
    "date": "2026-05-29",
    "beguenstigter": "",
    "amount": -37.66,
@@ -7928,27 +6704,19 @@
   },
   {
    "date": "2026-06-01",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 791.14,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251468943-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
   {
    "date": "2026-06-01",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 1634.4,
-   "zweck": "POP SVCS, DOB , 20260525 - 20260531",
+   "zweck": "EREF+S2TPSTCLK7ZLSVWZ+POP SVCS, DOB , 20260525 - 20260531",
    "category": "platform_payout",
    "label": "UberEats"
-  },
-  {
-   "date": "2026-06-01",
-   "beguenstigter": "Syed Omer Farooq Muqtar",
-   "amount": -588.0,
-   "zweck": "Gehalt : Mai 2026 DATUM 31.05.2026, 07.58 UHR",
-   "category": "other",
-   "label": "Gehalt"
   },
   {
    "date": "2026-06-01",
@@ -7997,14 +6765,6 @@
    "zweck": "KREF+1211375561-20260530140635SVWZ+RECHNUNG-Nr 20260693DATUM 30.05.2026, 14.07 UHR",
    "category": "uncategorized",
    "label": "Westend Elektro"
-  },
-  {
-   "date": "2026-06-01",
-   "beguenstigter": "Anar Mehta",
-   "amount": -3652.66,
-   "zweck": "Gehalt : April 2026 DATUM 29.05.2026, 22.02 UHR",
-   "category": "other",
-   "label": "Gehalt"
   },
   {
    "date": "2026-06-01",
@@ -8111,26 +6871,10 @@
    "label": "DO & CO Gastronomie GmbH"
   },
   {
-   "date": "2026-06-01",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 791.14,
-   "zweck": "EREF+251468943-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-06-01",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 1634.4,
-   "zweck": "EREF+S2TPSTCLK7ZLSVWZ+POP SVCS, DOB , 20260525 - 20260531",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
    "date": "2026-06-02",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 3814.89,
-   "zweck": "SUMUP PID1254530 PAYOUT 020626",
+   "zweck": "EREF+GP-407853636SVWZ+SUMUP PID1254530 PAYOUT 020626",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -8144,9 +6888,9 @@
   },
   {
    "date": "2026-06-02",
-   "beguenstigter": "SUMUP LIMITED                                                         BLOCK 8, HARCOURT CENTRE",
+   "beguenstigter": "SUMUP LIMITED",
    "amount": 984.15,
-   "zweck": "SUMUP PID1254530 PAYOUT 020626",
+   "zweck": "EREF+GP-407804897SVWZ+SUMUP PID1254530 PAYOUT 020626",
    "category": "platform_payout",
    "label": "SumUp"
   },
@@ -8175,26 +6919,10 @@
    "label": "Finanzamt/Steuern"
   },
   {
-   "date": "2026-06-02",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 3814.89,
-   "zweck": "EREF+GP-407853636SVWZ+SUMUP PID1254530 PAYOUT 020626",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
-   "date": "2026-06-02",
-   "beguenstigter": "SUMUP LIMITED",
-   "amount": 984.15,
-   "zweck": "EREF+GP-407804897SVWZ+SUMUP PID1254530 PAYOUT 020626",
-   "category": "platform_payout",
-   "label": "SumUp"
-  },
-  {
    "date": "2026-06-03",
-   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG                                  22305 Hamburg",
+   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG",
    "amount": 251.0,
-   "zweck": "Kto: 0001008362 / Rg. Nr. 2026-041 / Rg. Datum 27.5.2026 /",
+   "zweck": "SVWZ+Kto. 0001008362 / Rg.Nr. 2026-041 / Rg. Datum 27.5.2026 /",
    "category": "other",
    "label": "Personal/Sozialversicherung"
   },
@@ -8205,22 +6933,6 @@
    "zweck": "MREF+14428CRED+DE57ZZZ00001389826SVWZ+Ratenzahlung zu RE20251696",
    "category": "uncategorized",
    "label": "CHRISTOS SIOSIOS"
-  },
-  {
-   "date": "2026-06-03",
-   "beguenstigter": "Verwaltungs-Berufsgenossenschaft VBG",
-   "amount": 251.0,
-   "zweck": "SVWZ+Kto. 0001008362 / Rg.Nr. 2026-041 / Rg. Datum 27.5.2026 /",
-   "category": "other",
-   "label": "Personal/Sozialversicherung"
-  },
-  {
-   "date": "2026-06-05",
-   "beguenstigter": "Arnulfbogen Real Estate GmbH & Co. KG",
-   "amount": 163.71,
-   "zweck": "RNr. 2026-036 RDat. 13.05.2026 KNr. 8",
-   "category": "uncategorized",
-   "label": "Arnulfbogen Real Estate GmbH & Co. KG"
   },
   {
    "date": "2026-06-05",
@@ -8248,17 +6960,17 @@
   },
   {
    "date": "2026-06-08",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 1724.18,
-   "zweck": "POP SVCS, DOB , 20260601 - 20260607",
+   "zweck": "EREF+M0IE3TJ23YUPSVWZ+POP SVCS, DOB , 20260601 - 20260607",
    "category": "platform_payout",
    "label": "UberEats"
   },
   {
    "date": "2026-06-08",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 472.72,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251487495-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
@@ -8269,14 +6981,6 @@
    "zweck": "EREF+MD0010157MREF+MD0010157CRED+DE57ZZZ00002495238SVWZ+MD0010157 - 05.2026 Sivaalayam Donation",
    "category": "uncategorized",
    "label": "SIVAALAYAM E.V."
-  },
-  {
-   "date": "2026-06-08",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -25.0,
-   "zweck": "Fritz-Berne-Str. 54 .1. WHG.11, Abschlag Strom 06/2026 Betrag 25,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-06-08",
@@ -8301,22 +7005,6 @@
    "zweck": "KREF+-875540113-20260606083600SVWZ+ReNr 260793, KdNr 16216DATUM 06.06.2026, 08.36 UHR",
    "category": "uncategorized",
    "label": "Nüßler AG"
-  },
-  {
-   "date": "2026-06-08",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 1724.18,
-   "zweck": "EREF+M0IE3TJ23YUPSVWZ+POP SVCS, DOB , 20260601 - 20260607",
-   "category": "platform_payout",
-   "label": "UberEats"
-  },
-  {
-   "date": "2026-06-08",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 472.72,
-   "zweck": "EREF+251487495-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
   },
   {
    "date": "2026-06-09",
@@ -8344,9 +7032,9 @@
   },
   {
    "date": "2026-06-11",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 396.76,
-   "zweck": "Wolt Auszahlung",
+   "zweck": "EREF+251496890-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
@@ -8399,14 +7087,6 @@
    "label": "GFT Group"
   },
   {
-   "date": "2026-06-11",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 396.76,
-   "zweck": "EREF+251496890-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
    "date": "2026-06-12",
    "beguenstigter": "S-Markt & Mehrwert GmbH & Co. KG",
    "amount": -3.98,
@@ -8416,9 +7096,9 @@
   },
   {
    "date": "2026-06-15",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS                                     MR TREUBLAAN 7 1097 DP AMSTERDAM PAYS-BAS",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
    "amount": 1899.55,
-   "zweck": "POP SVCS, DOB , 20260608 - 20260614",
+   "zweck": "EREF+DRLCY13RYM3YSVWZ+POP SVCS, DOB , 20260608 - 20260614",
    "category": "platform_payout",
    "label": "UberEats"
   },
@@ -8450,23 +7130,7 @@
    "date": "2026-06-15",
    "beguenstigter": "SWM Versorgungs GmbH",
    "amount": -808.0,
-   "zweck": "Landsberger Str. 437 .0, Abschlag Strom 06/2026 Betrag 808,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-06-15",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -808.0,
    "zweck": "EREF+3931270110344 -VK-  002113138578MREF+M00211313857800001CRED+DE3711000000030246SVWZ+Landsberger Str. 437 .0, Abschlag Strom 06/2026 Betrag 808,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-06-15",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -612.0,
-   "zweck": "Landsberger Str. 437 .0., Abschlag Gas 06/2026 Betrag 612,00 Eur",
    "category": "other",
    "label": "Miete/Nebenkosten"
   },
@@ -8485,14 +7149,6 @@
    "zweck": "MREF+10033 Chutney on TopCRED+DE05ZZZ00002640704SVWZ+Mitgliedsbeitrag FTU Durchstarter 10033 Chutney on Top",
    "category": "other",
    "label": "Mitgliedsbeitrag/Marketing"
-  },
-  {
-   "date": "2026-06-15",
-   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
-   "amount": 1899.55,
-   "zweck": "EREF+DRLCY13RYM3YSVWZ+POP SVCS, DOB , 20260608 - 20260614",
-   "category": "platform_payout",
-   "label": "UberEats"
   },
   {
    "date": "2026-06-16",
@@ -8536,14 +7192,6 @@
   },
   {
    "date": "2026-06-17",
-   "beguenstigter": "WOLT LICENSE SERVICES OY                                              POHJOINEN RAUTATIEKATU 21 FI-00100 HELSINKI",
-   "amount": 647.54,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-06-17",
    "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 647.54,
    "zweck": "EREF+251513058-fk-vp-defaultSVWZ+Wolt Auszahlung",
@@ -8568,9 +7216,9 @@
   },
   {
    "date": "2026-06-19",
-   "beguenstigter": "METRO DEUTSCHLAND G/AM GLEISDREIECK 15/MUENCHEN/DE",
+   "beguenstigter": "METRO SAGT DANKE",
    "amount": -634.3,
-   "zweck": "2026-06-18T15:47 Debitk.5 2030-12",
+   "zweck": "SVWZ+2026-06-18T15.47Debitk.5 2030-12ABWA+METRO DEUTSCHLAND G/AM GLEISDREIECK 15/MUENCHEN/DE",
    "category": "supplier_payment",
    "label": "Metro"
   },
@@ -8583,14 +7231,6 @@
    "label": "Ökoring"
   },
   {
-   "date": "2026-06-19",
-   "beguenstigter": "METRO SAGT DANKE",
-   "amount": -634.3,
-   "zweck": "SVWZ+2026-06-18T15.47Debitk.5 2030-12ABWA+METRO DEUTSCHLAND G/AM GLEISDREIECK 15/MUENCHEN/DE",
-   "category": "supplier_payment",
-   "label": "Metro"
-  },
-  {
    "date": "2026-06-22",
    "beguenstigter": "secupay AG",
    "amount": 1906.8,
@@ -8600,11 +7240,11 @@
   },
   {
    "date": "2026-06-22",
-   "beguenstigter": "Grafik-Eck/Landsberger Str 8/Munchen/DE/0",
+   "beguenstigter": "Landesbank Hessen-Thuringen",
    "amount": -17.5,
-   "zweck": "2026-06-18T16:03 Debitk.5 2030-12 Zahl.System DebitMastercard",
+   "zweck": "SVWZ+2026-06-18T16.03Debitk.5 2030-12 Zahl.System DebitMastercardABWA+Grafik-Eck/Landsberger Str 8/Munchen/DE/0",
    "category": "uncategorized",
-   "label": "Grafik-Eck/Landsberger Str 8/Munchen/DE/0"
+   "label": "Landesbank Hessen-Thuringen"
   },
   {
    "date": "2026-06-22",
@@ -8618,25 +7258,17 @@
    "date": "2026-06-22",
    "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 467.9,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-06-22",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 467.9,
    "zweck": "EREF+251526654-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
   },
   {
    "date": "2026-06-22",
-   "beguenstigter": "AVIA Rodl T50 Freising//Freising/DE",
+   "beguenstigter": "Tankstelle",
    "amount": -94.38,
-   "zweck": "2026-06-19T09:06 Debitk.5 2030-12",
+   "zweck": "SVWZ+2026-06-19T09.06Debitk.5 2030-12ABWA+AVIA Rodl T50 Freising//Freising/DE",
    "category": "uncategorized",
-   "label": "AVIA Rodl T50 Freising//Freising/DE"
+   "label": "Tankstelle"
   },
   {
    "date": "2026-06-22",
@@ -8661,22 +7293,6 @@
    "zweck": "20.06/01.30UHR HPST-REC",
    "category": "uncategorized",
    "label": "GA NR00002022 BLZ70051003 5"
-  },
-  {
-   "date": "2026-06-22",
-   "beguenstigter": "Landesbank Hessen-Thuringen",
-   "amount": -17.5,
-   "zweck": "SVWZ+2026-06-18T16.03Debitk.5 2030-12 Zahl.System DebitMastercardABWA+Grafik-Eck/Landsberger Str 8/Munchen/DE/0",
-   "category": "uncategorized",
-   "label": "Landesbank Hessen-Thuringen"
-  },
-  {
-   "date": "2026-06-22",
-   "beguenstigter": "Tankstelle",
-   "amount": -94.38,
-   "zweck": "SVWZ+2026-06-19T09.06Debitk.5 2030-12ABWA+AVIA Rodl T50 Freising//Freising/DE",
-   "category": "uncategorized",
-   "label": "Tankstelle"
   },
   {
    "date": "2026-06-23",
@@ -8864,33 +7480,17 @@
   },
   {
    "date": "2026-06-25",
-   "beguenstigter": "JET DANKT FUER IHREN KAUF./Landshuter Str. 47/Freising/DE",
+   "beguenstigter": "JET DANKT FUER IHREN KAUF.",
    "amount": -96.04,
-   "zweck": "2026-06-24T10:16 Debitk.5 2030-12",
+   "zweck": "SVWZ+2026-06-24T10.16Debitk.5 2030-12ABWA+JET DANKT FUER IHREN KAUF./Landshuter Str. 47/Freising/DE",
    "category": "uncategorized",
-   "label": "JET DANKT FUER IHREN KAUF./Landshuter Str. 47/Freising/DE"
-  },
-  {
-   "date": "2026-06-25",
-   "beguenstigter": "Ralf Steuer",
-   "amount": -6401.84,
-   "zweck": "ReNr 2026/71 DATUM 25.06.2026, 08.57 UHR",
-   "category": "other",
-   "label": "Steuerberater"
+   "label": "JET DANKT FUER IHREN KAUF."
   },
   {
    "date": "2026-06-25",
    "beguenstigter": "Ralf Steuer",
    "amount": -6401.84,
    "zweck": "KREF+283481065-20260625085744SVWZ+ReNr 2026/71DATUM 25.06.2026, 08.57 UHR",
-   "category": "other",
-   "label": "Steuerberater"
-  },
-  {
-   "date": "2026-06-25",
-   "beguenstigter": "Ralf Steuer",
-   "amount": -1021.62,
-   "zweck": "ReNr 2026/106 DATUM 25.06.2026, 08.53 UHR",
    "category": "other",
    "label": "Steuerberater"
   },
@@ -8927,36 +7527,12 @@
    "label": "Pratik Sanjay Chaudhari"
   },
   {
-   "date": "2026-06-25",
-   "beguenstigter": "JET DANKT FUER IHREN KAUF.",
-   "amount": -96.04,
-   "zweck": "SVWZ+2026-06-24T10.16Debitk.5 2030-12ABWA+JET DANKT FUER IHREN KAUF./Landshuter Str. 47/Freising/DE",
-   "category": "uncategorized",
-   "label": "JET DANKT FUER IHREN KAUF."
-  },
-  {
-   "date": "2026-06-26",
-   "beguenstigter": "Felipe Santiago Lara Estrella",
-   "amount": 60.0,
-   "zweck": "Felipe",
-   "category": "uncategorized",
-   "label": "Felipe Santiago Lara Estrella"
-  },
-  {
    "date": "2026-06-26",
    "beguenstigter": "Felipe Santiago Lara Estrella",
    "amount": 60.0,
    "zweck": "EREF+MOB.177.EE.POS00154863SVWZ+Felipe",
    "category": "uncategorized",
    "label": "Felipe Santiago Lara Estrella"
-  },
-  {
-   "date": "2026-06-26",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 428.89,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
   },
   {
    "date": "2026-06-26",
@@ -8978,25 +7554,17 @@
    "date": "2026-06-26",
    "beguenstigter": "Roland Berger Holdin",
    "amount": 175.0,
-   "zweck": "Rg. 2026-043 vom 10.06.2026 fuer 175,00 EUR",
-   "category": "uncategorized",
-   "label": "Roland Berger Holdin"
-  },
-  {
-   "date": "2026-06-26",
-   "beguenstigter": "Roland Berger Holdin",
-   "amount": 175.0,
    "zweck": "EREF+5304SVWZ+Rg. 2026-043 vom 10.06.2026 fuer 175,00 EUR",
    "category": "uncategorized",
    "label": "Roland Berger Holdin"
   },
   {
    "date": "2026-06-26",
-   "beguenstigter": "LANDRATSAMT FREISING/Landshuter Strasse 31/Freising/DE",
+   "beguenstigter": "LANDRATSAMT FREISING",
    "amount": -48.25,
-   "zweck": "2026-06-25T09:10 Debitk.5 2030-12",
+   "zweck": "SVWZ+2026-06-25T09.10Debitk.5 2030-12ABWA+LANDRATSAMT FREISING/Landshuter Strasse 31/Freising/DE",
    "category": "uncategorized",
-   "label": "LANDRATSAMT FREISING/Landshuter Strasse 31/Freising/DE"
+   "label": "LANDRATSAMT FREISING"
   },
   {
    "date": "2026-06-26",
@@ -9023,14 +7591,6 @@
    "label": "Personal/Sozialversicherung"
   },
   {
-   "date": "2026-06-26",
-   "beguenstigter": "LANDRATSAMT FREISING",
-   "amount": -48.25,
-   "zweck": "SVWZ+2026-06-25T09.10Debitk.5 2030-12ABWA+LANDRATSAMT FREISING/Landshuter Strasse 31/Freising/DE",
-   "category": "uncategorized",
-   "label": "LANDRATSAMT FREISING"
-  },
-  {
    "date": "2026-06-29",
    "beguenstigter": "secupay AG",
    "amount": 1824.4,
@@ -9053,14 +7613,6 @@
    "zweck": "29.06/10.48UHR HPST-REC",
    "category": "uncategorized",
    "label": "GA NR00002022 BLZ70051003 5"
-  },
-  {
-   "date": "2026-06-29",
-   "beguenstigter": "Minu Sharan",
-   "amount": 48.0,
-   "zweck": "Bill payments",
-   "category": "uncategorized",
-   "label": "Minu Sharan"
   },
   {
    "date": "2026-06-29",
@@ -9101,14 +7653,6 @@
    "zweck": "EREF+0000001625MREF+60932-01CRED+DE16ZZZ00000683919SVWZ+RG.537299 31,57/RG.537750 134,82/RG.537438 199,83/RG.536944 402,81ABWA+Andreas Kupfer und Sohn",
    "category": "supplier_payment",
    "label": "Kupfer & Sohn"
-  },
-  {
-   "date": "2026-06-29",
-   "beguenstigter": "Syed Omer Farooq Muqtar",
-   "amount": 14.15,
-   "zweck": "food",
-   "category": "other",
-   "label": "Gehalt"
   },
   {
    "date": "2026-06-29",
@@ -9186,14 +7730,6 @@
    "date": "2026-06-30",
    "beguenstigter": "Anar Mehta",
    "amount": -3652.66,
-   "zweck": "Gehalt : May 2026 DATUM 30.06.2026, 09.45 UHR",
-   "category": "other",
-   "label": "Gehalt"
-  },
-  {
-   "date": "2026-06-30",
-   "beguenstigter": "Anar Mehta",
-   "amount": -3652.66,
    "zweck": "KREF+2141729373-20260630094529SVWZ+Gehalt . May 2026DATUM 30.06.2026, 09.45 UHR",
    "category": "other",
    "label": "Gehalt"
@@ -9218,14 +7754,6 @@
    "date": "2026-07-01",
    "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 333.7,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-07-01",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 333.7,
    "zweck": "EREF+251553255-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
@@ -9237,14 +7765,6 @@
    "zweck": "EREF+A36472KIP20I2C5GKSVWZ+Auszahlung TA-Code 197689642/1 Umsatz",
    "category": "platform_payout",
    "label": "Tollwood (Secupay)"
-  },
-  {
-   "date": "2026-07-01",
-   "beguenstigter": "Syed Omer Farooq Muqtar",
-   "amount": -588.0,
-   "zweck": "Gehalt Juni 2026 DATUM 01.07.2026, 13.13 UHR",
-   "category": "other",
-   "label": "Gehalt"
   },
   {
    "date": "2026-07-01",
@@ -9394,14 +7914,6 @@
    "date": "2026-07-06",
    "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 872.19,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-07-06",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 872.19,
    "zweck": "EREF+251563919-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
@@ -9448,19 +7960,11 @@
   },
   {
    "date": "2026-07-06",
-   "beguenstigter": "Zweckverband kommunale Verkehrsueberwachung Suedostbayern",
+   "beguenstigter": "Zweckverband kommunale Verkehrsueberwachung Suedostbay",
    "amount": -30.0,
-   "zweck": "234126053173 FS CT33 DATUM 05.07.2026, 10.10 UHR",
+   "zweck": "KREF+2068066427-20260705101025SVWZ+234126053173 FS CT33DATUM 05.07.2026, 10.10 UHR",
    "category": "uncategorized",
-   "label": "Zweckverband kommunale Verkehrsueberwachung Suedostbayern"
-  },
-  {
-   "date": "2026-07-06",
-   "beguenstigter": "Kushal Krishna Rao Bharadwaj",
-   "amount": 87.0,
-   "zweck": "",
-   "category": "uncategorized",
-   "label": "Kushal Krishna Rao Bharadwaj"
+   "label": "Zweckverband kommunale Verkehrsueberwachung Suedostbay"
   },
   {
    "date": "2026-07-06",
@@ -9477,14 +7981,6 @@
    "zweck": "KREF+1488330235-20260704084417SVWZ+ReNr 326128-3, KdNr 4322600DATUM 04.07.2026, 08.44 UHR",
    "category": "other",
    "label": "Tollwood (Standgebühren etc)"
-  },
-  {
-   "date": "2026-07-06",
-   "beguenstigter": "Zweckverband kommunale Verkehrsueberwachung Suedostbay",
-   "amount": -30.0,
-   "zweck": "KREF+2068066427-20260705101025SVWZ+234126053173 FS CT33DATUM 05.07.2026, 10.10 UHR",
-   "category": "uncategorized",
-   "label": "Zweckverband kommunale Verkehrsueberwachung Suedostbay"
   },
   {
    "date": "2026-07-07",
@@ -9522,14 +8018,6 @@
    "date": "2026-07-07",
    "beguenstigter": "WUERTH ELEKTRONIK EI",
    "amount": 260.0,
-   "zweck": "2026-046 18.6.2026/",
-   "category": "uncategorized",
-   "label": "WUERTH ELEKTRONIK EI"
-  },
-  {
-   "date": "2026-07-07",
-   "beguenstigter": "WUERTH ELEKTRONIK EI",
-   "amount": 260.0,
    "zweck": "EREF+0000257047SVWZ+2026-046 18.6.2026/",
    "category": "uncategorized",
    "label": "WUERTH ELEKTRONIK EI"
@@ -9549,14 +8037,6 @@
    "zweck": "MREF+14428CRED+DE57ZZZ00001389826SVWZ+Ratenzahlung zu RE20251696 / 2. Rate",
    "category": "uncategorized",
    "label": "CHRISTOS SIOSIOS"
-  },
-  {
-   "date": "2026-07-07",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -25.0,
-   "zweck": "Fritz-Berne-Str. 54 .1. WHG.11, Abschlag Strom 07/2026 Betrag 25,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
   },
   {
    "date": "2026-07-07",
@@ -9634,25 +8114,9 @@
    "date": "2026-07-09",
    "beguenstigter": "Anar Mehta",
    "amount": -3652.66,
-   "zweck": "Gehalt : June 2026 DATUM 09.07.2026, 09.39 UHR",
-   "category": "other",
-   "label": "Gehalt"
-  },
-  {
-   "date": "2026-07-09",
-   "beguenstigter": "Anar Mehta",
-   "amount": -3652.66,
    "zweck": "KREF+-358363662-20260709093910SVWZ+Gehalt . June 2026DATUM 09.07.2026, 09.39 UHR",
    "category": "other",
    "label": "Gehalt"
-  },
-  {
-   "date": "2026-07-09",
-   "beguenstigter": "Munjal Mehta",
-   "amount": -6000.0,
-   "zweck": "Loan back - 1/2 ( from 21.05 ) DATUM 09.07.2026, 09.34 UHR",
-   "category": "uncategorized",
-   "label": "Munjal Mehta"
   },
   {
    "date": "2026-07-09",
@@ -9794,14 +8258,6 @@
    "date": "2026-07-10",
    "beguenstigter": "Roland Berger Holdin",
    "amount": 182.5,
-   "zweck": "Rg. 2026-047 vom 22.06.2026 fuer 182,50 EUR",
-   "category": "uncategorized",
-   "label": "Roland Berger Holdin"
-  },
-  {
-   "date": "2026-07-10",
-   "beguenstigter": "Roland Berger Holdin",
-   "amount": 182.5,
    "zweck": "EREF+5766SVWZ+Rg. 2026-047 vom 22.06.2026 fuer 182,50 EUR",
    "category": "uncategorized",
    "label": "Roland Berger Holdin"
@@ -9840,27 +8296,19 @@
   },
   {
    "date": "2026-07-13",
-   "beguenstigter": "THE GOURMET ENTERTAINTMENT COMPANY",
+   "beguenstigter": "THE GOURMET ENTERTAINTMENTCOMPANY",
    "amount": -917.68,
-   "zweck": "ReNr VR32627/0162 DATUM 13.07.2026, 10.36 UHR",
+   "zweck": "KREF+303106020-20260713103618SVWZ+ReNr VR32627/0162DATUM 13.07.2026, 10.36 UHR",
    "category": "uncategorized",
-   "label": "THE GOURMET ENTERTAINTMENT COMPANY"
+   "label": "THE GOURMET ENTERTAINTMENTCOMPANY"
   },
   {
    "date": "2026-07-13",
-   "beguenstigter": "OLYMPIA PARK DO+CO/Spiridon-Louis-Ring 7/M.nchen/DE",
+   "beguenstigter": "OLYMPIA PARK DO+CO",
    "amount": -499.9,
-   "zweck": "2026-07-09T23:22 Debitk.5 2030-12",
+   "zweck": "SVWZ+2026-07-09T23.22Debitk.5 2030-12ABWA+OLYMPIA PARK DO+CO/Spiridon-Louis-Ring 7/M.nchen/DE",
    "category": "uncategorized",
-   "label": "OLYMPIA PARK DO+CO/Spiridon-Louis-Ring 7/M.nchen/DE"
-  },
-  {
-   "date": "2026-07-13",
-   "beguenstigter": "Munjal Mehta",
-   "amount": -6000.0,
-   "zweck": "Loan back - 2/2 ( from 21.05 ) DATUM 13.07.2026, 08.34 UHR",
-   "category": "uncategorized",
-   "label": "Munjal Mehta"
+   "label": "OLYMPIA PARK DO+CO"
   },
   {
    "date": "2026-07-13",
@@ -9869,14 +8317,6 @@
    "zweck": "KREF+-1213769529-20260713083357SVWZ+Loan back - 2/2 ( from 21.05 )DATUM 13.07.2026, 08.34 UHR",
    "category": "uncategorized",
    "label": "Munjal Mehta"
-  },
-  {
-   "date": "2026-07-13",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 511.29,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
   },
   {
    "date": "2026-07-13",
@@ -9903,36 +8343,12 @@
    "label": "Kupfer & Sohn"
   },
   {
-   "date": "2026-07-13",
-   "beguenstigter": "THE GOURMET ENTERTAINTMENTCOMPANY",
-   "amount": -917.68,
-   "zweck": "KREF+303106020-20260713103618SVWZ+ReNr VR32627/0162DATUM 13.07.2026, 10.36 UHR",
-   "category": "uncategorized",
-   "label": "THE GOURMET ENTERTAINTMENTCOMPANY"
-  },
-  {
-   "date": "2026-07-13",
-   "beguenstigter": "OLYMPIA PARK DO+CO",
-   "amount": -499.9,
-   "zweck": "SVWZ+2026-07-09T23.22Debitk.5 2030-12ABWA+OLYMPIA PARK DO+CO/Spiridon-Louis-Ring 7/M.nchen/DE",
-   "category": "uncategorized",
-   "label": "OLYMPIA PARK DO+CO"
-  },
-  {
    "date": "2026-07-14",
    "beguenstigter": "SUMUP LIMITED",
    "amount": 3090.78,
    "zweck": "EREF+GP-459988416SVWZ+SUMUP PID1297326 PAYOUT 140726",
    "category": "platform_payout",
    "label": "SumUp"
-  },
-  {
-   "date": "2026-07-14",
-   "beguenstigter": "DO & CO",
-   "amount": -1059.37,
-   "zweck": "KONZERT LINKIN PARK TAG 2 DATUM 14.07.2026, 16.33 UHR",
-   "category": "uncategorized",
-   "label": "DO & CO"
   },
   {
    "date": "2026-07-14",
@@ -9986,23 +8402,7 @@
    "date": "2026-07-14",
    "beguenstigter": "SWM Versorgungs GmbH",
    "amount": -808.0,
-   "zweck": "Landsberger Str. 437 .0, Abschlag Strom 07/2026 Betrag 808,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-07-14",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -808.0,
    "zweck": "EREF+3934263958794 -VK-  002113138578MREF+M00211313857800001CRED+DE3711000000030246SVWZ+Landsberger Str. 437 .0, Abschlag Strom 07/2026 Betrag 808,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-07-14",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -612.0,
-   "zweck": "Landsberger Str. 437 .0., Abschlag Gas 07/2026 Betrag 612,00 Eur",
    "category": "other",
    "label": "Miete/Nebenkosten"
   },
@@ -10021,14 +8421,6 @@
    "zweck": "EREF+2607131112-0000007MREF+180350000002CRED+DE64ZZZ00000012494SVWZ+RNR 190241, 190615, 190783, 191455ABWE+Chutney On Top GmbH",
    "category": "supplier_payment",
    "label": "Ökoring"
-  },
-  {
-   "date": "2026-07-14",
-   "beguenstigter": "DO & CO",
-   "amount": -1170.63,
-   "zweck": "FOO FIGHTERS 17.06.2026 DATUM 13.07.2026, 20.09 UHR",
-   "category": "uncategorized",
-   "label": "DO & CO"
   },
   {
    "date": "2026-07-14",
@@ -10085,14 +8477,6 @@
    "zweck": "MREF+10033 Chutney on TopCRED+DE05ZZZ00002640704SVWZ+Mitgliedsbeitrag FTU Durchstarter 10033 Chutney on Top",
    "category": "other",
    "label": "Mitgliedsbeitrag/Marketing"
-  },
-  {
-   "date": "2026-07-16",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 523.32,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
   },
   {
    "date": "2026-07-16",
@@ -10157,14 +8541,6 @@
    "zweck": "EREF+A26BPIKQ780I5AQ2HSVWZ+Auszahlung TA-Code 201119976/1 Umsatz",
    "category": "platform_payout",
    "label": "Tollwood (Secupay)"
-  },
-  {
-   "date": "2026-07-17",
-   "beguenstigter": "Roland Berger Holdin",
-   "amount": 167.5,
-   "zweck": "Rg. 2026-051 vom 06.07.2026 fuer 167,50 EUR",
-   "category": "uncategorized",
-   "label": "Roland Berger Holdin"
   },
   {
    "date": "2026-07-17",
@@ -10242,14 +8618,6 @@
    "date": "2026-07-21",
    "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 798.08,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-07-21",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 798.08,
    "zweck": "EREF+251599971-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
@@ -10314,23 +8682,7 @@
    "date": "2026-07-22",
    "beguenstigter": "OTTO Payments GmbH",
    "amount": -205.0,
-   "zweck": "CEU-CQV-TRV-HXD QR01 DATUM 22.07.2026, 08.54 UHR",
-   "category": "uncategorized",
-   "label": "OTTO Payments GmbH"
-  },
-  {
-   "date": "2026-07-22",
-   "beguenstigter": "OTTO Payments GmbH",
-   "amount": -205.0,
    "zweck": "KREF+-820717825-20260722085347SVWZ+CEU-CQV-TRV-HXD QR01DATUM 22.07.2026, 08.54 UHR",
-   "category": "uncategorized",
-   "label": "OTTO Payments GmbH"
-  },
-  {
-   "date": "2026-07-22",
-   "beguenstigter": "OTTO Payments GmbH",
-   "amount": -438.95,
-   "zweck": "CET-FCC-BXC-WRT QR01 DATUM 22.07.2026, 08.51 UHR",
    "category": "uncategorized",
    "label": "OTTO Payments GmbH"
   },
@@ -10378,14 +8730,6 @@
    "date": "2026-07-24",
    "beguenstigter": "DO & CO",
    "amount": -166.61,
-   "zweck": "KONZERT THE WEEKNDTAG3DATUM 24.07.2026, 12.53 UHR",
-   "category": "uncategorized",
-   "label": "DO & CO"
-  },
-  {
-   "date": "2026-07-24",
-   "beguenstigter": "DO & CO",
-   "amount": -166.61,
    "zweck": "KREF+719160307-20260724125317SVWZ+KONZERT THE WEEKNDTAG3DATUM 24.07.2026, 12.53 UHR",
    "category": "uncategorized",
    "label": "DO & CO"
@@ -10394,23 +8738,7 @@
    "date": "2026-07-24",
    "beguenstigter": "DO & CO",
    "amount": -313.7,
-   "zweck": "KONZERT THE WEEKNDTAG2DATUM 24.07.2026, 12.52 UHR",
-   "category": "uncategorized",
-   "label": "DO & CO"
-  },
-  {
-   "date": "2026-07-24",
-   "beguenstigter": "DO & CO",
-   "amount": -313.7,
    "zweck": "KREF+-700576708-20260724125243SVWZ+KONZERT THE WEEKNDTAG2DATUM 24.07.2026, 12.52 UHR",
-   "category": "uncategorized",
-   "label": "DO & CO"
-  },
-  {
-   "date": "2026-07-24",
-   "beguenstigter": "DO & CO",
-   "amount": -247.16,
-   "zweck": "KONZERT THE WEEKND TAG1 DATUM 24.07.2026, 12.52 UHR",
    "category": "uncategorized",
    "label": "DO & CO"
   },
@@ -10482,14 +8810,6 @@
    "date": "2026-07-24",
    "beguenstigter": "SIGNAL IDUNA VERSICH",
    "amount": -42.75,
-   "zweck": "Schadennummer 11.155.417/SB26/1 DATUM 24.07.2026, 09.00 UHR",
-   "category": "other",
-   "label": "Kfz-Versicherung/Steuer"
-  },
-  {
-   "date": "2026-07-24",
-   "beguenstigter": "SIGNAL IDUNA VERSICH",
-   "amount": -42.75,
    "zweck": "KREF+318302336-20260724085959SVWZ+Schadennummer 11.155.417/SB26/1DATUM 24.07.2026, 09.00 UHR",
    "category": "other",
    "label": "Kfz-Versicherung/Steuer"
@@ -10514,14 +8834,6 @@
    "date": "2026-07-27",
    "beguenstigter": "WOLT LICENSE SERVICES OY",
    "amount": 694.43,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-07-27",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 694.43,
    "zweck": "EREF+251610901-fk-vp-defaultSVWZ+Wolt Auszahlung",
    "category": "platform_payout",
    "label": "Wolt"
@@ -10533,14 +8845,6 @@
    "zweck": "EREF+0000001640MREF+60932-01CRED+DE16ZZZ00000683919SVWZ+RG.543920 429,48ABWA+Andreas Kupfer und Sohn",
    "category": "supplier_payment",
    "label": "Kupfer & Sohn"
-  },
-  {
-   "date": "2026-07-27",
-   "beguenstigter": "Bundeskasse - Dienstort Weiden -",
-   "amount": 49.0,
-   "zweck": "FS CT 525 KFZ-Steuer Erstattung",
-   "category": "other",
-   "label": "Finanzamt/Steuern"
   },
   {
    "date": "2026-07-27",
@@ -10592,14 +8896,6 @@
   },
   {
    "date": "2026-07-28",
-   "beguenstigter": "Daniel Rotaermel",
-   "amount": 3553.55,
-   "zweck": "Hochzeit Merle und Daniel",
-   "category": "uncategorized",
-   "label": "Daniel Rotaermel"
-  },
-  {
-   "date": "2026-07-28",
    "beguenstigter": "Daniel Rotärmel",
    "amount": 3553.55,
    "zweck": "EREF+cc736c0d70a442488014e652327ce301SVWZ+Hochzeit Merle und Daniel",
@@ -10610,23 +8906,7 @@
    "date": "2026-07-29",
    "beguenstigter": "DO & CO",
    "amount": -895.99,
-   "zweck": "KONZERT HELENE FISCHERDATUM 29.07.2026, 16.03 UHR",
-   "category": "uncategorized",
-   "label": "DO & CO"
-  },
-  {
-   "date": "2026-07-29",
-   "beguenstigter": "DO & CO",
-   "amount": -895.99,
    "zweck": "KREF+922365458-20260729160320SVWZ+KONZERT HELENE FISCHERDATUM 29.07.2026, 16.03 UHR",
-   "category": "uncategorized",
-   "label": "DO & CO"
-  },
-  {
-   "date": "2026-07-29",
-   "beguenstigter": "DO & CO",
-   "amount": -376.74,
-   "zweck": "Konzert BTS TAG 1 DATUM 29.07.2026, 16.02 UHR",
    "category": "uncategorized",
    "label": "DO & CO"
   },
@@ -10648,11 +8928,11 @@
   },
   {
    "date": "2026-07-29",
-   "beguenstigter": "HAMBERGER GROSSMARKT GMBH//MUENCHEN/DE",
+   "beguenstigter": "HAMBERGER GROSSMARKT",
    "amount": -297.27,
-   "zweck": "2026-07-28T16:25 Debitk.5 2030-12",
+   "zweck": "SVWZ+2026-07-28T16.25Debitk.5 2030-12ABWA+HAMBERGER GROSSMARKT GMBH//MUENCHEN/DE",
    "category": "uncategorized",
-   "label": "HAMBERGER GROSSMARKT GMBH//MUENCHEN/DE"
+   "label": "HAMBERGER GROSSMARKT"
   },
   {
    "date": "2026-07-29",
@@ -10711,14 +8991,6 @@
    "label": "Personal/Sozialversicherung"
   },
   {
-   "date": "2026-07-29",
-   "beguenstigter": "HAMBERGER GROSSMARKT",
-   "amount": -297.27,
-   "zweck": "SVWZ+2026-07-28T16.25Debitk.5 2030-12ABWA+HAMBERGER GROSSMARKT GMBH//MUENCHEN/DE",
-   "category": "uncategorized",
-   "label": "HAMBERGER GROSSMARKT"
-  },
-  {
    "date": "2026-07-31",
    "beguenstigter": "",
    "amount": -70.09,
@@ -10733,14 +9005,6 @@
    "zweck": "KREF+-784987970-20260731175406SVWZ+ReNr 1746, KdNr 10240DATUM 31.07.2026, 17.54 UHR",
    "category": "other",
    "label": "Bilanzbuchhalterin"
-  },
-  {
-   "date": "2026-07-31",
-   "beguenstigter": "Roland Berger Holdin",
-   "amount": 212.5,
-   "zweck": "Rg. 2026-053 vom 20.07.2026 fuer 212,50 EUR",
-   "category": "uncategorized",
-   "label": "Roland Berger Holdin"
   },
   {
    "date": "2026-07-31",
@@ -10789,14 +9053,6 @@
    "zweck": "KREF+-1539811374-20260803083440SVWZ+Rechn.Nr. 326114187 Kunden-Nr. 23698DATUM 03.08.2026, 08.34 UHR",
    "category": "supplier_payment",
    "label": "GFT Group"
-  },
-  {
-   "date": "2026-08-03",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 971.05,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
   },
   {
    "date": "2026-08-03",
@@ -10858,14 +9114,6 @@
    "date": "2026-08-03",
    "beguenstigter": "Anar Mehta",
    "amount": -3652.66,
-   "zweck": "Gehalt : July 2026 DATUM 02.08.2026, 13.22 UHR",
-   "category": "other",
-   "label": "Gehalt"
-  },
-  {
-   "date": "2026-08-03",
-   "beguenstigter": "Anar Mehta",
-   "amount": -3652.66,
    "zweck": "KREF+-599737892-20260802132205SVWZ+Gehalt . July 2026DATUM 02.08.2026, 13.22 UHR",
    "category": "other",
    "label": "Gehalt"
@@ -10909,14 +9157,6 @@
    "zweck": "SVWZ+Miete für - Mitarbeiterwohnung für Chutney on Top",
    "category": "other",
    "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-08-03",
-   "beguenstigter": "Syed Omer Farooq Muqtar",
-   "amount": -512.54,
-   "zweck": "Gehalt July 2026 DATUM 01.08.2026, 09.56 UHR",
-   "category": "other",
-   "label": "Gehalt"
   },
   {
    "date": "2026-08-03",
@@ -10978,14 +9218,6 @@
    "date": "2026-08-05",
    "beguenstigter": "Munjal Mehta",
    "amount": -30000.0,
-   "zweck": "Loan back DATUM 05.08.2026, 17.36 UHR",
-   "category": "uncategorized",
-   "label": "Munjal Mehta"
-  },
-  {
-   "date": "2026-08-05",
-   "beguenstigter": "Munjal Mehta",
-   "amount": -30000.0,
    "zweck": "KREF+-1194783599-20260805173609SVWZ+Loan backDATUM 05.08.2026, 17.36 UHR",
    "category": "uncategorized",
    "label": "Munjal Mehta"
@@ -11018,25 +9250,9 @@
    "date": "2026-08-06",
    "beguenstigter": "DO & CO Gastronomie GmbH",
    "amount": 225.14,
-   "zweck": "Rückerstattung Doppelzahlung",
-   "category": "uncategorized",
-   "label": "DO & CO Gastronomie GmbH"
-  },
-  {
-   "date": "2026-08-06",
-   "beguenstigter": "DO & CO Gastronomie GmbH",
-   "amount": 225.14,
    "zweck": "EREF+48B467094A8346CAB68C7D001B35FB9BSVWZ+Rückerstattung Doppelzahlung",
    "category": "uncategorized",
    "label": "DO & CO Gastronomie GmbH"
-  },
-  {
-   "date": "2026-08-06",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 580.77,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
   },
   {
    "date": "2026-08-06",
@@ -11064,19 +9280,11 @@
   },
   {
    "date": "2026-08-07",
-   "beguenstigter": "AUTO SCHMID GMBH//MUENCHEN/DE",
+   "beguenstigter": "AUTO SCHMID GMBH",
    "amount": -546.21,
-   "zweck": "2026-08-06T15:13 Debitk.5 2030-12",
+   "zweck": "SVWZ+2026-08-06T15.13Debitk.5 2030-12ABWA+AUTO SCHMID GMBH//MUENCHEN/DE",
    "category": "uncategorized",
-   "label": "AUTO SCHMID GMBH//MUENCHEN/DE"
-  },
-  {
-   "date": "2026-08-07",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -25.0,
-   "zweck": "Fritz-Berne-Str. 54 .1. WHG.11, Abschlag Strom 08/2026 Betrag 25,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
+   "label": "AUTO SCHMID GMBH"
   },
   {
    "date": "2026-08-07",
@@ -11093,14 +9301,6 @@
    "zweck": "EREF+5427600006219534MREF+15427600006219534CRED+DE53ZZZ00000004253SVWZ+HandyParken München Rechnung 403206102176 VielenDank für Ihren Kauf",
    "category": "uncategorized",
    "label": "Stadtwerke München GmbH"
-  },
-  {
-   "date": "2026-08-07",
-   "beguenstigter": "AUTO SCHMID GMBH",
-   "amount": -546.21,
-   "zweck": "SVWZ+2026-08-06T15.13Debitk.5 2030-12ABWA+AUTO SCHMID GMBH//MUENCHEN/DE",
-   "category": "uncategorized",
-   "label": "AUTO SCHMID GMBH"
   },
   {
    "date": "2026-08-10",
@@ -11234,25 +9434,9 @@
    "date": "2026-08-10",
    "beguenstigter": "OTTO Payments GmbH",
    "amount": -192.03,
-   "zweck": "CEB-TPR-JRC-6C7 QR01 DATUM 09.08.2026, 09.11 UHR",
-   "category": "uncategorized",
-   "label": "OTTO Payments GmbH"
-  },
-  {
-   "date": "2026-08-10",
-   "beguenstigter": "OTTO Payments GmbH",
-   "amount": -192.03,
    "zweck": "KREF+1496084441-20260809091125SVWZ+CEB-TPR-JRC-6C7 QR01DATUM 09.08.2026, 09.11 UHR",
    "category": "uncategorized",
    "label": "OTTO Payments GmbH"
-  },
-  {
-   "date": "2026-08-11",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 555.07,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
   },
   {
    "date": "2026-08-11",
@@ -11370,23 +9554,7 @@
    "date": "2026-08-14",
    "beguenstigter": "SWM Versorgungs GmbH",
    "amount": -612.0,
-   "zweck": "Landsberger Str. 437 .0., Abschlag Gas 08/2026 Betrag 612,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-08-14",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -612.0,
    "zweck": "EREF+3932272956466 -VK-  002113138537MREF+M00211313853700001CRED+DE3711000000030246SVWZ+Landsberger Str. 437 .0., Abschlag Gas 08/2026 Betrag 612,00 Eur",
-   "category": "other",
-   "label": "Miete/Nebenkosten"
-  },
-  {
-   "date": "2026-08-14",
-   "beguenstigter": "SWM Versorgungs GmbH",
-   "amount": -808.0,
-   "zweck": "Landsberger Str. 437 .0, Abschlag Strom 08/2026 Betrag 808,00 Eur",
    "category": "other",
    "label": "Miete/Nebenkosten"
   },
@@ -11434,14 +9602,6 @@
    "date": "2026-08-17",
    "beguenstigter": "Sacid Celik",
    "amount": 2416.75,
-   "zweck": "ReNr 2026-064, KdNr 32",
-   "category": "uncategorized",
-   "label": "Sacid Celik"
-  },
-  {
-   "date": "2026-08-17",
-   "beguenstigter": "Sacid Celik",
-   "amount": 2416.75,
    "zweck": "EREF+f632c5c06aa6454dbddfe00d4eb87502SVWZ+ReNr 2026-064, KdNr 32",
    "category": "uncategorized",
    "label": "Sacid Celik"
@@ -11453,14 +9613,6 @@
    "zweck": "EREF+YSFRD2EZ9Y38SVWZ+POP SVCS, DOB , 20260810 - 20260816",
    "category": "platform_payout",
    "label": "UberEats"
-  },
-  {
-   "date": "2026-08-17",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 368.42,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
   },
   {
    "date": "2026-08-17",
@@ -11483,14 +9635,6 @@
    "beguenstigter": "Die Weidners-Gastronomie GmbH",
    "amount": -50.0,
    "zweck": "MREF+10033 Chutney on TopCRED+DE05ZZZ00002640704SVWZ+Mitgliedsbeitrag FTU Durchstarter 10033 Chutney on Top",
-   "category": "other",
-   "label": "Mitgliedsbeitrag/Marketing"
-  },
-  {
-   "date": "2026-08-17",
-   "beguenstigter": "Die Weidners-Gastronomie GmbH",
-   "amount": -386.75,
-   "zweck": "Social Media Management",
    "category": "other",
    "label": "Mitgliedsbeitrag/Marketing"
   },
@@ -11557,14 +9701,6 @@
    "zweck": "1500132731 136,42",
    "category": "other",
    "label": "Getränkelieferant"
-  },
-  {
-   "date": "2026-08-21",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 538.72,
-   "zweck": "Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
   },
   {
    "date": "2026-08-21",
@@ -11696,25 +9832,17 @@
   },
   {
    "date": "2026-08-27",
-   "beguenstigter": "Knappschaft-Bahn-See Deutsche Rentenversicherung",
+   "beguenstigter": "Knappschaft-Bahn-See",
    "amount": -70.21,
-   "zweck": "BEITRAG 0826",
+   "zweck": "EREF+0108574373 OB-82995711MREF+4649599304000003CRED+DE81KBS00000034886SVWZ+0108574373 OB-82995711 EUR 70,21. BEITRAG 0826 -0826ABWA+Deutsche Rentenversicherung Knappschaft-Bahn-See",
    "category": "other",
    "label": "Personal/Sozialversicherung"
   },
   {
    "date": "2026-08-27",
-   "beguenstigter": "AOK Bayern - Die Gesundheitskasse",
+   "beguenstigter": "AOK Bayern - Die Gesundheits kasse",
    "amount": -5403.0,
-   "zweck": "BEITRAG 0826",
-   "category": "other",
-   "label": "Personal/Sozialversicherung"
-  },
-  {
-   "date": "2026-08-27",
-   "beguenstigter": "Techniker Krankenkasse",
-   "amount": -2328.56,
-   "zweck": "Beitraege 08/26",
+   "zweck": "EREF+0102362311 OB-82995711MREF+1213759962000003CRED+DE49AOK00000018487SVWZ+0102362311 OB-82995711 EUR 5.403,00. BEITRAG 0826 - 0826",
    "category": "other",
    "label": "Personal/Sozialversicherung"
   },
@@ -11730,14 +9858,6 @@
    "date": "2026-08-27",
    "beguenstigter": "DAK-Gesundheit",
    "amount": -414.28,
-   "zweck": "Beitraege 01.08.2026-31.08.2026",
-   "category": "other",
-   "label": "Personal/Sozialversicherung"
-  },
-  {
-   "date": "2026-08-27",
-   "beguenstigter": "DAK-Gesundheit",
-   "amount": -414.28,
    "zweck": "EREF+2610015454424003MREF+0155418175770-1CRED+DE03DAK00001901794SVWZ+Beitraege 01.08.2026 - 31.08.2026 82995711 414.28",
    "category": "other",
    "label": "Personal/Sozialversicherung"
@@ -11746,41 +9866,9 @@
    "date": "2026-08-27",
    "beguenstigter": "Arnulfbogen Real Estate GmbH & Co. KG",
    "amount": 300.14,
-   "zweck": "RNr. 2026-049",
-   "category": "uncategorized",
-   "label": "Arnulfbogen Real Estate GmbH & Co. KG"
-  },
-  {
-   "date": "2026-08-27",
-   "beguenstigter": "Arnulfbogen Real Estate GmbH & Co. KG",
-   "amount": 300.14,
    "zweck": "EREF+4623968055-0000005SVWZ+RNr. 2026-049 RDat. 26.06.2026 KNr. 8",
    "category": "uncategorized",
    "label": "Arnulfbogen Real Estate GmbH & Co. KG"
-  },
-  {
-   "date": "2026-08-27",
-   "beguenstigter": "AOK Bayern - Die Gesundheits kasse",
-   "amount": -5403.0,
-   "zweck": "EREF+0102362311 OB-82995711MREF+1213759962000003CRED+DE49AOK00000018487SVWZ+0102362311 OB-82995711 EUR 5.403,00. BEITRAG 0826 - 0826",
-   "category": "other",
-   "label": "Personal/Sozialversicherung"
-  },
-  {
-   "date": "2026-08-27",
-   "beguenstigter": "Knappschaft-Bahn-See",
-   "amount": -70.21,
-   "zweck": "EREF+0108574373 OB-82995711MREF+4649599304000003CRED+DE81KBS00000034886SVWZ+0108574373 OB-82995711 EUR 70,21. BEITRAG 0826 -0826ABWA+Deutsche Rentenversicherung Knappschaft-Bahn-See",
-   "category": "other",
-   "label": "Personal/Sozialversicherung"
-  },
-  {
-   "date": "2026-08-28",
-   "beguenstigter": "Roland Berger Holding",
-   "amount": 340.0,
-   "zweck": "Rg. 2026-058 + Rg. 2026-065",
-   "category": "uncategorized",
-   "label": "Roland Berger Holding"
   },
   {
    "date": "2026-08-28",
@@ -12032,19 +10120,19 @@
   },
   {
    "date": "2026-09-07",
-   "beguenstigter": "WOLT LICENSE SERVICES OY",
-   "amount": 238.6,
-   "zweck": "EREF+251719854-fk-vp-defaultSVWZ+Wolt Auszahlung",
-   "category": "platform_payout",
-   "label": "Wolt"
-  },
-  {
-   "date": "2026-09-07",
    "beguenstigter": "SWM Versorgungs GmbH",
    "amount": -25.0,
    "zweck": "EREF+3937228192143 -VK-  002113492934MREF+M00211349293400001CRED+DE3711000000030246SVWZ+Fritz-Berne-Str. 54 .1. WHG.11, Abschlag Strom 09/2026 Betrag 25,00 Eur",
    "category": "other",
    "label": "Miete/Nebenkosten"
+  },
+  {
+   "date": "2026-09-07",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
+   "amount": 238.6,
+   "zweck": "EREF+251719854-fk-vp-defaultSVWZ+Wolt Auszahlung",
+   "category": "platform_payout",
+   "label": "Wolt"
   },
   {
    "date": "2026-09-07",
@@ -12079,5 +10167,5 @@
    "label": "GA NR00002059 BLZ70051003 5"
   }
  ],
- "dedupNote": "FIXED 2026-09-07 (v3, verified): original merge of PDF-extracted and CSV-extracted bank data created 608 duplicate rows because the two sources format the same transaction's description text differently. Deduplication now: (1) normalizes payee names for umlaut/spelling variants (Muenchen vs München), (2) extracts 4+ digit reference numbers from the description (excluding the year as noise), (3) treats same date+payee+amount candidates as one real transaction only if they share a reference number, or both have no reference number at all. This correctly merged 530 true duplicates while keeping genuinely separate same-day/same-amount transactions distinct (verified against 3 known cases: 3 separate debit card fees, 2 separate Weidners invoices, 3 separate Allianz Arena payments)."
+ "dedupNote": "FIXED 2026-09-07 (v4, final): now groups candidates by date+amount only (ignoring payee text differences from different sources), extracts the true SEPA purpose reference (text after SVWZ+, excluding MREF/CRED noise like recurring customer/creditor IDs), and merges only when: both have refs and they overlap, OR either lacks a ref and payee names are substring-compatible. Verified against 4 known cases (3 debit card fees, 2 Weidners invoices, 3 Allianz Arena payments, 1 genuine Kohinoor duplicate) - all correct."
 }
