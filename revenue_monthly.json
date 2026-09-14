@@ -158,6 +158,22 @@
    "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.08-31.08.2026), Kategorie-filtered (00_Restaurant only, no Foodtruck contamination confirmed), FULL MONTH - replaces earlier partial (through 14.08)",
    "woltSource": "Sum of Wolt weekly periods touching August (from wolt.json Belege live data) - same convention as Uber's own weekly-bucket monthly total",
    "umsatzNote": "RECALCULATED 2026-09-06: 'umsatz' was a stale stored value (4511.83) that never updated as individual channel figures were corrected throughout this session. Now = sum of uber+wolt+lieferando+sumup_restaurant+sumup_foodtruck+tollwood. Does NOT include 'bar'/'karte' (those are a payment-method split of SumUp only, not separate revenue) or 'ausgaben' (expenses, not revenue)."
+  },
+  {
+   "month": "2026-09",
+   "umsatz": 11644.25,
+   "uber": 0,
+   "wolt": 0,
+   "lieferando": 0,
+   "sumup_restaurant": 8699.75,
+   "sumup_foodtruck": 2944.5,
+   "tollwood": 0,
+   "bar": 0,
+   "karte": 0,
+   "ausgaben": 0,
+   "trinkgeld": 0,
+   "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.09-13.09.2026), PARTIAL MONTH",
+   "sumup_foodtruck_source": "Real Verkaufsbericht CSV (01.09-09.09.2026), PARTIAL MONTH"
   }
  ],
  "live_periods": [
@@ -333,6 +349,6 @@
   ],
   "sumup_source_note": "SumUp-Zahlen (Restaurant, Foodtruck, Trinkgeld) jetzt aus dem echten SumUp-Verkaufsbericht (2026-01-01 bis 2026-08-02), gruppiert nach Kategorie statt Konto (Konto = welches Geraet/Login gebucht hat, nicht der Kanal). Trinkgeld war bisher nirgends im Dashboard erfasst (Gesamt 6.430,49 EUR ueber den Zeitraum) und ist jetzt separat ausgewiesen, aber NICHT im Umsatz mitgezaehlt, da es kein COT-Einkommen ist."
  },
- "lastUpdated": "2026-09-06",
+ "lastUpdated": "2026-09-13",
  "umsatzMethodologyNote": "'umsatz' (total) = sum of uber + wolt + lieferando + sumup_restaurant + sumup_foodtruck + tollwood for that month. Recalculated 2026-09-06 after discovering this field was a stale stored value that hadn't updated as individual channel corrections were made throughout the session (some months were off by 13,000-17,000 EUR)."
 }
