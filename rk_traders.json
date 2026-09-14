@@ -1,7 +1,7 @@
 {
  "supplier": "RK Traders",
- "lastUpdated": "2026-09-06",
- "invoiceCount": 45,
+ "lastUpdated": "2026-09-13",
+ "invoiceCount": 46,
  "contact": "Rohit Kumar",
  "invoices": [
   {
@@ -3595,6 +3595,108 @@
      "unit": "Kilograms",
      "unitPrice": 4.0,
      "amount": 12.0
+    }
+   ]
+  },
+  {
+   "invoiceNo": "RE4841",
+   "date": "2026-09-07",
+   "deliveryDate": "2026-09-07",
+   "netTotal": 237.85,
+   "vat7": 16.65,
+   "grossTotal": 254.5,
+   "driveFileId": "1QRd5qtB22tSD16jE37SbxhZBLgdbmloN",
+   "lineItems": [
+    {
+     "desc": "Zwiebel 25kg",
+     "qty": 2,
+     "unit": "Sack",
+     "unitPrice": 15.99,
+     "amount": 31.98
+    },
+    {
+     "desc": "Rote Zwiebel 10kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 12.99,
+     "amount": 12.99
+    },
+    {
+     "desc": "Minze 10 bund",
+     "qty": 1,
+     "unit": "Kiste",
+     "unitPrice": 8.99,
+     "amount": 8.99
+    },
+    {
+     "desc": "Weißkraut 15kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 11.99,
+     "amount": 11.99
+    },
+    {
+     "desc": "Paprika Mix 5kg",
+     "qty": 2,
+     "unit": "Karton",
+     "unitPrice": 15.49,
+     "amount": 30.98
+    },
+    {
+     "desc": "Coriander 10 bund",
+     "qty": 2,
+     "unit": "Kiste",
+     "unitPrice": 8.99,
+     "amount": 17.98
+    },
+    {
+     "desc": "Blumenkohl 6er",
+     "qty": 1,
+     "unit": "Kiste",
+     "unitPrice": 12.49,
+     "amount": 12.49
+    },
+    {
+     "desc": "Karotten 10kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 10.5,
+     "amount": 10.5
+    },
+    {
+     "desc": "Spinat/Palak",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 24.99,
+     "amount": 24.99
+    },
+    {
+     "desc": "Green Chili 2kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 12.0,
+     "amount": 12.0
+    },
+    {
+     "desc": "Aubergine 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 16.99,
+     "amount": 16.99
+    },
+    {
+     "desc": "Tomaten rund 6kg",
+     "qty": 2,
+     "unit": "Karton",
+     "unitPrice": 13.99,
+     "amount": 27.98
+    },
+    {
+     "desc": "Banana leaves round 750gm",
+     "qty": 1,
+     "unit": "packet",
+     "unitPrice": 17.99,
+     "amount": 17.99
     }
    ]
   }
