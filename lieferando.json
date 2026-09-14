@@ -1,6 +1,6 @@
 {
  "platform": "Lieferando (Takeaway.com)",
- "lastUpdated": "2026-09-01",
+ "lastUpdated": "2026-09-14",
  "weeks": [
   {
    "periodStart": "2026-03-22",
@@ -386,6 +386,43 @@
    "invoiceTotal_gross": 931.12,
    "payoutAmount": 1114.59,
    "driveFileId": "14CuFZyt-4vPWa-87FppL6T_o06vxzrDS"
+  },
+  {
+   "periodStart": "2026-08-30",
+   "periodEnd": "2026-09-05",
+   "invoiceDate": "2026-09-06",
+   "invoiceNo": "356963462",
+   "orders": 57,
+   "revenue_gross": 2003.76,
+   "serviceFee30pct": 581.66,
+   "topRankFee": 206.25,
+   "onlinePaymentAdminFee": 36.48,
+   "pickupFee14pct": 9.09,
+   "topRankRefundJulyCorrection": 56.25,
+   "topRankNachberechnung": 56.25,
+   "orderCorrection": -21.46,
+   "subtotal_net": 924.52,
+   "vat19": 179.74,
+   "invoiceTotal_gross": 1104.26,
+   "payoutAmount": 899.5,
+   "driveFileId": "1hO9aHl9jEXwnM-zMbP3FgIoXVcGAPKNm"
+  },
+  {
+   "periodStart": "2026-09-06",
+   "periodEnd": "2026-09-12",
+   "invoiceDate": "2026-09-13",
+   "invoiceNo": "357868981",
+   "orders": 38,
+   "revenue_gross": 1583.3,
+   "serviceFee14pct": 221.66,
+   "topRankFee": 127.5,
+   "onlinePaymentAdminFee": 24.32,
+   "subtotal_net": 373.48,
+   "vat19": 70.96,
+   "invoiceTotal_gross": 444.44,
+   "payoutAmount": 1156.86,
+   "driveFileId": "1ksab4FBTTQv-gluXwTqIhWvm0UP8ynLa",
+   "note": "Service fee back to 14% (self-delivery) this week, reversing the late-June switch to 30% platform-delivery"
   }
  ],
  "coverageNote": "Recovered 13 weeks (22.03-20.06.2026) from Drive backfill batch uploaded 29.05.2026. No files found before that batch upload date - earliest real invoice is week of 22.03.2026 (TAKEAWAY_EXPORT invoice #336217672). Weeks before that (Jan-mid March) not found in Drive."
