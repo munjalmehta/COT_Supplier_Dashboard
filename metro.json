@@ -1,7 +1,7 @@
 {
  "supplier": "Metro",
- "lastUpdated": "2026-09-04",
- "invoiceCount": 34,
+ "lastUpdated": "2026-09-13",
+ "invoiceCount": 35,
  "note": "Metro invoices are POS-style receipts (KOLLI/MENGE/GESAMT format). The 09.06.2026 invoice's total was confirmed via the payment terminal slip on page 3 of the source PDF.",
  "invoices": [
   {
@@ -1739,6 +1739,16 @@
    "grossTotal": 275.75,
    "driveFileId": "1hTS-0RrRka40A0M9HGYG_5YnHgfkcf6r",
    "summary": "ARO Servietten, MPRO Teelichte, MPRO Vilagio Schale, ARO Mayonnaise, MC Wraps 25cm, ARO Spülmittel, Fettlöser, Hygieneuniversal, MC Brownie"
+  },
+  {
+   "invoiceNo": "10.09.2026/041/0/0/0502/059027",
+   "date": "2026-09-10",
+   "netTotal": 169.82,
+   "vat7": 2.12,
+   "vat19": 26.52,
+   "grossTotal": 198.46,
+   "driveFileId": "1h_VGPqwXDGBWLKXYUrP69Z8_WbHR1S8A",
+   "summary": "MPRO Cassolette, MPRO Universalkanne, TH Triangle Schale, MC Erdnüsse, Rauf Tee China Jasmin, ARO Spülmittel, Tork Tuch"
   }
  ],
  "totalNetSpend": 3799.3,
