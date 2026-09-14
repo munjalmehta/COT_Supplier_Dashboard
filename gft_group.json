@@ -1,7 +1,7 @@
 {
  "supplier": "GFT Group",
- "lastUpdated": "2026-08-30",
- "invoiceCount": 38,
+ "lastUpdated": "2026-09-13",
+ "invoiceCount": 39,
  "invoices": [
   {
    "invoiceNo": "326111636",
@@ -2260,6 +2260,23 @@
      "qty": 2,
      "unitPrice": 12.5,
      "amount": 25.0
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326117506",
+   "date": "2026-09-08",
+   "netTotal": 45.62,
+   "vat19": 8.67,
+   "grossTotal": 54.29,
+   "driveFileId": "1pcMsIWlr9OYluVt_rLKnMeNj7y9jFJmV",
+   "lineItems": [
+    {
+     "sku": "15355",
+     "description": "SULA WINE CHENIN BLANC CTN. 12x750ml",
+     "qty": 1,
+     "unitPrice": 45.62,
+     "amount": 45.62
     }
    ]
   }
