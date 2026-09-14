@@ -1,7 +1,7 @@
 {
  "supplier": "Kupfer & Sohn",
- "lastUpdated": "2026-09-04",
- "invoiceCount": 73,
+ "lastUpdated": "2026-09-13",
+ "invoiceCount": 74,
  "note": "Document types include Rechnung (invoice) and Gutschrift (credit note/Stornorechng). Pfand/Leergut and packaging deposit line items (BGK, CF markers) excluded from lineItems below to focus on goods - see netTotal/grossTotal for full invoice value including deposits.",
  "invoices": [
   {
@@ -951,6 +951,15 @@
    "grossTotal": 156.17,
    "driveFileId": "1GkNwtuEJnxzJ2g4Z27YGtuLXLNkpLgeq",
    "summary": "Frischmilch 3,5% 10l Eimer, Salat-Mayonnaise 50% 10kg, Rapsöl 10 Liter"
+  },
+  {
+   "invoiceNo": "556846",
+   "date": "2026-09-09",
+   "netTotal": 43.47,
+   "vat7": 3.04,
+   "grossTotal": 46.51,
+   "driveFileId": "1s_oUXj3gvdwOKhfwrGhtlvx4pCiaCuJE",
+   "summary": "Rapsöl 10 Liter"
   }
  ],
  "totalNetSpend": 11245.12,
