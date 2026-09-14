@@ -1,6 +1,6 @@
 {
  "platform": "Uber Eats",
- "lastUpdated": "2026-09-08",
+ "lastUpdated": "2026-09-14",
  "note": "Weekly 'Aktivitätsübersicht' (activity overview) summaries. Official platform-fee tax invoices (net Uber Eats Gebühr + marketing) linked separately where captured.",
  "weeks": [
   {
@@ -1183,13 +1183,23 @@
    "discounts": -586.78,
    "marketingAdjustment": 31.53,
    "netAfterDiscounts": 2297.82,
-   "commissions": {},
+   "commissions": {
+    "uberDelivery33pct_orders": 29,
+    "uberDelivery33pct_amt": 324.18,
+    "uberDelivery30pct_orders": 10,
+    "uberDelivery30pct_amt": 115.23,
+    "ownDelivery13pct_orders": 21,
+    "ownDelivery13pct_amt": 123.99,
+    "pickup13pct_orders": 1,
+    "pickup13pct_amt": 3.97
+   },
    "uberEatsFee_net": 567.37,
    "uberEatsFee_vat": 107.78,
    "marketing": {
-    "adsGross": 0,
-    "offerFeeGross": -624.4,
-    "note": "Bulk payout CSV does not break out ad spend separately from item discounts - offerFeeGross combines discounts (-586.78) and offer redemption fee (-37.62). No official fee invoice found for this period."
+    "adsGross": -116.55,
+    "offerFeeGross": -37.62,
+    "sourceInvoice": "Aktivitaetsuebersicht_07.09.2026.pdf",
+    "correctedFromEstimate": true
    },
    "misc": {
     "deliveryFeesCollected": 73.0,
