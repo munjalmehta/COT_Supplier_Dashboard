@@ -1,6 +1,6 @@
 {
  "repo": "github.com/munjalmehta/COT_Supplier_Dashboard",
- "generatedAt": "2026-09-06",
+ "generatedAt": "2026-09-13",
  "description": "Manifest of parsed invoice JSON cache per supplier. Future rescans should check latestInvoiceDate per supplier before re-parsing Drive folders, and only fetch invoices newer than that date.",
  "suppliers": {
   "Rajesh Global Food": {
@@ -111,15 +111,15 @@
    },
    {
     "platform": "SumUp Restaurant",
-    "orderCount": 3627,
-    "gross": 165402.66,
-    "net": 151959.36,
-    "vat7": 9018.68,
-    "vat19": 4424.61,
+    "orderCount": 3830,
+    "gross": 174102.41,
+    "net": 159967.99,
+    "vat7": 9503.94,
+    "vat19": 4630.47,
     "platformFees": 0.0,
-    "payout": 165402.66,
+    "payout": 174102.41,
     "commissionPct": 0.0,
-    "periodCoverage": "01.01.2026-31.08.2026 (real, complete, Kategorie-verified clean)"
+    "periodCoverage": "01.01.2026-13.09.2026 (real, complete)"
    },
    {
     "platform": "Tollwood",
@@ -145,15 +145,15 @@
    },
    {
     "platform": "SumUp Foodtruck",
-    "orderCount": 3135,
-    "gross": 48465.6,
-    "net": 45273.54,
-    "vat7": 3163.02,
+    "orderCount": 3373,
+    "gross": 51410.1,
+    "net": 48024.81,
+    "vat7": 3356.25,
     "vat19": 29.04,
     "platformFees": 0.0,
-    "payout": 48465.6,
+    "payout": 51410.1,
     "commissionPct": 0.0,
-    "periodCoverage": "01.05.2026-31.08.2026 (real, complete)"
+    "periodCoverage": "01.05.2026-09.09.2026 (real, complete)"
    },
    {
     "platform": "Wolt",
@@ -169,15 +169,15 @@
    }
   ],
   "totals": {
-   "bruttoumsatz": 520265.43,
-   "nettoumsatz": 482942.23,
-   "ust7": 31780.81,
-   "ust19": 5542.38,
+   "bruttoumsatz": 531909.68,
+   "nettoumsatz": 493702.13,
+   "ust7": 32459.3,
+   "ust19": 5748.24,
    "plattformGebuehren": 76448.51,
-   "auszahlungGesamt": 520265.43,
+   "auszahlungGesamt": 531909.68,
    "bargeldKasse": 51620.53,
    "ustZahllastGesamt": 30087.84,
-   "anzahlVerkaeufe": 10836
+   "anzahlVerkaeufe": 11277
   }
  },
  "historicalCheckpoints": {
