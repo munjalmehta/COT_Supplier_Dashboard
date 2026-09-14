@@ -1,6 +1,6 @@
 {
  "platform": "Wolt",
- "lastUpdated": "2026-09-06",
+ "lastUpdated": "2026-09-14",
  "note": "Weekly Hexa invoicing cycle. Each period = merchant invoice (platform fees), payout report (revenue detail + payout), sales report (order-level detail). Figures below are period-level summaries, not order-line detail.",
  "periods": [
   {
@@ -412,6 +412,31 @@
    "cashCollected_gross": -41.8,
    "payoutAmount": 532.94,
    "driveFileId": "1ZU0kXMMOXFT1tYVf2nGFBNGEu9MyouQj"
+  },
+  {
+   "periodEnd": "2026-09-10",
+   "period": "2026-09-06 to 2026-09-10",
+   "invoiceNo": "DEU/26/HRB217122B/1/597724",
+   "invoiceDate": "2026-09-10",
+   "wolt_fee_net": 123.43,
+   "wolt_fee_vat": 23.45,
+   "wolt_fee_gross": 146.88,
+   "orderFees_net": 7.84,
+   "orderFees_gross": 9.33,
+   "deliveryServiceFees_net": 49.67,
+   "deliveryServiceFees_gross": 59.11,
+   "adSpend_net": 26.96,
+   "adSpend_gross": 32.09,
+   "revenue_goods_net": 545.04,
+   "revenue_goods_gross": 583.24,
+   "revenue_delivery_service_net": 70.0,
+   "revenue_delivery_service_gross": 74.62,
+   "discounts_gross": -31.86,
+   "cashCollected_gross": -90.47,
+   "selfDeliveryConfirmed": true,
+   "selfDeliveryNote": "Invoice shows explicit self-delivery commission tiers (13%/16%) alongside platform-delivery tiers (30%/34%) - confirms Wolt self-delivery discount exists, previously unconfirmed",
+   "payoutAmount": 319.98,
+   "driveFileId": "1GvUXfYlus0TYGN9RG3S2n1vJXnAsQKg-"
   }
  ],
  "coverageNote": "Weeks 17, 19-27 (21.03-15.05.2026) recovered from Sales Reports only - Payout/fee-level Merchant Invoice documents for these dates were not found in Drive, so platformFees/commission cannot be computed for this window; revenue_goods figures are real. Week 18 (26-31.03) not found - genuine gap. Weeks 28-35 (16.05-25.06) not yet recovered - still open. From week 36 (26.06) onward, full fee/payout detail is available.",
