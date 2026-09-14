@@ -13,10 +13,10 @@
   },
   "GFT Group": {
    "file": "gft_group.json",
-   "invoiceCount": 38,
+   "invoiceCount": 39,
    "earliestInvoiceDate": "2026-01-05",
-   "latestInvoiceDate": "2026-08-27",
-   "totalNetSpend": 21217.48,
+   "latestInvoiceDate": "2026-09-08",
+   "totalNetSpend": 21263.1,
    "invoicesMissingNetTotal": null
   },
   "Ökoring": {
@@ -29,26 +29,26 @@
   },
   "Kupfer & Sohn": {
    "file": "kupfer_sohn.json",
-   "invoiceCount": 73,
+   "invoiceCount": 74,
    "earliestInvoiceDate": "2026-01-09",
-   "latestInvoiceDate": "2026-09-04",
-   "totalNetSpend": 13282.07,
+   "latestInvoiceDate": "2026-09-09",
+   "totalNetSpend": 13325.54,
    "invoicesMissingNetTotal": null
   },
   "RK Traders": {
    "file": "rk_traders.json",
-   "invoiceCount": 45,
+   "invoiceCount": 46,
    "earliestInvoiceDate": "2026-01-04",
-   "latestInvoiceDate": "2026-09-01",
-   "totalNetSpend": 9138.82,
+   "latestInvoiceDate": "2026-09-07",
+   "totalNetSpend": 9376.67,
    "invoicesMissingNetTotal": null
   },
   "Metro": {
    "file": "metro.json",
-   "invoiceCount": 34,
+   "invoiceCount": 35,
    "earliestInvoiceDate": "2026-01-12",
-   "latestInvoiceDate": "2026-09-01",
-   "totalNetSpend": 4789.74,
+   "latestInvoiceDate": "2026-09-10",
+   "totalNetSpend": 4959.56,
    "invoicesMissingNetTotal": [
     "09.06.2026/046/0/0/0502/033579"
    ]
@@ -63,16 +63,16 @@
   }
  },
  "grandTotal": {
-  "totalInvoices": 242,
-  "totalNetSpend": 67778.17,
+  "totalInvoices": 246,
+  "totalNetSpend": 68274.93,
   "note": "totalNetSpend excludes invoices where only grossTotal is confirmed (see invoicesMissingNetTotal per supplier)"
  },
  "invoicesMissingNetTotal": [
   "09.06.2026/046/0/0/0502/033579 (Metro)"
  ],
  "lastRescan": {
-  "date": "2026-09-06",
-  "result": "Found 1 new supplier invoice: RK Traders RE4790 (01.09.2026). All other suppliers and delivery platforms already current from prior rescan (2026-09-04)."
+  "date": "2026-09-13",
+  "result": "Found 4 new supplier invoices: GFT (326117506), Kupfer&Sohn (556846), RK Traders (RE4841), Metro (059027). Rajesh, Ökoring, Smart Elite had no new invoices."
  },
  "deliveryPlatforms": {
   "description": "Weekly/period-level revenue and fee summaries per delivery platform. Separate from supplier invoice tracking above. Order-level detail available in source Drive files, not stored here.",
