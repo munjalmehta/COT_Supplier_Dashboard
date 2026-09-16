@@ -1,7 +1,7 @@
 {
  "supplier": "GFT Group",
- "lastUpdated": "2026-09-13",
- "invoiceCount": 39,
+ "lastUpdated": "2026-09-16",
+ "invoiceCount": 40,
  "invoices": [
   {
    "invoiceNo": "326111636",
@@ -2277,6 +2277,66 @@
      "qty": 1,
      "unitPrice": 45.62,
      "amount": 45.62
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326118074",
+   "date": "2026-09-15",
+   "netTotal": 885.1,
+   "vat7": 58.46,
+   "vat19": 9.48,
+   "grossTotal": 953.04,
+   "driveFileId": "1lE91HtHsUy0wUXYijfVwJW3ooLmpU_n6",
+   "lineItems": [
+    {
+     "sku": "41111",
+     "description": "FROZ. CHICKEN SAHA SALTED THAILAND 6x2kg",
+     "qty": 8,
+     "unitPrice": 50.0,
+     "amount": 400.0
+    },
+    {
+     "sku": "41292",
+     "description": "FROZ. CHICKEN LEGS/HÄHNCHENSCHENKEL 10kg",
+     "qty": 1,
+     "unitPrice": 33.0,
+     "amount": 33.0
+    },
+    {
+     "sku": "10624",
+     "description": "HEER EXTRA LONG BASMATI RICE 20kg",
+     "qty": 5,
+     "unitPrice": 37.0,
+     "amount": 185.0
+    },
+    {
+     "sku": "19103",
+     "description": "SCHANI CHICK PEAS BOILED 6x2.5kg",
+     "qty": 4,
+     "unitPrice": 18.8,
+     "amount": 75.2
+    },
+    {
+     "sku": "21212",
+     "description": "SCHANI MAIDA (Weizenmehl T55) 25kg",
+     "qty": 3,
+     "unitPrice": 16.5,
+     "amount": 49.5
+    },
+    {
+     "sku": "19105",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "qty": 5,
+     "unitPrice": 18.5,
+     "amount": 92.5
+    },
+    {
+     "sku": "15352",
+     "description": "SULA WINE CABERNET SHIRAZ RED CTN. 12x750ml",
+     "qty": 1,
+     "unitPrice": 49.9,
+     "amount": 49.9
     }
    ]
   }
