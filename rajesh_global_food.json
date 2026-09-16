@@ -1,7 +1,7 @@
 {
  "supplier": "Rajesh Global Food",
- "lastUpdated": "2026-09-04",
- "invoiceCount": 22,
+ "lastUpdated": "2026-09-16",
+ "invoiceCount": 23,
  "invoices": [
   {
    "invoiceNo": "INV/2026/02447",
@@ -1803,6 +1803,87 @@
      "qty": 1,
      "unitPrice": 37.5,
      "amount": 37.5
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/03819",
+   "date": "2026-09-15",
+   "netTotal": 405.04,
+   "vat7": 15.84,
+   "vat19": 33.99,
+   "grossTotal": 454.87,
+   "driveFileId": "1eZxRjL_l0qJ-QK0HBbUxcrSwFCO369L5",
+   "lineItems": [
+    {
+     "sku": "GP-034",
+     "description": "GP 30ml Rund Verpackungsbecher incl. Deckel, 500stk",
+     "qty": 1,
+     "unitPrice": 14.87,
+     "amount": 14.87
+    },
+    {
+     "sku": "RFR-003",
+     "description": "RG Ladi Paav 62gx60, 10pc/pack",
+     "qty": 1,
+     "unitPrice": 26.99,
+     "amount": 26.99
+    },
+    {
+     "sku": "C9",
+     "description": "DEEP Kesar Mango Pulp 850gx6",
+     "qty": 5,
+     "unitPrice": 13.14,
+     "amount": 65.7
+    },
+    {
+     "sku": "RG-638",
+     "description": "Lucullus Crispy Fried Onion 2.5kg (4x2.5kg)",
+     "qty": 1,
+     "unitPrice": 56.99,
+     "amount": 56.99
+    },
+    {
+     "sku": "RG-067",
+     "description": "AJINOMOTO Glutamate 453g (20x453g)",
+     "qty": 6,
+     "unitPrice": 2.7745,
+     "amount": 16.65
+    },
+    {
+     "sku": "03013",
+     "description": "Heera Ghee 12x1kg",
+     "qty": 2,
+     "unitPrice": 10.99,
+     "amount": 21.98
+    },
+    {
+     "sku": "G188",
+     "description": "DEEP Roasted Dalia Split 907gx20",
+     "qty": 4,
+     "unitPrice": 4.49,
+     "amount": 17.96
+    },
+    {
+     "sku": "GP-024",
+     "description": "GP 613 Siegelschale 2-geteilt, 600stk/ktn",
+     "qty": 1,
+     "unitPrice": 97.99,
+     "amount": 97.99
+    },
+    {
+     "sku": "GP-198",
+     "description": "GP Plastiktragetasche 30x18x55, 2000stk/CTN",
+     "qty": 1,
+     "unitPrice": 65.99,
+     "amount": 65.99
+    },
+    {
+     "sku": "RFR-016",
+     "description": "IGLO Rahmspinat portionierbar 8x750g",
+     "qty": 1,
+     "unitPrice": 19.92,
+     "amount": 19.92
     }
    ]
   }
