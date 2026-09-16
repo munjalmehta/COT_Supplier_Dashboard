@@ -1,6 +1,6 @@
 {
  "platform": "Wolt",
- "lastUpdated": "2026-09-14",
+ "lastUpdated": "2026-09-16",
  "note": "Weekly Hexa invoicing cycle. Each period = merchant invoice (platform fees), payout report (revenue detail + payout), sales report (order-level detail). Figures below are period-level summaries, not order-line detail.",
  "periods": [
   {
@@ -437,6 +437,33 @@
    "selfDeliveryNote": "Invoice shows explicit self-delivery commission tiers (13%/16%) alongside platform-delivery tiers (30%/34%) - confirms Wolt self-delivery discount exists, previously unconfirmed",
    "payoutAmount": 319.98,
    "driveFileId": "1GvUXfYlus0TYGN9RG3S2n1vJXnAsQKg-"
+  },
+  {
+   "periodEnd": "2026-09-15",
+   "period": "2026-09-11 to 2026-09-15",
+   "invoiceNo": "DEU/26/HRB217122B/1/612614",
+   "invoiceDate": "2026-09-15",
+   "wolt_fee_net": 212.18,
+   "wolt_fee_vat": 40.3,
+   "wolt_fee_gross": 252.48,
+   "orderFees_net": 13.23,
+   "orderFees_gross": 15.74,
+   "deliveryServiceFees_net": 90.7,
+   "deliveryServiceFees_gross": 107.93,
+   "lateFees_gross": 65.41,
+   "adSpend_net": -4.57,
+   "adSpend_gross": -5.43,
+   "adSpendNote": "Net credit this period (offer campaign charge -76.57 offset by a larger Wolt+ Delivery Fee Refund for August)",
+   "revenue_goods_net": 873.88,
+   "revenue_goods_gross": 935.14,
+   "revenue_delivery_service_net": 114.71,
+   "revenue_delivery_service_gross": 122.05,
+   "discounts_gross": -42.16,
+   "payoutCorrections": -12.0,
+   "cashCollected_gross": -30.0,
+   "selfDeliveryConfirmed": true,
+   "payoutAmount": 579.06,
+   "driveFileId": "1_SSXvOmI-2FEWnrBymqOjHIHxP9SMt-a"
   }
  ],
  "coverageNote": "Weeks 17, 19-27 (21.03-15.05.2026) recovered from Sales Reports only - Payout/fee-level Merchant Invoice documents for these dates were not found in Drive, so platformFees/commission cannot be computed for this window; revenue_goods figures are real. Week 18 (26-31.03) not found - genuine gap. Weeks 28-35 (16.05-25.06) not yet recovered - still open. From week 36 (26.06) onward, full fee/payout detail is available.",
