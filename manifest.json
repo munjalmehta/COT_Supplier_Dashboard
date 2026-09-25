@@ -1,6 +1,6 @@
 {
  "repo": "github.com/munjalmehta/COT_Supplier_Dashboard",
- "generatedAt": "2026-09-16",
+ "generatedAt": "2026-09-26",
  "description": "Manifest of parsed invoice JSON cache per supplier. Future rescans should check latestInvoiceDate per supplier before re-parsing Drive folders, and only fetch invoices newer than that date.",
  "suppliers": {
   "Rajesh Global Food": {
@@ -13,10 +13,10 @@
   },
   "GFT Group": {
    "file": "gft_group.json",
-   "invoiceCount": 40,
+   "invoiceCount": 42,
    "earliestInvoiceDate": "2026-01-05",
-   "latestInvoiceDate": "2026-09-15",
-   "totalNetSpend": 22148.2,
+   "latestInvoiceDate": "2026-09-24",
+   "totalNetSpend": 23350.51,
    "invoicesMissingNetTotal": null
   },
   "Ökoring": {
@@ -29,10 +29,10 @@
   },
   "Kupfer & Sohn": {
    "file": "kupfer_sohn.json",
-   "invoiceCount": 74,
+   "invoiceCount": 78,
    "earliestInvoiceDate": "2026-01-09",
-   "latestInvoiceDate": "2026-09-09",
-   "totalNetSpend": 13325.54,
+   "latestInvoiceDate": "2026-09-25",
+   "totalNetSpend": 14178.99,
    "invoicesMissingNetTotal": null
   },
   "RK Traders": {
@@ -45,10 +45,10 @@
   },
   "Metro": {
    "file": "metro.json",
-   "invoiceCount": 35,
+   "invoiceCount": 38,
    "earliestInvoiceDate": "2026-01-12",
-   "latestInvoiceDate": "2026-09-10",
-   "totalNetSpend": 4959.56,
+   "latestInvoiceDate": "2026-09-25",
+   "totalNetSpend": 5212.46,
    "invoicesMissingNetTotal": [
     "09.06.2026/046/0/0/0502/033579"
    ]
@@ -63,16 +63,16 @@
   }
  },
  "grandTotal": {
-  "totalInvoices": 248,
-  "totalNetSpend": 69565.07,
+  "totalInvoices": 257,
+  "totalNetSpend": 71873.73,
   "note": "totalNetSpend excludes invoices where only grossTotal is confirmed (see invoicesMissingNetTotal per supplier)"
  },
  "invoicesMissingNetTotal": [
   "09.06.2026/046/0/0/0502/033579 (Metro)"
  ],
  "lastRescan": {
-  "date": "2026-09-16",
-  "result": "Found 2 new supplier invoices: GFT (326118074), Rajesh (INV/2026/03819). Kupfer&Sohn, RK Traders, Ökoring, Metro had no new invoices."
+  "date": "2026-09-26",
+  "result": "Found 9 new supplier invoices: GFT (2), Kupfer&Sohn (4), Metro (3). Rajesh, RK Traders, Ökoring had no new invoices."
  },
  "deliveryPlatforms": {
   "description": "Weekly/period-level revenue and fee summaries per delivery platform. Separate from supplier invoice tracking above. Order-level detail available in source Drive files, not stored here.",
