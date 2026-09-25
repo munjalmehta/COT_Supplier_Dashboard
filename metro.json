@@ -1,7 +1,7 @@
 {
  "supplier": "Metro",
- "lastUpdated": "2026-09-13",
- "invoiceCount": 35,
+ "lastUpdated": "2026-09-26",
+ "invoiceCount": 38,
  "note": "Metro invoices are POS-style receipts (KOLLI/MENGE/GESAMT format). The 09.06.2026 invoice's total was confirmed via the payment terminal slip on page 3 of the source PDF.",
  "invoices": [
   {
@@ -1749,6 +1749,36 @@
    "grossTotal": 198.46,
    "driveFileId": "1h_VGPqwXDGBWLKXYUrP69Z8_WbHR1S8A",
    "summary": "MPRO Cassolette, MPRO Universalkanne, TH Triangle Schale, MC Erdnüsse, Rauf Tee China Jasmin, ARO Spülmittel, Tork Tuch"
+  },
+  {
+   "invoiceNo": "18.09.2026/041/0/0/0501/061440",
+   "date": "2026-09-18",
+   "netTotal": 131.7,
+   "vat7": 1.22,
+   "vat19": 21.71,
+   "grossTotal": 154.63,
+   "driveFileId": "165-RWm4Uz0h6kV_QcouLlYuWCWYAt8dn",
+   "summary": "MPRO Muellbeutel, Topfreiniger, Pfannenwender, Metzgerstahl, Seiher, Spuelbuersten, Brennpaste, ARO Espresso, Wein, Ice Cubes, Basilikum, Rosmarin"
+  },
+  {
+   "invoiceNo": "24.09.2026/041/0/0/0503/043222",
+   "date": "2026-09-24",
+   "netTotal": 70.54,
+   "vat7": 1.3,
+   "vat19": 9.87,
+   "grossTotal": 81.71,
+   "driveFileId": "1XSzX56na5jUnSrzShld0NL93yAdimU6L",
+   "summary": "Topfreiniger, MC Dose Pfeffer, MC Tortilla Chips, ARO Spuelmittel, Fettloeser, TK Gemuesemischung"
+  },
+  {
+   "invoiceNo": "25.09.2026/041/0/0/0503/043244",
+   "date": "2026-09-25",
+   "netTotal": 50.66,
+   "vat7": 3.18,
+   "vat19": 1.0,
+   "grossTotal": 54.84,
+   "driveFileId": "1kvfeqNNMYo3NEqJ28WocSpVTaN4sNycc",
+   "summary": "Folien-Ballons, Buchstabenkerzen, MC Wraps, Sammys Sandwich, Philadelphia, TK Mandarinen-Kaese-Sahne, Germini"
   }
  ],
  "totalNetSpend": 3799.3,
