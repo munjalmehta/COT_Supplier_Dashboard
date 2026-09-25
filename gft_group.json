@@ -1,7 +1,7 @@
 {
  "supplier": "GFT Group",
- "lastUpdated": "2026-09-16",
- "invoiceCount": 40,
+ "lastUpdated": "2026-09-26",
+ "invoiceCount": 42,
  "invoices": [
   {
    "invoiceNo": "326111636",
@@ -2337,6 +2337,125 @@
      "qty": 1,
      "unitPrice": 49.9,
      "amount": 49.9
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326118257",
+   "date": "2026-09-17",
+   "netTotal": 80.34,
+   "vat7": 1.72,
+   "vat19": 10.61,
+   "grossTotal": 92.67,
+   "driveFileId": "1xgLPc8fCFMv8aV7mgtbxftHuj3tll9z_",
+   "lineItems": [
+    {
+     "sku": "15151",
+     "description": "KINGFISHER PREM. LAGER BEER 4.5% 24x330ml",
+     "qty": 2,
+     "unitPrice": 26.0,
+     "amount": 52.0
+    },
+    {
+     "sku": "41345",
+     "description": "IGLO FROZ. CREAMED SPINACH 8x1kg",
+     "qty": 1,
+     "unitPrice": 24.5,
+     "amount": 24.5
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326118842",
+   "date": "2026-09-24",
+   "netTotal": 1121.97,
+   "vat7": 78.54,
+   "grossTotal": 1200.51,
+   "driveFileId": "1bJSdhp6Y8d1v-df4gq0XQxD1kaIUy5c4",
+   "lineItems": [
+    {
+     "sku": "16157",
+     "description": "SCHANI CASHEW KERNELS - LP CTN. 50lbs",
+     "qty": 1,
+     "unitPrice": 115.0,
+     "amount": 115.0
+    },
+    {
+     "sku": "31281",
+     "description": "SCHANI CORIANDER POWDER CTN. 6x1kg",
+     "qty": 1,
+     "unitPrice": 20.33,
+     "amount": 20.33
+    },
+    {
+     "sku": "31308",
+     "description": "SCHANI JEERA POWDER CTN. 6x1kg",
+     "qty": 1,
+     "unitPrice": 35.27,
+     "amount": 35.27
+    },
+    {
+     "sku": "31307",
+     "description": "SCHANI HALDI POWDER 6x1kg",
+     "qty": 1,
+     "unitPrice": 22.3,
+     "amount": 22.3
+    },
+    {
+     "sku": "13023",
+     "description": "MDH KITCHEN KING CTN. 24x500g",
+     "qty": 1,
+     "unitPrice": 137.0,
+     "amount": 137.0
+    },
+    {
+     "sku": "41111",
+     "description": "FROZ. CHICKEN SAHA SALTED THAILAND 6x2kg",
+     "qty": 5,
+     "unitPrice": 50.0,
+     "amount": 250.0
+    },
+    {
+     "sku": "41103",
+     "description": "FROZ. LAMB w/o BONES 1kg",
+     "qty": 21.46,
+     "unitPrice": 11.5,
+     "amount": 246.79
+    },
+    {
+     "sku": "12982",
+     "description": "MDH KASOORI METHI LEAVES CTN. 6x1kg",
+     "qty": 1,
+     "unitPrice": 66.79,
+     "amount": 66.79
+    },
+    {
+     "sku": "11464",
+     "description": "SCHANI MOONG DAL 2kg",
+     "qty": 3,
+     "unitPrice": 4.2,
+     "amount": 12.6
+    },
+    {
+     "sku": "19105",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "qty": 6,
+     "unitPrice": 18.5,
+     "amount": 111.0
+    },
+    {
+     "sku": "41345",
+     "description": "IGLO FROZ. CREAMED SPINACH 8x1kg",
+     "qty": 4,
+     "unitPrice": 24.5,
+     "amount": 98.0
+    },
+    {
+     "sku": "21202",
+     "description": "SCHANI ATTA CHAPATI 10kg",
+     "qty": 1,
+     "unitPrice": 6.89,
+     "amount": 6.89
     }
    ]
   }
