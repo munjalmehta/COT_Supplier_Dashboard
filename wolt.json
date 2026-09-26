@@ -1,6 +1,6 @@
 {
  "platform": "Wolt",
- "lastUpdated": "2026-09-16",
+ "lastUpdated": "2026-09-27",
  "note": "Weekly Hexa invoicing cycle. Each period = merchant invoice (platform fees), payout report (revenue detail + payout), sales report (order-level detail). Figures below are period-level summaries, not order-line detail.",
  "periods": [
   {
@@ -464,6 +464,16 @@
    "selfDeliveryConfirmed": true,
    "payoutAmount": 579.06,
    "driveFileId": "1_SSXvOmI-2FEWnrBymqOjHIHxP9SMt-a"
+  },
+  {
+   "periodEnd": "2026-09-25",
+   "period": "2026-09-21 to 2026-09-25",
+   "invoiceNo": "DEU/26/HRB217122B/1/639751",
+   "invoiceDate": "2026-09-25",
+   "revenue_total_gross": 784.52,
+   "feeDataAvailable": false,
+   "note": "Sales Report only - matching Invoice and Payout Report not yet found in Drive. Revenue figure only, no fee/commission/payout breakdown available yet.",
+   "driveFileId": "1UdU3GDUQK4eozERT38dGu5l5HkPQ5gmz"
   }
  ],
  "coverageNote": "Weeks 17, 19-27 (21.03-15.05.2026) recovered from Sales Reports only - Payout/fee-level Merchant Invoice documents for these dates were not found in Drive, so platformFees/commission cannot be computed for this window; revenue_goods figures are real. Week 18 (26-31.03) not found - genuine gap. Weeks 28-35 (16.05-25.06) not yet recovered - still open. From week 36 (26.06) onward, full fee/payout detail is available.",
