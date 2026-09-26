@@ -1,6 +1,6 @@
 {
  "platform": "Uber Eats",
- "lastUpdated": "2026-09-15",
+ "lastUpdated": "2026-09-27",
  "note": "Weekly 'Aktivitätsübersicht' (activity overview) summaries. Official platform-fee tax invoices (net Uber Eats Gebühr + marketing) linked separately where captured.",
  "weeks": [
   {
@@ -1238,6 +1238,43 @@
    "payoutTotal": 1807.15,
    "payoutDate": "2026-09-14",
    "payoutRef": "G8DSGH3HQKYG",
+   "schema": "official_monthly_report"
+  },
+  {
+   "periodStart": "2026-09-14",
+   "periodEnd": "2026-09-20",
+   "reportDate": "2026-09-21",
+   "orders": 64,
+   "grossOrderValue": 2879.4,
+   "discounts": -314.82,
+   "marketingAdjustment": 21.1,
+   "netAfterDiscounts": 2585.68,
+   "commissions": {
+    "uberDelivery33pct_orders": 19,
+    "uberDelivery33pct_amt": 268.53,
+    "uberDelivery30pct_orders": 5,
+    "uberDelivery30pct_amt": 62.64,
+    "ownDelivery13pct_orders": 38,
+    "ownDelivery13pct_amt": 206.59,
+    "pickup13pct_orders": 2,
+    "pickup13pct_amt": 13.54
+   },
+   "uberEatsFee_net": 551.3,
+   "uberEatsFee_vat": 104.73,
+   "marketing": {
+    "adsGross": -157.04,
+    "offerFeeGross": -37.62,
+    "sourceInvoice": "Aktivitaetsuebersicht_21.09.2026.pdf"
+   },
+   "misc": {
+    "deliveryFeesCollected": 130.0,
+    "tips": 16.16,
+    "other": 0.1
+   },
+   "payoutTotal": 1881.25,
+   "payoutDate": "2026-09-21",
+   "payoutRef": "H6G3J89N1ED9",
+   "driveFileId": "1y2GhuCFBt2aixSc_FeU9jjBTMSo_0qev",
    "schema": "official_monthly_report"
   }
  ],
