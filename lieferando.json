@@ -1,6 +1,6 @@
 {
  "platform": "Lieferando (Takeaway.com)",
- "lastUpdated": "2026-09-26",
+ "lastUpdated": "2026-09-30",
  "weeks": [
   {
    "periodStart": "2026-03-22",
@@ -440,6 +440,23 @@
    "payoutAmount": 1490.33,
    "driveFileId": "18fiDg0DjooQ-wO2UGGLRI6Bq1lzh-hiS",
    "note": "14% service fee (self-delivery) confirmed again this week"
+  },
+  {
+   "periodStart": "2026-09-20",
+   "periodEnd": "2026-09-26",
+   "invoiceDate": "2026-09-27",
+   "invoiceNo": "359671041",
+   "orders": 61,
+   "revenue_gross": 2883.45,
+   "serviceFee14pct": 403.68,
+   "topRankFee": 213.75,
+   "onlinePaymentAdminFee": 39.04,
+   "subtotal_net": 656.47,
+   "vat19": 124.73,
+   "invoiceTotal_gross": 781.2,
+   "payoutAmount": 2102.25,
+   "driveFileId": "1ZG_BeocsaxFPN_pTrypX88DZv6pbeF8m",
+   "note": "14% service fee (self-delivery) confirmed again. Includes 2 chargebacks totaling -42.50"
   }
  ],
  "coverageNote": "Recovered 13 weeks (22.03-20.06.2026) from Drive backfill batch uploaded 29.05.2026. No files found before that batch upload date - earliest real invoice is week of 22.03.2026 (TAKEAWAY_EXPORT invoice #336217672). Weeks before that (Jan-mid March) not found in Drive."
