@@ -1,7 +1,7 @@
 {
  "supplier": "RK Traders",
- "lastUpdated": "2026-09-13",
- "invoiceCount": 46,
+ "lastUpdated": "2026-09-30",
+ "invoiceCount": 47,
  "contact": "Rohit Kumar",
  "invoices": [
   {
@@ -3697,6 +3697,115 @@
      "unit": "packet",
      "unitPrice": 17.99,
      "amount": 17.99
+    }
+   ]
+  },
+  {
+   "invoiceNo": "RE5017",
+   "date": "2026-09-24",
+   "deliveryDate": "2026-09-24",
+   "netTotal": 253.7,
+   "vat7": 17.76,
+   "grossTotal": 271.46,
+   "driveFileId": "1gu6OhQxairscaROP7RPGr88Xy_ceDuLO",
+   "lineItems": [
+    {
+     "desc": "Zwiebel 25kg",
+     "qty": 3,
+     "unit": "Sack",
+     "unitPrice": 16.99,
+     "amount": 50.97
+    },
+    {
+     "desc": "Paprika Mix 5kg",
+     "qty": 2,
+     "unit": "Karton",
+     "unitPrice": 15.49,
+     "amount": 30.98
+    },
+    {
+     "desc": "Minze 10 bund",
+     "qty": 1,
+     "unit": "Kiste",
+     "unitPrice": 8.99,
+     "amount": 8.99
+    },
+    {
+     "desc": "Coriander 10 bund",
+     "qty": 2,
+     "unit": "Kiste",
+     "unitPrice": 8.99,
+     "amount": 17.98
+    },
+    {
+     "desc": "Rote Zwiebel 10kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 12.99,
+     "amount": 12.99
+    },
+    {
+     "desc": "Tomaten rund 6kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 11.99,
+     "amount": 11.99
+    },
+    {
+     "desc": "Karotten 10kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 10.5,
+     "amount": 10.5
+    },
+    {
+     "desc": "Spinat/Palak",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 22.99,
+     "amount": 22.99
+    },
+    {
+     "desc": "Aubergine 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 16.99,
+     "amount": 16.99
+    },
+    {
+     "desc": "Lauchzwiebeln",
+     "qty": 14,
+     "unit": "Stück",
+     "unitPrice": 0.99,
+     "amount": 13.86
+    },
+    {
+     "desc": "Eisberg 10er",
+     "qty": 1,
+     "unit": "Kiste",
+     "unitPrice": 13.49,
+     "amount": 13.49
+    },
+    {
+     "desc": "Kartoffel 25kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 18.49,
+     "amount": 18.49
+    },
+    {
+     "desc": "Gurken 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 10.99,
+     "amount": 10.99
+    },
+    {
+     "desc": "Paprika Grün 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 12.49,
+     "amount": 12.49
     }
    ]
   }
