@@ -161,10 +161,10 @@
   },
   {
    "month": "2026-09",
-   "umsatz": 28408.84,
-   "uber": 0,
-   "wolt": 0,
-   "lieferando": 0,
+   "umsatz": 53336.92,
+   "uber": 11958.1,
+   "wolt": 4432.67,
+   "lieferando": 8537.31,
    "sumup_restaurant": 19843.84,
    "sumup_foodtruck": 8565.0,
    "tollwood": 0,
@@ -173,7 +173,11 @@
    "ausgaben": 0,
    "trinkgeld": 853.65,
    "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.09-30.09.2026, full month), Kategorie-filtered (00_Foodtruck/01_Foodtruck_Event/Tollwood excluded), Trinkgeld excluded from revenue and tracked separately",
-   "sumup_foodtruck_source": "Real Verkaufsbericht CSV (01.09-30.09.2026, full month) - methodology verified against Jun/Jul/Aug which matched gross(brutto)-excl-tip exactly"
+   "sumup_foodtruck_source": "Real Verkaufsbericht CSV (01.09-30.09.2026, full month) - methodology verified against Jun/Jul/Aug which matched gross(brutto)-excl-tip exactly",
+   "uberOrders": 266,
+   "uberSource": "Uber sales-over-time CSV (monthly bucket, 01.09-30.09.2026), matches methodology used for Apr-Aug (confirmed exact match against those months)",
+   "woltSource": "Sum of Wolt weekly periods touching September (from wolt.json Belege live data) - same convention as prior months",
+   "lieferandoSource": "Sum of Lieferando weekly invoice periods touching September (from lieferando.json) - same weekly-bucket convention as Uber/Wolt"
   }
  ],
  "live_periods": [
