@@ -1,0 +1,1063 @@
+{
+ "source": "Sparkasse Kreditkarten-Umsatz CSV (Karten 1721, 4305)",
+ "period": "2026-06-29 to 2026-09-30",
+ "lastUpdated": "2026-10-02",
+ "note": "Card 1721 = general ops/admin card (Amazon, Metro supplies). Card 4305 = primarily fuel/vehicle card. 'Abrechnung' settlement entries excluded (not expenses, just monthly balance clearing).",
+ "fuelCostsByMonth": [
+  {
+   "month": "2026-06",
+   "total": 205.07
+  },
+  {
+   "month": "2026-07",
+   "total": 1130.88
+  },
+  {
+   "month": "2026-08",
+   "total": 655.9
+  },
+  {
+   "month": "2026-09",
+   "total": 960.06
+  }
+ ],
+ "fuelNote": "No petrol/diesel split available - card statements only show station name and amount, not fuel type.",
+ "transactionCount": 115,
+ "transactions": [
+  {
+   "card": "4305",
+   "date": "2026-06-29",
+   "merchant": "RAN-Station",
+   "location": "Freising",
+   "amount": -92.06,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-06-30",
+   "merchant": "Shell 0421",
+   "location": "Muenchen",
+   "amount": -113.01,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-01",
+   "merchant": "LOVABLE",
+   "location": "DOVER",
+   "amount": -15.0,
+   "mcc": "5734",
+   "category": "Software/Abo"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-02",
+   "merchant": "AMZN Mktp DE*VU0ZN11J5",
+   "location": "LUXEMBOURG",
+   "amount": -10.89,
+   "mcc": "5942",
+   "category": "Bücher/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-02",
+   "merchant": "AMZN Mktp DE*CO5HI6EC5",
+   "location": "LUXEMBOURG",
+   "amount": -11.89,
+   "mcc": "5942",
+   "category": "Bücher/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-03",
+   "merchant": "METRO SAGT DANKE",
+   "location": "MUENCHEN",
+   "amount": -109.97,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-03",
+   "merchant": "MR WASH AUTOSERVICE AG",
+   "location": "MUENCHEN",
+   "amount": -124.0,
+   "mcc": "7538",
+   "category": "Autowäsche/Service"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-06",
+   "merchant": "Aral Station 191191006",
+   "location": "Freising",
+   "amount": -104.91,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-06",
+   "merchant": "EDEKA M LANDSB. ST 865",
+   "location": "Muenchen",
+   "amount": -120.37,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-06",
+   "merchant": "Netto Marken-Discount",
+   "location": "Muenchen",
+   "amount": -11.34,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-07",
+   "merchant": "Online Shop Orlen",
+   "location": "Elmshorn",
+   "amount": -127.41,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-07",
+   "merchant": "Jet-Tankstelle",
+   "location": "Freising",
+   "amount": -99.25,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-07",
+   "merchant": "Landratsamt Freising",
+   "location": "Freising",
+   "amount": -17.4,
+   "mcc": "9399",
+   "category": "Behörden/Gebühren"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-08",
+   "merchant": "Olympia Parkplatz BRK",
+   "location": "Muenchen",
+   "amount": -15.0,
+   "mcc": "7523",
+   "category": "Parken"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-09",
+   "merchant": "METRO SAGT DANKE",
+   "location": "MUENCHEN",
+   "amount": -114.43,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-09",
+   "merchant": "Olympia Parkplatz BRK",
+   "location": "Muenchen",
+   "amount": -15.0,
+   "mcc": "7523",
+   "category": "Parken"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-12",
+   "merchant": "Agip Service-Station",
+   "location": "München",
+   "amount": -105.13,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-13",
+   "merchant": "Shell 0421",
+   "location": "Muenchen",
+   "amount": -85.45,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-16",
+   "merchant": "METRO SAGT DANKE",
+   "location": "MUENCHEN",
+   "amount": -287.35,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-16",
+   "merchant": "Olympia Parkplatz BRK",
+   "location": "Muenchen",
+   "amount": -60.0,
+   "mcc": "7523",
+   "category": "Parken"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-17",
+   "merchant": "METRO SAGT DANKE",
+   "location": "MUENCHEN",
+   "amount": -56.01,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-17",
+   "merchant": "Shell 0421",
+   "location": "Muenchen",
+   "amount": -50.0,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-18",
+   "merchant": "Olympia Parkplatz BRK",
+   "location": "Muenchen",
+   "amount": -15.0,
+   "mcc": "7523",
+   "category": "Parken"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-18",
+   "merchant": "DO & CO Gastronomie Gm",
+   "location": "Unterschleiss",
+   "amount": -1252.4,
+   "mcc": "5812",
+   "category": "Catering/Gastronomie"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-19",
+   "merchant": "RAN-Station",
+   "location": "Freising",
+   "amount": -99.94,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-24",
+   "merchant": "Allguth GmbH 1319",
+   "location": "Muenchen",
+   "amount": -98.24,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-25",
+   "merchant": "RAN-Station",
+   "location": "Freising",
+   "amount": -98.42,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-27",
+   "merchant": "METRO SAGT DANKE",
+   "location": "MUENCHEN",
+   "amount": -264.88,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-28",
+   "merchant": "AMAZON* D279R60D5",
+   "location": "LUXEMBOURG",
+   "amount": -21.55,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-28",
+   "merchant": "AMAZON* NG1L269K5",
+   "location": "LUXEMBOURG",
+   "amount": -10.89,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-28",
+   "merchant": "JET-Tankstelle",
+   "location": "Muenchen",
+   "amount": -144.04,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-28",
+   "merchant": "ANTHROPIC* CLAUDE SUB",
+   "location": "SAN FRANCISCO",
+   "amount": -21.42,
+   "mcc": "5734",
+   "category": "Software/Abo"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-30",
+   "merchant": "AMZNBusiness*CO6GE1HY5",
+   "location": "LUXEMBOURG",
+   "amount": -10.9,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-07-30",
+   "merchant": "METRO SAGT DANKE",
+   "location": "MUENCHEN",
+   "amount": -111.66,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "4305",
+   "date": "2026-07-31",
+   "merchant": "Orlen STAR Tankstellen",
+   "location": "Elmshorn",
+   "amount": -118.09,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-01",
+   "merchant": "RAN-Station",
+   "location": "Freising",
+   "amount": -100.49,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-02",
+   "merchant": "LOVABLE",
+   "location": "DOVER",
+   "amount": -25.0,
+   "mcc": "5734",
+   "category": "Software/Abo"
+  },
+  {
+   "card": "1721",
+   "date": "2026-08-04",
+   "merchant": "AMAZON* NG1L269K5",
+   "location": "LUXEMBOURG",
+   "amount": 10.89,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-04",
+   "merchant": "METRO SAGT DANKE",
+   "location": "MUENCHEN",
+   "amount": -68.38,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-05",
+   "merchant": "RAN-Station",
+   "location": "Freising",
+   "amount": -111.27,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "1721",
+   "date": "2026-08-07",
+   "merchant": "AMZN Mktp DE*PU2IV5SN5",
+   "location": "LUXEMBOURG",
+   "amount": -11.5,
+   "mcc": "5942",
+   "category": "Bücher/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-08-07",
+   "merchant": "AMZN Mktp DE*YK94J2FM5",
+   "location": "LUXEMBOURG",
+   "amount": -21.98,
+   "mcc": "5942",
+   "category": "Bücher/Online"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-08",
+   "merchant": "METRO SAGT DANKE",
+   "location": "MUENCHEN",
+   "amount": -298.95,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "1721",
+   "date": "2026-08-09",
+   "merchant": "AMZNBusiness*4C8DA67F5",
+   "location": "LUXEMBOURG",
+   "amount": -269.0,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-09",
+   "merchant": "THUNDERBIT, INC.",
+   "location": "SAN FRANCISCO",
+   "amount": -179.06,
+   "mcc": "5734",
+   "category": "Software/Abo"
+  },
+  {
+   "card": "1721",
+   "date": "2026-08-10",
+   "merchant": "Jet-Tankstelle",
+   "location": "Freising",
+   "amount": -98.81,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-10",
+   "merchant": "Orlen STAR Tankstellen",
+   "location": "Elmshorn",
+   "amount": -98.64,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-10",
+   "merchant": "THUNDERBIT, INC.",
+   "location": "SAN FRANCISCO",
+   "amount": 179.06,
+   "mcc": "5734",
+   "category": "Software/Abo"
+  },
+  {
+   "card": "1721",
+   "date": "2026-08-11",
+   "merchant": "AMZN Mktp DE*R76KS8LA5",
+   "location": "LUXEMBOURG",
+   "amount": -44.66,
+   "mcc": "5942",
+   "category": "Bücher/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-08-12",
+   "merchant": "BAUHAUS",
+   "location": "Muenchen",
+   "amount": -116.05,
+   "mcc": "5211",
+   "category": "Baumarkt"
+  },
+  {
+   "card": "1721",
+   "date": "2026-08-13",
+   "merchant": "BAUHAUS",
+   "location": "Muenchen",
+   "amount": -33.24,
+   "mcc": "5211",
+   "category": "Baumarkt"
+  },
+  {
+   "card": "1721",
+   "date": "2026-08-13",
+   "merchant": "BAUHAUS",
+   "location": "Muenchen",
+   "amount": 91.1,
+   "mcc": "5211",
+   "category": "Baumarkt"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-14",
+   "merchant": "Hornbach Baumarkt AG F",
+   "location": "München",
+   "amount": -61.4,
+   "mcc": "5200",
+   "category": "Baumarkt"
+  },
+  {
+   "card": "1721",
+   "date": "2026-08-17",
+   "merchant": "Aral Station 191191006",
+   "location": "Freising",
+   "amount": -40.71,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-17",
+   "merchant": "Orlen STAR Tankstellen",
+   "location": "Elmshorn",
+   "amount": -105.97,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-17",
+   "merchant": "METRO SAGT DANKE",
+   "location": "MUENCHEN",
+   "amount": -122.62,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "1721",
+   "date": "2026-08-23",
+   "merchant": "AMZNBusiness",
+   "location": "LUXEMBOURG",
+   "amount": 33.91,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-08-25",
+   "merchant": "AMZNBusiness",
+   "location": "LUXEMBOURG",
+   "amount": 10.9,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-28",
+   "merchant": "2% für Währungsumrechnung",
+   "location": "APPLE.COM/US",
+   "amount": -1.4,
+   "mcc": "5732",
+   "category": "Elektronik"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-28",
+   "merchant": "APPLE.COM/US",
+   "location": "CUPERTINO",
+   "amount": -69.8,
+   "mcc": "5732",
+   "category": "Elektronik"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-29",
+   "merchant": "Olympia Parkplatz BRK",
+   "location": "Muenchen",
+   "amount": -15.0,
+   "mcc": "7523",
+   "category": "Parken"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-29",
+   "merchant": "ANTHROPIC* CLAUDE SUB",
+   "location": "SAN FRANCISCO",
+   "amount": -21.42,
+   "mcc": "5734",
+   "category": "Software/Abo"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-29",
+   "merchant": "Mol*WMD18454004 2026 1",
+   "location": "4971199598220",
+   "amount": -18.89,
+   "mcc": "2741",
+   "category": "Sonstiges"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-30",
+   "merchant": "Olympia Parkplatz BRK",
+   "location": "Muenchen",
+   "amount": -15.0,
+   "mcc": "7523",
+   "category": "Parken"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-31",
+   "merchant": "Olympia Parkplatz BRK",
+   "location": "Muenchen",
+   "amount": -15.0,
+   "mcc": "7523",
+   "category": "Parken"
+  },
+  {
+   "card": "4305",
+   "date": "2026-08-31",
+   "merchant": "MTM TANKSTELLEN GMBH",
+   "location": "MÜNCHEN",
+   "amount": -100.01,
+   "mcc": "5542",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-01",
+   "merchant": "METRO SAGT DANKE",
+   "location": "MUENCHEN",
+   "amount": -275.75,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-01",
+   "merchant": "Olympia Parkplatz BRK",
+   "location": "Muenchen",
+   "amount": -13.0,
+   "mcc": "7523",
+   "category": "Parken"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-02",
+   "merchant": "BSP AUTO",
+   "location": "PARIS 12",
+   "amount": -63.0,
+   "mcc": "4722",
+   "category": "Reisebüro"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-02",
+   "merchant": "Olympia Parkplatz BRK",
+   "location": "Muenchen",
+   "amount": -15.0,
+   "mcc": "7523",
+   "category": "Parken"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-02",
+   "merchant": "LOVABLE",
+   "location": "DOVER",
+   "amount": -25.0,
+   "mcc": "5734",
+   "category": "Software/Abo"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-03",
+   "merchant": "AMAZON* NV6PP7JM4",
+   "location": "LUXEMBOURG",
+   "amount": -12.0,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-03",
+   "merchant": "AMAZON* NV6CI04M4",
+   "location": "LUXEMBOURG",
+   "amount": -15.89,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-03",
+   "merchant": "FLEX RENT MUNICH AIRPO",
+   "location": "FREISING",
+   "amount": -32.0,
+   "mcc": "7512",
+   "category": "Autovermietung"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-03",
+   "merchant": "Vermietung + Verpachtu",
+   "location": "Schliersee",
+   "amount": -6.0,
+   "mcc": "7523",
+   "category": "Parken"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-04",
+   "merchant": "Agip Service-Station",
+   "location": "München",
+   "amount": -49.26,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-05",
+   "merchant": "Orlen STAR Tankstellen",
+   "location": "Elmshorn",
+   "amount": -93.01,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-06",
+   "merchant": "ANTHROPIC* CLAUDE SUB",
+   "location": "SAN FRANCISCO",
+   "amount": 3.42,
+   "mcc": "5734",
+   "category": "Software/Abo"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-06",
+   "merchant": "RAN-Station",
+   "location": "Freising",
+   "amount": -100.82,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-06",
+   "merchant": "ANTHROPIC* CLAUDE SUB",
+   "location": "SAN FRANCISCO",
+   "amount": 3.42,
+   "mcc": "5734",
+   "category": "Software/Abo"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-07",
+   "merchant": "AMZN Mktp DE*NV7QE5DI4",
+   "location": "LUXEMBOURG",
+   "amount": -6.37,
+   "mcc": "5942",
+   "category": "Bücher/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-08",
+   "merchant": "AMZN Mktp DE*NV9YC7Y14",
+   "location": "LUXEMBOURG",
+   "amount": -25.98,
+   "mcc": "5942",
+   "category": "Bücher/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-08",
+   "merchant": "BAUHAUS",
+   "location": "Muenchen",
+   "amount": -50.84,
+   "mcc": "5211",
+   "category": "Baumarkt"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-09",
+   "merchant": "AMZN Mktp DE*NF0VY03N4",
+   "location": "LUXEMBOURG",
+   "amount": -36.99,
+   "mcc": "5942",
+   "category": "Bücher/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-10",
+   "merchant": "AMAZON* NF8L03GB4",
+   "location": "LUXEMBOURG",
+   "amount": -34.0,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-10",
+   "merchant": "AMZN Mktp DE*NF8NH9EX4",
+   "location": "LUXEMBOURG",
+   "amount": -17.99,
+   "mcc": "5942",
+   "category": "Bücher/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-10",
+   "merchant": "AMZN Mktp DE*NF5KP7E94",
+   "location": "LUXEMBOURG",
+   "amount": -33.99,
+   "mcc": "5942",
+   "category": "Bücher/Online"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-10",
+   "merchant": "METRO SAGT DANKE",
+   "location": "MUENCHEN",
+   "amount": -198.46,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-10",
+   "merchant": "EDEKA M LANDSB. ST 865",
+   "location": "Muenchen",
+   "amount": -37.82,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-11",
+   "merchant": "Orlen STAR Tankstellen",
+   "location": "Elmshorn",
+   "amount": -101.41,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-12",
+   "merchant": "Hagebaumarkt Freising",
+   "location": "Freising",
+   "amount": -29.95,
+   "mcc": "5200",
+   "category": "Baumarkt"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-13",
+   "merchant": "AMAZON* NF8ZX37E4",
+   "location": "LUXEMBOURG",
+   "amount": -23.9,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-13",
+   "merchant": "AMAZON* NF0F64KO4",
+   "location": "LUXEMBOURG",
+   "amount": -29.49,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-14",
+   "merchant": "AMAZON* NF9QH3RA4",
+   "location": "LUXEMBOURG",
+   "amount": -67.98,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-16",
+   "merchant": "AMZN Mktp DE",
+   "location": "LUXEMBOURG",
+   "amount": 36.99,
+   "mcc": "5942",
+   "category": "Bücher/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-16",
+   "merchant": "AMZN Mktp DE*NM8NX1XW4",
+   "location": "LUXEMBOURG",
+   "amount": -15.89,
+   "mcc": "5942",
+   "category": "Bücher/Online"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-16",
+   "merchant": "AVIA Tankstelle",
+   "location": "Freising",
+   "amount": -103.29,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-17",
+   "merchant": "Kohinoor",
+   "location": "Muenchen",
+   "amount": -153.99,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-17",
+   "merchant": "AMZNBusiness*NM4135M44",
+   "location": "LUXEMBOURG",
+   "amount": -148.46,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-17",
+   "merchant": "AMZNBusiness*NM2K06MQ4",
+   "location": "LUXEMBOURG",
+   "amount": -13.6,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-18",
+   "merchant": "METRO SAGT DANKE",
+   "location": "MUENCHEN",
+   "amount": -154.63,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-18",
+   "merchant": "ABRECHNUNG",
+   "location": "",
+   "amount": 1285.5,
+   "mcc": "",
+   "category": "Unkategorisiert"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-19",
+   "merchant": "AMAZON* NM1459704",
+   "location": "LUXEMBOURG",
+   "amount": -30.24,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-20",
+   "merchant": "Aral Station 191191006",
+   "location": "Freising",
+   "amount": -50.06,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-21",
+   "merchant": "RAN-Station",
+   "location": "Freising",
+   "amount": -107.03,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-24",
+   "merchant": "METRO SAGT DANKE",
+   "location": "MUENCHEN",
+   "amount": -81.71,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-24",
+   "merchant": "Orlen STAR Tankstellen",
+   "location": "Elmshorn",
+   "amount": -140.29,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-25",
+   "merchant": "METRO SAGT DANKE",
+   "location": "MUENCHEN",
+   "amount": -54.84,
+   "mcc": "5411",
+   "category": "Lebensmittel/Großhandel"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-26",
+   "merchant": "TOTAL SERVICE STATION",
+   "location": "MUENCHEN",
+   "amount": -103.31,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-26",
+   "merchant": "MVV Ticketshop LOGPAY",
+   "location": "Muenchen",
+   "amount": -4.2,
+   "mcc": "4111",
+   "category": "ÖPNV"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-27",
+   "merchant": "Olympia Parkplatz BRK",
+   "location": "Muenchen",
+   "amount": -15.0,
+   "mcc": "7523",
+   "category": "Parken"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-28",
+   "merchant": "AMAZON* NF9QH3RA4",
+   "location": "LUXEMBOURG",
+   "amount": 27.42,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-28",
+   "merchant": "ANTHROPIC* CLAUDE SUB",
+   "location": "SAN FRANCISCO",
+   "amount": -18.0,
+   "mcc": "5734",
+   "category": "Software/Abo"
+  },
+  {
+   "card": "4305",
+   "date": "2026-09-28",
+   "merchant": "Orlen STAR Tankstellen",
+   "location": "Elmshorn",
+   "amount": -111.58,
+   "mcc": "5541",
+   "category": "Tankstelle"
+  },
+  {
+   "card": "1721",
+   "date": "2026-09-30",
+   "merchant": "AMAZON* N486L3RL4",
+   "location": "LUXEMBOURG",
+   "amount": -24.99,
+   "mcc": "5999",
+   "category": "Sonstiges/Online"
+  }
+ ]
+}
