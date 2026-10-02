@@ -161,19 +161,19 @@
   },
   {
    "month": "2026-09",
-   "umsatz": 11644.25,
+   "umsatz": 28408.84,
    "uber": 0,
    "wolt": 0,
    "lieferando": 0,
-   "sumup_restaurant": 8699.75,
-   "sumup_foodtruck": 2944.5,
+   "sumup_restaurant": 19843.84,
+   "sumup_foodtruck": 8565.0,
    "tollwood": 0,
-   "bar": 0,
-   "karte": 0,
+   "bar": 3746.3,
+   "karte": 16097.54,
    "ausgaben": 0,
-   "trinkgeld": 0,
-   "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.09-13.09.2026), PARTIAL MONTH",
-   "sumup_foodtruck_source": "Real Verkaufsbericht CSV (01.09-09.09.2026), PARTIAL MONTH"
+   "trinkgeld": 853.65,
+   "sumup_restaurant_source": "Real Verkaufsbericht CSV (01.09-30.09.2026, full month), Kategorie-filtered (00_Foodtruck/01_Foodtruck_Event/Tollwood excluded), Trinkgeld excluded from revenue and tracked separately",
+   "sumup_foodtruck_source": "Real Verkaufsbericht CSV (01.09-30.09.2026, full month) - methodology verified against Jun/Jul/Aug which matched gross(brutto)-excl-tip exactly"
   }
  ],
  "live_periods": [
@@ -349,6 +349,6 @@
   ],
   "sumup_source_note": "SumUp-Zahlen (Restaurant, Foodtruck, Trinkgeld) jetzt aus dem echten SumUp-Verkaufsbericht (2026-01-01 bis 2026-08-02), gruppiert nach Kategorie statt Konto (Konto = welches Geraet/Login gebucht hat, nicht der Kanal). Trinkgeld war bisher nirgends im Dashboard erfasst (Gesamt 6.430,49 EUR ueber den Zeitraum) und ist jetzt separat ausgewiesen, aber NICHT im Umsatz mitgezaehlt, da es kein COT-Einkommen ist."
  },
- "lastUpdated": "2026-09-13",
+ "lastUpdated": "2026-10-01",
  "umsatzMethodologyNote": "'umsatz' (total) = sum of uber + wolt + lieferando + sumup_restaurant + sumup_foodtruck + tollwood for that month. Recalculated 2026-09-06 after discovering this field was a stale stored value that hadn't updated as individual channel corrections were made throughout the session (some months were off by 13,000-17,000 EUR)."
 }
