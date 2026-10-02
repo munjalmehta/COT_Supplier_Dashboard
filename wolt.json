@@ -1,6 +1,6 @@
 {
  "platform": "Wolt",
- "lastUpdated": "2026-09-30",
+ "lastUpdated": "2026-10-02",
  "note": "Weekly Hexa invoicing cycle. Each period = merchant invoice (platform fees), payout report (revenue detail + payout), sales report (order-level detail). Figures below are period-level summaries, not order-line detail.",
  "periods": [
   {
@@ -414,6 +414,32 @@
    "driveFileId": "1ZU0kXMMOXFT1tYVf2nGFBNGEu9MyouQj"
   },
   {
+   "periodEnd": "2026-09-05",
+   "period": "2026-09-01 to 2026-09-05",
+   "invoiceNo": "DEU/26/HRB217122B/1/590137",
+   "invoiceDate": "2026-09-05",
+   "wolt_fee_net": 133.3,
+   "wolt_fee_vat": 25.33,
+   "wolt_fee_gross": 158.63,
+   "orderFees_net": 6.86,
+   "orderFees_gross": 8.16,
+   "deliveryServiceFees_net": 58.67,
+   "deliveryServiceFees_gross": 69.82,
+   "adSpend_net": 39.44,
+   "adSpend_gross": 46.93,
+   "adSpendNote": "Ad campaign charge, attributed purchases 31.08-04.09.2026",
+   "revenue_goods_net": 423.71,
+   "revenue_goods_gross": 453.42,
+   "revenue_delivery_service_net": 64.27,
+   "revenue_delivery_service_gross": 68.72,
+   "discounts_gross": -35.98,
+   "payoutCorrections": 0.0,
+   "selfDeliveryConfirmed": true,
+   "payoutAmount": 238.6,
+   "driveFileId": "10RhDjUXfLcy5PzHTxt_68pRSF4H8lKSl",
+   "note": "Found via bank reconciliation (02.10.2026 statement) - this period was missing entirely from prior scans. Bank payout 238.60 on 07.09.2026 matched exactly against full invoice/payout report documents found in Drive."
+  },
+  {
    "periodEnd": "2026-09-10",
    "period": "2026-09-06 to 2026-09-10",
    "invoiceNo": "DEU/26/HRB217122B/1/597724",
@@ -498,7 +524,6 @@
    "invoiceDate": "2026-09-25",
    "revenue_total_gross": 784.52,
    "feeDataAvailable": true,
-   "note": "Invoice found and fee breakdown complete. Matching Payout Report not yet found in Drive - final payout amount not yet confirmable.",
    "driveFileId": "1K-28h1ssZDBvranl89AHDSoZTpSVOMnd",
    "wolt_fee_net": 133.67,
    "wolt_fee_vat": 25.39,
@@ -510,7 +535,30 @@
    "adSpend_net": 73.11,
    "adSpend_gross": 87.0,
    "adSpendNote": "Ad campaign charge, attributed purchases 20-24.09.2026",
-   "payoutAmount": null
+   "payoutAmount": 467.11,
+   "payoutSource": "Bank-confirmed (Sparkasse statement, 28.09.2026 credit, Wolt License Services Oy). Formal Payout Report PDF still not found in Drive."
+  },
+  {
+   "periodEnd": "2026-09-30",
+   "period": "2026-09-26 to 2026-09-30",
+   "invoiceNo": "DEU/26/HRB217122B/1/647524",
+   "invoiceDate": "2026-09-30",
+   "wolt_fee_net": 232.0,
+   "wolt_fee_vat": 44.07,
+   "wolt_fee_gross": 276.07,
+   "orderFees_net": 10.78,
+   "orderFees_gross": 12.83,
+   "deliveryServiceFees_net": 70.0,
+   "deliveryServiceFees_gross": 83.3,
+   "adSpend_net": 39.2,
+   "adSpend_gross": 46.65,
+   "adSpendNote": "Ad campaign charge, attributed purchases 26-29.09.2026",
+   "revenue_total_gross": 999.18,
+   "discounts_gross": -55.82,
+   "payoutAmount": 616.49,
+   "payoutSource": "Bank-confirmed (Sparkasse statement, 01.10.2026 credit, Wolt License Services Oy). Formal Payout Report PDF not yet found in Drive - revenue_goods/delivery_service split not available, only sales-report total and invoice fees.",
+   "driveFileId": "1YqUP0dnz_nQI85ciJcGmo_C4TOFBsVYJ",
+   "note": "Found via bank reconciliation (02.10.2026 statement) - this period was missing entirely from prior scans."
   }
  ],
  "coverageNote": "Weeks 17, 19-27 (21.03-15.05.2026) recovered from Sales Reports only - Payout/fee-level Merchant Invoice documents for these dates were not found in Drive, so platformFees/commission cannot be computed for this window; revenue_goods figures are real. Week 18 (26-31.03) not found - genuine gap. Weeks 28-35 (16.05-25.06) not yet recovered - still open. From week 36 (26.06) onward, full fee/payout detail is available.",
