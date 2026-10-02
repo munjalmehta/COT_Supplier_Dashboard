@@ -1,16 +1,16 @@
 {
  "source": "Sparkasse bank statement exports (merged), account DE12700510030025862558 + full PDF statements Kontoauszug 6/2026, 7/2026, 8/2026 used to extend to 31.08.2026 and fix categorization + full-year CSV export (2025-09-08 to 2026-09-07), closes pre-March 2026 gap",
- "period": "2025-09-08 to 2026-09-07",
- "transactionCount": 1146,
- "netMovement": -9673.58,
+ "period": "2025-09-08 to 2026-10-02",
+ "transactionCount": 1229,
+ "netMovement": -26997.85,
  "summaryByCategory": [
   {
    "category": "platform_payout",
    "label": "SumUp",
-   "count": 71,
-   "total": 267925.99,
+   "count": 79,
+   "total": 291670.1,
    "min_date": "2025-09-09",
-   "max_date": "2026-09-01"
+   "max_date": "2026-09-29"
   },
   {
    "category": "platform_payout",
@@ -22,19 +22,27 @@
   },
   {
    "category": "other",
-   "label": "Miete/Nebenkosten",
-   "count": 59,
-   "total": -99709.99,
-   "min_date": "2025-09-08",
-   "max_date": "2026-09-07"
+   "label": "Personal/Sozialversicherung",
+   "count": 63,
+   "total": -108722.2,
+   "min_date": "2025-09-26",
+   "max_date": "2026-09-28"
   },
   {
    "category": "other",
-   "label": "Personal/Sozialversicherung",
-   "count": 59,
-   "total": -99328.95,
-   "min_date": "2025-09-26",
-   "max_date": "2026-08-27"
+   "label": "Miete/Nebenkosten",
+   "count": 61,
+   "total": -106059.99,
+   "min_date": "2025-09-08",
+   "max_date": "2026-10-02"
+  },
+  {
+   "category": "platform_payout",
+   "label": "UberEats",
+   "count": 56,
+   "total": 89821.06,
+   "min_date": "2025-09-08",
+   "max_date": "2026-09-28"
   },
   {
    "category": "uncategorized",
@@ -45,20 +53,20 @@
    "max_date": "2026-08-31"
   },
   {
-   "category": "platform_payout",
-   "label": "UberEats",
-   "count": 52,
-   "total": 83112.62,
-   "min_date": "2025-09-08",
-   "max_date": "2026-08-31"
+   "category": "other",
+   "label": "Tollwood (Standgebühren etc)",
+   "count": 16,
+   "total": -76096.53,
+   "min_date": "2025-11-10",
+   "max_date": "2026-09-28"
   },
   {
    "category": "other",
-   "label": "Tollwood (Standgebühren etc)",
-   "count": 15,
-   "total": -75459.67,
-   "min_date": "2025-11-10",
-   "max_date": "2026-08-05"
+   "label": "Gehalt",
+   "count": 32,
+   "total": -67310.45,
+   "min_date": "2025-09-30",
+   "max_date": "2026-10-01"
   },
   {
    "category": "uncategorized",
@@ -70,19 +78,11 @@
   },
   {
    "category": "other",
-   "label": "Gehalt",
-   "count": 29,
-   "total": -61854.95,
-   "min_date": "2025-09-30",
-   "max_date": "2026-09-01"
-  },
-  {
-   "category": "other",
    "label": "Finanzamt/Steuern",
-   "count": 33,
-   "total": -49941.84,
+   "count": 35,
+   "total": -58858.86,
    "min_date": "2025-09-16",
-   "max_date": "2026-08-20"
+   "max_date": "2026-09-23"
   },
   {
    "category": "uncategorized",
@@ -95,42 +95,50 @@
   {
    "category": "platform_payout",
    "label": "Lieferando",
-   "count": 54,
-   "total": 42310.12,
+   "count": 56,
+   "total": 44366.48,
    "min_date": "2025-09-09",
-   "max_date": "2026-09-01"
+   "max_date": "2026-09-16"
   },
   {
    "category": "other",
    "label": "Bank/Kontoführung",
-   "count": 16,
-   "total": -34203.31,
+   "count": 17,
+   "total": -36202.32,
    "min_date": "2025-09-22",
-   "max_date": "2026-08-31"
+   "max_date": "2026-09-22"
   },
   {
    "category": "supplier_payment",
    "label": "GFT Group",
-   "count": 51,
-   "total": -29411.14,
+   "count": 55,
+   "total": -32561.33,
    "min_date": "2025-09-09",
-   "max_date": "2026-08-18"
+   "max_date": "2026-09-25"
   },
   {
    "category": "platform_payout",
    "label": "Wolt",
-   "count": 74,
-   "total": 26304.67,
+   "count": 79,
+   "total": 28717.8,
    "min_date": "2025-09-08",
-   "max_date": "2026-09-07"
+   "max_date": "2026-10-01"
   },
   {
    "category": "supplier_payment",
    "label": "Rajesh Global Food",
-   "count": 59,
-   "total": -25880.21,
+   "count": 64,
+   "total": -27980.14,
    "min_date": "2025-09-17",
-   "max_date": "2026-09-04"
+   "max_date": "2026-09-29"
+  },
+  {
+   "category": "supplier_payment",
+   "label": "Kupfer & Sohn",
+   "count": 57,
+   "total": -25362.24,
+   "min_date": "2025-09-08",
+   "max_date": "2026-10-01"
   },
   {
    "category": "supplier_payment",
@@ -150,19 +158,11 @@
   },
   {
    "category": "supplier_payment",
-   "label": "Kupfer & Sohn",
-   "count": 53,
-   "total": -23596.94,
-   "min_date": "2025-09-08",
-   "max_date": "2026-09-07"
-  },
-  {
-   "category": "supplier_payment",
    "label": "RK Traders",
-   "count": 52,
-   "total": -10107.94,
+   "count": 54,
+   "total": -10633.9,
    "min_date": "2025-09-09",
-   "max_date": "2026-08-31"
+   "max_date": "2026-09-28"
   },
   {
    "category": "other",
@@ -187,6 +187,14 @@
    "total": -5533.5,
    "min_date": "2026-06-16",
    "max_date": "2026-07-21"
+  },
+  {
+   "category": "uncategorized",
+   "label": "BARGELDAUSZAHLUNG KASSE",
+   "count": 2,
+   "total": -5500.0,
+   "min_date": "2026-09-10",
+   "max_date": "2026-10-01"
   },
   {
    "category": "other",
@@ -286,6 +294,14 @@
   },
   {
    "category": "uncategorized",
+   "label": "LANDESHAUPTSTADT MUENCHEN",
+   "count": 6,
+   "total": -2589.26,
+   "min_date": "2025-10-06",
+   "max_date": "2026-09-10"
+  },
+  {
+   "category": "uncategorized",
    "label": "GA NR00002022 BLZ70051003 5",
    "count": 7,
    "total": -2535.0,
@@ -310,6 +326,14 @@
   },
   {
    "category": "uncategorized",
+   "label": "Roland Berger Holdin",
+   "count": 15,
+   "total": 2410.0,
+   "min_date": "2025-09-12",
+   "max_date": "2026-09-18"
+  },
+  {
+   "category": "uncategorized",
    "label": "CUTNEY ON TOP GMBH",
    "count": 1,
    "total": -2366.43,
@@ -323,14 +347,6 @@
    "total": -2284.8,
    "min_date": "2026-02-20",
    "max_date": "2026-02-20"
-  },
-  {
-   "category": "uncategorized",
-   "label": "Roland Berger Holdin",
-   "count": 14,
-   "total": 2277.5,
-   "min_date": "2025-09-12",
-   "max_date": "2026-08-28"
   },
   {
    "category": "uncategorized",
@@ -358,6 +374,14 @@
   },
   {
    "category": "uncategorized",
+   "label": "CHRISTOS SIOSIOS",
+   "count": 4,
+   "total": -2000.0,
+   "min_date": "2026-06-03",
+   "max_date": "2026-09-10"
+  },
+  {
+   "category": "uncategorized",
    "label": "DO & CO Gastronomie GmbH",
    "count": 16,
    "total": -1842.59,
@@ -374,19 +398,19 @@
   },
   {
    "category": "uncategorized",
-   "label": "CHRISTOS SIOSIOS",
-   "count": 3,
-   "total": -1500.0,
-   "min_date": "2026-06-03",
-   "max_date": "2026-08-10"
-  },
-  {
-   "category": "uncategorized",
    "label": "Rießner-Gase GmbH",
    "count": 2,
    "total": -1433.4,
    "min_date": "2026-01-08",
    "max_date": "2026-08-06"
+  },
+  {
+   "category": "uncategorized",
+   "label": "SWM Versorgungs GmbH",
+   "count": 2,
+   "total": -1420.0,
+   "min_date": "2026-09-14",
+   "max_date": "2026-09-14"
   },
   {
    "category": "uncategorized",
@@ -470,6 +494,14 @@
   },
   {
    "category": "uncategorized",
+   "label": "Die Weidners-Gastronomie GmbH",
+   "count": 3,
+   "total": -838.48,
+   "min_date": "2026-09-15",
+   "max_date": "2026-09-15"
+  },
+  {
+   "category": "uncategorized",
    "label": "OTTO Payments GmbH",
    "count": 3,
    "total": -835.98,
@@ -491,6 +523,14 @@
    "total": 770.13,
    "min_date": "2026-01-08",
    "max_date": "2026-02-09"
+  },
+  {
+   "category": "uncategorized",
+   "label": "Brauerei Aying Franz Inselkammer KG",
+   "count": 2,
+   "total": -745.36,
+   "min_date": "2026-09-09",
+   "max_date": "2026-09-24"
   },
   {
    "category": "uncategorized",
@@ -574,19 +614,19 @@
   },
   {
    "category": "uncategorized",
+   "label": "BOWEN INTERNATIONAL GMBH",
+   "count": 5,
+   "total": -515.52,
+   "min_date": "2026-05-04",
+   "max_date": "2026-09-23"
+  },
+  {
+   "category": "uncategorized",
    "label": "YEHYA MEKLIF",
    "count": 1,
    "total": -481.3,
    "min_date": "2025-10-20",
    "max_date": "2025-10-20"
-  },
-  {
-   "category": "uncategorized",
-   "label": "BOWEN INTERNATIONAL GMBH",
-   "count": 4,
-   "total": -477.02,
-   "min_date": "2026-05-04",
-   "max_date": "2026-08-21"
   },
   {
    "category": "uncategorized",
@@ -619,14 +659,6 @@
    "total": -440.09,
    "min_date": "2025-09-25",
    "max_date": "2026-08-26"
-  },
-  {
-   "category": "uncategorized",
-   "label": "LANDESHAUPTSTADT MUENCHEN",
-   "count": 4,
-   "total": -431.31,
-   "min_date": "2025-10-06",
-   "max_date": "2026-05-04"
   },
   {
    "category": "uncategorized",
@@ -695,10 +727,18 @@
   {
    "category": "uncategorized",
    "label": "SIVAALAYAM E.V.",
-   "count": 11,
-   "total": -275.0,
+   "count": 12,
+   "total": -300.0,
    "min_date": "2025-11-03",
-   "max_date": "2026-09-07"
+   "max_date": "2026-09-08"
+  },
+  {
+   "category": "uncategorized",
+   "label": "Berufsgenossenschaft Nahrungsmittel und Gastgewerbe",
+   "count": 1,
+   "total": -299.19,
+   "min_date": "2026-09-15",
+   "max_date": "2026-09-15"
   },
   {
    "category": "uncategorized",
@@ -718,6 +758,22 @@
   },
   {
    "category": "uncategorized",
+   "label": "SIGNAL IDUNA Gruppe",
+   "count": 1,
+   "total": -244.19,
+   "min_date": "2026-10-01",
+   "max_date": "2026-10-01"
+  },
+  {
+   "category": "uncategorized",
+   "label": "Bowen International GmbH",
+   "count": 1,
+   "total": -230.8,
+   "min_date": "2026-09-23",
+   "max_date": "2026-09-23"
+  },
+  {
+   "category": "uncategorized",
    "label": "Tollwood -Gesellschaft fuer Kulturveranstaltungen und Umweltaktivitaeten",
    "count": 1,
    "total": 224.7,
@@ -731,6 +787,14 @@
    "total": -215.63,
    "min_date": "2025-12-18",
    "max_date": "2025-12-18"
+  },
+  {
+   "category": "uncategorized",
+   "label": "KRAVAG-ALLGEMEINE Versicherungs- Aktiengesellschaft",
+   "count": 1,
+   "total": 201.56,
+   "min_date": "2026-09-16",
+   "max_date": "2026-09-16"
   },
   {
    "category": "uncategorized",
@@ -790,6 +854,14 @@
   },
   {
    "category": "uncategorized",
+   "label": "Mondu Capital Sarl",
+   "count": 5,
+   "total": -96.65,
+   "min_date": "2026-09-17",
+   "max_date": "2026-09-17"
+  },
+  {
+   "category": "uncategorized",
    "label": "JET DANKT FUER IHREN KAUF.",
    "count": 1,
    "total": -96.04,
@@ -830,6 +902,14 @@
   },
   {
    "category": "uncategorized",
+   "label": "Allianz Arena Muenchen Stadion GmbH",
+   "count": 3,
+   "total": -78.83,
+   "min_date": "2026-09-10",
+   "max_date": "2026-09-10"
+  },
+  {
+   "category": "uncategorized",
    "label": "Allianz Arena München Stadion GmbH",
    "count": 3,
    "total": -78.33,
@@ -843,6 +923,30 @@
    "total": 73.5,
    "min_date": "2025-10-27",
    "max_date": "2025-11-20"
+  },
+  {
+   "category": "uncategorized",
+   "label": "SATISH CHAND SETHI UND KAVITA SETHI",
+   "count": 1,
+   "total": 69.8,
+   "min_date": "2026-09-16",
+   "max_date": "2026-09-16"
+  },
+  {
+   "category": "uncategorized",
+   "label": "Magic Event- und Medientechnik GmbH",
+   "count": 1,
+   "total": -62.48,
+   "min_date": "2026-09-22",
+   "max_date": "2026-09-22"
+  },
+  {
+   "category": "uncategorized",
+   "label": "DMB Rechtsschutz-Versicherung Aktiengesellschaft",
+   "count": 1,
+   "total": -60.39,
+   "min_date": "2026-10-01",
+   "max_date": "2026-10-01"
   },
   {
    "category": "uncategorized",
@@ -886,6 +990,14 @@
   },
   {
    "category": "uncategorized",
+   "label": "ENTGELTABSCHLUSS",
+   "count": 1,
+   "total": -48.89,
+   "min_date": "2026-09-30",
+   "max_date": "2026-09-30"
+  },
+  {
+   "category": "uncategorized",
    "label": "LANDRATSAMT FREISING",
    "count": 1,
    "total": -48.25,
@@ -918,6 +1030,14 @@
   },
   {
    "category": "uncategorized",
+   "label": "S-Markt & Mehrwert GmbH & Co. KG",
+   "count": 9,
+   "total": -39.7,
+   "min_date": "2026-01-19",
+   "max_date": "2026-09-14"
+  },
+  {
+   "category": "uncategorized",
    "label": "Böttcher AG",
    "count": 1,
    "total": -36.87,
@@ -925,12 +1045,20 @@
    "max_date": "2026-07-29"
   },
   {
+   "category": "other",
+   "label": "Telekommunikation",
+   "count": 1,
+   "total": -35.64,
+   "min_date": "2026-09-25",
+   "max_date": "2026-09-25"
+  },
+  {
    "category": "uncategorized",
-   "label": "S-Markt & Mehrwert GmbH & Co. KG",
-   "count": 8,
-   "total": -34.59,
-   "min_date": "2026-01-19",
-   "max_date": "2026-08-13"
+   "label": "Anja Foerster",
+   "count": 1,
+   "total": 35.5,
+   "min_date": "2026-09-11",
+   "max_date": "2026-09-11"
   },
   {
    "category": "uncategorized",
@@ -987,6 +1115,14 @@
    "total": -15.97,
    "min_date": "2026-07-16",
    "max_date": "2026-09-04"
+  },
+  {
+   "category": "uncategorized",
+   "label": "Muenchner Verkehrsgesellschaft mbH",
+   "count": 2,
+   "total": -5.19,
+   "min_date": "2026-09-21",
+   "max_date": "2026-09-25"
   },
   {
    "category": "uncategorized",
@@ -10165,7 +10301,671 @@
    "zweck": "06.09/21.08UHR LERCH-RE",
    "category": "uncategorized",
    "label": "GA NR00002059 BLZ70051003 5"
+  },
+  {
+   "date": "2026-09-08",
+   "beguenstigter": "SUMUP LIMITED",
+   "amount": 3896.04,
+   "zweck": "SUMUP PID1355400 PAYOUT 080926",
+   "category": "platform_payout",
+   "label": "SumUp"
+  },
+  {
+   "date": "2026-09-08",
+   "beguenstigter": "DERDENGELDEN TAKEAWAYCOM",
+   "amount": 899.5,
+   "zweck": "AUSZAHLUNG PO-21478173412 06-09-2026 LIEFERANDO.DE (10593163)",
+   "category": "platform_payout",
+   "label": "Lieferando"
+  },
+  {
+   "date": "2026-09-08",
+   "beguenstigter": "SUMUP LIMITED",
+   "amount": 3225.75,
+   "zweck": "SUMUP PID1355400 PAYOUT 080926",
+   "category": "platform_payout",
+   "label": "SumUp"
+  },
+  {
+   "date": "2026-09-08",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
+   "amount": 1500.53,
+   "zweck": "POP SVCS, DOB , 20260831 - 20260906",
+   "category": "platform_payout",
+   "label": "UberEats"
+  },
+  {
+   "date": "2026-09-08",
+   "beguenstigter": "SIVAALAYAM E.V.",
+   "amount": -25.0,
+   "zweck": "MD0010157 - 08.2026 Sivaalayam Donation",
+   "category": "uncategorized",
+   "label": "SIVAALAYAM E.V."
+  },
+  {
+   "date": "2026-09-09",
+   "beguenstigter": "Global Foods Trading GmbH",
+   "amount": -942.35,
+   "zweck": "Rechn.Nr. 326117382 Kunden-Nr. 23698 DATUM 09.09.2026, 18.39 UHR",
+   "category": "supplier_payment",
+   "label": "GFT Group"
+  },
+  {
+   "date": "2026-09-09",
+   "beguenstigter": "Global Foods Trading GmbH",
+   "amount": -54.29,
+   "zweck": "Rechn.Nr. 326117506 Kunden-Nr. 23698 DATUM 09.09.2026, 18.38 UHR",
+   "category": "supplier_payment",
+   "label": "GFT Group"
+  },
+  {
+   "date": "2026-09-09",
+   "beguenstigter": "RK Traders",
+   "amount": -254.5,
+   "zweck": "ReNr RE4841, KdNr 10047 DATUM 09.09.2026, 18.36 UHR",
+   "category": "supplier_payment",
+   "label": "RK Traders"
+  },
+  {
+   "date": "2026-09-09",
+   "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
+   "amount": -428.6,
+   "zweck": "1500133537 428,60",
+   "category": "uncategorized",
+   "label": "Brauerei Aying Franz Inselkammer KG"
+  },
+  {
+   "date": "2026-09-10",
+   "beguenstigter": "BARGELDAUSZAHLUNG KASSE",
+   "amount": -3000.0,
+   "zweck": "",
+   "category": "uncategorized",
+   "label": "BARGELDAUSZAHLUNG KASSE"
+  },
+  {
+   "date": "2026-09-10",
+   "beguenstigter": "LANDESHAUPTSTADT MUENCHEN",
+   "amount": -1788.5,
+   "zweck": "Kassenkonto: 5.7940.0152.6670 DATUM 10.09.2026, 10.57 UHR",
+   "category": "uncategorized",
+   "label": "LANDESHAUPTSTADT MUENCHEN"
+  },
+  {
+   "date": "2026-09-10",
+   "beguenstigter": "LANDESHAUPTSTADT MUENCHEN",
+   "amount": -369.45,
+   "zweck": "MQR 5.3200.1293.1285 DATUM 10.09.2026, 10.04 UHR",
+   "category": "uncategorized",
+   "label": "LANDESHAUPTSTADT MUENCHEN"
+  },
+  {
+   "date": "2026-09-10",
+   "beguenstigter": "Allianz Arena Muenchen Stadion GmbH",
+   "amount": -26.25,
+   "zweck": "3057851 DATUM 10.09.2026, 08.57 UHR",
+   "category": "uncategorized",
+   "label": "Allianz Arena Muenchen Stadion GmbH"
+  },
+  {
+   "date": "2026-09-10",
+   "beguenstigter": "Allianz Arena Muenchen Stadion GmbH",
+   "amount": -26.29,
+   "zweck": "3042149 DATUM 10.09.2026, 08.56 UHR",
+   "category": "uncategorized",
+   "label": "Allianz Arena Muenchen Stadion GmbH"
+  },
+  {
+   "date": "2026-09-10",
+   "beguenstigter": "Allianz Arena Muenchen Stadion GmbH",
+   "amount": -26.29,
+   "zweck": "3048453 DATUM 10.09.2026, 08.55 UHR",
+   "category": "uncategorized",
+   "label": "Allianz Arena Muenchen Stadion GmbH"
+  },
+  {
+   "date": "2026-09-10",
+   "beguenstigter": "CHRISTOS SIOSIOS",
+   "amount": -500.0,
+   "zweck": "4. Ratenzahlung zu RE20251696",
+   "category": "uncategorized",
+   "label": "CHRISTOS SIOSIOS"
+  },
+  {
+   "date": "2026-09-11",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
+   "amount": 319.98,
+   "zweck": "Wolt Auszahlung",
+   "category": "platform_payout",
+   "label": "Wolt"
+  },
+  {
+   "date": "2026-09-11",
+   "beguenstigter": "Anja Foerster",
+   "amount": 35.5,
+   "zweck": "Essen",
+   "category": "uncategorized",
+   "label": "Anja Foerster"
+  },
+  {
+   "date": "2026-09-11",
+   "beguenstigter": "Andreas Kupfer & Sohn GmbH",
+   "amount": -646.33,
+   "zweck": "RG:554052 215,42/RG:554432 430,91",
+   "category": "supplier_payment",
+   "label": "Kupfer & Sohn"
+  },
+  {
+   "date": "2026-09-14",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
+   "amount": 1807.15,
+   "zweck": "POP SVCS, DOB , 20260907 - 20260913",
+   "category": "platform_payout",
+   "label": "UberEats"
+  },
+  {
+   "date": "2026-09-14",
+   "beguenstigter": "S-Markt & Mehrwert GmbH & Co. KG",
+   "amount": -5.11,
+   "zweck": "S-Cashback-Zahlungen Belegnummer 26460146119",
+   "category": "uncategorized",
+   "label": "S-Markt & Mehrwert GmbH & Co. KG"
+  },
+  {
+   "date": "2026-09-14",
+   "beguenstigter": "SWM Versorgungs GmbH",
+   "amount": -808.0,
+   "zweck": "Landsberger Str. 437 .0, Abschlag Strom 09/2026 Betrag 808,00 Eur",
+   "category": "uncategorized",
+   "label": "SWM Versorgungs GmbH"
+  },
+  {
+   "date": "2026-09-14",
+   "beguenstigter": "SWM Versorgungs GmbH",
+   "amount": -612.0,
+   "zweck": "Landsberger Str. 437 .0., Abschlag Gas 09/2026 Betrag 612,00 Eur",
+   "category": "uncategorized",
+   "label": "SWM Versorgungs GmbH"
+  },
+  {
+   "date": "2026-09-15",
+   "beguenstigter": "SUMUP LIMITED",
+   "amount": 4537.66,
+   "zweck": "SUMUP PID1362929 PAYOUT 150926",
+   "category": "platform_payout",
+   "label": "SumUp"
+  },
+  {
+   "date": "2026-09-15",
+   "beguenstigter": "SUMUP LIMITED",
+   "amount": 695.06,
+   "zweck": "SUMUP PID1362929 PAYOUT 150926",
+   "category": "platform_payout",
+   "label": "SumUp"
+  },
+  {
+   "date": "2026-09-15",
+   "beguenstigter": "Die Weidners-Gastronomie GmbH",
+   "amount": -386.75,
+   "zweck": "Social Media Management",
+   "category": "uncategorized",
+   "label": "Die Weidners-Gastronomie GmbH"
+  },
+  {
+   "date": "2026-09-15",
+   "beguenstigter": "Die Weidners-Gastronomie GmbH",
+   "amount": -50.0,
+   "zweck": "Mitgliedsbeitrag FTU Durchstarter 10033 Chutney on Top",
+   "category": "uncategorized",
+   "label": "Die Weidners-Gastronomie GmbH"
+  },
+  {
+   "date": "2026-09-15",
+   "beguenstigter": "Die Weidners-Gastronomie GmbH",
+   "amount": -401.73,
+   "zweck": "RE7330, RE7524",
+   "category": "uncategorized",
+   "label": "Die Weidners-Gastronomie GmbH"
+  },
+  {
+   "date": "2026-09-15",
+   "beguenstigter": "Berufsgenossenschaft Nahrungsmittel und Gastgewerbe",
+   "amount": -299.19,
+   "zweck": "3544 2972 3509 001/Vorschuss 2026 ENR 10365407260",
+   "category": "uncategorized",
+   "label": "Berufsgenossenschaft Nahrungsmittel und Gastgewerbe"
+  },
+  {
+   "date": "2026-09-16",
+   "beguenstigter": "Global Foods Trading GmbH",
+   "amount": -953.04,
+   "zweck": "Rechn.Nr. 326118074 Kunden-Nr. 23698 DATUM 16.09.2026, 17.42 UHR",
+   "category": "supplier_payment",
+   "label": "GFT Group"
+  },
+  {
+   "date": "2026-09-16",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
+   "amount": 579.06,
+   "zweck": "Wolt Auszahlung",
+   "category": "platform_payout",
+   "label": "Wolt"
+  },
+  {
+   "date": "2026-09-16",
+   "beguenstigter": "SATISH CHAND SETHI UND KAVITA SETHI",
+   "amount": 69.8,
+   "zweck": "Tickets für 2 Personen pro Person 34,90 für Veranstaltung am 19.9.26 in München Satish und Kavita Sethi",
+   "category": "uncategorized",
+   "label": "SATISH CHAND SETHI UND KAVITA SETHI"
+  },
+  {
+   "date": "2026-09-16",
+   "beguenstigter": "KRAVAG-ALLGEMEINE Versicherungs- Aktiengesellschaft",
+   "amount": 201.56,
+   "zweck": "32442682623 Kfz FS-CT34 / 201.56- Nachtr. 16.09",
+   "category": "uncategorized",
+   "label": "KRAVAG-ALLGEMEINE Versicherungs- Aktiengesellschaft"
+  },
+  {
+   "date": "2026-09-16",
+   "beguenstigter": "DERDENGELDEN TAKEAWAYCOM",
+   "amount": 1156.86,
+   "zweck": "AUSZAHLUNG PO-21544964061 13-09-2026 LIEFERANDO.DE (10593163)",
+   "category": "platform_payout",
+   "label": "Lieferando"
+  },
+  {
+   "date": "2026-09-16",
+   "beguenstigter": "FK Freising",
+   "amount": -2337.02,
+   "zweck": "STEUERNR 115/123/30853 LOHNST AUG.26 1.941,40EUR KOERPST 3VJ.26 395,62EUR",
+   "category": "other",
+   "label": "Finanzamt/Steuern"
+  },
+  {
+   "date": "2026-09-17",
+   "beguenstigter": "Mondu Capital Sarl",
+   "amount": -14.14,
+   "zweck": "Rechnungsnr. 18454004-26 / Mondu /WIRmachenDRUCK GmbH",
+   "category": "uncategorized",
+   "label": "Mondu Capital Sarl"
+  },
+  {
+   "date": "2026-09-17",
+   "beguenstigter": "Mondu Capital Sarl",
+   "amount": -10.83,
+   "zweck": "Rechnungsnr. 18454004-24 / Mondu /WIRmachenDRUCK GmbH",
+   "category": "uncategorized",
+   "label": "Mondu Capital Sarl"
+  },
+  {
+   "date": "2026-09-17",
+   "beguenstigter": "Mondu Capital Sarl",
+   "amount": -14.14,
+   "zweck": "Rechnungsnr. 18454004-27 / Mondu /WIRmachenDRUCK GmbH",
+   "category": "uncategorized",
+   "label": "Mondu Capital Sarl"
+  },
+  {
+   "date": "2026-09-17",
+   "beguenstigter": "Mondu Capital Sarl",
+   "amount": -18.6,
+   "zweck": "Rechnungsnr. 18454004-25 / Mondu /WIRmachenDRUCK GmbH",
+   "category": "uncategorized",
+   "label": "Mondu Capital Sarl"
+  },
+  {
+   "date": "2026-09-17",
+   "beguenstigter": "Mondu Capital Sarl",
+   "amount": -38.94,
+   "zweck": "Rechnungsnr. 18454004-28 / Mondu /WIRmachenDRUCK GmbH",
+   "category": "uncategorized",
+   "label": "Mondu Capital Sarl"
+  },
+  {
+   "date": "2026-09-18",
+   "beguenstigter": "Roland Berger Holdin",
+   "amount": 132.5,
+   "zweck": "Rg. 2026-072 vom 09.09.2026 fuer 132,50 EUR",
+   "category": "uncategorized",
+   "label": "Roland Berger Holdin"
+  },
+  {
+   "date": "2026-09-18",
+   "beguenstigter": "Andreas Kupfer & Sohn GmbH",
+   "amount": -340.14,
+   "zweck": "RG:556194 156,17/RG:555889 183,97",
+   "category": "supplier_payment",
+   "label": "Kupfer & Sohn"
+  },
+  {
+   "date": "2026-09-21",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
+   "amount": 430.49,
+   "zweck": "Wolt Auszahlung",
+   "category": "platform_payout",
+   "label": "Wolt"
+  },
+  {
+   "date": "2026-09-21",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
+   "amount": 1881.25,
+   "zweck": "POP SVCS, DOB , 20260914 - 20260920",
+   "category": "platform_payout",
+   "label": "UberEats"
+  },
+  {
+   "date": "2026-09-21",
+   "beguenstigter": "Muenchner Verkehrsgesellschaft mbH",
+   "amount": -3.56,
+   "zweck": "HandyParken Muenchen Rechnung 403306266168 Vielen Dank fuer Ihren Kauf",
+   "category": "uncategorized",
+   "label": "Muenchner Verkehrsgesellschaft mbH"
+  },
+  {
+   "date": "2026-09-22",
+   "beguenstigter": "SUMUP LIMITED",
+   "amount": 3761.6,
+   "zweck": "SUMUP PID1370563 PAYOUT 220926",
+   "category": "platform_payout",
+   "label": "SumUp"
+  },
+  {
+   "date": "2026-09-22",
+   "beguenstigter": "SUMUP LIMITED",
+   "amount": 830.07,
+   "zweck": "SUMUP PID1370563 PAYOUT 220926",
+   "category": "platform_payout",
+   "label": "SumUp"
+  },
+  {
+   "date": "2026-09-22",
+   "beguenstigter": "Magic Event- und Medientechnik GmbH",
+   "amount": -62.48,
+   "zweck": "ReNr VM-RG20559, KdNr 52831 DATUM 22.09.2026, 10.58 UHR",
+   "category": "uncategorized",
+   "label": "Magic Event- und Medientechnik GmbH"
+  },
+  {
+   "date": "2026-09-22",
+   "beguenstigter": "Sparkasse Freising Moosburg",
+   "amount": -1999.01,
+   "zweck": "KREDITKARTENABRECHNUNG 21.0 9.26 558401XXXXXX6132",
+   "category": "other",
+   "label": "Bank/Kontoführung"
+  },
+  {
+   "date": "2026-09-23",
+   "beguenstigter": "Bowen International GmbH",
+   "amount": -230.8,
+   "zweck": "ReNr 260654 DATUM 23.09.2026, 15.55 UHR",
+   "category": "uncategorized",
+   "label": "Bowen International GmbH"
+  },
+  {
+   "date": "2026-09-23",
+   "beguenstigter": "BOWEN INTERNATIONAL GMBH",
+   "amount": -38.5,
+   "zweck": "ReNr 260680 DATUM 23.09.2026, 15.54 UHR",
+   "category": "uncategorized",
+   "label": "BOWEN INTERNATIONAL GMBH"
+  },
+  {
+   "date": "2026-09-23",
+   "beguenstigter": "FK Freising",
+   "amount": -6580.0,
+   "zweck": "STEUERNR 115/123/30853 UMS.ST JUN.26 6.580,00EUR",
+   "category": "other",
+   "label": "Finanzamt/Steuern"
+  },
+  {
+   "date": "2026-09-24",
+   "beguenstigter": "Brauerei Aying Franz Inselkammer KG",
+   "amount": -316.76,
+   "zweck": "1500134297 56,44:1500134394 260,32",
+   "category": "uncategorized",
+   "label": "Brauerei Aying Franz Inselkammer KG"
+  },
+  {
+   "date": "2026-09-25",
+   "beguenstigter": "Global Foods Trading GmbH",
+   "amount": -1200.51,
+   "zweck": "Rechn.Nr. 326118842 Kunden-Nr. 23698 DATUM 25.09.2026, 07.49 UHR",
+   "category": "supplier_payment",
+   "label": "GFT Group"
+  },
+  {
+   "date": "2026-09-25",
+   "beguenstigter": "Andreas Kupfer & Sohn GmbH",
+   "amount": -303.03,
+   "zweck": "RG:556846 46,51/RG:557111 256,52",
+   "category": "supplier_payment",
+   "label": "Kupfer & Sohn"
+  },
+  {
+   "date": "2026-09-25",
+   "beguenstigter": "Muenchner Verkehrsgesellschaft mbH",
+   "amount": -1.63,
+   "zweck": "HandyParken Muenchen Rechnung 403006321199 Vielen Dank fuer Ihren Kauf",
+   "category": "uncategorized",
+   "label": "Muenchner Verkehrsgesellschaft mbH"
+  },
+  {
+   "date": "2026-09-25",
+   "beguenstigter": "Telekom Deutschland GmbH",
+   "amount": -35.64,
+   "zweck": "Festnetz Vertragskonto 5632773496 RG 7349158544/16.09.2026",
+   "category": "other",
+   "label": "Telekommunikation"
+  },
+  {
+   "date": "2026-09-28",
+   "beguenstigter": "STICHTING CUSTODIAN UBER PAYMENTS",
+   "amount": 1519.51,
+   "zweck": "POP SVCS, DOB , 20260921 - 20260927",
+   "category": "platform_payout",
+   "label": "UberEats"
+  },
+  {
+   "date": "2026-09-28",
+   "beguenstigter": "Tollwood GmbH",
+   "amount": -636.86,
+   "zweck": "Rechnungsnummer 326128-6S DATUM 28.09.2026, 10.19 UHR",
+   "category": "other",
+   "label": "Tollwood (Standgebühren etc)"
+  },
+  {
+   "date": "2026-09-28",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
+   "amount": 467.11,
+   "zweck": "Wolt Auszahlung",
+   "category": "platform_payout",
+   "label": "Wolt"
+  },
+  {
+   "date": "2026-09-28",
+   "beguenstigter": "DAK-Gesundheit",
+   "amount": -1382.39,
+   "zweck": "Beitraege 01.09.2026 - 30.09.2026 82995711 1382.39",
+   "category": "other",
+   "label": "Personal/Sozialversicherung"
+  },
+  {
+   "date": "2026-09-28",
+   "beguenstigter": "Knappschaft-Bahn-See",
+   "amount": -209.28,
+   "zweck": "6008638424 OB-82995711 EUR 209,28. BEITRAG 0926 - 0926",
+   "category": "other",
+   "label": "Personal/Sozialversicherung"
+  },
+  {
+   "date": "2026-09-28",
+   "beguenstigter": "Techniker Krankenkasse",
+   "amount": -2328.56,
+   "zweck": "BNR: 82995711 B563001B5G5 Beitraege 09/26",
+   "category": "other",
+   "label": "Personal/Sozialversicherung"
+  },
+  {
+   "date": "2026-09-28",
+   "beguenstigter": "AOK Bayern - Die Gesundheits kasse",
+   "amount": -5473.02,
+   "zweck": "8715089496 OB-82995711 EUR 5.473,02. BEITRAG 0926 - 0926",
+   "category": "other",
+   "label": "Personal/Sozialversicherung"
+  },
+  {
+   "date": "2026-09-28",
+   "beguenstigter": "RK Traders",
+   "amount": -271.46,
+   "zweck": "ReNr RE5017, KdNr 10047 DATUM 27.09.2026, 22.45 UHR",
+   "category": "supplier_payment",
+   "label": "RK Traders"
+  },
+  {
+   "date": "2026-09-29",
+   "beguenstigter": "SUMUP LIMITED",
+   "amount": 3922.85,
+   "zweck": "SUMUP PID1378162 PAYOUT 290926",
+   "category": "platform_payout",
+   "label": "SumUp"
+  },
+  {
+   "date": "2026-09-29",
+   "beguenstigter": "SUMUP LIMITED",
+   "amount": 2875.08,
+   "zweck": "SUMUP PID1378162 PAYOUT 290926",
+   "category": "platform_payout",
+   "label": "SumUp"
+  },
+  {
+   "date": "2026-09-29",
+   "beguenstigter": "Rajesh Global Food GmbH",
+   "amount": -460.3,
+   "zweck": "CUST/481 DATUM 29.09.2026, 11.46 UHR",
+   "category": "supplier_payment",
+   "label": "Rajesh Global Food"
+  },
+  {
+   "date": "2026-09-29",
+   "beguenstigter": "Rajesh Global Food GmbH",
+   "amount": -500.43,
+   "zweck": "CUST/481 DATUM 29.09.2026, 11.44 UHR",
+   "category": "supplier_payment",
+   "label": "Rajesh Global Food"
+  },
+  {
+   "date": "2026-09-29",
+   "beguenstigter": "Rajesh Global Food GmbH",
+   "amount": -454.87,
+   "zweck": "CUST/481 DATUM 29.09.2026, 11.41 UHR",
+   "category": "supplier_payment",
+   "label": "Rajesh Global Food"
+  },
+  {
+   "date": "2026-09-29",
+   "beguenstigter": "Rajesh Global Food GmbH",
+   "amount": -489.21,
+   "zweck": "INV/2026/03555 DATUM 29.09.2026, 11.39 UHR",
+   "category": "supplier_payment",
+   "label": "Rajesh Global Food"
+  },
+  {
+   "date": "2026-09-29",
+   "beguenstigter": "Rajesh Global Food GmbH",
+   "amount": -195.12,
+   "zweck": "CUST/481 DATUM 29.09.2026, 11.37 UHR",
+   "category": "supplier_payment",
+   "label": "Rajesh Global Food"
+  },
+  {
+   "date": "2026-09-30",
+   "beguenstigter": "ENTGELTABSCHLUSS",
+   "amount": -48.89,
+   "zweck": "Abrechnung 30.09.2026 siehe Anlage",
+   "category": "uncategorized",
+   "label": "ENTGELTABSCHLUSS"
+  },
+  {
+   "date": "2026-10-01",
+   "beguenstigter": "Andreas Kupfer & Sohn GmbH",
+   "amount": -475.8,
+   "zweck": "RG:558718 224,70/RG:558265 251,10",
+   "category": "supplier_payment",
+   "label": "Kupfer & Sohn"
+  },
+  {
+   "date": "2026-10-01",
+   "beguenstigter": "BARGELDAUSZAHLUNG KASSE",
+   "amount": -2500.0,
+   "zweck": "",
+   "category": "uncategorized",
+   "label": "BARGELDAUSZAHLUNG KASSE"
+  },
+  {
+   "date": "2026-10-01",
+   "beguenstigter": "Anar Mehta",
+   "amount": -3652.66,
+   "zweck": "Gehalt September 2026 DATUM 01.10.2026, 17.25 UHR",
+   "category": "other",
+   "label": "Gehalt"
+  },
+  {
+   "date": "2026-10-01",
+   "beguenstigter": "Reetu Reetu",
+   "amount": -1256.84,
+   "zweck": "Gehalt September 2026 DATUM 01.10.2026, 17.23 UHR",
+   "category": "other",
+   "label": "Gehalt"
+  },
+  {
+   "date": "2026-10-01",
+   "beguenstigter": "Sameer Chaudhary",
+   "amount": -546.0,
+   "zweck": "Gehalt Sept 2026 DATUM 01.10.2026, 17.18 UHR",
+   "category": "other",
+   "label": "Gehalt"
+  },
+  {
+   "date": "2026-10-01",
+   "beguenstigter": "WOLT LICENSE SERVICES OY",
+   "amount": 616.49,
+   "zweck": "Wolt Auszahlung",
+   "category": "platform_payout",
+   "label": "Wolt"
+  },
+  {
+   "date": "2026-10-01",
+   "beguenstigter": "SIGNAL IDUNA Gruppe",
+   "amount": -244.19,
+   "zweck": "11155417 SIGNAL IDUNAKraftfahrtversicherung 01001FS CT33 BIS 1026",
+   "category": "uncategorized",
+   "label": "SIGNAL IDUNA Gruppe"
+  },
+  {
+   "date": "2026-10-01",
+   "beguenstigter": "DMB Rechtsschutz-Versicherung Aktiengesellschaft",
+   "amount": -60.39,
+   "zweck": "00000640662-Faelligkeit-01.10.2026",
+   "category": "uncategorized",
+   "label": "DMB Rechtsschutz-Versicherung Aktiengesellschaft"
+  },
+  {
+   "date": "2026-10-02",
+   "beguenstigter": "Andreas Engl",
+   "amount": -1050.0,
+   "zweck": "Miete für - Mitarbeiterwohnung für Chutney on Top",
+   "category": "other",
+   "label": "Miete/Nebenkosten"
+  },
+  {
+   "date": "2026-10-02",
+   "beguenstigter": "Alan Malih & Rani Yakoub Gerges",
+   "amount": -5300.0,
+   "zweck": "monatliche miete für lokal am landsberger str 437",
+   "category": "other",
+   "label": "Miete/Nebenkosten"
   }
  ],
- "dedupNote": "FIXED 2026-09-07 (v4, final): now groups candidates by date+amount only (ignoring payee text differences from different sources), extracts the true SEPA purpose reference (text after SVWZ+, excluding MREF/CRED noise like recurring customer/creditor IDs), and merges only when: both have refs and they overlap, OR either lacks a ref and payee names are substring-compatible. Verified against 4 known cases (3 debit card fees, 2 Weidners invoices, 3 Allianz Arena payments, 1 genuine Kohinoor duplicate) - all correct."
+ "dedupNote": "FIXED 2026-09-07 (v4, final): now groups candidates by date+amount only (ignoring payee text differences from different sources), extracts the true SEPA purpose reference (text after SVWZ+, excluding MREF/CRED noise like recurring customer/creditor IDs), and merges only when: both have refs and they overlap, OR either lacks a ref and payee names are substring-compatible. Verified against 4 known cases (3 debit card fees, 2 Weidners invoices, 3 Allianz Arena payments, 1 genuine Kohinoor duplicate) - all correct. | Updated 2026-10-02: merged new Sparkasse statement (20261002-25862558-umsatz.CSV), extending coverage from 2026-09-07 to 2026-10-02, +83 new transactions."
 }
