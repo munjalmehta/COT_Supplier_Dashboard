@@ -1,14 +1,14 @@
 {
  "repo": "github.com/munjalmehta/COT_Supplier_Dashboard",
- "generatedAt": "2026-09-30",
+ "generatedAt": "2026-10-05",
  "description": "Manifest of parsed invoice JSON cache per supplier. Future rescans should check latestInvoiceDate per supplier before re-parsing Drive folders, and only fetch invoices newer than that date.",
  "suppliers": {
   "Rajesh Global Food": {
    "file": "rajesh_global_food.json",
-   "invoiceCount": 23,
+   "invoiceCount": 25,
    "earliestInvoiceDate": "2025-12-31",
-   "latestInvoiceDate": "2026-09-15",
-   "totalNetSpend": 8753.25,
+   "latestInvoiceDate": "2026-09-24",
+   "totalNetSpend": 9372.93,
    "invoicesMissingNetTotal": null
   },
   "GFT Group": {
@@ -29,10 +29,10 @@
   },
   "Kupfer & Sohn": {
    "file": "kupfer_sohn.json",
-   "invoiceCount": 78,
+   "invoiceCount": 79,
    "earliestInvoiceDate": "2026-01-09",
-   "latestInvoiceDate": "2026-09-25",
-   "totalNetSpend": 14178.99,
+   "latestInvoiceDate": "2026-10-02",
+   "totalNetSpend": 14669.76,
    "invoicesMissingNetTotal": null
   },
   "RK Traders": {
@@ -45,10 +45,10 @@
   },
   "Metro": {
    "file": "metro.json",
-   "invoiceCount": 38,
+   "invoiceCount": 39,
    "earliestInvoiceDate": "2026-01-12",
-   "latestInvoiceDate": "2026-09-25",
-   "totalNetSpend": 5212.46,
+   "latestInvoiceDate": "2026-10-02",
+   "totalNetSpend": 5355.06,
    "invoicesMissingNetTotal": [
     "09.06.2026/046/0/0/0502/033579"
    ]
@@ -60,19 +60,27 @@
    "latestInvoiceDate": "2026-06-08",
    "totalNetSpend": 518.14,
    "invoicesMissingNetTotal": null
+  },
+  "Brauerei Aying": {
+   "file": "aying.json",
+   "invoiceCount": 3,
+   "earliestInvoiceDate": "2026-09-16",
+   "latestInvoiceDate": "2026-09-30",
+   "totalNetSpend": 430.6,
+   "invoicesMissingNetTotal": null
   }
  },
  "grandTotal": {
-  "totalInvoices": 258,
-  "totalNetSpend": 72127.43,
+  "totalInvoices": 265,
+  "totalNetSpend": 73811.08,
   "note": "totalNetSpend excludes invoices where only grossTotal is confirmed (see invoicesMissingNetTotal per supplier)"
  },
  "invoicesMissingNetTotal": [
   "09.06.2026/046/0/0/0502/033579 (Metro)"
  ],
  "lastRescan": {
-  "date": "2026-09-30",
-  "result": "Found 1 new supplier invoice: RK Traders RE5017. GFT, Kupfer&Sohn, Rajesh, Ökoring, Metro had no new invoices."
+  "date": "2026-10-05",
+  "result": "Found 4 new supplier invoices: Rajesh INV/2026/03766 (09.09) and INV/2026/03986 (24.09), Kupfer & Sohn 562029 (02.10), Metro 502-684160 (02.10). GFT, RK Traders and Oekoring had nothing new. Wolt, Uber Eats and Lieferando already covered through the latest published periods. Brauerei Aying (3 Rechnungen, 16.-30.09.) neu als Lieferant aufgenommen."
  },
  "deliveryPlatforms": {
   "description": "Weekly/period-level revenue and fee summaries per delivery platform. Separate from supplier invoice tracking above. Order-level detail available in source Drive files, not stored here.",
