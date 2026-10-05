@@ -1,0 +1,42 @@
+{
+ "supplier": "Brauerei Aying Franz Inselkammer KG",
+ "lastUpdated": "2026-10-05",
+ "invoiceCount": 3,
+ "note": "Getraenke (Bier/Alkoholfrei). netTotal = Warenwert ohne Pfand; Pfand separat, Brutto inkl. Pfand und 19% USt. Erfasst erst ab 16.09.2026 (Rechnungseingang), aeltere Aying-Rechnungen nicht im Bestand.",
+ "totalNetSpend": 430.6,
+ "latestInvoiceDate": "2026-09-30",
+ "earliestInvoiceDate": "2026-09-16",
+ "invoicesMissingNetTotal": null,
+ "invoices": [
+  {
+   "invoiceNo": "1500134297",
+   "date": "2026-09-16",
+   "netTotal": 86.93,
+   "pfand": -39.5,
+   "vat19": 9.01,
+   "grossTotal": 56.44,
+   "driveFileId": "15m9IKH_SLB-jafznYeG98_fBej5E1Nrd",
+   "summary": "Schneider Weisse alkoholfrei, Frucade Tafelwasser Fass (2), afri cola zero PET; Leergut-Rueckgabe Keg/Kaesten"
+  },
+  {
+   "invoiceNo": "1500134394",
+   "date": "2026-09-17",
+   "netTotal": 176.36,
+   "pfand": 42.4,
+   "vat19": 41.56,
+   "grossTotal": 260.32,
+   "driveFileId": "13VrgO6JU0iqw299xTlPEtq1DykxyBGUL",
+   "summary": "Ayinger Urweisse, Leichte Braeuweisse, Hopfenthaler alkoholfrei (2), Adelholzener Gastro/naturell (je 3), afri cola zero (2), Willibecher 12 St. (18,00 berechnet, Gratis-Zeile ohne Gutschrift - pruefen)"
+  },
+  {
+   "invoiceNo": "1500135043",
+   "date": "2026-09-30",
+   "netTotal": 167.31,
+   "pfand": -51.1,
+   "vat19": 22.08,
+   "grossTotal": 138.29,
+   "driveFileId": "1HcrkObL4xm3WT_rdN4b8iKnJ-EhZS2ru",
+   "summary": "Ayinger Lager Hell 30l Fass (3), Ayinger Urweisse, Frucade Cola Mix; Leergut-Rueckgabe Keg/Kaesten"
+  }
+ ]
+}
