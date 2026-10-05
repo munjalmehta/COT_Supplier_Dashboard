@@ -1,433 +1,9 @@
 {
  "supplier": "Kupfer & Sohn",
- "lastUpdated": "2026-09-26",
- "invoiceCount": 78,
+ "lastUpdated": "2026-10-05",
+ "invoiceCount": 79,
  "note": "Document types include Rechnung (invoice) and Gutschrift (credit note/Stornorechng). Pfand/Leergut and packaging deposit line items (BGK, CF markers) excluded from lineItems below to focus on goods - see netTotal/grossTotal for full invoice value including deposits.",
  "invoices": [
-  {
-   "invoiceNo": "540978",
-   "date": "2026-06-26",
-   "deliveryDate": "2026-06-25",
-   "netTotal": 52.5,
-   "vat7": 3.68,
-   "grossTotal": 56.18,
-   "driveFileId": "1DF6V665af74Je5ftVrDGXImFJvwu_lqT",
-   "summary": "Frischmilch 3,5% 10l Eimer x5 (50kg)"
-  },
-  {
-   "invoiceNo": "540544",
-   "date": "2026-06-24",
-   "deliveryDate": "2026-06-23",
-   "netTotal": 73.75,
-   "vat7": 5.16,
-   "grossTotal": 78.91,
-   "driveFileId": "1DvYYV4t9qBJB6uIJnqSAd75nuigUjA19",
-   "summary": "H-Griechischer Joghurt 10% 5kg x5 (25kg) - Nachlieferung"
-  },
-  {
-   "invoiceNo": "540124",
-   "date": "2026-06-23",
-   "deliveryDate": "2026-06-22",
-   "netTotal": 403.24,
-   "vat7": 26.72,
-   "vat19": 4.08,
-   "grossTotal": 434.04,
-   "driveFileId": "1L-4yJP3fpRZdk1s6atELt0i80XnO1Z_m",
-   "summary": "Butter, Naturjoghurt, Griechischer Joghurt, Zitronensaft, Rapsöl, Karotten, Eissalat, Paprika tricolor, Zucker, Küchensahne"
-  },
-  {
-   "invoiceNo": "537438",
-   "date": "2026-06-11",
-   "deliveryDate": "2026-06-10",
-   "netTotal": 186.76,
-   "vat7": 13.07,
-   "grossTotal": 199.83,
-   "driveFileId": "1KklQ0DKv1okh6E_KB7JioFvWrR34SEAe",
-   "summary": "Fettarme Milch, Butter, Kartoffel, Metzgerzwiebel, Küchensahne, Alpensalz, Griechischer Joghurt"
-  },
-  {
-   "invoiceNo": "537750",
-   "date": "2026-06-12",
-   "deliveryDate": "2026-06-11",
-   "netTotal": 126.0,
-   "vat7": 8.82,
-   "grossTotal": 134.82,
-   "driveFileId": "16Ewb5EP_gY6po4J49_4RrGhR_zvU9lI8",
-   "summary": "Frischmilch 3,5% 10l Eimer x12 (120kg)"
-  },
-  {
-   "invoiceNo": "537299",
-   "date": "2026-06-10",
-   "deliveryDate": "2026-06-09",
-   "netTotal": 29.5,
-   "vat7": 2.07,
-   "grossTotal": 31.57,
-   "driveFileId": "1QISOuQ6iVIcX5kY-TdaaWytSyM7w1ZmC",
-   "summary": "H-Griechischer Joghurt 10% 5kg x2 - Nachlieferung"
-  },
-  {
-   "invoiceNo": "536944",
-   "date": "2026-06-09",
-   "deliveryDate": "2026-06-08",
-   "netTotal": 376.46,
-   "vat7": 26.35,
-   "grossTotal": 402.81,
-   "driveFileId": "13R9czsgmGeSaW6XrFchOP-xoK_ATtyw1",
-   "summary": "Metzgerzwiebel, Eissalat, Karotten, Schältomaten, Rapsöl, Zucker, Tafelessig, Küchensahne, Fettarme Milch, Gouda, Butter, Paprika tricolor"
-  },
-  {
-   "invoiceNo": "536090",
-   "date": "2026-06-03",
-   "deliveryDate": "2026-06-02",
-   "netTotal": 160.6,
-   "vat7": 11.24,
-   "grossTotal": 171.84,
-   "driveFileId": "1hI7-zemW_saWROcLEppBE6iO3Doc0Qop",
-   "summary": "Naturjoghurt mild 3,5% 5kg x8 (40kg), Frischmilch 3,5% 10l Eimer x10 (100kg)"
-  },
-  {
-   "invoiceNo": "535925",
-   "date": "2026-06-02",
-   "deliveryDate": "2026-06-01",
-   "netTotal": 85.77,
-   "vat7": 6.0,
-   "vat19": 4.08,
-   "grossTotal": 117.33,
-   "driveFileId": "1zgeFqIJyTFl8-JBI_O1Ew3NsvNDyXxkr",
-   "summary": "Zitronensaft, Rapsöl, Fettarme Milch, Küchensahne"
-  },
-  {
-   "invoiceNo": "534471",
-   "date": "2026-05-30",
-   "deliveryDate": "2026-05-28",
-   "netTotal": 215.35,
-   "vat7": 15.07,
-   "grossTotal": 230.42,
-   "driveFileId": "1kblfjJcjIjiU7vXwu56EDpgsC8qNmYiG",
-   "summary": "Frischmilch 3,5% 10l Eimer x15 (150kg), Weizenmehl Type 405 25kg, TK Blumenkohlröschen, Karotten dick"
-  },
-  {
-   "invoiceNo": "534268",
-   "date": "2026-05-28",
-   "deliveryDate": "2026-05-26",
-   "netTotal": 23.7,
-   "vat7": 1.66,
-   "grossTotal": 25.36,
-   "driveFileId": "1XjG8g8SAYrHVpfUNyQ74QXtpQrN-2Zl-",
-   "type": "Gutschrift (Stornorechng)",
-   "summary": "Weizenmehl Typ 405 10x1kg return - Reklamation 38518"
-  },
-  {
-   "invoiceNo": "534087",
-   "date": "2026-05-27",
-   "deliveryDate": "2026-05-26",
-   "netTotal": 390.55,
-   "vat7": 27.34,
-   "grossTotal": 417.89,
-   "driveFileId": "1RVpLPh5Kli6bJEwmIGDUBMo8BQ1L9BiM",
-   "summary": "Naturjoghurt, Küchensahne, Metzgerzwiebel, Paprika tricolor, Gouda, Zucker, Weizenmehl, Alpensalz, Rapsöl, Schältomaten"
-  },
-  {
-   "invoiceNo": "533235",
-   "date": "2026-05-22",
-   "deliveryDate": "2026-05-15",
-   "netTotal": 27.45,
-   "vat7": 1.92,
-   "grossTotal": 29.37,
-   "driveFileId": "1dcgx4zhlFWS00H391d7R4Z4O2UGCMmmx",
-   "type": "Gutschrift (Stornorechng)",
-   "summary": "Gouda Scheiben 48% return (falscher Artikel) - Reklamation 38433"
-  },
-  {
-   "invoiceNo": "533236",
-   "date": "2026-05-22",
-   "deliveryDate": "2026-05-21",
-   "netTotal": 199.92,
-   "vat7": 13.99,
-   "grossTotal": 213.91,
-   "driveFileId": "1syQIUR4w6aIT30S6rrb3BarDjwHIDGiG",
-   "summary": "Frischmilch, Eier 90er, Gouda, Griechischer Joghurt, Paprika tricolor, Eissalat"
-  },
-  {
-   "invoiceNo": "532769",
-   "date": "2026-05-20",
-   "deliveryDate": "2026-05-19",
-   "netTotal": 321.19,
-   "vat7": 22.48,
-   "grossTotal": 343.67,
-   "driveFileId": "1RsVZi80ZNiVPTvUrJk8LmDaQPfC1SjCV",
-   "summary": "Fettarme Milch, Küchensahne, Naturjoghurt, Rapsöl, Schältomaten, Metzgerzwiebel, Spargel grün, Tafelessig"
-  },
-  {
-   "invoiceNo": "531815",
-   "date": "2026-05-18",
-   "deliveryDate": "2026-05-15",
-   "netTotal": 104.7,
-   "vat7": 7.33,
-   "grossTotal": 112.03,
-   "driveFileId": "1hGlzM205qk4sR5cDpOLw0mp3Sc1Hhmkf",
-   "summary": "Frischmilch 10l Eimer x6 (60kg), Gouda Scheiben 48%, Fettarme Milch"
-  },
-  {
-   "invoiceNo": "531372",
-   "date": "2026-05-13",
-   "deliveryDate": "2026-05-12",
-   "netTotal": 262.69,
-   "vat7": 18.39,
-   "grossTotal": 281.08,
-   "driveFileId": "1b6m3IKwKlanRB3WfdMVaG5vnFoXEbmIV",
-   "summary": "Naturjoghurt, Küchensahne, Fettarme Milch, Rapsöl, Metzgerzwiebel, Tomaten, Zwiebel rot, Butter, Salat-Mayonnaise"
-  },
-  {
-   "invoiceNo": "530300",
-   "date": "2026-05-08",
-   "deliveryDate": "2026-05-07",
-   "netTotal": 114.0,
-   "vat7": 7.98,
-   "grossTotal": 121.98,
-   "driveFileId": "1YAFy7n5BQqrAVbARAaFJit3_RDorp4r2",
-   "summary": "Frischmilch 10l Eimer x6 (60kg), Zucker fein 25kg, Griechischer Joghurt"
-  },
-  {
-   "invoiceNo": "529896",
-   "date": "2026-05-07",
-   "deliveryDate": "2026-05-05",
-   "netTotal": 236.8,
-   "vat7": 16.58,
-   "grossTotal": 253.38,
-   "driveFileId": "1U3V1Fk35X5lt6P_FIujRsOg8QOMGrvA_",
-   "summary": "Eier 90er, Fettarme Milch, Griechischer Joghurt, Naturjoghurt, Butter, Küchensahne, TK Gemüse Brunoise, TK Vanille Eis"
-  },
-  {
-   "invoiceNo": "528557",
-   "date": "2026-04-30",
-   "deliveryDate": "2026-04-30",
-   "netTotal": 63.0,
-   "vat7": 4.41,
-   "grossTotal": 67.41,
-   "driveFileId": "1Q79tcjyo5Zxy2-tSObXS7n05Y0pzqR-b",
-   "summary": "Frischmilch 10l Eimer x6 (60kg)"
-  },
-  {
-   "invoiceNo": "528393",
-   "date": "2026-04-29",
-   "deliveryDate": "2026-04-28",
-   "netTotal": 112.46,
-   "vat7": 7.87,
-   "grossTotal": 120.33,
-   "driveFileId": "1WAYEwBC6sm2OeSYYyYGFpCA3313SwwPW",
-   "summary": "Küchensahne, Fettarme Milch, Rapsöl, Schältomaten, Metzgerzwiebel"
-  },
-  {
-   "invoiceNo": "527334",
-   "date": "2026-04-24",
-   "deliveryDate": "2026-04-14",
-   "netTotal": 6.9,
-   "vat7": 0.48,
-   "grossTotal": 7.38,
-   "driveFileId": "1Z15ZEOj7fYee0cDU_cRMT0HPBwuexJtu",
-   "type": "Gutschrift (Stornorechng)",
-   "summary": "Karotten dick 10kg return - Reklamation 37803"
-  },
-  {
-   "invoiceNo": "527335",
-   "date": "2026-04-24",
-   "deliveryDate": "2026-04-23",
-   "netTotal": 322.69,
-   "vat7": 22.59,
-   "vat19": 0.67,
-   "grossTotal": 349.45,
-   "driveFileId": "1PMG6N4d63yMC5dRZDaCte4on0fURBUsw",
-   "summary": "Frischmilch, Weizenmehl Type 405, Metzgerzwiebel, Kartoffel, Griechischer Joghurt, Paprika tricolor, Eissalat, Mixsalat, Schältomaten"
-  },
-  {
-   "invoiceNo": "526973",
-   "date": "2026-04-22",
-   "deliveryDate": "2026-04-21",
-   "netTotal": 162.6,
-   "vat7": 11.38,
-   "grossTotal": 173.98,
-   "driveFileId": "1zwi8j0_Az525XcHKzAGDxpKzL_xHYHPt",
-   "summary": "Fettarme Milch, Naturjoghurt, Rapsöl, Küchensahne"
-  },
-  {
-   "invoiceNo": "525954",
-   "date": "2026-04-17",
-   "deliveryDate": "2026-04-16",
-   "netTotal": 182.8,
-   "vat7": 12.8,
-   "vat19": 8.28,
-   "grossTotal": 247.45,
-   "driveFileId": "10lRmejQIOIOM_SMPoldPg8IPBJzmj7Zb",
-   "summary": "Frischmilch, Fettarme Milch, Küchensahne, Paprika tricolor, Auberginen, Naturjoghurt, Alufolie extra stark, Weisskraut"
-  },
-  {
-   "invoiceNo": "525463",
-   "date": "2026-04-15",
-   "deliveryDate": "2026-04-14",
-   "netTotal": 150.06,
-   "vat7": 10.5,
-   "vat19": 4.08,
-   "grossTotal": 186.12,
-   "driveFileId": "1Xe4OhiV4aHkmwl7pfxLm2vsFREJ9ga3X",
-   "summary": "Zucker fein, Griechischer Joghurt, Eissalat, Karotten dick, Rapsöl, Gurken, Zitronensaft"
-  },
-  {
-   "invoiceNo": "524547",
-   "date": "2026-04-10",
-   "deliveryDate": "2026-04-09",
-   "netTotal": 236.2,
-   "vat7": 16.53,
-   "grossTotal": 252.73,
-   "driveFileId": "1yQ-2PRecvHZGaNIrUGhln02-YwkPhFKC",
-   "summary": "Frischmilch 10l Eimer x12 (120kg), Butter, Gouda, Eier 90er, TK Brechbohnen, TK Blumenkohlröschen, Alpensalz"
-  },
-  {
-   "invoiceNo": "524033",
-   "date": "2026-04-08",
-   "deliveryDate": "2026-04-07",
-   "netTotal": 320.15,
-   "vat7": 22.41,
-   "grossTotal": 342.56,
-   "driveFileId": "1IDSi3UilqhejZ_S_XYRGr0WERl3O3lig",
-   "summary": "Metzgerzwiebel, Kartoffel, Paprika tricolor, Naturjoghurt, Rapsöl, Küchensahne, Fettarme Milch"
-  },
-  {
-   "invoiceNo": "523632",
-   "date": "2026-04-07",
-   "deliveryDate": "2026-04-02",
-   "netTotal": 264.75,
-   "vat7": 18.53,
-   "vat19": -0.73,
-   "grossTotal": 278.69,
-   "driveFileId": "1bZTNGNMknvb0BmuUK7cieyRw3QwTGRR8",
-   "summary": "Frischmilch 10l Eimer x12 (120kg), TK Gemüse Brunoise, Zucker fein 25kg, Naturjoghurt, Rapsöl"
-  },
-  {
-   "invoiceNo": "522468",
-   "date": "2026-03-31",
-   "deliveryDate": "2026-03-30",
-   "netTotal": 249.81,
-   "vat7": 17.49,
-   "grossTotal": 267.3,
-   "driveFileId": "1cC3eo_uNwXAUahPjINTJwiHxC9wQ9bb5",
-   "summary": "Küchensahne, Fettarme Milch, Butter, Naturjoghurt, Gouda, Metzgerzwiebel, Auberginen"
-  },
-  {
-   "invoiceNo": "521509",
-   "date": "2026-03-25",
-   "deliveryDate": "2026-03-24",
-   "netTotal": 276.26,
-   "vat7": 19.34,
-   "vat19": 0.73,
-   "grossTotal": 300.19,
-   "driveFileId": "1DpWpndcJ2lQ-ZwSRrBebzbdajCQL5QUV",
-   "summary": "Frischmilch, Küchensahne, Fettarme Milch, Gouda, Butter, Tafelessig, Naturjoghurt, Rapsöl, Alpensalz"
-  },
-  {
-   "invoiceNo": "521135",
-   "date": "2026-03-24",
-   "deliveryDate": "2026-03-12",
-   "netTotal": 22.25,
-   "vat7": 1.56,
-   "grossTotal": 23.81,
-   "driveFileId": "1Si-iFY7xS15gtB5dA5JD3y_QukwRl9Sf",
-   "type": "Gutschrift (Stornorechng)",
-   "summary": "Weizenmehl Type 405 25kg return (falscher Artikel) - Reklamation 37151"
-  },
-  {
-   "invoiceNo": "520587",
-   "date": "2026-03-23",
-   "deliveryDate": "2026-03-02",
-   "netTotal": 9.66,
-   "vat7": 0.68,
-   "grossTotal": 10.34,
-   "driveFileId": "16K_Kemq6Z-rOMvh9jqyLJ9GDJwfMecWH",
-   "type": "Gutschrift (Sofortretoure)",
-   "summary": "Suppengemüse 6x750g return - Reklamation 36983"
-  },
-  {
-   "invoiceNo": "520410",
-   "date": "2026-03-20",
-   "deliveryDate": "2026-03-19",
-   "netTotal": 266.26,
-   "vat7": 18.64,
-   "grossTotal": 284.9,
-   "driveFileId": "1cvq6xccda2IG_BmiPaXZGtGlXb5DXV_Y",
-   "summary": "Frischmilch (two deliveries: 10l Eimer x6 and 10l Eimer x4), Naturjoghurt, Küchensahne, Eier 90er, Rapsöl, Fettarme Milch"
-  },
-  {
-   "invoiceNo": "519053",
-   "date": "2026-03-13",
-   "deliveryDate": "2026-03-12",
-   "netTotal": 237.75,
-   "vat7": 16.64,
-   "grossTotal": 254.39,
-   "driveFileId": "1HOuA3WRfZG1P1gmr_p-H85IhQahTstzW",
-   "summary": "Frischmilch 10l Eimer x10 (100kg), Rapsöl, Weizenmehl Type 405, Metzgerzwiebel, Tomaten, Naturjoghurt"
-  },
-  {
-   "invoiceNo": "518626",
-   "date": "2026-03-11",
-   "deliveryDate": "2026-03-10",
-   "netTotal": 203.0,
-   "vat7": 14.21,
-   "vat19": 4.08,
-   "grossTotal": 242.77,
-   "driveFileId": "1FDjHOhcHQ2jURtI3Cm_fDR4MeH_9QKH9",
-   "summary": "Butter, Fettarme Milch, Naturjoghurt, Küchensahne, Paprika tricolor, Kartoffel, Zitronensaft"
-  },
-  {
-   "invoiceNo": "517683",
-   "date": "2026-03-06",
-   "deliveryDate": "2026-03-05",
-   "netTotal": 145.5,
-   "vat7": 10.19,
-   "grossTotal": 155.69,
-   "driveFileId": "1BYhJ1kIJyIWZD2m-wfstgkYR2tQJyXEQ",
-   "summary": "Frischmilch 10l Eimer x12 (120kg), TK Gemüse Brunoise"
-  },
-  {
-   "invoiceNo": "517180",
-   "date": "2026-03-03",
-   "deliveryDate": "2026-03-02",
-   "netTotal": 214.06,
-   "vat7": 14.98,
-   "grossTotal": 229.04,
-   "driveFileId": "14CB3BTNj7BeCjXRCC2MLHbqhY9RaBSOh",
-   "summary": "Fettarme Milch, Naturjoghurt, Küchensahne, Gouda, Suppengemüse, Eier 90er, Rapsöl"
-  },
-  {
-   "invoiceNo": "516217",
-   "date": "2026-02-28",
-   "deliveryDate": "2026-02-27",
-   "netTotal": 142.4,
-   "vat7": 9.97,
-   "grossTotal": 152.37,
-   "driveFileId": "15cdWRREvrb_YA3AA37XY-b_bzGBViVlV",
-   "summary": "Metzgerzwiebel 25kg, Schältomaten Pelati 6x2650ml x6"
-  },
-  {
-   "invoiceNo": "516216",
-   "date": "2026-02-28",
-   "deliveryDate": "2026-02-26",
-   "netTotal": 199.47,
-   "vat7": 13.96,
-   "grossTotal": 213.43,
-   "driveFileId": "1NBLKWiTxsCvM2dJAiPGNEALs22ky6Jmc",
-   "summary": "Frischmilch 10l Eimer x10 (100kg), TK Erbsen fein, Weizenmehl Type 405, Rapsöl"
-  },
-  {
-   "invoiceNo": "515649",
-   "date": "2026-02-24",
-   "deliveryDate": "2026-02-23",
-   "netTotal": 224.38,
-   "vat7": 15.71,
-   "vat19": 0.67,
-   "grossTotal": 244.26,
-   "driveFileId": "1Six_FxwoEyLMiBgYDRhVSOKXIdhvUI5v",
-   "summary": "Butter, Küchensahne, Zucker fein, Naturjoghurt, Weizenmehl, Tomaten, Paprika tricolor, Weisskraut, Blumenkohl 6er"
-  },
   {
    "invoiceNo": "506630",
    "date": "2026-01-09",
@@ -568,6 +144,430 @@
    "grossTotal": 327.42,
    "driveFileId": "12YD942Cgp7RwOJbPVV4VpGlE9N3wCp0j",
    "summary": "Frischmilch, Küchensahne, Fettarme Milch, Butter, TK Brechbohnen, TK Karottenwürfel, TK Blumenkohlröschen, Eier 90er, Rapsöl, TK Vanille Eis"
+  },
+  {
+   "invoiceNo": "515649",
+   "date": "2026-02-24",
+   "deliveryDate": "2026-02-23",
+   "netTotal": 224.38,
+   "vat7": 15.71,
+   "vat19": 0.67,
+   "grossTotal": 244.26,
+   "driveFileId": "1Six_FxwoEyLMiBgYDRhVSOKXIdhvUI5v",
+   "summary": "Butter, Küchensahne, Zucker fein, Naturjoghurt, Weizenmehl, Tomaten, Paprika tricolor, Weisskraut, Blumenkohl 6er"
+  },
+  {
+   "invoiceNo": "516217",
+   "date": "2026-02-28",
+   "deliveryDate": "2026-02-27",
+   "netTotal": 142.4,
+   "vat7": 9.97,
+   "grossTotal": 152.37,
+   "driveFileId": "15cdWRREvrb_YA3AA37XY-b_bzGBViVlV",
+   "summary": "Metzgerzwiebel 25kg, Schältomaten Pelati 6x2650ml x6"
+  },
+  {
+   "invoiceNo": "516216",
+   "date": "2026-02-28",
+   "deliveryDate": "2026-02-26",
+   "netTotal": 199.47,
+   "vat7": 13.96,
+   "grossTotal": 213.43,
+   "driveFileId": "1NBLKWiTxsCvM2dJAiPGNEALs22ky6Jmc",
+   "summary": "Frischmilch 10l Eimer x10 (100kg), TK Erbsen fein, Weizenmehl Type 405, Rapsöl"
+  },
+  {
+   "invoiceNo": "517180",
+   "date": "2026-03-03",
+   "deliveryDate": "2026-03-02",
+   "netTotal": 214.06,
+   "vat7": 14.98,
+   "grossTotal": 229.04,
+   "driveFileId": "14CB3BTNj7BeCjXRCC2MLHbqhY9RaBSOh",
+   "summary": "Fettarme Milch, Naturjoghurt, Küchensahne, Gouda, Suppengemüse, Eier 90er, Rapsöl"
+  },
+  {
+   "invoiceNo": "517683",
+   "date": "2026-03-06",
+   "deliveryDate": "2026-03-05",
+   "netTotal": 145.5,
+   "vat7": 10.19,
+   "grossTotal": 155.69,
+   "driveFileId": "1BYhJ1kIJyIWZD2m-wfstgkYR2tQJyXEQ",
+   "summary": "Frischmilch 10l Eimer x12 (120kg), TK Gemüse Brunoise"
+  },
+  {
+   "invoiceNo": "518626",
+   "date": "2026-03-11",
+   "deliveryDate": "2026-03-10",
+   "netTotal": 203.0,
+   "vat7": 14.21,
+   "vat19": 4.08,
+   "grossTotal": 242.77,
+   "driveFileId": "1FDjHOhcHQ2jURtI3Cm_fDR4MeH_9QKH9",
+   "summary": "Butter, Fettarme Milch, Naturjoghurt, Küchensahne, Paprika tricolor, Kartoffel, Zitronensaft"
+  },
+  {
+   "invoiceNo": "519053",
+   "date": "2026-03-13",
+   "deliveryDate": "2026-03-12",
+   "netTotal": 237.75,
+   "vat7": 16.64,
+   "grossTotal": 254.39,
+   "driveFileId": "1HOuA3WRfZG1P1gmr_p-H85IhQahTstzW",
+   "summary": "Frischmilch 10l Eimer x10 (100kg), Rapsöl, Weizenmehl Type 405, Metzgerzwiebel, Tomaten, Naturjoghurt"
+  },
+  {
+   "invoiceNo": "520410",
+   "date": "2026-03-20",
+   "deliveryDate": "2026-03-19",
+   "netTotal": 266.26,
+   "vat7": 18.64,
+   "grossTotal": 284.9,
+   "driveFileId": "1cvq6xccda2IG_BmiPaXZGtGlXb5DXV_Y",
+   "summary": "Frischmilch (two deliveries: 10l Eimer x6 and 10l Eimer x4), Naturjoghurt, Küchensahne, Eier 90er, Rapsöl, Fettarme Milch"
+  },
+  {
+   "invoiceNo": "520587",
+   "date": "2026-03-23",
+   "deliveryDate": "2026-03-02",
+   "netTotal": 9.66,
+   "vat7": 0.68,
+   "grossTotal": 10.34,
+   "driveFileId": "16K_Kemq6Z-rOMvh9jqyLJ9GDJwfMecWH",
+   "type": "Gutschrift (Sofortretoure)",
+   "summary": "Suppengemüse 6x750g return - Reklamation 36983"
+  },
+  {
+   "invoiceNo": "521135",
+   "date": "2026-03-24",
+   "deliveryDate": "2026-03-12",
+   "netTotal": 22.25,
+   "vat7": 1.56,
+   "grossTotal": 23.81,
+   "driveFileId": "1Si-iFY7xS15gtB5dA5JD3y_QukwRl9Sf",
+   "type": "Gutschrift (Stornorechng)",
+   "summary": "Weizenmehl Type 405 25kg return (falscher Artikel) - Reklamation 37151"
+  },
+  {
+   "invoiceNo": "521509",
+   "date": "2026-03-25",
+   "deliveryDate": "2026-03-24",
+   "netTotal": 276.26,
+   "vat7": 19.34,
+   "vat19": 0.73,
+   "grossTotal": 300.19,
+   "driveFileId": "1DpWpndcJ2lQ-ZwSRrBebzbdajCQL5QUV",
+   "summary": "Frischmilch, Küchensahne, Fettarme Milch, Gouda, Butter, Tafelessig, Naturjoghurt, Rapsöl, Alpensalz"
+  },
+  {
+   "invoiceNo": "522468",
+   "date": "2026-03-31",
+   "deliveryDate": "2026-03-30",
+   "netTotal": 249.81,
+   "vat7": 17.49,
+   "grossTotal": 267.3,
+   "driveFileId": "1cC3eo_uNwXAUahPjINTJwiHxC9wQ9bb5",
+   "summary": "Küchensahne, Fettarme Milch, Butter, Naturjoghurt, Gouda, Metzgerzwiebel, Auberginen"
+  },
+  {
+   "invoiceNo": "523632",
+   "date": "2026-04-07",
+   "deliveryDate": "2026-04-02",
+   "netTotal": 264.75,
+   "vat7": 18.53,
+   "vat19": -0.73,
+   "grossTotal": 278.69,
+   "driveFileId": "1bZTNGNMknvb0BmuUK7cieyRw3QwTGRR8",
+   "summary": "Frischmilch 10l Eimer x12 (120kg), TK Gemüse Brunoise, Zucker fein 25kg, Naturjoghurt, Rapsöl"
+  },
+  {
+   "invoiceNo": "524033",
+   "date": "2026-04-08",
+   "deliveryDate": "2026-04-07",
+   "netTotal": 320.15,
+   "vat7": 22.41,
+   "grossTotal": 342.56,
+   "driveFileId": "1IDSi3UilqhejZ_S_XYRGr0WERl3O3lig",
+   "summary": "Metzgerzwiebel, Kartoffel, Paprika tricolor, Naturjoghurt, Rapsöl, Küchensahne, Fettarme Milch"
+  },
+  {
+   "invoiceNo": "524547",
+   "date": "2026-04-10",
+   "deliveryDate": "2026-04-09",
+   "netTotal": 236.2,
+   "vat7": 16.53,
+   "grossTotal": 252.73,
+   "driveFileId": "1yQ-2PRecvHZGaNIrUGhln02-YwkPhFKC",
+   "summary": "Frischmilch 10l Eimer x12 (120kg), Butter, Gouda, Eier 90er, TK Brechbohnen, TK Blumenkohlröschen, Alpensalz"
+  },
+  {
+   "invoiceNo": "525463",
+   "date": "2026-04-15",
+   "deliveryDate": "2026-04-14",
+   "netTotal": 150.06,
+   "vat7": 10.5,
+   "vat19": 4.08,
+   "grossTotal": 186.12,
+   "driveFileId": "1Xe4OhiV4aHkmwl7pfxLm2vsFREJ9ga3X",
+   "summary": "Zucker fein, Griechischer Joghurt, Eissalat, Karotten dick, Rapsöl, Gurken, Zitronensaft"
+  },
+  {
+   "invoiceNo": "525954",
+   "date": "2026-04-17",
+   "deliveryDate": "2026-04-16",
+   "netTotal": 182.8,
+   "vat7": 12.8,
+   "vat19": 8.28,
+   "grossTotal": 247.45,
+   "driveFileId": "10lRmejQIOIOM_SMPoldPg8IPBJzmj7Zb",
+   "summary": "Frischmilch, Fettarme Milch, Küchensahne, Paprika tricolor, Auberginen, Naturjoghurt, Alufolie extra stark, Weisskraut"
+  },
+  {
+   "invoiceNo": "526973",
+   "date": "2026-04-22",
+   "deliveryDate": "2026-04-21",
+   "netTotal": 162.6,
+   "vat7": 11.38,
+   "grossTotal": 173.98,
+   "driveFileId": "1zwi8j0_Az525XcHKzAGDxpKzL_xHYHPt",
+   "summary": "Fettarme Milch, Naturjoghurt, Rapsöl, Küchensahne"
+  },
+  {
+   "invoiceNo": "527334",
+   "date": "2026-04-24",
+   "deliveryDate": "2026-04-14",
+   "netTotal": 6.9,
+   "vat7": 0.48,
+   "grossTotal": 7.38,
+   "driveFileId": "1Z15ZEOj7fYee0cDU_cRMT0HPBwuexJtu",
+   "type": "Gutschrift (Stornorechng)",
+   "summary": "Karotten dick 10kg return - Reklamation 37803"
+  },
+  {
+   "invoiceNo": "527335",
+   "date": "2026-04-24",
+   "deliveryDate": "2026-04-23",
+   "netTotal": 322.69,
+   "vat7": 22.59,
+   "vat19": 0.67,
+   "grossTotal": 349.45,
+   "driveFileId": "1PMG6N4d63yMC5dRZDaCte4on0fURBUsw",
+   "summary": "Frischmilch, Weizenmehl Type 405, Metzgerzwiebel, Kartoffel, Griechischer Joghurt, Paprika tricolor, Eissalat, Mixsalat, Schältomaten"
+  },
+  {
+   "invoiceNo": "528393",
+   "date": "2026-04-29",
+   "deliveryDate": "2026-04-28",
+   "netTotal": 112.46,
+   "vat7": 7.87,
+   "grossTotal": 120.33,
+   "driveFileId": "1WAYEwBC6sm2OeSYYyYGFpCA3313SwwPW",
+   "summary": "Küchensahne, Fettarme Milch, Rapsöl, Schältomaten, Metzgerzwiebel"
+  },
+  {
+   "invoiceNo": "528557",
+   "date": "2026-04-30",
+   "deliveryDate": "2026-04-30",
+   "netTotal": 63.0,
+   "vat7": 4.41,
+   "grossTotal": 67.41,
+   "driveFileId": "1Q79tcjyo5Zxy2-tSObXS7n05Y0pzqR-b",
+   "summary": "Frischmilch 10l Eimer x6 (60kg)"
+  },
+  {
+   "invoiceNo": "529896",
+   "date": "2026-05-07",
+   "deliveryDate": "2026-05-05",
+   "netTotal": 236.8,
+   "vat7": 16.58,
+   "grossTotal": 253.38,
+   "driveFileId": "1U3V1Fk35X5lt6P_FIujRsOg8QOMGrvA_",
+   "summary": "Eier 90er, Fettarme Milch, Griechischer Joghurt, Naturjoghurt, Butter, Küchensahne, TK Gemüse Brunoise, TK Vanille Eis"
+  },
+  {
+   "invoiceNo": "530300",
+   "date": "2026-05-08",
+   "deliveryDate": "2026-05-07",
+   "netTotal": 114.0,
+   "vat7": 7.98,
+   "grossTotal": 121.98,
+   "driveFileId": "1YAFy7n5BQqrAVbARAaFJit3_RDorp4r2",
+   "summary": "Frischmilch 10l Eimer x6 (60kg), Zucker fein 25kg, Griechischer Joghurt"
+  },
+  {
+   "invoiceNo": "531372",
+   "date": "2026-05-13",
+   "deliveryDate": "2026-05-12",
+   "netTotal": 262.69,
+   "vat7": 18.39,
+   "grossTotal": 281.08,
+   "driveFileId": "1b6m3IKwKlanRB3WfdMVaG5vnFoXEbmIV",
+   "summary": "Naturjoghurt, Küchensahne, Fettarme Milch, Rapsöl, Metzgerzwiebel, Tomaten, Zwiebel rot, Butter, Salat-Mayonnaise"
+  },
+  {
+   "invoiceNo": "531815",
+   "date": "2026-05-18",
+   "deliveryDate": "2026-05-15",
+   "netTotal": 104.7,
+   "vat7": 7.33,
+   "grossTotal": 112.03,
+   "driveFileId": "1hGlzM205qk4sR5cDpOLw0mp3Sc1Hhmkf",
+   "summary": "Frischmilch 10l Eimer x6 (60kg), Gouda Scheiben 48%, Fettarme Milch"
+  },
+  {
+   "invoiceNo": "532769",
+   "date": "2026-05-20",
+   "deliveryDate": "2026-05-19",
+   "netTotal": 321.19,
+   "vat7": 22.48,
+   "grossTotal": 343.67,
+   "driveFileId": "1RsVZi80ZNiVPTvUrJk8LmDaQPfC1SjCV",
+   "summary": "Fettarme Milch, Küchensahne, Naturjoghurt, Rapsöl, Schältomaten, Metzgerzwiebel, Spargel grün, Tafelessig"
+  },
+  {
+   "invoiceNo": "533235",
+   "date": "2026-05-22",
+   "deliveryDate": "2026-05-15",
+   "netTotal": 27.45,
+   "vat7": 1.92,
+   "grossTotal": 29.37,
+   "driveFileId": "1dcgx4zhlFWS00H391d7R4Z4O2UGCMmmx",
+   "type": "Gutschrift (Stornorechng)",
+   "summary": "Gouda Scheiben 48% return (falscher Artikel) - Reklamation 38433"
+  },
+  {
+   "invoiceNo": "533236",
+   "date": "2026-05-22",
+   "deliveryDate": "2026-05-21",
+   "netTotal": 199.92,
+   "vat7": 13.99,
+   "grossTotal": 213.91,
+   "driveFileId": "1syQIUR4w6aIT30S6rrb3BarDjwHIDGiG",
+   "summary": "Frischmilch, Eier 90er, Gouda, Griechischer Joghurt, Paprika tricolor, Eissalat"
+  },
+  {
+   "invoiceNo": "534087",
+   "date": "2026-05-27",
+   "deliveryDate": "2026-05-26",
+   "netTotal": 390.55,
+   "vat7": 27.34,
+   "grossTotal": 417.89,
+   "driveFileId": "1RVpLPh5Kli6bJEwmIGDUBMo8BQ1L9BiM",
+   "summary": "Naturjoghurt, Küchensahne, Metzgerzwiebel, Paprika tricolor, Gouda, Zucker, Weizenmehl, Alpensalz, Rapsöl, Schältomaten"
+  },
+  {
+   "invoiceNo": "534268",
+   "date": "2026-05-28",
+   "deliveryDate": "2026-05-26",
+   "netTotal": 23.7,
+   "vat7": 1.66,
+   "grossTotal": 25.36,
+   "driveFileId": "1XjG8g8SAYrHVpfUNyQ74QXtpQrN-2Zl-",
+   "type": "Gutschrift (Stornorechng)",
+   "summary": "Weizenmehl Typ 405 10x1kg return - Reklamation 38518"
+  },
+  {
+   "invoiceNo": "534471",
+   "date": "2026-05-30",
+   "deliveryDate": "2026-05-28",
+   "netTotal": 215.35,
+   "vat7": 15.07,
+   "grossTotal": 230.42,
+   "driveFileId": "1kblfjJcjIjiU7vXwu56EDpgsC8qNmYiG",
+   "summary": "Frischmilch 3,5% 10l Eimer x15 (150kg), Weizenmehl Type 405 25kg, TK Blumenkohlröschen, Karotten dick"
+  },
+  {
+   "invoiceNo": "535925",
+   "date": "2026-06-02",
+   "deliveryDate": "2026-06-01",
+   "netTotal": 85.77,
+   "vat7": 6.0,
+   "vat19": 4.08,
+   "grossTotal": 117.33,
+   "driveFileId": "1zgeFqIJyTFl8-JBI_O1Ew3NsvNDyXxkr",
+   "summary": "Zitronensaft, Rapsöl, Fettarme Milch, Küchensahne"
+  },
+  {
+   "invoiceNo": "536090",
+   "date": "2026-06-03",
+   "deliveryDate": "2026-06-02",
+   "netTotal": 160.6,
+   "vat7": 11.24,
+   "grossTotal": 171.84,
+   "driveFileId": "1hI7-zemW_saWROcLEppBE6iO3Doc0Qop",
+   "summary": "Naturjoghurt mild 3,5% 5kg x8 (40kg), Frischmilch 3,5% 10l Eimer x10 (100kg)"
+  },
+  {
+   "invoiceNo": "536944",
+   "date": "2026-06-09",
+   "deliveryDate": "2026-06-08",
+   "netTotal": 376.46,
+   "vat7": 26.35,
+   "grossTotal": 402.81,
+   "driveFileId": "13R9czsgmGeSaW6XrFchOP-xoK_ATtyw1",
+   "summary": "Metzgerzwiebel, Eissalat, Karotten, Schältomaten, Rapsöl, Zucker, Tafelessig, Küchensahne, Fettarme Milch, Gouda, Butter, Paprika tricolor"
+  },
+  {
+   "invoiceNo": "537299",
+   "date": "2026-06-10",
+   "deliveryDate": "2026-06-09",
+   "netTotal": 29.5,
+   "vat7": 2.07,
+   "grossTotal": 31.57,
+   "driveFileId": "1QISOuQ6iVIcX5kY-TdaaWytSyM7w1ZmC",
+   "summary": "H-Griechischer Joghurt 10% 5kg x2 - Nachlieferung"
+  },
+  {
+   "invoiceNo": "537438",
+   "date": "2026-06-11",
+   "deliveryDate": "2026-06-10",
+   "netTotal": 186.76,
+   "vat7": 13.07,
+   "grossTotal": 199.83,
+   "driveFileId": "1KklQ0DKv1okh6E_KB7JioFvWrR34SEAe",
+   "summary": "Fettarme Milch, Butter, Kartoffel, Metzgerzwiebel, Küchensahne, Alpensalz, Griechischer Joghurt"
+  },
+  {
+   "invoiceNo": "537750",
+   "date": "2026-06-12",
+   "deliveryDate": "2026-06-11",
+   "netTotal": 126.0,
+   "vat7": 8.82,
+   "grossTotal": 134.82,
+   "driveFileId": "16Ewb5EP_gY6po4J49_4RrGhR_zvU9lI8",
+   "summary": "Frischmilch 3,5% 10l Eimer x12 (120kg)"
+  },
+  {
+   "invoiceNo": "540124",
+   "date": "2026-06-23",
+   "deliveryDate": "2026-06-22",
+   "netTotal": 403.24,
+   "vat7": 26.72,
+   "vat19": 4.08,
+   "grossTotal": 434.04,
+   "driveFileId": "1L-4yJP3fpRZdk1s6atELt0i80XnO1Z_m",
+   "summary": "Butter, Naturjoghurt, Griechischer Joghurt, Zitronensaft, Rapsöl, Karotten, Eissalat, Paprika tricolor, Zucker, Küchensahne"
+  },
+  {
+   "invoiceNo": "540544",
+   "date": "2026-06-24",
+   "deliveryDate": "2026-06-23",
+   "netTotal": 73.75,
+   "vat7": 5.16,
+   "grossTotal": 78.91,
+   "driveFileId": "1DvYYV4t9qBJB6uIJnqSAd75nuigUjA19",
+   "summary": "H-Griechischer Joghurt 10% 5kg x5 (25kg) - Nachlieferung"
+  },
+  {
+   "invoiceNo": "540978",
+   "date": "2026-06-26",
+   "deliveryDate": "2026-06-25",
+   "netTotal": 52.5,
+   "vat7": 3.68,
+   "grossTotal": 56.18,
+   "driveFileId": "1DF6V665af74Je5ftVrDGXImFJvwu_lqT",
+   "summary": "Frischmilch 3,5% 10l Eimer x5 (50kg)"
   },
   {
    "invoiceNo": "543138",
@@ -819,6 +819,15 @@
    "summary": "Naturjoghurt mild 3,5%, H-Fettarme Milch 1,5%, Tafelessig hell 5%, H-Küchensahne 30% (abzgl. Pfand/Kolli-Ausgleich)"
   },
   {
+   "invoiceNo": "550506",
+   "date": "2026-08-07",
+   "netTotal": 194.96,
+   "vat7": 13.65,
+   "grossTotal": 208.61,
+   "driveFileId": "167HlUmsRZ3plmclvs5mtZDZqYYL-bCwi",
+   "summary": "Frischmilch 3,5% 10l Eimer, TK Suppengemüse Julienne, Zucker fein 25kg"
+  },
+  {
    "invoiceNo": "551500",
    "date": "2026-08-12",
    "netTotal": 254.53,
@@ -853,15 +862,6 @@
    "grossTotal": 86.14,
    "driveFileId": "18sdcNkNx5bSpzNSSqZnDjC3GjgdkkiXc",
    "summary": "Frischmilch 3,5% 10l Eimer, Jodsalz 10kg, Zucker fein 25kg"
-  },
-  {
-   "invoiceNo": "550506",
-   "date": "2026-08-07",
-   "netTotal": 194.96,
-   "vat7": 13.65,
-   "grossTotal": 208.61,
-   "driveFileId": "167HlUmsRZ3plmclvs5mtZDZqYYL-bCwi",
-   "summary": "Frischmilch 3,5% 10l Eimer, TK Suppengemüse Julienne, Zucker fein 25kg"
   },
   {
    "invoiceNo": "553079",
@@ -996,8 +996,18 @@
    "grossTotal": 231.7,
    "driveFileId": "1DCmeepFF8gRwbPdGT_1TglAyW2nYRbsk",
    "summary": "Frischmilch 3,5% 10l Eimer, TK Blumenkohlröschen, TK Brechbohnen, Rapsöl 10 Liter, H-Griechischer Joghurt 10%, Eissalat 10er"
+  },
+  {
+   "invoiceNo": "562029",
+   "date": "2026-10-02",
+   "deliveryDate": "2026-10-01",
+   "netTotal": 490.77,
+   "vat7": 34.35,
+   "grossTotal": 525.12,
+   "driveFileId": "1aR19cLs0OEmMPK3mLK2-imfiSRIkN9Wa",
+   "summary": "Frischmilch 3,5% 10l Eimer, Naturjoghurt mild, H-Griechischer Joghurt 10%, H-Kuechensahne 30%, Rapsoel 10 Liter, Butter mild gesaeuert, Gouda gerieben, Tomaten Ketchup 10kg, TK Suppengemuese Julienne, Eissalat 10er, TK Kuerbis Wuerfel, Zucker fein, Jodsalz (Pfand/Leergut netto 0, ausgeschlossen)"
   }
  ],
- "totalNetSpend": 11245.12,
- "latestInvoiceDate": "2026-07-23"
+ "totalNetSpend": 14669.76,
+ "latestInvoiceDate": "2026-10-02"
 }
