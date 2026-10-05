@@ -1,6 +1,6 @@
 {
  "platform": "Uber Eats",
- "lastUpdated": "2026-09-30",
+ "lastUpdated": "2026-10-05",
  "note": "Weekly 'Aktivitätsübersicht' (activity overview) summaries. Official platform-fee tax invoices (net Uber Eats Gebühr + marketing) linked separately where captured.",
  "weeks": [
   {
@@ -1196,16 +1196,20 @@
    "uberEatsFee_net": 567.37,
    "uberEatsFee_vat": 107.78,
    "marketing": {
+    "adSpend": -155.33,
+    "adCredit": 38.78,
     "adsGross": -116.55,
     "offerFeeGross": -37.62,
-    "sourceInvoice": "Aktivitaetsuebersicht_07.09.2026.pdf",
-    "correctedFromEstimate": true
+    "sourceStatement": "Uber monthly statement Sep 2026 (#915C5266), payout pages",
+    "officialStatementVerified": true
    },
    "misc": {
     "deliveryFeesCollected": 73.0,
     "tips": 20.53,
     "chargebacks": -21.2,
-    "other": -116.45
+    "other": -20.03,
+    "adjustments": -20.03,
+    "cashCollected": 20.13
    },
    "payoutTotal": 1500.53,
    "payoutDate": "2026-09-07",
@@ -1225,15 +1229,20 @@
    "uberEatsFee_net": 485.31,
    "uberEatsFee_vat": 92.21,
    "marketing": {
-    "adsGross": 0,
-    "offerFeeGross": -821.67,
-    "note": "Bulk payout CSV does not break out ad spend separately from item discounts - offerFeeGross combines discounts (-784.32) and offer redemption fee (-37.35). No official fee invoice found for this period."
+    "adSpend": -176.76,
+    "adCredit": 44.49,
+    "adsGross": -132.27,
+    "offerFeeGross": -44.55,
+    "sourceStatement": "Uber monthly statement Sep 2026 (#915C5266), payout pages",
+    "officialStatementVerified": true
    },
    "misc": {
     "deliveryFeesCollected": 142.0,
     "tips": 23.09,
     "chargebacks": 0,
-    "other": -132.2
+    "other": 0.07,
+    "adjustments": 0.09,
+    "cashCollected": 0.0
    },
    "payoutTotal": 1807.15,
    "payoutDate": "2026-09-14",
@@ -1262,14 +1271,20 @@
    "uberEatsFee_net": 551.3,
    "uberEatsFee_vat": 104.73,
    "marketing": {
+    "adSpend": -157.04,
+    "adCredit": 0.0,
     "adsGross": -157.04,
     "offerFeeGross": -37.62,
-    "sourceInvoice": "Aktivitaetsuebersicht_21.09.2026.pdf"
+    "sourceStatement": "Uber monthly statement Sep 2026 (#915C5266), payout pages",
+    "officialStatementVerified": true
    },
    "misc": {
     "deliveryFeesCollected": 130.0,
     "tips": 16.16,
-    "other": 0.1
+    "other": 0.1,
+    "chargebacks": 0,
+    "adjustments": 0.1,
+    "cashCollected": 0.0
    },
    "payoutTotal": 1881.25,
    "payoutDate": "2026-09-21",
@@ -1290,15 +1305,20 @@
    "uberEatsFee_net": 564.7,
    "uberEatsFee_vat": 107.33,
    "marketing": {
-    "adsGross": 0,
-    "offerFeeGross": -293.15,
-    "note": "Bulk payout CSV does not break out ad spend separately from item discounts - offerFeeGross combines discounts (-264.10) and offer redemption fee (-29.05). No official fee invoice found for this period."
+    "adSpend": 0.0,
+    "adCredit": 0.0,
+    "adsGross": 0.0,
+    "offerFeeGross": -34.65,
+    "sourceStatement": "Uber monthly statement Sep 2026 (#915C5266), payout pages",
+    "officialStatementVerified": true
    },
    "misc": {
     "deliveryFeesCollected": 84.0,
     "tips": 9.56,
     "chargebacks": -9.9,
-    "other": -147.58
+    "other": -177.46,
+    "adjustments": -177.46,
+    "cashCollected": 29.88
    },
    "payoutTotal": 1519.51,
    "payoutDate": "2026-09-28",
@@ -1308,5 +1328,52 @@
   }
  ],
  "coverageNote": "Recovered 10 weeks (16.03-24.05.2026) from Drive backfill batch. Earliest Aktivitaetsuebersicht found starts 16.03.2026 (report dated 23.03.2026) - nothing found before that in Drive.",
- "schemaNote": "Two schemas coexist: 'official_monthly_report' (Jan-Jul 2026, from Uber's own monthly PDF reports - authoritative, includes bankPayout/cashCollected split) and 'aktivitaetsuebersicht_estimate' (Aug 2026 weeks, from weekly Aktivitaetsuebersicht summaries only, marketplaceFee/commission validated against official invoices where available but ad/offer figures for uncorrected weeks remain estimates)."
+ "schemaNote": "Two schemas coexist: 'official_monthly_report' (Jan-Jul 2026, from Uber's own monthly PDF reports - authoritative, includes bankPayout/cashCollected split) and 'aktivitaetsuebersicht_estimate' (Aug 2026 weeks, from weekly Aktivitaetsuebersicht summaries only, marketplaceFee/commission validated against official invoices where available but ad/offer figures for uncorrected weeks remain estimates). | 2026-10-05: September 2026 weeks verified line-by-line against Uber's official monthly statement (#915C5266); marketing.adsGross is NET of ad credits, marketing.offerFeeGross is 'Sonstige Angebotsgebühren' only (item discounts are in 'discounts'); consolidated calendar-month figures are in monthlyStatements.",
+ "monthlyStatements": {
+  "2026-09": {
+   "reportNumber": "915C5266",
+   "period": "2026-09-01 to 2026-09-30",
+   "source": "Uber Eats Monthly Statement PDF, 'Konsolidierte monatliche Zusammenfassung' (calendar-month basis)",
+   "orders": 266,
+   "sales": 11958.1,
+   "tips": 69.34,
+   "containerFees": 0.0,
+   "otherRevenue": 432.0,
+   "totalRevenue": 12459.44,
+   "marketplaceFees": -2796.2,
+   "otherCosts": 0.0,
+   "totalUberFees": -2796.2,
+   "itemOffers": -1931.84,
+   "marketingAdjustment": 115.81,
+   "otherOfferFees": -159.39,
+   "adSpend": -708.67,
+   "adCredit": 83.27,
+   "totalMarketing": -2600.82,
+   "chargebacks": {
+    "orders": 5,
+    "amount": -31.1
+   },
+   "adjustments": -49.55,
+   "totalChanges": -80.65,
+   "bankPayout": 6981.77,
+   "cashCollected": 50.01,
+   "vouchers": 0.0,
+   "netTotal": 7031.78,
+   "takeRates": {
+    "marketplaceFeePctOfSales": 23.38,
+    "marketingPctOfSales": 21.75,
+    "netTotalPctOfSales": 58.8
+   },
+   "reconciliation": {
+    "sumOfFourSeptemberPayouts": 6708.44,
+    "statementBankPayout": 6981.77,
+    "gapExplained": "Statement is calendar-month (01-30 Sep); payouts run Mon-Sun (31.08-27.09). 28-30 Sep earnings are paid out with the 05.10 payout.",
+    "adSpendInPayouts": -489.13,
+    "adCreditInPayouts": 83.27,
+    "adSpendNotYetDeducted": -219.54,
+    "adSpendNote": "Ad credits match the statement exactly but ad spend does not - about this much of September's ad spend had not been deducted from any September payout (the 21-27 Sep payout shows zero ad spend). Inference: it lands in a later payout."
+   },
+   "openItem": "21-27 Sep payout carries a -177.46 'Anpassung' (financing/withholding/one-off fee per Uber's glossary) that the statement does not explain; it is far larger than the cash-collected offset seen in other weeks."
+  }
+ }
 }
