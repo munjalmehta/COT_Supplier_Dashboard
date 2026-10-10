@@ -1,7 +1,7 @@
 {
  "supplier": "Rajesh Global Food",
- "lastUpdated": "2026-10-05",
- "invoiceCount": 25,
+ "lastUpdated": "2026-10-10",
+ "invoiceCount": 27,
  "invoices": [
   {
    "invoiceNo": "S05284",
@@ -2029,6 +2029,94 @@
      "qty": 1,
      "unitPrice": 26.0,
      "amount": 26.0
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/04129",
+   "date": "2026-10-02",
+   "dueDate": "2026-10-16",
+   "deliveryDate": "2026-10-02",
+   "netTotal": 167.14,
+   "vat7": 7.78,
+   "vat19": 10.64,
+   "grossTotal": 185.56,
+   "driveFileId": "1djER09VSUuBsIZldpmcUSz6Bwm6bXHd3",
+   "lineItems": [
+    {
+     "sku": "C9",
+     "description": "DEEP Kesar Mango Pulp 850g x 6",
+     "qty": 6,
+     "unitPrice": 13.14,
+     "amount": 78.84
+    },
+    {
+     "sku": "RG-669",
+     "description": "Tata Premium Tea Loose 1kg (12x1kg)",
+     "qty": 2,
+     "unitPrice": 11.6545,
+     "amount": 23.31
+    },
+    {
+     "sku": "GP-053",
+     "description": "GP 603 Siegelschale 200stk/Ktn",
+     "qty": 1,
+     "unitPrice": 56.0,
+     "amount": 56.0
+    },
+    {
+     "sku": "RE-001",
+     "description": "Jodsalz 10kg",
+     "qty": 1,
+     "unitPrice": 8.99,
+     "amount": 8.99
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/04193",
+   "date": "2026-10-07",
+   "dueDate": "2026-10-21",
+   "deliveryDate": "2026-10-07",
+   "netTotal": 226.65,
+   "vat7": 15.87,
+   "grossTotal": 242.52,
+   "driveFileId": "18D6mgMDEiNg6jkQ-wjcYJRBNo-YZQSba",
+   "lineItems": [
+    {
+     "sku": "RFR-009",
+     "description": "Frozen Chopped Garlic 1kg (10x1kg)",
+     "qty": 1,
+     "unitPrice": 27.99,
+     "amount": 27.99
+    },
+    {
+     "sku": "RFR-016",
+     "description": "IGLO Rahmspinat Portionierbar 8x750g",
+     "qty": 4,
+     "unitPrice": 19.92,
+     "amount": 79.68
+    },
+    {
+     "sku": "RG-638",
+     "description": "Lucullus Crispy Fried Onion 2.5kg (4x2.5kg)",
+     "qty": 1,
+     "unitPrice": 57.99,
+     "amount": 57.99
+    },
+    {
+     "sku": "RFR-003",
+     "description": "RG Ladi Paav 62g x 60 (10pc/pack)",
+     "qty": 1,
+     "unitPrice": 27.99,
+     "amount": 27.99
+    },
+    {
+     "sku": "03013",
+     "description": "Heera Ghee 12x1kg",
+     "qty": 3,
+     "unitPrice": 11.0,
+     "amount": 33.0
     }
    ]
   }
