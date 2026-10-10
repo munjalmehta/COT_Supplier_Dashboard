@@ -1,6 +1,6 @@
 {
  "platform": "Wolt",
- "lastUpdated": "2026-10-02",
+ "lastUpdated": "2026-10-10",
  "note": "Weekly Hexa invoicing cycle. Each period = merchant invoice (platform fees), payout report (revenue detail + payout), sales report (order-level detail). Figures below are period-level summaries, not order-line detail.",
  "periods": [
   {
@@ -559,6 +559,37 @@
    "payoutSource": "Bank-confirmed (Sparkasse statement, 01.10.2026 credit, Wolt License Services Oy). Formal Payout Report PDF not yet found in Drive - revenue_goods/delivery_service split not available, only sales-report total and invoice fees.",
    "driveFileId": "1YqUP0dnz_nQI85ciJcGmo_C4TOFBsVYJ",
    "note": "Found via bank reconciliation (02.10.2026 statement) - this period was missing entirely from prior scans."
+  },
+  {
+   "periodEnd": "2026-10-05",
+   "period": "2026-10-01 to 2026-10-05",
+   "invoiceNo": "DEU/26/HRB217122B/1/663765",
+   "invoiceDate": "2026-10-05",
+   "wolt_fee_net": 256.75,
+   "wolt_fee_vat": 48.77,
+   "wolt_fee_gross": 305.52,
+   "orderFees_net": 12.74,
+   "orderFees_gross": 15.16,
+   "deliveryServiceFees_net": 92.25,
+   "deliveryServiceFees_gross": 109.77,
+   "lateFees_net": 25.55,
+   "lateFees_gross": 30.4,
+   "lateFeesNote": "Verspaetung des Geschaefts/Restaurants, 2 Bestellungen",
+   "adSpend_net": 61.93,
+   "adSpend_gross": 73.7,
+   "adSpendNote": "Ad campaign charge, attributed purchases 30.09-04.10.2026",
+   "revenue_goods_net": 953.1,
+   "revenue_goods_gross": 1019.9,
+   "revenue_delivery_service_net": 117.49,
+   "revenue_delivery_service_gross": 125.67,
+   "tips": 2.0,
+   "discounts_gross": -63.2,
+   "payoutCorrections": -5.0,
+   "payoutCorrectionsNote": "Abzuege (Auszahlungskorrektur)",
+   "selfDeliveryConfirmed": true,
+   "invoiceTotalGross": 534.55,
+   "payoutAmount": 608.02,
+   "driveFileId": "14DKv5l_gYygZ0esAL8V27nZjGB6CW7MZ"
   }
  ],
  "coverageNote": "Weeks 17, 19-27 (21.03-15.05.2026) recovered from Sales Reports only - Payout/fee-level Merchant Invoice documents for these dates were not found in Drive, so platformFees/commission cannot be computed for this window; revenue_goods figures are real. Week 18 (26-31.03) not found - genuine gap. Weeks 28-35 (16.05-25.06) not yet recovered - still open. From week 36 (26.06) onward, full fee/payout detail is available.",
