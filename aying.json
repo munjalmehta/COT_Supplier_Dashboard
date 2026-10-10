@@ -1,10 +1,10 @@
 {
  "supplier": "Brauerei Aying Franz Inselkammer KG",
- "lastUpdated": "2026-10-05",
- "invoiceCount": 3,
+ "lastUpdated": "2026-10-10",
+ "invoiceCount": 4,
  "note": "Getraenke (Bier/Alkoholfrei). netTotal = Warenwert ohne Pfand; Pfand separat, Brutto inkl. Pfand und 19% USt. Erfasst erst ab 16.09.2026 (Rechnungseingang), aeltere Aying-Rechnungen nicht im Bestand.",
- "totalNetSpend": 430.6,
- "latestInvoiceDate": "2026-09-30",
+ "totalNetSpend": 537.38,
+ "latestInvoiceDate": "2026-10-07",
  "earliestInvoiceDate": "2026-09-16",
  "invoicesMissingNetTotal": null,
  "invoices": [
@@ -37,6 +37,16 @@
    "grossTotal": 138.29,
    "driveFileId": "1HcrkObL4xm3WT_rdN4b8iKnJ-EhZS2ru",
    "summary": "Ayinger Lager Hell 30l Fass (3), Ayinger Urweisse, Frucade Cola Mix; Leergut-Rueckgabe Keg/Kaesten"
+  },
+  {
+   "invoiceNo": "1500135479",
+   "date": "2026-10-07",
+   "netTotal": 106.78,
+   "pfand": 73.0,
+   "vat19": 34.16,
+   "grossTotal": 213.94,
+   "driveFileId": "10bXpkKfM13JyglSs-FzPykxWvj60U4mQ",
+   "summary": "Ayinger Urweisse 20x0,5l, Frucade Tafelwasser Fass (2), Wolfra Apfelsaft trueb, Wolfra Rhabarber, afri cola zero; Pfand 73,00 ohne Leergut-Rueckgabe. SEPA-Lastschrift 10.10.2026"
   }
  ]
 }
