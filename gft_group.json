@@ -1,7 +1,7 @@
 {
  "supplier": "GFT Group",
- "lastUpdated": "2026-10-10",
- "invoiceCount": 43,
+ "lastUpdated": "2026-10-14",
+ "invoiceCount": 46,
  "invoices": [
   {
    "invoiceNo": "326100048",
@@ -2522,6 +2522,141 @@
      "qty": 1,
      "unitPrice": 24.0,
      "amount": 24.0
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326120307",
+   "date": "2026-10-13",
+   "netTotal": 5.29,
+   "vat19": 1.01,
+   "grossTotal": 6.3,
+   "driveFileId": "1FWd2LRNklY2PoOVwxwKx3wTj2kT0Ha92",
+   "lineItems": [
+    {
+     "sku": "26002",
+     "description": "SCHANI FOOD COLOUR ORANGE 500g",
+     "qty": 1,
+     "unitPrice": 2.39,
+     "amount": 2.39
+    },
+    {
+     "sku": "26003",
+     "description": "SCHANI FOOD COLOUR RED 500g",
+     "qty": 1,
+     "unitPrice": 2.9,
+     "amount": 2.9
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326120308",
+   "date": "2026-10-13",
+   "netTotal": 731.89,
+   "vat7": 51.23,
+   "grossTotal": 783.12,
+   "driveFileId": "1rouIVwQSCF7k9gJ16PEtvR8zAP6iYdnJ",
+   "lineItems": [
+    {
+     "sku": "31308",
+     "description": "SCHANI JEERA POWDER CTN 6x1kg",
+     "qty": 1,
+     "unitPrice": 35.26,
+     "amount": 35.26
+    },
+    {
+     "sku": "31281",
+     "description": "SCHANI CORIANDER POWDER (DHANIYA) CTN 6x1kg",
+     "qty": 1,
+     "unitPrice": 20.33,
+     "amount": 20.33
+    },
+    {
+     "sku": "12987",
+     "description": "MDH KITCHEN KING CTN 60x100g",
+     "qty": 1,
+     "unitPrice": 72.01,
+     "amount": 72.01
+    },
+    {
+     "sku": "11708",
+     "description": "SCHANI URID WHOLE CTN 6x2kg",
+     "qty": 1,
+     "unitPrice": 21.99,
+     "amount": 21.99
+    },
+    {
+     "sku": "16157",
+     "description": "SCHANI CASHEW KERNELS LP 50 lbs",
+     "qty": 1,
+     "unitPrice": 115.0,
+     "amount": 115.0
+    },
+    {
+     "sku": "10624",
+     "description": "HEERA EXTRA LONG BASMATI RICE 20kg",
+     "qty": 5,
+     "unitPrice": 37.0,
+     "amount": 185.0
+    },
+    {
+     "sku": "11458",
+     "description": "SCHANI CHANA DAL 2kg",
+     "qty": 3,
+     "unitPrice": 2.5,
+     "amount": 7.5
+    },
+    {
+     "sku": "21212",
+     "description": "SCHANI MAIDA (T55) 25kg",
+     "qty": 1,
+     "unitPrice": 12.5,
+     "amount": 12.5
+    },
+    {
+     "sku": "41111",
+     "description": "FROZ. CHICKEN SAHA SALTED THAILAND 6x2kg",
+     "qty": 4,
+     "unitPrice": 50.0,
+     "amount": 200.0
+    },
+    {
+     "sku": "19391",
+     "description": "WEIKFIELD CORNFLOUR 6x500g",
+     "qty": 2,
+     "unitPrice": 7.15,
+     "amount": 14.3
+    },
+    {
+     "sku": "21181",
+     "description": "TRS GRAM FLOUR CTN 6x2kg",
+     "qty": 1,
+     "unitPrice": 24.0,
+     "amount": 24.0
+    },
+    {
+     "sku": "41116",
+     "description": "SCAMPIS 8/12 EASY PEEL 1kg",
+     "qty": 2,
+     "unitPrice": 12.0,
+     "amount": 24.0
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326120309",
+   "date": "2026-10-13",
+   "netTotal": 258.06,
+   "vat7": 18.06,
+   "grossTotal": 276.12,
+   "driveFileId": "1YrUmTeWGy9RhHbpqq7CsnyKUv1z5SIP1",
+   "lineItems": [
+    {
+     "sku": "41103",
+     "description": "FROZ. LAMB w/o BONES 1kg",
+     "qty": 22.44,
+     "unitPrice": 11.5,
+     "amount": 258.06
     }
    ]
   }
