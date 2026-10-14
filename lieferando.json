@@ -1,6 +1,6 @@
 {
  "platform": "Lieferando (Takeaway.com)",
- "lastUpdated": "2026-09-30",
+ "lastUpdated": "2026-10-14",
  "weeks": [
   {
    "periodStart": "2026-03-22",
@@ -457,6 +457,45 @@
    "payoutAmount": 2102.25,
    "driveFileId": "1ZG_BeocsaxFPN_pTrypX88DZv6pbeF8m",
    "note": "14% service fee (self-delivery) confirmed again. Includes 2 chargebacks totaling -42.50"
+  },
+  {
+   "periodStart": "2026-09-27",
+   "periodEnd": "2026-10-03",
+   "invoiceDate": "2026-10-04",
+   "invoiceNo": "360564511",
+   "orders": 64,
+   "revenue_gross": 2822.74,
+   "serviceFee14pct": 395.18,
+   "topRankFee": 217.5,
+   "onlinePaymentAdminFee": 40.96,
+   "subtotal_net": 653.64,
+   "vat19": 124.19,
+   "invoiceTotal_gross": 777.83,
+   "tips": 45.0,
+   "payoutAmount": null,
+   "outstandingBalanceAtInvoice": 6445.97,
+   "driveFileId": "1AqJDgHuHRg7SQBY-lwS9dPFgC16DhpO8",
+   "note": "Rechnung mit Onlinezahlungen verrechnet, keine separate Auszahlung. 1 Rueckbuchung -13,80 (Order 4PKRQD). Ausstehendes Onlineguthaben 6.445,97 am 04.10."
+  },
+  {
+   "periodStart": "2026-10-04",
+   "periodEnd": "2026-10-10",
+   "invoiceDate": "2026-10-11",
+   "invoiceNo": "361466071",
+   "orders": 43,
+   "revenue_gross": 1903.7,
+   "serviceFee14pct": 266.52,
+   "topRankFee": 142.5,
+   "onlinePaymentAdminFee": 27.52,
+   "subtotal_net": 436.54,
+   "orderAdjustments": -57.29,
+   "vat19": 82.94,
+   "invoiceTotal_gross": 462.19,
+   "tips": 24.0,
+   "payoutAmount": 7133.65,
+   "outstandingBalanceAtInvoice": 7595.84,
+   "driveFileId": "1RVaRmeE1jSQ7dfsPmYX6g_FMi6IBtAmI",
+   "note": "Sammelauszahlung 7.133,65 aufs Bankkonto (Guthaben 7.595,84 minus Rechnung 462,19). Orderkorrekturen -43,49 (JPCKGD) und -13,80 (4PKRQD) ohne USt, VAT-Basis 436,54. Deckt die bisher offenen Auszahlungen ab, Bankabgleich pruefen."
   }
  ],
  "coverageNote": "Recovered 13 weeks (22.03-20.06.2026) from Drive backfill batch uploaded 29.05.2026. No files found before that batch upload date - earliest real invoice is week of 22.03.2026 (TAKEAWAY_EXPORT invoice #336217672). Weeks before that (Jan-mid March) not found in Drive."
