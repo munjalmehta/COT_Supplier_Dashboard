@@ -1,7 +1,7 @@
 {
  "supplier": "Metro",
- "lastUpdated": "2026-10-05",
- "invoiceCount": 39,
+ "lastUpdated": "2026-10-14",
+ "invoiceCount": 41,
  "note": "Metro invoices are POS-style receipts (KOLLI/MENGE/GESAMT format). The 09.06.2026 invoice's total was confirmed via the payment terminal slip on page 3 of the source PDF.",
  "invoices": [
   {
@@ -1791,10 +1791,31 @@
    "grossTotal": 159.73,
    "driveFileId": "1whfSMQxV_UmaU5NETucqxHRMI2UDiY4t",
    "summary": "MPRO GN-Behaelter 1/2 (2 Sorten), Vegan Schokosauce, MC Wraps, Weihenstephan Butter, Fanta Zero, Sprite, MC Brownie, Backhits Double-Choc, MC Avocadohaelften"
+  },
+  {
+   "invoiceNo": "13.10.2026/041/0/0/0501/067604",
+   "date": "2026-10-13",
+   "store": "Muenchen-Pasing",
+   "netTotal": 170.85,
+   "vat7": 1.36,
+   "vat19": 28.78,
+   "grossTotal": 200.99,
+   "driveFileId": "1T5yrYjKko5_wjnvBwP1QleM3IBcoaxul",
+   "summary": "Topfreiniger, Alufolie, Holzloeffel (11), Teelichte, Menuegabeln, Souffle-Foermchen, Chiliflocken, Rosmarin, Fettloeser 10l, Zewa Wisch+Weg, Aviko Super Crunch (Mastercard-Zahlung vor Ort)"
+  },
+  {
+   "invoiceNo": "13.10.2026/041/0/0/0501/067605",
+   "date": "2026-10-13",
+   "store": "Muenchen-Pasing",
+   "netTotal": 97.73,
+   "vat19": 18.57,
+   "grossTotal": 116.3,
+   "driveFileId": "1GrPUbZ_6dzRz7P1qUv60X3yG8VR-_BsC",
+   "summary": "Snacktrays, Kuchenteller, Pappbecher heiss, Dressingbecher, Multipfanne, Paella-Pfanne (Mastercard-Zahlung vor Ort)"
   }
  ],
- "totalNetSpend": 5355.06,
- "latestInvoiceDate": "2026-10-02",
+ "totalNetSpend": 5623.64,
+ "latestInvoiceDate": "2026-10-13",
  "earliestInvoiceDate": "2026-01-12",
  "invoicesMissingNetTotal": null
 }
