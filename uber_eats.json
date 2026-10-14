@@ -1,6 +1,6 @@
 {
  "platform": "Uber Eats",
- "lastUpdated": "2026-10-05",
+ "lastUpdated": "2026-10-14",
  "note": "Weekly 'Aktivitätsübersicht' (activity overview) summaries. Official platform-fee tax invoices (net Uber Eats Gebühr + marketing) linked separately where captured.",
  "weeks": [
   {
@@ -1325,6 +1325,90 @@
    "payoutRef": "3IZUUWS6S5N5",
    "driveFileId": "1E22eAgup3loQO-ERqpikp7Usn6nY0fVO",
    "schema": "official_monthly_report"
+  },
+  {
+   "periodStart": "2026-09-28",
+   "periodEnd": "2026-10-04",
+   "reportDate": "2026-10-05",
+   "orders": 79,
+   "grossOrderValue": 3295.8,
+   "discounts": -360.66,
+   "marketingAdjustment": 23.81,
+   "netAfterDiscounts": 2958.95,
+   "commissions": {
+    "uberDelivery33pct_orders": 41,
+    "uberDelivery33pct_amt": 513.43,
+    "uberDelivery30pct_orders": 5,
+    "uberDelivery30pct_amt": 50.55,
+    "ownDelivery13pct_orders": 33,
+    "ownDelivery13pct_amt": 175.12
+   },
+   "uberEatsFee_net": 739.1,
+   "uberEatsFee_vat": 140.43,
+   "marketing": {
+    "adSpend": -170.44,
+    "adCredit": 0.0,
+    "adsGross": -170.44,
+    "offerFeeGross": -46.53,
+    "sourceStatement": "Uber Rechnung UBER_DEU-GECFHAHI-01-2026-0000042 (06.10.2026), Bestell- und Zahlungsuebersicht 05.10.",
+    "officialStatementVerified": true,
+    "offerFeeNote": "Rechnung weist Offer Fee brutto 46,42 aus (39,01 + 7,41), Uebersicht 46,53, Differenz 0,11"
+   },
+   "misc": {
+    "deliveryFeesCollected": 112.0,
+    "tips": 15.15,
+    "chargebacks": 0,
+    "other": 0.12,
+    "adjustments": 0.12,
+    "cashCollected": -45.61
+   },
+   "invoiceNo": "UBER_DEU-GECFHAHI-01-2026-0000042",
+   "invoiceDate": "2026-10-06",
+   "invoiceNet": 921.34,
+   "invoiceVat": 175.05,
+   "invoiceTotal": 1096.39,
+   "payoutTotal": 1944.13,
+   "payoutDate": "2026-10-05",
+   "payoutRef": "R994JQMFRXWR",
+   "driveFileId": "18ejpi9szhSGTS_dV62nE1PZcrj4sZW0h",
+   "schema": "aktivitaetsuebersicht_with_invoice",
+   "note": "Woche ueber Monatsgrenze 28.09.-04.10.; 28.-30.09. sind auch im Septemberstatement #915C5266 enthalten, Doppelzaehlung bei Monatssummen beachten."
+  },
+  {
+   "periodStart": "2026-10-05",
+   "periodEnd": "2026-10-11",
+   "reportDate": "2026-10-12",
+   "orders": 72,
+   "grossOrderValue": 3330.4,
+   "discounts": -412.1,
+   "marketingAdjustment": 0.0,
+   "netAfterDiscounts": 2918.3,
+   "commissions": {},
+   "uberEatsFee_net": 678.76,
+   "uberEatsFee_vat": 129.01,
+   "marketing": {
+    "adSpend": -32.92,
+    "adCredit": 0.0,
+    "adsGross": -32.92,
+    "offerFeeGross": -42.57,
+    "sourceStatement": "Uber Manager Auszahlungs-CSV (europe_middle_east_africa.csv), Auszahlung 12.10.2026",
+    "officialStatementVerified": false,
+    "adSpendNote": "Werbekosten nicht in der CSV, aus Auszahlungsdifferenz abgeleitet (Schaetzwert), bis Aktivitaetsuebersicht/Rechnung vorliegt"
+   },
+   "misc": {
+    "deliveryFeesCollected": 101.5,
+    "tips": 7.42,
+    "chargebacks": 0,
+    "other": -159.14,
+    "adjustments": 0.0,
+    "cashCollected": -159.14
+   },
+   "payoutTotal": 1984.82,
+   "payoutDate": "2026-10-12",
+   "payoutRef": "OXX7TZF4QEDK",
+   "driveFileId": "1aVZVSowomHHew3fB9qjgxh-RvFodUSvs",
+   "schema": "payout_csv_provisional",
+   "note": "Vorlaeufig aus Auszahlungs-CSV. Aktivitaetsuebersicht (Report 12.10.) und Rechnung fuer 05.-11.10. fehlen noch in Drive; Provisions-Split (33/30/13%) und Werbekosten dann nachtragen. 9 sonstige Zahlungen (-159,14) vermutlich Barzahlungen."
   }
  ],
  "coverageNote": "Recovered 10 weeks (16.03-24.05.2026) from Drive backfill batch. Earliest Aktivitaetsuebersicht found starts 16.03.2026 (report dated 23.03.2026) - nothing found before that in Drive.",
