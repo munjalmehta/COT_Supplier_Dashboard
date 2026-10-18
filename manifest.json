@@ -1,14 +1,14 @@
 {
  "repo": "github.com/munjalmehta/COT_Supplier_Dashboard",
- "generatedAt": "2026-10-14",
+ "generatedAt": "2026-10-18",
  "description": "Manifest of parsed invoice JSON cache per supplier. Future rescans should check latestInvoiceDate per supplier before re-parsing Drive folders, and only fetch invoices newer than that date.",
  "suppliers": {
   "Rajesh Global Food": {
    "file": "rajesh_global_food.json",
-   "invoiceCount": 28,
+   "invoiceCount": 29,
    "earliestInvoiceDate": "2025-12-31",
-   "latestInvoiceDate": "2026-10-12",
-   "totalNetSpend": 10515.79,
+   "latestInvoiceDate": "2026-10-14",
+   "totalNetSpend": 10625.88,
    "invoicesMissingNetTotal": null
   },
   "GFT Group": {
@@ -29,18 +29,18 @@
   },
   "Kupfer & Sohn": {
    "file": "kupfer_sohn.json",
-   "invoiceCount": 81,
+   "invoiceCount": 83,
    "earliestInvoiceDate": "2026-01-09",
-   "latestInvoiceDate": "2026-10-09",
-   "totalNetSpend": 15095.11,
+   "latestInvoiceDate": "2026-10-16",
+   "totalNetSpend": 15582.65,
    "invoicesMissingNetTotal": null
   },
   "RK Traders": {
    "file": "rk_traders.json",
-   "invoiceCount": 48,
+   "invoiceCount": 49,
    "earliestInvoiceDate": "2026-01-04",
-   "latestInvoiceDate": "2026-09-29",
-   "totalNetSpend": 9856.7,
+   "latestInvoiceDate": "2026-10-14",
+   "totalNetSpend": 10223.58,
    "invoicesMissingNetTotal": null
   },
   "Metro": {
@@ -71,16 +71,16 @@
   }
  },
  "grandTotal": {
-  "totalInvoices": 278,
-  "totalNetSpend": 77753.66,
+  "totalInvoices": 282,
+  "totalNetSpend": 78718.17,
   "note": "totalNetSpend excludes invoices where only grossTotal is confirmed (see invoicesMissingNetTotal per supplier)"
  },
  "invoicesMissingNetTotal": [
   "09.06.2026/046/0/0/0502/033579 (Metro)"
  ],
  "lastRescan": {
-  "date": "2026-10-14",
-  "result": "6 neue Lieferantenrechnungen: Rajesh INV/2026/04265 (12.10.), GFT 326120307, 326120308, 326120309 (13.10.), Metro 067604 und 067605 (13.10., Pasing). Plattformen: Lieferando 27.09.-03.10. und 04.10.-10.10. (Sammelauszahlung 7.133,65), Uber Eats 28.09.-04.10. Kupfer, RK Traders, Oekoring, Aying, Wolt ohne neue Dokumente. Nachtrag: Uber Eats 05.-11.10. vorlaeufig aus Auszahlungs-CSV (1.984,82 am 12.10.)."
+  "date": "2026-10-18",
+  "result": "4 neue Lieferantenrechnungen: Rajesh INV/2026/04303 (14.10.), Kupfer & Sohn 563968 (15.10.) und 564127 (16.10.), RK Traders RE5200 (14.10.). Wolt-Periode 11.-15.10. neu (Luecke 06.-10.10. ohne Dokumente). Uber Eats 05.-11.10. jetzt mit offizieller Uebersicht und Rechnung. GFT, Metro, Aying, Oekoring, Lieferando ohne neue Dokumente."
  },
  "deliveryPlatforms": {
   "description": "Weekly/period-level revenue and fee summaries per delivery platform. Separate from supplier invoice tracking above. Order-level detail available in source Drive files, not stored here.",
