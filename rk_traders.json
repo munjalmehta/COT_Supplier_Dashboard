@@ -1,7 +1,7 @@
 {
  "supplier": "RK Traders",
- "lastUpdated": "2026-10-10",
- "invoiceCount": 48,
+ "lastUpdated": "2026-10-18",
+ "invoiceCount": 49,
  "contact": "Rohit Kumar",
  "invoices": [
   {
@@ -3903,8 +3903,131 @@
      "amount": 9.0
     }
    ]
+  },
+  {
+   "invoiceNo": "RE5200",
+   "date": "2026-10-14",
+   "deliveryDate": "2026-10-14",
+   "netTotal": 366.88,
+   "vat7": 25.68,
+   "grossTotal": 392.56,
+   "driveFileId": "1UdQLumdSX053kuXhnmxsR0St7Pi-vQau",
+   "lineItems": [
+    {
+     "desc": "Paprika Mix 5kg",
+     "qty": 2,
+     "unit": "Karton",
+     "unitPrice": 15.49,
+     "amount": 30.98
+    },
+    {
+     "desc": "Tomaten 5kg",
+     "qty": 3,
+     "unit": "Karton",
+     "unitPrice": 13.75,
+     "amount": 41.25
+    },
+    {
+     "desc": "Gurken 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 11.49,
+     "amount": 11.49
+    },
+    {
+     "desc": "Coriander 10 bund",
+     "qty": 3,
+     "unit": "Kiste",
+     "unitPrice": 8.99,
+     "amount": 26.97
+    },
+    {
+     "desc": "Minze 10 bund",
+     "qty": 1,
+     "unit": "Kiste",
+     "unitPrice": 8.99,
+     "amount": 8.99
+    },
+    {
+     "desc": "Zitronen 3kg",
+     "qty": 3,
+     "unit": "Kilograms",
+     "unitPrice": 1.99,
+     "amount": 5.97
+    },
+    {
+     "desc": "Zwiebel 25kg",
+     "qty": 4,
+     "unit": "Sack",
+     "unitPrice": 16.49,
+     "amount": 65.96
+    },
+    {
+     "desc": "Rote Zwiebel 10kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 12.99,
+     "amount": 12.99
+    },
+    {
+     "desc": "Blumenkohl 6er",
+     "qty": 1,
+     "unit": "Kiste",
+     "unitPrice": 11.99,
+     "amount": 11.99
+    },
+    {
+     "desc": "Zucchini 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 8.49,
+     "amount": 8.49
+    },
+    {
+     "desc": "Weisskraut 15kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 11.99,
+     "amount": 11.99
+    },
+    {
+     "desc": "Lauchzwiebeln",
+     "qty": 14,
+     "unit": "Stueck",
+     "unitPrice": 0.99,
+     "amount": 13.86
+    },
+    {
+     "desc": "Aubergine 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 10.99,
+     "amount": 10.99
+    },
+    {
+     "desc": "Green Papaya 8kg",
+     "qty": 8,
+     "unit": "Kilograms",
+     "unitPrice": 6.5,
+     "amount": 52.0
+    },
+    {
+     "desc": "Eisberg 10er",
+     "qty": 3,
+     "unit": "Kiste",
+     "unitPrice": 12.99,
+     "amount": 38.97
+    },
+    {
+     "desc": "Banana leaves round 500g",
+     "qty": 1,
+     "unit": "packet",
+     "unitPrice": 13.99,
+     "amount": 13.99
+    }
+   ]
   }
  ],
- "totalNetSpend": 9856.7,
- "latestInvoiceDate": "2026-09-29"
+ "totalNetSpend": 10223.58,
+ "latestInvoiceDate": "2026-10-14"
 }
