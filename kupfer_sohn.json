@@ -1,7 +1,7 @@
 {
  "supplier": "Kupfer & Sohn",
- "lastUpdated": "2026-10-10",
- "invoiceCount": 81,
+ "lastUpdated": "2026-10-18",
+ "invoiceCount": 83,
  "note": "Document types include Rechnung (invoice) and Gutschrift (credit note/Stornorechng). Pfand/Leergut and packaging deposit line items (BGK, CF markers) excluded from lineItems below to focus on goods - see netTotal/grossTotal for full invoice value including deposits.",
  "invoices": [
   {
@@ -1026,8 +1026,28 @@
    "grossTotal": 189.39,
    "driveFileId": "1lNqt6mbKmGLJAwdjbYPQSRtK1KPkmURn",
    "summary": "Frischmilch 3,5% 10l Eimer (15 Eimer, 150 kg), TK Gemuese Brunoise 4x2,5kg (Pfand/Leergut netto 0, ausgeschlossen)"
+  },
+  {
+   "invoiceNo": "563968",
+   "date": "2026-10-15",
+   "deliveryDate": "2026-10-13",
+   "netTotal": 243.8,
+   "vat7": 17.07,
+   "grossTotal": 260.87,
+   "driveFileId": "11j89jGl3ZmFB9Yt8smJN4H2CjZR8D4oX",
+   "summary": "Naturjoghurt mild 3,5% 5kg (6 Eimer), TK Suppengemuese Julienne, H-Kuechensahne 30% (2x12l), Butter mild gesaeuert 4kg, Gouda gerieben 1kg (4), Rapsoel 10l (4), Zucker fein 10kg (Pfand/Leergut netto 0, ausgeschlossen)"
+  },
+  {
+   "invoiceNo": "564127",
+   "date": "2026-10-16",
+   "deliveryDate": "2026-10-15",
+   "netTotal": 243.74,
+   "vat7": 17.06,
+   "grossTotal": 260.8,
+   "driveFileId": "1oaBNMbwhbTbXIIu5fgqgpd_qgiaIA_re",
+   "summary": "Frischmilch 3,5% 10l Eimer (10, 100 kg), H-Griechischer Joghurt 10% 5kg (8 Eimer), Tafelessig hell 10l (2), H-Fettarme Milch 1,5% 12l (Pfand/Leergut netto 0, ausgeschlossen)"
   }
  ],
- "totalNetSpend": 15095.11,
- "latestInvoiceDate": "2026-10-09"
+ "totalNetSpend": 15582.65,
+ "latestInvoiceDate": "2026-10-16"
 }
