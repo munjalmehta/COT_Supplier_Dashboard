@@ -1,7 +1,7 @@
 {
  "supplier": "Rajesh Global Food",
- "lastUpdated": "2026-10-14",
- "invoiceCount": 28,
+ "lastUpdated": "2026-10-18",
+ "invoiceCount": 29,
  "invoices": [
   {
    "invoiceNo": "S05284",
@@ -2172,6 +2172,39 @@
      "qty": 6,
      "unitPrice": 1.29,
      "amount": 7.74
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/04303",
+   "date": "2026-10-14",
+   "dueDate": "2026-10-28",
+   "deliveryDate": "2026-10-14",
+   "netTotal": 110.09,
+   "vat7": 7.71,
+   "grossTotal": 117.8,
+   "driveFileId": "11NvvtLhNeaXwpLeH84kg2f0Qn2Rwm7Zx",
+   "lineItems": [
+    {
+     "sku": "KAL01",
+     "description": "Kalyan Dry Bhel 500g (500g x 20)",
+     "qty": 1,
+     "unitPrice": 75.0,
+     "amount": 75.0
+    },
+    {
+     "sku": "RFR-003",
+     "description": "RG Ladi Paav 62g x 60 (10pc/pack)",
+     "qty": 1,
+     "unitPrice": 27.99,
+     "amount": 27.99
+    },
+    {
+     "sku": "RG-092",
+     "description": "RK Black Salt 500g (40 x 500g)",
+     "qty": 2,
+     "unitPrice": 3.55,
+     "amount": 7.1
     }
    ]
   }
