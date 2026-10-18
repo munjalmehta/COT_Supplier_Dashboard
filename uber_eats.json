@@ -1,6 +1,6 @@
 {
  "platform": "Uber Eats",
- "lastUpdated": "2026-10-14",
+ "lastUpdated": "2026-10-18",
  "note": "Weekly 'Aktivitätsübersicht' (activity overview) summaries. Official platform-fee tax invoices (net Uber Eats Gebühr + marketing) linked separately where captured.",
  "weeks": [
   {
@@ -1383,32 +1383,46 @@
    "discounts": -412.1,
    "marketingAdjustment": 0.0,
    "netAfterDiscounts": 2918.3,
-   "commissions": {},
+   "commissions": {
+    "uberDelivery33pct_orders": 26,
+    "uberDelivery33pct_amt": 325.63,
+    "uberDelivery30pct_orders": 12,
+    "uberDelivery30pct_amt": 156.75,
+    "ownDelivery13pct_orders": 30,
+    "ownDelivery13pct_amt": 185.3,
+    "pickup13pct_orders": 4,
+    "pickup13pct_amt": 11.08
+   },
    "uberEatsFee_net": 678.76,
    "uberEatsFee_vat": 129.01,
    "marketing": {
-    "adSpend": -32.92,
+    "adSpend": -159.23,
     "adCredit": 0.0,
-    "adsGross": -32.92,
+    "adsGross": -159.23,
     "offerFeeGross": -42.57,
-    "sourceStatement": "Uber Manager Auszahlungs-CSV (europe_middle_east_africa.csv), Auszahlung 12.10.2026",
-    "officialStatementVerified": false,
-    "adSpendNote": "Werbekosten nicht in der CSV, aus Auszahlungsdifferenz abgeleitet (Schaetzwert), bis Aktivitaetsuebersicht/Rechnung vorliegt"
+    "sourceStatement": "Uber Bestell- und Zahlungsuebersicht 12.10.2026 mit Rechnung UBER_DEU-GECFHAHI-01-2026-0000043 (13.10.2026)",
+    "officialStatementVerified": true,
+    "offerFeeNote": "Rechnung weist Offer Fee brutto 42,47 aus (35,69 + 6,78), Uebersicht 42,57, Differenz 0,10"
    },
    "misc": {
     "deliveryFeesCollected": 101.5,
     "tips": 7.42,
     "chargebacks": 0,
-    "other": -159.14,
-    "adjustments": 0.0,
-    "cashCollected": -159.14
+    "other": 0.11,
+    "adjustments": -0.02,
+    "cashCollected": -32.92
    },
+   "invoiceNo": "UBER_DEU-GECFHAHI-01-2026-0000043",
+   "invoiceDate": "2026-10-13",
+   "invoiceNet": 848.26,
+   "invoiceVat": 161.16,
+   "invoiceTotal": 1009.42,
    "payoutTotal": 1984.82,
    "payoutDate": "2026-10-12",
    "payoutRef": "OXX7TZF4QEDK",
-   "driveFileId": "1aVZVSowomHHew3fB9qjgxh-RvFodUSvs",
-   "schema": "payout_csv_provisional",
-   "note": "Vorlaeufig aus Auszahlungs-CSV. Aktivitaetsuebersicht (Report 12.10.) und Rechnung fuer 05.-11.10. fehlen noch in Drive; Provisions-Split (33/30/13%) und Werbekosten dann nachtragen. 9 sonstige Zahlungen (-159,14) vermutlich Barzahlungen."
+   "driveFileId": "1uP8q0X7iljrAd82pKfJw5rUXDnzSv5Xf",
+   "schema": "aktivitaetsuebersicht_with_invoice",
+   "note": "Offizielle Uebersicht ersetzt die vorlaeufige CSV-Version. Werbekosten 159,23 brutto, Bargeld -32,92 (die vorlaeufige Zuordnung aus der CSV war vertauscht). Eine angefochtene Rueckerstattung (Order 85027, 89,70 am 08.10.)."
   }
  ],
  "coverageNote": "Recovered 10 weeks (16.03-24.05.2026) from Drive backfill batch. Earliest Aktivitaetsuebersicht found starts 16.03.2026 (report dated 23.03.2026) - nothing found before that in Drive.",
