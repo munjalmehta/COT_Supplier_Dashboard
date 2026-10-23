@@ -1,6 +1,6 @@
 {
  "platform": "Wolt",
- "lastUpdated": "2026-10-18",
+ "lastUpdated": "2026-10-23",
  "note": "Weekly Hexa invoicing cycle. Each period = merchant invoice (platform fees), payout report (revenue detail + payout), sales report (order-level detail). Figures below are period-level summaries, not order-line detail.",
  "periods": [
   {
@@ -627,6 +627,35 @@
    "driveFileId": "1k_9dE3ilyY9GU7AHsGxnsGkL6_BhVtmL",
    "invoiceFileId": "1Wfx3tPe4_eUs11w5Gp0Klzo4dLIOCvyS",
    "coverageNote": "Luecke: fuer 06.10.-10.10.2026 liegen keine Rechnung/Auszahlungsbericht in Drive vor."
+  },
+  {
+   "periodEnd": "2026-10-20",
+   "period": "2026-10-16 to 2026-10-20",
+   "invoiceNo": "DEU/26/HRB217122B/1/705289",
+   "invoiceDate": "2026-10-20",
+   "orders": 29,
+   "wolt_fee_net": 273.2,
+   "wolt_fee_vat": 51.91,
+   "wolt_fee_gross": 325.11,
+   "orderFees_net": 14.21,
+   "orderFees_gross": 16.91,
+   "deliveryServiceFees_net": 107.64,
+   "deliveryServiceFees_gross": 128.09,
+   "adSpend_net": 64.4,
+   "adSpend_gross": 76.64,
+   "adSpendNote": "Ad campaign, attributed purchases 16.10.-19.10.2026",
+   "revenue_goods_net": 1013.56,
+   "revenue_goods_gross": 1084.6,
+   "revenue_delivery_service_net": 132.96,
+   "revenue_delivery_service_gross": 142.19,
+   "tips": 11.16,
+   "discounts_gross": -46.8,
+   "payoutCorrections": 0.0,
+   "selfDeliveryConfirmed": true,
+   "invoiceTotalGross": 546.75,
+   "payoutAmount": 691.2,
+   "driveFileId": "1QM4cCUciDxwcptqFfV0DG6bQ2OTjrMnV",
+   "invoiceFileId": "1NUKRxVd6Zyej65X8J3zl_Uo-3bEnN32d"
   }
  ],
  "coverageNote": "Weeks 17, 19-27 (21.03-15.05.2026) recovered from Sales Reports only - Payout/fee-level Merchant Invoice documents for these dates were not found in Drive, so platformFees/commission cannot be computed for this window; revenue_goods figures are real. Week 18 (26-31.03) not found - genuine gap. Weeks 28-35 (16.05-25.06) not yet recovered - still open. From week 36 (26.06) onward, full fee/payout detail is available.",
