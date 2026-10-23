@@ -1,7 +1,7 @@
 {
  "supplier": "GFT Group",
- "lastUpdated": "2026-10-14",
- "invoiceCount": 46,
+ "lastUpdated": "2026-10-23",
+ "invoiceCount": 47,
  "invoices": [
   {
    "invoiceNo": "326100048",
@@ -2657,6 +2657,51 @@
      "qty": 22.44,
      "unitPrice": 11.5,
      "amount": 258.06
+    }
+   ]
+  },
+  {
+   "invoiceNo": "326121015",
+   "date": "2026-10-20",
+   "netTotal": 543.89,
+   "vat7": 38.07,
+   "grossTotal": 581.96,
+   "driveFileId": "1Pc3u_wLZVGv3eqdQVQDT7RFhWqFry4VJ",
+   "lineItems": [
+    {
+     "sku": "41111",
+     "description": "FROZ. CHICKEN SAHA SALTED THAILAND 6x2kg",
+     "qty": 8,
+     "unitPrice": 50.0,
+     "amount": 400.0
+    },
+    {
+     "sku": "41603",
+     "description": "FROZ. CHICKEN LEG ANATOMIC 10kg",
+     "qty": 1,
+     "unitPrice": 32.0,
+     "amount": 32.0
+    },
+    {
+     "sku": "19105",
+     "description": "SCHANI TOMATOES PEELED 6x2.5kg",
+     "qty": 5,
+     "unitPrice": 18.5,
+     "amount": 92.5
+    },
+    {
+     "sku": "21212",
+     "description": "SCHANI MAIDA (T55) 25kg",
+     "qty": 1,
+     "unitPrice": 12.5,
+     "amount": 12.5
+    },
+    {
+     "sku": "21202",
+     "description": "SCHANI ATTA CHAPATI 10kg",
+     "qty": 1,
+     "unitPrice": 6.89,
+     "amount": 6.89
     }
    ]
   }
