@@ -1,7 +1,7 @@
 {
  "supplier": "RK Traders",
- "lastUpdated": "2026-10-18",
- "invoiceCount": 49,
+ "lastUpdated": "2026-10-23",
+ "invoiceCount": 50,
  "contact": "Rohit Kumar",
  "invoices": [
   {
@@ -4026,8 +4026,89 @@
      "amount": 13.99
     }
    ]
+  },
+  {
+   "invoiceNo": "RE5274",
+   "date": "2026-10-21",
+   "deliveryDate": "2026-10-21",
+   "netTotal": 217.87,
+   "vat7": 15.25,
+   "grossTotal": 233.12,
+   "driveFileId": "1E8AUxPkKUgracS_89qebd3SVu3epSkQR",
+   "lineItems": [
+    {
+     "desc": "Zwiebel 25kg",
+     "qty": 3,
+     "unit": "Sack",
+     "unitPrice": 16.99,
+     "amount": 50.97
+    },
+    {
+     "desc": "Okra/Bindi 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 27.99,
+     "amount": 27.99
+    },
+    {
+     "desc": "Tomaten rund 6kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 12.49,
+     "amount": 12.49
+    },
+    {
+     "desc": "Rote Zwiebel 10kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 12.99,
+     "amount": 12.99
+    },
+    {
+     "desc": "Kartoffel 25kg",
+     "qty": 1,
+     "unit": "Sack",
+     "unitPrice": 18.49,
+     "amount": 18.49
+    },
+    {
+     "desc": "Coriander 10 bund",
+     "qty": 2,
+     "unit": "Kiste",
+     "unitPrice": 8.99,
+     "amount": 17.98
+    },
+    {
+     "desc": "Paprika Mix 5kg",
+     "qty": 2,
+     "unit": "Karton",
+     "unitPrice": 15.49,
+     "amount": 30.98
+    },
+    {
+     "desc": "Minze 10 bund",
+     "qty": 1,
+     "unit": "Kiste",
+     "unitPrice": 8.99,
+     "amount": 8.99
+    },
+    {
+     "desc": "Karela 5kg",
+     "qty": 5,
+     "unit": "Kilograms",
+     "unitPrice": 4.5,
+     "amount": 22.5
+    },
+    {
+     "desc": "Gurken 5kg",
+     "qty": 1,
+     "unit": "Karton",
+     "unitPrice": 14.49,
+     "amount": 14.49
+    }
+   ]
   }
  ],
- "totalNetSpend": 10223.58,
- "latestInvoiceDate": "2026-10-14"
+ "totalNetSpend": 10441.45,
+ "latestInvoiceDate": "2026-10-21"
 }
