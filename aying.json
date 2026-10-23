@@ -1,10 +1,10 @@
 {
  "supplier": "Brauerei Aying Franz Inselkammer KG",
- "lastUpdated": "2026-10-10",
- "invoiceCount": 4,
+ "lastUpdated": "2026-10-23",
+ "invoiceCount": 5,
  "note": "Getraenke (Bier/Alkoholfrei). netTotal = Warenwert ohne Pfand; Pfand separat, Brutto inkl. Pfand und 19% USt. Erfasst erst ab 16.09.2026 (Rechnungseingang), aeltere Aying-Rechnungen nicht im Bestand.",
- "totalNetSpend": 537.38,
- "latestInvoiceDate": "2026-10-07",
+ "totalNetSpend": 709.91,
+ "latestInvoiceDate": "2026-10-21",
  "earliestInvoiceDate": "2026-09-16",
  "invoicesMissingNetTotal": null,
  "invoices": [
@@ -47,6 +47,16 @@
    "grossTotal": 213.94,
    "driveFileId": "10bXpkKfM13JyglSs-FzPykxWvj60U4mQ",
    "summary": "Ayinger Urweisse 20x0,5l, Frucade Tafelwasser Fass (2), Wolfra Apfelsaft trueb, Wolfra Rhabarber, afri cola zero; Pfand 73,00 ohne Leergut-Rueckgabe. SEPA-Lastschrift 10.10.2026"
+  },
+  {
+   "invoiceNo": "1500136219",
+   "date": "2026-10-21",
+   "netTotal": 172.53,
+   "pfand": -66.3,
+   "vat19": 20.18,
+   "grossTotal": 126.41,
+   "driveFileId": "1EDsGPG4XbwESyGc9MvaVlq6BQubS8HuD",
+   "summary": "Ayinger Lager Hell 30l Fass, Ayinger Urweisse, Schneider Weisse alkoholfrei, Frucade Tafelwasser Fass, Adelholzener (Gastro, naturell 12x0,75 x3, naturell 20x0,25), Wolfra Maracuja; Leergut-Rueckgabe -66,30. SEPA-Lastschrift 24.10.2026"
   }
  ]
 }
