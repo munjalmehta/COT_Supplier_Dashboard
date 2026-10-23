@@ -1,6 +1,6 @@
 {
  "platform": "Lieferando (Takeaway.com)",
- "lastUpdated": "2026-10-14",
+ "lastUpdated": "2026-10-23",
  "weeks": [
   {
    "periodStart": "2026-03-22",
@@ -496,6 +496,27 @@
    "outstandingBalanceAtInvoice": 7595.84,
    "driveFileId": "1RVaRmeE1jSQ7dfsPmYX6g_FMi6IBtAmI",
    "note": "Sammelauszahlung 7.133,65 aufs Bankkonto (Guthaben 7.595,84 minus Rechnung 462,19). Orderkorrekturen -43,49 (JPCKGD) und -13,80 (4PKRQD) ohne USt, VAT-Basis 436,54. Deckt die bisher offenen Auszahlungen ab, Bankabgleich pruefen."
+  },
+  {
+   "periodStart": "2026-10-11",
+   "periodEnd": "2026-10-17",
+   "invoiceDate": "2026-10-18",
+   "invoiceNo": "362367761",
+   "orders": 44,
+   "revenue_gross": 2015.7,
+   "serviceFee14pct": 282.2,
+   "topRankFee": 138.75,
+   "onlinePaymentAdminFee": 28.16,
+   "partnerCancellationCommission": 6.01,
+   "orderAdjustments": -29.9,
+   "subtotal_net": 455.12,
+   "vat19": 86.47,
+   "invoiceTotal_gross": 511.69,
+   "tips": 15.0,
+   "payoutAmount": 1489.11,
+   "outstandingBalanceAtInvoice": 2000.8,
+   "driveFileId": "1bQR84Dc337aOwsbmLCrdAQzptgabh_dj",
+   "note": "Auszahlung 1.489,11 aufs Bankkonto nach Verrechnung der Rechnung (511,69). Restguthaben 2.000,80. Orderkorrektur -29,90 (HF4DT8) ohne USt, Partner-Stornierungs-Kommission 6,01 (05.-11.10.). VAT-Basis 455,12."
   }
  ],
  "coverageNote": "Recovered 13 weeks (22.03-20.06.2026) from Drive backfill batch uploaded 29.05.2026. No files found before that batch upload date - earliest real invoice is week of 22.03.2026 (TAKEAWAY_EXPORT invoice #336217672). Weeks before that (Jan-mid March) not found in Drive."
