@@ -1,7 +1,7 @@
 {
  "supplier": "Rajesh Global Food",
- "lastUpdated": "2026-10-18",
- "invoiceCount": 29,
+ "lastUpdated": "2026-10-23",
+ "invoiceCount": 30,
  "invoices": [
   {
    "invoiceNo": "S05284",
@@ -2205,6 +2205,75 @@
      "qty": 2,
      "unitPrice": 3.55,
      "amount": 7.1
+    }
+   ]
+  },
+  {
+   "invoiceNo": "INV/2026/04377",
+   "date": "2026-10-20",
+   "dueDate": "2026-11-03",
+   "deliveryDate": "2026-10-20",
+   "netTotal": 388.15,
+   "vat7": 12.75,
+   "vat19": 39.14,
+   "grossTotal": 440.04,
+   "driveFileId": "1p-mkOAPP73KdH5IO_RBvHBhNOduNh46r",
+   "lineItems": [
+    {
+     "sku": "RFR-016",
+     "description": "IGLO Rahmspinat Portionierbar 8x750g",
+     "qty": 3,
+     "unitPrice": 19.92,
+     "amount": 59.76
+    },
+    {
+     "sku": "RG-638",
+     "description": "Lucullus Crispy Fried Onion 2.5kg (4x2.5kg)",
+     "qty": 1,
+     "unitPrice": 57.99,
+     "amount": 57.99
+    },
+    {
+     "sku": "RG-067",
+     "description": "Ajinomoto Glutamate 453g (20x453g)",
+     "qty": 8,
+     "unitPrice": 2.79,
+     "amount": 22.32
+    },
+    {
+     "sku": "GP-053",
+     "description": "GP 603 Siegelschale 200stk/Ktn",
+     "qty": 1,
+     "unitPrice": 46.0,
+     "amount": 46.0
+    },
+    {
+     "sku": "GP-028",
+     "description": "GP 245cm x 250cm Siegelfolie, 1 Rolle",
+     "qty": 1,
+     "unitPrice": 57.99,
+     "amount": 57.99
+    },
+    {
+     "sku": "GP-055",
+     "description": "GP 45cm x 100m Alufolie, 4 Stk/Ktn",
+     "qty": 1,
+     "unitPrice": 49.0,
+     "amount": 49.0
+    },
+    {
+     "sku": "GP-117",
+     "description": "GP Muellbeutel 240L Typ60 100 Stk",
+     "qty": 1,
+     "unitPrice": 52.99,
+     "amount": 52.99
+    },
+    {
+     "sku": "22071",
+     "description": "Heera Green Cardamom No1 200g (10x200g)",
+     "qty": 5,
+     "unitPrice": 8.419,
+     "amount": 42.1
     }
    ]
   }
